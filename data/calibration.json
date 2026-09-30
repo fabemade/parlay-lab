@@ -1,0 +1,114 @@
+{
+ "nfl": {
+  "margin_k": 0.953,
+  "total_k": 0.643,
+  "margin_sd": 12.99,
+  "total_sd": 13.76,
+  "n": 268,
+  "updated": "2026-09-30"
+ },
+ "cfb": {
+  "margin_k": 1.025,
+  "total_k": 0.539,
+  "margin_sd": 17.07,
+  "total_sd": 15.54,
+  "n": 876,
+  "updated": "2026-09-30"
+ },
+ "nba": {
+  "margin_k": 1.176,
+  "total_k": 0.854,
+  "margin_sd": 15.18,
+  "total_sd": 18.88,
+  "n": 899,
+  "updated": "2026-09-30"
+ },
+ "wnba": {
+  "margin_k": 1.015,
+  "total_k": 0.898,
+  "margin_sd": 12.98,
+  "total_sd": 18.84,
+  "n": 263,
+  "updated": "2026-09-30"
+ },
+ "mlb": {
+  "margin_k": 0.7,
+  "total_k": 0.468,
+  "margin_sd": 4.55,
+  "total_sd": 4.47,
+  "n": 2285,
+  "updated": "2026-09-30"
+ },
+ "nhl": {
+  "margin_k": 0.747,
+  "total_k": 0.3,
+  "margin_sd": 2.55,
+  "total_sd": 2.29,
+  "n": 866,
+  "updated": "2026-09-30"
+ },
+ "soccer_eng.1": {
+  "margin_k": 0.963,
+  "total_k": 0.3,
+  "margin_sd": 1.51,
+  "total_sd": 1.61,
+  "n": 362,
+  "updated": "2026-09-30"
+ },
+ "soccer_esp.1": {
+  "margin_k": 1.086,
+  "total_k": 0.967,
+  "margin_sd": 1.5,
+  "total_sd": 1.59,
+  "n": 381,
+  "updated": "2026-09-30"
+ },
+ "soccer_ita.1": {
+  "margin_k": 1.359,
+  "total_k": 0.448,
+  "margin_sd": 1.48,
+  "total_sd": 1.52,
+  "n": 361,
+  "updated": "2026-09-30"
+ },
+ "soccer_ger.1": {
+  "margin_k": 1.104,
+  "total_k": 0.752,
+  "margin_sd": 1.83,
+  "total_sd": 1.68,
+  "n": 269,
+  "updated": "2026-09-30"
+ },
+ "soccer_fra.1": {
+  "margin_k": 0.952,
+  "total_k": 0.3,
+  "margin_sd": 1.68,
+  "total_sd": 1.79,
+  "n": 281,
+  "updated": "2026-09-30"
+ },
+ "soccer_usa.1": {
+  "margin_k": 0.842,
+  "total_k": 0.612,
+  "margin_sd": 1.75,
+  "total_sd": 1.8,
+  "n": 501,
+  "updated": "2026-09-30"
+ },
+ "soccer_uefa.champions": {
+  "margin_k": 1.108,
+  "total_k": 0.412,
+  "margin_sd": 1.98,
+  "total_sd": 1.93,
+  "n": 123,
+  "updated": "2026-09-30"
+ },
+ "soccer_mex.1": {
+  "margin_k": 0.895,
+  "total_k": 0.3,
+  "margin_sd": 1.53,
+  "total_sd": 1.71,
+  "n": 323,
+  "updated": "2026-09-30"
+ }
+}

@@ -1,0 +1,395 @@
+{
+ "legs": {
+  "401891816:spread:home": {
+   "id": "401891816:spread:home",
+   "sport": "nhl",
+   "game_id": "401891816",
+   "short": "MIN @ NSH",
+   "start": "2026-10-02T00:00Z",
+   "market": "spread",
+   "side": "home",
+   "selection": "NSH +1.5",
+   "line": 1.5,
+   "odds": -205.0,
+   "p": 0.6716,
+   "p_market": 0.654,
+   "grade": "B",
+   "close_odds": -205.0,
+   "result": null
+  },
+  "401891781:spread:away": {
+   "id": "401891781:spread:away",
+   "sport": "nhl",
+   "game_id": "401891781",
+   "short": "BUF @ CBJ",
+   "start": "2026-10-01T23:00Z",
+   "market": "spread",
+   "side": "away",
+   "selection": "BUF +1.5",
+   "line": 1.5,
+   "odds": -250.0,
+   "p": 0.7028,
+   "p_market": 0.6973,
+   "grade": "B",
+   "close_odds": -250.0,
+   "result": null
+  },
+  "401891821:spread:away": {
+   "id": "401891821:spread:away",
+   "sport": "nhl",
+   "game_id": "401891821",
+   "short": "PIT @ PHI",
+   "start": "2026-09-30T23:30Z",
+   "market": "spread",
+   "side": "away",
+   "selection": "PIT +1.5",
+   "line": 1.5,
+   "odds": -218.0,
+   "p": 0.6815,
+   "p_market": 0.6677,
+   "grade": "B",
+   "close_odds": -218.0,
+   "result": null
+  },
+  "401891817:spread:away": {
+   "id": "401891817:spread:away",
+   "sport": "nhl",
+   "game_id": "401891817",
+   "short": "PHI @ NJ",
+   "start": "2026-10-01T23:00Z",
+   "market": "spread",
+   "side": "away",
+   "selection": "PHI +1.5",
+   "line": 1.5,
+   "odds": -205.0,
+   "p": 0.6857,
+   "p_market": 0.654,
+   "grade": "A",
+   "close_odds": -205.0,
+   "result": null
+  },
+  "401907963:spread:away": {
+   "id": "401907963:spread:away",
+   "sport": "mlb",
+   "game_id": "401907963",
+   "short": "BOS @ NYY",
+   "start": "2026-10-01T00:00Z",
+   "market": "spread",
+   "side": "away",
+   "selection": "BOS +1.5",
+   "line": 1.5,
+   "odds": -185.0,
+   "p": 0.6476,
+   "p_market": 0.629,
+   "grade": "B",
+   "close_odds": -185.0,
+   "result": null
+  },
+  "401907975:total:over": {
+   "id": "401907975:total:over",
+   "sport": "mlb",
+   "game_id": "401907975",
+   "short": "CHC @ SD",
+   "start": "2026-10-01T02:00Z",
+   "market": "total",
+   "side": "over",
+   "selection": "Over 7",
+   "line": 7.0,
+   "odds": -125.0,
+   "p": 0.5888,
+   "p_market": 0.5334,
+   "grade": "B",
+   "close_odds": -125.0,
+   "result": null
+  },
+  "401907897:spread:away": {
+   "id": "401907897:spread:away",
+   "sport": "mlb",
+   "game_id": "401907897",
+   "short": "CHW @ HOU",
+   "start": "2026-09-30T21:00Z",
+   "market": "spread",
+   "side": "away",
+   "selection": "CHW +1.5",
+   "line": 1.5,
+   "odds": -191.0,
+   "p": 0.6606,
+   "p_market": 0.6366,
+   "grade": "B",
+   "close_odds": -191.0,
+   "result": null
+  },
+  "401907975:spread:away": {
+   "id": "401907975:spread:away",
+   "sport": "mlb",
+   "game_id": "401907975",
+   "short": "CHC @ SD",
+   "start": "2026-10-01T02:00Z",
+   "market": "spread",
+   "side": "away",
+   "selection": "CHC +1.5",
+   "line": 1.5,
+   "odds": -178.0,
+   "p": 0.6445,
+   "p_market": 0.6196,
+   "grade": "B",
+   "close_odds": -177.0,
+   "result": null
+  },
+  "401892431:spread:away": {
+   "id": "401892431:spread:away",
+   "sport": "nhl",
+   "game_id": "401892431",
+   "short": "NYI @ TOR",
+   "start": "2026-09-30T23:30Z",
+   "market": "spread",
+   "side": "away",
+   "selection": "NYI +1.5",
+   "line": 1.5,
+   "odds": -238.0,
+   "p": 0.7186,
+   "p_market": 0.6865,
+   "grade": "A",
+   "close_odds": -238.0,
+   "result": null
+  },
+  "401907972:spread:home": {
+   "id": "401907972:spread:home",
+   "sport": "mlb",
+   "game_id": "401907972",
+   "short": "PHI @ ATL",
+   "start": "2026-09-30T18:00Z",
+   "market": "spread",
+   "side": "home",
+   "selection": "ATL +1.5",
+   "line": 1.5,
+   "odds": -185.0,
+   "p": 0.6536,
+   "p_market": 0.629,
+   "grade": "B",
+   "close_odds": -185.0,
+   "result": null
+  },
+  "761798:spread:away": {
+   "id": "761798:spread:away",
+   "sport": "soccer_usa.1",
+   "game_id": "761798",
+   "short": "SKC @ SEA",
+   "start": "2026-10-02T01:30Z",
+   "market": "spread",
+   "side": "away",
+   "selection": "SKC +1.5",
+   "line": 1.5,
+   "odds": -170.0,
+   "p": 0.6191,
+   "p_market": 0.5914,
+   "grade": "B",
+   "close_odds": -170.0,
+   "result": null
+  },
+  "401891823:spread:home": {
+   "id": "401891823:spread:home",
+   "sport": "nhl",
+   "game_id": "401891823",
+   "short": "FLA @ SJ",
+   "start": "2026-10-02T02:00Z",
+   "market": "spread",
+   "side": "home",
+   "selection": "SJ +1.5",
+   "line": 1.5,
+   "odds": -218.0,
+   "p": 0.668,
+   "p_market": 0.6677,
+   "grade": "B",
+   "close_odds": -218.0,
+   "result": null
+  },
+  "401907963:total:over": {
+   "id": "401907963:total:over",
+   "sport": "mlb",
+   "game_id": "401907963",
+   "short": "BOS @ NYY",
+   "start": "2026-10-01T00:00Z",
+   "market": "total",
+   "side": "over",
+   "selection": "Over 6.5",
+   "line": 6.5,
+   "odds": -122.0,
+   "p": 0.5773,
+   "p_market": 0.5266,
+   "grade": "B",
+   "close_odds": -122.0,
+   "result": null
+  }
+ },
+ "parlays": [
+  {
+   "legs": [
+    "401892431:spread:away",
+    "401891817:spread:away"
+   ],
+   "n": 2,
+   "mode": "safest",
+   "p": 0.4927,
+   "decimal": 2.113,
+   "american": 111,
+   "ev": 0.0411,
+   "result": null
+  },
+  {
+   "legs": [
+    "401892431:spread:away",
+    "401891781:spread:away",
+    "401891817:spread:away"
+   ],
+   "n": 3,
+   "mode": "safest",
+   "p": 0.3463,
+   "decimal": 2.958,
+   "american": 196,
+   "ev": 0.0244,
+   "result": null
+  },
+  {
+   "legs": [
+    "401892431:spread:away",
+    "401891781:spread:away",
+    "401891817:spread:away",
+    "401891821:spread:away"
+   ],
+   "n": 4,
+   "mode": "safest",
+   "p": 0.236,
+   "decimal": 4.315,
+   "american": 332,
+   "ev": 0.0184,
+   "result": null
+  },
+  {
+   "legs": [
+    "401907975:total:over",
+    "401892431:spread:away",
+    "401891817:spread:away"
+   ],
+   "n": 3,
+   "mode": "value",
+   "p": 0.2901,
+   "decimal": 3.803,
+   "american": 280,
+   "ev": 0.1034,
+   "result": null
+  },
+  {
+   "legs": [
+    "401892431:spread:away",
+    "401891821:spread:away"
+   ],
+   "n": 2,
+   "mode": "safest",
+   "p": 0.4687,
+   "decimal": 2.072,
+   "american": 107,
+   "ev": -0.029,
+   "result": null
+  },
+  {
+   "legs": [
+    "401892431:spread:away",
+    "401891781:spread:away",
+    "401891821:spread:away"
+   ],
+   "n": 3,
+   "mode": "safest",
+   "p": 0.3277,
+   "decimal": 2.9,
+   "american": 190,
+   "ev": -0.0496,
+   "result": null
+  },
+  {
+   "legs": [
+    "401892431:spread:away",
+    "401891781:spread:away",
+    "401891821:spread:away",
+    "401891823:spread:home"
+   ],
+   "n": 4,
+   "mode": "safest",
+   "p": 0.2189,
+   "decimal": 4.231,
+   "american": 323,
+   "ev": -0.0739,
+   "result": null
+  },
+  {
+   "legs": [
+    "401907975:spread:away",
+    "401907897:spread:away",
+    "401907963:spread:away"
+   ],
+   "n": 3,
+   "mode": "value",
+   "p": 0.2703,
+   "decimal": 3.673,
+   "american": 267,
+   "ev": -0.0072,
+   "result": null
+  },
+  {
+   "legs": [
+    "401891781:spread:away",
+    "401891821:spread:away"
+   ],
+   "n": 2,
+   "mode": "safest",
+   "p": 0.4688,
+   "decimal": 2.042,
+   "american": 104,
+   "ev": -0.0426,
+   "result": null
+  },
+  {
+   "legs": [
+    "401891781:spread:away",
+    "401892431:spread:away",
+    "401891821:spread:away"
+   ],
+   "n": 3,
+   "mode": "safest",
+   "p": 0.3275,
+   "decimal": 2.9,
+   "american": 190,
+   "ev": -0.0501,
+   "result": null
+  },
+  {
+   "legs": [
+    "401891781:spread:away",
+    "401892431:spread:away",
+    "401891821:spread:away",
+    "401891823:spread:home"
+   ],
+   "n": 4,
+   "mode": "safest",
+   "p": 0.2189,
+   "decimal": 4.231,
+   "american": 323,
+   "ev": -0.0741,
+   "result": null
+  },
+  {
+   "legs": [
+    "401907963:total:over",
+    "401907975:spread:away",
+    "401892431:spread:away"
+   ],
+   "n": 3,
+   "mode": "value",
+   "p": 0.2573,
+   "decimal": 4.044,
+   "american": 304,
+   "ev": 0.0406,
+   "result": null
+  }
+ ]
+}
