@@ -30,11 +30,16 @@ def log(*a):
 
 
 def run_sport(sport, days: list[dt.date], today: dt.date) -> tuple[list[dict], dict, list[dict]]:
-    games = [g for d in days for g in espn.upcoming(sport, d)]
-    games = [g for g in games if g.get("odds") and g.get("season_type") != 1]
+    found = [g for d in days for g in espn.upcoming(sport, d)]
+    games = [g for g in found if g.get("odds") and g.get("season_type") != 1]
     hist = espn.update_history(sport, today, log=log)
     results = {g["id"]: g for g in hist}
     if not games:
+        # say why a league is missing from the app instead of dropping it silently
+        no_odds = sum(1 for g in found if not g.get("odds"))
+        preseason = sum(1 for g in found if g.get("odds") and g.get("season_type") == 1)
+        log(f"  {sport.name}: no games to price ({len(found)} upcoming, {no_odds} without betting lines, "
+            f"{preseason} preseason)")
         return [], results, []
     log(f"  {sport.name}: {len(games)} upcoming games with odds, {len(hist)} games of history")
     R = ratings.fit(sport, hist, today)

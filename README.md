@@ -37,6 +37,8 @@ soccer_ger.1 soccer_fra.1 soccer_usa.1 soccer_uefa.champions soccer_mex.1`.
 `.github/workflows/refresh.yml` runs four times a day on GitHub Actions (free). It
 recalibrates, prices the board, grades finished picks, commits the data, and publishes
 `site/` to GitHub Pages. You can also trigger it by hand from the repo's Actions tab.
+In the repo's Settings → Pages, set **Source** to **GitHub Actions** so the workflow's deploy is
+the one that's live (a root `index.html` also forwards to `site/` if Pages serves the branch instead).
 
 ## Layout
 
