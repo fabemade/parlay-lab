@@ -662,6 +662,23 @@
    "grade": "B",
    "close_odds": -115.0,
    "result": null
+  },
+  "401869956:ml:home": {
+   "id": "401869956:ml:home",
+   "sport": "cfb",
+   "game_id": "401869956",
+   "short": "ODU @ GAST",
+   "start": "2026-10-03T19:30Z",
+   "market": "ml",
+   "side": "home",
+   "selection": "GAST ML",
+   "line": null,
+   "odds": -130.0,
+   "p": 0.578,
+   "p_market": 0.5454,
+   "grade": "B",
+   "close_odds": -130.0,
+   "result": null
   }
  },
  "parlays": [
@@ -1012,6 +1029,20 @@
    "decimal": 5.354,
    "american": 435,
    "ev": 0.0723,
+   "result": null
+  },
+  {
+   "legs": [
+    "401856822:ml:home",
+    "401869956:ml:home",
+    "401858247:ml:home"
+   ],
+   "n": 3,
+   "mode": "value",
+   "p": 0.2113,
+   "decimal": 5.067,
+   "american": 407,
+   "ev": 0.0707,
    "result": null
   }
  ]
