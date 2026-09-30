@@ -1108,7 +1108,7 @@
     "ticker": "KXMLBKS-26SEP302200CHCSD-CHCKGAUSMAN34-5",
     "buy": "yes"
    },
-   "close_odds": 119,
+   "close_odds": 124,
    "result": null
   },
   "401891780:KXNHLPTS-26SEP30LACOL-LAMZUCCARELLO36-1:yes": {
@@ -1196,7 +1196,51 @@
     "ticker": "KXMLBTB-26SEP302200CHCSD-SDFTATIS23-2",
     "buy": "yes"
    },
-   "close_odds": 101,
+   "close_odds": -103,
+   "result": null
+  },
+  "401907975:KXMLBHRR-26SEP302200CHCSD-SDJMERRILL3-1:yes": {
+   "id": "401907975:KXMLBHRR-26SEP302200CHCSD-SDJMERRILL3-1:yes",
+   "sport": "mlb",
+   "game_id": "401907975",
+   "short": "CHC @ SD",
+   "start": "2026-10-01T02:00Z",
+   "market": "prop",
+   "side": "over",
+   "selection": "Jackson Merrill 1+ hits + runs + RBIs",
+   "line": 0.5,
+   "odds": -239,
+   "p": 0.7207,
+   "p_market": 0.6765,
+   "grade": "B",
+   "group": "Player props",
+   "kalshi": {
+    "ticker": "KXMLBHRR-26SEP302200CHCSD-SDJMERRILL3-1",
+    "buy": "yes"
+   },
+   "close_odds": -239,
+   "result": null
+  },
+  "401892431:KXNHLAST-26SEP30NYITOR-TORWNYLANDER88-1:yes": {
+   "id": "401892431:KXNHLAST-26SEP30NYITOR-TORWNYLANDER88-1:yes",
+   "sport": "nhl",
+   "game_id": "401892431",
+   "short": "NYI @ TOR",
+   "start": "2026-09-30T23:30Z",
+   "market": "prop",
+   "side": "over",
+   "selection": "William Nylander 1+ assists",
+   "line": 0.5,
+   "odds": 124,
+   "p": 0.4651,
+   "p_market": 0.4257,
+   "grade": "B",
+   "group": "Player props",
+   "kalshi": {
+    "ticker": "KXNHLAST-26SEP30NYITOR-TORWNYLANDER88-1",
+    "buy": "yes"
+   },
+   "close_odds": 124,
    "result": null
   }
  },
@@ -1703,6 +1747,62 @@
    "decimal": 3.064,
    "american": 206,
    "ev": 0.0534,
+   "result": null
+  },
+  {
+   "legs": [
+    "401907975:KXMLBHRR-26SEP302200CHCSD-SDJMERRILL3-1:yes",
+    "401872964:KXNFLRSHYDS-26OCT01PITCLE-CLEDWATSON4-20:yes"
+   ],
+   "n": 2,
+   "mode": "safest",
+   "p": 0.5181,
+   "decimal": 2.012,
+   "american": 101,
+   "ev": 0.0424,
+   "result": null
+  },
+  {
+   "legs": [
+    "401907975:KXMLBHRR-26SEP302200CHCSD-SDJMERRILL3-1:yes",
+    "401872964:KXNFLRSHYDS-26OCT01PITCLE-CLEDWATSON4-20:yes",
+    "401866433:KXNCAAFGAME-26OCT03EMUMASS-MASS:yes"
+   ],
+   "n": 3,
+   "mode": "safest",
+   "p": 0.3702,
+   "decimal": 2.854,
+   "american": 185,
+   "ev": 0.0566,
+   "result": null
+  },
+  {
+   "legs": [
+    "401907975:KXMLBHRR-26SEP302200CHCSD-SDJMERRILL3-1:yes",
+    "401872964:KXNFLRSHYDS-26OCT01PITCLE-CLEDWATSON4-20:yes",
+    "401866433:KXNCAAFGAME-26OCT03EMUMASS-MASS:yes",
+    "401891780:KXNHLGOAL-26SEP30LACOL-COLMNECAS88-1:no"
+   ],
+   "n": 4,
+   "mode": "safest",
+   "p": 0.2558,
+   "decimal": 4.163,
+   "american": 316,
+   "ev": 0.0647,
+   "result": null
+  },
+  {
+   "legs": [
+    "401907975:KXMLBHRR-26SEP302200CHCSD-SDJMERRILL3-1:yes",
+    "401872964:KXNFLRSHYDS-26OCT01PITCLE-CLEDWATSON4-20:yes",
+    "401891780:KXNHLGOAL-26SEP30LACOL-COLMNECAS88-1:no"
+   ],
+   "n": 3,
+   "mode": "safest",
+   "p": 0.3579,
+   "decimal": 2.935,
+   "american": 193,
+   "ev": 0.0504,
    "result": null
   }
  ]
