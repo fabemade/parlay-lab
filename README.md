@@ -7,14 +7,25 @@ movement and the model's probability vs the market's.
 
 See [METHODOLOGY.md](METHODOLOGY.md) for how it works and what the backtests show.
 
-## Run it locally
+## Use it
+
+**On your phone:** open https://fabemade.github.io/parlay-lab/ in Safari, then tap Share and
+"Add to Home Screen". It refreshes itself four times a day.
+
+**On your Mac:**
 
 ```bash
-cd parlay-lab
-python3 -m venv ../.venv && ../.venv/bin/pip install -r requirements.txt
-../.venv/bin/python run.py            # price the next 4 days, build parlays, write site/data/picks.json
-../.venv/bin/python backtest.py       # walk-forward backtest + recalibration
-python3 -m http.server 8765 --directory site   # then open http://localhost:8765
+./lab.sh            # refresh picks for all sports and open the app in your browser
+./lab.sh nfl,mlb    # only some sports
+```
+
+Or step by step:
+
+```bash
+python3 -m venv .venv && .venv/bin/pip install -r requirements.txt
+.venv/bin/python run.py         # price the next 4 days, build parlays, write site/data/picks.json
+.venv/bin/python backtest.py    # walk-forward backtest + recalibration
+.venv/bin/python -m http.server 8765 --directory site   # then open http://localhost:8765
 ```
 
 `run.py` options: `--sports nfl,mlb,nhl`, `--date 2026-10-04`, `--days 2`.
@@ -23,7 +34,7 @@ soccer_ger.1 soccer_fra.1 soccer_usa.1 soccer_uefa.champions soccer_mex.1`.
 
 ## How it stays up to date
 
-`.github/workflows/parlay-lab.yml` runs four times a day on GitHub Actions (free). It
+`.github/workflows/refresh.yml` runs four times a day on GitHub Actions (free). It
 recalibrates, prices the board, grades finished picks, commits the data, and publishes
 `site/` to GitHub Pages. You can also trigger it by hand from the repo's Actions tab.
 
