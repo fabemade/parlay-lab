@@ -122,8 +122,9 @@ def attach(games: list[dict], legs: list[dict], log=print) -> None:
                 prices, sides = {}, set()
                 for m in ev.get("markets") or []:
                     label = m.get("yes_sub_title") or m.get("subtitle")
+                    code = (m.get("ticker") or "").rsplit("-", 1)[-1]  # market tickers end in a team code
                     for side in ("home", "away"):
-                        if _is_team(label, g[side]):
+                        if _is_team(label, g[side]) or (code and code == (g[side].get("abbr") or "").upper()):
                             prices[side] = _cents(m)
                             sides.add(side)
                     if re.fullmatch(r"(tie|draw)", (label or "").strip().lower()):
