@@ -312,7 +312,7 @@ nav.tabs button[aria-selected="true"] svg { transform: translateY(-2px) scale(1.
           <div class="seg" id="day-seg"></div>
           <div class="label">Bet types</div>
           <div class="chips" id="market-chips"></div>
-          <div class="label">Most juice per leg</div>
+          <div class="label">Highest price per leg</div>
           <div class="seg" id="juice-seg"></div>
           <div class="label">Minimum edge</div>
           <div class="seg" id="edge-seg"></div>
@@ -354,7 +354,7 @@ nav.tabs button[aria-selected="true"] svg { transform: translateY(-2px) scale(1.
           <li><b>Team ratings.</b> Each team gets an offense and a defense rating, fit on every game over the last season or so. Recent games count more, and opponents' strength is built in.</li>
           <li><b>Game adjustments.</b> Home field, rest and back-to-backs. In MLB, starting pitchers (FIP, recent starts) and park factors. For NFL and NHL, key injuries like a starting QB or goalie.</li>
           <li><b>Score simulation.</b> Ratings become a full distribution of possible scores, built for each sport, which prices every moneyline, spread and total.</li>
-          <li><b>Market check.</b> DraftKings prices get the vig removed and are blended with our model. A pick shows an <i>edge</i> only when the data genuinely disagrees with the market.</li>
+          <li><b>Kalshi check.</b> Every bet is a contract Kalshi lists, at Kalshi’s price. That price (and the sportsbook line) is blended with our model, and Kalshi’s fee is included in the break-even. A pick shows an <i>edge</i> only when the data genuinely disagrees with the price.</li>
           <li><b>Calibration.</b> A walk-forward backtest tunes each sport so a "60%" pick hits about 60% of the time.</li>
         </ol>
         <p><b>Grades:</b> <b>A</b> clearly +EV and more likely than not. <b>B</b> +EV. <b>C</b> close to a fair price. <b>D</b> the price is too steep.</p>
@@ -552,8 +552,8 @@ function legHTML(l, open = false) {
     <button class="leg-main" aria-expanded="${open}" onclick="toggleOpen(this.parentElement)">
       <div class="grade ${l.grade}">${l.grade}</div>
       <div class="leg-info"><div class="leg-sel">${esc(describe(l)[0])}${describe(l)[1] ? ` <span class="note">${esc(describe(l)[1])}</span>` : ""}</div>
-        <div class="leg-sub"><span class="code">${esc(l.selection)}</span> · ${esc(l.short)} · ${when(l.start)}</div></div>
-      <div class="leg-odds">${esc(l.odds_str)}<small>${pct(l.p)}</small></div>
+        <div class="leg-sub"><span class="code">${esc(k ? k.contract : l.selection)}</span> · ${esc(l.short)} · ${when(l.start)}</div></div>
+      <div class="leg-odds">${k ? `${k.price}¢` : esc(l.odds_str)}<small>${pct(l.p)}</small></div>
       ${CHEV}
     </button>
     <div class="collapse"><div><div class="leg-body">
@@ -569,7 +569,7 @@ function legHTML(l, open = false) {
         ${l.link ? `<a class="book" href="${esc(l.link)}" target="_blank" rel="noopener">DraftKings →</a>` : ""}
         ${k ? `<a class="book kalshi" href="${esc(k.url)}" target="_blank" rel="noopener">Kalshi${k.price ? ` · ${k.price}¢` : ""} →</a>` : ""}
       </div>
-      ${k && k.price ? `<div class="hint">Kalshi's price of ${k.price}¢ implies ${k.price}% for this outcome, vs our ${pct(l.p)}.</div>` : ""}
+      ${k ? `<div class="hint">Kalshi: ${esc(k.contract)} at ${k.price}¢ (pays $1). Our estimate: ${pct(l.p)}.</div>` : ""}
     </div></div></div>
   </div>`;
 }
@@ -589,13 +589,13 @@ function ticketHTML(title, legs, p, d, i = 0) {
       <b id="${id}-pay">Pays $${(state.stake * d).toFixed(2)}</b></div>
     <div class="t-actions">
       <button class="t-btn" data-copy="${esc(legs.map(l => l.id).join(","))}">Copy legs</button>
-      ${legs.some(l => l.kalshi) ? `<span class="hint" style="margin:0">A checklist for rebuilding it as a Kalshi combo</span>` : ""}
+      ${legs.some(l => l.kalshi) ? `<span class="hint" style="margin:0">Kalshi prices combos live, so the payout above is an estimate</span>` : ""}
     </div>
   </div>`;
 }
 function legsText(legs) {
-  return legs.map((l, i) => `${i + 1}. ${describeText(l)} [${l.selection} ${l.odds_str}] · ${l.game} · ${when(l.start)}`
-    + (l.kalshi ? `\n   Kalshi: ${l.kalshi.url}` : "")).join("\n");
+  return legs.map((l, i) => `${i + 1}. ${describeText(l)} · ${l.game} · ${when(l.start)}`
+    + (l.kalshi ? `\n   Kalshi: ${l.kalshi.contract} @ ${l.kalshi.price}¢\n   ${l.kalshi.url}` : "")).join("\n");
 }
 function toast(msg) {
   let t = $("#toast");
@@ -706,7 +706,7 @@ function renderBuild() {
   seg($("#mode-seg"), [["safest", "Safest"], ["value", "Best value"]], () => state.mode, v => { state.mode = v; syncMode(); });
   seg($("#target-seg"), [[100, "+100"], [150, "+150"], [200, "+200"], [300, "+300"], [500, "+500"]], () => state.target, v => state.target = +v);
   seg($("#day-seg"), [["all", "Next 4 days"], ["today", "Today"], ["tomorrow", "Later"]], () => state.day, v => state.day = v);
-  seg($("#juice-seg"), [[-150, "-150"], [-200, "-200"], [-250, "-250"], [-350, "-350"]], () => state.juice, v => state.juice = +v);
+  seg($("#juice-seg"), [[-150, "60¢"], [-200, "67¢"], [-250, "71¢"], [-350, "78¢"]], () => state.juice, v => state.juice = +v);
   seg($("#edge-seg"), [[-1, "Any"], [-0.02, "Near fair"], [0, "+EV"], [0.02, "2%+"]], () => state.edge, v => state.edge = +v);
   const mc = $("#market-chips");
   mc.innerHTML = [["ml", "Moneyline"], ["spread", "Spread"], ["total", "Totals"]].map(([v, l]) => `<button class="chip" data-v="${v}">${l}</button>`).join("");
@@ -776,7 +776,7 @@ function renderGames() {
       <div class="teams"><img src="${esc(g.away.logo)}" alt="" loading="lazy" onerror="this.style.visibility='hidden'">${esc(g.away.name)}<span class="sc">${g.exp_away.toFixed(1)}</span></div>
       <div class="teams"><img src="${esc(g.home.logo)}" alt="" loading="lazy" onerror="this.style.visibility='hidden'">${esc(g.home.name)}<span class="sc">${g.exp_home.toFixed(1)}</span></div>
       <div class="gmeta">${esc(leagueName(g.sport))} · ${clock(g.start)}${g.note ? " · " + esc(g.note) : ""} · projected score</div>
-      <div class="mkts">${legs.map(l => `<button class="mk ${l.edge >= 0.01 ? "pos" : ""}" data-leg="${esc(l.id)}">${esc(l.selection)} ${esc(l.odds_str)} · ${pct(l.p)}</button>`).join("")}</div>
+      <div class="mkts">${legs.map(l => `<button class="mk ${l.edge >= 0.01 ? "pos" : ""}" data-leg="${esc(l.id)}">${esc(l.selection)} · ${l.kalshi ? l.kalshi.price + "¢" : esc(l.odds_str)}</button>`).join("")}</div>
     </div>`;
   });
   $("#games").innerHTML = html;

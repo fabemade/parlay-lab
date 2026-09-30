@@ -1,30 +1,42 @@
-"""Kalshi game markets: find each game's Kalshi page and Yes price so the app can link to it.
+"""Kalshi markets: the bets the app offers are the contracts Kalshi actually lists.
 
-Read-only public endpoints (no account or API key). Kalshi combos can't be pre-filled from
-outside the app, so the goal is just to put the right market one tap away. Anything that
-fails here only means a game shows no Kalshi link; it never affects the picks.
+Kalshi's game contracts differ from a sportsbook's: spreads only come as "TEAM wins by
+over X" (several X per team), totals as "Over X" (an under is buying No), and each has
+its own price. So instead of DraftKings' single line per market, every leg here is one
+Kalshi contract at Kalshi's price, and our score distribution prices whatever strike
+Kalshi lists.
+
+Read-only public endpoints (no account or API key). Kalshi combos can't be pre-filled
+from outside Kalshi's app, so each leg links to its market instead.
 """
 from __future__ import annotations
 
 import datetime as dt
+import math
 import re
 from zoneinfo import ZoneInfo
 
+import numpy as np
 import requests
+
+from .odds import blend, decimal_to_american, logit
 
 API = "https://api.elections.kalshi.com/trade-api/v2"
 ET = ZoneInfo("America/New_York")
 
-# Kalshi "game winner" series per league. A wrong or missing ticker just finds no events,
-# and the log line for that league says so.
-SERIES = {
-    "nfl": "KXNFLGAME", "cfb": "KXNCAAFGAME", "nba": "KXNBAGAME", "wnba": "KXWNBAGAME",
-    "ncaab": "KXNCAAMBGAME", "mlb": "KXMLBGAME", "nhl": "KXNHLGAME",
-    "soccer_eng.1": "KXEPLGAME", "soccer_esp.1": "KXLALIGAGAME", "soccer_ita.1": "KXSERIEAGAME",
-    "soccer_ger.1": "KXBUNDESLIGAGAME", "soccer_fra.1": "KXLIGUE1GAME", "soccer_usa.1": "KXMLSGAME",
-    "soccer_uefa.champions": "KXUCLGAME", "soccer_mex.1": "KXLIGAMXGAME",
+# Series tickers per league: game winner, spread, total. A wrong ticker just finds no
+# events, and the log line for that league says so.
+LEAGUE = {
+    "nfl": "NFL", "cfb": "NCAAF", "nba": "NBA", "wnba": "WNBA", "ncaab": "NCAAMB", "mlb": "MLB",
+    "nhl": "NHL", "soccer_eng.1": "EPL", "soccer_esp.1": "LALIGA", "soccer_ita.1": "SERIEA",
+    "soccer_ger.1": "BUNDESLIGA", "soccer_fra.1": "LIGUE1", "soccer_usa.1": "MLS",
+    "soccer_uefa.champions": "UCL", "soccer_mex.1": "LIGAMX",
 }
+KINDS = ("GAME", "SPREAD", "TOTAL")
 MONTHS = {m: i for i, m in enumerate("JAN FEB MAR APR MAY JUN JUL AUG SEP OCT NOV DEC".split(), 1)}
+FEE = 0.07              # Kalshi taker fee per contract: 0.07 x P x (1 - P)
+PRICE_RANGE = (0.10, 0.90)
+STRIKES_PER_SIDE = 3    # Kalshi lists many margins; keep a spread of them per team/side
 
 _session = requests.Session()
 
@@ -81,91 +93,188 @@ def _event_day(event_ticker: str) -> dt.date | None:
         return None
 
 
-def _cents(market: dict) -> int | None:
-    if market.get("yes_ask") not in (None, 0):
-        return int(market["yes_ask"])
-    if market.get("yes_ask_dollars"):
+def _matchup(event_ticker: str) -> str:
+    """'KXNFLSPREAD-26OCT01PITCLE' -> '26OCT01PITCLE' (shared by a game's winner/spread/total events)."""
+    return event_ticker.split("-", 1)[-1]
+
+
+def _ask(market: dict, side: str) -> float | None:
+    cents = market.get(f"{side}_ask")
+    if cents not in (None, 0):
+        return cents / 100
+    try:
+        v = float(market.get(f"{side}_ask_dollars") or "nan")
+    except ValueError:
+        return None
+    return None if math.isnan(v) else v
+
+
+def _cost(price: float) -> float:
+    return price + FEE * price * (1 - price)
+
+
+def _spread_out(items: list, k: int) -> list:
+    if len(items) <= k:
+        return items
+    return [items[i] for i in sorted({round(x) for x in np.linspace(0, len(items) - 1, k)})]
+
+
+class _Series:
+    def __init__(self, ticker: str):
+        self.ticker = ticker
+        self.events = _events(ticker)
         try:
-            return round(float(market["yes_ask_dollars"]) * 100)
-        except ValueError:
-            return None
+            self.title = (_get(f"/series/{ticker}").get("series") or {}).get("title")
+        except requests.RequestException:
+            self.title = None
+
+    def url(self, event_ticker: str) -> str:
+        return f"https://kalshi.com/markets/{self.ticker.lower()}/{_slug(self.title)}/{event_ticker.lower()}"
+
+
+def _match_game(g: dict, events: list[dict]) -> tuple[dict, dict] | None:
+    """Find the game's winner event; return it and a Kalshi team code -> side map."""
+    day = dt.datetime.fromisoformat(g["date"].replace("Z", "+00:00")).astimezone(ET).date()
+    for ev in events:
+        ev_day = _event_day(ev.get("event_ticker", ""))
+        if ev_day and abs((ev_day - day).days) > 1:
+            continue
+        codes = {}
+        for m in ev.get("markets") or []:
+            label = m.get("yes_sub_title") or m.get("subtitle")
+            code = (m.get("ticker") or "").rsplit("-", 1)[-1]
+            for side in ("home", "away"):
+                if _is_team(label, g[side]) or code == (g[side].get("abbr") or "").upper():
+                    codes[code] = side
+        if set(codes.values()) == {"home", "away"}:
+            return ev, codes
     return None
 
 
-def attach(games: list[dict], legs: list[dict], log=print) -> None:
-    """Add leg["kalshi"] = {"url", "price"?} for every leg whose game is listed on Kalshi."""
-    by_sport: dict[str, list[dict]] = {}
-    for g in games:
-        by_sport.setdefault(g["sport"], []).append(g)
-    found: dict[str, dict] = {}  # game id -> {"url", "prices": {"home"/"away"/"draw": cents}}
+def build_legs(game_models: dict, dk_legs: list[dict], log=print) -> list[dict]:
+    """One leg per Kalshi contract worth showing, priced at Kalshi's ask."""
+    by_sport: dict[str, list] = {}
+    for gm in game_models.values():
+        by_sport.setdefault(gm.sport.key, []).append(gm)
+    dk_reasons = {(l["game_id"], l["market"], l["side"]): l["reasons"] for l in dk_legs}
+    legs: list[dict] = []
 
-    for sport, sport_games in by_sport.items():
-        series = SERIES.get(sport)
-        if not series:
+    for sport, gms in by_sport.items():
+        lg = LEAGUE.get(sport)
+        if not lg:
             continue
         try:
-            events = _events(series)
-            try:
-                title = (_get(f"/series/{series}").get("series") or {}).get("title")
-            except requests.RequestException:
-                title = None
+            series = {k: _Series(f"KX{lg}{k}") for k in KINDS}
         except requests.RequestException as e:
-            log(f"  Kalshi {series}: request failed ({e})")
+            log(f"  Kalshi {lg}: request failed ({e})")
             continue
-        matched = 0
-        for g in sport_games:
-            day = dt.datetime.fromisoformat(g["start"].replace("Z", "+00:00")).astimezone(ET).date()
-            for ev in events:
-                ev_day = _event_day(ev.get("event_ticker", ""))
-                if ev_day and abs((ev_day - day).days) > 1:
-                    continue
-                prices, sides = {}, set()
-                for m in ev.get("markets") or []:
-                    label = m.get("yes_sub_title") or m.get("subtitle")
-                    code = (m.get("ticker") or "").rsplit("-", 1)[-1]  # market tickers end in a team code
-                    for side in ("home", "away"):
-                        if _is_team(label, g[side]) or (code and code == (g[side].get("abbr") or "").upper()):
-                            prices[side] = _cents(m)
-                            sides.add(side)
-                    if re.fullmatch(r"(tie|draw)", (label or "").strip().lower()):
-                        prices["draw"] = _cents(m)
-                if sides == {"home", "away"}:
-                    ticker = ev["event_ticker"]
-                    found[g["id"]] = {
-                        "url": f"https://kalshi.com/markets/{series.lower()}/{_slug(title)}/{ticker.lower()}",
-                        "prices": prices,
-                    }
-                    matched += 1
-                    break
-        log(f"  Kalshi {series}: {len(events)} open events, matched {matched} of {len(sport_games)} games")
+        by_matchup = {k: {_matchup(e["event_ticker"]): e for e in s.events} for k, s in series.items()}
+        matched = n_before = 0
+        for gm in gms:
+            hit = _match_game(gm.g, series["GAME"].events)
+            if not hit:
+                continue
+            matched += 1
+            ev, codes = hit
+            key = _matchup(ev["event_ticker"])
+            before = len(legs)
+            legs += _game_legs(gm, ev, codes, series, by_matchup, key, dk_reasons)
+            n_before += len(legs) - before
+        counts = ", ".join(f"{k.lower()} {len(s.events)}" for k, s in series.items())
+        log(f"  Kalshi {lg}: open events ({counts}); matched {matched} of {len(gms)} games -> {n_before} contracts")
+    return legs
 
-    for leg in legs:
-        k = found.get(leg["game_id"])
-        if not k:
+
+def _game_legs(gm, ev, codes, series, by_matchup, key, dk_reasons) -> list[dict]:
+    g, out, sport = gm.g, gm.out, gm.sport
+    base = {"sport": sport.key, "sport_name": sport.name, "game_id": g["id"], "game": g["name"],
+            "short": g["short"], "start": g["date"], "home": g["home"], "away": g["away"],
+            "venue": g.get("venue"), "broadcast": g.get("broadcast"), "note": g.get("note"),
+            "context": gm.game_lines(), "link": None, "p_push": 0.0}
+    abbr = {s: g[s]["abbr"] or g[s]["name"] for s in ("home", "away")}
+    legs = []
+
+    def add(market, side, line, selection, contract, price, p_model, p_fair, reasons, url, ticker, buy):
+        if price is None or not (PRICE_RANGE[0] <= price <= PRICE_RANGE[1]):
+            return
+        favoured = side if side in ("home", "away") and p_model > p_fair else None
+        w = gm.weight(favoured, market)
+        w = w / (1 + (logit(p_model) - logit(p_fair)) ** 2)   # big disagreements: trust the market
+        p = blend(p_model, p_fair, w)
+        cost = _cost(price)
+        legs.append({**base, "id": f"{g['id']}:{ticker}:{buy}", "market": market, "side": side, "line": line,
+                     "selection": selection, "odds": decimal_to_american(1 / cost),
+                     "p": round(p, 4), "p_model": round(p_model, 4), "p_market": round(p_fair, 4),
+                     "p_breakeven": round(cost, 4), "edge": round(p - cost, 4), "ev": round(p / cost - 1, 4),
+                     "w_model": round(w, 3), "reasons": reasons,
+                     "kalshi": {"url": url, "price": round(price * 100), "contract": contract, "buy": buy}})
+
+    # ---------------- winner (and tie in soccer)
+    ms = ev.get("markets") or []
+    asks = {m["ticker"]: _ask(m, "yes") for m in ms}
+    total_ask = sum(a for a in asks.values() if a) or 1
+    if sport.three_way:
+        model = {"home": out.p_home_win(), "away": out.p_away_win(), "draw": out.p_draw()}
+    else:
+        mh = out.p_home_win()
+        pred = gm.ctx.get("predictor")
+        if pred:
+            mh = 0.5 * mh + 0.5 * pred["home"] / max(pred["home"] + pred["away"], 1e-9)
+        model = {"home": mh, "away": 1 - mh}
+    url = series["GAME"].url(ev["event_ticker"])
+    for m in ms:
+        code = m["ticker"].rsplit("-", 1)[-1]
+        label = (m.get("yes_sub_title") or "").strip()
+        side = codes.get(code) or ("draw" if re.fullmatch(r"(tie|draw)", label.lower()) else None)
+        if side not in model or not asks.get(m["ticker"]):
             continue
-        leg["kalshi"] = {"url": k["url"]}
-        if leg["market"] == "ml" and k["prices"].get(leg["side"]):
-            leg["kalshi"]["price"] = k["prices"][leg["side"]]
+        sel = "Draw" if side == "draw" else f"{abbr[side]} to win"
+        reasons = dk_reasons.get((g["id"], "ml", side)) or (gm.team_line(side) if side != "draw" else [])
+        add("ml", side, None, sel, f"Yes · {label or sel}", asks[m["ticker"]], model[side],
+            asks[m["ticker"]] / total_ask, reasons, url, m["ticker"], "yes")
 
+    # ---------------- spreads: "TEAM wins by over X"
+    sev = by_matchup["SPREAD"].get(key)
+    if sev:
+        url = series["SPREAD"].url(sev["event_ticker"])
+        per_side: dict[str, list] = {"home": [], "away": []}
+        for m in sev.get("markets") or []:
+            code = re.sub(r"\d+$", "", m["ticker"].rsplit("-", 1)[-1])
+            side, x = codes.get(code), m.get("floor_strike")
+            yes, no = _ask(m, "yes"), _ask(m, "no")
+            if side and x is not None and yes and no:
+                per_side[side].append((float(x), m, yes, no))
+        for side, rows in per_side.items():
+            rows = [r for r in sorted(rows, key=lambda r: r[0]) if PRICE_RANGE[0] <= r[2] <= PRICE_RANGE[1]]
+            for x, m, yes, no in _spread_out(rows, STRIKES_PER_SIDE):
+                if side == "home":
+                    p_model = out.p_margin_gt(x)[0]
+                else:
+                    gt, eq = out.p_margin_gt(-x)
+                    p_model = max(0.0, 1 - gt - eq)
+                reasons = dk_reasons.get((g["id"], "spread", side)) or gm.team_line(side)
+                add("spread", side, -x, f"{abbr[side]} by {x:g}+", f"Yes · {m.get('yes_sub_title') or m.get('title')}",
+                    yes, p_model, yes / (yes + no), reasons, url, m["ticker"], "yes")
 
-def probe(log=print) -> None:
-    """Temporary: log what Kalshi's spread/total markets look like, to build matching on."""
-    import json as _json
-    leagues = ["NFL", "NCAAF", "MLB", "NHL", "WNBA", "MLS", "NBA", "EPL"]
-    for lg in leagues:
-        for kind in ("SPREAD", "TOTAL", "RUNLINE", "PUCKLINE", "OU"):
-            series = f"KX{lg}{kind}"
-            try:
-                evs = _events(series)
-            except requests.RequestException as e:
-                continue
-            if not evs:
-                continue
-            ev = evs[0]
-            ms = ev.get("markets") or []
-            log(f"  PROBE {series}: {len(evs)} events; event={_json.dumps({k: ev.get(k) for k in ('event_ticker', 'title', 'sub_title')})}")
-            for m in ms[:3]:
-                keep = {k: m.get(k) for k in ("ticker", "title", "subtitle", "yes_sub_title", "no_sub_title",
-                                               "floor_strike", "cap_strike", "strike_type", "yes_ask", "yes_ask_dollars",
-                                               "no_ask", "no_ask_dollars", "custom_strike")}
-                log(f"    {_json.dumps(keep)}")
+    # ---------------- totals: "Over X" (Yes) and under (No)
+    tev = by_matchup["TOTAL"].get(key)
+    if tev:
+        url = series["TOTAL"].url(tev["event_ticker"])
+        rows = []
+        for m in tev.get("markets") or []:
+            x, yes, no = m.get("floor_strike"), _ask(m, "yes"), _ask(m, "no")
+            if x is not None and yes and no:
+                rows.append((float(x), m, yes, no))
+        rows.sort(key=lambda r: r[0])
+        reasons = dk_reasons.get((g["id"], "total", "over")) or []
+        over = [r for r in rows if PRICE_RANGE[0] <= r[2] <= PRICE_RANGE[1]]
+        under = [r for r in rows if PRICE_RANGE[0] <= r[3] <= PRICE_RANGE[1]]
+        for x, m, yes, no in _spread_out(over, STRIKES_PER_SIDE):
+            gt = out.p_total_gt(x)[0]
+            add("total", "over", x, f"Over {x:g}", f"Yes · Over {x:g}", yes, gt, yes / (yes + no),
+                reasons, url, m["ticker"], "yes")
+        for x, m, yes, no in _spread_out(under, STRIKES_PER_SIDE):
+            gt, eq = out.p_total_gt(x)
+            add("total", "under", x, f"Under {x:g}", f"No · Over {x:g}", no, max(0.0, 1 - gt - eq), no / (yes + no),
+                reasons, url, m["ticker"], "no")
+    return legs

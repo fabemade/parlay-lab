@@ -29,7 +29,7 @@ def log(*a):
     print(*a, flush=True)
 
 
-def run_sport(sport, days: list[dt.date], today: dt.date) -> tuple[list[dict], dict, list[dict]]:
+def run_sport(sport, days: list[dt.date], today: dt.date) -> tuple[list[dict], dict, list[dict], dict]:
     found = [g for d in days for g in espn.upcoming(sport, d)]
     games = [g for g in found if g.get("odds") and g.get("season_type") != 1]
     hist = espn.update_history(sport, today, log=log)
@@ -40,7 +40,7 @@ def run_sport(sport, days: list[dt.date], today: dt.date) -> tuple[list[dict], d
         preseason = sum(1 for g in found if g.get("odds") and g.get("season_type") == 1)
         log(f"  {sport.name}: no games to price ({len(found)} upcoming, {no_odds} without betting lines, "
             f"{preseason} preseason)")
-        return [], results, []
+        return [], results, [], {}
     log(f"  {sport.name}: {len(games)} upcoming games with odds, {len(hist)} games of history")
     R = ratings.fit(sport, hist, today)
     extras: dict = {}
@@ -54,7 +54,7 @@ def run_sport(sport, days: list[dt.date], today: dt.date) -> tuple[list[dict], d
         extras["ctx"] = dict(zip([g["id"] for g in games],
                                  ex.map(lambda g: espn.context(sport, g["id"]), games)))
     last = ratings.last_game_dates([g for g in hist if ratings.competitive(g)])
-    legs, game_rows = [], []
+    legs, game_rows, models = [], [], {}
     for g in games:
         try:
             gm = GameModel(sport, g, R, [h for h in hist if ratings.competitive(h)], last, extras)
@@ -63,11 +63,12 @@ def run_sport(sport, days: list[dt.date], today: dt.date) -> tuple[list[dict], d
             log(f"    ! skipped {g.get('short')}: {e}")
             continue
         legs += gl
+        models[g["id"]] = gm
         game_rows.append({"id": g["id"], "sport": sport.key, "short": g["short"], "name": g["name"],
                           "start": g["date"], "home": g["home"], "away": g["away"],
                           "exp_home": round(gm.exp[0], 2), "exp_away": round(gm.exp[1], 2),
                           "venue": g.get("venue"), "note": g.get("note")})
-    return legs, results, game_rows
+    return legs, results, game_rows, models
 
 
 def main():
@@ -83,30 +84,35 @@ def main():
     keys = args.sports.split(",") if args.sports else list(SPORTS)
     t0 = time.time()
 
-    all_legs, all_games, results_by_sport = [], [], {}
+    all_legs, all_games, results_by_sport, all_models = [], [], {}, {}
     for key in keys:
         sport = SPORTS[key]
         log(f"[{sport.name}]")
         try:
-            legs, results, games = run_sport(sport, days, today)
+            legs, results, games, models = run_sport(sport, days, today)
         except Exception as e:
             log(f"  ! {sport.name} failed: {e}")
             continue
         all_legs += legs
         all_games += games
+        all_models.update(models)
         results_by_sport[key] = results
 
+    # The app only offers what Kalshi lists: every leg is a Kalshi contract at Kalshi's price.
+    # DraftKings lines still feed the model (market blend, reasons) for each game.
+    log("[Kalshi]")
+    try:
+        kalshi_legs = kalshi.build_legs(all_models, all_legs, log=log)
+    except Exception as e:
+        log(f"  ! Kalshi lookup failed, publishing sportsbook lines instead: {e}")
+        kalshi_legs = None
+    if kalshi_legs is not None:
+        all_legs = kalshi_legs
     finalize(all_legs)
     # drop games that already started
     now_utc = dt.datetime.now(dt.timezone.utc)
     all_legs = [l for l in all_legs if dt.datetime.fromisoformat(l["start"].replace("Z", "+00:00")) > now_utc]
     all_legs.sort(key=lambda l: (-l["p"] - l["edge"]))
-    log("[Kalshi]")
-    try:
-        kalshi.attach(all_games, all_legs, log=log)
-        kalshi.probe(log=log)  # temporary
-    except Exception as e:  # links are a convenience; never let them sink the run
-        log(f"  ! Kalshi lookup failed: {e}")
 
     featured = {}
     # Only feature a parlay when every leg is +EV and the whole ticket still has a
