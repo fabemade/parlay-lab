@@ -47,7 +47,7 @@
     "buy": "yes"
    },
    "result": null,
-   "close_odds": -239
+   "close_odds": -251
   },
   "401907975:KXMLBHRR-26SEP302200CHCSD-CHCSSUZUKI27-1:yes": {
    "id": "401907975:KXMLBHRR-26SEP302200CHCSD-CHCSSUZUKI27-1:yes",
@@ -482,7 +482,7 @@
     "buy": "yes"
    },
    "result": null,
-   "close_odds": -121
+   "close_odds": -131
   },
   "401891780:KXNHLPTS-26SEP30LACOL-LAMZUCCARELLO36-1:yes": {
    "id": "401891780:KXNHLPTS-26SEP30LACOL-LAMZUCCARELLO36-1:yes",
@@ -822,7 +822,7 @@
     "buy": "yes"
    },
    "result": null,
-   "close_odds": 129
+   "close_odds": 124
   },
   "401872964:KXNFLPASSTDS-26OCT01PITCLE-CLEDWATSON4-1:yes": {
    "id": "401872964:KXNFLPASSTDS-26OCT01PITCLE-CLEDWATSON4-1:yes",
@@ -1064,7 +1064,7 @@
     "buy": "yes"
    },
    "result": null,
-   "close_odds": -175
+   "close_odds": -168
   },
   "401907975:KXMLBTB-26SEP302200CHCSD-SDFTATIS23-2:yes": {
    "id": "401907975:KXMLBTB-26SEP302200CHCSD-SDFTATIS23-2:yes",
@@ -1162,7 +1162,7 @@
     "buy": "no"
    },
    "result": null,
-   "close_odds": -183
+   "close_odds": -191
   },
   "401872964:KXNFLRSHATT-26OCT01PITCLE-CLEDWATSON4-6:yes": {
    "id": "401872964:KXNFLRSHATT-26OCT01PITCLE-CLEDWATSON4-6:yes",
