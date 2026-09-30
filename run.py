@@ -16,7 +16,7 @@ from concurrent.futures import ThreadPoolExecutor
 from pathlib import Path
 from zoneinfo import ZoneInfo
 
-from engine import espn, grade, mlb, parlay, ratings
+from engine import espn, grade, kalshi, mlb, parlay, ratings
 from engine.picks import GameModel, build_legs, finalize
 from engine.sports import SPORTS
 
@@ -101,6 +101,11 @@ def main():
     now_utc = dt.datetime.now(dt.timezone.utc)
     all_legs = [l for l in all_legs if dt.datetime.fromisoformat(l["start"].replace("Z", "+00:00")) > now_utc]
     all_legs.sort(key=lambda l: (-l["p"] - l["edge"]))
+    log("[Kalshi]")
+    try:
+        kalshi.attach(all_games, all_legs, log=log)
+    except Exception as e:  # links are a convenience; never let them sink the run
+        log(f"  ! Kalshi lookup failed: {e}")
 
     featured = {}
     # Only feature a parlay when every leg is +EV and the whole ticket still has a

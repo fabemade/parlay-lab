@@ -169,6 +169,7 @@ section[hidden] { display: none; }
 .grade.C { background: #6b5a2a; color: #fff1cc; }
 .grade.D { background: #3a2a2a; color: #ffd6d6; }
 .leg-sel { font-weight: 700; font-size: 15.5px; }
+.leg-sel .note { font-weight: 500; font-size: 12px; color: var(--faint); white-space: nowrap; }
 .leg-sub { font-size: 12.5px; color: var(--muted); margin-top: 2px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
 .leg-odds { font-family: var(--mono); font-weight: 700; font-size: 15px; text-align: right; }
 .leg-odds small { display: block; font-size: 11px; color: var(--accent); font-weight: 500; }
@@ -186,7 +187,21 @@ section[hidden] { display: none; }
 .reasons li::before { content: ""; position: absolute; left: 0; top: .6em; width: 5px; height: 5px; border-radius: 50%; background: var(--accent); }
 .reasons.ctx li::before { background: var(--blue); }
 .sub-h { font-size: 11px; text-transform: uppercase; letter-spacing: .08em; color: var(--faint); font-weight: 700; margin: 14px 0 8px; }
-.book { display: inline-block; margin-top: 14px; font-size: 13px; font-weight: 700; text-decoration: none; color: var(--accent); }
+.links { display: flex; gap: 8px; flex-wrap: wrap; margin-top: 14px; }
+.book { display: inline-block; font-size: 13px; font-weight: 700; text-decoration: none; color: var(--accent); background: var(--accent-soft); padding: 8px 12px; border-radius: 10px; }
+.book.kalshi { color: #7fd1ff; background: rgba(127, 209, 255, .12); }
+.links:empty { display: none; }
+.leg-sub .code { font-family: var(--mono); font-size: 12px; color: var(--text); opacity: .8; }
+.t-actions { display: flex; align-items: center; gap: 12px; padding: 0 18px 16px; background: rgba(255, 255, 255, .015); }
+.t-btn { font-size: 13px; font-weight: 700; color: var(--text); background: var(--panel-2); padding: 9px 14px; border-radius: 10px; transition: transform .15s var(--ease); }
+.t-btn:active { transform: scale(.96); }
+#toast {
+  position: fixed; left: 50%; bottom: calc(96px + env(safe-area-inset-bottom)); z-index: 40; pointer-events: none;
+  background: var(--text); color: var(--bg); font-weight: 700; font-size: 14px; padding: 10px 16px; border-radius: 12px;
+  transform: translate(-50%, 12px); opacity: 0;
+}
+#toast.show { animation: toast 1.8s var(--ease) both; }
+@keyframes toast { 12%, 80% { opacity: 1; transform: translate(-50%, 0); } 100% { opacity: 0; transform: translate(-50%, 0); } }
 
 .stake { display: flex; align-items: center; gap: 10px; padding: 14px 18px; border-top: 1px solid var(--line); font-size: 14px; color: var(--muted); background: rgba(255, 255, 255, .015); }
 .stake input { width: 76px; background: var(--panel-2); border: 0; color: var(--text); border-radius: 10px; padding: 8px 10px; font: 600 16px var(--mono); }
@@ -491,14 +506,53 @@ function search(opts, exclude = new Set()) {
   return best;
 }
 
+// ------------------------------------------------------------------ plain-English bets
+// "PIT -2.5" means nothing if you don't bet a lot; spell out exactly what has to happen.
+function unit(sport, n) {
+  const u = sport === "mlb" ? ["run", "runs"] : sport === "nhl" || sport.startsWith("soccer_") ? ["goal", "goals"] : ["point", "points"];
+  return n === 1 ? u[0] : u[1];
+}
+// Returns [what has to happen, fine print].
+function describe(l) {
+  const soccer = l.sport.startsWith("soccer_");
+  const T = (l.side === "home" ? l.home : l.side === "away" ? l.away : {}).name;
+  const refund = (a, what) => `${what ? what + " " : ""}exactly ${a} = refund`;
+  if (l.market === "ml") {
+    if (l.side === "draw") return ["Match ends in a draw", ""];
+    if (soccer) return [`${T} win`, "a draw loses"];
+    return [`${T} win`, l.sport === "nhl" ? "incl. OT & shootout" : l.sport === "mlb" ? "incl. extra innings" : "incl. overtime"];
+  }
+  if (l.market === "spread" && T && l.line != null) {
+    const L = +l.line, a = Math.abs(L), whole = a % 1 === 0;
+    if (L === 0) return [`${T} win`, "a tie = refund"];
+    if (L < 0) {
+      const n = Math.floor(a) + 1;
+      if (n === 1) return [`${T} win`, soccer ? "a draw loses" : ""];
+      return [`${T} win by ${n}+ ${unit(l.sport, n)}`, whole ? refund(a, "win by") : ""];
+    }
+    const most = Math.ceil(a) - 1, note = whole ? refund(a, "lose by") : "";
+    if (most === 0) return [soccer ? `${T} win or draw` : `${T} win`, note];
+    const lose = most === 1 ? `lose by only 1 ${unit(l.sport, 1)}` : `lose by ${most} or fewer ${unit(l.sport, most)}`;
+    return [`${T} win, ${soccer ? "draw, " : ""}or ${lose}`, note];
+  }
+  if (l.market === "total" && l.line != null) {
+    const a = +l.line, whole = a % 1 === 0;
+    const n = l.side === "over" ? Math.floor(a) + 1 : Math.ceil(a) - 1;
+    return [`${n}${l.side === "over" ? "+" : " or fewer"} total ${unit(l.sport, n)}`, (whole ? refund(a, "") + " · " : "") + "both teams combined"];
+  }
+  return [l.selection, ""];
+}
+const describeText = l => { const [t, n] = describe(l); return n ? `${t} (${n})` : t; };
+
 // ------------------------------------------------------------------ tickets
 function legHTML(l, open = false) {
   const push = l.p_push > 0.01 ? ` · ${pct(l.p_push)} push` : "";
+  const k = l.kalshi;
   return `<div class="leg${open ? " open" : ""}">
     <button class="leg-main" aria-expanded="${open}" onclick="toggleOpen(this.parentElement)">
       <div class="grade ${l.grade}">${l.grade}</div>
-      <div class="leg-info"><div class="leg-sel">${esc(l.selection)}</div>
-        <div class="leg-sub">${esc(leagueName(l.sport))} · ${esc(l.short)} · ${when(l.start)}</div></div>
+      <div class="leg-info"><div class="leg-sel">${esc(describe(l)[0])}${describe(l)[1] ? ` <span class="note">${esc(describe(l)[1])}</span>` : ""}</div>
+        <div class="leg-sub"><span class="code">${esc(l.selection)}</span> · ${esc(l.short)} · ${when(l.start)}</div></div>
       <div class="leg-odds">${esc(l.odds_str)}<small>${pct(l.p)}</small></div>
       ${CHEV}
     </button>
@@ -511,7 +565,11 @@ function legHTML(l, open = false) {
       <div class="sub-h">Why</div>
       <ul class="reasons">${l.reasons.map(r => `<li>${esc(r)}</li>`).join("")}</ul>
       ${l.context.length ? `<div class="sub-h">Matchup</div><ul class="reasons ctx">${l.context.map(r => `<li>${esc(r)}</li>`).join("")}</ul>` : ""}
-      ${l.link ? `<a class="book" href="${esc(l.link)}" target="_blank" rel="noopener">Open on DraftKings →</a>` : ""}
+      <div class="links">
+        ${l.link ? `<a class="book" href="${esc(l.link)}" target="_blank" rel="noopener">DraftKings →</a>` : ""}
+        ${k ? `<a class="book kalshi" href="${esc(k.url)}" target="_blank" rel="noopener">Kalshi${k.price ? ` · ${k.price}¢` : ""} →</a>` : ""}
+      </div>
+      ${k && k.price ? `<div class="hint">Kalshi's price of ${k.price}¢ implies ${k.price}% for this outcome, vs our ${pct(l.p)}.</div>` : ""}
     </div></div></div>
   </div>`;
 }
@@ -529,8 +587,33 @@ function ticketHTML(title, legs, p, d, i = 0) {
     <div class="stake">$<input id="${id}" type="number" inputmode="decimal" min="0" value="${state.stake}" data-dec="${d}" aria-label="Stake">
       <span class="ev">EV ${ev >= 0 ? "+" : ""}${(ev * 100).toFixed(1)}%</span>
       <b id="${id}-pay">Pays $${(state.stake * d).toFixed(2)}</b></div>
+    <div class="t-actions">
+      <button class="t-btn" data-copy="${esc(legs.map(l => l.id).join(","))}">Copy legs</button>
+      ${legs.some(l => l.kalshi) ? `<span class="hint" style="margin:0">A checklist for rebuilding it as a Kalshi combo</span>` : ""}
+    </div>
   </div>`;
 }
+function legsText(legs) {
+  return legs.map((l, i) => `${i + 1}. ${describeText(l)} [${l.selection} ${l.odds_str}] · ${l.game} · ${when(l.start)}`
+    + (l.kalshi ? `\n   Kalshi: ${l.kalshi.url}` : "")).join("\n");
+}
+function toast(msg) {
+  let t = $("#toast");
+  if (!t) { t = document.createElement("div"); t.id = "toast"; document.body.appendChild(t); }
+  t.textContent = msg; t.classList.remove("show"); void t.offsetWidth; t.classList.add("show");
+}
+document.addEventListener("click", async e => {
+  const b = e.target.closest("[data-copy]");
+  if (!b) return;
+  const ids = b.dataset.copy.split(","), legs = ids.map(id => DATA.legs.find(l => l.id === id)).filter(Boolean);
+  const text = legsText(legs);
+  try { await navigator.clipboard.writeText(text); }
+  catch {
+    const ta = Object.assign(document.createElement("textarea"), { value: text });
+    document.body.appendChild(ta); ta.select(); document.execCommand("copy"); ta.remove();
+  }
+  toast("Parlay copied");
+});
 document.addEventListener("input", e => {
   if (!e.target.matches(".stake input")) return;
   const v = parseFloat(e.target.value) || 0;
