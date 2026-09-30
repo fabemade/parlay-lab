@@ -104,6 +104,7 @@ def main():
     log("[Kalshi]")
     try:
         kalshi.attach(all_games, all_legs, log=log)
+        kalshi.probe(log=log)  # temporary
     except Exception as e:  # links are a convenience; never let them sink the run
         log(f"  ! Kalshi lookup failed: {e}")
 

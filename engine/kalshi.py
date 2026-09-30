@@ -146,3 +146,26 @@ def attach(games: list[dict], legs: list[dict], log=print) -> None:
         leg["kalshi"] = {"url": k["url"]}
         if leg["market"] == "ml" and k["prices"].get(leg["side"]):
             leg["kalshi"]["price"] = k["prices"][leg["side"]]
+
+
+def probe(log=print) -> None:
+    """Temporary: log what Kalshi's spread/total markets look like, to build matching on."""
+    import json as _json
+    leagues = ["NFL", "NCAAF", "MLB", "NHL", "WNBA", "MLS", "NBA", "EPL"]
+    for lg in leagues:
+        for kind in ("SPREAD", "TOTAL", "RUNLINE", "PUCKLINE", "OU"):
+            series = f"KX{lg}{kind}"
+            try:
+                evs = _events(series)
+            except requests.RequestException as e:
+                continue
+            if not evs:
+                continue
+            ev = evs[0]
+            ms = ev.get("markets") or []
+            log(f"  PROBE {series}: {len(evs)} events; event={_json.dumps({k: ev.get(k) for k in ('event_ticker', 'title', 'sub_title')})}")
+            for m in ms[:3]:
+                keep = {k: m.get(k) for k in ("ticker", "title", "subtitle", "yes_sub_title", "no_sub_title",
+                                               "floor_strike", "cap_strike", "strike_type", "yes_ask", "yes_ask_dollars",
+                                               "no_ask", "no_ask_dollars", "custom_strike")}
+                log(f"    {_json.dumps(keep)}")
