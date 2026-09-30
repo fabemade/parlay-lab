@@ -422,7 +422,7 @@
    "p": 0.6472,
    "p_market": 0.5993,
    "grade": "A",
-   "close_odds": -162.0,
+   "close_odds": -155.0,
    "result": null
   },
   "401858474:spread:home": {
@@ -541,7 +541,7 @@
    "p": 0.5985,
    "p_market": 0.5674,
    "grade": "B",
-   "close_odds": -142.0,
+   "close_odds": -135.0,
    "result": null
   },
   "401862787:spread:home": {
@@ -644,6 +644,23 @@
    "p_market": 0.5046,
    "grade": "B",
    "close_odds": -112.0,
+   "result": null
+  },
+  "401860900:spread:home": {
+   "id": "401860900:spread:home",
+   "sport": "cfb",
+   "game_id": "401860900",
+   "short": "TXST @ SDSU",
+   "start": "2026-10-04T02:30Z",
+   "market": "spread",
+   "side": "home",
+   "selection": "SDSU +4.5",
+   "line": 4.5,
+   "odds": -115.0,
+   "p": 0.5478,
+   "p_market": 0.5116,
+   "grade": "B",
+   "close_odds": -115.0,
    "result": null
   }
  },
@@ -981,6 +998,20 @@
    "decimal": 5.308,
    "american": 431,
    "ev": 0.0701,
+   "result": null
+  },
+  {
+   "legs": [
+    "401860900:spread:home",
+    "401856822:ml:home",
+    "401858247:ml:home"
+   ],
+   "n": 3,
+   "mode": "value",
+   "p": 0.2003,
+   "decimal": 5.354,
+   "american": 435,
+   "ev": 0.0723,
    "result": null
   }
  ]
