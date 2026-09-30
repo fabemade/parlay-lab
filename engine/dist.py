@@ -12,7 +12,8 @@ from .sports import Sport
 # normal curve misses that, which matters most for spreads near 3 and 7.
 NFL_KEY_WEIGHTS = {0: 0.25, 1: 0.9, 2: 0.9, 3: 2.5, 4: 1.3, 6: 1.3, 7: 1.8, 8: 1.1, 10: 1.4, 14: 1.3}
 ENG_SHIFT = 0.22       # share of regulation one-goal NHL results that become two-goal (empty net)
-WALKOFF_SHIFT = 0.08   # share of 2+ run MLB home wins that end as one-run wins instead
+WALKOFF_SHIFT = 0.08
+NHL_TIE_BOOST = 1.18   # scales regulation-tie cells up to match the league's ~23% overtime rate   # share of 2+ run MLB home wins that end as one-run wins instead
 
 
 class Outcome:
@@ -54,6 +55,12 @@ class Outcome:
             M[1, 1] *= 1 - rho
             M /= M.sum()
         if self.sport.key == "nhl":
+            # Tied games after regulation happen more often than independent scoring predicts
+            # (score effects: the trailing team pushes, the leader sits back). Real OT rate ~23%.
+            M = M.copy()
+            idx = np.arange(min(M.shape))
+            M[idx, idx] *= NHL_TIE_BOOST
+            M /= M.sum()
             # Empty-net goals: a team trailing by one late pulls its goalie, and about a
             # fifth of those games end as two-goal wins. Plain Poisson misses this, which
             # makes +1.5 puck lines look safer than they are.

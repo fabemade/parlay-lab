@@ -67,8 +67,21 @@ def run_sport(sport, days: list[dt.date], today: dt.date) -> tuple[list[dict], d
         game_rows.append({"id": g["id"], "sport": sport.key, "short": g["short"], "name": g["name"],
                           "start": g["date"], "home": g["home"], "away": g["away"],
                           "exp_home": round(gm.exp[0], 2), "exp_away": round(gm.exp[1], 2),
-                          "venue": g.get("venue"), "note": g.get("note")})
+                          "venue": g.get("venue"), "note": g.get("note"), "broadcast": g.get("broadcast"),
+                          "context": gm.game_lines()})
     return legs, results, game_rows, models
+
+
+GAME_FIELDS = ("home", "away", "game", "short", "start", "venue", "broadcast", "note", "context",
+               "sport_name", "headline", "link")
+
+
+def slim(leg: dict) -> dict:
+    """Drop per-game fields repeated on every leg; the app re-attaches them from `games`."""
+    out = {k: v for k, v in leg.items() if k not in GAME_FIELDS and v is not None}
+    if leg.get("group", "Game lines") == "Game lines":
+        out.pop("group", None)
+    return out
 
 
 def main():
@@ -124,6 +137,10 @@ def main():
     v = parlay.build(all_legs, 3, mode="value", min_hit=0.2, min_edge=0.005)
     if v:
         featured["value_3"] = v
+    props = [l for l in all_legs if l.get("market") == "prop"]
+    pp = parlay.build(props, 3, mode="safest", target_american=150, min_edge=0.005)
+    if pp and pp["p"] >= 0.18:
+        featured["props_3"] = pp
     straights = [l["id"] for l in sorted(parlay.eligible(all_legs, min_edge=0.005),
                                          key=lambda l: -l["ev"]) if l["p"] >= 0.45][:8]
 
@@ -132,20 +149,39 @@ def main():
     if featured_ids:
         grade.record_picks(today.isoformat(), all_legs, list(featured.values()), featured_ids)
 
+    # Modeled bets go in picks.json (the builder searches them). Bets we can only list at
+    # Kalshi's price go in one small file per game, loaded when that game is opened.
+    game_ids = {l["game_id"] for l in all_legs}
+    all_games = [g for g in all_games if g["id"] in game_ids]
+    main_legs = [slim(l) for l in all_legs if l.get("modeled", True)]
+    other: dict[str, list] = {}
+    for l in all_legs:
+        if not l.get("modeled", True):
+            other.setdefault(l["game_id"], []).append(slim(l))
+    games_dir = OUT.parent / "games"
+    games_dir.mkdir(parents=True, exist_ok=True)
+    for f in games_dir.glob("*.json"):
+        f.unlink()
+    for gid, ls in other.items():
+        (games_dir / f"{gid}.json").write_text(json.dumps(ls, separators=(",", ":")))
+    for g in all_games:
+        g["n_other"] = len(other.get(g["id"], []))
     payload = {
         "generated_at": now.isoformat(timespec="minutes"),
         "date": today.isoformat(),
         "sports": [k for k in SPORTS if k in {l["sport"] for l in all_legs}],
         "sport_names": {k: SPORTS[k].name for k in {l["sport"] for l in all_legs}},
         "games": all_games,
-        "legs": all_legs,
+        "legs": main_legs,
         "featured": featured,
         "straights": straights,
         "record": grade.summary(),
     }
     OUT.parent.mkdir(parents=True, exist_ok=True)
     OUT.write_text(json.dumps(payload, separators=(",", ":")))
-    log(f"\n{len(all_legs)} bets priced across {len(all_games)} games in {time.time() - t0:.0f}s -> {OUT.relative_to(ROOT)}")
+    log(f"\n{len(all_legs)} bets across {len(all_games)} games ({len(main_legs)} modeled, "
+        f"{len(all_legs) - len(main_legs)} at market price) in {time.time() - t0:.0f}s -> {OUT.relative_to(ROOT)} "
+        f"({OUT.stat().st_size / 1e6:.1f} MB)")
 
     by_id = {l["id"]: l for l in all_legs}
     for name, p in featured.items():

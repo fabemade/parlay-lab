@@ -28,6 +28,9 @@ python3 -m venv .venv && .venv/bin/pip install -r requirements.txt
 .venv/bin/python -m http.server 8765 --directory site   # then open http://localhost:8765
 ```
 
+`market_check.py` shows, per market type, how far the model leans from Kalshi on average
+(run it after `run.py`).
+
 `run.py` options: `--sports nfl,mlb,nhl`, `--date 2026-10-04`, `--days 2`.
 Sport keys: `nfl cfb nba ncaab wnba mlb nhl soccer_eng.1 soccer_esp.1 soccer_ita.1
 soccer_ger.1 soccer_fra.1 soccer_usa.1 soccer_uefa.champions soccer_mex.1`.
@@ -52,9 +55,13 @@ engine/
   parlay.py    parlay search
   grade.py     pick log, grading, track record
   odds.py      odds conversions, de-vig, EV
+  kalshi.py    Kalshi markets: discovery, matching, pricing every contract, de-biasing
+  players.py   player props from ESPN game logs
+  markets.py   periods, team totals and specials
   sports.py    per-sport settings
 run.py         daily pipeline
 backtest.py    walk-forward backtest and calibration
+market_check.py  model-vs-Kalshi lean per market type
 site/          the phone web app (static; reads site/data/picks.json)
 data/          results history, calibration, pick logs
 ```

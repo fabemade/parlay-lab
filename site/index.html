@@ -168,6 +168,25 @@ section[hidden] { display: none; }
 .grade.B { background: #2b7a5a; color: #dffbef; }
 .grade.C { background: #6b5a2a; color: #fff1cc; }
 .grade.D { background: #3a2a2a; color: #ffd6d6; }
+.grade.M { background: var(--panel-2); color: var(--faint); font-size: 11px; }
+/* markets browser */
+.mgroup { border-top: 1px solid var(--line); }
+.mgroup:first-child { border-top: 0; }
+.mgroup > button { width: 100%; display: flex; align-items: center; gap: 10px; padding: 15px 16px; font-weight: 700; text-align: left; }
+.mgroup > button .n { margin-left: auto; font-size: 12px; font-weight: 600; color: var(--faint); }
+.mgroup .leg { border-top: 1px solid var(--line); }
+.msub { font-size: 11px; text-transform: uppercase; letter-spacing: .08em; color: var(--faint); font-weight: 700; padding: 14px 16px 6px; border-top: 1px solid var(--line); }
+.top3 { margin-top: 10px; display: grid; gap: 6px; }
+.top3 .mk { display: flex; justify-content: space-between; gap: 10px; width: 100%; text-align: left; font-family: inherit; font-size: 13px; }
+.top3 .mk b { font-family: var(--mono); font-weight: 600; }
+.allmk { margin-top: 10px; width: 100%; padding: 11px; border-radius: 12px; background: var(--panel-2); font-weight: 700; font-size: 14px; }
+.slip-add { margin-top: 12px; }
+.slip-add[aria-pressed="true"] { background: var(--accent-soft); color: var(--accent); }
+#slip-bar { position: fixed; left: 50%; transform: translateX(-50%); bottom: calc(76px + env(safe-area-inset-bottom)); z-index: 12;
+  width: min(608px, calc(100% - 32px)); display: flex; align-items: center; gap: 12px; padding: 12px 16px; border-radius: 16px;
+  background: var(--accent); color: var(--accent-ink); font-weight: 800; box-shadow: 0 10px 30px rgba(0,0,0,.4); animation: rise .35s var(--ease) both; }
+#slip-bar[hidden] { display: none; }
+#slip-bar .sp { margin-left: auto; font-family: var(--mono); }
 .leg-sel { font-weight: 700; font-size: 15.5px; }
 .leg-sel .note { font-weight: 500; font-size: 12px; color: var(--faint); white-space: nowrap; }
 .leg-sub { font-size: 12.5px; color: var(--muted); margin-top: 2px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
@@ -312,6 +331,9 @@ nav.tabs button[aria-selected="true"] svg { transform: translateY(-2px) scale(1.
           <div class="seg" id="day-seg"></div>
           <div class="label">Bet types</div>
           <div class="chips" id="market-chips"></div>
+          <div class="label">Same-game legs</div>
+          <div class="seg" id="same-seg"></div>
+          <div class="hint">Allowing them adds props from the same game (say, two players). Legs in one game can move together, so the hit chance is a rough estimate.</div>
           <div class="label">Highest price per leg</div>
           <div class="seg" id="juice-seg"></div>
           <div class="label">Minimum edge</div>
@@ -364,6 +386,8 @@ nav.tabs button[aria-selected="true"] svg { transform: translateY(-2px) scale(1.
   </section>
 </div>
 
+<button id="slip-bar" hidden></button>
+
 <div class="sheet" id="sheet" hidden>
   <div class="sheet-bg"></div>
   <div class="sheet-panel"><button class="grabber" aria-label="Close"></button><div class="wrap" id="sheet-body"></div></div>
@@ -415,10 +439,42 @@ const LEAGUE_NAMES = {
 let DATA = null, GROUP_LIST = [], COUNTS = {};
 const state = {
   sports: new Set(), day: "all", legs: 3, mode: "safest", target: 150,
-  juice: -250, edge: 0, markets: new Set(["ml", "spread", "total"]),
+  juice: -250, edge: 0, markets: new Set(["lines", "props", "periods", "team", "specials"]), sameGame: false,
+  slip: store.get("slip", []),
   stake: store.get("stake", 10), gameGroup: "all", gameSport: "all",
 };
 
+// Bet-type buckets for the builder filter
+const BET_TYPES = [["lines", "Game lines"], ["props", "Player props"], ["periods", "Halves & periods"], ["team", "Team props"], ["specials", "Specials"]];
+function betType(l) {
+  const g = l.group || "Game lines";
+  if (g === "Game lines") return "lines";
+  if (g === "Player props") return "props";
+  if (g === "Team props") return "team";
+  if (g === "Game specials") return "specials";
+  return "periods";
+}
+const GROUP_ORDER = ["Game lines", "Player props", "1st half", "2nd half", "1st quarter", "2nd quarter", "3rd quarter", "4th quarter",
+  "1st period", "2nd period", "3rd period", "First 3 innings", "First 5 innings", "First 7 innings", "Team props", "Game specials"];
+const LEGS = {};
+let GAMES = {};
+function headlineOf(l) {
+  if (l.modeled === false) return `Priced at Kalshi's market (${pct(l.p_market)}). We don't model this bet type yet`;
+  const e = l.edge * 100;
+  return `${pct(l.p)} to hit by our model vs ${pct(l.p_market)} fair market odds; the price needs ${pct(l.p_breakeven)} to break even`
+    + (e >= 0.5 ? ` (+${e.toFixed(1)}% edge)` : " (no edge at this price)");
+}
+function attach(l) {
+  const g = GAMES[l.game_id];
+  if (g) {
+    l.home ??= g.home; l.away ??= g.away; l.short ??= g.short; l.start ??= g.start; l.game ??= g.name;
+    l.context ??= (!l.group || l.group === "Game lines") ? (g.context || []) : [];
+  }
+  l.group ||= "Game lines"; l.reasons ||= []; l.context ||= []; l.p_push ||= 0;
+  l.headline ||= headlineOf(l); l.odds_str ||= fmtOdds(l.odds);
+  LEGS[l.id] = l;
+  return l;
+}
 const leagueName = k => (DATA && DATA.sport_names[k]) || LEAGUE_NAMES[k] || k;
 const upcomingGames = () => DATA.games.filter(g => new Date(g.start) > new Date());
 const liveLeagues = g => g.leagues.filter(k => COUNTS[k]);
@@ -471,13 +527,14 @@ function eligible(opts) {
   const today = todayKey();
   return DATA.legs.filter(l =>
     (opts.sports.size === 0 || opts.sports.has(l.sport)) &&
-    opts.markets.has(l.market) &&
+    opts.markets.has(betType(l)) &&
     l.odds >= opts.juice && l.odds <= 200 &&
     l.edge >= opts.edge &&
     new Date(l.start) > new Date() &&
     (opts.day === "all" || (opts.day === "today" ? localDay(l.start) === today : localDay(l.start) !== today))
   );
 }
+const marketOf = l => l.kalshi && l.kalshi.ticker ? l.kalshi.ticker.replace(/-[^-]+$/, "") + (l.player ? ":" + l.player : "") : l.game_id + ":" + l.market;
 function* combos(arr, k, start = 0, acc = []) {
   if (acc.length === k) { yield acc.slice(); return; }
   for (let i = start; i <= arr.length - (k - acc.length); i++) { acc.push(arr[i]); yield* combos(arr, k, i + 1, acc); acc.pop(); }
@@ -485,8 +542,9 @@ function* combos(arr, k, start = 0, acc = []) {
 function search(opts, exclude = new Set()) {
   const key = opts.mode === "safest" ? l => l.p : l => l.ev;
   const perGame = {};
+  const perGameMax = opts.sameGame ? 3 : 2;
   eligible(opts).filter(l => !exclude.has(l.id)).sort((a, b) => key(b) - key(a)).forEach(l => {
-    (perGame[l.game_id] ||= []); if (perGame[l.game_id].length < 2) perGame[l.game_id].push(l);
+    (perGame[l.game_id] ||= []); if (perGame[l.game_id].length < perGameMax) perGame[l.game_id].push(l);
   });
   const n = opts.legs;
   const pool = Object.values(perGame).flat().sort((a, b) => key(b) - key(a)).slice(0, n >= 5 ? 16 : 22);
@@ -494,7 +552,8 @@ function search(opts, exclude = new Set()) {
   let best = null, bestScore = -Infinity;
   for (const c of combos(pool, Math.min(n, pool.length))) {
     if (c.length < n) break;
-    if (new Set(c.map(l => l.game_id)).size < n) continue;
+    // one leg per game, or with same-game legs on: never two legs from the same Kalshi market
+    if (new Set(c.map(l => opts.sameGame ? marketOf(l) : l.game_id)).size < n) continue;
     const p = c.reduce((a, l) => a * l.p, 1), d = c.reduce((a, l) => a * dec(l.odds), 1);
     let score;
     if (opts.mode === "safest") { if (d < target) continue; score = p; }
@@ -568,6 +627,7 @@ function legHTML(l, open = false) {
         ${k ? `<a class="book kalshi" href="${esc(k.url)}" target="_blank" rel="noopener">Kalshi${k.price ? ` · ${k.price}¢` : ""} →</a>` : ""}
       </div>
       ${k ? `<div class="hint">Kalshi: ${esc(k.contract)} at ${k.price}¢ (pays $1). Our estimate: ${pct(l.p)}.</div>` : ""}
+      <button class="t-btn slip-add" data-slip="${esc(l.id)}" aria-pressed="${state.slip.includes(l.id)}">${state.slip.includes(l.id) ? "✓ In my slip" : "+ Add to my slip"}</button>
     </div></div></div>
   </div>`;
 }
@@ -603,7 +663,7 @@ function toast(msg) {
 document.addEventListener("click", async e => {
   const b = e.target.closest("[data-copy]");
   if (!b) return;
-  const ids = b.dataset.copy.split(","), legs = ids.map(id => DATA.legs.find(l => l.id === id)).filter(Boolean);
+  const ids = b.dataset.copy.split(","), legs = ids.map(id => LEGS[id]).filter(Boolean);
   const text = legsText(legs);
   try { await navigator.clipboard.writeText(text); }
   catch {
@@ -707,7 +767,8 @@ function renderBuild() {
   seg($("#juice-seg"), [[-150, "60¢"], [-200, "67¢"], [-250, "71¢"], [-350, "78¢"]], () => state.juice, v => state.juice = +v);
   seg($("#edge-seg"), [[-1, "Any"], [-0.02, "Near fair"], [0, "+EV"], [0.02, "2%+"]], () => state.edge, v => state.edge = +v);
   const mc = $("#market-chips");
-  mc.innerHTML = [["ml", "Moneyline"], ["spread", "Spread"], ["total", "Totals"]].map(([v, l]) => `<button class="chip" data-v="${v}">${l}</button>`).join("");
+  mc.innerHTML = BET_TYPES.map(([v, l]) => `<button class="chip" data-v="${v}">${l}</button>`).join("");
+  seg($("#same-seg"), [[0, "One per game"], [1, "Allow"]], () => +state.sameGame, v => state.sameGame = !!+v);
   const syncM = () => $$(".chip", mc).forEach(c => c.setAttribute("aria-pressed", state.markets.has(c.dataset.v)));
   mc.onclick = e => {
     const c = e.target.closest(".chip"); if (!c) return;
@@ -730,7 +791,7 @@ function renderBuild() {
 // ------------------------------------------------------------------ top picks
 function renderPicks() {
   const byId = Object.fromEntries(DATA.legs.map(l => [l.id, l]));
-  const names = { safest_2: "Safest 2-leg", safest_3: "Safest 3-leg", safest_4: "Safest 4-leg", value_3: "Best-value 3-leg" };
+  const names = { safest_2: "Safest 2-leg", safest_3: "Safest 3-leg", safest_4: "Safest 4-leg", value_3: "Best-value 3-leg", props_3: "Player props 3-leg" };
   let i = 0;
   const f = Object.entries(DATA.featured || {}).map(([k, p]) => {
     const legs = p.legs.map(id => byId[id]).filter(Boolean);
@@ -769,12 +830,15 @@ function renderGames() {
   games.forEach((g, i) => {
     const day = dayLabel(g.start);
     if (day !== lastDay) { html += `<div class="day-h">${esc(day)}</div>`; lastDay = day; }
-    const legs = legsBy[g.id].sort((a, b) => a.market.localeCompare(b.market));
+    const legs = legsBy[g.id];
+    const top = legs.filter(l => l.edge > 0).sort((a, b) => b.edge - a.edge).slice(0, 3);
+    const total = legs.length + (g.n_other || 0);
     html += `<div class="game" style="--i:${i}">
       <div class="teams"><img src="${esc(g.away.logo)}" alt="" loading="lazy" onerror="this.style.visibility='hidden'">${esc(g.away.name)}<span class="sc">${g.exp_away.toFixed(1)}</span></div>
       <div class="teams"><img src="${esc(g.home.logo)}" alt="" loading="lazy" onerror="this.style.visibility='hidden'">${esc(g.home.name)}<span class="sc">${g.exp_home.toFixed(1)}</span></div>
       <div class="gmeta">${esc(leagueName(g.sport))} · ${clock(g.start)}${g.note ? " · " + esc(g.note) : ""} · projected score</div>
-      <div class="mkts">${legs.map(l => `<button class="mk ${l.edge >= 0.01 ? "pos" : ""}" data-leg="${esc(l.id)}">${esc(l.selection)} · ${l.kalshi ? l.kalshi.price + "¢" : esc(l.odds_str)}</button>`).join("")}</div>
+      ${top.length ? `<div class="top3">${top.map(l => `<button class="mk pos" data-leg="${esc(l.id)}"><span>${esc(l.selection)}</span><b>${l.kalshi ? l.kalshi.price + "¢" : esc(l.odds_str)} · ${pct(l.p)}</b></button>`).join("")}</div>` : ""}
+      <button class="allmk" data-game="${esc(g.id)}">All ${total} markets →</button>
     </div>`;
   });
   $("#games").innerHTML = html;
@@ -788,9 +852,78 @@ $("#game-leagues").onclick = e => {
   state.gameSport = c.dataset.v; renderGames();
 };
 $("#games").onclick = e => {
+  const all = e.target.closest(".allmk[data-game]");
+  if (all) { openMarkets(all.dataset.game); return; }
   const b = e.target.closest(".mk[data-leg]"); if (!b) return;
-  const l = DATA.legs.find(x => x.id === b.dataset.leg);
+  const l = LEGS[b.dataset.leg];
   if (l) openSheet(`<div class="ticket">${legHTML(l, true)}</div>`);
+};
+
+// ------------------------------------------------------------------ every market for one game
+const otherCache = {};
+async function openMarkets(gid) {
+  const g = GAMES[gid];
+  openSheet(`<h2 style="margin-top:4px">${esc(g.name)}</h2><div class="hint">Loading every market…</div>`);
+  let legs = DATA.legs.filter(l => l.game_id === gid);
+  if (g.n_other) {
+    try {
+      otherCache[gid] ||= (await fetch(`data/games/${gid}.json`, { cache: "no-store" }).then(r => r.json())).map(attach);
+      legs = legs.concat(otherCache[gid]);
+    } catch (err) { console.error(err); }
+  }
+  const groups = {};
+  legs.forEach(l => (groups[l.group] ||= []).push(l));
+  const order = Object.keys(groups).sort((a, b) => (GROUP_ORDER.indexOf(a) + 99) % 99 - (GROUP_ORDER.indexOf(b) + 99) % 99);
+  const byEdge = (a, b) => (b.modeled !== false) - (a.modeled !== false) || b.edge - a.edge;
+  const section = (name, ls) => {
+    // player props: one sub-list per player; everything else: one per market
+    const key = name === "Player props" ? (l => l.player || "Other") : (l => l.market_name || "");
+    const sub = {};
+    ls.forEach(l => (sub[key(l)] ||= []).push(l));
+    const names = Object.keys(sub).sort((a, b) => Math.max(...sub[b].map(l => l.edge)) - Math.max(...sub[a].map(l => l.edge)));
+    return names.map(n => `${names.length > 1 || n ? `<div class="msub">${esc(n || name)}</div>` : ""}${sub[n].sort(byEdge).map(l => legHTML(l)).join("")}`).join("");
+  };
+  $("#sheet-body").innerHTML = `<h2 style="margin-top:4px">${esc(g.name)}</h2>
+    <div class="hint" style="margin-bottom:12px">${legs.length} markets · sorted by edge · tap any bet for the reasoning, then add it to your slip</div>
+    <div class="card" style="padding:0">${order.map((name, i) => `<div class="mgroup${i === 0 ? " open" : ""}" data-name="${esc(name)}">
+      <button aria-expanded="${i === 0}">${esc(name)}<span class="n">${groups[name].length}</span>${CHEV}</button>
+      <div class="collapse"><div>${i === 0 ? section(name, groups[name]) : ""}</div></div></div>`).join("")}</div>`;
+  $$("#sheet-body .mgroup > button").forEach(b => b.onclick = () => {
+    const el = b.parentElement, body = $(".collapse > div", el);
+    if (!body.innerHTML) body.innerHTML = section(el.dataset.name, groups[el.dataset.name]);
+    toggleOpen(el);
+  });
+}
+
+// ------------------------------------------------------------------ my slip
+function slipLegs() { return state.slip.map(id => LEGS[id]).filter(l => l && new Date(l.start) > new Date()); }
+function syncSlip() {
+  state.slip = slipLegs().map(l => l.id);
+  store.set("slip", state.slip);
+  const legs = slipLegs(), bar = $("#slip-bar");
+  $$("[data-slip]").forEach(b => { const on = state.slip.includes(b.dataset.slip); b.setAttribute("aria-pressed", on); b.textContent = on ? "✓ In my slip" : "+ Add to my slip"; });
+  if (!legs.length) { bar.hidden = true; return; }
+  const p = legs.reduce((a, l) => a * l.p, 1), d = legs.reduce((a, l) => a * dec(l.odds), 1);
+  bar.innerHTML = `My slip · ${plural(legs.length, "leg")}<span class="sp">${fmtOdds(toAmerican(d))} · ${pct(p)}</span>`;
+  bar.hidden = false;
+}
+document.addEventListener("click", e => {
+  const b = e.target.closest("[data-slip]");
+  if (!b) return;
+  const id = b.dataset.slip;
+  state.slip = state.slip.includes(id) ? state.slip.filter(x => x !== id) : [...state.slip, id];
+  syncSlip();
+  toast(state.slip.includes(id) ? "Added to your slip" : "Removed from your slip");
+});
+$("#slip-bar").onclick = () => {
+  const legs = slipLegs();
+  if (!legs.length) return;
+  const p = legs.reduce((a, l) => a * l.p, 1), d = legs.reduce((a, l) => a * dec(l.odds), 1);
+  const games = new Set(legs.map(l => l.game_id)).size;
+  openSheet(`<h2 style="margin-top:4px">My slip</h2>` + ticketHTML(legs.length === 1 ? "Straight bet" : `${legs.length}-leg parlay`, legs, p, d)
+    + (games < legs.length ? `<div class="hint">Some legs share a game, so they can move together; treat the hit chance as rough.</div>` : "")
+    + `<button class="t-btn" id="slip-clear" style="margin-top:14px">Clear slip</button>`);
+  $("#slip-clear").onclick = () => { state.slip = []; syncSlip(); closeSheet(); };
 };
 
 // ------------------------------------------------------------------ bottom sheet
@@ -867,10 +1000,13 @@ $("nav.tabs").addEventListener("click", e => { const b = e.target.closest("butto
 
 fetch("data/picks.json", { cache: "no-store" }).then(r => r.json()).then(d => {
   DATA = d;
+  GAMES = Object.fromEntries(d.games.map(g => [g.id, g]));
+  d.legs.forEach(attach);
   prepare();
   $("#loading").remove();
-  $("#stamp").textContent = "Updated " + new Date(d.generated_at).toLocaleString([], { weekday: "short", hour: "numeric", minute: "2-digit" });
-  renderBuild(); renderPicks(); renderGames(); renderRecord();
+  const nBets = d.legs.length + d.games.reduce((a, g) => a + (g.n_other || 0), 0);
+  $("#stamp").textContent = "Updated " + new Date(d.generated_at).toLocaleString([], { weekday: "short", hour: "numeric", minute: "2-digit" }) + ` · ${nBets.toLocaleString()} bets`;
+  renderBuild(); renderPicks(); renderGames(); renderRecord(); syncSlip();
   showTab(store.get("tab", "build"));
 }).catch(err => {
   $("#loading").innerHTML = `<div class="error">Couldn't load today's board.<br><button onclick="location.reload()">Try again</button></div>`;

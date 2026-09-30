@@ -9,7 +9,13 @@ from __future__ import annotations
 import json
 from pathlib import Path
 
+import datetime as dt
+
+import requests
+
 from .odds import american_to_decimal, implied_prob
+
+KALSHI_API = "https://api.elections.kalshi.com/trade-api/v2"
 
 LOG_DIR = Path(__file__).resolve().parent.parent / "data" / "log"
 
@@ -26,8 +32,10 @@ def record_picks(day: str, legs: list[dict], parlays: list[dict], featured_ids: 
     by_id = {l["id"]: l for l in legs}
     for lid in featured_ids:
         leg = by_id[lid]
-        slim = {k: leg[k] for k in ("id", "sport", "game_id", "short", "start", "market", "side",
-                                    "selection", "line", "odds", "p", "p_market", "grade")}
+        slim = {k: leg.get(k) for k in ("id", "sport", "game_id", "short", "start", "market", "side",
+                                        "selection", "line", "odds", "p", "p_market", "grade", "group")}
+        if leg.get("kalshi"):
+            slim["kalshi"] = {"ticker": leg["kalshi"].get("ticker"), "buy": leg["kalshi"].get("buy")}
         if lid in log["legs"]:
             log["legs"][lid]["close_odds"] = leg["odds"]
         else:
@@ -61,6 +69,25 @@ def _result(leg: dict, g: dict) -> str:
     return "P"
 
 
+def _kalshi_result(ticker: str, buy: str, start: str) -> str | None:
+    """W / L / P from Kalshi's settled market, or None while it's still open."""
+    try:
+        if dt.datetime.fromisoformat(start.replace("Z", "+00:00")) > dt.datetime.now(dt.timezone.utc) - dt.timedelta(hours=3):
+            return None
+        r = requests.get(f"{KALSHI_API}/markets/{ticker}", timeout=20)
+        if not r.ok:
+            return None
+        m = r.json().get("market") or {}
+    except (requests.RequestException, ValueError):
+        return None
+    res = (m.get("result") or "").lower()
+    if res in ("yes", "no"):
+        return "W" if res == buy else "L"
+    if m.get("status") in ("settled", "finalized") and res in ("void", "all_no", ""):
+        return "P"
+    return None
+
+
 def grade_all(results_by_sport: dict[str, dict[str, dict]]):
     """results_by_sport: sport -> game_id -> finished game record."""
     for path in sorted(LOG_DIR.glob("*.json")):
@@ -68,6 +95,14 @@ def grade_all(results_by_sport: dict[str, dict[str, dict]]):
         changed = False
         for leg in log["legs"].values():
             if leg["result"] is None:
+                k = leg.get("kalshi") or {}
+                if k.get("ticker"):
+                    # Kalshi's own settlement grades every contract type (props included)
+                    r = _kalshi_result(k["ticker"], k.get("buy", "yes"), leg["start"])
+                    if r:
+                        leg["result"] = r
+                        changed = True
+                    continue
                 g = results_by_sport.get(leg["sport"], {}).get(leg["game_id"])
                 if g:
                     leg["result"] = _result(leg, g)

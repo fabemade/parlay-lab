@@ -45,7 +45,7 @@ SPORTS: dict[str, Sport] = {s.key: s for s in [
           history_days=200, ridge=3.0, w_model=0.30, params={"groups": 50, "limit": 400}),
     Sport("wnba", "WNBA", "basketball/wnba", "gaussian", margin_sd=11.5, total_sd=15.0,
           home_adv_prior=2.0, half_life_days=90, history_days=200, ridge=3.0, w_model=0.30,
-          postseason_total=0.96),
+          postseason_total=0.98),
     Sport("mlb", "MLB", "baseball/mlb", "poisson", home_adv_prior=0.035, dispersion=0.10,
           half_life_days=60, history_days=240, ridge=25.0, w_model=0.30,
           market_w={"spread": 0.6, "total": 0.35}, postseason_total=0.90),

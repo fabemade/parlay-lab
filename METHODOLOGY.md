@@ -170,10 +170,58 @@ doesn't keep historical odds. So the app logs its own prices from now on. The tr
 are hit rate vs expected hit rate (calibration), profit in units, and **closing-line value
 (CLV)**, the best-known early indicator of a real edge.
 
-## 8. Roadmap
+## 8. Every Kalshi market: props, periods, specials
 
-- **Player props** (points, rebounds, strikeouts, shots on goal): needs prop lines (The Odds
-  API's free tier covers some), plus player game logs vs opponent, minutes and usage
+The app lists every per-game contract Kalshi offers. For a typical NFL game that's about
+1,000 contracts across 60+ market types. Kalshi's sports series are scanned every two days
+(`data/kalshi_series.json`) to find which ones hold per-game markets, and each contract is
+priced one of three ways.
+
+**Player props** (`engine/players.py`): points, rebounds, assists, threes and combos;
+passing/rushing/receiving yards, attempts, completions, receptions, TDs, INTs; hits, HRs,
+total bases, RBIs, H+R+RBI, SBs; pitcher strikeouts, outs, hits/walks/earned runs allowed;
+NHL goals, assists, points, saves; soccer goals, shots and shots on target.
+- Each player's ESPN game log (this season, plus last season at half weight when the sample
+  is small), with recent games weighted more (half-life of 8 games).
+- Scaled to tonight's matchup. If the game model projects a team 10% above its usual
+  scoring, its players' scoring stats move up with it. Pitcher and goalie "allowed" stats
+  move with the *opponent's* projection.
+- Counts (hits, goals, strikeouts, receptions) use a negative binomial fit to the player's
+  own game-to-game spread. Yardage and big totals use a normal distribution. Both are
+  shrunk toward typical spreads so a hot five-game stretch doesn't dominate.
+- MLB playoff starters are projected about 12% lower in workload (quicker hooks).
+- The reasons show the recent average, the hit rate at that exact line over the last 10 and
+  the longer sample, home/road splits, recent games against this opponent, the matchup
+  adjustment and tonight's projection.
+
+**Periods and team markets** (`engine/markets.py`): quarter, half, period and
+first-3/5/7-innings winners, spreads and totals, team totals, both-teams-to-score,
+overtime/extra innings, correct score, winning-margin bands, YRFI/NRFI, and a goal in the
+first 10 minutes. Each period gets its own score distribution:
+- **Football:** each team's points = 7 × Poisson(TDs) + 3 × Poisson(FGs), which reproduces
+  scores clustering on 0, 3, 7, 10, 14 and the frequent 0-0 / 7-7 quarters.
+- **Basketball:** normal margins and totals, slightly wider for single quarters than simple
+  scaling suggests.
+- **Low-scoring sports:** scaled Poisson / negative binomial rates. NHL 2nd periods run
+  highest, and regulation ties are boosted to the real ~23% overtime rate.
+
+**Everything else** (first TD scorer, fantasy ladders, sacks, corners…) is listed at
+Kalshi's own price with grade **M** (market only): available for your slip, never
+presented as an edge.
+
+**De-biasing.** After pricing, the model's median log-odds gap to Kalshi is measured for each
+(league, market type) with 8+ contracts and removed. A model that runs 7% high on every
+2nd-quarter total has a modelling error for that market type, not seven edges. What's left
+are the contract-to-contract differences. `python market_check.py` prints the remaining
+lean per market type after each run.
+
+**Grading.** Every logged pick is graded from Kalshi's own settlement, so props and specials
+are scored as reliably as game lines.
+
+## 9. Roadmap
+
+- **Props:** minutes/usage projections and opponent positional defense (e.g. yards allowed to
+  WRs); confirmed lineups and batting order for MLB
 - **NHL starting goalies** (confirmed starters and save % above expected)
 - **NFL/CFB:** QB-adjusted ratings, weather for totals (wind above 15 mph lowers scoring),
   travel and time-zone effects

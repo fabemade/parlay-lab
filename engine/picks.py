@@ -344,7 +344,8 @@ def summarize(leg: dict) -> str:
 
 def finalize(legs: list[dict]) -> list[dict]:
     for leg in legs:
-        leg["grade"] = confidence(leg)
+        # M = listed at Kalshi's price only; we have no model for that bet type yet
+        leg["grade"] = "M" if leg.get("modeled") is False else confidence(leg)
         leg["headline"] = summarize(leg)
         leg["odds_str"] = _fmt_odds(leg["odds"])
     return legs
