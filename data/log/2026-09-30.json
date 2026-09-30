@@ -934,6 +934,270 @@
    "grade": "B",
    "close_odds": -121,
    "result": null
+  },
+  "401907963:KXMLBHIT-26SEP302000BOSNYY-NYYTGRISHAM12-1:no": {
+   "id": "401907963:KXMLBHIT-26SEP302000BOSNYY-NYYTGRISHAM12-1:no",
+   "sport": "mlb",
+   "game_id": "401907963",
+   "short": "BOS @ NYY",
+   "start": "2026-10-01T00:00Z",
+   "market": "prop",
+   "side": "under",
+   "selection": "Trent Grisham: no hits",
+   "line": 0.5,
+   "odds": -103,
+   "p": 0.5285,
+   "p_market": 0.4851,
+   "grade": "A",
+   "group": "Player props",
+   "kalshi": {
+    "ticker": "KXMLBHIT-26SEP302000BOSNYY-NYYTGRISHAM12-1",
+    "buy": "no"
+   },
+   "close_odds": -103,
+   "result": null
+  },
+  "401891780:KXNHLPTS-26SEP30LACOL-LAALAFERRIERE14-1:yes": {
+   "id": "401891780:KXNHLPTS-26SEP30LACOL-LAALAFERRIERE14-1:yes",
+   "sport": "nhl",
+   "game_id": "401891780",
+   "short": "LA @ COL",
+   "start": "2026-10-01T02:00Z",
+   "market": "prop",
+   "side": "over",
+   "selection": "Alex Laferriere 1+ points",
+   "line": 0.5,
+   "odds": 134,
+   "p": 0.4514,
+   "p_market": 0.402,
+   "grade": "B",
+   "group": "Player props",
+   "kalshi": {
+    "ticker": "KXNHLPTS-26SEP30LACOL-LAALAFERRIERE14-1",
+    "buy": "yes"
+   },
+   "close_odds": 134,
+   "result": null
+  },
+  "401907975:KXMLBKS-26SEP302200CHCSD-CHCKGAUSMAN34-4:yes": {
+   "id": "401907975:KXMLBKS-26SEP302200CHCSD-CHCKGAUSMAN34-4:yes",
+   "sport": "mlb",
+   "game_id": "401907975",
+   "short": "CHC @ SD",
+   "start": "2026-10-01T02:00Z",
+   "market": "prop",
+   "side": "over",
+   "selection": "Kevin Gausman 4+ strikeouts",
+   "line": 3.5,
+   "odds": -208,
+   "p": 0.6919,
+   "p_market": 0.6471,
+   "grade": "B",
+   "group": "Player props",
+   "kalshi": {
+    "ticker": "KXMLBKS-26SEP302200CHCSD-CHCKGAUSMAN34-4",
+    "buy": "yes"
+   },
+   "close_odds": -208,
+   "result": null
+  },
+  "401907963:KXMLBTB-26SEP302000BOSNYY-NYYBRICE22-2:yes": {
+   "id": "401907963:KXMLBTB-26SEP302000BOSNYY-NYYBRICE22-2:yes",
+   "sport": "mlb",
+   "game_id": "401907963",
+   "short": "BOS @ NYY",
+   "start": "2026-10-01T00:00Z",
+   "market": "prop",
+   "side": "over",
+   "selection": "Ben Rice 2+ total bases",
+   "line": 1.5,
+   "odds": 134,
+   "p": 0.4567,
+   "p_market": 0.4059,
+   "grade": "B",
+   "group": "Player props",
+   "kalshi": {
+    "ticker": "KXMLBTB-26SEP302000BOSNYY-NYYBRICE22-2",
+    "buy": "yes"
+   },
+   "close_odds": 134,
+   "result": null
+  },
+  "401891780:KXNHLGOAL-26SEP30LACOL-COLMNECAS88-1:no": {
+   "id": "401891780:KXNHLGOAL-26SEP30LACOL-COLMNECAS88-1:no",
+   "sport": "nhl",
+   "game_id": "401891780",
+   "short": "LA @ COL",
+   "start": "2026-10-01T02:00Z",
+   "market": "prop",
+   "side": "under",
+   "selection": "Martin Necas: no goals",
+   "line": 0.5,
+   "odds": -218,
+   "p": 0.6917,
+   "p_market": 0.6634,
+   "grade": "B",
+   "group": "Player props",
+   "kalshi": {
+    "ticker": "KXNHLGOAL-26SEP30LACOL-COLMNECAS88-1",
+    "buy": "no"
+   },
+   "close_odds": -218,
+   "result": null
+  },
+  "401866433:KXNCAAFGAME-26OCT03EMUMASS-MASS:yes": {
+   "id": "401866433:KXNCAAFGAME-26OCT03EMUMASS-MASS:yes",
+   "sport": "cfb",
+   "game_id": "401866433",
+   "short": "EMU @ MASS",
+   "start": "2026-10-03T19:30Z",
+   "market": "ml",
+   "side": "home",
+   "selection": "MASS to win",
+   "line": null,
+   "odds": -239,
+   "p": 0.7146,
+   "p_market": 0.6832,
+   "grade": "B",
+   "group": "Game lines",
+   "kalshi": {
+    "ticker": "KXNCAAFGAME-26OCT03EMUMASS-MASS",
+    "buy": "yes"
+   },
+   "close_odds": -239,
+   "result": null
+  },
+  "401892431:KXNHLPTS-26SEP30NYITOR-TORJTAVARES91-1:yes": {
+   "id": "401892431:KXNHLPTS-26SEP30NYITOR-TORJTAVARES91-1:yes",
+   "sport": "nhl",
+   "game_id": "401892431",
+   "short": "NYI @ TOR",
+   "start": "2026-09-30T23:30Z",
+   "market": "prop",
+   "side": "over",
+   "selection": "John Tavares 1+ points",
+   "line": 0.5,
+   "odds": -121,
+   "p": 0.5746,
+   "p_market": 0.5248,
+   "grade": "A",
+   "group": "Player props",
+   "kalshi": {
+    "ticker": "KXNHLPTS-26SEP30NYITOR-TORJTAVARES91-1",
+    "buy": "yes"
+   },
+   "close_odds": -121,
+   "result": null
+  },
+  "401907975:KXMLBKS-26SEP302200CHCSD-CHCKGAUSMAN34-5:yes": {
+   "id": "401907975:KXMLBKS-26SEP302200CHCSD-CHCKGAUSMAN34-5:yes",
+   "sport": "mlb",
+   "game_id": "401907975",
+   "short": "CHC @ SD",
+   "start": "2026-10-01T02:00Z",
+   "market": "prop",
+   "side": "over",
+   "selection": "Kevin Gausman 5+ strikeouts",
+   "line": 4.5,
+   "odds": 119,
+   "p": 0.4869,
+   "p_market": 0.4356,
+   "grade": "B",
+   "group": "Player props",
+   "kalshi": {
+    "ticker": "KXMLBKS-26SEP302200CHCSD-CHCKGAUSMAN34-5",
+    "buy": "yes"
+   },
+   "close_odds": 119,
+   "result": null
+  },
+  "401891780:KXNHLPTS-26SEP30LACOL-LAMZUCCARELLO36-1:yes": {
+   "id": "401891780:KXNHLPTS-26SEP30LACOL-LAMZUCCARELLO36-1:yes",
+   "sport": "nhl",
+   "game_id": "401891780",
+   "short": "LA @ COL",
+   "start": "2026-10-01T02:00Z",
+   "market": "prop",
+   "side": "over",
+   "selection": "Mats Zuccarello 1+ points",
+   "line": 0.5,
+   "odds": 109,
+   "p": 0.5057,
+   "p_market": 0.4554,
+   "grade": "A",
+   "group": "Player props",
+   "kalshi": {
+    "ticker": "KXNHLPTS-26SEP30LACOL-LAMZUCCARELLO36-1",
+    "buy": "yes"
+   },
+   "close_odds": 109,
+   "result": null
+  },
+  "401872964:KXNFLRSHYDS-26OCT01PITCLE-CLEDWATSON4-20:yes": {
+   "id": "401872964:KXNFLRSHYDS-26OCT01PITCLE-CLEDWATSON4-20:yes",
+   "sport": "nfl",
+   "game_id": "401872964",
+   "short": "PIT @ CLE",
+   "start": "2026-10-02T00:15Z",
+   "market": "prop",
+   "side": "over",
+   "selection": "Deshaun Watson 20+ rushing yards",
+   "line": 19.5,
+   "odds": -239,
+   "p": 0.7184,
+   "p_market": 0.6832,
+   "grade": "B",
+   "group": "Player props",
+   "kalshi": {
+    "ticker": "KXNFLRSHYDS-26OCT01PITCLE-CLEDWATSON4-20",
+    "buy": "yes"
+   },
+   "close_odds": -239,
+   "result": null
+  },
+  "401907975:KXMLBHRR-26SEP302200CHCSD-SDJMERRILL3-2:yes": {
+   "id": "401907975:KXMLBHRR-26SEP302200CHCSD-SDJMERRILL3-2:yes",
+   "sport": "mlb",
+   "game_id": "401907975",
+   "short": "CHC @ SD",
+   "start": "2026-10-01T02:00Z",
+   "market": "prop",
+   "side": "over",
+   "selection": "Jackson Merrill 2+ hits + runs + RBIs",
+   "line": 1.5,
+   "odds": -103,
+   "p": 0.5311,
+   "p_market": 0.4851,
+   "grade": "A",
+   "group": "Player props",
+   "kalshi": {
+    "ticker": "KXMLBHRR-26SEP302200CHCSD-SDJMERRILL3-2",
+    "buy": "yes"
+   },
+   "close_odds": -103,
+   "result": null
+  },
+  "401907975:KXMLBTB-26SEP302200CHCSD-SDFTATIS23-2:yes": {
+   "id": "401907975:KXMLBTB-26SEP302200CHCSD-SDFTATIS23-2:yes",
+   "sport": "mlb",
+   "game_id": "401907975",
+   "short": "CHC @ SD",
+   "start": "2026-10-01T02:00Z",
+   "market": "prop",
+   "side": "over",
+   "selection": "Fernando Tatis Jr. 2+ total bases",
+   "line": 1.5,
+   "odds": 101,
+   "p": 0.5329,
+   "p_market": 0.4752,
+   "grade": "A",
+   "group": "Player props",
+   "kalshi": {
+    "ticker": "KXMLBTB-26SEP302200CHCSD-SDFTATIS23-2",
+    "buy": "yes"
+   },
+   "close_odds": 101,
+   "result": null
   }
  },
  "parlays": [
@@ -1383,6 +1647,62 @@
    "decimal": 5.216,
    "american": 422,
    "ev": 0.0707,
+   "result": null
+  },
+  {
+   "legs": [
+    "401872964:KXNFLRSHYDS-26OCT01PITCLE-CLEDWATSON4-20:yes",
+    "401866433:KXNCAAFGAME-26OCT03EMUMASS-MASS:yes"
+   ],
+   "n": 2,
+   "mode": "safest",
+   "p": 0.5134,
+   "decimal": 2.012,
+   "american": 101,
+   "ev": 0.0328,
+   "result": null
+  },
+  {
+   "legs": [
+    "401872964:KXNFLRSHYDS-26OCT01PITCLE-CLEDWATSON4-20:yes",
+    "401866433:KXNCAAFGAME-26OCT03EMUMASS-MASS:yes",
+    "401907975:KXMLBKS-26SEP302200CHCSD-CHCKGAUSMAN34-4:yes"
+   ],
+   "n": 3,
+   "mode": "safest",
+   "p": 0.3552,
+   "decimal": 2.979,
+   "american": 198,
+   "ev": 0.0582,
+   "result": null
+  },
+  {
+   "legs": [
+    "401872964:KXNFLRSHYDS-26OCT01PITCLE-CLEDWATSON4-20:yes",
+    "401866433:KXNCAAFGAME-26OCT03EMUMASS-MASS:yes",
+    "401907975:KXMLBKS-26SEP302200CHCSD-CHCKGAUSMAN34-4:yes",
+    "401891780:KXNHLGOAL-26SEP30LACOL-COLMNECAS88-1:no"
+   ],
+   "n": 4,
+   "mode": "safest",
+   "p": 0.2457,
+   "decimal": 4.346,
+   "american": 335,
+   "ev": 0.0677,
+   "result": null
+  },
+  {
+   "legs": [
+    "401872964:KXNFLRSHYDS-26OCT01PITCLE-CLEDWATSON4-20:yes",
+    "401907975:KXMLBKS-26SEP302200CHCSD-CHCKGAUSMAN34-4:yes",
+    "401891780:KXNHLGOAL-26SEP30LACOL-COLMNECAS88-1:no"
+   ],
+   "n": 3,
+   "mode": "safest",
+   "p": 0.3438,
+   "decimal": 3.064,
+   "american": 206,
+   "ev": 0.0534,
    "result": null
   }
  ]
