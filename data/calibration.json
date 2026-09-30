@@ -110,5 +110,125 @@
   "total_sd": 1.71,
   "n": 323,
   "updated": "2026-09-30"
+ },
+ "soccer_uefa.europa": {
+  "margin_k": 1.474,
+  "total_k": 0.3,
+  "margin_sd": 1.79,
+  "total_sd": 1.61,
+  "n": 118,
+  "updated": "2026-09-30"
+ },
+ "soccer_ned.1": {
+  "margin_k": 1.176,
+  "total_k": 0.715,
+  "margin_sd": 1.78,
+  "total_sd": 1.67,
+  "n": 294,
+  "updated": "2026-09-30"
+ },
+ "soccer_por.1": {
+  "margin_k": 1.19,
+  "total_k": 0.565,
+  "margin_sd": 1.6,
+  "total_sd": 1.56,
+  "n": 295,
+  "updated": "2026-09-30"
+ },
+ "soccer_bel.1": {
+  "margin_k": 1.268,
+  "total_k": 0.304,
+  "margin_sd": 1.7,
+  "total_sd": 1.68,
+  "n": 290,
+  "updated": "2026-09-30"
+ },
+ "soccer_tur.1": {
+  "margin_k": 1.158,
+  "total_k": 0.789,
+  "margin_sd": 1.63,
+  "total_sd": 1.62,
+  "n": 290,
+  "updated": "2026-09-30"
+ },
+ "soccer_sco.1": {
+  "margin_k": 1.114,
+  "total_k": 0.3,
+  "margin_sd": 1.6,
+  "total_sd": 1.68,
+  "n": 198,
+  "updated": "2026-09-30"
+ },
+ "soccer_eng.2": {
+  "margin_k": 0.824,
+  "total_k": 0.3,
+  "margin_sd": 1.59,
+  "total_sd": 1.46,
+  "n": 571,
+  "updated": "2026-09-30"
+ },
+ "soccer_eng.3": {
+  "margin_k": 0.871,
+  "total_k": 0.47,
+  "margin_sd": 1.66,
+  "total_sd": 1.62,
+  "n": 543,
+  "updated": "2026-09-30"
+ },
+ "soccer_ger.2": {
+  "margin_k": 0.7,
+  "total_k": 0.3,
+  "margin_sd": 1.63,
+  "total_sd": 1.72,
+  "n": 276,
+  "updated": "2026-09-30"
+ },
+ "soccer_esp.2": {
+  "margin_k": 0.803,
+  "total_k": 0.509,
+  "margin_sd": 1.55,
+  "total_sd": 1.62,
+  "n": 462,
+  "updated": "2026-09-30"
+ },
+ "soccer_ita.2": {
+  "margin_k": 1.058,
+  "total_k": 0.3,
+  "margin_sd": 1.48,
+  "total_sd": 1.47,
+  "n": 359,
+  "updated": "2026-09-30"
+ },
+ "soccer_fra.2": {
+  "margin_k": 1.017,
+  "total_k": 0.425,
+  "margin_sd": 1.5,
+  "total_sd": 1.76,
+  "n": 285,
+  "updated": "2026-09-30"
+ },
+ "soccer_bra.1": {
+  "margin_k": 0.801,
+  "total_k": 0.3,
+  "margin_sd": 1.55,
+  "total_sd": 1.51,
+  "n": 411,
+  "updated": "2026-09-30"
+ },
+ "soccer_arg.1": {
+  "margin_k": 0.714,
+  "total_k": 0.494,
+  "margin_sd": 1.35,
+  "total_sd": 1.4,
+  "n": 536,
+  "updated": "2026-09-30"
+ },
+ "soccer_ksa.1": {
+  "margin_k": 1.263,
+  "total_k": 0.3,
+  "margin_sd": 1.64,
+  "total_sd": 1.74,
+  "n": 299,
+  "updated": "2026-09-30"
  }
 }

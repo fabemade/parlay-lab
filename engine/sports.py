@@ -57,8 +57,23 @@ SPORTS: dict[str, Sport] = {s.key: s for s in [
           dispersion=0.02, half_life_days=180, history_days=420, ridge=6.0, w_model=0.30,
           three_way=True)
     for code, name in [
+        # top 5 European leagues
         ("eng.1", "Premier League"), ("esp.1", "La Liga"), ("ita.1", "Serie A"),
-        ("ger.1", "Bundesliga"), ("fra.1", "Ligue 1"), ("usa.1", "MLS"),
-        ("uefa.champions", "Champions League"), ("mex.1", "Liga MX"),
+        ("ger.1", "Bundesliga"), ("fra.1", "Ligue 1"),
+        # UEFA club competitions
+        ("uefa.champions", "Champions League"), ("uefa.europa", "Europa League"),
+        ("uefa.europa.conf", "Conference League"),
+        # next tier of European top flights
+        ("ned.1", "Eredivisie"), ("por.1", "Primeira Liga"), ("bel.1", "Belgian Pro League"),
+        ("tur.1", "Süper Lig"), ("sco.1", "Scottish Premiership"),
+        # second divisions: less-watched markets, so prices are softer
+        ("eng.2", "Championship"), ("eng.3", "League One"), ("ger.2", "2. Bundesliga"),
+        ("esp.2", "LaLiga 2"), ("ita.2", "Serie B"), ("fra.2", "Ligue 2"),
+        # Americas and beyond
+        ("usa.1", "MLS"), ("mex.1", "Liga MX"), ("bra.1", "Brasileirão"),
+        ("arg.1", "Argentine Primera"), ("conmebol.libertadores", "Copa Libertadores"),
+        ("ksa.1", "Saudi Pro League"),
     ]
 ]}
+
+SOCCER = [k for k, s in SPORTS.items() if s.three_way]

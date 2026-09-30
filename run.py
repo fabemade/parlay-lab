@@ -135,7 +135,7 @@ def main():
     payload = {
         "generated_at": now.isoformat(timespec="minutes"),
         "date": today.isoformat(),
-        "sports": sorted({l["sport"] for l in all_legs}),
+        "sports": [k for k in SPORTS if k in {l["sport"] for l in all_legs}],
         "sport_names": {k: SPORTS[k].name for k in {l["sport"] for l in all_legs}},
         "games": all_games,
         "legs": all_legs,
