@@ -218,7 +218,23 @@ lean per market type after each run.
 **Grading.** Every logged pick is graded from Kalshi's own settlement, so props and specials
 are scored as reliably as game lines.
 
-## 9. Roadmap
+## 9. Keeping prices honest
+
+- **Refresh cadence:** the board is rebuilt every 30 minutes through the betting day.
+- **Publish-time check:** before anything goes live, every bet is re-derived. The
+  break-even must equal Kalshi's price plus its fee, the odds must match that break-even,
+  edge must equal probability minus break-even, and each blended probability must sit
+  between the model's and the market's. Every featured parlay's hit chance and payout
+  must be the product of its legs, with one leg per game and every leg +EV. Any failure
+  stops the publish, and the last good board stays up.
+- **Live re-pricing in the app:** with the price relay deployed, building a parlay first
+  re-prices about 400 candidate bets from Kalshi's current quotes, searches, then makes
+  sure every chosen leg was re-priced (and searches again if one wasn't). A price move
+  shifts the fair market probability by exactly the move in log-odds, and it's re-blended
+  with the model at the same weight the engine used, so the app and engine agree. Moved
+  prices show "was 42¢", and closed markets are dropped.
+
+## 10. Roadmap
 
 - **Props:** minutes/usage projections and opponent positional defense (e.g. yards allowed to
   WRs); confirmed lineups and batting order for MLB

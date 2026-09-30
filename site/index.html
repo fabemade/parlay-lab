@@ -186,6 +186,11 @@ section[hidden] { display: none; }
   width: min(608px, calc(100% - 32px)); display: flex; align-items: center; gap: 12px; padding: 12px 16px; border-radius: 16px;
   background: var(--accent); color: var(--accent-ink); font-weight: 800; box-shadow: 0 10px 30px rgba(0,0,0,.4); animation: rise .35s var(--ease) both; }
 #slip-bar[hidden] { display: none; }
+.moved { color: var(--blue); font-weight: 600; }
+.gone { color: var(--bad); font-weight: 700; }
+.pricecheck { display: flex; align-items: center; gap: 8px; font-size: 12.5px; color: var(--muted); padding: 10px 16px 0; }
+.pricecheck.ok::before { content: ""; width: 7px; height: 7px; border-radius: 50%; background: var(--accent); box-shadow: 0 0 0 3px var(--accent-soft); }
+.pricecheck.stale { color: #f1d9a8; }
 #slip-bar .sp { margin-left: auto; font-family: var(--mono); }
 .leg-sel { font-weight: 700; font-size: 15.5px; }
 .leg-sel .note { font-weight: 500; font-size: 12px; color: var(--faint); white-space: nowrap; }
@@ -522,12 +527,80 @@ function toggleOpen(el, open = !el.classList.contains("open")) {
   return open;
 }
 
+// ------------------------------------------------------------------ live prices
+// Before a parlay is built (and when the slip or top picks open), every candidate bet is
+// re-priced from Kalshi's current quote, using the same math as the engine: the fair market
+// probability moves with the price, gets blended with our model at the same weight, and
+// Kalshi's fee sets the break-even. Kalshi only answers browsers on kalshi.com, so the
+// request goes through a tiny relay (worker/kalshi-prices.js). Without it, the app says
+// how old its prices are instead.
+const DEFAULT_PRICE_PROXY = "";   // set to the deployed worker URL, e.g. "https://parlay-lab-prices.NAME.workers.dev"
+const PRICE_PROXY = (store.get("proxy", "") || DEFAULT_PRICE_PROXY).replace(/\/$/, "");
+const FEE = 0.07;
+const kcost = p => p + FEE * p * (1 - p);
+const clampP = p => Math.min(Math.max(p, 1e-4), 1 - 1e-4);
+const logit = p => Math.log(clampP(p) / (1 - clampP(p)));
+const invLogit = x => 1 / (1 + Math.exp(-x));
+let LIVE_AT = null;
+function gradeOf(l) {
+  if (l.modeled === false) return "M";
+  if (l.edge >= 0.02 && l.p >= 0.5) return "A";
+  if (l.edge >= 0.005) return "B";
+  if (l.edge >= -0.02) return "C";
+  return "D";
+}
+async function fetchLive(legs) {
+  const tickers = [...new Set(legs.filter(l => l.kalshi && l.kalshi.ticker).map(l => l.kalshi.ticker))];
+  const out = {};
+  for (let i = 0; i < tickers.length; i += 100) {
+    const r = await fetch(`${PRICE_PROXY}/markets?tickers=${tickers.slice(i, i + 100).join(",")}`, { cache: "no-store" });
+    if (!r.ok) throw new Error("price check failed: " + r.status);
+    (await r.json()).markets.forEach(m => out[m.ticker] = m);
+  }
+  return out;
+}
+function reprice(l, m) {
+  const k = l.kalshi;
+  const ask = m && parseFloat(k.buy === "no" ? m.no_ask : m.yes_ask);
+  if (!m || (m.status && m.status !== "active") || !(ask > 0 && ask < 1)) { l.unavailable = true; return false; }
+  const old = k.price / 100, now = Math.round(ask * 100);
+  if (now !== k.price) {
+    l.moved = { from: l.moved ? l.moved.from : k.price, to: now };
+    // the fair market probability moves by exactly as much as the price did
+    const fair = invLogit(logit(l.p_market) + logit(ask) - logit(old));
+    l.p_market = fair;
+    l.p = l.p_model == null ? fair : invLogit(l.w_model * logit(l.p_model) + (1 - l.w_model) * logit(fair));
+    k.price = now;
+  }
+  const c = kcost(ask);
+  Object.assign(l, { p_breakeven: c, edge: l.p - c, ev: l.p / c - 1, odds: toAmerican(1 / c), live: true, unavailable: false });
+  l.odds_str = fmtOdds(l.odds); l.grade = gradeOf(l); l.headline = headlineOf(l);
+  return true;
+}
+async function refreshPrices(legs) {
+  if (!PRICE_PROXY || !legs.length) return false;
+  const live = await fetchLive(legs);
+  legs.forEach(l => l.kalshi && l.kalshi.ticker && reprice(l, live[l.kalshi.ticker]));
+  LIVE_AT = new Date();
+  return true;
+}
+function priceNote(legs) {
+  const gone = legs.filter(l => l.unavailable).length;
+  if (PRICE_PROXY && LIVE_AT && legs.every(l => l.live || l.unavailable)) {
+    const moved = legs.filter(l => l.moved).length;
+    return `<div class="pricecheck ok">Live Kalshi prices checked at ${clock(LIVE_AT.toISOString())}${moved ? ` · ${plural(moved, "price")} moved` : ""}${gone ? ` · <span class="gone">${gone} no longer available</span>` : ""}</div>`;
+  }
+  const mins = Math.round((Date.now() - new Date(DATA.generated_at)) / 6e4);
+  const age = mins < 60 ? `${mins} min ago` : `${Math.floor(mins / 60)}h ${mins % 60}m ago`;
+  return `<div class="pricecheck${mins > 90 ? " stale" : ""}">Prices from the ${clock(DATA.generated_at)} update (${age}). Check each leg's price on Kalshi before you bet.</div>`;
+}
+
 // ------------------------------------------------------------------ parlay search (mirrors engine/parlay.py)
 function eligible(opts) {
   const today = todayKey();
   return DATA.legs.filter(l =>
     (opts.sports.size === 0 || opts.sports.has(l.sport)) &&
-    opts.markets.has(betType(l)) &&
+    opts.markets.has(betType(l)) && !l.unavailable &&
     l.odds >= opts.juice && l.odds <= 200 &&
     l.edge >= opts.edge &&
     new Date(l.start) > new Date() &&
@@ -609,7 +682,7 @@ function legHTML(l, open = false) {
     <button class="leg-main" aria-expanded="${open}" onclick="toggleOpen(this.parentElement)">
       <div class="grade ${l.grade}">${l.grade}</div>
       <div class="leg-info"><div class="leg-sel">${esc(describe(l)[0])}${describe(l)[1] ? ` <span class="note">${esc(describe(l)[1])}</span>` : ""}</div>
-        <div class="leg-sub"><span class="code">${esc(k ? k.contract : l.selection)}</span> · ${esc(l.short)} · ${when(l.start)}</div></div>
+        <div class="leg-sub"><span class="code">${esc(k ? k.contract : l.selection)}</span> · ${esc(l.short)} · ${when(l.start)}${l.unavailable ? ` · <span class="gone">no longer available</span>` : l.moved ? ` · <span class="moved">was ${l.moved.from}¢</span>` : ""}</div></div>
       <div class="leg-odds">${k ? `${k.price}¢` : esc(l.odds_str)}<small>${pct(l.p)}</small></div>
       ${CHEV}
     </button>
@@ -641,6 +714,8 @@ function ticketHTML(title, legs, p, d, i = 0) {
       <div class="hit"><b>${pct(p)}</b><span>chance to hit</span></div>
     </div>
     <div class="meter"><i style="width:${Math.max(p * 100, 2)}%"></i></div>
+    ${priceNote(legs)}
+    ${legs.some(l => l.edge < 0 && l.modeled !== false) ? `<div class="pricecheck stale">At current prices, ${plural(legs.filter(l => l.edge < 0 && l.modeled !== false).length, "leg")} no longer has an edge</div>` : ""}
     ${legs.map(l => legHTML(l)).join("")}
     <div class="stake">$<input id="${id}" type="number" inputmode="decimal" min="0" value="${state.stake}" data-dec="${d}" aria-label="Stake">
       <span class="ev">EV ${ev >= 0 ? "+" : ""}${(ev * 100).toFixed(1)}%</span>
@@ -736,12 +811,34 @@ function syncSports() {
   $("#clear-sports").onclick = () => { state.sports.clear(); syncSports(); };
 }
 
-function build() {
+const combo = legs => ({ legs, p: legs.reduce((a, l) => a * l.p, 1), d: legs.reduce((a, l) => a * dec(l.odds), 1) });
+async function build() {
   const out = $("#build-out"), btn = $("#build-btn");
-  btn.classList.add("busy"); btn.textContent = "Building…";
-  setTimeout(() => {
+  btn.classList.add("busy"); btn.textContent = PRICE_PROXY ? "Checking live prices…" : "Building…";
+  setTimeout(async () => {
     const opts = { ...state };
-    const best = search(opts);
+    let best = null;
+    try {
+      if (PRICE_PROXY) {
+        // 1) re-price the whole candidate pool (loosened a little, so bets whose price
+        //    improved can come in), 2) search, 3) make sure every chosen leg was re-priced
+        //    too, and search again if anything changed
+        const loose = { ...opts, edge: opts.edge - 0.05, juice: Math.min(opts.juice, -400) };
+        const key = opts.mode === "safest" ? l => l.p : l => l.ev;
+        const pool = eligible(loose).sort((a, b) => key(b) - key(a)).slice(0, 400);
+        await refreshPrices(pool);
+        best = search(opts);
+        const missing = best ? best.legs.filter(l => !l.live) : [];
+        if (missing.length) { await refreshPrices(missing); best = search(opts); }
+      } else {
+        best = search(opts);
+      }
+    } catch (err) {
+      console.error(err);
+      LIVE_AT = null;
+      best = search(opts);
+      toast("Couldn't reach live prices; using the last update");
+    }
     btn.classList.remove("busy"); btn.textContent = "Build my parlay";
     if (!best) {
       const n = eligible(opts).length;
@@ -796,7 +893,8 @@ function renderPicks() {
   const f = Object.entries(DATA.featured || {}).map(([k, p]) => {
     const legs = p.legs.map(id => byId[id]).filter(Boolean);
     if (legs.length !== p.legs.length || legs.some(l => new Date(l.start) <= new Date())) return "";
-    return ticketHTML(names[k] || k, legs, p.p, p.decimal, i++);
+    const c = combo(legs);
+    return ticketHTML(names[k] || k, legs, c.p, c.d, i++);
   }).join("");
   $("#featured").innerHTML = f || `<div class="card empty">No parlay right now clears the edge bar. When the market and the data agree, the smart play is to pass.</div>`;
   const s = (DATA.straights || []).map(id => byId[id]).filter(l => l && new Date(l.start) > new Date());
@@ -915,9 +1013,13 @@ document.addEventListener("click", e => {
   syncSlip();
   toast(state.slip.includes(id) ? "Added to your slip" : "Removed from your slip");
 });
-$("#slip-bar").onclick = () => {
-  const legs = slipLegs();
+$("#slip-bar").onclick = async () => {
+  let legs = slipLegs();
   if (!legs.length) return;
+  if (PRICE_PROXY) {
+    try { await refreshPrices(legs); } catch (err) { console.error(err); LIVE_AT = null; }
+    legs = slipLegs();
+  }
   const p = legs.reduce((a, l) => a * l.p, 1), d = legs.reduce((a, l) => a * dec(l.odds), 1);
   const games = new Set(legs.map(l => l.game_id)).size;
   openSheet(`<h2 style="margin-top:4px">My slip</h2>` + ticketHTML(legs.length === 1 ? "Straight bet" : `${legs.length}-leg parlay`, legs, p, d)
@@ -985,8 +1087,16 @@ function renderRecord() {
 }
 
 // ------------------------------------------------------------------ tabs
+let picksCheckedAt = 0;
+async function refreshPicks() {
+  if (!PRICE_PROXY || Date.now() - picksCheckedAt < 60e3) return;
+  const ids = [...Object.values(DATA.featured || {}).flatMap(p => p.legs), ...(DATA.straights || [])];
+  try { await refreshPrices(ids.map(id => LEGS[id]).filter(Boolean)); picksCheckedAt = Date.now(); renderPicks(); }
+  catch (err) { console.error(err); }
+}
 function showTab(name) {
   if (!$("#tab-" + name)) name = "build";
+  if (name === "picks") refreshPicks();
   $$("nav.tabs button").forEach(b => b.setAttribute("aria-selected", b.dataset.tab === name));
   $$("section").forEach(s => {
     const on = s.id === "tab-" + name;

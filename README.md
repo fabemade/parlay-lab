@@ -35,11 +35,29 @@ python3 -m venv .venv && .venv/bin/pip install -r requirements.txt
 Sport keys: `nfl cfb nba ncaab wnba mlb nhl soccer_eng.1 soccer_esp.1 soccer_ita.1
 soccer_ger.1 soccer_fra.1 soccer_usa.1 soccer_uefa.champions soccer_mex.1`.
 
+## Live prices (optional, free)
+
+Before building a parlay, and when you open your slip or Top picks, the app can re-check
+every candidate bet against Kalshi's current price. It re-prices each one with the same
+math as the engine and drops anything Kalshi has closed. Kalshi only answers browsers on
+kalshi.com, so this goes through a tiny read-only relay, `worker/kalshi-prices.js`, on
+Cloudflare's free plan:
+
+1. Create a free account at https://dash.cloudflare.com/sign-up
+2. **Workers & Pages → Create → Create Worker**, name it `parlay-lab-prices`, **Deploy**
+3. **Edit code**, replace everything with `worker/kalshi-prices.js`, **Deploy**
+4. Put the worker's URL (`https://parlay-lab-prices.<you>.workers.dev`) in
+   `DEFAULT_PRICE_PROXY` near the top of the script in `site/index.html`
+
+Without it, the app shows how old its prices are (the board refreshes every 30 minutes).
+
 ## How it stays up to date
 
-`.github/workflows/refresh.yml` runs four times a day on GitHub Actions (free). It
-recalibrates, prices the board, grades finished picks, commits the data, and publishes
-`site/` to GitHub Pages. You can also trigger it by hand from the repo's Actions tab.
+`.github/workflows/refresh.yml` runs every 30 minutes from about 8am to 1:30am Eastern on
+GitHub Actions (free). It recalibrates, prices the board, checks that every number is
+consistent (odds, break-even, edge and parlay payouts all have to follow from Kalshi's
+price and our probability, or nothing is published), grades finished picks, commits the
+small history/log files, and publishes `site/` to GitHub Pages. You can also trigger it by hand from the repo's Actions tab.
 In the repo's Settings → Pages, set **Source** to **GitHub Actions** so the workflow's deploy is
 the one that's live (a root `index.html` also forwards to `site/` if Pages serves the branch instead).
 

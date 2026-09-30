@@ -2,9 +2,10 @@ name: Parlay Lab – refresh picks
 
 on:
   schedule:
-    # 9am, 1pm, 5pm and 7pm US Eastern (during daylight time): morning board, then
-    # refreshes as injury news, lineups and starting pitchers come in.
-    - cron: "0 13,17,21,23 * * *"
+    # Every 30 minutes from about 8am to 1:30am US Eastern, so prices, injuries, lineups
+    # and starting pitchers are never more than ~30 minutes stale. (GitHub may start
+    # scheduled runs a few minutes late when it's busy.)
+    - cron: "0,30 12-23,0-5 * * *"
   workflow_dispatch: {}
 
 permissions:
@@ -40,10 +41,17 @@ jobs:
         run: |
           git config user.name "parlay-lab-bot"
           git config user.email "parlay-lab-bot@users.noreply.github.com"
-          git add data site/data
+          git add data
           git diff --cached --quiet || git commit -m "Refresh picks $(date -u +'%Y-%m-%d %H:%M UTC')"
           git pull --rebase --autostash
           git push
+
+      # The board (site/data) is published straight to the website, not committed, so the
+      # repo doesn't grow by ~11 MB every half hour. Old links to /site/ keep working.
+      - name: Keep old /site/ links working
+        run: |
+          mkdir -p site/site
+          printf '<!doctype html><meta charset="utf-8"><meta http-equiv="refresh" content="0; url=../"><script>location.replace("../"+location.search+location.hash)</script>' > site/site/index.html
 
       - uses: actions/upload-pages-artifact@v3
         with:

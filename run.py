@@ -10,6 +10,7 @@ from __future__ import annotations
 import argparse
 import datetime as dt
 import json
+import math
 import sys
 import time
 from concurrent.futures import ThreadPoolExecutor
@@ -84,6 +85,54 @@ def slim(leg: dict) -> dict:
     return out
 
 
+def validate(legs: list[dict], featured: dict) -> list[str]:
+    """Every published number must follow from Kalshi's price and our probability.
+
+    Catches bugs before they reach the app: odds that don't match the price, an edge that
+    doesn't equal probability minus break-even, a parlay whose payout isn't the product of
+    its legs. Any problem stops the publish (the site keeps the last good board).
+    """
+    from engine.odds import american_to_decimal, decimal_to_american
+    problems = []
+    by_id = {l["id"]: l for l in legs}
+    for l in legs:
+        where = f"{l['id']} ({l.get('selection')})"
+        p, be = l["p"], l.get("p_breakeven")
+        if not 0 < p < 1:
+            problems.append(f"{where}: probability {p} outside (0, 1)")
+        if l.get("p_model") is not None:
+            lo, hi = sorted((l["p_model"], l["p_market"]))
+            if not lo - 2e-3 <= p <= hi + 2e-3:
+                problems.append(f"{where}: blended {p} not between model {l['p_model']} and market {l['p_market']}")
+        k = l.get("kalshi")
+        if k and be is not None:
+            price = k["price"] / 100
+            if abs(be - (price + 0.07 * price * (1 - price))) > 0.006:
+                problems.append(f"{where}: break-even {be} doesn't match {k['price']}¢ plus fee")
+            # American odds are whole numbers: near -150 one point is ~0.15% of probability, and at
+            # +3000 a 4th-decimal rounding of the break-even moves the odds a few points. Accept
+            # either agreement: within one odds point, or within 0.01% of probability.
+            if (abs(l["odds"] - decimal_to_american(1 / be)) > 1
+                    and abs(1 / american_to_decimal(l["odds"]) - be) > 1e-4):
+                problems.append(f"{where}: odds {l['odds']} don't match break-even {be}")
+            if abs(l["edge"] - (p - be)) > 1.5e-3 or abs(l["ev"] - (p / be - 1)) > 3e-3:
+                problems.append(f"{where}: edge/EV inconsistent with probability and price")
+    for name, par in featured.items():
+        ls = [by_id.get(i) for i in par["legs"]]
+        if None in ls:
+            problems.append(f"{name}: references a bet that isn't published")
+            continue
+        if len({l["game_id"] for l in ls}) < len(ls):
+            problems.append(f"{name}: two legs from the same game")
+        pp = math.prod(l["p"] for l in ls)
+        dd = math.prod(american_to_decimal(l["odds"]) for l in ls)
+        if abs(pp - par["p"]) > 2e-3 or abs(dd - par["decimal"]) > 0.02 * dd:
+            problems.append(f"{name}: parlay odds/probability aren't the product of its legs")
+        if any(l["edge"] < 0.005 for l in ls):
+            problems.append(f"{name}: includes a leg without an edge")
+    return problems
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--date", help="YYYY-MM-DD (default: today, US Eastern)")
@@ -143,6 +192,14 @@ def main():
         featured["props_3"] = pp
     straights = [l["id"] for l in sorted(parlay.eligible(all_legs, min_edge=0.005),
                                          key=lambda l: -l["ev"]) if l["p"] >= 0.45][:8]
+
+    problems = validate(all_legs, featured)
+    if problems:
+        for msg in problems[:25]:
+            log("  ✗ " + msg)
+        log(f"\n{len(problems)} consistency problems; not publishing this board.")
+        return 1
+    log(f"  ✓ consistency check passed ({len(all_legs)} bets, {len(featured)} featured parlays)")
 
     featured_ids = {lid for p in featured.values() for lid in p["legs"]} | set(straights)
     grade.grade_all(results_by_sport)
