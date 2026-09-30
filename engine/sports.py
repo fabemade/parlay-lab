@@ -26,7 +26,9 @@ class Sport:
     draws_go_to_ot: bool = False    # hockey: regulation ties go to OT/shootout
     params: dict = field(default_factory=dict)
     # per-market trust multiplier on w_model (lower where our distribution shape is rougher)
-    market_w: dict = field(default_factory=dict)
+    market_w: dict = field(default_factory=lambda: {"total": 0.35})
+    # playoff games are lower scoring (top pitchers/goalies, tighter defense, slower pace)
+    postseason_total: float = 1.0
 
 
 SPORTS: dict[str, Sport] = {s.key: s for s in [
@@ -36,18 +38,20 @@ SPORTS: dict[str, Sport] = {s.key: s for s in [
           total_sd=15.5, home_adv_prior=2.8, half_life_days=150, history_days=420, ridge=2.0,
           w_model=0.30, params={"groups": 80}),
     Sport("nba", "NBA", "basketball/nba", "gaussian", margin_sd=12.0, total_sd=17.5,
-          home_adv_prior=2.3, half_life_days=90, history_days=300, ridge=4.0, w_model=0.30),
+          home_adv_prior=2.3, half_life_days=90, history_days=300, ridge=4.0, w_model=0.30,
+          postseason_total=0.97),
     Sport("ncaab", "College Basketball", "basketball/mens-college-basketball", "gaussian",
           margin_sd=10.8, total_sd=15.0, home_adv_prior=3.2, half_life_days=90,
           history_days=200, ridge=3.0, w_model=0.30, params={"groups": 50, "limit": 400}),
     Sport("wnba", "WNBA", "basketball/wnba", "gaussian", margin_sd=11.5, total_sd=15.0,
-          home_adv_prior=2.0, half_life_days=90, history_days=200, ridge=3.0, w_model=0.30),
+          home_adv_prior=2.0, half_life_days=90, history_days=200, ridge=3.0, w_model=0.30,
+          postseason_total=0.96),
     Sport("mlb", "MLB", "baseball/mlb", "poisson", home_adv_prior=0.035, dispersion=0.10,
           half_life_days=60, history_days=240, ridge=25.0, w_model=0.30,
-          market_w={"spread": 0.6}),
+          market_w={"spread": 0.6, "total": 0.35}, postseason_total=0.90),
     Sport("nhl", "NHL", "hockey/nhl", "poisson", home_adv_prior=0.05, dispersion=0.02,
           half_life_days=90, history_days=300, ridge=15.0, w_model=0.30, draws_go_to_ot=True,
-          market_w={"spread": 0.6}),
+          market_w={"spread": 0.6, "total": 0.35}, postseason_total=0.93),
 ] + [
     Sport(f"soccer_{code}", name, f"soccer/{code}", "poisson", home_adv_prior=0.12,
           dispersion=0.02, half_life_days=180, history_days=420, ridge=6.0, w_model=0.30,

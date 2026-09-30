@@ -52,7 +52,7 @@ def run_sport(sport, days: list[dt.date], today: dt.date) -> tuple[list[dict], d
     legs, game_rows = [], []
     for g in games:
         try:
-            gm = GameModel(sport, g, R, hist, last, extras)
+            gm = GameModel(sport, g, R, [h for h in hist if ratings.competitive(h)], last, extras)
             gl = build_legs(gm)
         except Exception as e:  # one bad game must never sink the whole run
             log(f"    ! skipped {g.get('short')}: {e}")
@@ -68,7 +68,7 @@ def run_sport(sport, days: list[dt.date], today: dt.date) -> tuple[list[dict], d
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--date", help="YYYY-MM-DD (default: today, US Eastern)")
-    ap.add_argument("--days", type=int, default=2, help="how many days ahead to include")
+    ap.add_argument("--days", type=int, default=4, help="how many days ahead to include")
     ap.add_argument("--sports", help="comma-separated keys, e.g. nfl,mlb,nba (default: all)")
     args = ap.parse_args()
 
@@ -98,15 +98,17 @@ def main():
     all_legs.sort(key=lambda l: (-l["p"] - l["edge"]))
 
     featured = {}
-    for n, target in ((2, 100), (3, 150), (4, 250)):
-        p = parlay.build(all_legs, n, mode="safest", target_american=target, min_edge=0.01)
-        if p:
+    # Only feature a parlay when every leg is +EV and the whole ticket still has a
+    # realistic chance. On thin or sharply priced slates, showing nothing is the right call.
+    for n, target, floor in ((2, 100, 0.30), (3, 150, 0.18), (4, 250, 0.10)):
+        p = parlay.build(all_legs, n, mode="safest", target_american=target, min_edge=0.005)
+        if p and p["p"] >= floor:
             featured[f"safest_{n}"] = p
-    v = parlay.build(all_legs, 3, mode="value", min_hit=0.25)
+    v = parlay.build(all_legs, 3, mode="value", min_hit=0.2, min_edge=0.005)
     if v:
         featured["value_3"] = v
-    straights = [l["id"] for l in parlay.eligible(all_legs, min_edge=0.01)
-                 if l["p"] >= 0.5][:8]
+    straights = [l["id"] for l in sorted(parlay.eligible(all_legs, min_edge=0.005),
+                                         key=lambda l: -l["ev"]) if l["p"] >= 0.45][:8]
 
     featured_ids = {lid for p in featured.values() for lid in p["legs"]} | set(straights)
     grade.grade_all(results_by_sport)

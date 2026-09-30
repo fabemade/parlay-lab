@@ -10,7 +10,7 @@ from pathlib import Path
 
 from . import espn, mlb, ratings
 from .dist import Outcome
-from .odds import blend, devig_power, expected_value, implied_prob
+from .odds import blend, devig_power, expected_value, implied_prob, logit
 from .sports import Sport
 
 KEY_POSITIONS = {"nfl": {"QB"}, "cfb": {"QB"}, "nhl": {"G"}, "nba": set(), "wnba": set(),
@@ -66,8 +66,20 @@ class GameModel:
         self.notes: dict[str, list[str]] = {"home": [], "away": [], "game": []}
         eh, ea = R.expected(h, a, game["neutral"])
         sport, eh, ea = calibrate(sport, R, eh, ea)
+        if game.get("season_type") == 3 and sport.postseason_total != 1.0:
+            f = sport.postseason_total
+            if sport.kind == "gaussian":
+                m, t = eh - ea, (eh + ea) * f
+                eh, ea = (t + m) / 2, (t - m) / 2
+            else:
+                eh, ea = eh * f, ea * f
+            self_note = f"Playoff game: scoring projected {(1 - f) * 100:.0f}% below regular season (aces, tighter defense)"
+        else:
+            self_note = None
         self.sport, self.g, self.R, self.hist = sport, game, R, hist
         self.base = (eh, ea)
+        if self_note:
+            self.notes["game"].append(self_note)
 
         # --- rest / schedule spot
         self.rest = {"home": _rest_days(last_played, h, game["date"]),
@@ -119,6 +131,9 @@ class GameModel:
         self.ctx: dict = extras.get("ctx", {}).get(game["id"], {})
         self.form = {s: ratings.team_form(hist, game[s]["id"]) for s in ("home", "away")}
         self.low_sample = min(R.games.get(h, 0), R.games.get(a, 0)) < 4
+        # early season: ratings lean on last year, while rosters and coaches change
+        cur = [f.get("n", 0) if f.get("season_label") == "season" else 0 for f in self.form.values()]
+        self.early_season = min(cur) < 4
 
     # -------------------------------------------------------------- helpers
     def key_injuries(self, side: str) -> list[dict]:
@@ -130,6 +145,8 @@ class GameModel:
         w = self.sport.w_model * self.sport.market_w.get(market, 1.0)
         if self.low_sample:
             w *= 0.3
+        if self.early_season:
+            w *= 0.6
         # Our ratings don't know about today's injuries; the market does. If we like a
         # team that is missing a key player, lean much harder on the market.
         if favoured_side:
@@ -149,14 +166,14 @@ class GameModel:
         if rk:
             lines.append(f"{t['abbr'] or t['name']} ranks #{rk[0]} in offense and #{rk[1]} in defense of {R.n_teams()} (schedule-adjusted, recent games weighted more)")
         if f.get("n"):
-            s = f"Last {f['last_n']}: {f['last_wins']}-{f['last_n'] - f['last_wins']}, scoring {f['last_pf']} and allowing {f['last_pa']} {unit}/game (season: {f['season_pf']} / {f['season_pa']})"
+            s = ("Last season's final " if f["season_label"] == "last season" else "Last ") + f"{f['last_n']}: {f['last_wins']}-{f['last_n'] - f['last_wins']}, scoring {f['last_pf']} and allowing {f['last_pa']} {unit}/game ({f['season_label']}: {f['season_pf']} / {f['season_pa']})"
             if f.get("streak") and int(f["streak"][1:]) >= 3:
                 s += f". Current streak: {f['streak']}"
             lines.append(s)
             split_pf, split_pa = (f["home_pf"], f["home_pa"]) if side == "home" else (f["away_pf"], f["away_pa"])
             if split_pf is not None:
                 lines.append(f"{'At home' if side == 'home' else 'On the road'}: {split_pf} scored / {split_pa} allowed per game")
-        if t.get("record"):
+        if t.get("record") and not t["record"].startswith("0-0"):
             lines.append(f"Record {t['record']}" + (f" (home {t['home_record']})" if side == "home" and t.get("home_record") else "")
                          + (f" (road {t['road_record']})" if side == "away" and t.get("road_record") else ""))
         inj = self.key_injuries(side)
@@ -185,6 +202,8 @@ class GameModel:
         lines += self.notes["game"]
         if self.low_sample:
             lines.append("⚠ Limited data on at least one team, so the pick leans mostly on the market price")
+        elif self.early_season:
+            lines.append("Early season: ratings still lean on last year's games, so the model defers more to the market")
         return lines
 
 
@@ -210,15 +229,25 @@ def build_legs(gm: GameModel) -> list[dict]:
     shared = gm.game_lines()
 
     def add(market, side, selection, price, p_model, p_fair, reasons, link_key, line=None, p_push=0.0,
-            favoured_side=None):
+            favoured_side=None, against=False):
         if price is None or p_fair is None:
             return
         w = gm.weight(favoured_side if p_model > p_fair else None, market)
+        if against and p_model > p_fair:
+            # The market moved against this side since opening, usually because of sharp
+            # bettors or news our ratings can't see, so defer more to the current price.
+            w *= 0.5
+            reasons = reasons + ["⚠ The line has moved against this side since opening (a sharp-money signal), so the model defers more to the market"]
+        # The further we are from the market, the likelier our model is missing something
+        # (injury, transfer, weather), so large disagreements are shrunk hard.
+        gap = abs(logit(p_model) - logit(p_fair))
+        w = w / (1 + gap ** 2)
         p = blend(p_model, p_fair, w)
         legs.append({**base, "id": f"{g['id']}:{market}:{side}", "market": market, "side": side,
                      "selection": selection, "line": line, "odds": price,
                      "p": round(p, 4), "p_model": round(p_model, 4), "p_market": round(p_fair, 4),
-                     "p_push": round(p_push, 4), "edge": round(p - p_fair, 4),
+                     "p_push": round(p_push, 4), "p_breakeven": round(implied_prob(price), 4),
+                     "edge": round(p - implied_prob(price), 4),
                      "ev": round(expected_value(p, price), 4), "w_model": round(w, 3),
                      "reasons": reasons, "context": shared,
                      "link": (o.get("links") or {}).get(link_key)})
@@ -238,8 +267,12 @@ def build_legs(gm: GameModel) -> list[dict]:
             mh = 0.5 * mh + 0.5 * pred["home"] / max(pred["home"] + pred["away"], 1e-9)
         mv_h = _movement_note(H, o.get("ml_home_open"), o["ml_home"])
         mv_a = _movement_note(A, o.get("ml_away_open"), o["ml_away"])
-        add("ml", "home", f"{H} ML", o["ml_home"], mh, fh, gm.team_line("home") + ([mv_h] if mv_h else []), "ml_home", favoured_side="home")
-        add("ml", "away", f"{A} ML", o["ml_away"], 1 - mh, fa, gm.team_line("away") + ([mv_a] if mv_a else []), "ml_away", favoured_side="away")
+        def ml_against(open_, now):
+            return open_ is not None and now is not None and implied_prob(now) < implied_prob(open_) - 0.03
+        add("ml", "home", f"{H} ML", o["ml_home"], mh, fh, gm.team_line("home") + ([mv_h] if mv_h else []), "ml_home",
+            favoured_side="home", against=ml_against(o.get("ml_home_open"), o["ml_home"]))
+        add("ml", "away", f"{A} ML", o["ml_away"], 1 - mh, fa, gm.team_line("away") + ([mv_a] if mv_a else []), "ml_away",
+            favoured_side="away", against=ml_against(o.get("ml_away_open"), o["ml_away"]))
 
     # ---------------- spread (run line / puck line / handicap)
     sh = o.get("spread_home")
@@ -250,10 +283,14 @@ def build_legs(gm: GameModel) -> list[dict]:
         denom = max(gt + lt, 1e-9)
         mv = _movement_note("spread", o.get("spread_home_open"), sh, is_line=True)
         mvl = [mv] if mv else []
+        so = o.get("spread_home_open")
+        moved = None if so is None else sh - so   # > 0: home getting more points now = market moved off home
         add("spread", "home", f"{H} {sh:+g}", o["spread_home_odds"], gt / denom, fh,
-            gm.team_line("home") + mvl, "spread_home", line=sh, p_push=eq, favoured_side="home")
+            gm.team_line("home") + mvl, "spread_home", line=sh, p_push=eq, favoured_side="home",
+            against=moved is not None and moved >= 1)
         add("spread", "away", f"{A} {-sh:+g}", o["spread_away_odds"], lt / denom, fa,
-            gm.team_line("away") + mvl, "spread_away", line=-sh, p_push=eq, favoured_side="away")
+            gm.team_line("away") + mvl, "spread_away", line=-sh, p_push=eq, favoured_side="away",
+            against=moved is not None and moved <= -1)
 
     # ---------------- total
     tl = o.get("total")
@@ -271,20 +308,24 @@ def build_legs(gm: GameModel) -> list[dict]:
         mv = _movement_note("total", o.get("total_open"), tl, is_line=True)
         if mv:
             tot_reasons.append(mv)
-        add("total", "over", f"Over {tl:g}", o["over_odds"], gt / denom, fo, tot_reasons, "over", line=tl, p_push=eq)
-        add("total", "under", f"Under {tl:g}", o["under_odds"], lt / denom, fu, tot_reasons, "under", line=tl, p_push=eq)
+        to = o.get("total_open")
+        tmove = None if to is None else tl - to
+        big = {"mlb": 0.5, "nhl": 0.5}.get(sport.key, 0.5 if sport.three_way else 1.5)
+        add("total", "over", f"Over {tl:g}", o["over_odds"], gt / denom, fo, tot_reasons, "over", line=tl, p_push=eq,
+            against=tmove is not None and tmove <= -big)
+        add("total", "under", f"Under {tl:g}", o["under_odds"], lt / denom, fu, tot_reasons, "under", line=tl, p_push=eq,
+            against=tmove is not None and tmove >= big)
     return legs
 
 
 def confidence(leg: dict) -> str:
-    """Letter grade from hit probability and edge."""
-    p, e = leg["p"], leg["edge"]
-    score = p + 1.5 * e
-    if score >= 0.72:
+    """A = clear +EV and likelier than not; B = +EV; C = close to fair; D = the price is too steep."""
+    p, e = leg["p"], leg["edge"]      # edge = our probability minus the price's break-even
+    if e >= 0.02 and p >= 0.5:
         return "A"
-    if score >= 0.64:
+    if e >= 0.005:
         return "B"
-    if score >= 0.56:
+    if e >= -0.02:
         return "C"
     return "D"
 
@@ -292,11 +333,12 @@ def confidence(leg: dict) -> str:
 def summarize(leg: dict) -> str:
     """One-sentence headline for a leg."""
     edge = leg["edge"] * 100
-    s = f"{leg['p'] * 100:.0f}% to hit by our model vs {leg['p_market'] * 100:.0f}% implied by the market"
-    if edge >= 1:
+    s = (f"{leg['p'] * 100:.0f}% to hit by our model vs {leg['p_market'] * 100:.0f}% fair market odds; "
+         f"the price needs {leg['p_breakeven'] * 100:.0f}% to break even")
+    if edge >= 0.5:
         s += f" (+{edge:.1f}% edge)"
-    elif edge <= -1:
-        s += " (market is more confident than we are)"
+    else:
+        s += " (no edge at this price)"
     return s
 
 

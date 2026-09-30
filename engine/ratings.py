@@ -179,7 +179,9 @@ def team_form(games: list[dict], team_id: str, n: int = 10) -> dict:
     def avg(rs, k):
         return round(sum(r[k] for r in rs) / len(rs), 2) if rs else None
 
+    stale = (dt.date.today() - dt.date.fromisoformat(mine[-1]["date"][:10])).days > 45
     return {
+        "season_label": "last season" if stale else "season",
         "n": len(rows),
         "last_n": len(recent),
         "last_wins": sum(r["won"] for r in recent),

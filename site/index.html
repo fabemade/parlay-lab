@@ -1,0 +1,521 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Parlay Lab</title>
+<meta name="description" content="Data-driven parlays and straight bets, built from real stats and live market prices.">
+<meta name="theme-color" content="#0b0f14">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="Parlay Lab">
+<link rel="manifest" href="manifest.json">
+<link rel="icon" href="icon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="icon-180.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@500;700&display=swap" rel="stylesheet">
+<style>
+:root {
+  --bg: #0b0f14;
+  --panel: #121820;
+  --panel-2: #18202a;
+  --line: #243040;
+  --text: #e8eef5;
+  --muted: #8a97a8;
+  --faint: #5b6778;
+  --accent: #3ddc97;
+  --accent-ink: #062a1b;
+  --accent-soft: rgba(61, 220, 151, .12);
+  --warn: #ffb547;
+  --bad: #ff6b6b;
+  --blue: #5aa9ff;
+  --radius: 16px;
+  --mono: "JetBrains Mono", ui-monospace, SFMono-Regular, Menlo, monospace;
+}
+* { box-sizing: border-box; -webkit-tap-highlight-color: transparent; }
+html, body { margin: 0; background: var(--bg); color: var(--text); }
+body {
+  font-family: Inter, system-ui, -apple-system, Segoe UI, sans-serif;
+  font-size: 15px; line-height: 1.45;
+  padding: env(safe-area-inset-top) 0 calc(76px + env(safe-area-inset-bottom));
+  -webkit-font-smoothing: antialiased;
+}
+button { font: inherit; color: inherit; cursor: pointer; }
+a { color: var(--blue); }
+.wrap { max-width: 720px; margin: 0 auto; padding: 0 16px; }
+
+/* header */
+header { padding: 18px 0 8px; display: flex; align-items: center; justify-content: space-between; gap: 12px; }
+.brand { display: flex; align-items: center; gap: 10px; font-weight: 800; font-size: 20px; letter-spacing: -.02em; }
+.brand-mark { width: 30px; height: 30px; border-radius: 9px; background: var(--accent); display: grid; place-items: center; }
+.brand-mark svg { width: 18px; height: 18px; }
+.stamp { font-size: 12px; color: var(--muted); text-align: right; }
+
+/* sections */
+section[hidden] { display: none; }
+h2 { font-size: 13px; text-transform: uppercase; letter-spacing: .08em; color: var(--muted); margin: 22px 0 10px; font-weight: 700; }
+.card { background: var(--panel); border: 1px solid var(--line); border-radius: var(--radius); padding: 16px; }
+.card + .card { margin-top: 12px; }
+
+/* controls */
+.label { font-size: 12px; color: var(--muted); font-weight: 600; margin: 14px 0 8px; display: flex; justify-content: space-between; }
+.label:first-child { margin-top: 0; }
+.chips { display: flex; gap: 8px; overflow-x: auto; scrollbar-width: none; margin: 0 -16px; padding: 0 16px; }
+.chips::-webkit-scrollbar { display: none; }
+.card .chips { margin: 0; padding: 0; flex-wrap: wrap; }
+.chip {
+  flex: none; border: 1px solid var(--line); background: var(--panel-2); border-radius: 999px;
+  padding: 8px 14px; font-size: 14px; font-weight: 600; color: var(--muted); white-space: nowrap;
+}
+.chip[aria-pressed="true"] { background: var(--accent-soft); border-color: var(--accent); color: var(--accent); }
+.seg { display: grid; grid-auto-flow: column; grid-auto-columns: 1fr; background: var(--panel-2); border: 1px solid var(--line); border-radius: 12px; padding: 3px; }
+.seg button { border: 0; background: none; padding: 9px 0; border-radius: 9px; font-weight: 700; color: var(--muted); font-size: 14px; }
+.seg button[aria-pressed="true"] { background: var(--text); color: var(--bg); }
+.hint { font-size: 12px; color: var(--faint); margin-top: 6px; }
+.cta {
+  width: 100%; margin-top: 18px; border: 0; border-radius: 14px; padding: 16px; font-size: 16px; font-weight: 800;
+  background: var(--accent); color: var(--accent-ink); letter-spacing: -.01em;
+}
+.cta:active { transform: scale(.99); }
+details.adv { margin-top: 12px; }
+details.adv summary { color: var(--muted); font-size: 13px; font-weight: 600; cursor: pointer; list-style: none; }
+details.adv summary::before { content: "＋ "; }
+details.adv[open] summary::before { content: "－ "; }
+
+/* results */
+.ticket { background: linear-gradient(180deg, #14201b, var(--panel)); border: 1px solid #22553f; border-radius: var(--radius); overflow: hidden; }
+.ticket-head { padding: 16px; display: grid; grid-template-columns: 1fr auto; gap: 6px 12px; align-items: end; }
+.ticket-title { font-size: 13px; color: var(--muted); font-weight: 600; }
+.big-odds { font-family: var(--mono); font-size: 34px; font-weight: 700; letter-spacing: -.02em; line-height: 1; }
+.hit { text-align: right; }
+.hit b { font-family: var(--mono); font-size: 24px; color: var(--accent); display: block; line-height: 1; }
+.hit span { font-size: 12px; color: var(--muted); }
+.meter { grid-column: 1 / -1; height: 6px; background: var(--panel-2); border-radius: 99px; overflow: hidden; margin-top: 8px; }
+.meter i { display: block; height: 100%; background: var(--accent); border-radius: 99px; }
+.stake { display: flex; align-items: center; gap: 10px; padding: 12px 16px; border-top: 1px solid var(--line); font-size: 14px; color: var(--muted); }
+.stake input { width: 80px; background: var(--panel-2); border: 1px solid var(--line); color: var(--text); border-radius: 10px; padding: 8px 10px; font: 600 15px var(--mono); }
+.stake b { color: var(--text); font-family: var(--mono); margin-left: auto; }
+.ev-note { padding: 0 16px 14px; font-size: 12px; color: var(--muted); }
+
+.leg { border-top: 1px solid var(--line); }
+.leg-main { display: grid; grid-template-columns: 30px 1fr auto; gap: 12px; padding: 14px 16px; align-items: center; width: 100%; text-align: left; background: none; border: 0; }
+.grade { width: 30px; height: 30px; border-radius: 9px; display: grid; place-items: center; font-weight: 800; font-size: 14px; }
+.grade.A { background: var(--accent); color: var(--accent-ink); }
+.grade.B { background: #2b7a5a; color: #dffbef; }
+.grade.C { background: #6b5a2a; color: #fff1cc; }
+.grade.D { background: #3a2a2a; color: #ffd6d6; }
+.leg-sel { font-weight: 700; font-size: 16px; }
+.leg-sub { font-size: 12px; color: var(--muted); margin-top: 2px; }
+.leg-odds { font-family: var(--mono); font-weight: 700; font-size: 16px; text-align: right; }
+.leg-odds small { display: block; font-size: 11px; color: var(--accent); font-weight: 500; }
+.leg-body { padding: 0 16px 16px 58px; display: none; }
+.leg.open .leg-body { display: block; }
+.bars { display: grid; gap: 6px; margin: 4px 0 12px; }
+.bar { display: grid; grid-template-columns: 76px 1fr 44px; gap: 8px; align-items: center; font-size: 12px; color: var(--muted); }
+.bar .track { height: 8px; background: var(--panel-2); border-radius: 99px; overflow: hidden; }
+.bar .fill { height: 100%; border-radius: 99px; background: var(--accent); }
+.bar .fill.mkt { background: var(--faint); }
+.bar b { font-family: var(--mono); color: var(--text); text-align: right; font-weight: 500; }
+.reasons { margin: 0; padding: 0; list-style: none; display: grid; gap: 7px; }
+.reasons li { font-size: 13px; color: #c5cfdb; padding-left: 14px; position: relative; }
+.reasons li::before { content: ""; position: absolute; left: 0; top: .6em; width: 5px; height: 5px; border-radius: 50%; background: var(--accent); }
+.reasons.ctx li::before { background: var(--blue); }
+.sub-h { font-size: 11px; text-transform: uppercase; letter-spacing: .08em; color: var(--faint); font-weight: 700; margin: 14px 0 8px; }
+.book { display: inline-block; margin-top: 12px; font-size: 13px; font-weight: 700; text-decoration: none; color: var(--accent); }
+.empty { color: var(--muted); text-align: center; padding: 24px 12px; }
+
+/* games */
+.game { display: grid; grid-template-columns: 1fr auto; gap: 4px 12px; padding: 14px 16px; border-top: 1px solid var(--line); }
+.game:first-child { border-top: 0; }
+.teams { font-weight: 700; }
+.teams img { width: 18px; height: 18px; vertical-align: -3px; margin-right: 6px; }
+.gmeta { font-size: 12px; color: var(--muted); }
+.proj { font-family: var(--mono); font-size: 13px; text-align: right; color: var(--muted); }
+.mkts { grid-column: 1 / -1; display: flex; gap: 6px; flex-wrap: wrap; margin-top: 6px; }
+.mk { font-size: 12px; font-family: var(--mono); padding: 5px 8px; border-radius: 8px; background: var(--panel-2); border: 1px solid var(--line); color: var(--muted); }
+.mk.pos { border-color: #22553f; color: var(--accent); }
+.mk button { all: unset; }
+
+/* record */
+.stats { display: grid; grid-template-columns: repeat(2, 1fr); gap: 10px; }
+.stat { background: var(--panel-2); border-radius: 12px; padding: 12px; }
+.stat b { display: block; font-family: var(--mono); font-size: 22px; }
+.stat span { font-size: 12px; color: var(--muted); }
+table { width: 100%; border-collapse: collapse; font-size: 13px; }
+td, th { text-align: left; padding: 8px 4px; border-top: 1px solid var(--line); }
+th { color: var(--muted); font-weight: 600; font-size: 12px; border-top: 0; }
+td.r, th.r { text-align: right; font-family: var(--mono); }
+.W { color: var(--accent); } .L { color: var(--bad); } .P { color: var(--muted); }
+
+/* prose */
+.prose p, .prose li { color: #c5cfdb; font-size: 14px; }
+.prose h3 { font-size: 16px; margin: 18px 0 6px; }
+.warnbox { border: 1px solid #5a4520; background: #1e1910; color: #f1d9a8; border-radius: 12px; padding: 12px 14px; font-size: 13px; margin-top: 12px; }
+
+/* tab bar */
+nav.tabs {
+  position: fixed; left: 0; right: 0; bottom: 0; z-index: 10;
+  background: rgba(11, 15, 20, .92); backdrop-filter: blur(14px); -webkit-backdrop-filter: blur(14px);
+  border-top: 1px solid var(--line); padding-bottom: env(safe-area-inset-bottom);
+}
+nav.tabs .wrap { display: grid; grid-template-columns: repeat(4, 1fr); }
+nav.tabs button { background: none; border: 0; padding: 10px 0 12px; font-size: 11px; font-weight: 600; color: var(--faint); display: grid; justify-items: center; gap: 4px; }
+nav.tabs button svg { width: 22px; height: 22px; }
+nav.tabs button[aria-selected="true"] { color: var(--accent); }
+.loading { color: var(--muted); padding: 60px 0; text-align: center; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <div class="brand">
+      <div class="brand-mark"><svg viewBox="0 0 24 24" fill="none" stroke="#062a1b" stroke-width="3" stroke-linecap="round"><path d="M4 18V12M10 18V7M16 18v-4M22 18V4" transform="translate(-1 0)"/></svg></div>
+      Parlay Lab
+    </div>
+    <div class="stamp" id="stamp"></div>
+  </header>
+
+  <div id="loading" class="loading">Loading today's board…</div>
+
+  <!-- BUILD -->
+  <section id="tab-build" hidden>
+    <div class="card">
+      <div class="label">Sports</div>
+      <div class="chips" id="sport-chips"></div>
+      <div class="label">When</div>
+      <div class="seg" id="day-seg"></div>
+      <div class="label">Legs <span id="legs-note"></span></div>
+      <div class="seg" id="legs-seg"></div>
+      <div class="label">Style</div>
+      <div class="seg" id="mode-seg"></div>
+      <div class="hint" id="mode-hint"></div>
+      <div id="target-wrap">
+        <div class="label">Pay at least</div>
+        <div class="seg" id="target-seg"></div>
+      </div>
+      <details class="adv">
+        <summary>Advanced filters</summary>
+        <div class="label">Most juice allowed per leg</div>
+        <div class="seg" id="juice-seg"></div>
+        <div class="label">Minimum edge (our odds vs the price you pay)</div>
+        <div class="seg" id="edge-seg"></div>
+        <div class="label">Bet types</div>
+        <div class="chips" id="market-chips"></div>
+      </details>
+      <button class="cta" id="build-btn">Build my parlay</button>
+    </div>
+    <div id="build-out"></div>
+  </section>
+
+  <!-- TOP PICKS -->
+  <section id="tab-picks" hidden>
+    <h2>Today's featured parlays</h2>
+    <div id="featured"></div>
+    <h2>Best straight bets</h2>
+    <div id="straights"></div>
+  </section>
+
+  <!-- GAMES -->
+  <section id="tab-games" hidden>
+    <div class="chips" id="game-sport-chips" style="margin-top:6px"></div>
+    <div id="games"></div>
+  </section>
+
+  <!-- RECORD / ABOUT -->
+  <section id="tab-record" hidden>
+    <h2>Track record</h2>
+    <div id="record"></div>
+    <h2>How it works</h2>
+    <div class="card prose" id="about">
+      <p>Every bet on the board goes through the same pipeline:</p>
+      <ol>
+        <li><b>Team ratings.</b> Each team gets an offense and a defense rating, fit on every game over the last season or so. Recent games count more, and opponents' strength is built in, so beating good teams counts more than beating bad ones.</li>
+        <li><b>Game adjustments.</b> The model accounts for home field, rest and back-to-backs. In MLB it also uses the starting pitchers (FIP, recent starts) and park factors. For NFL and NHL it checks key injuries like a starting QB or goalie.</li>
+        <li><b>Score simulation.</b> Ratings become a full distribution of possible scores, built to fit each sport: NFL margins cluster at 3 and 7, NHL has empty-net goals, MLB has walk-offs, and soccer uses a low-scoring draw model. That distribution prices every moneyline, spread and total.</li>
+        <li><b>Market check.</b> DraftKings prices get the bookmaker's cut (the vig) removed and are blended with our model. The market is very sharp, so a pick shows an <i>edge</i> only when the data genuinely disagrees with it.</li>
+        <li><b>Calibration.</b> A walk-forward backtest replays past seasons without peeking at the future and tunes each sport so a "60%" pick hits about 60% of the time.</li>
+      </ol>
+      <p><b>Grades:</b> <b>A</b> means clearly +EV (our probability is at least 2% above the price's break-even) and more likely than not. <b>B</b> means +EV. <b>C</b> means close to a fair price. <b>D</b> means the price is too steep for what the data supports.</p>
+      <div class="warnbox">No model hits 100%. Sportsbooks build a margin into every price, and parlays multiply it. A 3-leg parlay of 70% legs still loses about two times in three. Treat this as a research tool, bet only what you can afford to lose, and if gambling stops being fun, call 1-800-GAMBLER.</div>
+    </div>
+  </section>
+</div>
+
+<nav class="tabs" role="tablist">
+  <div class="wrap">
+    <button role="tab" data-tab="build" aria-selected="true">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="3" width="16" height="18" rx="3"/><path d="M8 8h8M8 12h8M8 16h5"/></svg>Build</button>
+    <button role="tab" data-tab="picks" aria-selected="false">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l2.7 5.6 6.1.9-4.4 4.3 1 6.1L12 17l-5.4 2.9 1-6.1L3.2 9.5l6.1-.9z"/></svg>Top picks</button>
+    <button role="tab" data-tab="games" aria-selected="false">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="17" rx="3"/><path d="M3 9h18M8 2v4M16 2v4"/></svg>Games</button>
+    <button role="tab" data-tab="record" aria-selected="false">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 20V10M10 20V4M16 20v-7M22 20H2"/></svg>Record</button>
+  </div>
+</nav>
+
+<script>
+const $ = (s, el = document) => el.querySelector(s);
+const esc = s => String(s ?? "").replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+const pct = p => (p * 100).toFixed(0) + "%";
+const fmtOdds = a => a == null ? "—" : (a > 0 ? "+" : "") + Math.round(a);
+const dec = a => a > 0 ? 1 + a / 100 : 1 + 100 / -a;
+const toAmerican = d => d >= 2 ? Math.round((d - 1) * 100) : Math.round(-100 / (d - 1));
+
+const store = {
+  get(k, d) { try { const v = localStorage.getItem("pl." + k); return v == null ? d : JSON.parse(v); } catch { return d; } },
+  set(k, v) { try { localStorage.setItem("pl." + k, JSON.stringify(v)); } catch {} },
+};
+
+let DATA = null;
+const state = {
+  sports: new Set(), day: "all", legs: 3, mode: "safest", target: 150,
+  juice: -250, edge: 0, markets: new Set(["ml", "spread", "total"]),
+  stake: store.get("stake", 10), gameSport: "all",
+};
+
+function localDay(iso) {
+  const d = new Date(iso);
+  return d.getFullYear() + "-" + String(d.getMonth() + 1).padStart(2, "0") + "-" + String(d.getDate()).padStart(2, "0");
+}
+function when(iso) {
+  const d = new Date(iso), today = localDay(new Date().toISOString());
+  const t = d.toLocaleTimeString([], { hour: "numeric", minute: "2-digit" });
+  if (localDay(iso) === today) return "Today " + t;
+  return d.toLocaleDateString([], { weekday: "short" }) + " " + t;
+}
+
+// ------------------------------------------------------------------ segmented controls
+function seg(el, options, get, set) {
+  el.innerHTML = options.map(([v, label]) => `<button data-v="${esc(v)}">${esc(label)}</button>`).join("");
+  const sync = () => el.querySelectorAll("button").forEach(b => b.setAttribute("aria-pressed", String(b.dataset.v) === String(get())));
+  el.addEventListener("click", e => { const b = e.target.closest("button"); if (!b) return; set(b.dataset.v); sync(); });
+  sync();
+}
+
+// ------------------------------------------------------------------ parlay search (mirrors engine/parlay.py)
+function eligible(opts) {
+  const today = localDay(new Date().toISOString());
+  return DATA.legs.filter(l =>
+    (opts.sports.size === 0 || opts.sports.has(l.sport)) &&
+    opts.markets.has(l.market) &&
+    l.odds >= opts.juice && l.odds <= 200 &&
+    l.edge >= opts.edge &&
+    new Date(l.start) > new Date() &&
+    (opts.day === "all" || (opts.day === "today" ? localDay(l.start) === today : localDay(l.start) !== today))
+  );
+}
+function* combos(arr, k, start = 0, acc = []) {
+  if (acc.length === k) { yield acc.slice(); return; }
+  for (let i = start; i <= arr.length - (k - acc.length); i++) { acc.push(arr[i]); yield* combos(arr, k, i + 1, acc); acc.pop(); }
+}
+function search(opts, exclude = new Set()) {
+  const key = opts.mode === "safest" ? l => l.p : l => l.ev;
+  const perGame = {};
+  eligible(opts).filter(l => !exclude.has(l.id)).sort((a, b) => key(b) - key(a)).forEach(l => {
+    (perGame[l.game_id] ||= []); if (perGame[l.game_id].length < 2) perGame[l.game_id].push(l);
+  });
+  const n = opts.legs;
+  const pool = Object.values(perGame).flat().sort((a, b) => key(b) - key(a)).slice(0, n >= 5 ? 16 : 22);
+  const target = n > 1 ? dec(opts.target) : 1;
+  let best = null, bestScore = -Infinity;
+  for (const c of combos(pool, Math.min(n, pool.length))) {
+    if (c.length < n) break;
+    if (new Set(c.map(l => l.game_id)).size < n) continue;
+    const p = c.reduce((a, l) => a * l.p, 1), d = c.reduce((a, l) => a * dec(l.odds), 1);
+    let score;
+    if (opts.mode === "safest") { if (d < target) continue; score = p; }
+    else { if (p < Math.max(0.12, 0.6 ** n)) continue; score = p * d - 1; }
+    if (score > bestScore) { bestScore = score; best = { legs: c, p, d }; }
+  }
+  return best;
+}
+
+// ------------------------------------------------------------------ rendering
+function legHTML(l, open = false) {
+  const push = l.p_push > 0.01 ? ` · ${pct(l.p_push)} push` : "";
+  return `<div class="leg${open ? " open" : ""}">
+    <button class="leg-main" onclick="this.parentElement.classList.toggle('open')" aria-label="Show reasoning">
+      <div class="grade ${l.grade}">${l.grade}</div>
+      <div><div class="leg-sel">${esc(l.selection)}</div>
+        <div class="leg-sub">${esc(DATA.sport_names[l.sport] || l.sport)} · ${esc(l.short)} · ${when(l.start)}</div></div>
+      <div class="leg-odds">${esc(l.odds_str)}<small>${pct(l.p)}</small></div>
+    </button>
+    <div class="leg-body">
+      <div class="bars">
+        <div class="bar"><span>Our model</span><div class="track"><div class="fill" style="width:${l.p * 100}%"></div></div><b>${pct(l.p)}</b></div>
+        <div class="bar"><span>Market</span><div class="track"><div class="fill mkt" style="width:${l.p_market * 100}%"></div></div><b>${pct(l.p_market)}</b></div>
+      </div>
+      <div class="leg-sub" style="margin-bottom:10px">${esc(l.headline)}${push}. EV ${(l.ev * 100).toFixed(1)}¢ per $1.</div>
+      <div class="sub-h">Why</div>
+      <ul class="reasons">${l.reasons.map(r => `<li>${esc(r)}</li>`).join("")}</ul>
+      <div class="sub-h">Matchup</div>
+      <ul class="reasons ctx">${l.context.map(r => `<li>${esc(r)}</li>`).join("")}</ul>
+      ${l.link ? `<a class="book" href="${esc(l.link)}" target="_blank" rel="noopener">Open on DraftKings →</a>` : ""}
+    </div>
+  </div>`;
+}
+
+function ticketHTML(title, legs, p, d, note = "") {
+  const american = toAmerican(d);
+  const ev = p * d - 1;
+  const id = "t" + Math.random().toString(36).slice(2, 8);
+  return `<div class="ticket" style="margin-top:14px">
+    <div class="ticket-head">
+      <div><div class="ticket-title">${esc(title)}</div><div class="big-odds">${fmtOdds(american)}</div></div>
+      <div class="hit"><b>${pct(p)}</b><span>chance to hit</span></div>
+      <div class="meter"><i style="width:${Math.max(p * 100, 2)}%"></i></div>
+    </div>
+    <div class="stake">Stake $<input id="${id}" type="number" inputmode="decimal" min="0" value="${state.stake}" data-dec="${d}">
+      <b id="${id}-pay">Pays $${(state.stake * d).toFixed(2)}</b></div>
+    <div class="ev-note">Expected value: ${ev >= 0 ? "+" : ""}${(ev * 100).toFixed(1)}% by our model. ${esc(note)}</div>
+    ${legs.map(l => legHTML(l)).join("")}
+  </div>`;
+}
+document.addEventListener("input", e => {
+  if (e.target.matches(".stake input")) {
+    const v = parseFloat(e.target.value) || 0; state.stake = v; store.set("stake", v);
+    $("#" + e.target.id + "-pay").textContent = "Pays $" + (v * parseFloat(e.target.dataset.dec)).toFixed(2);
+  }
+});
+
+function build() {
+  const out = $("#build-out");
+  const opts = { ...state };
+  const best = search(opts);
+  if (!best) {
+    const n = eligible(opts).length;
+    out.innerHTML = `<div class="card empty" style="margin-top:14px">No ${state.legs}-leg combo fits these filters (${n} eligible bets). Try fewer legs, a lower payout target, more sports, or relax the minimum edge in Advanced.</div>`;
+    return;
+  }
+  const title = state.legs === 1 ? "Straight bet" : `${state.legs}-leg parlay · ${state.mode === "safest" ? "safest" : "best value"}`;
+  let html = ticketHTML(title, best.legs, best.p, best.d);
+  // one alternative that avoids this ticket's top leg
+  const alt = search(opts, new Set([best.legs[0].id]));
+  if (alt) html += `<h2>Alternative</h2>` + ticketHTML(title + " (alt)", alt.legs, alt.p, alt.d);
+  out.innerHTML = html;
+  out.scrollIntoView({ behavior: "smooth", block: "start" });
+}
+
+function renderBuild() {
+  const chips = $("#sport-chips");
+  chips.innerHTML = [["all", "All"], ...DATA.sports.map(s => [s, DATA.sport_names[s]])]
+    .map(([v, l]) => `<button class="chip" data-v="${v}">${esc(l)}</button>`).join("");
+  const syncChips = () => chips.querySelectorAll(".chip").forEach(c =>
+    c.setAttribute("aria-pressed", c.dataset.v === "all" ? state.sports.size === 0 : state.sports.has(c.dataset.v)));
+  chips.onclick = e => {
+    const c = e.target.closest(".chip"); if (!c) return;
+    if (c.dataset.v === "all") state.sports.clear();
+    else state.sports.has(c.dataset.v) ? state.sports.delete(c.dataset.v) : state.sports.add(c.dataset.v);
+    syncChips();
+  };
+  syncChips();
+  seg($("#day-seg"), [["all", "Next 4 days"], ["today", "Today"], ["tomorrow", "Later"]], () => state.day, v => state.day = v);
+  seg($("#legs-seg"), [1, 2, 3, 4, 5, 6].map(n => [n, n === 1 ? "Single" : n]), () => state.legs, v => { state.legs = +v; syncMode(); });
+  seg($("#mode-seg"), [["safest", "Safest"], ["value", "Best value"]], () => state.mode, v => { state.mode = v; syncMode(); });
+  seg($("#target-seg"), [[100, "+100"], [150, "+150"], [200, "+200"], [300, "+300"], [500, "+500"]], () => state.target, v => state.target = +v);
+  seg($("#juice-seg"), [[-150, "-150"], [-200, "-200"], [-250, "-250"], [-350, "-350"]], () => state.juice, v => state.juice = +v);
+  seg($("#edge-seg"), [[-1, "Any"], [-0.02, "Near fair"], [0, "+EV only"], [0.02, "≥ 2%"]], () => state.edge, v => state.edge = +v);
+  const mc = $("#market-chips");
+  mc.innerHTML = [["ml", "Moneyline"], ["spread", "Spread"], ["total", "Totals"]].map(([v, l]) => `<button class="chip" data-v="${v}">${l}</button>`).join("");
+  const syncM = () => mc.querySelectorAll(".chip").forEach(c => c.setAttribute("aria-pressed", state.markets.has(c.dataset.v)));
+  mc.onclick = e => { const c = e.target.closest(".chip"); if (!c) return; state.markets.has(c.dataset.v) && state.markets.size > 1 ? state.markets.delete(c.dataset.v) : state.markets.add(c.dataset.v); syncM(); };
+  syncM();
+  function syncMode() {
+    $("#target-wrap").hidden = state.mode !== "safest" || state.legs === 1;
+    $("#mode-hint").textContent = state.mode === "safest"
+      ? "Highest chance of hitting that still pays your target. By default every leg must be +EV at the price."
+      : "Highest expected return by our model. Pays more, hits less often.";
+  }
+  syncMode();
+  $("#build-btn").onclick = build;
+}
+
+function renderPicks() {
+  const byId = Object.fromEntries(DATA.legs.map(l => [l.id, l]));
+  const names = { safest_2: "Safest 2-leg", safest_3: "Safest 3-leg", safest_4: "Safest 4-leg", value_3: "Best-value 3-leg" };
+  const f = Object.entries(DATA.featured || {}).map(([k, p]) => {
+    const legs = p.legs.map(id => byId[id]).filter(Boolean);
+    if (legs.length !== p.legs.length) return "";
+    return ticketHTML(names[k] || k, legs, p.p, p.decimal);
+  }).join("");
+  $("#featured").innerHTML = f || `<div class="card empty">No parlay today clears the edge bar. When the market and the data agree, the smart play is to pass.</div>`;
+  const s = (DATA.straights || []).map(id => byId[id]).filter(Boolean);
+  $("#straights").innerHTML = s.length
+    ? `<div class="ticket">${s.map(l => legHTML(l)).join("")}</div>`
+    : `<div class="card empty">No straight bets with an edge right now.</div>`;
+}
+
+function renderGames() {
+  const chips = $("#game-sport-chips");
+  chips.innerHTML = [["all", "All"], ...DATA.sports.map(s => [s, DATA.sport_names[s]])]
+    .map(([v, l]) => `<button class="chip" data-v="${v}" aria-pressed="${state.gameSport === v}">${esc(l)}</button>`).join("");
+  chips.onclick = e => { const c = e.target.closest(".chip"); if (!c) return; state.gameSport = c.dataset.v; renderGames(); };
+  const legsBy = {};
+  DATA.legs.forEach(l => (legsBy[l.game_id] ||= []).push(l));
+  const games = DATA.games.filter(g => (state.gameSport === "all" || g.sport === state.gameSport) && new Date(g.start) > new Date())
+    .sort((a, b) => a.start.localeCompare(b.start));
+  if (!games.length) { $("#games").innerHTML = `<div class="card empty" style="margin-top:12px">No upcoming games.</div>`; return; }
+  $("#games").innerHTML = `<div class="card" style="padding:0;margin-top:12px">` + games.map(g => {
+    const legs = (legsBy[g.id] || []).sort((a, b) => a.market.localeCompare(b.market));
+    return `<div class="game">
+      <div><div class="teams"><img src="${esc(g.away.logo)}" alt="" loading="lazy">${esc(g.away.name)}</div>
+        <div class="teams"><img src="${esc(g.home.logo)}" alt="" loading="lazy">${esc(g.home.name)}</div>
+        <div class="gmeta">${esc(DATA.sport_names[g.sport])} · ${when(g.start)}${g.note ? " · " + esc(g.note) : ""}</div></div>
+      <div class="proj">proj<br>${g.exp_away.toFixed(1)}<br>${g.exp_home.toFixed(1)}</div>
+      <div class="mkts">${legs.map(l => `<button class="mk ${l.edge >= 0.01 ? "pos" : ""}" onclick="showLeg('${esc(l.id)}')">${esc(l.selection)} ${esc(l.odds_str)} · ${pct(l.p)}</button>`).join("")}</div>
+    </div>`;
+  }).join("") + `</div><div id="leg-detail"></div>`;
+}
+window.showLeg = id => {
+  const l = DATA.legs.find(x => x.id === id);
+  const el = $("#leg-detail");
+  el.innerHTML = `<h2>Bet detail</h2><div class="ticket">${legHTML(l, true)}</div>`;
+  el.scrollIntoView({ behavior: "smooth" });
+};
+
+function renderRecord() {
+  const r = DATA.record || {};
+  const s = r.straight || { n: 0 };
+  if (!s.n) {
+    $("#record").innerHTML = `<div class="card empty">No graded picks yet. Every featured pick is logged and graded automatically after its game ends, so the record builds from here.</div>`;
+    return;
+  }
+  const pr = r.parlays || { n: 0 };
+  const rows = Object.entries(r.by_grade || {}).filter(([, v]) => v.n).map(([g, v]) =>
+    `<tr><td><span class="grade ${g}" style="display:inline-grid;width:22px;height:22px;font-size:12px">${g}</span></td><td class="r">${v.wins}-${v.n - v.wins}</td><td class="r">${pct(v.hit_rate)}</td><td class="r">${pct(v.expected_hit_rate)}</td><td class="r">${v.units >= 0 ? "+" : ""}${v.units}u</td></tr>`).join("");
+  const recent = (r.recent || []).map(l => `<tr><td>${esc(l.short)}<br><span class="gmeta">${esc(l.selection)} ${fmtOdds(l.odds)}</span></td><td class="r">${pct(l.p)}</td><td class="r ${l.result}">${l.result}</td></tr>`).join("");
+  $("#record").innerHTML = `<div class="card"><div class="stats">
+      <div class="stat"><b>${s.wins}-${s.n - s.wins}</b><span>Straight bets (${pct(s.hit_rate)})</span></div>
+      <div class="stat"><b class="${s.units >= 0 ? "W" : "L"}">${s.units >= 0 ? "+" : ""}${s.units}u</b><span>Profit, 1 unit per bet</span></div>
+      <div class="stat"><b>${pr.n ? pr.wins + "-" + (pr.n - pr.wins) : "—"}</b><span>Parlays</span></div>
+      <div class="stat"><b>${r.avg_clv == null ? "—" : (r.avg_clv * 100).toFixed(1) + "%"}</b><span>Avg closing-line value</span></div>
+    </div></div>
+    <div class="card"><table><tr><th>Grade</th><th class="r">W-L</th><th class="r">Hit</th><th class="r">Expected</th><th class="r">Units</th></tr>${rows}</table>
+    <div class="hint">"Expected" is the average probability we gave those picks. If Hit tracks Expected, the model is well calibrated.</div></div>
+    <h2>Recent results</h2><div class="card"><table>${recent}</table></div>`;
+}
+
+function showTab(name) {
+  document.querySelectorAll("nav.tabs button").forEach(b => b.setAttribute("aria-selected", b.dataset.tab === name));
+  document.querySelectorAll("section").forEach(s => s.hidden = s.id !== "tab-" + name);
+  store.set("tab", name);
+  window.scrollTo(0, 0);
+}
+document.querySelector("nav.tabs").addEventListener("click", e => { const b = e.target.closest("button"); if (b) showTab(b.dataset.tab); });
+
+fetch("data/picks.json", { cache: "no-store" }).then(r => r.json()).then(d => {
+  DATA = d;
+  $("#loading").remove();
+  const gen = new Date(d.generated_at);
+  $("#stamp").innerHTML = `Updated ${gen.toLocaleString([], { weekday: "short", hour: "numeric", minute: "2-digit" })}<br>${d.legs.length} bets · ${d.games.length} games`;
+  renderBuild(); renderPicks(); renderGames(); renderRecord();
+  showTab(store.get("tab", "build"));
+}).catch(err => {
+  $("#loading").textContent = "Couldn't load today's data. Pull down to retry.";
+  console.error(err);
+});
+</script>
+</body>
+</html>
