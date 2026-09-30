@@ -900,6 +900,40 @@
    "grade": "B",
    "close_odds": -121,
    "result": null
+  },
+  "401860921:KXNCAAFSPREAD-26OCT03FRESWSU-WSU2:yes": {
+   "id": "401860921:KXNCAAFSPREAD-26OCT03FRESWSU-WSU2:yes",
+   "sport": "cfb",
+   "game_id": "401860921",
+   "short": "FRES @ WSU",
+   "start": "2026-10-04T01:30Z",
+   "market": "spread",
+   "side": "home",
+   "selection": "WSU by 1.5+",
+   "line": -1.5,
+   "odds": -112,
+   "p": 0.5394,
+   "p_market": 0.505,
+   "grade": "B",
+   "close_odds": -112,
+   "result": null
+  },
+  "401864514:KXNCAAFSPREAD-26OCT03UTEPUNM-UNM22:yes": {
+   "id": "401864514:KXNCAAFSPREAD-26OCT03UTEPUNM-UNM22:yes",
+   "sport": "cfb",
+   "game_id": "401864514",
+   "short": "UTEP @ UNM",
+   "start": "2026-10-03T20:00Z",
+   "market": "spread",
+   "side": "home",
+   "selection": "UNM by 21.5+",
+   "line": -21.5,
+   "odds": -121,
+   "p": 0.5619,
+   "p_market": 0.5248,
+   "grade": "B",
+   "close_odds": -121,
+   "result": null
   }
  },
  "parlays": [
@@ -1320,6 +1354,35 @@
    "decimal": 5.216,
    "american": 422,
    "ev": 0.07,
+   "result": null
+  },
+  {
+   "legs": [
+    "401869962:KXNCAAFSPREAD-26OCT03MRSHJMU-JMU15:yes",
+    "401856822:KXNCAAFGAME-26OCT03WVUISU-ISU:yes",
+    "401858475:KXNCAAFSPREAD-26OCT03MDNEB-NEB13:yes",
+    "401864515:KXNCAAFSPREAD-26OCT03WYONDSU-NDSU17:yes"
+   ],
+   "n": 4,
+   "mode": "safest",
+   "p": 0.1479,
+   "decimal": 7.161,
+   "american": 616,
+   "ev": 0.059,
+   "result": null
+  },
+  {
+   "legs": [
+    "401864514:KXNCAAFSPREAD-26OCT03UTEPUNM-UNM22:yes",
+    "401864515:KXNCAAFSPREAD-26OCT03WYONDSU-NDSU17:yes",
+    "401856822:KXNCAAFSPREAD-26OCT03WVUISU-ISU2:yes"
+   ],
+   "n": 3,
+   "mode": "value",
+   "p": 0.2053,
+   "decimal": 5.216,
+   "american": 422,
+   "ev": 0.0707,
    "result": null
   }
  ]

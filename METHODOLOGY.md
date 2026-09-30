@@ -132,7 +132,26 @@ model alone, without market blending or pitcher adjustments):
 | Liga MX* | 323 | 64.6% | 0.221 | 0.236 |
 | Champions League* | 123 | 68.6% | 0.210 | 0.240 |
 
-\*Soccer scored on games that didn't end in a draw.
+| Europa League* | 118 | 66.0% | 0.207 | 0.236 |
+| Eredivisie* | 294 | 67.6% | 0.205 | 0.245 |
+| Primeira Liga* | 295 | 78.9% | 0.164 | 0.243 |
+| Belgian Pro League* | 290 | 61.4% | 0.222 | 0.246 |
+| Süper Lig* | 290 | 67.8% | 0.207 | 0.239 |
+| Scottish Premiership* | 198 | 67.3% | 0.204 | 0.241 |
+| Championship* | 571 | 58.7% | 0.234 | 0.244 |
+| League One* | 543 | 61.7% | 0.231 | 0.241 |
+| 2. Bundesliga* | 276 | 59.2% | 0.234 | 0.236 |
+| LaLiga 2* | 462 | 58.9% | 0.230 | 0.243 |
+| Serie B* | 359 | 69.4% | 0.205 | 0.226 |
+| Ligue 2* | 285 | 61.7% | 0.226 | 0.247 |
+| Brasileirão* | 411 | 68.1% | 0.207 | 0.217 |
+| Argentine Primera* | 536 | 60.2% | 0.236 | 0.242 |
+| Saudi Pro League* | 299 | 72.7% | 0.173 | 0.243 |
+
+\*Soccer scored on games that didn't end in a draw. Conference League and Copa
+Libertadores don't have enough history to backtest yet, so they lean mostly on the market.
+Second divisions are more balanced (hence lower accuracy) but more thinly traded, so
+market prices there are softer.
 
 Takeaways that shaped the model:
 

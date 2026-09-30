@@ -14,6 +14,7 @@ from __future__ import annotations
 import datetime as dt
 import math
 import re
+import unicodedata
 from zoneinfo import ZoneInfo
 
 import numpy as np
@@ -31,6 +32,13 @@ LEAGUE = {
     "nhl": "NHL", "soccer_eng.1": "EPL", "soccer_esp.1": "LALIGA", "soccer_ita.1": "SERIEA",
     "soccer_ger.1": "BUNDESLIGA", "soccer_fra.1": "LIGUE1", "soccer_usa.1": "MLS",
     "soccer_uefa.champions": "UCL", "soccer_mex.1": "LIGAMX",
+    "soccer_uefa.europa": "UEL", "soccer_uefa.europa.conf": "UECL",
+    "soccer_ned.1": "EREDIVISIE", "soccer_por.1": "LIGAPORTUGAL", "soccer_bel.1": "BELGIANPL",
+    "soccer_tur.1": "SUPERLIG", "soccer_sco.1": "SCOTTISHPREM",
+    "soccer_eng.2": "EFLCHAMPIONSHIP", "soccer_eng.3": "EFLL1", "soccer_ger.2": "BUNDESLIGA2",
+    "soccer_esp.2": "LALIGA2", "soccer_ita.2": "SERIEB", "soccer_fra.2": "LIGUE2",
+    "soccer_bra.1": "BRASILEIRO", "soccer_arg.1": "ARGPREMDIV",
+    "soccer_conmebol.libertadores": "CONMEBOLLIB", "soccer_ksa.1": "SAUDIPL",
 }
 KINDS = ("GAME", "SPREAD", "TOTAL")
 MONTHS = {m: i for i, m in enumerate("JAN FEB MAR APR MAY JUN JUL AUG SEP OCT NOV DEC".split(), 1)}
@@ -65,8 +73,14 @@ def _slug(text: str) -> str:
     return re.sub(r"[^a-z0-9]+", "-", (text or "game").lower()).strip("-") or "game"
 
 
+# ESPN shortens Brazilian clubs by state ("Atlético-MG"); Kalshi spells it out.
+STATE_SUFFIX = {"mg": "mineiro", "pr": "paranaense", "go": "goianiense"}
+
+
 def _words(s: str | None) -> list[str]:
-    w = re.sub(r"[^a-z0-9 ]", " ", (s or "").lower().replace("&", " and ")).split()
+    s = unicodedata.normalize("NFKD", s or "").encode("ascii", "ignore").decode()  # São -> Sao
+    w = re.sub(r"[^a-z0-9 ]", " ", s.lower().replace("&", " and ")).split()
+    w = [STATE_SUFFIX.get(x, x) if i else x for i, x in enumerate(w)]
     if w and w[-1] == "st":  # "Texas St." -> "texas state" (but leave "St. Louis" alone)
         w[-1] = "state"
     return w
