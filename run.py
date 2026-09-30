@@ -24,6 +24,7 @@ from engine.sports import SPORTS
 ROOT = Path(__file__).resolve().parent
 OUT = ROOT / "site" / "data" / "picks.json"
 ET = ZoneInfo("America/New_York")
+STRAIGHTS_PER_LEAGUE = 5
 
 
 def log(*a):
@@ -83,6 +84,36 @@ def slim(leg: dict) -> dict:
     if leg.get("group", "Game lines") == "Game lines":
         out.pop("group", None)
     return out
+
+
+def pick_top(all_legs: list[dict], today: dt.date) -> tuple[dict, list[str]]:
+    """The day's featured parlays and straight bets, from games today and tomorrow only."""
+    window = {today, today + dt.timedelta(days=1)}
+    legs = [l for l in all_legs
+            if dt.datetime.fromisoformat(l["start"].replace("Z", "+00:00")).astimezone(ET).date() in window]
+    featured, used = {}, set()
+    # Only feature a parlay when every leg is +EV and the whole ticket still has a
+    # realistic chance. On thin or sharply priced slates, showing nothing is the right call.
+    # Each featured parlay uses different legs, so one miss can't sink every ticket.
+    fresh = lambda pool: [l for l in pool if l["id"] not in used]
+    specs = [("safest_2", legs, dict(n=2, mode="safest", target_american=100), 0.30),
+             ("safest_3", legs, dict(n=3, mode="safest", target_american=150), 0.18),
+             ("props_3", [l for l in legs if l.get("market") == "prop"], dict(n=3, mode="safest", target_american=150), 0.18),
+             ("value_3", legs, dict(n=3, mode="value", min_hit=0.2), 0.0),
+             ("safest_4", legs, dict(n=4, mode="safest", target_american=250), 0.10)]
+    for name, pool, kw, floor in specs:
+        n = kw.pop("n")
+        p = parlay.build(fresh(pool), n, min_edge=0.005, **kw)
+        if p and p["p"] >= floor:
+            featured[name] = p
+            used.update(p["legs"])
+    # straight bets: the best few per league, so every sport filter has something to show
+    straights, per = [], {}
+    for l in sorted(parlay.eligible(legs, min_edge=0.005), key=lambda l: -l["ev"]):
+        if l["p"] >= 0.45 and per.get(l["sport"], 0) < STRAIGHTS_PER_LEAGUE and l.get("modeled", True):
+            straights.append(l["id"])
+            per[l["sport"]] = per.get(l["sport"], 0) + 1
+    return featured, straights
 
 
 def validate(legs: list[dict], featured: dict) -> list[str]:
@@ -176,35 +207,34 @@ def main():
     all_legs = [l for l in all_legs if dt.datetime.fromisoformat(l["start"].replace("Z", "+00:00")) > now_utc]
     all_legs.sort(key=lambda l: (-l["p"] - l["edge"]))
 
-    featured = {}
-    # Only feature a parlay when every leg is +EV and the whole ticket still has a
-    # realistic chance. On thin or sharply priced slates, showing nothing is the right call.
-    for n, target, floor in ((2, 100, 0.30), (3, 150, 0.18), (4, 250, 0.10)):
-        p = parlay.build(all_legs, n, mode="safest", target_american=target, min_edge=0.005)
-        if p and p["p"] >= floor:
-            featured[f"safest_{n}"] = p
-    v = parlay.build(all_legs, 3, mode="value", min_hit=0.2, min_edge=0.005)
-    if v:
-        featured["value_3"] = v
-    props = [l for l in all_legs if l.get("market") == "prop"]
-    pp = parlay.build(props, 3, mode="safest", target_american=150, min_edge=0.005)
-    if pp and pp["p"] >= 0.18:
-        featured["props_3"] = pp
-    straights = [l["id"] for l in sorted(parlay.eligible(all_legs, min_edge=0.005),
-                                         key=lambda l: -l["ev"]) if l["p"] >= 0.45][:8]
+    legs_by_id = {l["id"]: l for l in all_legs}
 
-    problems = validate(all_legs, featured)
+    # ---- Top Picks: chosen once a day (first refresh after grade.LOCK_HOUR Eastern) from
+    # games today and tomorrow, then frozen so the record grades exactly what was shown.
+    day = today.isoformat()
+    top_log = grade.load(day)
+    featured, straights = {}, []
+    # only a full run (every league) may lock the day's picks
+    if top_log is None and not args.sports and (args.date or now.hour >= grade.LOCK_HOUR):
+        featured, straights = pick_top(all_legs, today)
+        problems = validate(all_legs, featured)
+        if problems:
+            for msg in problems[:25]:
+                log("  ✗ " + msg)
+            log(f"\n{len(problems)} consistency problems; not publishing this board.")
+            return 1
+        top_log = grade.lock_picks(day, now.isoformat(timespec="minutes"), legs_by_id, featured, straights)
+        log(f"  Locked today's Top Picks: {len(featured)} parlays, {len(straights)} straight bets")
+    problems = validate(all_legs, {})
     if problems:
         for msg in problems[:25]:
             log("  ✗ " + msg)
         log(f"\n{len(problems)} consistency problems; not publishing this board.")
         return 1
-    log(f"  ✓ consistency check passed ({len(all_legs)} bets, {len(featured)} featured parlays)")
-
-    featured_ids = {lid for p in featured.values() for lid in p["legs"]} | set(straights)
+    log(f"  ✓ consistency check passed ({len(all_legs)} bets)")
+    grade.update_closing(legs_by_id)
     grade.grade_all(results_by_sport)
-    if featured_ids:
-        grade.record_picks(today.isoformat(), all_legs, list(featured.values()), featured_ids)
+    grade.feedback()
 
     # Modeled bets go in picks.json (the builder searches them). Bets we can only list at
     # Kalshi's price go in one small file per game, loaded when that game is opened.
@@ -230,8 +260,7 @@ def main():
         "sport_names": {k: SPORTS[k].name for k in {l["sport"] for l in all_legs}},
         "games": all_games,
         "legs": main_legs,
-        "featured": featured,
-        "straights": straights,
+        "top": grade.top_payload(top_log or grade.latest(), legs_by_id),
         "record": grade.summary(),
     }
     OUT.parent.mkdir(parents=True, exist_ok=True)
@@ -240,12 +269,10 @@ def main():
         f"{len(all_legs) - len(main_legs)} at market price) in {time.time() - t0:.0f}s -> {OUT.relative_to(ROOT)} "
         f"({OUT.stat().st_size / 1e6:.1f} MB)")
 
-    by_id = {l["id"]: l for l in all_legs}
-    for name, p in featured.items():
-        log(f"\n== {name}: {p['american']:+d}  ({p['p'] * 100:.0f}% to hit by our model)")
-        for lid in p["legs"]:
-            l = by_id[lid]
-            log(f"   [{l['grade']}] {l['sport_name']:<16} {l['short']:<14} {l['selection']:<18} {l['odds_str']:>5}  {l['headline']}")
+    for p in (payload["top"] or {}).get("parlays", []):
+        log(f"\n== {p['name']}: {p['american']:+d}  ({p['p'] * 100:.0f}% to hit)  result: {p['result'] or 'pending'}")
+        for l in p["legs"]:
+            log(f"   [{l.get('grade')}] {l['sport']:<14} {l['short']:<14} {l['selection']:<40} {l.get('result') or ''}")
     return 0
 
 

@@ -35,6 +35,14 @@ python3 -m venv .venv && .venv/bin/pip install -r requirements.txt
 Sport keys: `nfl cfb nba ncaab wnba mlb nhl soccer_eng.1 soccer_esp.1 soccer_ita.1
 soccer_ger.1 soccer_fra.1 soccer_usa.1 soccer_uefa.champions soccer_mex.1`.
 
+## Daily Top Picks
+
+Each day at the first refresh after 10 AM Eastern, the app picks that day's featured
+parlays and straight bets from games today and tomorrow and locks them. The Record tab
+lists every day's picks, grades each leg from Kalshi's settlement, and marks the legs that
+broke a parlay. Results feed back into how much the model trusts itself per bet type
+(`data/feedback.json`).
+
 ## Live prices (optional, free)
 
 Before building a parlay, and when you open your slip or Top picks, the app can re-check

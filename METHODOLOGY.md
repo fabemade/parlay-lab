@@ -234,7 +234,22 @@ are scored as reliably as game lines.
   with the model at the same weight the engine used, so the app and engine agree. Moved
   prices show "was 42¢", and closed markets are dropped.
 
-## 10. Roadmap
+## 10. Daily Top Picks and the record
+
+- **Locking:** Top Picks are chosen once a day, at the first refresh after 10:00 AM
+  Eastern, from games today and tomorrow only. By 10 AM most lineups, starting pitchers and
+  prop markets are posted. They're frozen in `data/log/<date>.json`. Prices on the Top
+  Picks tab keep updating through the day, but the picks don't change.
+- **Variety:** each featured parlay uses different legs, so one miss can't sink every
+  ticket. Straight bets are the best few per league, so each sport filter has options.
+- **Grading:** every leg is graded from Kalshi's settlement. A parlay is marked missed the
+  moment any leg misses, and the Record tab shows exactly which legs broke it.
+- **Learning from results:** after every run, graded legs are grouped by league and bet
+  type. Once a group has 30+ graded legs, if it's hitting clearly below what the model
+  predicted (more than 1.5 standard errors), its weight against the market is halved
+  (quartered past 2.5). This is stored in `data/feedback.json` and applied on the next run.
+
+## 11. Roadmap
 
 - **Props:** minutes/usage projections and opponent positional defense (e.g. yards allowed to
   WRs); confirmed lineups and batting order for MLB

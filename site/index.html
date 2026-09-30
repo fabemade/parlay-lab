@@ -163,6 +163,30 @@ section[hidden] { display: none; }
 .meter + .leg, .ticket > .leg:first-child { border-top: 0; }
 .leg-main { display: flex; gap: 12px; padding: 14px 18px; align-items: center; width: 100%; text-align: left; }
 .leg-info { flex: 1; min-width: 0; }
+.leg-when { font-size: 12px; font-weight: 700; color: var(--blue); margin-bottom: 3px; line-height: 1.5; }
+.leg-when svg { width: 13px; height: 13px; vertical-align: -2px; margin-right: 4px; }
+.leg-when .lg-name { color: var(--faint); font-weight: 600; margin-left: 2px; }
+.leg-when .res { margin-left: 4px; vertical-align: 1px; }
+.res { font-size: 11px; font-weight: 800; padding: 3px 8px; border-radius: 99px; letter-spacing: .02em; }
+.res.W { background: var(--accent-soft); color: var(--accent); }
+.res.L { background: rgba(255,107,107,.14); color: var(--bad); }
+.res.P, .res.pending { background: var(--panel-2); color: var(--muted); }
+.res.live { background: rgba(90,169,255,.14); color: var(--blue); }
+.leg.missed { background: rgba(255,107,107,.06); }
+.picked { font-size: 12.5px; color: var(--muted); margin: -4px 0 14px; }
+.day { background: var(--panel); border-radius: var(--radius); margin-top: 12px; overflow: hidden; }
+.day-head { width: 100%; display: flex; align-items: center; gap: 10px; padding: 15px 16px; text-align: left; }
+.day-head b { font-size: 16px; }
+.day-head .sum { margin-left: auto; font-size: 12.5px; color: var(--muted); text-align: right; }
+.rec-t { border-top: 1px solid var(--line); padding: 12px 16px; }
+.rec-t .h { display: flex; align-items: center; gap: 8px; font-weight: 700; }
+.rec-t .h .odds { font-family: var(--mono); color: var(--muted); font-weight: 600; margin-left: auto; }
+.rec-leg { display: grid; grid-template-columns: 18px 1fr auto; gap: 8px; align-items: baseline; font-size: 13.5px; padding: 6px 0 0; }
+.rec-leg .ic { font-weight: 800; }
+.rec-leg .ic.W { color: var(--accent); } .rec-leg .ic.L { color: var(--bad); } .rec-leg .ic.P, .rec-leg .ic.n { color: var(--faint); }
+.rec-leg .m { color: var(--faint); font-size: 12px; }
+.rec-leg.miss .t { color: var(--bad); font-weight: 700; }
+.rec-leg .pc { font-family: var(--mono); font-size: 12px; color: var(--muted); }
 .grade { width: 30px; height: 30px; border-radius: 9px; display: grid; place-items: center; font-weight: 800; font-size: 14px; flex: none; }
 .grade.A { background: var(--accent); color: var(--accent-ink); }
 .grade.B { background: #2b7a5a; color: #dffbef; }
@@ -355,8 +379,10 @@ nav.tabs button[aria-selected="true"] svg { transform: translateY(-2px) scale(1.
   <!-- TOP PICKS -->
   <section id="tab-picks" hidden>
     <h1>Top picks</h1>
+    <div class="picked" id="picked"></div>
     <div id="featured"></div>
     <h2>Best straight bets</h2>
+    <div class="chips" id="straight-filter" style="margin-bottom:10px"></div>
     <div id="straights"></div>
   </section>
 
@@ -445,7 +471,7 @@ let DATA = null, GROUP_LIST = [], COUNTS = {};
 const state = {
   sports: new Set(), day: "all", legs: 3, mode: "safest", target: 150,
   juice: -250, edge: 0, markets: new Set(["lines", "props", "periods", "team", "specials"]), sameGame: false,
-  slip: store.get("slip", []),
+  slip: store.get("slip", []), straightSport: "all",
   stake: store.get("stake", 10), gameGroup: "all", gameSport: "all",
 };
 
@@ -504,6 +530,18 @@ function dayLabel(iso) {
   if (k === localDay(new Date(Date.now() + 864e5).toISOString())) return "Tomorrow";
   return new Date(iso).toLocaleDateString([], { weekday: "long", month: "short", day: "numeric" });
 }
+function whenLong(iso) {
+  const k = localDay(iso), t = clock(iso);
+  if (k === todayKey()) return `Today ${t}`;
+  if (k === localDay(new Date(Date.now() + 864e5).toISOString())) return `Tomorrow ${t}`;
+  return new Date(iso).toLocaleDateString([], { weekday: "short", month: "short", day: "numeric" }) + ` · ${t}`;
+}
+function statusOf(l) {
+  if (l.result) return l.result;
+  return new Date(l.start) <= new Date() ? "live" : null;
+}
+const RES_LABEL = { W: "✓ Hit", L: "✗ Missed", P: "Push / void", live: "In progress" };
+const CLOCK = `<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg>`;
 const clock = iso => new Date(iso).toLocaleTimeString([], { hour: "numeric", minute: "2-digit" });
 const when = iso => localDay(iso) === todayKey() ? clock(iso)
   : new Date(iso).toLocaleDateString([], { weekday: "short" }) + " " + clock(iso);
@@ -678,11 +716,13 @@ const describeText = l => { const [t, n] = describe(l); return n ? `${t} (${n})`
 function legHTML(l, open = false) {
   const push = l.p_push > 0.01 ? ` · ${pct(l.p_push)} push` : "";
   const k = l.kalshi;
-  return `<div class="leg${open ? " open" : ""}">
+  return `<div class="leg${open ? " open" : ""}${l.result === "L" ? " missed" : ""}">
     <button class="leg-main" aria-expanded="${open}" onclick="toggleOpen(this.parentElement)">
       <div class="grade ${l.grade}">${l.grade}</div>
-      <div class="leg-info"><div class="leg-sel">${esc(describe(l)[0])}${describe(l)[1] ? ` <span class="note">${esc(describe(l)[1])}</span>` : ""}</div>
-        <div class="leg-sub"><span class="code">${esc(k ? k.contract : l.selection)}</span> · ${esc(l.short)} · ${when(l.start)}${l.unavailable ? ` · <span class="gone">no longer available</span>` : l.moved ? ` · <span class="moved">was ${l.moved.from}¢</span>` : ""}</div></div>
+      <div class="leg-info">
+        <div class="leg-when">${CLOCK}${esc(whenLong(l.start))} · ${esc(l.short)} <span class="lg-name">${esc(leagueName(l.sport))}</span>${statusOf(l) ? ` <span class="res ${statusOf(l)}">${RES_LABEL[statusOf(l)]}</span>` : ""}</div>
+        <div class="leg-sel">${esc(describe(l)[0])}${describe(l)[1] ? ` <span class="note">${esc(describe(l)[1])}</span>` : ""}</div>
+        <div class="leg-sub"><span class="code">${esc(k ? k.contract : l.selection)}</span>${l.unavailable ? ` · <span class="gone">no longer available</span>` : l.moved ? ` · <span class="moved">was ${l.moved.from}¢</span>` : ""}</div></div>
       <div class="leg-odds">${k ? `${k.price}¢` : esc(l.odds_str)}<small>${pct(l.p)}</small></div>
       ${CHEV}
     </button>
@@ -886,22 +926,43 @@ function renderBuild() {
 }
 
 // ------------------------------------------------------------------ top picks
+const PARLAY_NAMES = { safest_2: "Safest 2-leg", safest_3: "Safest 3-leg", safest_4: "Safest 4-leg", value_3: "Best-value 3-leg", props_3: "Player props 3-leg" };
 function renderPicks() {
-  const byId = Object.fromEntries(DATA.legs.map(l => [l.id, l]));
-  const names = { safest_2: "Safest 2-leg", safest_3: "Safest 3-leg", safest_4: "Safest 4-leg", value_3: "Best-value 3-leg", props_3: "Player props 3-leg" };
+  const top = DATA.top;
+  if (!top) {
+    $("#picked").textContent = "Today's picks are chosen at 10 AM Eastern.";
+    $("#featured").innerHTML = `<div class="card empty">No picks yet today.</div>`;
+    $("#straights").innerHTML = "";
+    return;
+  }
+  const at = new Date(top.locked_at);
+  $("#picked").innerHTML = `Picked ${esc(dayLabel(top.locked_at).toLowerCase() === "today" ? "today" : dayLabel(top.locked_at))} at ${clock(top.locked_at)} for games today and tomorrow · new picks every day at 10 AM ET · prices update every 30 min`;
+  top.parlays.forEach(p => p.legs.forEach(attach));
+  top.straights.forEach(attach);
   let i = 0;
-  const f = Object.entries(DATA.featured || {}).map(([k, p]) => {
-    const legs = p.legs.map(id => byId[id]).filter(Boolean);
-    if (legs.length !== p.legs.length || legs.some(l => new Date(l.start) <= new Date())) return "";
-    const c = combo(legs);
-    return ticketHTML(names[k] || k, legs, c.p, c.d, i++);
+  const f = top.parlays.map(p => {
+    const c = combo(p.legs);
+    const status = p.result ? `<span class="res ${p.result}">${p.result === "W" ? "✓ Parlay hit" : p.result === "L" ? "✗ Parlay missed" : "Push"}</span>` : "";
+    const moved = p.legs.some(l => l.locked_odds !== l.odds) ? ` · picked at ${fmtOdds(p.american)}` : "";
+    return ticketHTML(`${PARLAY_NAMES[p.name] || p.name}${moved}`, p.legs, c.p, c.d, i++).replace('<div class="t-title">', `<div class="t-title">${status} `);
   }).join("");
-  $("#featured").innerHTML = f || `<div class="card empty">No parlay right now clears the edge bar. When the market and the data agree, the smart play is to pass.</div>`;
-  const s = (DATA.straights || []).map(id => byId[id]).filter(l => l && new Date(l.start) > new Date());
-  $("#straights").innerHTML = s.length
-    ? `<div class="ticket" style="--i:${i}">${s.map(l => legHTML(l)).join("")}</div>`
-    : `<div class="card empty">No straight bets with an edge right now.</div>`;
+  $("#featured").innerHTML = f || `<div class="card empty">No parlay cleared the edge bar today. When the market and the data agree, the smart play is to pass.</div>`;
+
+  const sports = [...new Set(top.straights.map(l => l.sport))];
+  if (!sports.includes(state.straightSport)) state.straightSport = "all";
+  $("#straight-filter").innerHTML = [["all", "All"], ...sports.map(k => [k, leagueName(k)])]
+    .map(([v, l]) => `<button class="chip" data-v="${esc(v)}" aria-pressed="${state.straightSport === v}">${esc(l)}</button>`).join("");
+  $("#straight-filter").hidden = sports.length < 2;
+  const list = top.straights.filter(l => state.straightSport === "all" || l.sport === state.straightSport)
+    .sort((a, b) => a.start.localeCompare(b.start));
+  $("#straights").innerHTML = list.length
+    ? `<div class="ticket" style="--i:${i}">${list.map(l => legHTML(l)).join("")}</div>`
+    : `<div class="card empty">No straight bets with an edge today.</div>`;
 }
+$("#straight-filter").onclick = e => {
+  const c = e.target.closest(".chip"); if (!c) return;
+  state.straightSport = c.dataset.v; renderPicks();
+};
 
 // ------------------------------------------------------------------ games tab
 function renderGames() {
@@ -1064,34 +1125,59 @@ $(".grabber").onclick = closeSheet;
 
 // ------------------------------------------------------------------ record tab
 $("#about .fold-head").onclick = () => toggleOpen($("#about"));
+function recLeg(l, missed) {
+  const r = l.result || (new Date(l.start) <= new Date() ? "live" : "n");
+  const icon = { W: "✓", L: "✗", P: "–", live: "•", n: "•" }[r];
+  return `<div class="rec-leg${missed ? " miss" : ""}"><span class="ic ${r}">${icon}</span>
+    <div><div class="t">${esc(describe(l)[0])}${missed ? " — missed" : ""}</div>
+    <div class="m">${esc(whenLong(l.start))} · ${esc(l.short)} · ${esc(leagueName(l.sport))}</div></div>
+    <span class="pc">${l.kalshi ? l.kalshi.price + "¢" : fmtOdds(l.odds)}</span></div>`;
+}
+function wl(rows) {
+  const w = rows.filter(x => x.result === "W").length, L = rows.filter(x => x.result === "L").length;
+  const pend = rows.filter(x => !x.result).length;
+  return `${w}-${L}${pend ? ` · ${pend} pending` : ""}`;
+}
 function renderRecord() {
   const r = DATA.record || {};
-  const s = r.straight || { n: 0 };
-  if (!s.n) {
-    $("#record").innerHTML = `<div class="card empty">No graded picks yet. Every featured pick is logged and graded automatically after its game ends, so the record builds from here.</div>`;
-    return;
+  const s = r.straight || { n: 0 }, pr = r.parlays || { n: 0 }, al = r.all_legs || { n: 0 };
+  const stat = (v, label) => `<div class="stat"><b>${v}</b><span>${label}</span></div>`;
+  let html = `<div class="card"><div class="stats">
+      ${stat(pr.n ? `${pr.wins}-${pr.n - pr.wins}` : "—", "Featured parlays")}
+      ${stat(s.n ? `${s.wins}-${s.n - s.wins}` : "—", `Straight bets${s.n ? ` (${pct(s.hit_rate)})` : ""}`)}
+      ${stat(s.n ? `<span class="${s.units >= 0 ? "W" : "L"}">${s.units >= 0 ? "+" : ""}${s.units}u</span>` : "—", "Straight-bet profit, 1 unit each")}
+      ${stat(al.n ? `${pct(al.hit_rate)} / ${pct(al.expected_hit_rate)}` : "—", "Every leg: hit rate vs predicted")}
+    </div></div>`;
+  const types = Object.entries(r.by_type || {}).filter(([, v]) => v.n);
+  if (types.length) {
+    html += `<h2>By bet type</h2><div class="card"><table><tr><th>Type</th><th class="r">W-L</th><th class="r">Hit</th><th class="r">Predicted</th></tr>
+      ${types.map(([k, v]) => `<tr><td>${esc(k)}</td><td class="r">${v.wins}-${v.n - v.wins}</td><td class="r ${v.hit_rate + 0.03 < v.expected_hit_rate ? "L" : ""}">${pct(v.hit_rate)}</td><td class="r">${pct(v.expected_hit_rate)}</td></tr>`).join("")}
+      </table><div class="hint">When a type hits clearly less often than predicted, the model automatically leans more on the market for it (after 30 graded legs).</div></div>`;
   }
-  const pr = r.parlays || { n: 0 };
-  const rows = Object.entries(r.by_grade || {}).filter(([, v]) => v.n).map(([g, v]) =>
-    `<tr><td><span class="grade ${g}" style="display:inline-grid;width:22px;height:22px;font-size:12px">${g}</span></td><td class="r">${v.wins}-${v.n - v.wins}</td><td class="r">${pct(v.hit_rate)}</td><td class="r">${pct(v.expected_hit_rate)}</td><td class="r">${v.units >= 0 ? "+" : ""}${v.units}u</td></tr>`).join("");
-  const recent = (r.recent || []).map(l => `<tr><td>${esc(l.short)}<br><span class="gmeta">${esc(l.selection)} ${fmtOdds(l.odds)}</span></td><td class="r">${pct(l.p)}</td><td class="r ${l.result}">${l.result}</td></tr>`).join("");
-  $("#record").innerHTML = `<div class="card"><div class="stats">
-      <div class="stat"><b>${s.wins}-${s.n - s.wins}</b><span>Straight bets (${pct(s.hit_rate)})</span></div>
-      <div class="stat"><b class="${s.units >= 0 ? "W" : "L"}">${s.units >= 0 ? "+" : ""}${s.units}u</b><span>Profit, 1 unit per bet</span></div>
-      <div class="stat"><b>${pr.n ? pr.wins + "-" + (pr.n - pr.wins) : "—"}</b><span>Parlays</span></div>
-      <div class="stat"><b>${r.avg_clv == null ? "—" : (r.avg_clv * 100).toFixed(1) + "%"}</b><span>Avg closing-line value</span></div>
-    </div></div>
-    <div class="card"><table><tr><th>Grade</th><th class="r">W-L</th><th class="r">Hit</th><th class="r">Expected</th><th class="r">Units</th></tr>${rows}</table>
-    <div class="hint">"Expected" is the average probability we gave those picks. If Hit tracks Expected, the model is well calibrated.</div></div>
-    ${recent ? `<h2>Recent results</h2><div class="card"><table>${recent}</table></div>` : ""}`;
+  const days = r.days || [];
+  html += `<h2>Daily results</h2>` + (days.length ? days.map((d, di) => {
+    const legsOf = p => p.legs.map(l => recLeg(l, (p.missed || []).includes(l.id))).join("");
+    const parlays = d.parlays.map(p => `<div class="rec-t"><div class="h">${esc(PARLAY_NAMES[p.name] || p.name)}
+        <span class="res ${p.result || "pending"}">${p.result === "W" ? "✓ Hit" : p.result === "L" ? `✗ Missed${(p.missed || []).length ? ` (${plural(p.missed.length, "leg")})` : ""}` : p.result === "P" ? "Push" : "Pending"}</span>
+        <span class="odds">${fmtOdds(p.american)}</span></div>${legsOf(p)}</div>`).join("");
+    const straights = d.straights.length ? `<div class="rec-t"><div class="h">Straight bets <span class="odds">${wl(d.straights)}</span></div>
+        ${d.straights.map(l => recLeg(l, l.result === "L")).join("")}</div>` : "";
+    return `<div class="day${di === 0 ? " open" : ""}"><button class="day-head" aria-expanded="${di === 0}">
+        <b>${esc(new Date(d.date + "T12:00:00").toLocaleDateString([], { weekday: "short", month: "short", day: "numeric" }))}</b>
+        <span class="sum">Parlays ${wl(d.parlays)}<br>Straights ${wl(d.straights)}</span>${CHEV}</button>
+        <div class="collapse"><div>${parlays}${straights}</div></div></div>`;
+  }).join("") : `<div class="card empty">Every day's Top Picks are logged here and graded as their games finish.</div>`);
+  $("#record").innerHTML = html;
+  $$("#record .day-head").forEach(b => b.onclick = () => toggleOpen(b.parentElement));
 }
 
 // ------------------------------------------------------------------ tabs
 let picksCheckedAt = 0;
 async function refreshPicks() {
   if (!PRICE_PROXY || Date.now() - picksCheckedAt < 60e3) return;
-  const ids = [...Object.values(DATA.featured || {}).flatMap(p => p.legs), ...(DATA.straights || [])];
-  try { await refreshPrices(ids.map(id => LEGS[id]).filter(Boolean)); picksCheckedAt = Date.now(); renderPicks(); }
+  const top = DATA.top || { parlays: [], straights: [] };
+  const legs = [...top.parlays.flatMap(p => p.legs), ...top.straights].filter(l => !l.result);
+  try { await refreshPrices(legs); picksCheckedAt = Date.now(); renderPicks(); }
   catch (err) { console.error(err); }
 }
 function showTab(name) {

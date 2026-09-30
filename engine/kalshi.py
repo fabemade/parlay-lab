@@ -25,6 +25,7 @@ from zoneinfo import ZoneInfo
 import numpy as np
 import requests
 
+from .grade import feedback_mult
 from .odds import blend, decimal_to_american, logit
 
 API = "https://api.elections.kalshi.com/trade-api/v2"
@@ -330,7 +331,7 @@ def _game_legs(gm, ev, codes, series, by_matchup, key, dk_reasons) -> list[dict]
         if price is None or not (PRICE_RANGE[0] <= price <= PRICE_RANGE[1]):
             return
         favoured = side if side in ("home", "away") and p_model > p_fair else None
-        w = gm.weight(favoured, market)
+        w = gm.weight(favoured, market) * feedback_mult(sport.key, "Game lines")
         w = w / (1 + (logit(p_model) - logit(p_fair)) ** 2)   # big disagreements: trust the market
         p = blend(p_model, p_fair, w)
         cost = _cost(price)
@@ -528,7 +529,7 @@ def extra_legs(gm, ev_by_suffix: dict[str, list[dict]], titles: dict, codes: dic
             p, w, modeled = p_fair, 0.0, False
         else:
             p_model = min(max(p_model, 1e-4), 1 - 1e-4)
-            w = sport.w_model * w_mult
+            w = sport.w_model * w_mult * feedback_mult(sport.key, _group(suffix, player is not None))
             if gm.low_sample:
                 w *= 0.3
             w = w / (1 + (logit(p_model) - logit(p_fair)) ** 2)
