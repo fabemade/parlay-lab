@@ -110,10 +110,10 @@ def _num(line: str | None) -> float | None:
 
 def parse_odds(comp: dict) -> dict | None:
     """Pull moneyline / spread / total (with opening lines) from the DraftKings block."""
-    odds_list = comp.get("odds") or []
-    if not odds_list:
+    # national-team games can list a null provider entry first; use the first real one
+    o = next((x for x in comp.get("odds") or [] if isinstance(x, dict)), None)
+    if not o:
         return None
-    o = odds_list[0]
     ml, ps, tot = o.get("moneyline") or {}, o.get("pointSpread") or {}, o.get("total") or {}
     out = {
         "provider": (o.get("provider") or {}).get("name", "DraftKings"),
