@@ -75,7 +75,7 @@ def parse_result(event: dict) -> dict | None:
         return None
     return {
         "id": event["id"], "date": event["date"],
-        "season_type": event.get("season", {}).get("type"),
+        "season_type": (event.get("season") or {}).get("type"),
         "neutral": bool(comp.get("neutralSite")),
         "home": sides["home"]["team"]["id"], "away": sides["away"]["team"]["id"],
         "home_name": sides["home"]["team"].get("displayName"),
@@ -161,12 +161,12 @@ def parse_upcoming(event: dict) -> dict | None:
     game = {
         "id": event["id"], "date": event["date"], "name": event.get("name"),
         "short": event.get("shortName"),
-        "season_type": event.get("season", {}).get("type"),
+        "season_type": (event.get("season") or {}).get("type"),
         "neutral": bool(comp.get("neutralSite")),
         "venue": (comp.get("venue") or {}).get("fullName"),
         "home": _team(sides["home"]), "away": _team(sides["away"]),
         "odds": parse_odds(comp),
-        "broadcast": ", ".join(n for b in comp.get("broadcasts", []) for n in b.get("names", [])),
+        "broadcast": ", ".join(n for b in comp.get("broadcasts") or [] for n in (b or {}).get("names") or []),
         "note": ((comp.get("notes") or [{}])[0] or {}).get("headline"),
     }
     for side in ("home", "away"):

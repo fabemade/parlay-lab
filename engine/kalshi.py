@@ -759,22 +759,3 @@ def norm_pdf0(mean: float, sd: float) -> float:
     return _n.cdf(0.5, mean, sd) - _n.cdf(-0.5, mean, sd)
 
 
-
-def probe_international(log=print) -> None:
-    """Temporary: show the national-team series' tickers and a sample event of each."""
-    try:
-        all_series = _get("/series", {"category": "Sports"}).get("series") or []
-    except Exception as e:
-        log(f"  PROBE failed: {e}")
-        return
-    for pre in ("KXUEFANL", "KXINTLFRIENDLY", "KXCONCACAFNL", "KXBBINTL", "KXWCQUAL", "KXUEFAEUROQUAL"):
-        tks = sorted(s["ticker"] for s in all_series if s["ticker"].startswith(pre))
-        log(f"  PROBE {pre}*: {tks}")
-        for tk in tks[:4]:
-            try:
-                evs = _get("/events", {"series_ticker": tk, "status": "open", "with_nested_markets": "true", "limit": 3}).get("events") or []
-            except Exception:
-                evs = []
-            for ev in evs[:1]:
-                ms = [(m.get("ticker"), m.get("yes_sub_title")) for m in (ev.get("markets") or [])[:3]]
-                log(f"    {tk}: {len(evs)} open; {ev.get('event_ticker')} '{ev.get('title')}' {ms}")

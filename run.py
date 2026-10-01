@@ -52,9 +52,14 @@ def run_sport(sport, days: list[dt.date], today: dt.date) -> tuple[list[dict], d
             extras["pitchers"].update(mlb.probable_pitchers(d))
         extras["team_fip"] = mlb.team_fip(today.year)
         extras["parks"] = mlb.park_factors(hist)
+    def ctx(g):   # matchup extras (injuries, predictor); a malformed one must not sink the league
+        try:
+            return espn.context(sport, g["id"])
+        except Exception as e:
+            log(f"    ! no matchup context for {g.get('short')}: {e}")
+            return {}
     with ThreadPoolExecutor(max_workers=10) as ex:
-        extras["ctx"] = dict(zip([g["id"] for g in games],
-                                 ex.map(lambda g: espn.context(sport, g["id"]), games)))
+        extras["ctx"] = dict(zip([g["id"] for g in games], ex.map(ctx, games)))
     last = ratings.last_game_dates([g for g in hist if ratings.competitive(g)])
     legs, game_rows, models = [], [], {}
     for g in games:
@@ -230,7 +235,9 @@ def main():
         try:
             legs, results, games, models = run_sport(sport, days, today)
         except Exception as e:
-            log(f"  ! {sport.name} failed: {e}")
+            import traceback
+            where = traceback.extract_tb(e.__traceback__)[-1]
+            log(f"  ! {sport.name} failed: {e} ({Path(where.filename).name}:{where.lineno} {where.line})")
             continue
         all_legs += legs
         all_games += games
@@ -240,10 +247,6 @@ def main():
     # The app only offers what Kalshi lists: every leg is a Kalshi contract at Kalshi's price.
     # DraftKings lines still feed the model (market blend, reasons) for each game.
     log("[Kalshi]")
-    try:
-        kalshi.probe_international(log=log)  # temporary
-    except Exception as e:
-        log(f"  PROBE failed: {e}")
     try:
         kalshi_legs = kalshi.build_legs(all_models, all_legs, log=log)
     except Exception as e:
