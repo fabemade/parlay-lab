@@ -38,7 +38,7 @@ def price(combo: list[dict]) -> tuple[float, float]:
 
 
 def build(legs: list[dict], n: int, mode: str = "safest", target_american: float = 100,
-          min_hit: float = 0.2, pool: int = 22, **filters) -> dict | None:
+          min_hit: float = 0.2, pool: int = 22, max_per_sport: int | None = None, **filters) -> dict | None:
     cands = eligible(legs, **filters)
     key = (lambda l: l["p"]) if mode == "safest" else (lambda l: l["ev"])
     # keep the best two options per game so the search can still diversify
@@ -47,11 +47,19 @@ def build(legs: list[dict], n: int, mode: str = "safest", target_american: float
         per_game.setdefault(leg["game_id"], [])
         if len(per_game[leg["game_id"]]) < 2:
             per_game[leg["game_id"]].append(leg)
-    cands = sorted((l for ls in per_game.values() for l in ls), key=key, reverse=True)[:pool]
+    cands = sorted((l for ls in per_game.values() for l in ls), key=key, reverse=True)
+    if max_per_sport:   # keep the best few per sport so a mixed ticket is possible
+        per_sport: dict[str, list] = {}
+        for l in cands:
+            per_sport.setdefault(l["sport"], []).append(l)
+        cands = sorted((l for ls in per_sport.values() for l in ls[:6]), key=key, reverse=True)
+    cands = cands[:pool]
     target_dec = american_to_decimal(target_american) if n > 1 else 1.0
     best, best_score = None, -1e9
     for combo in itertools.combinations(cands, n):
         if len({l["game_id"] for l in combo}) < n:
+            continue
+        if max_per_sport and max(sum(l["sport"] == s for l in combo) for s in {l["sport"] for l in combo}) > max_per_sport:
             continue
         p, d = price(combo)
         if mode == "safest":

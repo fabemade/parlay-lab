@@ -45,6 +45,8 @@ LEAGUE = {
     "soccer_esp.2": "LALIGA2", "soccer_ita.2": "SERIEB", "soccer_fra.2": "LIGUE2",
     "soccer_bra.1": "BRASILEIRO", "soccer_arg.1": "ARGPREMDIV",
     "soccer_conmebol.libertadores": "CONMEBOLLIB", "soccer_ksa.1": "SAUDIPL",
+    "soccer_uefa.nations": "UEFANL", "soccer_fifa.friendly": "INTLFRIENDLY",
+    "soccer_concacaf.nations.league": "CONCACAFNL",
 }
 KINDS = ("GAME", "SPREAD", "TOTAL")
 MONTHS = {m: i for i, m in enumerate("JAN FEB MAR APR MAY JUN JUL AUG SEP OCT NOV DEC".split(), 1)}
@@ -757,43 +759,22 @@ def norm_pdf0(mean: float, sd: float) -> float:
     return _n.cdf(0.5, mean, sd) - _n.cdf(-0.5, mean, sd)
 
 
+
 def probe_international(log=print) -> None:
-    """Temporary: find Kalshi series and ESPN competitions for national-team soccer."""
-    import datetime as _dt
-    keys = ("nation", "friendl", "world cup", "qualif", "international", "copa am", "euro 20", "afcon", "gold cup")
+    """Temporary: show the national-team series' tickers and a sample event of each."""
     try:
-        cursor, seen = None, 0
-        for _ in range(20):
-            params = {"limit": 1000}
-            if cursor:
-                params["cursor"] = cursor
-            d = _get("/series", params)
-            for s in d.get("series") or []:
-                seen += 1
-                t = (s.get("title") or "").lower()
-                if any(k in t for k in keys) or any(k in s.get("ticker", "").lower() for k in ("nations", "wcq", "friendly", "intl")):
-                    log(f"  PROBE series {s.get('ticker')}: {s.get('title')} [{s.get('category')}]")
-            cursor = d.get("cursor")
-            if not cursor:
-                break
-        log(f"  PROBE scanned {seen} Kalshi series")
+        all_series = _get("/series", {"category": "Sports"}).get("series") or []
     except Exception as e:
-        log(f"  PROBE series failed: {e}")
-    codes = ["uefa.nations", "fifa.friendly", "fifa.worldq.uefa", "fifa.worldq.conmebol", "fifa.worldq.concacaf",
-             "fifa.worldq.afc", "fifa.worldq.caf", "concacaf.nations.league", "uefa.euroq", "fifa.world",
-             "conmebol.america", "concacaf.gold", "caf.nations", "afc.asian.cup", "fifa.friendly.w"]
-    today = _dt.date.today()
-    for code in codes:
-        n = 0
-        for i in range(0, 21, 3):
-            day = (today + _dt.timedelta(days=i)).strftime("%Y%m%d")
+        log(f"  PROBE failed: {e}")
+        return
+    for pre in ("KXUEFANL", "KXINTLFRIENDLY", "KXCONCACAFNL", "KXBBINTL", "KXWCQUAL", "KXUEFAEUROQUAL"):
+        tks = sorted(s["ticker"] for s in all_series if s["ticker"].startswith(pre))
+        log(f"  PROBE {pre}*: {tks}")
+        for tk in tks[:4]:
             try:
-                r = _session.get(f"https://site.api.espn.com/apis/site/v2/sports/soccer/{code}/scoreboard",
-                                 params={"dates": day}, timeout=15)
-                ev = r.json().get("events") or [] if r.ok else []
+                evs = _get("/events", {"series_ticker": tk, "status": "open", "with_nested_markets": "true", "limit": 3}).get("events") or []
             except Exception:
-                ev = []
-            n += len(ev)
-            if ev and n == len(ev):
-                log(f"  PROBE espn {code}: e.g. {ev[0].get('name')} on {ev[0].get('date')} (odds: {bool(ev[0]['competitions'][0].get('odds'))})")
-        log(f"  PROBE espn {code}: {n} events in next 3 weeks (sampled)")
+                evs = []
+            for ev in evs[:1]:
+                ms = [(m.get("ticker"), m.get("yes_sub_title")) for m in (ev.get("markets") or [])[:3]]
+                log(f"    {tk}: {len(evs)} open; {ev.get('event_ticker')} '{ev.get('title')}' {ms}")

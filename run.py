@@ -103,26 +103,44 @@ def candidate(l: dict) -> bool:
     return pm is None or abs(pm - l["p_market"]) <= MAX_DISAGREEMENT
 
 
-def pick_top(all_legs: list[dict], today: dt.date) -> tuple[dict, list[str]]:
-    """The day's featured parlays and straight bets, from games today and tomorrow only."""
+NEAR_FAIR = -0.02          # "Best available": within ~2 points of the price's break-even
+BEST_STRAIGHTS = 10
+
+
+def pick_top(all_legs: list[dict], today: dt.date) -> tuple[dict, list[str], list[str]]:
+    """The day's Top Picks, from games today and tomorrow only, in two tiers.
+
+    Edge picks: every leg beats Kalshi's price after fees. On sharply priced days there may
+    be few or none, and that's the honest answer.
+    Best available: the safest tested bets on the board even when they only come close to
+    the price, mixed across sports and games, so there's always a varied card to choose from.
+    No leg is used twice across tickets, so one miss can't sink several of them.
+    """
     window = {today, today + dt.timedelta(days=1)}
     legs = [l for l in all_legs if candidate(l)
             and dt.datetime.fromisoformat(l["start"].replace("Z", "+00:00")).astimezone(ET).date() in window]
     featured, used = {}, set()
-    # Only feature a parlay when every leg is +EV and the whole ticket still has a
-    # realistic chance. On thin or sharply priced slates, showing nothing is the right call.
-    # Each featured parlay uses different legs, so one miss can't sink every ticket.
     fresh = lambda pool: [l for l in pool if l["id"] not in used]
-    specs = [("safest_2", legs, dict(n=2, mode="safest", target_american=100), 0.30),
-             ("safest_3", legs, dict(n=3, mode="safest", target_american=150), 0.18),
-             ("props_3", [l for l in legs if l.get("market") == "prop"], dict(n=3, mode="safest", target_american=150), 0.18),
-             ("value_3", legs, dict(n=3, mode="value", min_hit=0.2), 0.0),
-             ("safest_4", legs, dict(n=4, mode="safest", target_american=250), 0.10)]
+    n_sports = len({l["sport"] for l in legs})
+    specs = [
+        # name, pool, search settings, minimum hit chance
+        ("safest_2", legs, dict(n=2, mode="safest", target_american=100, min_edge=0.005), 0.30),
+        ("safest_3", legs, dict(n=3, mode="safest", target_american=150, min_edge=0.005), 0.18),
+        ("props_3", [l for l in legs if l.get("market") == "prop"], dict(n=3, mode="safest", target_american=150, min_edge=0.005), 0.18),
+        ("value_3", legs, dict(n=3, mode="value", min_hit=0.2, min_edge=0.005), 0.0),
+        ("safest_4", legs, dict(n=4, mode="safest", target_american=250, min_edge=0.005), 0.10),
+        ("best_2", legs, dict(n=2, mode="safest", target_american=100, min_edge=NEAR_FAIR,
+                              max_per_sport=1 if n_sports >= 2 else None), 0.35),
+        ("best_3", legs, dict(n=3, mode="safest", target_american=200, min_edge=NEAR_FAIR,
+                              max_per_sport=1 if n_sports >= 3 else 2), 0.22),
+        ("best_4", legs, dict(n=4, mode="safest", target_american=350, min_edge=NEAR_FAIR,
+                              max_per_sport=2), 0.12),
+    ]
     for name, pool, kw, floor in specs:
         n = kw.pop("n")
-        p = parlay.build(fresh(pool), n, min_edge=0.005, **kw)
+        p = parlay.build(fresh(pool), n, **kw)
         if p and p["p"] >= floor:
-            featured[name] = p
+            featured[name] = {**p, "tier": "best" if name.startswith("best") else "edge"}
             used.update(p["legs"])
     # straight bets: the best few per league, at most one per game, so one game going
     # wrong (or two strikes on the same player) can't take out several picks at once
@@ -132,7 +150,15 @@ def pick_top(all_legs: list[dict], today: dt.date) -> tuple[dict, list[str]]:
             straights.append(l["id"])
             games.add(l["game_id"])
             per[l["sport"]] = per.get(l["sport"], 0) + 1
-    return featured, straights
+    # best available straights: likeliest near-fair bets, two per league, one per game
+    best, per = [], {}
+    for l in sorted(parlay.eligible(legs, min_edge=NEAR_FAIR), key=lambda l: (-l["p"], -l["edge"])):
+        if (l["p"] >= 0.55 and per.get(l["sport"], 0) < 2 and l["game_id"] not in games
+                and l["id"] not in used and len(best) < BEST_STRAIGHTS):
+            best.append(l["id"])
+            games.add(l["game_id"])
+            per[l["sport"]] = per.get(l["sport"], 0) + 1
+    return featured, straights, best
 
 
 def validate(legs: list[dict], featured: dict) -> list[str]:
@@ -178,8 +204,9 @@ def validate(legs: list[dict], featured: dict) -> list[str]:
         dd = math.prod(american_to_decimal(l["odds"]) for l in ls)
         if abs(pp - par["p"]) > 2e-3 or abs(dd - par["decimal"]) > 0.02 * dd:
             problems.append(f"{name}: parlay odds/probability aren't the product of its legs")
-        if any(l["edge"] < 0.005 for l in ls):
-            problems.append(f"{name}: includes a leg without an edge")
+        floor = NEAR_FAIR if par.get("tier") == "best" else 0.005
+        if any(l["edge"] < floor - 1e-9 for l in ls):
+            problems.append(f"{name}: includes a leg below its tier's edge floor")
     return problems
 
 
@@ -239,16 +266,23 @@ def main():
     featured, straights = {}, []
     # only a full run (every league) may lock the day's picks
     if top_log is None and not args.sports and (args.date or now.hour >= grade.LOCK_HOUR):
-        featured, straights = pick_top(all_legs, today)
+        featured, straights, best = pick_top(all_legs, today)
         problems = validate(all_legs, featured)
         if problems:
             for msg in problems[:25]:
                 log("  ✗ " + msg)
             log(f"\n{len(problems)} consistency problems; not publishing this board.")
             return 1
-        top_log = grade.lock_picks(day, now.isoformat(timespec="minutes"), legs_by_id, featured, straights)
+        top_log = grade.lock_picks(day, now.isoformat(timespec="minutes"), legs_by_id, featured, straights, best)
         grade.record_calibration(day, all_legs)
-        log(f"  Locked today's Top Picks: {len(featured)} parlays, {len(straights)} straight bets")
+        log(f"  Locked today's Top Picks: {len(featured)} parlays, {len(straights)} edge straights, {len(best)} best-available straights")
+    elif top_log is not None and "straights_best" not in top_log and not args.sports:
+        # a day locked before the Best-available tier existed: add that tier alone
+        featured, _, best = pick_top(all_legs, today)
+        best_featured = {k: v for k, v in featured.items() if v.get("tier") == "best"}
+        if not validate(all_legs, best_featured):
+            top_log = grade.add_best_tier(day, legs_by_id, best_featured, best)
+            log(f"  Added Best available to today's picks: {len(best_featured)} parlays, {len(best)} straights")
     problems = validate(all_legs, {})
     if problems:
         for msg in problems[:25]:

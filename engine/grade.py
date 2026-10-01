@@ -77,14 +77,34 @@ def _snapshot(leg: dict) -> dict:
     return s
 
 
-def lock_picks(day: str, locked_at: str, legs_by_id: dict, featured: dict, straights: list[str]) -> dict:
-    ids = {i for p in featured.values() for i in p["legs"]} | set(straights)
+def lock_picks(day: str, locked_at: str, legs_by_id: dict, featured: dict, straights: list[str],
+               best: list[str] = ()) -> dict:
+    ids = {i for p in featured.values() for i in p["legs"]} | set(straights) | set(best)
     log = {
         "date": day, "locked_at": locked_at,
         "legs": {i: _snapshot(legs_by_id[i]) for i in ids},
         "parlays": [{**p, "name": name, "result": None} for name, p in featured.items()],
         "straights": straights,
+        "straights_best": list(best),
     }
+    _write(day, log)
+    return log
+
+
+def add_best_tier(day: str, legs_by_id: dict, featured: dict, best: list[str]) -> dict | None:
+    """Add the Best-available tier to a day locked before that tier existed, leaving the
+    already-locked picks untouched. Only legs that haven't started can be added."""
+    log = load(day)
+    if not log or "straights_best" in log:
+        return log
+    taken = set(log["legs"])
+    parlays = [{**p, "name": n, "result": None} for n, p in featured.items()
+               if p.get("tier") == "best" and not taken & set(p["legs"])]
+    best = [i for i in best if i not in taken]
+    for i in {i for p in parlays for i in p["legs"]} | set(best):
+        log["legs"][i] = _snapshot(legs_by_id[i])
+    log["parlays"] += parlays
+    log["straights_best"] = best
     _write(day, log)
     return log
 
@@ -265,6 +285,7 @@ def top_payload(log: dict | None, legs_by_id: dict) -> dict | None:
         "date": log["date"], "locked_at": log["locked_at"],
         "parlays": [{**p, "legs": [legs[i] for i in p["legs"]]} for p in log["parlays"]],
         "straights": [legs[i] for i in log["straights"]],
+        "straights_best": [legs[i] for i in log.get("straights_best", [])],
     }
 
 
@@ -282,7 +303,9 @@ def _stats(rows, odds_key="odds", p_key="p"):
 def summary() -> dict:
     logs = _locked_logs()
     straights = [log["legs"][i] for log in logs for i in log["straights"]]
-    parlays = [p for log in logs for p in log["parlays"]]
+    best_straights = [log["legs"][i] for log in logs for i in log.get("straights_best", [])]
+    parlays = [p for log in logs for p in log["parlays"] if p.get("tier", "edge") == "edge"]
+    best_parlays = [p for log in logs for p in log["parlays"] if p.get("tier") == "best"]
     all_legs = [l for log in logs for l in log["legs"].values()]
     by = lambda rows, key: {k: _stats([r for r in rows if key(r) == k]) for k in sorted({key(r) for r in rows})}
     clv = [implied_prob(l["close_odds"]) - implied_prob(l["odds"]) for l in all_legs
@@ -294,10 +317,13 @@ def summary() -> dict:
             "date": log["date"], "locked_at": log["locked_at"],
             "parlays": [{**p, "legs": [legs[i] for i in p["legs"]]} for p in log["parlays"]],
             "straights": [legs[i] for i in log["straights"]],
+            "straights_best": [legs[i] for i in log.get("straights_best", [])],
         })
     return {
         "straight": _stats(straights),
         "parlays": _stats(parlays, odds_key="american"),
+        "straight_best": _stats(best_straights),
+        "parlays_best": _stats(best_parlays, odds_key="american"),
         "all_legs": _stats(all_legs),
         "by_grade": by(all_legs, lambda l: l.get("grade", "?")),
         "by_type": by(all_legs, lambda l: l.get("group") or "Game lines"),
@@ -364,7 +390,7 @@ def feedback(min_n: int = 30) -> dict:
         st = _z_stats(ls)
         group = key.split("|", 1)[1]
         mult = 0.25 if st["n"] >= min_n and st["z"] < -2.5 else 0.5 if st["n"] >= min_n and st["z"] < -1.5 else 1.0
-        trusted = group == TESTED or _is_trusted(st)
+        trusted = (group == TESTED and key.split("|", 1)[0] in _calibrated_sports()) or _is_trusted(st)
         if not trusted:
             mult *= 0.5
         out[key] = {**st, "w_mult": mult, "trusted": trusted}
@@ -385,7 +411,17 @@ def feedback_mult(sport: str, group: str | None) -> float:
     return _feedback().get(f"{sport}|{g}", {}).get("w_mult", default)
 
 
+def _calibrated_sports() -> set[str]:
+    if not hasattr(_calibrated_sports, "cache"):
+        p = ROOT / "data" / "calibration.json"
+        _calibrated_sports.cache = set(json.loads(p.read_text())) if p.exists() else set()
+    return _calibrated_sports.cache
+
+
 def trusted(sport: str, group: str | None) -> bool:
-    """Can this bet type be a Top Pick? Full-game lines yes; others once they've earned it."""
+    """Can this bet type be a Top Pick? Full-game lines in a league the backtest has
+    calibrated, yes; other bet types (or new leagues) once they've earned it."""
     g = group or TESTED
-    return g == TESTED or bool(_feedback().get(f"{sport}|{g}", {}).get("trusted"))
+    if g == TESTED and sport in _calibrated_sports():
+        return True
+    return bool(_feedback().get(f"{sport}|{g}", {}).get("trusted"))

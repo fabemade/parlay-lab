@@ -217,6 +217,7 @@ section[hidden] { display: none; }
 .pricecheck.stale { color: #f1d9a8; }
 #slip-bar .sp { margin-left: auto; font-family: var(--mono); }
 .leg-sel { font-weight: 700; font-size: 15.5px; }
+.tier-note { font-size: 12.5px; color: var(--faint); margin: -4px 2px 10px; }
 .untested { font-size: 10.5px; font-weight: 700; text-transform: uppercase; letter-spacing: .04em; color: #f1c27d; background: rgba(241, 194, 125, .12); padding: 1px 6px; border-radius: 6px; }
 .leg-sel .note { font-weight: 500; font-size: 12px; color: var(--faint); white-space: nowrap; }
 .leg-sub { font-size: 12.5px; color: var(--muted); margin-top: 2px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
@@ -382,10 +383,15 @@ nav.tabs button[aria-selected="true"] svg { transform: translateY(-2px) scale(1.
   <section id="tab-picks" hidden>
     <h1>Top picks</h1>
     <div class="picked" id="picked"></div>
+    <h2>Edge picks</h2>
+    <div class="tier-note">Every leg beats Kalshi's price after fees, by our model.</div>
     <div id="featured"></div>
-    <h2>Best straight bets</h2>
-    <div class="chips" id="straight-filter" style="margin-bottom:10px"></div>
+    <div class="chips" id="straight-filter" style="margin:14px 0 10px"></div>
     <div id="straights"></div>
+    <h2>Best available</h2>
+    <div class="tier-note">The safest tested bets on the board, mixed across sports. Close to a fair price rather than beating it, so these are for variety, not value.</div>
+    <div id="best-featured"></div>
+    <div id="best-straights"></div>
   </section>
 
   <!-- GAMES -->
@@ -462,10 +468,11 @@ const GROUPS = [
   { key: "basketball", name: "Basketball", icon: "🏀", leagues: ["nba", "wnba", "ncaab"] },
   { key: "baseball", name: "Baseball", icon: "⚾", leagues: ["mlb"] },
   { key: "hockey", name: "Hockey", icon: "🏒", leagues: ["nhl"] },
-  { key: "soccer", name: "Soccer", icon: "⚽", leagues: ["soccer_eng.1", "soccer_esp.1", "soccer_ita.1", "soccer_ger.1", "soccer_fra.1", "soccer_uefa.champions", "soccer_uefa.europa", "soccer_uefa.europa.conf", "soccer_ned.1", "soccer_por.1", "soccer_bel.1", "soccer_tur.1", "soccer_sco.1", "soccer_eng.2", "soccer_eng.3", "soccer_ger.2", "soccer_esp.2", "soccer_ita.2", "soccer_fra.2", "soccer_usa.1", "soccer_mex.1", "soccer_bra.1", "soccer_arg.1", "soccer_conmebol.libertadores", "soccer_ksa.1"] },
+  { key: "soccer", name: "Soccer", icon: "⚽", leagues: ["soccer_uefa.nations", "soccer_fifa.friendly", "soccer_concacaf.nations.league", "soccer_eng.1", "soccer_esp.1", "soccer_ita.1", "soccer_ger.1", "soccer_fra.1", "soccer_uefa.champions", "soccer_uefa.europa", "soccer_uefa.europa.conf", "soccer_ned.1", "soccer_por.1", "soccer_bel.1", "soccer_tur.1", "soccer_sco.1", "soccer_eng.2", "soccer_eng.3", "soccer_ger.2", "soccer_esp.2", "soccer_ita.2", "soccer_fra.2", "soccer_usa.1", "soccer_mex.1", "soccer_bra.1", "soccer_arg.1", "soccer_conmebol.libertadores", "soccer_ksa.1"] },
 ];
 const LEAGUE_NAMES = {
   nfl: "NFL", cfb: "College Football", nba: "NBA", wnba: "WNBA", ncaab: "College Basketball", mlb: "MLB", nhl: "NHL",
+  "soccer_uefa.nations": "UEFA Nations League", "soccer_fifa.friendly": "International Friendlies", "soccer_concacaf.nations.league": "CONCACAF Nations League",
   "soccer_eng.1": "Premier League", "soccer_esp.1": "La Liga", "soccer_ita.1": "Serie A", "soccer_ger.1": "Bundesliga", "soccer_fra.1": "Ligue 1", "soccer_uefa.champions": "Champions League", "soccer_uefa.europa": "Europa League", "soccer_uefa.europa.conf": "Conference League", "soccer_ned.1": "Eredivisie", "soccer_por.1": "Primeira Liga", "soccer_bel.1": "Belgian Pro League", "soccer_tur.1": "Süper Lig", "soccer_sco.1": "Scottish Premiership", "soccer_eng.2": "Championship", "soccer_eng.3": "League One", "soccer_ger.2": "2. Bundesliga", "soccer_esp.2": "LaLiga 2", "soccer_ita.2": "Serie B", "soccer_fra.2": "Ligue 2", "soccer_usa.1": "MLS", "soccer_mex.1": "Liga MX", "soccer_bra.1": "Brasileirão", "soccer_arg.1": "Argentine Primera", "soccer_conmebol.libertadores": "Copa Libertadores", "soccer_ksa.1": "Saudi Pro League",
 };
 
@@ -928,7 +935,8 @@ function renderBuild() {
 }
 
 // ------------------------------------------------------------------ top picks
-const PARLAY_NAMES = { safest_2: "Safest 2-leg", safest_3: "Safest 3-leg", safest_4: "Safest 4-leg", value_3: "Best-value 3-leg", props_3: "Player props 3-leg" };
+const PARLAY_NAMES = { safest_2: "Safest 2-leg", safest_3: "Safest 3-leg", safest_4: "Safest 4-leg", value_3: "Best-value 3-leg", props_3: "Player props 3-leg",
+  best_2: "Mixed 2-leg", best_3: "Mixed 3-leg", best_4: "Mixed 4-leg" };
 function renderPicks() {
   const top = DATA.top;
   if (!top) {
@@ -941,14 +949,21 @@ function renderPicks() {
   $("#picked").innerHTML = `Picked ${esc(dayLabel(top.locked_at).toLowerCase() === "today" ? "today" : dayLabel(top.locked_at))} at ${clock(top.locked_at)} for games today and tomorrow · new picks every day at 10 AM ET · prices update every 30 min`;
   top.parlays.forEach(p => p.legs.forEach(attach));
   top.straights.forEach(attach);
+  (top.straights_best ||= []).forEach(attach);
   let i = 0;
-  const f = top.parlays.map(p => {
+  const tierOf = p => p.tier || "edge";
+  const ticket = p => {
     const c = combo(p.legs);
     const status = p.result ? `<span class="res ${p.result}">${p.result === "W" ? "✓ Parlay hit" : p.result === "L" ? "✗ Parlay missed" : "Push"}</span>` : "";
     const moved = p.legs.some(l => l.locked_odds !== l.odds) ? ` · picked at ${fmtOdds(p.american)}` : "";
     return ticketHTML(`${PARLAY_NAMES[p.name] || p.name}${moved}`, p.legs, c.p, c.d, i++).replace('<div class="t-title">', `<div class="t-title">${status} `);
-  }).join("");
+  };
+  const f = top.parlays.filter(p => tierOf(p) === "edge").map(ticket).join("");
   $("#featured").innerHTML = f || `<div class="card empty">No parlay cleared the edge bar today. When the market and the data agree, the smart play is to pass.</div>`;
+  const bf = top.parlays.filter(p => tierOf(p) === "best").map(ticket).join("");
+  const bs = top.straights_best.slice().sort((a, b) => a.start.localeCompare(b.start));
+  $("#best-featured").innerHTML = bf || `<div class="card empty">Best-available parlays start with tomorrow's picks.</div>`;
+  $("#best-straights").innerHTML = bs.length ? `<h2 style="margin-top:18px">Best available straights</h2><div class="ticket" style="--i:${i}">${bs.map(l => legHTML(l)).join("")}</div>` : "";
 
   const sports = [...new Set(top.straights.map(l => l.sport))];
   if (!sports.includes(state.straightSport)) state.straightSport = "all";
@@ -1150,6 +1165,11 @@ function renderRecord() {
       ${stat(s.n ? `<span class="${s.units >= 0 ? "W" : "L"}">${s.units >= 0 ? "+" : ""}${s.units}u</span>` : "—", "Straight-bet profit, 1 unit each")}
       ${stat(al.n ? `${pct(al.hit_rate)} / ${pct(al.expected_hit_rate)}` : "—", "Every leg: hit rate vs predicted")}
     </div></div>`;
+  const bp = r.parlays_best || { n: 0 }, bst = r.straight_best || { n: 0 };
+  if (bp.n || bst.n) html += `<div class="card"><div class="stats">
+      ${stat(bp.n ? `${bp.wins}-${bp.n - bp.wins}` : "—", "Best-available parlays")}
+      ${stat(bst.n ? `${bst.wins}-${bst.n - bst.wins}` : "—", `Best-available straights${bst.n ? ` (${pct(bst.hit_rate)} vs ${pct(bst.expected_hit_rate)} predicted)` : ""}`)}
+    </div></div>`;
   const types = Object.entries(r.by_type || {}).filter(([, v]) => v.n);
   if (types.length) {
     html += `<h2>By bet type</h2><div class="card"><table><tr><th>Type</th><th class="r">W-L</th><th class="r">Hit</th><th class="r">Predicted</th></tr>
@@ -1168,8 +1188,10 @@ function renderRecord() {
     const parlays = d.parlays.map(p => `<div class="rec-t"><div class="h">${esc(PARLAY_NAMES[p.name] || p.name)}
         <span class="res ${p.result || "pending"}">${p.result === "W" ? "✓ Hit" : p.result === "L" ? `✗ Missed${(p.missed || []).length ? ` (${plural(p.missed.length, "leg")})` : ""}` : p.result === "P" ? "Push" : "Pending"}</span>
         <span class="odds">${fmtOdds(p.american)}</span></div>${legsOf(p)}</div>`).join("");
-    const straights = d.straights.length ? `<div class="rec-t"><div class="h">Straight bets <span class="odds">${wl(d.straights)}</span></div>
-        ${d.straights.map(l => recLeg(l, l.result === "L")).join("")}</div>` : "";
+    const straights = (d.straights.length ? `<div class="rec-t"><div class="h">Straight bets <span class="odds">${wl(d.straights)}</span></div>
+        ${d.straights.map(l => recLeg(l, l.result === "L")).join("")}</div>` : "")
+      + ((d.straights_best || []).length ? `<div class="rec-t"><div class="h">Best-available straights <span class="odds">${wl(d.straights_best)}</span></div>
+        ${d.straights_best.map(l => recLeg(l, l.result === "L")).join("")}</div>` : "");
     return `<div class="day${di === 0 ? " open" : ""}"><button class="day-head" aria-expanded="${di === 0}">
         <b>${esc(new Date(d.date + "T12:00:00").toLocaleDateString([], { weekday: "short", month: "short", day: "numeric" }))}</b>
         <span class="sum">Parlays ${wl(d.parlays)}<br>Straights ${wl(d.straights)}</span>${CHEV}</button>

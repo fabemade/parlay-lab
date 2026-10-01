@@ -29,6 +29,10 @@ class Sport:
     market_w: dict = field(default_factory=lambda: {"total": 0.35})
     # playoff games are lower scoring (top pitchers/goalies, tighter defense, slower pace)
     postseason_total: float = 1.0
+    # extra ESPN paths whose results feed the ratings (national teams play across many
+    # competitions), and a shared history file name so they're fetched once
+    history_paths: tuple = ()
+    history_key: str = ""
 
 
 SPORTS: dict[str, Sport] = {s.key: s for s in [
@@ -75,5 +79,18 @@ SPORTS: dict[str, Sport] = {s.key: s for s in [
         ("ksa.1", "Saudi Pro League"),
     ]
 ]}
+
+# National teams: few games a year, spread over many competitions, so every competition's
+# results feed one shared rating pool going back ~3 years. Many games are at neutral sites.
+INTL_HISTORY = tuple(f"soccer/{c}" for c in (
+    "uefa.nations", "fifa.friendly", "concacaf.nations.league", "fifa.worldq.uefa",
+    "fifa.worldq.conmebol", "fifa.worldq.concacaf", "fifa.world", "uefa.euro", "conmebol.america"))
+for code, name, home in (("uefa.nations", "UEFA Nations League", 0.15),
+                         ("fifa.friendly", "International Friendlies", 0.10),
+                         ("concacaf.nations.league", "CONCACAF Nations League", 0.15)):
+    SPORTS[f"soccer_{code}"] = Sport(
+        f"soccer_{code}", name, f"soccer/{code}", "poisson", home_adv_prior=home, dispersion=0.02,
+        half_life_days=540, history_days=1100, ridge=4.0, w_model=0.20, three_way=True,
+        history_paths=INTL_HISTORY, history_key="soccer_intl")
 
 SOCCER = [k for k, s in SPORTS.items() if s.three_way]

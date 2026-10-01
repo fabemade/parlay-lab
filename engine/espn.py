@@ -184,7 +184,7 @@ def parse_upcoming(event: dict) -> dict | None:
 # ---------------------------------------------------------------- history cache
 
 def _history_path(sport: Sport) -> Path:
-    return HISTORY_DIR / f"{sport.key}.json"
+    return HISTORY_DIR / f"{sport.history_key or sport.key}.json"
 
 
 def load_history(sport: Sport) -> dict:
@@ -206,9 +206,15 @@ def update_history(sport: Sport, today: dt.date, log=print) -> list[dict]:
     if missing:
         log(f"  {sport.name}: fetching {len(missing)} days of results…")
 
+        paths = (sport.path,) + tuple(p for p in sport.history_paths if p != sport.path)
+
         def fetch(d):
-            sb = scoreboard(sport, d)
-            return d, [r for e in sb.get("events", []) if (r := parse_result(e))], bool(sb)
+            results, ok = [], False
+            for path in paths:
+                sb = _get(f"{BASE}/{path}/scoreboard", {"dates": d.strftime("%Y%m%d"), **sport.params})
+                ok = ok or bool(sb)
+                results += [r for e in sb.get("events", []) if (r := parse_result(e))]
+            return d, results, ok
 
         with ThreadPoolExecutor(max_workers=12) as ex:
             for d, results, ok in ex.map(fetch, missing):
