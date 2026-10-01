@@ -95,7 +95,7 @@
     "contract": "Yes \u00b7 Seiya Suzuki: 1+",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -199
   },
   "401918020:KXWNBAPTS-26SEP30GSDAL-GSVBURTON22-15:no": {
@@ -143,7 +143,7 @@
     "contract": "No \u00b7 Veronica Burton: 15+",
     "buy": "no"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -191
   },
   "401907975:KXMLBKS-26SEP302200CHCSD-CHCKGAUSMAN34-4:yes": {
@@ -192,7 +192,7 @@
     "contract": "Yes \u00b7 Kevin Gausman: 4+",
     "buy": "yes"
    },
-   "result": null,
+   "result": "L",
    "close_odds": -183
   },
   "401891780:KXNHLPTS-26SEP30LACOL-LAALAFERRIERE14-1:yes": {
@@ -241,7 +241,7 @@
     "contract": "Yes \u00b7 Alex Laferriere: 1+",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": 129
   },
   "401918019:KXWNBAREB-26SEP30ATLWSH-ATLNHILLMON00-4:yes": {
@@ -289,7 +289,7 @@
     "contract": "Yes \u00b7 Naz Hillmon: 4+",
     "buy": "yes"
    },
-   "result": null,
+   "result": "L",
    "close_odds": 105
   },
   "401907963:KXMLBHRR-26SEP302000BOSNYY-NYYSJONES78-1:yes": {
@@ -338,7 +338,7 @@
     "contract": "Yes \u00b7 Spencer Jones: 1+",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -168
   },
   "401872964:KXNFLPASSINT-26OCT01PITCLE-CLEDWATSON4-1:no": {
@@ -385,7 +385,7 @@
     "buy": "no"
    },
    "result": null,
-   "close_odds": -103
+   "close_odds": -107
   },
   "401918020:KXWNBAREB-26SEP30GSDAL-GSKTHORNTON5-6:no": {
    "id": "401918020:KXWNBAREB-26SEP30GSDAL-GSKTHORNTON5-6:no",
@@ -432,7 +432,7 @@
     "contract": "No \u00b7 Kayla Thornton: 6+",
     "buy": "no"
    },
-   "result": null,
+   "result": "L",
    "close_odds": -208
   },
   "401892431:KXNHLPTS-26SEP30NYITOR-TORJTAVARES91-1:yes": {
@@ -481,7 +481,7 @@
     "contract": "Yes \u00b7 John Tavares: 1+",
     "buy": "yes"
    },
-   "result": null,
+   "result": "L",
    "close_odds": -131
   },
   "401891780:KXNHLPTS-26SEP30LACOL-LAMZUCCARELLO36-1:yes": {
@@ -530,7 +530,7 @@
     "contract": "Yes \u00b7 Mats Zuccarello: 1+",
     "buy": "yes"
    },
-   "result": null,
+   "result": "L",
    "close_odds": 105
   },
   "401918019:KXWNBAREB-26SEP30ATLWSH-WSHLBETTS51-4:yes": {
@@ -578,7 +578,7 @@
     "contract": "Yes \u00b7 Lauren Betts: 4+",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -137
   },
   "401872964:KXNFLPASSCOMP-26OCT01PITCLE-PITARODGERS8-22:yes": {
@@ -628,7 +628,7 @@
     "buy": "yes"
    },
    "result": null,
-   "close_odds": 124
+   "close_odds": 119
   },
   "401872964:KXNFLTD-26OCT01PITCLE-CLEQJUDKINS10-1:no": {
    "id": "401872964:KXNFLTD-26OCT01PITCLE-CLEQJUDKINS10-1:no",
@@ -724,7 +724,7 @@
     "buy": "yes"
    },
    "result": null,
-   "close_odds": -121
+   "close_odds": -116
   },
   "401907975:KXMLBHRR-26SEP302200CHCSD-SDJMERRILL3-2:yes": {
    "id": "401907975:KXMLBHRR-26SEP302200CHCSD-SDJMERRILL3-2:yes",
@@ -772,7 +772,7 @@
     "contract": "Yes \u00b7 Jackson Merrill: 2+",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": 101
   },
   "401907963:KXMLBTB-26SEP302000BOSNYY-NYYBRICE22-2:yes": {
@@ -821,7 +821,7 @@
     "contract": "Yes \u00b7 Ben Rice: 2+",
     "buy": "yes"
    },
-   "result": null,
+   "result": "L",
    "close_odds": 124
   },
   "401872964:KXNFLPASSTDS-26OCT01PITCLE-CLEDWATSON4-1:yes": {
@@ -917,7 +917,7 @@
     "contract": "Yes \u00b7 William Nylander: 1+",
     "buy": "yes"
    },
-   "result": null,
+   "result": "L",
    "close_odds": 124
   },
   "401891780:KXNHLGOAL-26SEP30LACOL-COLMNECAS88-1:no": {
@@ -966,7 +966,7 @@
     "contract": "No \u00b7 Martin Necas: 1+",
     "buy": "no"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -218
   },
   "401918020:KXWNBAREB-26SEP30GSDAL-GSGWILLIAMS1-4:no": {
@@ -1014,7 +1014,7 @@
     "contract": "No \u00b7 Gabby Williams: 4+",
     "buy": "no"
    },
-   "result": null,
+   "result": "L",
    "close_odds": -103
   },
   "401892431:KXNHLPTS-26SEP30NYITOR-TORWNYLANDER88-1:yes": {
@@ -1063,7 +1063,7 @@
     "contract": "Yes \u00b7 William Nylander: 1+",
     "buy": "yes"
    },
-   "result": null,
+   "result": "L",
    "close_odds": -168
   },
   "401907975:KXMLBTB-26SEP302200CHCSD-SDFTATIS23-2:yes": {
@@ -1112,7 +1112,7 @@
     "contract": "Yes \u00b7 Fernando Tatis Jr.: 2+",
     "buy": "yes"
    },
-   "result": null,
+   "result": "L",
    "close_odds": 101
   },
   "401918019:KXWNBA3PT-26SEP30ATLWSH-ATLRHOWARD10-4:no": {
@@ -1161,7 +1161,7 @@
     "contract": "No \u00b7 Rhyne Howard: 4+",
     "buy": "no"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -191
   },
   "401872964:KXNFLRSHATT-26OCT01PITCLE-CLEDWATSON4-6:yes": {
@@ -1209,7 +1209,7 @@
     "buy": "yes"
    },
    "result": null,
-   "close_odds": -137
+   "close_odds": -142
   },
   "401918020:KXWNBAPTS-26SEP30GSDAL-GSGWILLIAMS1-20:no": {
    "id": "401918020:KXWNBAPTS-26SEP30GSDAL-GSGWILLIAMS1-20:no",
@@ -1256,7 +1256,7 @@
     "contract": "No \u00b7 Gabby Williams: 20+",
     "buy": "no"
    },
-   "result": null,
+   "result": "L",
    "close_odds": -183
   },
   "401907975:KXMLBHIT-26SEP302200CHCSD-SDJMERRILL3-1:yes": {
@@ -1305,7 +1305,7 @@
     "contract": "Yes \u00b7 Jackson Merrill: 1+",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -191
   },
   "401872964:KXNFLTD-26OCT01PITCLE-PITJWARREN30-1:no": {
@@ -1403,7 +1403,7 @@
     "contract": "Yes \u00b7 George Lombard: 1+",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -199
   },
   "401907975:KXMLBKS-26SEP302200CHCSD-CHCKGAUSMAN34-5:yes": {
@@ -1452,7 +1452,7 @@
     "contract": "Yes \u00b7 Kevin Gausman: 5+",
     "buy": "yes"
    },
-   "result": null,
+   "result": "L",
    "close_odds": 134
   },
   "401918020:KXWNBA3PT-26SEP30GSDAL-DALAOGUNBOWALE24-2:no": {
@@ -1501,7 +1501,7 @@
     "contract": "No \u00b7 Arike Ogunbowale: 2+",
     "buy": "no"
    },
-   "result": null,
+   "result": "L",
    "close_odds": 101
   }
  },
@@ -1533,7 +1533,11 @@
    "american": 239,
    "ev": 0.0685,
    "name": "safest_3",
-   "result": null
+   "result": "L",
+   "missed": [
+    "401918020:KXWNBAREB-26SEP30GSDAL-GSKTHORNTON5-6:no",
+    "401907975:KXMLBKS-26SEP302200CHCSD-CHCKGAUSMAN34-4:yes"
+   ]
   },
   {
    "legs": [
@@ -1564,7 +1568,10 @@
    "american": 481,
    "ev": 0.1033,
    "name": "safest_4",
-   "result": null
+   "result": "L",
+   "missed": [
+    "401918020:KXWNBAPTS-26SEP30GSDAL-GSGWILLIAMS1-20:no"
+   ]
   }
  ],
  "straights": [
