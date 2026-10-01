@@ -17,11 +17,31 @@
    "SPREAD": "Brasileiro Serie A Game",
    "TOTAL": "Brasileiro Total"
   },
+  "CONCACAFNL": {
+   "1H": "1st Half Winner",
+   "1HBTTS": "1st Half BTTS",
+   "1HSPREAD": "1st Half Spread",
+   "1HTOTAL": "1st Half Total",
+   "BTTS": "BTTS",
+   "GAME": "CONCACAF Nations League Game",
+   "SPREAD": "Spread",
+   "TOTAL": "Point Total"
+  },
   "EFLL1": {
    "BTTS": "BTTS",
    "GAME": "EFL League One Game",
    "SPREAD": "Spread",
    "TOTAL": "Point Total"
+  },
+  "INTLFRIENDLY": {
+   "1H": "1st Half Winner",
+   "1HBTTS": "1st Half BTTS",
+   "1HSPREAD": "1st Half Spread",
+   "1HTOTAL": "1st Half Total",
+   "BTTS": "BTTS",
+   "GAME": "International Friendly Game",
+   "SPREAD": "International Friendly Spread",
+   "TOTAL": "International Friendly Total"
   },
   "LALIGA2": {
    "GAME": "LaLiga 2 Game"
@@ -193,6 +213,21 @@
    "SPREAD": "NHL Spread",
    "TEAMTOTAL": "NHL Team Goals Scored During Game",
    "TOTAL": "NHL Total Goals"
+  },
+  "UEFANL": {
+   "1H": "1st Half Winner",
+   "1HBTTS": "1st Half BTTS",
+   "1HSPREAD": "1st Half Spread",
+   "1HTOTAL": "1st Half Total",
+   "BTTS": "BTTS",
+   "FIRSTGOAL": "UEFA Nations League First Goal",
+   "FTTS": "First Team to Score",
+   "GAME": "UEFA Nations League Game",
+   "GOAL": "UEFA Nations League Goal",
+   "SCORE": "Correct Score",
+   "SPREAD": "Spread",
+   "TEAMTOTAL": "Team Total",
+   "TOTAL": "Point Total"
   },
   "WNBA": {
    "1HSPREAD": "Women's Pro Basketball 1st Half Spread",
