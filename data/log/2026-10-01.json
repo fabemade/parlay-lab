@@ -48,10 +48,106 @@
    },
    "result": null,
    "close_odds": -116
+  },
+  "401891816:KXNHLTOTAL-26OCT01MINNSH-6:yes": {
+   "id": "401891816:KXNHLTOTAL-26OCT01MINNSH-6:yes",
+   "sport": "nhl",
+   "game_id": "401891816",
+   "short": "MIN @ NSH",
+   "game": "Minnesota Wild at Nashville Predators",
+   "start": "2026-10-02T00:00Z",
+   "market": "total",
+   "side": "over",
+   "line": 5.5,
+   "selection": "Over 5.5",
+   "group": "Game lines",
+   "market_name": "Total",
+   "odds": -142,
+   "p": 0.5675,
+   "p_model": 0.6149,
+   "p_market": 0.5644,
+   "p_breakeven": 0.5872,
+   "edge": -0.0197,
+   "ev": -0.0336,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "MIN: 3.6 scored / 3.12 allowed per game this season; last 10: 3.5 / 3.8",
+    "NSH: 3.2 scored / 3.18 allowed per game this season; last 10: 3.0 / 3.0"
+   ],
+   "home": {
+    "name": "Nashville Predators",
+    "abbr": "NSH"
+   },
+   "away": {
+    "name": "Minnesota Wild",
+    "abbr": "MIN"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxnhltotal/nhl-total-goals/kxnhltotal-26oct01minnsh",
+    "price": 57,
+    "ticker": "KXNHLTOTAL-26OCT01MINNSH-6",
+    "contract": "Yes \u00b7 Over 5.5",
+    "buy": "yes"
+   },
+   "result": null,
+   "close_odds": -142
+  },
+  "401858245:KXNCAAFSPREAD-26OCT02PITTVT-VT2:yes": {
+   "id": "401858245:KXNCAAFSPREAD-26OCT02PITTVT-VT2:yes",
+   "sport": "cfb",
+   "game_id": "401858245",
+   "short": "PITT @ VT",
+   "game": "Pittsburgh Panthers at Virginia Tech Hokies",
+   "start": "2026-10-02T23:00Z",
+   "market": "spread",
+   "side": "home",
+   "line": -1.5,
+   "selection": "VT by 1.5+",
+   "group": "Game lines",
+   "market_name": "Spread",
+   "odds": -131,
+   "p": 0.5603,
+   "p_model": 0.6149,
+   "p_market": 0.5392,
+   "p_breakeven": 0.5673,
+   "edge": -0.0071,
+   "ev": -0.0125,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "VT ranks #41 in offense and #62 in defense of 187 (schedule-adjusted, recent games weighted more)",
+    "Last 4: 4-0, scoring 43.25 and allowing 16.0 pts/game (season: 43.25 / 16.0). Current streak: W4",
+    "At home: 58.5 scored / 12.0 allowed per game",
+    "Record 4-0",
+    "Line moved from -5.5 to -2.5 since opening (spread)",
+    "\u26a0 The line has moved against this side since opening (a sharp-money signal), so the model defers more to the market"
+   ],
+   "home": {
+    "name": "Virginia Tech Hokies",
+    "abbr": "VT"
+   },
+   "away": {
+    "name": "Pittsburgh Panthers",
+    "abbr": "PITT"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxncaafspread/college-football-spread/kxncaafspread-26oct02pittvt",
+    "price": 55,
+    "ticker": "KXNCAAFSPREAD-26OCT02PITTVT-VT2",
+    "contract": "Yes \u00b7 Virginia Tech wins by over 1.5 points",
+    "buy": "yes"
+   },
+   "result": null,
+   "close_odds": -131
   }
  },
  "parlays": [],
  "straights": [
   "401871049:KXNCAAFSPREAD-26OCT01WKUNMSU-NMSU2:yes"
+ ],
+ "straights_best": [
+  "401891816:KXNHLTOTAL-26OCT01MINNSH-6:yes",
+  "401858245:KXNCAAFSPREAD-26OCT02PITTVT-VT2:yes"
  ]
 }

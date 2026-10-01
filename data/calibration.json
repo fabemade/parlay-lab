@@ -230,5 +230,29 @@
   "total_sd": 1.74,
   "n": 299,
   "updated": "2026-10-01"
+ },
+ "soccer_uefa.nations": {
+  "margin_k": 1.367,
+  "total_k": 0.697,
+  "margin_sd": 1.98,
+  "total_sd": 1.82,
+  "n": 1591,
+  "updated": "2026-10-01"
+ },
+ "soccer_fifa.friendly": {
+  "margin_k": 1.367,
+  "total_k": 0.697,
+  "margin_sd": 1.98,
+  "total_sd": 1.82,
+  "n": 1591,
+  "updated": "2026-10-01"
+ },
+ "soccer_concacaf.nations.league": {
+  "margin_k": 1.367,
+  "total_k": 0.697,
+  "margin_sd": 1.98,
+  "total_sd": 1.82,
+  "n": 1591,
+  "updated": "2026-10-01"
  }
 }
