@@ -24,6 +24,10 @@ KALSHI_API = "https://api.elections.kalshi.com/trade-api/v2"
 ROOT = Path(__file__).resolve().parent.parent
 LOG_DIR = ROOT / "data" / "log"
 FEEDBACK_PATH = ROOT / "data" / "feedback.json"
+CALIB_DIR = ROOT / "data" / "calib"
+TESTED = "Game lines"   # full-game winner/spread/total: calibrated by the walk-forward backtest
+TRUST_MIN_N = 150       # graded predictions a bet type needs before it can be a Top Pick
+TRUST_MIN_Z = -1.0      # ...and it must not be hitting clearly below what we predicted
 LOCK_HOUR = 11          # Eastern: by 11am most lineups, starters and prop markets are posted
 RECORD_DAYS = 30
 
@@ -99,6 +103,68 @@ def update_closing(legs_by_id: dict):
             _write(log["date"], log)
 
 
+# ---------------------------------------------------------------- calibration log
+# Top Picks only grade what we chose, which says little about a bet type we rarely pick.
+# So at lock time we also record every candidate bet's prediction (each contract the model
+# prices with a non-negative edge) and grade them all from Kalshi's settlements. That is
+# how a bet type like player props earns (or loses) its place in Top Picks.
+
+def record_calibration(day: str, legs: list[dict]):
+    rows = {}
+    for l in legs:
+        k = l.get("kalshi") or {}
+        if l.get("p_model") is None or l["edge"] < 0 or not k.get("ticker"):
+            continue
+        rows[l["id"]] = {"t": k["ticker"], "b": k.get("buy", "yes"), "s": l["sport"],
+                         "g": l.get("group") or TESTED, "p": l["p"], "pm": l["p_market"],
+                         "st": l["start"], "r": None}
+    CALIB_DIR.mkdir(parents=True, exist_ok=True)
+    (CALIB_DIR / f"{day}.json").write_text(json.dumps(rows, separators=(",", ":")))
+
+
+def _calib_files() -> list[Path]:
+    return sorted(CALIB_DIR.glob("*.json")) if CALIB_DIR.exists() else []
+
+
+def _grade_calibration(max_events: int = 250):
+    """Settle pending calibration rows, one Kalshi request per event (not per contract)."""
+    cutoff = dt.datetime.now(dt.timezone.utc) - dt.timedelta(hours=2)
+    asked = 0
+    for path in _calib_files():
+        rows = json.loads(path.read_text())
+        pending: dict[str, list[dict]] = {}
+        for r in rows.values():
+            if r["r"] is None and dt.datetime.fromisoformat(r["st"].replace("Z", "+00:00")) < cutoff:
+                pending.setdefault("-".join(r["t"].split("-")[:2]), []).append(r)
+        changed = False
+        for event, rs in pending.items():
+            if asked >= max_events:
+                break
+            asked += 1
+            try:
+                resp = requests.get(f"{KALSHI_API}/markets", params={"event_ticker": event, "limit": 1000}, timeout=20)
+                markets = {m["ticker"]: m for m in (resp.json().get("markets") or [])} if resp.ok else {}
+            except (requests.RequestException, ValueError):
+                continue
+            for r in rs:
+                m = markets.get(r["t"]) or {}
+                res = (m.get("result") or "").lower()
+                if res in ("yes", "no"):
+                    r["r"] = "W" if res == r["b"] else "L"
+                elif m.get("status") in ("settled", "finalized"):
+                    r["r"] = "P"
+                changed = changed or r["r"] is not None
+        if changed:
+            path.write_text(json.dumps(rows, separators=(",", ":")))
+
+
+def _calib_rows(days: int = 45) -> list[dict]:
+    out = []
+    for path in _calib_files()[-days:]:
+        out += [r for r in json.loads(path.read_text()).values() if r["r"] in ("W", "L")]
+    return out
+
+
 # ---------------------------------------------------------------- grading
 
 def _result(leg: dict, g: dict) -> str:
@@ -141,6 +207,7 @@ def _kalshi_result(ticker: str, buy: str, start: str) -> str | None:
 
 
 def grade_all(results_by_sport: dict[str, dict[str, dict]]):
+    _grade_calibration()
     for log in _locked_logs():
         changed = False
         for leg in log["legs"].values():
@@ -236,39 +303,89 @@ def summary() -> dict:
         "by_type": by(all_legs, lambda l: l.get("group") or "Game lines"),
         "by_sport": by(all_legs, lambda l: l["sport"]),
         "avg_clv": round(sum(clv) / len(clv), 4) if clv else None,
+        "calibration": _calibration_summary(),
         "days": days,
     }
 
 
+def _calibration_summary() -> dict:
+    """Every prediction we logged, by bet type: how often it hit vs how often we said."""
+    out = {}
+    for r in _calib_rows():
+        out.setdefault(r["g"], []).append(r)
+    res = {}
+    for g, rs in out.items():
+        w = sum(r["r"] == "W" for r in rs)
+        res[g] = {"n": len(rs), "hit_rate": round(w / len(rs), 3),
+                  "expected_hit_rate": round(sum(r["p"] for r in rs) / len(rs), 3),
+                  "market_hit_rate": round(sum(r["pm"] for r in rs) / len(rs), 3),
+                  "trusted": g == TESTED or _is_trusted(_z_stats(rs))}
+    return res
+
+
 # ---------------------------------------------------------------- learning from results
+
+def _z_stats(rows: list[dict]) -> dict:
+    exp = sum(r["p"] for r in rows)
+    var = sum(r["p"] * (1 - r["p"]) for r in rows) or 1
+    wins = sum(r.get("result", r.get("r")) == "W" for r in rows)
+    return {"n": len(rows), "z": round((wins - exp) / math.sqrt(var), 2)}
+
+
+def _is_trusted(st: dict) -> bool:
+    return st["n"] >= TRUST_MIN_N and st["z"] >= TRUST_MIN_Z
+
 
 def feedback(min_n: int = 30) -> dict:
     """Per (league, bet type): how much to trust the model, from graded results.
 
-    If a bet type's picks hit clearly less often than we predicted (more than 1.5 standard
-    errors below), the model is overconfident there, so its weight against the market is
-    halved (quartered past 2.5). Needs min_n graded legs before it acts, so a few unlucky
-    nights can't swing it. Rewritten after every run into data/feedback.json.
+    Uses every logged prediction (the calibration log), not just the Top Picks. If a bet
+    type hits clearly less often than we predicted (more than 1.5 standard errors below),
+    the model is overconfident there, so its weight against the market is halved (quartered
+    past 2.5). Bet types other than full-game lines start at half weight and need
+    TRUST_MIN_N graded predictions without underperforming before they get full weight and
+    can appear in Top Picks. Rewritten after every run into data/feedback.json.
     """
     rows: dict[str, list] = {}
-    for log in _locked_logs():
+    for r in _calib_rows():
+        rows.setdefault(f"{r['s']}|{r['g']}", []).append(r)
+    for log in _locked_logs():          # older days logged before the calibration log existed
         for l in log["legs"].values():
             if l["result"] in ("W", "L"):
-                rows.setdefault(f"{l['sport']}|{l.get('group') or 'Game lines'}", []).append(l)
+                key = f"{l['sport']}|{l.get('group') or TESTED}"
+                rows.setdefault(key + "#picks", []).append({"p": l["p"], "r": l["result"]})
     out = {}
     for key, ls in rows.items():
-        if len(ls) < min_n:
-            continue
-        exp = sum(l["p"] for l in ls)
-        var = sum(l["p"] * (1 - l["p"]) for l in ls) or 1
-        z = (sum(l["result"] == "W" for l in ls) - exp) / math.sqrt(var)
-        mult = 0.25 if z < -2.5 else 0.5 if z < -1.5 else 1.0
-        out[key] = {"n": len(ls), "z": round(z, 2), "w_mult": mult}
+        if key.endswith("#picks"):
+            base = key[:-6]
+            if base in rows:            # the calibration log covers it
+                continue
+            key = base
+        st = _z_stats(ls)
+        group = key.split("|", 1)[1]
+        mult = 0.25 if st["n"] >= min_n and st["z"] < -2.5 else 0.5 if st["n"] >= min_n and st["z"] < -1.5 else 1.0
+        trusted = group == TESTED or _is_trusted(st)
+        if not trusted:
+            mult *= 0.5
+        out[key] = {**st, "w_mult": mult, "trusted": trusted}
     FEEDBACK_PATH.write_text(json.dumps(out, indent=1, sort_keys=True))
+    feedback_mult.cache = out
     return out
 
 
-def feedback_mult(sport: str, group: str | None) -> float:
+def _feedback() -> dict:
     if not hasattr(feedback_mult, "cache"):
         feedback_mult.cache = json.loads(FEEDBACK_PATH.read_text()) if FEEDBACK_PATH.exists() else {}
-    return feedback_mult.cache.get(f"{sport}|{group or 'Game lines'}", {}).get("w_mult", 1.0)
+    return feedback_mult.cache
+
+
+def feedback_mult(sport: str, group: str | None) -> float:
+    g = group or TESTED
+    default = 1.0 if g == TESTED else 0.5     # untested bet types start at half weight
+    return _feedback().get(f"{sport}|{g}", {}).get("w_mult", default)
+
+
+def trusted(sport: str, group: str | None) -> bool:
+    """Can this bet type be a Top Pick? Full-game lines yes; others once they've earned it."""
+    g = group or TESTED
+    return g == TESTED or bool(_feedback().get(f"{sport}|{g}", {}).get("trusted"))

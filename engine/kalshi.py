@@ -604,7 +604,7 @@ def extra_legs(gm, ev_by_suffix: dict[str, list[dict]], titles: dict, codes: dic
                         sel_yes, sel_no = f"{player} over {x:g} {stat_label}", f"{player} under {x:g} {stat_label}"
                     both_sides(suffix, ev, m, sel_yes, sel_no,
                                p_model, reasons or ["No game log available for this player, so this is priced at Kalshi's market"],
-                               market="prop", side="over", line=float(x), player=player, w_mult=1.15,
+                               market="prop", side="over", line=float(x), player=player, w_mult=1.0,
                                low=PROP_PRICE_RANGE[0], high=PROP_PRICE_RANGE[1])
                     continue
 

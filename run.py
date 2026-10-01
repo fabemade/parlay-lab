@@ -86,11 +86,28 @@ def slim(leg: dict) -> dict:
     return out
 
 
+MAX_DISAGREEMENT = 0.15   # model vs Kalshi gap above which we assume the model is missing news
+
+
+def candidate(l: dict) -> bool:
+    """Bets allowed into Top Picks.
+
+    Only bet types with a track record (see grade.trusted): full-game lines are calibrated
+    by the backtest, other types must first hit as often as predicted over enough graded
+    predictions. And when our model disagrees with Kalshi by a lot, the usual reason is
+    news the model can't see (injury, lineup, pitch count), not a giant edge, so skip it.
+    """
+    if not l.get("modeled", True) or not grade.trusted(l["sport"], l.get("group")):
+        return False
+    pm = l.get("p_model")
+    return pm is None or abs(pm - l["p_market"]) <= MAX_DISAGREEMENT
+
+
 def pick_top(all_legs: list[dict], today: dt.date) -> tuple[dict, list[str]]:
     """The day's featured parlays and straight bets, from games today and tomorrow only."""
     window = {today, today + dt.timedelta(days=1)}
-    legs = [l for l in all_legs
-            if dt.datetime.fromisoformat(l["start"].replace("Z", "+00:00")).astimezone(ET).date() in window]
+    legs = [l for l in all_legs if candidate(l)
+            and dt.datetime.fromisoformat(l["start"].replace("Z", "+00:00")).astimezone(ET).date() in window]
     featured, used = {}, set()
     # Only feature a parlay when every leg is +EV and the whole ticket still has a
     # realistic chance. On thin or sharply priced slates, showing nothing is the right call.
@@ -107,11 +124,13 @@ def pick_top(all_legs: list[dict], today: dt.date) -> tuple[dict, list[str]]:
         if p and p["p"] >= floor:
             featured[name] = p
             used.update(p["legs"])
-    # straight bets: the best few per league, so every sport filter has something to show
-    straights, per = [], {}
+    # straight bets: the best few per league, at most one per game, so one game going
+    # wrong (or two strikes on the same player) can't take out several picks at once
+    straights, per, games = [], {}, set()
     for l in sorted(parlay.eligible(legs, min_edge=0.005), key=lambda l: -l["ev"]):
-        if l["p"] >= 0.45 and per.get(l["sport"], 0) < STRAIGHTS_PER_LEAGUE and l.get("modeled", True):
+        if l["p"] >= 0.45 and per.get(l["sport"], 0) < STRAIGHTS_PER_LEAGUE and l["game_id"] not in games:
             straights.append(l["id"])
+            games.add(l["game_id"])
             per[l["sport"]] = per.get(l["sport"], 0) + 1
     return featured, straights
 
@@ -224,6 +243,7 @@ def main():
             log(f"\n{len(problems)} consistency problems; not publishing this board.")
             return 1
         top_log = grade.lock_picks(day, now.isoformat(timespec="minutes"), legs_by_id, featured, straights)
+        grade.record_calibration(day, all_legs)
         log(f"  Locked today's Top Picks: {len(featured)} parlays, {len(straights)} straight bets")
     problems = validate(all_legs, {})
     if problems:
@@ -240,6 +260,9 @@ def main():
     # Kalshi's price go in one small file per game, loaded when that game is opened.
     game_ids = {l["game_id"] for l in all_legs}
     all_games = [g for g in all_games if g["id"] in game_ids]
+    for l in all_legs:   # the app labels bet types that haven't earned a track record yet
+        if l.get("modeled", True) and not grade.trusted(l["sport"], l.get("group")):
+            l["untested"] = True
     main_legs = [slim(l) for l in all_legs if l.get("modeled", True)]
     other: dict[str, list] = {}
     for l in all_legs:

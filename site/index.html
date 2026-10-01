@@ -217,6 +217,7 @@ section[hidden] { display: none; }
 .pricecheck.stale { color: #f1d9a8; }
 #slip-bar .sp { margin-left: auto; font-family: var(--mono); }
 .leg-sel { font-weight: 700; font-size: 15.5px; }
+.untested { font-size: 10.5px; font-weight: 700; text-transform: uppercase; letter-spacing: .04em; color: #f1c27d; background: rgba(241, 194, 125, .12); padding: 1px 6px; border-radius: 6px; }
 .leg-sel .note { font-weight: 500; font-size: 12px; color: var(--faint); white-space: nowrap; }
 .leg-sub { font-size: 12.5px; color: var(--muted); margin-top: 2px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
 .leg-odds { font-family: var(--mono); font-weight: 700; font-size: 15px; text-align: right; }
@@ -360,6 +361,7 @@ nav.tabs button[aria-selected="true"] svg { transform: translateY(-2px) scale(1.
           <div class="seg" id="day-seg"></div>
           <div class="label">Bet types</div>
           <div class="chips" id="market-chips"></div>
+          <div class="hint">Game lines are the bet types with a track record. Others are marked untested until their predictions prove out (see Record → Model check).</div>
           <div class="label">Same-game legs</div>
           <div class="seg" id="same-seg"></div>
           <div class="hint">Allowing them adds props from the same game (say, two players). Legs in one game can move together, so the hit chance is a rough estimate.</div>
@@ -470,7 +472,7 @@ const LEAGUE_NAMES = {
 let DATA = null, GROUP_LIST = [], COUNTS = {};
 const state = {
   sports: new Set(), day: "all", legs: 3, mode: "safest", target: 150,
-  juice: -250, edge: 0, markets: new Set(["lines", "props", "periods", "team", "specials"]), sameGame: false,
+  juice: -250, edge: 0, markets: new Set(["lines"]), sameGame: false,
   slip: store.get("slip", []), straightSport: "all",
   stake: store.get("stake", 10), gameGroup: "all", gameSport: "all",
 };
@@ -720,7 +722,7 @@ function legHTML(l, open = false) {
     <button class="leg-main" aria-expanded="${open}" onclick="toggleOpen(this.parentElement)">
       <div class="grade ${l.grade}">${l.grade}</div>
       <div class="leg-info">
-        <div class="leg-when">${CLOCK}${esc(whenLong(l.start))} · ${esc(l.short)} <span class="lg-name">${esc(leagueName(l.sport))}</span>${statusOf(l) ? ` <span class="res ${statusOf(l)}">${RES_LABEL[statusOf(l)]}</span>` : ""}</div>
+        <div class="leg-when">${CLOCK}${esc(whenLong(l.start))} · ${esc(l.short)} <span class="lg-name">${esc(leagueName(l.sport))}</span>${statusOf(l) ? ` <span class="res ${statusOf(l)}">${RES_LABEL[statusOf(l)]}</span>` : ""}${l.untested ? ` <span class="untested">untested</span>` : ""}</div>
         <div class="leg-sel">${esc(describe(l)[0])}${describe(l)[1] ? ` <span class="note">${esc(describe(l)[1])}</span>` : ""}</div>
         <div class="leg-sub"><span class="code">${esc(k ? k.contract : l.selection)}</span>${l.unavailable ? ` · <span class="gone">no longer available</span>` : l.moved ? ` · <span class="moved">was ${l.moved.from}¢</span>` : ""}</div></div>
       <div class="leg-odds">${k ? `${k.price}¢` : esc(l.odds_str)}<small>${pct(l.p)}</small></div>
@@ -1153,6 +1155,12 @@ function renderRecord() {
     html += `<h2>By bet type</h2><div class="card"><table><tr><th>Type</th><th class="r">W-L</th><th class="r">Hit</th><th class="r">Predicted</th></tr>
       ${types.map(([k, v]) => `<tr><td>${esc(k)}</td><td class="r">${v.wins}-${v.n - v.wins}</td><td class="r ${v.hit_rate + 0.03 < v.expected_hit_rate ? "L" : ""}">${pct(v.hit_rate)}</td><td class="r">${pct(v.expected_hit_rate)}</td></tr>`).join("")}
       </table><div class="hint">When a type hits clearly less often than predicted, the model automatically leans more on the market for it (after 30 graded legs).</div></div>`;
+  }
+  const cal = Object.entries(r.calibration || {}).filter(([, v]) => v.n).sort((a, b) => b[1].n - a[1].n);
+  if (cal.length) {
+    html += `<h2>Model check</h2><div class="card"><table><tr><th>Every prediction</th><th class="r">Bets</th><th class="r">Hit</th><th class="r">We said</th><th class="r">Kalshi said</th></tr>
+      ${cal.map(([k, v]) => `<tr><td>${esc(k)}<br><span class="gmeta">${v.trusted ? "Trusted for Top Picks" : v.n < 150 ? `Learning (${v.n}/150)` : "Not trusted yet"}</span></td><td class="r">${v.n}</td><td class="r ${v.hit_rate + 0.03 < v.expected_hit_rate ? "L" : ""}">${pct(v.hit_rate)}</td><td class="r">${pct(v.expected_hit_rate)}</td><td class="r">${pct(v.market_hit_rate)}</td></tr>`).join("")}
+      </table><div class="hint">Every bet the model priced with an edge is logged daily and graded, not just the Top Picks. A bet type joins Top Picks only after 150 graded predictions that hit about as often as we said.</div></div>`;
   }
   const days = r.days || [];
   html += `<h2>Daily results</h2>` + (days.length ? days.map((d, di) => {
