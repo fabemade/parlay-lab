@@ -47,7 +47,7 @@
     "buy": "yes"
    },
    "result": null,
-   "close_odds": -251
+   "close_odds": -228
   },
   "401907975:KXMLBHRR-26SEP302200CHCSD-CHCSSUZUKI27-1:yes": {
    "id": "401907975:KXMLBHRR-26SEP302200CHCSD-CHCSSUZUKI27-1:yes",
@@ -385,7 +385,7 @@
     "buy": "no"
    },
    "result": null,
-   "close_odds": -103
+   "close_odds": 101
   },
   "401918020:KXWNBAREB-26SEP30GSDAL-GSKTHORNTON5-6:no": {
    "id": "401918020:KXWNBAREB-26SEP30GSDAL-GSKTHORNTON5-6:no",
@@ -724,7 +724,7 @@
     "buy": "yes"
    },
    "result": null,
-   "close_odds": -116
+   "close_odds": -112
   },
   "401907975:KXMLBHRR-26SEP302200CHCSD-SDJMERRILL3-2:yes": {
    "id": "401907975:KXMLBHRR-26SEP302200CHCSD-SDJMERRILL3-2:yes",
@@ -1209,7 +1209,7 @@
     "buy": "yes"
    },
    "result": null,
-   "close_odds": -142
+   "close_odds": -148
   },
   "401918020:KXWNBAPTS-26SEP30GSDAL-GSGWILLIAMS1-20:no": {
    "id": "401918020:KXWNBAPTS-26SEP30GSDAL-GSGWILLIAMS1-20:no",
