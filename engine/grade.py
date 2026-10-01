@@ -24,7 +24,7 @@ KALSHI_API = "https://api.elections.kalshi.com/trade-api/v2"
 ROOT = Path(__file__).resolve().parent.parent
 LOG_DIR = ROOT / "data" / "log"
 FEEDBACK_PATH = ROOT / "data" / "feedback.json"
-LOCK_HOUR = 10          # Eastern: by 10am most lineups, starters and prop markets are posted
+LOCK_HOUR = 11          # Eastern: by 11am most lineups, starters and prop markets are posted
 RECORD_DAYS = 30
 
 SNAPSHOT = ("id", "sport", "game_id", "short", "game", "start", "market", "side", "line", "selection",
