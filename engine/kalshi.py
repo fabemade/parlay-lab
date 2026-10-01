@@ -755,3 +755,45 @@ def norm_pdf0(mean: float, sd: float) -> float:
     """P(|margin| < 0.5) for a normal margin: the chance regulation ends level."""
     from scipy.stats import norm as _n
     return _n.cdf(0.5, mean, sd) - _n.cdf(-0.5, mean, sd)
+
+
+def probe_international(log=print) -> None:
+    """Temporary: find Kalshi series and ESPN competitions for national-team soccer."""
+    import datetime as _dt
+    keys = ("nation", "friendl", "world cup", "qualif", "international", "copa am", "euro 20", "afcon", "gold cup")
+    try:
+        cursor, seen = None, 0
+        for _ in range(20):
+            params = {"limit": 1000}
+            if cursor:
+                params["cursor"] = cursor
+            d = _get("/series", params)
+            for s in d.get("series") or []:
+                seen += 1
+                t = (s.get("title") or "").lower()
+                if any(k in t for k in keys) or any(k in s.get("ticker", "").lower() for k in ("nations", "wcq", "friendly", "intl")):
+                    log(f"  PROBE series {s.get('ticker')}: {s.get('title')} [{s.get('category')}]")
+            cursor = d.get("cursor")
+            if not cursor:
+                break
+        log(f"  PROBE scanned {seen} Kalshi series")
+    except Exception as e:
+        log(f"  PROBE series failed: {e}")
+    codes = ["uefa.nations", "fifa.friendly", "fifa.worldq.uefa", "fifa.worldq.conmebol", "fifa.worldq.concacaf",
+             "fifa.worldq.afc", "fifa.worldq.caf", "concacaf.nations.league", "uefa.euroq", "fifa.world",
+             "conmebol.america", "concacaf.gold", "caf.nations", "afc.asian.cup", "fifa.friendly.w"]
+    today = _dt.date.today()
+    for code in codes:
+        n = 0
+        for i in range(0, 21, 3):
+            day = (today + _dt.timedelta(days=i)).strftime("%Y%m%d")
+            try:
+                r = _session.get(f"https://site.api.espn.com/apis/site/v2/sports/soccer/{code}/scoreboard",
+                                 params={"dates": day}, timeout=15)
+                ev = r.json().get("events") or [] if r.ok else []
+            except Exception:
+                ev = []
+            n += len(ev)
+            if ev and n == len(ev):
+                log(f"  PROBE espn {code}: e.g. {ev[0].get('name')} on {ev[0].get('date')} (odds: {bool(ev[0]['competitions'][0].get('odds'))})")
+        log(f"  PROBE espn {code}: {n} events in next 3 weeks (sampled)")

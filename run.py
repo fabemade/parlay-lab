@@ -214,6 +214,10 @@ def main():
     # DraftKings lines still feed the model (market blend, reasons) for each game.
     log("[Kalshi]")
     try:
+        kalshi.probe_international(log=log)  # temporary
+    except Exception as e:
+        log(f"  PROBE failed: {e}")
+    try:
         kalshi_legs = kalshi.build_legs(all_models, all_legs, log=log)
     except Exception as e:
         log(f"  ! Kalshi lookup failed, publishing sportsbook lines instead: {e}")
