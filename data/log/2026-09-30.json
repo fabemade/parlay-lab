@@ -47,7 +47,7 @@
     "buy": "yes"
    },
    "result": null,
-   "close_odds": -251
+   "close_odds": -263
   },
   "401907975:KXMLBHRR-26SEP302200CHCSD-CHCSSUZUKI27-1:yes": {
    "id": "401907975:KXMLBHRR-26SEP302200CHCSD-CHCSSUZUKI27-1:yes",
@@ -385,7 +385,7 @@
     "buy": "no"
    },
    "result": null,
-   "close_odds": -107
+   "close_odds": -103
   },
   "401918020:KXWNBAREB-26SEP30GSDAL-GSKTHORNTON5-6:no": {
    "id": "401918020:KXWNBAREB-26SEP30GSDAL-GSKTHORNTON5-6:no",
@@ -628,7 +628,7 @@
     "buy": "yes"
    },
    "result": null,
-   "close_odds": 119
+   "close_odds": 124
   },
   "401872964:KXNFLTD-26OCT01PITCLE-CLEQJUDKINS10-1:no": {
    "id": "401872964:KXNFLTD-26OCT01PITCLE-CLEQJUDKINS10-1:no",
@@ -677,7 +677,7 @@
     "buy": "no"
    },
    "result": null,
-   "close_odds": -161
+   "close_odds": -168
   },
   "401871049:KXNCAAFSPREAD-26OCT01WKUNMSU-NMSU2:yes": {
    "id": "401871049:KXNCAAFSPREAD-26OCT01WKUNMSU-NMSU2:yes",
@@ -869,7 +869,7 @@
     "buy": "yes"
    },
    "result": null,
-   "close_odds": -191
+   "close_odds": -199
   },
   "401892431:KXNHLAST-26SEP30NYITOR-TORWNYLANDER88-1:yes": {
    "id": "401892431:KXNHLAST-26SEP30NYITOR-TORWNYLANDER88-1:yes",
@@ -1355,7 +1355,7 @@
     "buy": "no"
    },
    "result": null,
-   "close_odds": -121
+   "close_odds": -116
   },
   "401907963:KXMLBHRR-26SEP302000BOSNYY-NYYGLOMBARD96-1:yes": {
    "id": "401907963:KXMLBHRR-26SEP302000BOSNYY-NYYGLOMBARD96-1:yes",

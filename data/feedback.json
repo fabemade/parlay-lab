@@ -1,1 +1,20 @@
-{}
+{
+ "mlb|Player props": {
+  "n": 9,
+  "trusted": false,
+  "w_mult": 0.5,
+  "z": -0.24
+ },
+ "nhl|Player props": {
+  "n": 6,
+  "trusted": false,
+  "w_mult": 0.5,
+  "z": -1.13
+ },
+ "wnba|Player props": {
+  "n": 8,
+  "trusted": false,
+  "w_mult": 0.5,
+  "z": -1.33
+ }
+}
