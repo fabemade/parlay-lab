@@ -47,7 +47,7 @@
     "buy": "yes"
    },
    "result": null,
-   "close_odds": -263
+   "close_odds": -251
   },
   "401907975:KXMLBHRR-26SEP302200CHCSD-CHCSSUZUKI27-1:yes": {
    "id": "401907975:KXMLBHRR-26SEP302200CHCSD-CHCSSUZUKI27-1:yes",
@@ -628,7 +628,7 @@
     "buy": "yes"
    },
    "result": null,
-   "close_odds": 124
+   "close_odds": 129
   },
   "401872964:KXNFLTD-26OCT01PITCLE-CLEQJUDKINS10-1:no": {
    "id": "401872964:KXNFLTD-26OCT01PITCLE-CLEQJUDKINS10-1:no",

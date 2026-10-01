@@ -1,0 +1,57 @@
+{
+ "date": "2026-10-01",
+ "locked_at": "2026-10-01T11:08-04:00",
+ "legs": {
+  "401871049:KXNCAAFSPREAD-26OCT01WKUNMSU-NMSU2:yes": {
+   "id": "401871049:KXNCAAFSPREAD-26OCT01WKUNMSU-NMSU2:yes",
+   "sport": "cfb",
+   "game_id": "401871049",
+   "short": "WKU @ NMSU",
+   "game": "Western Kentucky Hilltoppers at New Mexico State Aggies",
+   "start": "2026-10-02T00:00Z",
+   "market": "spread",
+   "side": "home",
+   "line": -1.5,
+   "selection": "NMSU by 1.5+",
+   "group": "Game lines",
+   "market_name": "Spread",
+   "odds": -116,
+   "p": 0.5445,
+   "p_model": 0.6348,
+   "p_market": 0.5149,
+   "p_breakeven": 0.5375,
+   "edge": 0.007,
+   "ev": 0.0131,
+   "grade": "B",
+   "modeled": true,
+   "reasons": [
+    "NMSU ranks #133 in offense and #124 in defense of 187 (schedule-adjusted, recent games weighted more)",
+    "Last 4: 1-3, scoring 26.25 and allowing 29.75 pts/game (season: 26.25 / 29.75)",
+    "At home: 34.5 scored / 28.0 allowed per game",
+    "Record 1-3",
+    "Line moved from -1.5 to -2.5 since opening (spread)"
+   ],
+   "home": {
+    "name": "New Mexico State Aggies",
+    "abbr": "NMSU"
+   },
+   "away": {
+    "name": "Western Kentucky Hilltoppers",
+    "abbr": "WKU"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxncaafspread/college-football-spread/kxncaafspread-26oct01wkunmsu",
+    "price": 52,
+    "ticker": "KXNCAAFSPREAD-26OCT01WKUNMSU-NMSU2",
+    "contract": "Yes \u00b7 New Mexico St. wins by over 1.5 points",
+    "buy": "yes"
+   },
+   "result": null,
+   "close_odds": -116
+  }
+ },
+ "parlays": [],
+ "straights": [
+  "401871049:KXNCAAFSPREAD-26OCT01WKUNMSU-NMSU2:yes"
+ ]
+}
