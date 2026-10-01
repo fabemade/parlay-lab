@@ -193,7 +193,7 @@
     "buy": "yes"
    },
    "result": null,
-   "close_odds": -191
+   "close_odds": -183
   },
   "401891780:KXNHLPTS-26SEP30LACOL-LAALAFERRIERE14-1:yes": {
    "id": "401891780:KXNHLPTS-26SEP30LACOL-LAALAFERRIERE14-1:yes",
@@ -242,7 +242,7 @@
     "buy": "yes"
    },
    "result": null,
-   "close_odds": 134
+   "close_odds": 129
   },
   "401918019:KXWNBAREB-26SEP30ATLWSH-ATLNHILLMON00-4:yes": {
    "id": "401918019:KXWNBAREB-26SEP30ATLWSH-ATLNHILLMON00-4:yes",
@@ -385,7 +385,7 @@
     "buy": "no"
    },
    "result": null,
-   "close_odds": -112
+   "close_odds": -103
   },
   "401918020:KXWNBAREB-26SEP30GSDAL-GSKTHORNTON5-6:no": {
    "id": "401918020:KXWNBAREB-26SEP30GSDAL-GSKTHORNTON5-6:no",
@@ -773,7 +773,7 @@
     "buy": "yes"
    },
    "result": null,
-   "close_odds": -103
+   "close_odds": 101
   },
   "401907963:KXMLBTB-26SEP302000BOSNYY-NYYBRICE22-2:yes": {
    "id": "401907963:KXMLBTB-26SEP302000BOSNYY-NYYBRICE22-2:yes",
@@ -1209,7 +1209,7 @@
     "buy": "yes"
    },
    "result": null,
-   "close_odds": -131
+   "close_odds": -137
   },
   "401918020:KXWNBAPTS-26SEP30GSDAL-GSGWILLIAMS1-20:no": {
    "id": "401918020:KXWNBAPTS-26SEP30GSDAL-GSGWILLIAMS1-20:no",
@@ -1453,7 +1453,7 @@
     "buy": "yes"
    },
    "result": null,
-   "close_odds": 129
+   "close_odds": 134
   },
   "401918020:KXWNBA3PT-26SEP30GSDAL-DALAOGUNBOWALE24-2:no": {
    "id": "401918020:KXWNBA3PT-26SEP30GSDAL-DALAOGUNBOWALE24-2:no",
