@@ -1,0 +1,1348 @@
+{
+ "date": "2026-10-02",
+ "locked_at": "2026-10-02T13:34-04:00",
+ "legs": {
+  "401900602:KXCONCACAFNLTOTAL-26OCT02SLVJAM-3:no": {
+   "id": "401900602:KXCONCACAFNLTOTAL-26OCT02SLVJAM-3:no",
+   "sport": "soccer_concacaf.nations.league",
+   "game_id": "401900602",
+   "short": "JAM @ SLV",
+   "game": "Jamaica at El Salvador",
+   "start": "2026-10-03T02:00Z",
+   "market": "total",
+   "side": "under",
+   "line": 2.5,
+   "selection": "Under 2.5",
+   "group": "Game lines",
+   "market_name": "Total",
+   "odds": -137,
+   "p": 0.5573,
+   "p_model": 0.628,
+   "p_market": 0.5545,
+   "p_breakeven": 0.5772,
+   "edge": -0.0199,
+   "ev": -0.0345,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "JAM: 1.5 scored / 1.5 allowed per game this season; last 2: 1.5 / 1.5",
+    "SLV: 1.5 scored / 3.5 allowed per game this season; last 2: 1.5 / 3.5"
+   ],
+   "home": {
+    "name": "El Salvador",
+    "abbr": "SLV"
+   },
+   "away": {
+    "name": "Jamaica",
+    "abbr": "JAM"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxconcacafnltotal/point-total/kxconcacafnltotal-26oct02slvjam",
+    "price": 56,
+    "ticker": "KXCONCACAFNLTOTAL-26OCT02SLVJAM-3",
+    "contract": "No \u00b7 Over 2.5",
+    "buy": "no"
+   },
+   "result": null,
+   "close_odds": -137
+  },
+  "401858478:KXNCAAFSPREAD-26OCT03WASHUSC-USC12:yes": {
+   "id": "401858478:KXNCAAFSPREAD-26OCT03WASHUSC-USC12:yes",
+   "sport": "cfb",
+   "game_id": "401858478",
+   "short": "WASH @ USC",
+   "game": "Washington Huskies at USC Trojans",
+   "start": "2026-10-03T23:30Z",
+   "market": "spread",
+   "side": "home",
+   "line": -11.5,
+   "selection": "USC by 11.5+",
+   "group": "Game lines",
+   "market_name": "Spread",
+   "odds": 119,
+   "p": 0.4661,
+   "p_model": 0.5654,
+   "p_market": 0.4356,
+   "p_breakeven": 0.4572,
+   "edge": 0.0089,
+   "ev": 0.0194,
+   "grade": "B",
+   "modeled": true,
+   "reasons": [
+    "USC ranks #15 in offense and #83 in defense of 187 (schedule-adjusted, recent games weighted more)",
+    "Last 5: 4-1, scoring 39.8 and allowing 26.4 pts/game (season: 39.8 / 26.4)",
+    "At home: 39.25 scored / 24.25 allowed per game",
+    "Record 4-1",
+    "Line moved from -10 to -8.5 since opening (spread)",
+    "\u26a0 The line has moved against this side since opening (a sharp-money signal), so the model defers more to the market"
+   ],
+   "home": {
+    "name": "USC Trojans",
+    "abbr": "USC"
+   },
+   "away": {
+    "name": "Washington Huskies",
+    "abbr": "WASH"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxncaafspread/college-football-spread/kxncaafspread-26oct03washusc",
+    "price": 44,
+    "ticker": "KXNCAAFSPREAD-26OCT03WASHUSC-USC12",
+    "contract": "Yes \u00b7 USC wins by over 11.5 points",
+    "buy": "yes"
+   },
+   "result": null,
+   "close_odds": 119
+  },
+  "401892435:KXNHLGAME-26OCT03CARPHI-CAR:yes": {
+   "id": "401892435:KXNHLGAME-26OCT03CARPHI-CAR:yes",
+   "sport": "nhl",
+   "game_id": "401892435",
+   "short": "CAR @ PHI",
+   "game": "Carolina Hurricanes at Philadelphia Flyers",
+   "start": "2026-10-03T23:00Z",
+   "market": "ml",
+   "side": "away",
+   "selection": "CAR to win",
+   "group": "Game lines",
+   "market_name": "Winner",
+   "odds": -131,
+   "p": 0.5554,
+   "p_model": 0.5805,
+   "p_market": 0.55,
+   "p_breakeven": 0.5673,
+   "edge": -0.0119,
+   "ev": -0.0209,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "CAR ranks #4 in offense and #1 in defense of 32 (schedule-adjusted, recent games weighted more)",
+    "Last 1: 0-1, scoring 0.0 and allowing 1.0 goals/game (season: 0.0 / 1.0)",
+    "Injuries: Seth Jarvis (C, Injured Reserve), Alexander Nikishin (D, Out)"
+   ],
+   "home": {
+    "name": "Philadelphia Flyers",
+    "abbr": "PHI"
+   },
+   "away": {
+    "name": "Carolina Hurricanes",
+    "abbr": "CAR"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxnhlgame/nhl-game/kxnhlgame-26oct03carphi",
+    "price": 55,
+    "ticker": "KXNHLGAME-26OCT03CARPHI-CAR",
+    "contract": "Yes \u00b7 Carolina",
+    "buy": "yes"
+   },
+   "result": null,
+   "close_odds": -131
+  },
+  "401869932:KXNCAAFGAME-26OCT03ARSTULL-ULL:yes": {
+   "id": "401869932:KXNCAAFGAME-26OCT03ARSTULL-ULL:yes",
+   "sport": "cfb",
+   "game_id": "401869932",
+   "short": "ARST @ UL",
+   "game": "Arkansas State Red Wolves at Louisiana Ragin' Cajuns",
+   "start": "2026-10-04T00:00Z",
+   "market": "ml",
+   "side": "home",
+   "selection": "UL to win",
+   "group": "Game lines",
+   "market_name": "Winner",
+   "odds": -239,
+   "p": 0.7055,
+   "p_model": 0.7648,
+   "p_market": 0.6832,
+   "p_breakeven": 0.705,
+   "edge": 0.0006,
+   "ev": 0.0008,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "UL ranks #90 in offense and #81 in defense of 187 (schedule-adjusted, recent games weighted more)",
+    "Last 4: 3-1, scoring 30.75 and allowing 19.25 pts/game (season: 30.75 / 19.25)",
+    "At home: 29.5 scored / 10.5 allowed per game",
+    "Record 3-1",
+    "Price moved -175 \u2192 -245 since opening, money moving toward UL"
+   ],
+   "home": {
+    "name": "Louisiana Ragin' Cajuns",
+    "abbr": "UL"
+   },
+   "away": {
+    "name": "Arkansas State Red Wolves",
+    "abbr": "ARST"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxncaafgame/college-football-game/kxncaafgame-26oct03arstull",
+    "price": 69,
+    "ticker": "KXNCAAFGAME-26OCT03ARSTULL-ULL",
+    "contract": "Yes \u00b7 Louisiana",
+    "buy": "yes"
+   },
+   "result": null,
+   "close_odds": -239
+  },
+  "401856820:KXNCAAFSPREAD-26OCT03CINARIZ-ARIZ2:yes": {
+   "id": "401856820:KXNCAAFSPREAD-26OCT03CINARIZ-ARIZ2:yes",
+   "sport": "cfb",
+   "game_id": "401856820",
+   "short": "CIN @ ARIZ",
+   "game": "Cincinnati Bearcats at Arizona Wildcats",
+   "start": "2026-10-04T03:00Z",
+   "market": "spread",
+   "side": "home",
+   "line": -1.5,
+   "selection": "ARIZ by 1.5+",
+   "group": "Game lines",
+   "market_name": "Spread",
+   "odds": -228,
+   "p": 0.6979,
+   "p_model": 0.8097,
+   "p_market": 0.6667,
+   "p_breakeven": 0.6952,
+   "edge": 0.0027,
+   "ev": 0.0039,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "ARIZ ranks #33 in offense and #28 in defense of 187 (schedule-adjusted, recent games weighted more)",
+    "Last 4: 3-1, scoring 32.0 and allowing 19.0 pts/game (season: 32.0 / 19.0)",
+    "At home: 38.5 scored / 12.0 allowed per game",
+    "Record 3-1",
+    "Line moved from -8.5 to -6.5 since opening (spread)",
+    "\u26a0 The line has moved against this side since opening (a sharp-money signal), so the model defers more to the market"
+   ],
+   "home": {
+    "name": "Arizona Wildcats",
+    "abbr": "ARIZ"
+   },
+   "away": {
+    "name": "Cincinnati Bearcats",
+    "abbr": "CIN"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxncaafspread/college-football-spread/kxncaafspread-26oct03cinariz",
+    "price": 68,
+    "ticker": "KXNCAAFSPREAD-26OCT03CINARIZ-ARIZ2",
+    "contract": "Yes \u00b7 Arizona wins by over 1.5 points",
+    "buy": "yes"
+   },
+   "result": null,
+   "close_odds": -228
+  },
+  "401862792:KXNCAAFGAME-26OCT03TEMUSF-USF:yes": {
+   "id": "401862792:KXNCAAFGAME-26OCT03TEMUSF-USF:yes",
+   "sport": "cfb",
+   "game_id": "401862792",
+   "short": "TEM @ USF",
+   "game": "Temple Owls at South Florida Bulls",
+   "start": "2026-10-03T23:30Z",
+   "market": "ml",
+   "side": "home",
+   "selection": "USF to win",
+   "group": "Game lines",
+   "market_name": "Winner",
+   "odds": -218,
+   "p": 0.694,
+   "p_model": 0.7975,
+   "p_market": 0.6634,
+   "p_breakeven": 0.6855,
+   "edge": 0.0085,
+   "ev": 0.0124,
+   "grade": "B",
+   "modeled": true,
+   "reasons": [
+    "USF ranks #29 in offense and #27 in defense of 187 (schedule-adjusted, recent games weighted more)",
+    "Last 4: 4-0, scoring 30.0 and allowing 14.0 pts/game (season: 30.0 / 14.0). Current streak: W4",
+    "At home: 39.0 scored / 13.0 allowed per game",
+    "Record 4-0",
+    "Price moved -225 \u2192 -238 since opening, money moving toward USF"
+   ],
+   "home": {
+    "name": "South Florida Bulls",
+    "abbr": "USF"
+   },
+   "away": {
+    "name": "Temple Owls",
+    "abbr": "TEM"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxncaafgame/college-football-game/kxncaafgame-26oct03temusf",
+    "price": 67,
+    "ticker": "KXNCAAFGAME-26OCT03TEMUSF-USF",
+    "contract": "Yes \u00b7 South Florida",
+    "buy": "yes"
+   },
+   "result": null,
+   "close_odds": -218
+  },
+  "401856709:KXNCAAFSPREAD-26OCT03UKSCAR-SCAR2:yes": {
+   "id": "401856709:KXNCAAFSPREAD-26OCT03UKSCAR-SCAR2:yes",
+   "sport": "cfb",
+   "game_id": "401856709",
+   "short": "UK @ SC",
+   "game": "Kentucky Wildcats at South Carolina Gamecocks",
+   "start": "2026-10-03T20:15Z",
+   "market": "spread",
+   "side": "home",
+   "line": -1.5,
+   "selection": "SC by 1.5+",
+   "group": "Game lines",
+   "market_name": "Spread",
+   "odds": -142,
+   "p": 0.5974,
+   "p_model": 0.7102,
+   "p_market": 0.5644,
+   "p_breakeven": 0.5872,
+   "edge": 0.0103,
+   "ev": 0.0175,
+   "grade": "B",
+   "modeled": true,
+   "reasons": [
+    "SC ranks #56 in offense and #70 in defense of 187 (schedule-adjusted, recent games weighted more)",
+    "Last 4: 2-2, scoring 38.5 and allowing 24.75 pts/game (season: 38.5 / 24.75)",
+    "At home: 45.33 scored / 16.67 allowed per game",
+    "Record 2-2",
+    "Line moved from -7 to -3 since opening (spread)",
+    "\u26a0 The line has moved against this side since opening (a sharp-money signal), so the model defers more to the market"
+   ],
+   "home": {
+    "name": "South Carolina Gamecocks",
+    "abbr": "SC"
+   },
+   "away": {
+    "name": "Kentucky Wildcats",
+    "abbr": "UK"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxncaafspread/college-football-spread/kxncaafspread-26oct03ukscar",
+    "price": 57,
+    "ticker": "KXNCAAFSPREAD-26OCT03UKSCAR-SCAR2",
+    "contract": "Yes \u00b7 South Carolina wins by over 1.5 points",
+    "buy": "yes"
+   },
+   "result": null,
+   "close_odds": -142
+  },
+  "401891776:KXNHLGAME-26OCT03CHIBUF-BUF:yes": {
+   "id": "401891776:KXNHLGAME-26OCT03CHIBUF-BUF:yes",
+   "sport": "nhl",
+   "game_id": "401891776",
+   "short": "CHI @ BUF",
+   "game": "Chicago Blackhawks at Buffalo Sabres",
+   "start": "2026-10-03T23:00Z",
+   "market": "ml",
+   "side": "home",
+   "selection": "BUF to win",
+   "group": "Game lines",
+   "market_name": "Winner",
+   "odds": -228,
+   "p": 0.6789,
+   "p_model": 0.6738,
+   "p_market": 0.68,
+   "p_breakeven": 0.6952,
+   "edge": -0.0163,
+   "ev": -0.0235,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "BUF ranks #2 in offense and #14 in defense of 32 (schedule-adjusted, recent games weighted more)",
+    "Last 1: 0-1, scoring 3.0 and allowing 6.0 goals/game (season: 3.0 / 6.0)",
+    "Record 0-1-0 (home 0-0-0)",
+    "Injuries: Alex Lyon (G, Injured Reserve), Olen Zellweger (D, Injured Reserve), Conor Timmins (D, Injured Reserve), Topias Leinonen (G, Injured Reserve), Jack Rathbone (D, Injured Reserve)",
+    "Price moved -218 \u2192 -230 since opening, money moving toward BUF"
+   ],
+   "home": {
+    "name": "Buffalo Sabres",
+    "abbr": "BUF"
+   },
+   "away": {
+    "name": "Chicago Blackhawks",
+    "abbr": "CHI"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxnhlgame/nhl-game/kxnhlgame-26oct03chibuf",
+    "price": 68,
+    "ticker": "KXNHLGAME-26OCT03CHIBUF-BUF",
+    "contract": "Yes \u00b7 Buffalo",
+    "buy": "yes"
+   },
+   "result": null,
+   "close_odds": -228
+  },
+  "401866430:KXNCAAFSPREAD-26OCT03AKRCMU-CMU2:yes": {
+   "id": "401866430:KXNCAAFSPREAD-26OCT03AKRCMU-CMU2:yes",
+   "sport": "cfb",
+   "game_id": "401866430",
+   "short": "AKR @ CMU",
+   "game": "Akron Zips at Central Michigan Chippewas",
+   "start": "2026-10-03T19:30Z",
+   "market": "spread",
+   "side": "home",
+   "line": -1.5,
+   "selection": "CMU by 1.5+",
+   "group": "Game lines",
+   "market_name": "Spread",
+   "odds": -239,
+   "p": 0.6925,
+   "p_model": 0.7524,
+   "p_market": 0.6699,
+   "p_breakeven": 0.705,
+   "edge": -0.0125,
+   "ev": -0.0177,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "CMU ranks #164 in offense and #90 in defense of 187 (schedule-adjusted, recent games weighted more)",
+    "Last 4: 2-2, scoring 11.75 and allowing 27.5 pts/game (season: 11.75 / 27.5)",
+    "At home: 18.5 scored / 10.0 allowed per game",
+    "Record 2-2",
+    "Line moved from -5.5 to -6.5 since opening (spread)"
+   ],
+   "home": {
+    "name": "Central Michigan Chippewas",
+    "abbr": "CMU"
+   },
+   "away": {
+    "name": "Akron Zips",
+    "abbr": "AKR"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxncaafspread/college-football-spread/kxncaafspread-26oct03akrcmu",
+    "price": 69,
+    "ticker": "KXNCAAFSPREAD-26OCT03AKRCMU-CMU2",
+    "contract": "Yes \u00b7 Central Michigan wins by over 1.5 points",
+    "buy": "yes"
+   },
+   "result": null,
+   "close_odds": -239
+  },
+  "401858253:KXNCAAFSPREAD-26OCT03UVAFSU-FSU2:yes": {
+   "id": "401858253:KXNCAAFSPREAD-26OCT03UVAFSU-FSU2:yes",
+   "sport": "cfb",
+   "game_id": "401858253",
+   "short": "UVA @ FSU",
+   "game": "Virginia Cavaliers at Florida State Seminoles",
+   "start": "2026-10-03T19:30Z",
+   "market": "spread",
+   "side": "home",
+   "line": -1.5,
+   "selection": "FSU by 1.5+",
+   "group": "Game lines",
+   "market_name": "Spread",
+   "odds": 119,
+   "p": 0.4658,
+   "p_model": 0.5635,
+   "p_market": 0.4356,
+   "p_breakeven": 0.4572,
+   "edge": 0.0086,
+   "ev": 0.0188,
+   "grade": "B",
+   "modeled": true,
+   "reasons": [
+    "FSU ranks #49 in offense and #69 in defense of 187 (schedule-adjusted, recent games weighted more)",
+    "Last 4: 2-2, scoring 32.0 and allowing 25.25 pts/game (season: 32.0 / 25.25)",
+    "At home: 30.67 scored / 17.0 allowed per game",
+    "Record 2-2",
+    "Line moved from +1.5 to +2.5 since opening (spread)",
+    "\u26a0 The line has moved against this side since opening (a sharp-money signal), so the model defers more to the market"
+   ],
+   "home": {
+    "name": "Florida State Seminoles",
+    "abbr": "FSU"
+   },
+   "away": {
+    "name": "Virginia Cavaliers",
+    "abbr": "UVA"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxncaafspread/college-football-spread/kxncaafspread-26oct03uvafsu",
+    "price": 44,
+    "ticker": "KXNCAAFSPREAD-26OCT03UVAFSU-FSU2",
+    "contract": "Yes \u00b7 Florida St. wins by over 1.5 points",
+    "buy": "yes"
+   },
+   "result": null,
+   "close_odds": 119
+  },
+  "401861112:KXUEFANLGAME-26OCT03ISLBUL-ISL:yes": {
+   "id": "401861112:KXUEFANLGAME-26OCT03ISLBUL-ISL:yes",
+   "sport": "soccer_uefa.nations",
+   "game_id": "401861112",
+   "short": "BUL @ ISL",
+   "game": "Bulgaria at Iceland",
+   "start": "2026-10-03T16:00Z",
+   "market": "ml",
+   "side": "home",
+   "selection": "ISL to win",
+   "group": "Game lines",
+   "market_name": "Winner",
+   "odds": -228,
+   "p": 0.6755,
+   "p_model": 0.6917,
+   "p_market": 0.6733,
+   "p_breakeven": 0.6952,
+   "edge": -0.0197,
+   "ev": -0.0284,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "ISL ranks #43 in offense and #108 in defense of 202 (schedule-adjusted, recent games weighted more)",
+    "Last 2: 1-1, scoring 2.0 and allowing 0.5 goals/game (season: 2.0 / 0.5)",
+    "At home: 1.0 scored / 1.0 allowed per game",
+    "Record 1-1-0"
+   ],
+   "home": {
+    "name": "Iceland",
+    "abbr": "ISL"
+   },
+   "away": {
+    "name": "Bulgaria",
+    "abbr": "BUL"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxuefanlgame/uefa-nations-league-game/kxuefanlgame-26oct03islbul",
+    "price": 68,
+    "ticker": "KXUEFANLGAME-26OCT03ISLBUL-ISL",
+    "contract": "Yes \u00b7 Iceland",
+    "buy": "yes"
+   },
+   "result": null,
+   "close_odds": -228
+  },
+  "401861103:KXUEFANLTOTAL-26OCT02FRAITA-4:no": {
+   "id": "401861103:KXUEFANLTOTAL-26OCT02FRAITA-4:no",
+   "sport": "soccer_uefa.nations",
+   "game_id": "401861103",
+   "short": "ITA @ FRA",
+   "game": "Italy at France",
+   "start": "2026-10-02T18:45Z",
+   "market": "total",
+   "side": "under",
+   "line": 3.5,
+   "selection": "Under 3.5",
+   "group": "Game lines",
+   "market_name": "Total",
+   "odds": -154,
+   "p": 0.5874,
+   "p_model": 0.6672,
+   "p_market": 0.5842,
+   "p_breakeven": 0.6069,
+   "edge": -0.0196,
+   "ev": -0.0322,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "ITA: 2.0 scored / 1.5 allowed per game this season; last 2: 2.0 / 1.5",
+    "FRA: 1.0 scored / 0.0 allowed per game this season; last 2: 1.0 / 0.0"
+   ],
+   "home": {
+    "name": "France",
+    "abbr": "FRA"
+   },
+   "away": {
+    "name": "Italy",
+    "abbr": "ITA"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxuefanltotal/point-total/kxuefanltotal-26oct02fraita",
+    "price": 59,
+    "ticker": "KXUEFANLTOTAL-26OCT02FRAITA-4",
+    "contract": "No \u00b7 Over 3.5",
+    "buy": "no"
+   },
+   "result": null,
+   "close_odds": -154
+  },
+  "401866430:KXNCAAFGAME-26OCT03AKRCMU-CMU:yes": {
+   "id": "401866430:KXNCAAFGAME-26OCT03AKRCMU-CMU:yes",
+   "sport": "cfb",
+   "game_id": "401866430",
+   "short": "AKR @ CMU",
+   "game": "Akron Zips at Central Michigan Chippewas",
+   "start": "2026-10-03T19:30Z",
+   "market": "ml",
+   "side": "home",
+   "selection": "CMU to win",
+   "group": "Game lines",
+   "market_name": "Winner",
+   "odds": -239,
+   "p": 0.7008,
+   "p_model": 0.7261,
+   "p_market": 0.69,
+   "p_breakeven": 0.705,
+   "edge": -0.0042,
+   "ev": -0.0059,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "CMU ranks #164 in offense and #90 in defense of 187 (schedule-adjusted, recent games weighted more)",
+    "Last 4: 2-2, scoring 11.75 and allowing 27.5 pts/game (season: 11.75 / 27.5)",
+    "At home: 18.5 scored / 10.0 allowed per game",
+    "Record 2-2",
+    "Price moved -225 \u2192 -250 since opening, money moving toward CMU"
+   ],
+   "home": {
+    "name": "Central Michigan Chippewas",
+    "abbr": "CMU"
+   },
+   "away": {
+    "name": "Akron Zips",
+    "abbr": "AKR"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxncaafgame/college-football-game/kxncaafgame-26oct03akrcmu",
+    "price": 69,
+    "ticker": "KXNCAAFGAME-26OCT03AKRCMU-CMU",
+    "contract": "Yes \u00b7 Central Michigan",
+    "buy": "yes"
+   },
+   "result": null,
+   "close_odds": -239
+  },
+  "401900593:KXCONCACAFNLTOTAL-26OCT02LCAGLP-4:no": {
+   "id": "401900593:KXCONCACAFNLTOTAL-26OCT02LCAGLP-4:no",
+   "sport": "soccer_concacaf.nations.league",
+   "game_id": "401900593",
+   "short": "GDL @ LCA",
+   "game": "Guadeloupe at St. Lucia",
+   "start": "2026-10-02T19:00Z",
+   "market": "total",
+   "side": "under",
+   "line": 3.5,
+   "selection": "Under 3.5",
+   "group": "Game lines",
+   "market_name": "Total",
+   "odds": -168,
+   "p": 0.607,
+   "p_model": 0.6801,
+   "p_market": 0.604,
+   "p_breakeven": 0.6267,
+   "edge": -0.0197,
+   "ev": -0.0314,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "GDL: 2.0 scored / 1.5 allowed per game this season; last 2: 2.0 / 1.5",
+    "LCA: 2.5 scored / 2.0 allowed per game this season; last 2: 2.5 / 2.0"
+   ],
+   "home": {
+    "name": "St. Lucia",
+    "abbr": "LCA"
+   },
+   "away": {
+    "name": "Guadeloupe",
+    "abbr": "GDL"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxconcacafnltotal/point-total/kxconcacafnltotal-26oct02lcaglp",
+    "price": 61,
+    "ticker": "KXCONCACAFNLTOTAL-26OCT02LCAGLP-4",
+    "contract": "No \u00b7 Over 3.5",
+    "buy": "no"
+   },
+   "result": null,
+   "close_odds": -168
+  },
+  "401858247:KXNCAAFGAME-26OCT03CALUNLV-UNLV:yes": {
+   "id": "401858247:KXNCAAFGAME-26OCT03CALUNLV-UNLV:yes",
+   "sport": "cfb",
+   "game_id": "401858247",
+   "short": "CAL @ UNLV",
+   "game": "California Golden Bears at UNLV Rebels",
+   "start": "2026-10-03T19:30Z",
+   "market": "ml",
+   "side": "home",
+   "selection": "UNLV to win",
+   "group": "Game lines",
+   "market_name": "Winner",
+   "odds": -137,
+   "p": 0.5872,
+   "p_model": 0.697,
+   "p_market": 0.5545,
+   "p_breakeven": 0.5772,
+   "edge": 0.01,
+   "ev": 0.0173,
+   "grade": "B",
+   "modeled": true,
+   "reasons": [
+    "UNLV ranks #84 in offense and #45 in defense of 187 (schedule-adjusted, recent games weighted more)",
+    "Last 4: 2-2, scoring 21.5 and allowing 21.75 pts/game (season: 21.5 / 21.75)",
+    "At home: 21.0 scored / 27.0 allowed per game",
+    "Record 2-2",
+    "Price moved -115 \u2192 -142 since opening, money moving toward UNLV"
+   ],
+   "home": {
+    "name": "UNLV Rebels",
+    "abbr": "UNLV"
+   },
+   "away": {
+    "name": "California Golden Bears",
+    "abbr": "CAL"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxncaafgame/college-football-game/kxncaafgame-26oct03calunlv",
+    "price": 56,
+    "ticker": "KXNCAAFGAME-26OCT03CALUNLV-UNLV",
+    "contract": "Yes \u00b7 UNLV",
+    "buy": "yes"
+   },
+   "result": null,
+   "close_odds": -137
+  },
+  "401869932:KXNCAAFSPREAD-26OCT03ARSTULL-ULL2:yes": {
+   "id": "401869932:KXNCAAFSPREAD-26OCT03ARSTULL-ULL2:yes",
+   "sport": "cfb",
+   "game_id": "401869932",
+   "short": "ARST @ UL",
+   "game": "Arkansas State Red Wolves at Louisiana Ragin' Cajuns",
+   "start": "2026-10-04T00:00Z",
+   "market": "spread",
+   "side": "home",
+   "line": -1.5,
+   "selection": "UL by 1.5+",
+   "group": "Game lines",
+   "market_name": "Spread",
+   "odds": -228,
+   "p": 0.6889,
+   "p_model": 0.7475,
+   "p_market": 0.6667,
+   "p_breakeven": 0.6952,
+   "edge": -0.0063,
+   "ev": -0.0091,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "UL ranks #90 in offense and #81 in defense of 187 (schedule-adjusted, recent games weighted more)",
+    "Last 4: 3-1, scoring 30.75 and allowing 19.25 pts/game (season: 30.75 / 19.25)",
+    "At home: 29.5 scored / 10.5 allowed per game",
+    "Record 3-1",
+    "Line moved from -4 to -6.5 since opening (spread)"
+   ],
+   "home": {
+    "name": "Louisiana Ragin' Cajuns",
+    "abbr": "UL"
+   },
+   "away": {
+    "name": "Arkansas State Red Wolves",
+    "abbr": "ARST"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxncaafspread/college-football-spread/kxncaafspread-26oct03arstull",
+    "price": 68,
+    "ticker": "KXNCAAFSPREAD-26OCT03ARSTULL-ULL2",
+    "contract": "Yes \u00b7 Louisiana wins by over 1.5 points",
+    "buy": "yes"
+   },
+   "result": null,
+   "close_odds": -228
+  },
+  "401864513:KXNCAAFSPREAD-26OCT04SJSUHAW-HAW2:yes": {
+   "id": "401864513:KXNCAAFSPREAD-26OCT04SJSUHAW-HAW2:yes",
+   "sport": "cfb",
+   "game_id": "401864513",
+   "short": "SJSU @ HAW",
+   "game": "San Jos\u00e9 State Spartans at Hawai'i Rainbow Warriors",
+   "start": "2026-10-04T03:59Z",
+   "market": "spread",
+   "side": "home",
+   "line": -1.5,
+   "selection": "HAW by 1.5+",
+   "group": "Game lines",
+   "market_name": "Spread",
+   "odds": -142,
+   "p": 0.5979,
+   "p_model": 0.7143,
+   "p_market": 0.5644,
+   "p_breakeven": 0.5872,
+   "edge": 0.0107,
+   "ev": 0.0182,
+   "grade": "B",
+   "modeled": true,
+   "reasons": [
+    "HAW ranks #140 in offense and #116 in defense of 187 (schedule-adjusted, recent games weighted more)",
+    "Last 4: 1-3, scoring 18.0 and allowing 26.0 pts/game (season: 18.0 / 26.0)",
+    "At home: 17.5 scored / 20.0 allowed per game",
+    "Record 1-3",
+    "Line moved from -5.5 to -3 since opening (spread)",
+    "\u26a0 The line has moved against this side since opening (a sharp-money signal), so the model defers more to the market"
+   ],
+   "home": {
+    "name": "Hawai'i Rainbow Warriors",
+    "abbr": "HAW"
+   },
+   "away": {
+    "name": "San Jos\u00e9 State Spartans",
+    "abbr": "SJSU"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxncaafspread/college-football-spread/kxncaafspread-26oct04sjsuhaw",
+    "price": 57,
+    "ticker": "KXNCAAFSPREAD-26OCT04SJSUHAW-HAW2",
+    "contract": "Yes \u00b7 Hawai'i wins by over 1.5 points",
+    "buy": "yes"
+   },
+   "result": null,
+   "close_odds": -142
+  },
+  "401918294:KXWNBATOTAL-26OCT02DALGS-157:yes": {
+   "id": "401918294:KXWNBATOTAL-26OCT02DALGS-157:yes",
+   "sport": "wnba",
+   "game_id": "401918294",
+   "short": "DAL @ GS",
+   "game": "Dallas Wings at Golden State Valkyries",
+   "start": "2026-10-03T01:00Z",
+   "market": "total",
+   "side": "over",
+   "line": 156.5,
+   "selection": "Over 156.5",
+   "group": "Game lines",
+   "market_name": "Total",
+   "odds": -148,
+   "p": 0.5775,
+   "p_model": 0.6049,
+   "p_market": 0.5743,
+   "p_breakeven": 0.5971,
+   "edge": -0.0196,
+   "ev": -0.0328,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "DAL: 89.59 scored / 85.98 allowed per game this season; last 10: 93.7 / 84.5",
+    "GS: 83.02 scored / 75.93 allowed per game this season; last 10: 84.8 / 73.5",
+    "Line moved from +156.5 to +159.5 since opening (total)"
+   ],
+   "home": {
+    "name": "Golden State Valkyries",
+    "abbr": "GS"
+   },
+   "away": {
+    "name": "Dallas Wings",
+    "abbr": "DAL"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxwnbatotal/women-s-pro-basketball-total/kxwnbatotal-26oct02dalgs",
+    "price": 58,
+    "ticker": "KXWNBATOTAL-26OCT02DALGS-157",
+    "contract": "Yes \u00b7 Over 156.5",
+    "buy": "yes"
+   },
+   "result": null,
+   "close_odds": -148
+  },
+  "401880821:KXEFLL1TOTAL-26OCT03LEYPA-4:no": {
+   "id": "401880821:KXEFLL1TOTAL-26OCT03LEYPA-4:no",
+   "sport": "soccer_eng.3",
+   "game_id": "401880821",
+   "short": "PLY @ LEY",
+   "game": "Plymouth Argyle at Leyton Orient",
+   "start": "2026-10-03T14:00Z",
+   "market": "total",
+   "side": "under",
+   "line": 3.5,
+   "selection": "Under 3.5",
+   "group": "Game lines",
+   "market_name": "Total",
+   "odds": -208,
+   "p": 0.6561,
+   "p_model": 0.6786,
+   "p_market": 0.6535,
+   "p_breakeven": 0.6757,
+   "edge": -0.0196,
+   "ev": -0.029,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "PLY: 1.75 scored / 1.38 allowed per game this season; last 8: 1.75 / 1.38",
+    "LEY: 1.86 scored / 1.29 allowed per game this season; last 7: 1.86 / 1.29"
+   ],
+   "home": {
+    "name": "Leyton Orient",
+    "abbr": "LEY"
+   },
+   "away": {
+    "name": "Plymouth Argyle",
+    "abbr": "PLY"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxefll1total/point-total/kxefll1total-26oct03leypa",
+    "price": 66,
+    "ticker": "KXEFLL1TOTAL-26OCT03LEYPA-4",
+    "contract": "No \u00b7 Over 3.5",
+    "buy": "no"
+   },
+   "result": null,
+   "close_odds": -208
+  },
+  "401861109:KXUEFANLGAME-26OCT02BELTUR-BEL:yes": {
+   "id": "401861109:KXUEFANLGAME-26OCT02BELTUR-BEL:yes",
+   "sport": "soccer_uefa.nations",
+   "game_id": "401861109",
+   "short": "TUR @ BEL",
+   "game": "T\u00fcrkiye at Belgium",
+   "start": "2026-10-02T18:45Z",
+   "market": "ml",
+   "side": "home",
+   "selection": "BEL to win",
+   "group": "Game lines",
+   "market_name": "Winner",
+   "odds": -208,
+   "p": 0.6579,
+   "p_model": 0.7505,
+   "p_market": 0.6471,
+   "p_breakeven": 0.6757,
+   "edge": -0.0178,
+   "ev": -0.0264,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "BEL ranks #7 in offense and #13 in defense of 202 (schedule-adjusted, recent games weighted more)",
+    "Last 2: 1-1, scoring 1.0 and allowing 0.5 goals/game (season: 1.0 / 0.5)",
+    "At home: 0.0 scored / 1.0 allowed per game",
+    "Record 1-0-1"
+   ],
+   "home": {
+    "name": "Belgium",
+    "abbr": "BEL"
+   },
+   "away": {
+    "name": "T\u00fcrkiye",
+    "abbr": "TUR"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxuefanlgame/uefa-nations-league-game/kxuefanlgame-26oct02beltur",
+    "price": 66,
+    "ticker": "KXUEFANLGAME-26OCT02BELTUR-BEL",
+    "contract": "Yes \u00b7 Belgium",
+    "buy": "yes"
+   },
+   "result": null,
+   "close_odds": -208
+  },
+  "401864513:KXNCAAFGAME-26OCT04SJSUHAW-HAW:yes": {
+   "id": "401864513:KXNCAAFGAME-26OCT04SJSUHAW-HAW:yes",
+   "sport": "cfb",
+   "game_id": "401864513",
+   "short": "SJSU @ HAW",
+   "game": "San Jos\u00e9 State Spartans at Hawai'i Rainbow Warriors",
+   "start": "2026-10-04T03:59Z",
+   "market": "ml",
+   "side": "home",
+   "selection": "HAW to win",
+   "group": "Game lines",
+   "market_name": "Winner",
+   "odds": -154,
+   "p": 0.6144,
+   "p_model": 0.7077,
+   "p_market": 0.5842,
+   "p_breakeven": 0.6069,
+   "edge": 0.0075,
+   "ev": 0.0123,
+   "grade": "B",
+   "modeled": true,
+   "reasons": [
+    "HAW ranks #140 in offense and #116 in defense of 187 (schedule-adjusted, recent games weighted more)",
+    "Last 4: 1-3, scoring 18.0 and allowing 26.0 pts/game (season: 18.0 / 26.0)",
+    "At home: 17.5 scored / 20.0 allowed per game",
+    "Record 1-3",
+    "Price moved -180 \u2192 -155 since opening, money moving away from HAW",
+    "\u26a0 The line has moved against this side since opening (a sharp-money signal), so the model defers more to the market"
+   ],
+   "home": {
+    "name": "Hawai'i Rainbow Warriors",
+    "abbr": "HAW"
+   },
+   "away": {
+    "name": "San Jos\u00e9 State Spartans",
+    "abbr": "SJSU"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxncaafgame/college-football-game/kxncaafgame-26oct04sjsuhaw",
+    "price": 59,
+    "ticker": "KXNCAAFGAME-26OCT04SJSUHAW-HAW",
+    "contract": "Yes \u00b7 Hawai'i",
+    "buy": "yes"
+   },
+   "result": null,
+   "close_odds": -154
+  },
+  "401858479:KXNCAAFSPREAD-26OCT03MSUWIS-WIS12:yes": {
+   "id": "401858479:KXNCAAFSPREAD-26OCT03MSUWIS-WIS12:yes",
+   "sport": "cfb",
+   "game_id": "401858479",
+   "short": "MSU @ WIS",
+   "game": "Michigan State Spartans at Wisconsin Badgers",
+   "start": "2026-10-03T16:30Z",
+   "market": "spread",
+   "side": "home",
+   "line": -11.5,
+   "selection": "WIS by 11.5+",
+   "group": "Game lines",
+   "market_name": "Spread",
+   "odds": 119,
+   "p": 0.4673,
+   "p_model": 0.5744,
+   "p_market": 0.4356,
+   "p_breakeven": 0.4572,
+   "edge": 0.01,
+   "ev": 0.0219,
+   "grade": "B",
+   "modeled": true,
+   "reasons": [
+    "WIS ranks #89 in offense and #29 in defense of 187 (schedule-adjusted, recent games weighted more)",
+    "Last 4: 3-1, scoring 31.75 and allowing 20.0 pts/game (season: 31.75 / 20.0). Current streak: W3",
+    "At home: 45.0 scored / 9.5 allowed per game",
+    "Record 3-1",
+    "Line moved from -10 to -9.5 since opening (spread)"
+   ],
+   "home": {
+    "name": "Wisconsin Badgers",
+    "abbr": "WIS"
+   },
+   "away": {
+    "name": "Michigan State Spartans",
+    "abbr": "MSU"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxncaafspread/college-football-spread/kxncaafspread-26oct03msuwis",
+    "price": 44,
+    "ticker": "KXNCAAFSPREAD-26OCT03MSUWIS-WIS12",
+    "contract": "Yes \u00b7 Wisconsin wins by over 11.5 points",
+    "buy": "yes"
+   },
+   "result": null,
+   "close_odds": 119
+  },
+  "401856820:KXNCAAFGAME-26OCT03CINARIZ-ARIZ:yes": {
+   "id": "401856820:KXNCAAFGAME-26OCT03CINARIZ-ARIZ:yes",
+   "sport": "cfb",
+   "game_id": "401856820",
+   "short": "CIN @ ARIZ",
+   "game": "Cincinnati Bearcats at Arizona Wildcats",
+   "start": "2026-10-04T03:00Z",
+   "market": "ml",
+   "side": "home",
+   "selection": "ARIZ to win",
+   "group": "Game lines",
+   "market_name": "Winner",
+   "odds": -239,
+   "p": 0.6922,
+   "p_model": 0.6973,
+   "p_market": 0.69,
+   "p_breakeven": 0.705,
+   "edge": -0.0128,
+   "ev": -0.0181,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "ARIZ ranks #33 in offense and #28 in defense of 187 (schedule-adjusted, recent games weighted more)",
+    "Last 4: 3-1, scoring 32.0 and allowing 19.0 pts/game (season: 32.0 / 19.0)",
+    "At home: 38.5 scored / 12.0 allowed per game",
+    "Record 3-1",
+    "Price moved -285 \u2192 -250 since opening, money moving away from ARIZ"
+   ],
+   "home": {
+    "name": "Arizona Wildcats",
+    "abbr": "ARIZ"
+   },
+   "away": {
+    "name": "Cincinnati Bearcats",
+    "abbr": "CIN"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxncaafgame/college-football-game/kxncaafgame-26oct03cinariz",
+    "price": 69,
+    "ticker": "KXNCAAFGAME-26OCT03CINARIZ-ARIZ",
+    "contract": "Yes \u00b7 Arizona",
+    "buy": "yes"
+   },
+   "result": null,
+   "close_odds": -239
+  },
+  "401861118:KXUEFANLSPREAD-26OCT03ESPCZE-ESP3:yes": {
+   "id": "401861118:KXUEFANLSPREAD-26OCT03ESPCZE-ESP3:yes",
+   "sport": "soccer_uefa.nations",
+   "game_id": "401861118",
+   "short": "CZE @ ESP",
+   "game": "Czechia at Spain",
+   "start": "2026-10-03T18:45Z",
+   "market": "spread",
+   "side": "home",
+   "line": -2.5,
+   "selection": "ESP by 2.5+",
+   "group": "Game lines",
+   "market_name": "Spread",
+   "odds": -137,
+   "p": 0.5585,
+   "p_model": 0.5883,
+   "p_market": 0.5545,
+   "p_breakeven": 0.5772,
+   "edge": -0.0188,
+   "ev": -0.0325,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "ESP ranks #1 in offense and #2 in defense of 202 (schedule-adjusted, recent games weighted more)",
+    "Last 2: 2-0, scoring 3.5 and allowing 1.5 goals/game (season: 3.5 / 1.5)",
+    "At home: 4.0 scored / 1.0 allowed per game",
+    "Record 2-0-0"
+   ],
+   "home": {
+    "name": "Spain",
+    "abbr": "ESP"
+   },
+   "away": {
+    "name": "Czechia",
+    "abbr": "CZE"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxuefanlspread/spread/kxuefanlspread-26oct03espcze",
+    "price": 56,
+    "ticker": "KXUEFANLSPREAD-26OCT03ESPCZE-ESP3",
+    "contract": "Yes \u00b7 Spain wins by more than 2.5 goals",
+    "buy": "yes"
+   },
+   "result": null,
+   "close_odds": -137
+  },
+  "401921544:KXINTLFRIENDLYSPREAD-26OCT03ARGBUR-ARG2:yes": {
+   "id": "401921544:KXINTLFRIENDLYSPREAD-26OCT03ARGBUR-ARG2:yes",
+   "sport": "soccer_fifa.friendly",
+   "game_id": "401921544",
+   "short": "BKA @ ARG",
+   "game": "Burkina Faso at Argentina",
+   "start": "2026-10-04T00:00Z",
+   "market": "spread",
+   "side": "home",
+   "line": -1.5,
+   "selection": "ARG by 1.5+",
+   "group": "Game lines",
+   "market_name": "Spread",
+   "odds": -191,
+   "p": 0.6455,
+   "p_model": 0.7523,
+   "p_market": 0.6337,
+   "p_breakeven": 0.6561,
+   "edge": -0.0106,
+   "ev": -0.0162,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "ARG ranks #4 in offense and #1 in defense of 202 (schedule-adjusted, recent games weighted more)",
+    "Last 1: 1-0, scoring 4.0 and allowing 0.0 goals/game (season: 4.0 / 0.0)",
+    "At home: 4.0 scored / 0.0 allowed per game",
+    "Line moved from -1.5 to -2.5 since opening (spread)"
+   ],
+   "home": {
+    "name": "Argentina",
+    "abbr": "ARG"
+   },
+   "away": {
+    "name": "Burkina Faso",
+    "abbr": "BKA"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxintlfriendlyspread/international-friendly-spread/kxintlfriendlyspread-26oct03argbur",
+    "price": 64,
+    "ticker": "KXINTLFRIENDLYSPREAD-26OCT03ARGBUR-ARG2",
+    "contract": "Yes \u00b7 Argentina wins by more than 1.5 goals",
+    "buy": "yes"
+   },
+   "result": null,
+   "close_odds": -191
+  },
+  "401913267:KXINTLFRIENDLYGAME-26OCT02COLPAR-COL:yes": {
+   "id": "401913267:KXINTLFRIENDLYGAME-26OCT02COLPAR-COL:yes",
+   "sport": "soccer_fifa.friendly",
+   "game_id": "401913267",
+   "short": "PAR @ COL",
+   "game": "Paraguay at Colombia",
+   "start": "2026-10-03T00:00Z",
+   "market": "ml",
+   "side": "home",
+   "selection": "COL to win",
+   "group": "Game lines",
+   "market_name": "Winner",
+   "odds": -142,
+   "p": 0.5682,
+   "p_model": 0.597,
+   "p_market": 0.5644,
+   "p_breakeven": 0.5872,
+   "edge": -0.0189,
+   "ev": -0.0322,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "COL ranks #21 in offense and #5 in defense of 202 (schedule-adjusted, recent games weighted more)",
+    "Last 1: 0-1, scoring 1.0 and allowing 1.0 goals/game (season: 1.0 / 1.0)"
+   ],
+   "home": {
+    "name": "Colombia",
+    "abbr": "COL"
+   },
+   "away": {
+    "name": "Paraguay",
+    "abbr": "PAR"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxintlfriendlygame/international-friendly-game/kxintlfriendlygame-26oct02colpar",
+    "price": 57,
+    "ticker": "KXINTLFRIENDLYGAME-26OCT02COLPAR-COL",
+    "contract": "Yes \u00b7 Colombia",
+    "buy": "yes"
+   },
+   "result": null,
+   "close_odds": -142
+  },
+  "401908002:KXMLBGAME-26OCT032030SDMIL-MIL:yes": {
+   "id": "401908002:KXMLBGAME-26OCT032030SDMIL-MIL:yes",
+   "sport": "mlb",
+   "game_id": "401908002",
+   "short": "SD @ MIL",
+   "game": "San Diego Padres at Milwaukee Brewers",
+   "start": "2026-10-04T00:30Z",
+   "market": "ml",
+   "side": "home",
+   "selection": "MIL to win",
+   "group": "Game lines",
+   "market_name": "Winner",
+   "odds": -199,
+   "p": 0.6513,
+   "p_model": 0.6544,
+   "p_market": 0.65,
+   "p_breakeven": 0.6659,
+   "edge": -0.0146,
+   "ev": -0.0219,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "MIL ranks #2 in offense and #3 in defense of 30 (schedule-adjusted, recent games weighted more)",
+    "Last 10: 8-2, scoring 4.4 and allowing 3.0 runs/game (season: 5.14 / 3.81). Current streak: W5",
+    "At home: 5.52 scored / 3.47 allowed per game",
+    "Record 103-59 (home 55-26)",
+    "Injuries: Andrew Vaughn (1B, 10-Day-IL), Grant Anderson (RP, 15-Day-IL), Brandon Woodruff (SP, 60-Day-IL), Quinn Priester (SP, 60-Day-IL)",
+    "Starter Logan Henderson (RHP): 2.47 ERA, 3.32 FIP over 98 IP, 2.17 ERA last 5 starts. Projects below the team's usual pitching (-4% runs allowed)",
+    "Price moved -227 \u2192 -218 since opening, money moving away from MIL"
+   ],
+   "home": {
+    "name": "Milwaukee Brewers",
+    "abbr": "MIL"
+   },
+   "away": {
+    "name": "San Diego Padres",
+    "abbr": "SD"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxmlbgame/professional-baseball-game/kxmlbgame-26oct032030sdmil",
+    "price": 65,
+    "ticker": "KXMLBGAME-26OCT032030SDMIL-MIL",
+    "contract": "Yes \u00b7 Milwaukee",
+    "buy": "yes"
+   },
+   "result": null,
+   "close_odds": -199
+  }
+ },
+ "parlays": [
+  {
+   "legs": [
+    "401862792:KXNCAAFGAME-26OCT03TEMUSF-USF:yes",
+    "401864513:KXNCAAFGAME-26OCT04SJSUHAW-HAW:yes"
+   ],
+   "n": 2,
+   "mode": "safest",
+   "p": 0.4264,
+   "decimal": 2.406,
+   "american": 141,
+   "ev": 0.0259,
+   "tier": "edge",
+   "name": "safest_2",
+   "result": null
+  },
+  {
+   "legs": [
+    "401864513:KXNCAAFSPREAD-26OCT04SJSUHAW-HAW2:yes",
+    "401856709:KXNCAAFSPREAD-26OCT03UKSCAR-SCAR2:yes",
+    "401858247:KXNCAAFGAME-26OCT03CALUNLV-UNLV:yes"
+   ],
+   "n": 3,
+   "mode": "safest",
+   "p": 0.2097,
+   "decimal": 5.024,
+   "american": 402,
+   "ev": 0.0538,
+   "tier": "edge",
+   "name": "safest_3",
+   "result": null
+  },
+  {
+   "legs": [
+    "401869932:KXNCAAFGAME-26OCT03ARSTULL-ULL:yes",
+    "401891776:KXNHLGAME-26OCT03CHIBUF-BUF:yes"
+   ],
+   "n": 2,
+   "mode": "safest",
+   "p": 0.479,
+   "decimal": 2.041,
+   "american": 104,
+   "ev": -0.0227,
+   "tier": "best",
+   "name": "best_2",
+   "result": null
+  },
+  {
+   "legs": [
+    "401866430:KXNCAAFGAME-26OCT03AKRCMU-CMU:yes",
+    "401861112:KXUEFANLGAME-26OCT03ISLBUL-ISL:yes",
+    "401880821:KXEFLL1TOTAL-26OCT03LEYPA-4:no"
+   ],
+   "n": 3,
+   "mode": "safest",
+   "p": 0.3106,
+   "decimal": 3.022,
+   "american": 202,
+   "ev": -0.0615,
+   "tier": "best",
+   "name": "best_3",
+   "result": null
+  },
+  {
+   "legs": [
+    "401856820:KXNCAAFSPREAD-26OCT03CINARIZ-ARIZ2:yes",
+    "401866430:KXNCAAFSPREAD-26OCT03AKRCMU-CMU2:yes",
+    "401861109:KXUEFANLGAME-26OCT02BELTUR-BEL:yes",
+    "401908002:KXMLBGAME-26OCT032030SDMIL-MIL:yes"
+   ],
+   "n": 4,
+   "mode": "safest",
+   "p": 0.2071,
+   "decimal": 4.54,
+   "american": 354,
+   "ev": -0.0598,
+   "tier": "best",
+   "name": "best_4",
+   "result": null
+  }
+ ],
+ "straights": [
+  "401858479:KXNCAAFSPREAD-26OCT03MSUWIS-WIS12:yes",
+  "401858478:KXNCAAFSPREAD-26OCT03WASHUSC-USC12:yes",
+  "401858253:KXNCAAFSPREAD-26OCT03UVAFSU-FSU2:yes",
+  "401864513:KXNCAAFSPREAD-26OCT04SJSUHAW-HAW2:yes",
+  "401856709:KXNCAAFSPREAD-26OCT03UKSCAR-SCAR2:yes"
+ ],
+ "straights_best": [
+  "401856820:KXNCAAFGAME-26OCT03CINARIZ-ARIZ:yes",
+  "401869932:KXNCAAFSPREAD-26OCT03ARSTULL-ULL2:yes",
+  "401921544:KXINTLFRIENDLYSPREAD-26OCT03ARGBUR-ARG2:yes",
+  "401900593:KXCONCACAFNLTOTAL-26OCT02LCAGLP-4:no",
+  "401861103:KXUEFANLTOTAL-26OCT02FRAITA-4:no",
+  "401918294:KXWNBATOTAL-26OCT02DALGS-157:yes",
+  "401913267:KXINTLFRIENDLYGAME-26OCT02COLPAR-COL:yes",
+  "401861118:KXUEFANLSPREAD-26OCT03ESPCZE-ESP3:yes",
+  "401900602:KXCONCACAFNLTOTAL-26OCT02SLVJAM-3:no",
+  "401892435:KXNHLGAME-26OCT03CARPHI-CAR:yes"
+ ]
+}
