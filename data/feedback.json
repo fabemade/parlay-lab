@@ -1,15 +1,33 @@
 {
+ "cfb|Game lines": {
+  "n": 3,
+  "trusted": true,
+  "w_mult": 1.0,
+  "z": 2.47
+ },
  "mlb|Player props": {
-  "n": 9,
+  "n": 2,
   "trusted": false,
   "w_mult": 0.5,
-  "z": -0.24
+  "z": -0.65
+ },
+ "nfl|Player props": {
+  "n": 26,
+  "trusted": false,
+  "w_mult": 0.5,
+  "z": 2.28
+ },
+ "nhl|Game lines": {
+  "n": 1,
+  "trusted": true,
+  "w_mult": 1.0,
+  "z": -1.15
  },
  "nhl|Player props": {
-  "n": 6,
+  "n": 20,
   "trusted": false,
   "w_mult": 0.5,
-  "z": -1.13
+  "z": 1.05
  },
  "wnba|Player props": {
   "n": 8,

@@ -46,7 +46,7 @@
     "contract": "Yes \u00b7 New Mexico St. wins by over 1.5 points",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -112
   },
   "401891816:KXNHLTOTAL-26OCT01MINNSH-6:yes": {
@@ -90,7 +90,7 @@
     "contract": "Yes \u00b7 Over 5.5",
     "buy": "yes"
    },
-   "result": null,
+   "result": "L",
    "close_odds": -142
   },
   "401858245:KXNCAAFSPREAD-26OCT02PITTVT-VT2:yes": {

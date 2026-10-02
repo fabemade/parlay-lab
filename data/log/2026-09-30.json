@@ -46,7 +46,7 @@
     "contract": "Yes \u00b7 Deshaun Watson: 20+",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -228
   },
   "401907975:KXMLBHRR-26SEP302200CHCSD-CHCSSUZUKI27-1:yes": {
@@ -384,7 +384,7 @@
     "contract": "No \u00b7 Deshaun Watson: 1+",
     "buy": "no"
    },
-   "result": null,
+   "result": "L",
    "close_odds": 101
   },
   "401918020:KXWNBAREB-26SEP30GSDAL-GSKTHORNTON5-6:no": {
@@ -627,7 +627,7 @@
     "contract": "Yes \u00b7 Aaron Rodgers: 22+",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": 152
   },
   "401872964:KXNFLTD-26OCT01PITCLE-CLEQJUDKINS10-1:no": {
@@ -676,7 +676,7 @@
     "contract": "No \u00b7 Quinshon Judkins: 1+",
     "buy": "no"
    },
-   "result": null,
+   "result": "L",
    "close_odds": -168
   },
   "401871049:KXNCAAFSPREAD-26OCT01WKUNMSU-NMSU2:yes": {
@@ -723,7 +723,7 @@
     "contract": "Yes \u00b7 New Mexico St. wins by over 1.5 points",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -112
   },
   "401907975:KXMLBHRR-26SEP302200CHCSD-SDJMERRILL3-2:yes": {
@@ -868,7 +868,7 @@
     "contract": "Yes \u00b7 Deshaun Watson: 1+",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -199
   },
   "401892431:KXNHLAST-26SEP30NYITOR-TORWNYLANDER88-1:yes": {
@@ -1208,7 +1208,7 @@
     "contract": "Yes \u00b7 Deshaun Watson: 6+",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -148
   },
   "401918020:KXWNBAPTS-26SEP30GSDAL-GSGWILLIAMS1-20:no": {
@@ -1354,7 +1354,7 @@
     "contract": "No \u00b7 Jaylen Warren: 1+",
     "buy": "no"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -116
   },
   "401907963:KXMLBHRR-26SEP302000BOSNYY-NYYGLOMBARD96-1:yes": {
@@ -1518,7 +1518,8 @@
    "american": 107,
    "ev": 0.029,
    "name": "safest_2",
-   "result": null
+   "result": "W",
+   "missed": []
   },
   {
    "legs": [
@@ -1552,7 +1553,8 @@
    "american": 249,
    "ev": 0.055,
    "name": "props_3",
-   "result": null
+   "result": "W",
+   "missed": []
   },
   {
    "legs": [
