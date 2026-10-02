@@ -29,6 +29,24 @@
   "w_mult": 0.5,
   "z": 0.93
  },
+ "soccer_concacaf.nations.league|Game lines": {
+  "n": 1,
+  "trusted": true,
+  "w_mult": 1.0,
+  "z": 0.8
+ },
+ "soccer_esp.2|Game lines": {
+  "n": 1,
+  "trusted": true,
+  "w_mult": 1.0,
+  "z": -0.39
+ },
+ "soccer_uefa.nations|Game lines": {
+  "n": 2,
+  "trusted": true,
+  "w_mult": 1.0,
+  "z": 1.1
+ },
  "wnba|Player props": {
   "n": 8,
   "trusted": false,

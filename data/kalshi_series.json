@@ -1,20 +1,38 @@
 {
  "leagues": {
   "ARGPREMDIV": {
-   "GAME": "Argentina Primera Division Game"
+   "BTTS": "Argentina Premier Division BTTS",
+   "GAME": "Argentina Primera Division Game",
+   "SPREAD": "Argentina Premier Division Spread",
+   "TOTAL": "Argentina Premier Division Total"
   },
   "BRASILEIRO": {
+   "1H": "1st Half Winner",
+   "1HBTTS": "1st Half BTTS",
+   "1HSPREAD": "1st Half Spread",
+   "1HTOTAL": "1st Half Total",
+   "B1H": "1st Half Winner",
+   "B1HBTTS": "1st Half BTTS",
+   "B1HSPREAD": "1st Half Spread",
+   "B1HTOTAL": "1st Half Total",
    "BBTTS": "BTTS",
    "BGAME": "Brasileiro Serie B Game",
    "BSPREAD": "Spread",
    "BTOTAL": "Point Total",
    "BTTS": "BTTS",
+   "C1H": "1st Half Winner",
+   "C1HBTTS": "1st Half BTTS",
+   "C1HSPREAD": "1st Half Spread",
+   "C1HTOTAL": "1st Half Total",
    "CBTTS": "BTTS",
    "CGAME": "Brasileiro Serie C Game",
    "CSPREAD": "Spread",
    "CTOTAL": "Point Total",
+   "FTTS": "First Team to Score",
    "GAME": "Brasileiro Serie A Game",
+   "SCORE": "Correct Score",
    "SPREAD": "Brasileiro Serie A Game",
+   "TEAMTOTAL": "Team Total",
    "TOTAL": "Brasileiro Total"
   },
   "CONCACAFNL": {
@@ -28,6 +46,10 @@
    "TOTAL": "Point Total"
   },
   "EFLL1": {
+   "1H": "1st Half Winner",
+   "1HBTTS": "1st Half BTTS",
+   "1HSPREAD": "1st Half Spread",
+   "1HTOTAL": "1st Half Total",
    "BTTS": "BTTS",
    "GAME": "EFL League One Game",
    "SPREAD": "Spread",
@@ -44,7 +66,10 @@
    "TOTAL": "International Friendly Total"
   },
   "LALIGA2": {
-   "GAME": "LaLiga 2 Game"
+   "BTTS": "BTTS",
+   "GAME": "LaLiga 2 Game",
+   "SPREAD": "Spread",
+   "TOTAL": "Point Total"
   },
   "MLB": {
    "ERA": "Pro Baseball Earned Runs",
@@ -69,8 +94,7 @@
    "SPREAD": "Pro Baseball Spread",
    "TB": "Pro Baseball Total Bases",
    "TEAMTOTAL": "Pro Baseball Team Total",
-   "TOTAL": "Pro Baseball Total Points",
-   "WA": "Pro Baseball Walks"
+   "TOTAL": "Pro Baseball Total Points"
   },
   "MLS": {
    "1H": "1st Half Winner",
@@ -160,12 +184,14 @@
    "FG": "Pro Football Field Goals",
    "FIRSTTD": "Pro Football First Touchdown",
    "FIRSTTDTEAM": "Pro Football First Team to Score a Touchdown",
-   "GAME": "Professional Football Game",
+   "GAME": "NFL Game",
    "LADDERREC": "Receptions Ladder",
    "LADDERRECYDS": "Receiving Yards Ladder",
    "LADDERRSHYDS": "Rushing Yards Ladder",
    "LONGREC": "Longest Reception",
    "LONGRSH": "Longest Rush",
+   "MOSTRECYDS": "Pro Football Most Receiving Yards",
+   "MOSTRSHYDS": "Pro Football Most Rushing Yards",
    "OT": "Pro Football Overtime",
    "PASSATT": "Pro Football Passing Attempts",
    "PASSCOMP": "Pro Football Passing Completions",
@@ -220,10 +246,8 @@
    "1HSPREAD": "1st Half Spread",
    "1HTOTAL": "1st Half Total",
    "BTTS": "BTTS",
-   "FIRSTGOAL": "UEFA Nations League First Goal",
    "FTTS": "First Team to Score",
    "GAME": "UEFA Nations League Game",
-   "GOAL": "UEFA Nations League Goal",
    "SCORE": "Correct Score",
    "SPREAD": "Spread",
    "TEAMTOTAL": "Team Total",
@@ -259,5 +283,5 @@
    "TOTAL": "Women's Pro Basketball Total"
   }
  },
- "updated": "2026-09-30T20:45:51.458673+00:00"
+ "updated": "2026-10-02T21:58:16.060222+00:00"
 }

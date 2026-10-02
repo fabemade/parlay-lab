@@ -44,7 +44,7 @@
     "buy": "no"
    },
    "result": null,
-   "close_odds": -137
+   "close_odds": -131
   },
   "401858478:KXNCAAFSPREAD-26OCT03WASHUSC-USC12:yes": {
    "id": "401858478:KXNCAAFSPREAD-26OCT03WASHUSC-USC12:yes",
@@ -92,7 +92,7 @@
     "buy": "yes"
    },
    "result": null,
-   "close_odds": 119
+   "close_odds": 124
   },
   "401892435:KXNHLGAME-26OCT03CARPHI-CAR:yes": {
    "id": "401892435:KXNHLGAME-26OCT03CARPHI-CAR:yes",
@@ -324,7 +324,7 @@
     "buy": "yes"
    },
    "result": null,
-   "close_odds": -142
+   "close_odds": -121
   },
   "401891776:KXNHLGAME-26OCT03CHIBUF-BUF:yes": {
    "id": "401891776:KXNHLGAME-26OCT03CHIBUF-BUF:yes",
@@ -417,7 +417,7 @@
     "buy": "yes"
    },
    "result": null,
-   "close_odds": -239
+   "close_odds": -218
   },
   "401858253:KXNCAAFSPREAD-26OCT03UVAFSU-FSU2:yes": {
    "id": "401858253:KXNCAAFSPREAD-26OCT03UVAFSU-FSU2:yes",
@@ -465,7 +465,7 @@
     "buy": "yes"
    },
    "result": null,
-   "close_odds": 119
+   "close_odds": 109
   },
   "401861112:KXUEFANLGAME-26OCT03ISLBUL-ISL:yes": {
    "id": "401861112:KXUEFANLGAME-26OCT03ISLBUL-ISL:yes",
@@ -553,7 +553,7 @@
     "contract": "No \u00b7 Over 3.5",
     "buy": "no"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -154
   },
   "401866430:KXNCAAFGAME-26OCT03AKRCMU-CMU:yes": {
@@ -643,7 +643,7 @@
     "contract": "No \u00b7 Over 3.5",
     "buy": "no"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -168
   },
   "401858247:KXNCAAFGAME-26OCT03CALUNLV-UNLV:yes": {
@@ -690,7 +690,7 @@
     "buy": "yes"
    },
    "result": null,
-   "close_odds": -137
+   "close_odds": -131
   },
   "401869932:KXNCAAFSPREAD-26OCT03ARSTULL-ULL2:yes": {
    "id": "401869932:KXNCAAFSPREAD-26OCT03ARSTULL-ULL2:yes",
@@ -737,7 +737,7 @@
     "buy": "yes"
    },
    "result": null,
-   "close_odds": -228
+   "close_odds": -218
   },
   "401864513:KXNCAAFSPREAD-26OCT04SJSUHAW-HAW2:yes": {
    "id": "401864513:KXNCAAFSPREAD-26OCT04SJSUHAW-HAW2:yes",
@@ -785,7 +785,7 @@
     "buy": "yes"
    },
    "result": null,
-   "close_odds": -142
+   "close_odds": -137
   },
   "401918294:KXWNBATOTAL-26OCT02DALGS-157:yes": {
    "id": "401918294:KXWNBATOTAL-26OCT02DALGS-157:yes",
@@ -830,7 +830,7 @@
     "buy": "yes"
    },
    "result": null,
-   "close_odds": -148
+   "close_odds": -142
   },
   "401880821:KXEFLL1TOTAL-26OCT03LEYPA-4:no": {
    "id": "401880821:KXEFLL1TOTAL-26OCT03LEYPA-4:no",
@@ -918,7 +918,7 @@
     "contract": "Yes \u00b7 Belgium",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -208
   },
   "401864513:KXNCAAFGAME-26OCT04SJSUHAW-HAW:yes": {
@@ -1194,7 +1194,7 @@
     "buy": "yes"
    },
    "result": null,
-   "close_odds": -142
+   "close_odds": -148
   },
   "401908002:KXMLBGAME-26OCT032030SDMIL-MIL:yes": {
    "id": "401908002:KXMLBGAME-26OCT032030SDMIL-MIL:yes",
