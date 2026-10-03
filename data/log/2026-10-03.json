@@ -44,7 +44,7 @@
     "buy": "yes"
    },
    "result": null,
-   "close_odds": -137
+   "close_odds": -131
   },
   "401872972:KXNFLGAME-26OCT04NYJCHI-CHI:yes": {
    "id": "401872972:KXNFLGAME-26OCT04NYJCHI-CHI:yes",
@@ -92,7 +92,7 @@
     "buy": "yes"
    },
    "result": null,
-   "close_odds": -183
+   "close_odds": -191
   },
   "401872967:KXNFLSPREAD-26OCT04DALHOU-HOU2:yes": {
    "id": "401872967:KXNFLSPREAD-26OCT04DALHOU-HOU2:yes",
@@ -186,7 +186,7 @@
     "buy": "yes"
    },
    "result": null,
-   "close_odds": -239
+   "close_odds": -251
   },
   "401891824:KXNHLGAME-26OCT04CGYSEA-SEA:yes": {
    "id": "401891824:KXNHLGAME-26OCT04CGYSEA-SEA:yes",
@@ -231,7 +231,7 @@
     "buy": "yes"
    },
    "result": null,
-   "close_odds": -137
+   "close_odds": -142
   },
   "401861122:KXUEFANLSPREAD-26OCT04NEDSRB-NED2:yes": {
    "id": "401861122:KXUEFANLSPREAD-26OCT04NEDSRB-NED2:yes",
@@ -278,7 +278,7 @@
     "buy": "yes"
    },
    "result": null,
-   "close_odds": -199
+   "close_odds": -208
   },
   "401918295:KXWNBASPREAD-26OCT04NYATL-ATL2:yes": {
    "id": "401918295:KXWNBASPREAD-26OCT04NYATL-ATL2:yes",
@@ -371,7 +371,7 @@
     "contract": "Yes \u00b7 SMU wins by over 16.5 points",
     "buy": "yes"
    },
-   "result": null,
+   "result": "L",
    "close_odds": -199
   },
   "401858478:KXNCAAFSPREAD-26OCT03WASHUSC-USC12:yes": {
@@ -420,7 +420,7 @@
     "buy": "yes"
    },
    "result": null,
-   "close_odds": 134
+   "close_odds": 140
   },
   "401892436:KXNHLTOTAL-26OCT03UTACBJ-6:yes": {
    "id": "401892436:KXNHLTOTAL-26OCT03UTACBJ-6:yes",
@@ -512,7 +512,7 @@
     "buy": "yes"
    },
    "result": null,
-   "close_odds": -218
+   "close_odds": -199
   },
   "401869932:KXNCAAFGAME-26OCT03ARSTULL-ULL:yes": {
    "id": "401869932:KXNCAAFGAME-26OCT03ARSTULL-ULL:yes",
@@ -558,7 +558,7 @@
     "buy": "yes"
    },
    "result": null,
-   "close_odds": -218
+   "close_odds": -208
   },
   "401866430:KXNCAAFSPREAD-26OCT03AKRCMU-CMU10:yes": {
    "id": "401866430:KXNCAAFSPREAD-26OCT03AKRCMU-CMU10:yes",
@@ -651,7 +651,7 @@
     "contract": "Yes \u00b7 Wake Forest wins by over 13.5 points",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -137
   },
   "401907985:KXMLBTOTAL-26OCT031830NYYTB-8:no": {
@@ -697,7 +697,7 @@
     "buy": "no"
    },
    "result": null,
-   "close_odds": -148
+   "close_odds": -142
   },
   "401860921:KXNCAAFSPREAD-26OCT03FRESWSU-WSU2:yes": {
    "id": "401860921:KXNCAAFSPREAD-26OCT03FRESWSU-WSU2:yes",
@@ -879,7 +879,7 @@
     "contract": "No \u00b7 Over 2.5",
     "buy": "no"
    },
-   "result": null,
+   "result": "L",
    "close_odds": -251
   },
   "401918295:KXWNBAGAME-26OCT04NYATL-ATL:yes": {
@@ -1158,7 +1158,7 @@
     "contract": "No \u00b7 Over 4.5",
     "buy": "no"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -175
   },
   "401862792:KXNCAAFGAME-26OCT03TEMUSF-USF:yes": {
@@ -1253,7 +1253,10 @@
    "ev": -0.0254,
    "tier": "best",
    "name": "best_2",
-   "result": null
+   "result": "L",
+   "missed": [
+    "401841596:KXARGPREMDIVTOTAL-26OCT03TUCBAR-3:no"
+   ]
   },
   {
    "legs": [

@@ -92,7 +92,7 @@
     "buy": "yes"
    },
    "result": null,
-   "close_odds": 134
+   "close_odds": 140
   },
   "401892435:KXNHLGAME-26OCT03CARPHI-CAR:yes": {
    "id": "401892435:KXNHLGAME-26OCT03CARPHI-CAR:yes",
@@ -136,7 +136,7 @@
     "buy": "yes"
    },
    "result": null,
-   "close_odds": -131
+   "close_odds": -137
   },
   "401869932:KXNCAAFGAME-26OCT03ARSTULL-ULL:yes": {
    "id": "401869932:KXNCAAFGAME-26OCT03ARSTULL-ULL:yes",
@@ -182,7 +182,7 @@
     "buy": "yes"
    },
    "result": null,
-   "close_odds": -218
+   "close_odds": -208
   },
   "401856820:KXNCAAFSPREAD-26OCT03CINARIZ-ARIZ2:yes": {
    "id": "401856820:KXNCAAFSPREAD-26OCT03CINARIZ-ARIZ2:yes",
@@ -370,7 +370,7 @@
     "buy": "yes"
    },
    "result": null,
-   "close_odds": -228
+   "close_odds": -239
   },
   "401866430:KXNCAAFSPREAD-26OCT03AKRCMU-CMU2:yes": {
    "id": "401866430:KXNCAAFSPREAD-26OCT03AKRCMU-CMU2:yes",
@@ -737,7 +737,7 @@
     "buy": "yes"
    },
    "result": null,
-   "close_odds": -218
+   "close_odds": -199
   },
   "401864513:KXNCAAFSPREAD-26OCT04SJSUHAW-HAW2:yes": {
    "id": "401864513:KXNCAAFSPREAD-26OCT04SJSUHAW-HAW2:yes",
@@ -1012,7 +1012,7 @@
     "contract": "Yes \u00b7 Wisconsin wins by over 11.5 points",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": 129
   },
   "401856820:KXNCAAFGAME-26OCT03CINARIZ-ARIZ:yes": {
@@ -1059,7 +1059,7 @@
     "buy": "yes"
    },
    "result": null,
-   "close_odds": -239
+   "close_odds": -251
   },
   "401861118:KXUEFANLSPREAD-26OCT03ESPCZE-ESP3:yes": {
    "id": "401861118:KXUEFANLSPREAD-26OCT03ESPCZE-ESP3:yes",
@@ -1104,7 +1104,7 @@
     "contract": "Yes \u00b7 Spain wins by more than 2.5 goals",
     "buy": "yes"
    },
-   "result": null,
+   "result": "L",
    "close_odds": -168
   },
   "401921544:KXINTLFRIENDLYSPREAD-26OCT03ARGBUR-ARG2:yes": {
@@ -1151,7 +1151,7 @@
     "buy": "yes"
    },
    "result": null,
-   "close_odds": -719
+   "close_odds": -967
   },
   "401913267:KXINTLFRIENDLYGAME-26OCT02COLPAR-COL:yes": {
    "id": "401913267:KXINTLFRIENDLYGAME-26OCT02COLPAR-COL:yes",
