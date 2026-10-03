@@ -43,7 +43,7 @@
     "contract": "No \u00b7 Over 2.5",
     "buy": "no"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -142
   },
   "401858478:KXNCAAFSPREAD-26OCT03WASHUSC-USC12:yes": {
@@ -417,7 +417,7 @@
     "buy": "yes"
    },
    "result": null,
-   "close_odds": -239
+   "close_odds": -228
   },
   "401858253:KXNCAAFSPREAD-26OCT03UVAFSU-FSU2:yes": {
    "id": "401858253:KXNCAAFSPREAD-26OCT03UVAFSU-FSU2:yes",
@@ -465,7 +465,7 @@
     "buy": "yes"
    },
    "result": null,
-   "close_odds": 109
+   "close_odds": 105
   },
   "401861112:KXUEFANLGAME-26OCT03ISLBUL-ISL:yes": {
    "id": "401861112:KXUEFANLGAME-26OCT03ISLBUL-ISL:yes",
@@ -510,7 +510,7 @@
     "buy": "yes"
    },
    "result": null,
-   "close_odds": -228
+   "close_odds": -218
   },
   "401861103:KXUEFANLTOTAL-26OCT02FRAITA-4:no": {
    "id": "401861103:KXUEFANLTOTAL-26OCT02FRAITA-4:no",
@@ -829,7 +829,7 @@
     "contract": "Yes \u00b7 Over 156.5",
     "buy": "yes"
    },
-   "result": null,
+   "result": "L",
    "close_odds": -148
   },
   "401880821:KXEFLL1TOTAL-26OCT03LEYPA-4:no": {
@@ -1105,7 +1105,7 @@
     "buy": "yes"
    },
    "result": null,
-   "close_odds": -137
+   "close_odds": -154
   },
   "401921544:KXINTLFRIENDLYSPREAD-26OCT03ARGBUR-ARG2:yes": {
    "id": "401921544:KXINTLFRIENDLYSPREAD-26OCT03ARGBUR-ARG2:yes",
@@ -1151,7 +1151,7 @@
     "buy": "yes"
    },
    "result": null,
-   "close_odds": -218
+   "close_odds": -276
   },
   "401913267:KXINTLFRIENDLYGAME-26OCT02COLPAR-COL:yes": {
    "id": "401913267:KXINTLFRIENDLYGAME-26OCT02COLPAR-COL:yes",
@@ -1193,7 +1193,7 @@
     "contract": "Yes \u00b7 Colombia",
     "buy": "yes"
    },
-   "result": null,
+   "result": "L",
    "close_odds": -148
   },
   "401908002:KXMLBGAME-26OCT032030SDMIL-MIL:yes": {
