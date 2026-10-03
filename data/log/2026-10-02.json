@@ -465,7 +465,7 @@
     "buy": "yes"
    },
    "result": null,
-   "close_odds": 105
+   "close_odds": 109
   },
   "401861112:KXUEFANLGAME-26OCT03ISLBUL-ISL:yes": {
    "id": "401861112:KXUEFANLGAME-26OCT03ISLBUL-ISL:yes",
@@ -510,7 +510,7 @@
     "buy": "yes"
    },
    "result": null,
-   "close_odds": -218
+   "close_odds": -199
   },
   "401861103:KXUEFANLTOTAL-26OCT02FRAITA-4:no": {
    "id": "401861103:KXUEFANLTOTAL-26OCT02FRAITA-4:no",
@@ -600,7 +600,7 @@
     "buy": "yes"
    },
    "result": null,
-   "close_odds": -239
+   "close_odds": -251
   },
   "401900593:KXCONCACAFNLTOTAL-26OCT02LCAGLP-4:no": {
    "id": "401900593:KXCONCACAFNLTOTAL-26OCT02LCAGLP-4:no",
@@ -690,7 +690,7 @@
     "buy": "yes"
    },
    "result": null,
-   "close_odds": -131
+   "close_odds": -121
   },
   "401869932:KXNCAAFSPREAD-26OCT03ARSTULL-ULL2:yes": {
    "id": "401869932:KXNCAAFSPREAD-26OCT03ARSTULL-ULL2:yes",
@@ -737,7 +737,7 @@
     "buy": "yes"
    },
    "result": null,
-   "close_odds": -208
+   "close_odds": -218
   },
   "401864513:KXNCAAFSPREAD-26OCT04SJSUHAW-HAW2:yes": {
    "id": "401864513:KXNCAAFSPREAD-26OCT04SJSUHAW-HAW2:yes",
@@ -966,7 +966,7 @@
     "buy": "yes"
    },
    "result": null,
-   "close_odds": -154
+   "close_odds": -148
   },
   "401858479:KXNCAAFSPREAD-26OCT03MSUWIS-WIS12:yes": {
    "id": "401858479:KXNCAAFSPREAD-26OCT03MSUWIS-WIS12:yes",
@@ -1013,7 +1013,7 @@
     "buy": "yes"
    },
    "result": null,
-   "close_odds": 119
+   "close_odds": 129
   },
   "401856820:KXNCAAFGAME-26OCT03CINARIZ-ARIZ:yes": {
    "id": "401856820:KXNCAAFGAME-26OCT03CINARIZ-ARIZ:yes",
@@ -1105,7 +1105,7 @@
     "buy": "yes"
    },
    "result": null,
-   "close_odds": -154
+   "close_odds": -168
   },
   "401921544:KXINTLFRIENDLYSPREAD-26OCT03ARGBUR-ARG2:yes": {
    "id": "401921544:KXINTLFRIENDLYSPREAD-26OCT03ARGBUR-ARG2:yes",
@@ -1151,7 +1151,7 @@
     "buy": "yes"
    },
    "result": null,
-   "close_odds": -276
+   "close_odds": -458
   },
   "401913267:KXINTLFRIENDLYGAME-26OCT02COLPAR-COL:yes": {
    "id": "401913267:KXINTLFRIENDLYGAME-26OCT02COLPAR-COL:yes",
