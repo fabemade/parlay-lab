@@ -44,7 +44,7 @@
     "buy": "no"
    },
    "result": null,
-   "close_odds": -131
+   "close_odds": -142
   },
   "401858478:KXNCAAFSPREAD-26OCT03WASHUSC-USC12:yes": {
    "id": "401858478:KXNCAAFSPREAD-26OCT03WASHUSC-USC12:yes",
@@ -230,7 +230,7 @@
     "buy": "yes"
    },
    "result": null,
-   "close_odds": -228
+   "close_odds": -218
   },
   "401862792:KXNCAAFGAME-26OCT03TEMUSF-USF:yes": {
    "id": "401862792:KXNCAAFGAME-26OCT03TEMUSF-USF:yes",
@@ -417,7 +417,7 @@
     "buy": "yes"
    },
    "result": null,
-   "close_odds": -218
+   "close_odds": -239
   },
   "401858253:KXNCAAFSPREAD-26OCT03UVAFSU-FSU2:yes": {
    "id": "401858253:KXNCAAFSPREAD-26OCT03UVAFSU-FSU2:yes",
@@ -737,7 +737,7 @@
     "buy": "yes"
    },
    "result": null,
-   "close_odds": -218
+   "close_odds": -208
   },
   "401864513:KXNCAAFSPREAD-26OCT04SJSUHAW-HAW2:yes": {
    "id": "401864513:KXNCAAFSPREAD-26OCT04SJSUHAW-HAW2:yes",
@@ -785,7 +785,7 @@
     "buy": "yes"
    },
    "result": null,
-   "close_odds": -137
+   "close_odds": -131
   },
   "401918294:KXWNBATOTAL-26OCT02DALGS-157:yes": {
    "id": "401918294:KXWNBATOTAL-26OCT02DALGS-157:yes",
@@ -830,7 +830,7 @@
     "buy": "yes"
    },
    "result": null,
-   "close_odds": -142
+   "close_odds": -148
   },
   "401880821:KXEFLL1TOTAL-26OCT03LEYPA-4:no": {
    "id": "401880821:KXEFLL1TOTAL-26OCT03LEYPA-4:no",
@@ -874,7 +874,7 @@
     "buy": "no"
    },
    "result": null,
-   "close_odds": -208
+   "close_odds": -199
   },
   "401861109:KXUEFANLGAME-26OCT02BELTUR-BEL:yes": {
    "id": "401861109:KXUEFANLGAME-26OCT02BELTUR-BEL:yes",
@@ -1151,7 +1151,7 @@
     "buy": "yes"
    },
    "result": null,
-   "close_odds": -191
+   "close_odds": -218
   },
   "401913267:KXINTLFRIENDLYGAME-26OCT02COLPAR-COL:yes": {
    "id": "401913267:KXINTLFRIENDLYGAME-26OCT02COLPAR-COL:yes",
