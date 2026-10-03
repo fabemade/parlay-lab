@@ -44,7 +44,7 @@
     "buy": "yes"
    },
    "result": null,
-   "close_odds": -142
+   "close_odds": -137
   },
   "401872972:KXNFLGAME-26OCT04NYJCHI-CHI:yes": {
    "id": "401872972:KXNFLGAME-26OCT04NYJCHI-CHI:yes",
@@ -231,7 +231,7 @@
     "buy": "yes"
    },
    "result": null,
-   "close_odds": -131
+   "close_odds": -137
   },
   "401861122:KXUEFANLSPREAD-26OCT04NEDSRB-NED2:yes": {
    "id": "401861122:KXUEFANLSPREAD-26OCT04NEDSRB-NED2:yes",
@@ -325,7 +325,7 @@
     "buy": "yes"
    },
    "result": null,
-   "close_odds": -142
+   "close_odds": -148
   },
   "401858246:KXNCAAFSPREAD-26OCT03BCSMU-SMU17:yes": {
    "id": "401858246:KXNCAAFSPREAD-26OCT03BCSMU-SMU17:yes",
@@ -420,7 +420,7 @@
     "buy": "yes"
    },
    "result": null,
-   "close_odds": 124
+   "close_odds": 134
   },
   "401892436:KXNHLTOTAL-26OCT03UTACBJ-6:yes": {
    "id": "401892436:KXNHLTOTAL-26OCT03UTACBJ-6:yes",
@@ -558,7 +558,7 @@
     "buy": "yes"
    },
    "result": null,
-   "close_odds": -239
+   "close_odds": -218
   },
   "401866430:KXNCAAFSPREAD-26OCT03AKRCMU-CMU10:yes": {
    "id": "401866430:KXNCAAFSPREAD-26OCT03AKRCMU-CMU10:yes",
@@ -697,7 +697,7 @@
     "buy": "no"
    },
    "result": null,
-   "close_odds": -142
+   "close_odds": -148
   },
   "401860921:KXNCAAFSPREAD-26OCT03FRESWSU-WSU2:yes": {
    "id": "401860921:KXNCAAFSPREAD-26OCT03FRESWSU-WSU2:yes",
@@ -880,7 +880,7 @@
     "buy": "no"
    },
    "result": null,
-   "close_odds": -239
+   "close_odds": -251
   },
   "401918295:KXWNBAGAME-26OCT04NYATL-ATL:yes": {
    "id": "401918295:KXWNBAGAME-26OCT04NYATL-ATL:yes",
@@ -1066,7 +1066,7 @@
     "buy": "yes"
    },
    "result": null,
-   "close_odds": -175
+   "close_odds": -183
   },
   "401856820:KXNCAAFSPREAD-26OCT03CINARIZ-ARIZ2:yes": {
    "id": "401856820:KXNCAAFSPREAD-26OCT03CINARIZ-ARIZ2:yes",
@@ -1114,7 +1114,7 @@
     "buy": "yes"
    },
    "result": null,
-   "close_odds": -218
+   "close_odds": -239
   },
   "401861118:KXUEFANLTOTAL-26OCT03ESPCZE-5:no": {
    "id": "401861118:KXUEFANLTOTAL-26OCT03ESPCZE-5:no",
@@ -1205,7 +1205,7 @@
     "buy": "yes"
    },
    "result": null,
-   "close_odds": -218
+   "close_odds": -208
   }
  },
  "parlays": [

@@ -47,11 +47,17 @@
   "w_mult": 1.0,
   "z": 1.2
  },
- "soccer_esp.2|Game lines": {
-  "n": 1,
+ "soccer_eng.3|Game lines": {
+  "n": 4,
   "trusted": true,
   "w_mult": 1.0,
-  "z": -0.39
+  "z": -1.0
+ },
+ "soccer_esp.2|Game lines": {
+  "n": 2,
+  "trusted": true,
+  "w_mult": 1.0,
+  "z": -0.6
  },
  "soccer_fifa.friendly|Game lines": {
   "n": 1,
@@ -60,10 +66,10 @@
   "z": -1.15
  },
  "soccer_uefa.nations|Game lines": {
-  "n": 2,
+  "n": 3,
   "trusted": true,
   "w_mult": 1.0,
-  "z": 1.1
+  "z": 1.3
  },
  "wnba|Game lines": {
   "n": 3,

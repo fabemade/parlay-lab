@@ -92,7 +92,7 @@
     "buy": "yes"
    },
    "result": null,
-   "close_odds": 124
+   "close_odds": 134
   },
   "401892435:KXNHLGAME-26OCT03CARPHI-CAR:yes": {
    "id": "401892435:KXNHLGAME-26OCT03CARPHI-CAR:yes",
@@ -182,7 +182,7 @@
     "buy": "yes"
    },
    "result": null,
-   "close_odds": -239
+   "close_odds": -218
   },
   "401856820:KXNCAAFSPREAD-26OCT03CINARIZ-ARIZ2:yes": {
    "id": "401856820:KXNCAAFSPREAD-26OCT03CINARIZ-ARIZ2:yes",
@@ -230,7 +230,7 @@
     "buy": "yes"
    },
    "result": null,
-   "close_odds": -218
+   "close_odds": -239
   },
   "401862792:KXNCAAFGAME-26OCT03TEMUSF-USF:yes": {
    "id": "401862792:KXNCAAFGAME-26OCT03TEMUSF-USF:yes",
@@ -276,7 +276,7 @@
     "buy": "yes"
    },
    "result": null,
-   "close_odds": -218
+   "close_odds": -208
   },
   "401856709:KXNCAAFSPREAD-26OCT03UKSCAR-SCAR2:yes": {
    "id": "401856709:KXNCAAFSPREAD-26OCT03UKSCAR-SCAR2:yes",
@@ -465,7 +465,7 @@
     "buy": "yes"
    },
    "result": null,
-   "close_odds": 109
+   "close_odds": 105
   },
   "401861112:KXUEFANLGAME-26OCT03ISLBUL-ISL:yes": {
    "id": "401861112:KXUEFANLGAME-26OCT03ISLBUL-ISL:yes",
@@ -509,7 +509,7 @@
     "contract": "Yes \u00b7 Iceland",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -199
   },
   "401861103:KXUEFANLTOTAL-26OCT02FRAITA-4:no": {
@@ -600,7 +600,7 @@
     "buy": "yes"
    },
    "result": null,
-   "close_odds": -251
+   "close_odds": -263
   },
   "401900593:KXCONCACAFNLTOTAL-26OCT02LCAGLP-4:no": {
    "id": "401900593:KXCONCACAFNLTOTAL-26OCT02LCAGLP-4:no",
@@ -690,7 +690,7 @@
     "buy": "yes"
    },
    "result": null,
-   "close_odds": -121
+   "close_odds": -116
   },
   "401869932:KXNCAAFSPREAD-26OCT03ARSTULL-ULL2:yes": {
    "id": "401869932:KXNCAAFSPREAD-26OCT03ARSTULL-ULL2:yes",
@@ -873,7 +873,7 @@
     "contract": "No \u00b7 Over 3.5",
     "buy": "no"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -199
   },
   "401861109:KXUEFANLGAME-26OCT02BELTUR-BEL:yes": {
@@ -1151,7 +1151,7 @@
     "buy": "yes"
    },
    "result": null,
-   "close_odds": -458
+   "close_odds": -719
   },
   "401913267:KXINTLFRIENDLYGAME-26OCT02COLPAR-COL:yes": {
    "id": "401913267:KXINTLFRIENDLYGAME-26OCT02COLPAR-COL:yes",
