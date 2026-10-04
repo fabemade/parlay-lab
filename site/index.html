@@ -62,7 +62,7 @@ a { color: var(--blue); }
 }
 
 /* ---------------------------------------------------------------- header */
-header { padding: 20px 0 6px; display: flex; align-items: center; gap: 10px; }
+.topline { padding: 14px 2px 0; font-size: 12px; color: var(--faint); text-align: right; min-height: 30px; }
 .brand-mark { width: 32px; height: 32px; border-radius: 10px; background: var(--accent); display: grid; place-items: center; flex: none; }
 .brand-mark svg { width: 18px; height: 18px; }
 .brand { font-weight: 800; font-size: 19px; letter-spacing: -.02em; line-height: 1.1; }
@@ -217,7 +217,17 @@ section[hidden] { display: none; }
 .pricecheck.stale { color: #f1d9a8; }
 #slip-bar .sp { margin-left: auto; font-family: var(--mono); }
 .leg-sel { font-weight: 700; font-size: 15.5px; }
+.grade.ic { background: var(--panel-2); font-size: 16px; }
 .grade.lockb { background: var(--accent-soft); font-size: 15px; }
+.picks-seg { margin: -2px 0 10px; }
+.rec-summary { padding: 6px 16px 14px; }
+.rec-row { padding: 12px 0; border-bottom: 1px solid var(--line); }
+.rr-t { font-weight: 800; font-size: 15px; margin-bottom: 8px; }
+.rr-v { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
+.rr-p { background: var(--panel-2); border-radius: 12px; padding: 10px 12px; }
+.rr-p b { display: block; font: 700 21px var(--mono); }
+.rr-p span { font-size: 12px; color: var(--muted); }
+.rec-sec { font-size: 12px; font-weight: 800; letter-spacing: .05em; text-transform: uppercase; color: var(--muted); margin: 14px 4px 6px; }
 .lock-note { font-size: 13px; color: var(--muted); background: var(--panel); border-radius: 14px; padding: 12px 14px; margin: 4px 0 14px; line-height: 1.5; }
 .lock-hero { background: linear-gradient(160deg, rgba(61, 220, 151, .16), var(--panel) 60%); border: 1px solid rgba(61, 220, 151, .35); border-radius: var(--radius); padding: 18px; }
 .lh-top { display: flex; justify-content: space-between; align-items: center; margin-bottom: 10px; }
@@ -343,10 +353,7 @@ nav.tabs button[aria-selected="true"] svg { transform: translateY(-2px) scale(1.
 </head>
 <body>
 <div class="wrap">
-  <header>
-    <div class="brand-mark"><svg viewBox="0 0 24 24" fill="none" stroke="#062a1b" stroke-width="3" stroke-linecap="round"><path d="M4 18V12M10 18V7M16 18v-4M22 18V4" transform="translate(-1 0)"/></svg></div>
-    <div><div class="brand">Parlay Lab</div><div class="stamp" id="stamp"></div></div>
-  </header>
+  <div class="topline" id="stamp"></div>
 
   <div id="loading" class="loading"><div class="skel"></div><div class="skel"></div><div class="skel"></div></div>
 
@@ -398,24 +405,23 @@ nav.tabs button[aria-selected="true"] svg { transform: translateY(-2px) scale(1.
 
   <!-- TOP PICKS -->
   <section id="tab-picks" hidden>
-    <h1>Locks</h1>
+    <h1>Picks</h1>
+    <div class="seg picks-seg" id="picks-seg"></div>
     <div class="picked" id="picked"></div>
-    <div class="lock-note">The likeliest bets on the board: our model and Kalshi both rate each one 80% or better, and they agree. Nothing is guaranteed, though. An 85% lock still misses about 1 time in 7, and locks pay little, so size bets to match.</div>
-    <div id="lock-hero"></div>
-    <h2>Lock parlays</h2>
-    <div class="tier-note">Locks combined across different sports and games. More payout, a bit less certainty.</div>
-    <div id="lock-parlays"></div>
-    <h2>All locks</h2>
-    <div id="locks"></div>
-    <div class="more value-more" id="value-more">
-      <button class="more-head" aria-expanded="false">Value plays · riskier, bigger payouts
-        <svg class="chev" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M6 9l6 6 6-6"/></svg></button>
-      <div class="collapse"><div><div class="inner">
-        <div class="tier-note" style="margin-top:6px">Bets that beat Kalshi's price by our model. They hit less often than locks; the edge is the point.</div>
-        <div id="featured"></div>
-        <div class="chips" id="straight-filter" style="margin:14px 0 10px"></div>
-        <div id="straights"></div>
-      </div></div></div>
+    <div id="view-top">
+      <h2>Parlays</h2>
+      <div class="tier-note">Mixed across sports. Every leg is 55%+ likely and priced near fair.</div>
+      <div id="top-parlays"></div>
+      <h2>Straight bets</h2>
+      <div id="top-straights"></div>
+    </div>
+    <div id="view-locks" hidden>
+      <div class="lock-note">The likeliest bets on the board: our model and Kalshi both rate each one 80% or better. Not guaranteed: an 85% lock still misses about 1 time in 7, and locks pay little.</div>
+      <div id="lock-hero"></div>
+      <h2>Lock parlays</h2>
+      <div id="lock-parlays"></div>
+      <h2>All locks</h2>
+      <div id="locks"></div>
     </div>
   </section>
 
@@ -429,7 +435,7 @@ nav.tabs button[aria-selected="true"] svg { transform: translateY(-2px) scale(1.
 
   <!-- RECORD / ABOUT -->
   <section id="tab-record" hidden>
-    <h1>Track record</h1>
+    <h1>Record</h1>
     <div id="record"></div>
     <div class="card fold" id="about" style="margin-top:12px">
       <button class="fold-head" aria-expanded="false">How it works
@@ -462,7 +468,7 @@ nav.tabs button[aria-selected="true"] svg { transform: translateY(-2px) scale(1.
     <button role="tab" data-tab="build" aria-selected="true">
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="3" width="16" height="18" rx="3"/><path d="M8 8h8M8 12h8M8 16h5"/></svg>Build</button>
     <button role="tab" data-tab="picks" aria-selected="false">
-      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="11" width="16" height="10" rx="2.5"/><path d="M8 11V8a4 4 0 0 1 8 0v3"/></svg>Locks</button>
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l2.7 5.6 6.1.9-4.4 4.3 1 6.1L12 17l-5.4 2.9 1-6.1L3.2 9.5l6.1-.9z"/></svg>Picks</button>
     <button role="tab" data-tab="games" aria-selected="false">
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="17" rx="3"/><path d="M3 9h18M8 2v4M16 2v4"/></svg>Games</button>
     <button role="tab" data-tab="record" aria-selected="false">
@@ -504,7 +510,7 @@ const LEAGUE_NAMES = {
 let DATA = null, GROUP_LIST = [], COUNTS = {};
 const state = {
   sports: new Set(), day: "all", legs: 3, mode: "safest", target: 150,
-  juice: -250, edge: 0, markets: new Set(["lines"]), sameGame: false,
+  juice: -300, edge: 0, markets: new Set(["lines"]), sameGame: false,
   slip: store.get("slip", []), straightSport: "all",
   stake: store.get("stake", 10), gameGroup: "all", gameSport: "all",
 };
@@ -752,9 +758,9 @@ function legHTML(l, open = false) {
   const k = l.kalshi;
   return `<div class="leg${open ? " open" : ""}${l.result === "L" ? " missed" : ""}">
     <button class="leg-main" aria-expanded="${open}" onclick="toggleOpen(this.parentElement)">
-      ${l.isLock ? `<div class="grade lockb" title="Lock">🔒</div>` : `<div class="grade ${l.grade}">${l.grade}</div>`}
+      <div class="grade ic${l.isLock ? " lockb" : ""}">${l.isLock ? "🔒" : iconOf(l.sport)}</div>
       <div class="leg-info">
-        <div class="leg-when">${CLOCK}${esc(whenLong(l.start))} · ${esc(l.short)} <span class="lg-name">${esc(leagueName(l.sport))}</span>${statusOf(l) ? ` <span class="res ${statusOf(l)}">${RES_LABEL[statusOf(l)]}</span>` : ""}${l.untested ? ` <span class="untested">untested</span>` : ""}</div>
+        <div class="leg-when">${CLOCK}${esc(whenLong(l.start))} · ${esc(l.short)}${statusOf(l) ? ` <span class="res ${statusOf(l)}">${RES_LABEL[statusOf(l)]}</span>` : ""}${l.untested ? ` <span class="untested">untested</span>` : ""}</div>
         <div class="leg-sel">${esc(describe(l)[0])}${describe(l)[1] ? ` <span class="note">${esc(describe(l)[1])}</span>` : ""}</div>
         <div class="leg-sub"><span class="code">${esc(k ? k.contract : l.selection)}</span>${l.unavailable ? ` · <span class="gone">no longer available</span>` : l.moved ? ` · <span class="moved">was ${l.moved.from}¢</span>` : ""}</div></div>
       <div class="leg-odds">${k ? `${k.price}¢` : esc(l.odds_str)}<small>${pct(l.p)}</small></div>
@@ -789,7 +795,6 @@ function ticketHTML(title, legs, p, d, i = 0, opts = {}) {
     </div>
     <div class="meter"><i style="width:${Math.max(p * 100, 2)}%"></i></div>
     ${priceNote(legs)}
-    ${!opts.lock && legs.some(l => l.edge < 0 && l.modeled !== false) ? `<div class="pricecheck stale">At current prices, ${plural(legs.filter(l => l.edge < 0 && l.modeled !== false).length, "leg")} no longer has an edge</div>` : ""}
     ${legs.map(l => legHTML(l)).join("")}
     <div class="stake">$<input id="${id}" type="number" inputmode="decimal" min="0" value="${state.stake}" data-dec="${d}" aria-label="Stake">
       <span class="ev">EV ${ev >= 0 ? "+" : ""}${(ev * 100).toFixed(1)}%</span>
@@ -935,7 +940,7 @@ function renderBuild() {
   seg($("#mode-seg"), [["safest", "Safest"], ["value", "Best value"]], () => state.mode, v => { state.mode = v; syncMode(); });
   seg($("#target-seg"), [[100, "+100"], [150, "+150"], [200, "+200"], [300, "+300"], [500, "+500"]], () => state.target, v => state.target = +v);
   seg($("#day-seg"), [["all", "Next 4 days"], ["today", "Today"], ["tomorrow", "Later"]], () => state.day, v => state.day = v);
-  seg($("#juice-seg"), [[-150, "60¢"], [-200, "67¢"], [-250, "71¢"], [-350, "78¢"]], () => state.juice, v => state.juice = +v);
+  seg($("#juice-seg"), [[-150, "-150"], [-200, "-200"], [-300, "-300"], [-500, "-500"], [-100000, "Any"]], () => state.juice, v => state.juice = +v);
   seg($("#edge-seg"), [[-1, "Any"], [-0.02, "Near fair"], [0, "+EV"], [0.02, "2%+"]], () => state.edge, v => state.edge = +v);
   const mc = $("#market-chips");
   mc.innerHTML = BET_TYPES.map(([v, l]) => `<button class="chip" data-v="${v}">${l}</button>`).join("");
@@ -963,6 +968,7 @@ function renderBuild() {
 const PARLAY_NAMES = { safest_2: "Safest 2-leg", safest_3: "Safest 3-leg", safest_4: "Safest 4-leg", value_3: "Best-value 3-leg", props_3: "Player props 3-leg",
   best_2: "Mixed 2-leg", best_3: "Mixed 3-leg", best_4: "Mixed 4-leg",
   lock_2: "2-leg lock parlay", lock_3: "3-leg lock parlay", lock_4: "4-leg lock ladder" };
+Object.assign(PARLAY_NAMES, { best_2: "2-leg mixed parlay", best_3: "3-leg mixed parlay", best_4: "4-leg mixed parlay" });
 const iconOf = sport => (GROUP_LIST.find(g => g.leagues.includes(sport)) || {}).icon || "🎯";
 function lockHero(l) {
   const k = l.kalshi || {}, [main, note] = describe(l), st = statusOf(l);
@@ -982,62 +988,55 @@ function lockHero(l) {
   </div>`;
 }
 
+state.picksView = store.get("picksView", "top");
+const sportGroups = (legs, i0) => {
+  const bySport = {};
+  legs.forEach(l => (bySport[l.sport] ||= []).push(l));
+  return Object.entries(bySport).sort((a, b) => b[1][0].p - a[1][0].p).map(([sport, ls], k) =>
+    `<div class="ticket lock-group" style="--i:${i0 + k}"><div class="lg-head">${iconOf(sport)} ${esc(leagueName(sport))}<span>${plural(ls.length, "bet")}</span></div>
+      ${ls.map(l => legHTML(l)).join("")}</div>`).join("");
+};
 function renderPicks() {
+  seg($("#picks-seg"), [["top", "Top picks"], ["locks", "🔒 Locks"]], () => state.picksView, v => {
+    state.picksView = v; store.set("picksView", v); renderPicks();
+  });
+  $("#view-top").hidden = state.picksView !== "top";
+  $("#view-locks").hidden = state.picksView !== "locks";
   const top = DATA.top;
   if (!top) {
-    $("#picked").textContent = "Today's locks are chosen at 10 AM Eastern.";
-    $("#lock-hero").innerHTML = `<div class="card empty">No locks yet today.</div>`;
-    ["#lock-parlays", "#locks", "#featured", "#straights"].forEach(x => $(x).innerHTML = "");
+    $("#picked").textContent = "Today's picks are chosen at 10 AM Eastern.";
+    ["#top-parlays", "#top-straights", "#lock-hero", "#lock-parlays", "#locks"].forEach(x => $(x).innerHTML = "");
+    $("#top-parlays").innerHTML = `<div class="card empty">No picks yet today.</div>`;
     return;
   }
-  $("#picked").innerHTML = `Picked ${esc(dayLabel(top.locked_at).toLowerCase() === "today" ? "today" : dayLabel(top.locked_at))} at ${clock(top.locked_at)} for games today and tomorrow · new locks every day at 10 AM ET · prices update every 30 min`;
+  $("#picked").innerHTML = `Picked ${esc(dayLabel(top.locked_at).toLowerCase() === "today" ? "today" : dayLabel(top.locked_at))} at ${clock(top.locked_at)} · new picks daily at 10 AM ET`;
   top.parlays.forEach(p => p.legs.forEach(attach));
-  top.straights.forEach(attach);
-  (top.locks ||= []).forEach(l => { attach(l); l.isLock = true; });
+  [top.straights, (top.straights_best ||= []), (top.locks ||= [])].forEach(ls => ls.forEach(attach));
+  top.locks.forEach(l => l.isLock = true);
   top.parlays.filter(p => p.tier === "lock").forEach(p => p.legs.forEach(l => l.isLock = true));
   let i = 0;
-  const tierOf = p => p.tier || "edge";
   const ticket = p => {
     const c = combo(p.legs);
-    const status = p.result ? `<span class="res ${p.result}">${p.result === "W" ? "✓ Parlay hit" : p.result === "L" ? "✗ Parlay missed" : "Push"}</span>` : "";
-    const moved = p.legs.some(l => l.locked_odds !== l.odds) ? ` · picked at ${fmtOdds(p.american)}` : "";
-    return ticketHTML(`${PARLAY_NAMES[p.name] || p.name}${moved}`, p.legs, c.p, c.d, i++, { lock: tierOf(p) === "lock" })
+    const status = p.result ? `<span class="res ${p.result}">${p.result === "W" ? "✓ Hit" : p.result === "L" ? "✗ Missed" : "Push"}</span>` : "";
+    return ticketHTML(PARLAY_NAMES[p.name] || p.name, p.legs, c.p, c.d, i++, { lock: p.tier === "lock" })
       .replace('<div class="t-title">', `<div class="t-title">${status} `);
   };
+  const byLegs = (a, b) => a.legs.length - b.legs.length;
 
-  // ---- locks: hero, lock parlays, then every lock grouped by sport
+  // ---- Top picks (older days stored their main picks as edge-tier parlays and "straights")
+  const tp = top.parlays.filter(p => p.tier !== "lock").sort(byLegs).map(ticket).join("");
+  $("#top-parlays").innerHTML = tp || `<div class="card empty">No mixed parlay cleared the bar today.</div>`;
+  const ts = [...top.straights_best, ...top.straights].sort((a, b) => b.p - a.p);
+  $("#top-straights").innerHTML = ts.length ? sportGroups(ts, i) : `<div class="card empty">No straight bets today.</div>`;
+
+  // ---- Locks
   const locks = top.locks.slice().sort((a, b) => b.p - a.p);
   $("#lock-hero").innerHTML = locks.length ? lockHero(locks[0])
-    : `<div class="card empty">No bet cleared the lock bar for today's picks. On slates without a clear favourite, that's the honest answer.</div>`;
-  const lp = top.parlays.filter(p => tierOf(p) === "lock").sort((a, b) => a.legs.length - b.legs.length).map(ticket).join("");
-  $("#lock-parlays").innerHTML = lp || `<div class="card empty">Not enough locks across different games for a lock parlay today.</div>`;
-  const bySport = {};
-  locks.slice(1).forEach(l => (bySport[l.sport] ||= []).push(l));
-  const groups = Object.entries(bySport).sort((a, b) => b[1][0].p - a[1][0].p);
-  $("#locks").innerHTML = groups.length ? groups.map(([sport, ls]) => `<div class="ticket lock-group" style="--i:${i++}">
-      <div class="lg-head">${iconOf(sport)} ${esc(leagueName(sport))}<span>${plural(ls.length, "lock")}</span></div>
-      ${ls.map(l => legHTML(l)).join("")}</div>`).join("")
-    : locks.length ? "" : `<div class="card empty">No other locks today.</div>`;
-
-  // ---- value plays (collapsed)
-  const f = top.parlays.filter(p => tierOf(p) === "edge").map(ticket).join("");
-  $("#featured").innerHTML = f || `<div class="card empty">No value parlay cleared the edge bar today.</div>`;
-  const sports = [...new Set(top.straights.map(l => l.sport))];
-  if (!sports.includes(state.straightSport)) state.straightSport = "all";
-  $("#straight-filter").innerHTML = [["all", "All"], ...sports.map(k => [k, leagueName(k)])]
-    .map(([v, l]) => `<button class="chip" data-v="${esc(v)}" aria-pressed="${state.straightSport === v}">${esc(l)}</button>`).join("");
-  $("#straight-filter").hidden = sports.length < 2;
-  const list = top.straights.filter(l => state.straightSport === "all" || l.sport === state.straightSport)
-    .sort((a, b) => a.start.localeCompare(b.start));
-  $("#straights").innerHTML = list.length
-    ? `<div class="ticket" style="--i:${i}">${list.map(l => legHTML(l)).join("")}</div>`
-    : `<div class="card empty">No straight bets with an edge today.</div>`;
+    : `<div class="card empty">No bet cleared the lock bar today. On slates without a clear favourite, that's the honest answer.</div>`;
+  const lp = top.parlays.filter(p => p.tier === "lock").sort(byLegs).map(ticket).join("");
+  $("#lock-parlays").innerHTML = lp || `<div class="card empty">No lock parlay today.</div>`;
+  $("#locks").innerHTML = locks.length > 1 ? sportGroups(locks.slice(1), i + 10) : locks.length ? "" : `<div class="card empty">No locks today.</div>`;
 }
-$("#value-more .more-head").onclick = () => toggleOpen($("#value-more"));
-$("#straight-filter").onclick = e => {
-  const c = e.target.closest(".chip"); if (!c) return;
-  state.straightSport = c.dataset.v; renderPicks();
-};
 
 // ------------------------------------------------------------------ games tab
 function renderGames() {
@@ -1215,55 +1214,52 @@ function wl(rows) {
 }
 function renderRecord() {
   const r = DATA.record || {};
-  const s = r.straight || { n: 0 }, pr = r.parlays || { n: 0 }, al = r.all_legs || { n: 0 };
-  const stat = (v, label) => `<div class="stat"><b>${v}</b><span>${label}</span></div>`;
-  let html = `<div class="card"><div class="stats">
-      ${stat(pr.n ? `${pr.wins}-${pr.n - pr.wins}` : "—", "Featured parlays")}
-      ${stat(s.n ? `${s.wins}-${s.n - s.wins}` : "—", `Straight bets${s.n ? ` (${pct(s.hit_rate)})` : ""}`)}
-      ${stat(s.n ? `<span class="${s.units >= 0 ? "W" : "L"}">${s.units >= 0 ? "+" : ""}${s.units}u</span>` : "—", "Straight-bet profit, 1 unit each")}
-      ${stat(al.n ? `${pct(al.hit_rate)} / ${pct(al.expected_hit_rate)}` : "—", "Every leg: hit rate vs predicted")}
-    </div></div>`;
-  const lk = r.locks || { n: 0 }, lkp = r.parlays_lock || { n: 0 };
-  if (lk.n || lkp.n) html += `<div class="card"><div class="stats">
-      ${stat(lk.n ? `${lk.wins}-${lk.n - lk.wins}` : "—", `Locks${lk.n ? ` (${pct(lk.hit_rate)} vs ${pct(lk.expected_hit_rate)} predicted)` : ""}`)}
-      ${stat(lkp.n ? `${lkp.wins}-${lkp.n - lkp.wins}` : "—", "Lock parlays")}
-    </div></div>`;
-  const bp = r.parlays_best || { n: 0 }, bst = r.straight_best || { n: 0 };
-  if (bp.n || bst.n) html += `<div class="card"><div class="stats">
-      ${stat(bp.n ? `${bp.wins}-${bp.n - bp.wins}` : "—", "Best-available parlays")}
-      ${stat(bst.n ? `${bst.wins}-${bst.n - bst.wins}` : "—", `Best-available straights${bst.n ? ` (${pct(bst.hit_rate)} vs ${pct(bst.expected_hit_rate)} predicted)` : ""}`)}
-    </div></div>`;
-  const types = Object.entries(r.by_type || {}).filter(([, v]) => v.n);
-  if (types.length) {
-    html += `<h2>By bet type</h2><div class="card"><table><tr><th>Type</th><th class="r">W-L</th><th class="r">Hit</th><th class="r">Predicted</th></tr>
-      ${types.map(([k, v]) => `<tr><td>${esc(k)}</td><td class="r">${v.wins}-${v.n - v.wins}</td><td class="r ${v.hit_rate + 0.03 < v.expected_hit_rate ? "L" : ""}">${pct(v.hit_rate)}</td><td class="r">${pct(v.expected_hit_rate)}</td></tr>`).join("")}
-      </table><div class="hint">When a type hits clearly less often than predicted, the model automatically leans more on the market for it (after 30 graded legs).</div></div>`;
-  }
-  const cal = Object.entries(r.calibration || {}).filter(([, v]) => v.n).sort((a, b) => b[1].n - a[1].n);
-  if (cal.length) {
-    html += `<h2>Model check</h2><div class="card"><table><tr><th>Every prediction</th><th class="r">Bets</th><th class="r">Hit</th><th class="r">We said</th><th class="r">Kalshi said</th></tr>
-      ${cal.map(([k, v]) => `<tr><td>${esc(k)}<br><span class="gmeta">${v.trusted ? "Trusted for Top Picks" : v.n < 150 ? `Learning (${v.n}/150)` : "Not trusted yet"}</span></td><td class="r">${v.n}</td><td class="r ${v.hit_rate + 0.03 < v.expected_hit_rate ? "L" : ""}">${pct(v.hit_rate)}</td><td class="r">${pct(v.expected_hit_rate)}</td><td class="r">${pct(v.market_hit_rate)}</td></tr>`).join("")}
-      </table><div class="hint">Every bet the model priced with an edge is logged daily and graded, not just the Top Picks. A bet type joins Top Picks only after 150 graded predictions that hit about as often as we said.</div></div>`;
-  }
+  const z = { n: 0 };
+  const tp = r.top_parlays || z, ts = r.top_straights || z, lk = r.locks || z, lp = r.parlays_lock || z;
+  const wlS = v => v.n ? `${v.wins}-${v.n - v.wins}` : "—";
+  const units = v => v.n ? `<span class="${v.units >= 0 ? "W" : "L"}">${v.units >= 0 ? "+" : ""}${v.units}u</span>` : "";
+  const row = (icon, title, parts) => `<div class="rec-row"><div class="rr-t">${icon} ${title}</div><div class="rr-v">${parts.join("")}</div></div>`;
+  const part = (label, v, extra = "") => `<div class="rr-p"><b>${wlS(v)}</b><span>${label}${v.n ? ` · ${pct(v.hit_rate)} hit` : ""}${extra}</span></div>`;
+  let html = `<div class="card rec-summary">
+    ${row("⭐", "Top picks", [part("Parlays", tp, tp.n ? ` · ${units(tp)}` : ""), part("Straight bets", ts, ts.n ? ` · ${units(ts)}` : "")])}
+    ${row("🔒", "Locks", [part("Locks", lk), part("Lock parlays", lp)])}
+    <div class="hint">Each bet counted once, graded when Kalshi settles it. Profit assumes 1 unit per bet at the price when picked.</div>
+  </div>`;
+
   const days = r.days || [];
-  html += `<h2>Daily results</h2>` + (days.length ? days.map((d, di) => {
+  html += `<h2>Day by day</h2>` + (days.length ? days.map((d, di) => {
     const legsOf = p => p.legs.map(l => recLeg(l, (p.missed || []).includes(l.id))).join("");
-    const parlays = d.parlays.map(p => `<div class="rec-t"><div class="h">${esc(PARLAY_NAMES[p.name] || p.name)}
-        <span class="res ${p.result || "pending"}">${p.result === "W" ? "✓ Hit" : p.result === "L" ? `✗ Missed${(p.missed || []).length ? ` (${plural(p.missed.length, "leg")})` : ""}` : p.result === "P" ? "Push" : "Pending"}</span>
-        <span class="odds">${fmtOdds(p.american)}</span></div>${legsOf(p)}</div>`).join("");
-    const straights = (d.straights.length ? `<div class="rec-t"><div class="h">Straight bets <span class="odds">${wl(d.straights)}</span></div>
-        ${d.straights.map(l => recLeg(l, l.result === "L")).join("")}</div>` : "")
-      + ((d.locks || []).length ? `<div class="rec-t"><div class="h">Locks <span class="odds">${wl(d.locks)}</span></div>
-        ${d.locks.map(l => recLeg(l, l.result === "L")).join("")}</div>` : "")
-      + ((d.straights_best || []).length ? `<div class="rec-t"><div class="h">Best-available straights <span class="odds">${wl(d.straights_best)}</span></div>
-        ${d.straights_best.map(l => recLeg(l, l.result === "L")).join("")}</div>` : "");
+    const parlayHTML = p => `<div class="rec-t"><div class="h">${esc(PARLAY_NAMES[p.name] || p.name)}
+        <span class="res ${p.result || "pending"}">${p.result === "W" ? "✓ Hit" : p.result === "L" ? `✗ Missed${(p.missed || []).length ? ` ${p.missed.length} of ${p.legs.length}` : ""}` : p.result === "P" ? "Push" : "Pending"}</span>
+        <span class="odds">${fmtOdds(p.american)}</span></div>${legsOf(p)}</div>`;
+    const listHTML = (title, ls) => ls.length ? `<div class="rec-t"><div class="h">${title} <span class="odds">${wl(ls)}</span></div>
+        ${ls.map(l => recLeg(l, l.result === "L")).join("")}</div>` : "";
+    const topP = d.parlays.filter(p => p.tier !== "lock"), lockP = d.parlays.filter(p => p.tier === "lock");
+    const topS = [...(d.straights_best || []), ...d.straights], locks = d.locks || [];
+    const section = (title, body) => body ? `<div class="rec-sec">${title}</div>${body}` : "";
+    const sum = [topP.length && `Parlays ${wl(topP)}`, topS.length && `Straights ${wl(topS)}`, (locks.length || lockP.length) && `Locks ${wl([...locks, ...lockP])}`].filter(Boolean).join("<br>");
     return `<div class="day${di === 0 ? " open" : ""}"><button class="day-head" aria-expanded="${di === 0}">
         <b>${esc(new Date(d.date + "T12:00:00").toLocaleDateString([], { weekday: "short", month: "short", day: "numeric" }))}</b>
-        <span class="sum">Parlays ${wl(d.parlays)}<br>Straights ${wl(d.straights)}</span>${CHEV}</button>
-        <div class="collapse"><div>${parlays}${straights}</div></div></div>`;
-  }).join("") : `<div class="card empty">Every day's Top Picks are logged here and graded as their games finish.</div>`);
+        <span class="sum">${sum}</span>${CHEV}</button>
+        <div class="collapse"><div>
+          ${section("⭐ Top picks", topP.map(parlayHTML).join("") + listHTML("Straight bets", topS))}
+          ${section("🔒 Locks", lockP.map(parlayHTML).join("") + listHTML("Locks", locks))}
+        </div></div></div>`;
+  }).join("") : `<div class="card empty">Every day's picks are logged here and graded as their games finish.</div>`);
+
+  // ---- model details, out of the way
+  const cal = Object.entries(r.calibration || {}).filter(([, v]) => v.n).sort((a, b) => b[1].n - a[1].n);
+  if (cal.length) {
+    html += `<div class="card fold" id="model-details" style="margin-top:18px">
+      <button class="fold-head" aria-expanded="false">Model details${CHEV}</button>
+      <div class="collapse"><div><table style="margin-top:10px"><tr><th>Every prediction</th><th class="r">Bets</th><th class="r">Hit</th><th class="r">We said</th><th class="r">Kalshi</th></tr>
+      ${cal.map(([k, v]) => `<tr><td>${esc(k)}<br><span class="gmeta">${v.trusted ? "Used for picks" : v.n < 150 ? `Learning (${v.n}/150)` : "Not trusted yet"}</span></td><td class="r">${v.n}</td><td class="r ${v.hit_rate + 0.03 < v.expected_hit_rate ? "L" : ""}">${pct(v.hit_rate)}</td><td class="r">${pct(v.expected_hit_rate)}</td><td class="r">${pct(v.market_hit_rate)}</td></tr>`).join("")}
+      </table><div class="hint">Every bet the model rates is logged and graded, not just the picks, and the model retrains on these results every refresh.</div></div></div></div>`;
+  }
   $("#record").innerHTML = html;
   $$("#record .day-head").forEach(b => b.onclick = () => toggleOpen(b.parentElement));
+  const md = $("#model-details .fold-head");
+  if (md) md.onclick = () => toggleOpen($("#model-details"));
 }
 
 // ------------------------------------------------------------------ tabs
@@ -1271,7 +1267,7 @@ let picksCheckedAt = 0;
 async function refreshPicks() {
   if (!PRICE_PROXY || Date.now() - picksCheckedAt < 60e3) return;
   const top = DATA.top || { parlays: [], straights: [] };
-  const legs = [...top.parlays.flatMap(p => p.legs), ...top.straights].filter(l => !l.result);
+  const legs = [...top.parlays.flatMap(p => p.legs), ...top.straights, ...(top.straights_best || []), ...(top.locks || [])].filter(l => !l.result);
   try { await refreshPrices(legs); picksCheckedAt = Date.now(); renderPicks(); }
   catch (err) { console.error(err); }
 }

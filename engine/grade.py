@@ -307,15 +307,32 @@ def _stats(rows, odds_key="odds", p_key="p"):
             "units": round(profit, 2), "roi": round(profit / len(rows), 3)}
 
 
+def _once(rows: list[dict], key=lambda r: r["id"]) -> list[dict]:
+    """Each bet counted once, even if it appeared on two days' cards."""
+    seen, out = set(), []
+    for r in rows:
+        k = key(r)
+        if k not in seen:
+            seen.add(k)
+            out.append(r)
+    return out
+
+
 def summary() -> dict:
     logs = _locked_logs()
+    # Top picks over time: the old edge tier and the best-available tier (both were the main
+    # picks on their day); Locks are their own record
+    top_straights = _once([log["legs"][i] for log in logs for i in log["straights"] + log.get("straights_best", [])])
+    top_parlays = _once([p for log in logs for p in log["parlays"] if p.get("tier", "edge") in ("edge", "best")],
+                        key=lambda p: tuple(sorted(p["legs"])))
     straights = [log["legs"][i] for log in logs for i in log["straights"]]
     best_straights = [log["legs"][i] for log in logs for i in log.get("straights_best", [])]
     parlays = [p for log in logs for p in log["parlays"] if p.get("tier", "edge") == "edge"]
     best_parlays = [p for log in logs for p in log["parlays"] if p.get("tier") == "best"]
-    locks = [log["legs"][i] for log in logs for i in log.get("locks", [])]
-    lock_parlays = [p for log in logs for p in log["parlays"] if p.get("tier") == "lock"]
-    all_legs = [l for log in logs for l in log["legs"].values()]
+    locks = _once([log["legs"][i] for log in logs for i in log.get("locks", [])])
+    lock_parlays = _once([p for log in logs for p in log["parlays"] if p.get("tier") == "lock"],
+                         key=lambda p: tuple(sorted(p["legs"])))
+    all_legs = _once([l for log in logs for l in log["legs"].values()])
     by = lambda rows, key: {k: _stats([r for r in rows if key(r) == k]) for k in sorted({key(r) for r in rows})}
     clv = [implied_prob(l["close_odds"]) - implied_prob(l["odds"]) for l in all_legs
            if l.get("close_odds") and l["result"] is not None]
@@ -334,6 +351,8 @@ def summary() -> dict:
         "parlays": _stats(parlays, odds_key="american"),
         "straight_best": _stats(best_straights),
         "parlays_best": _stats(best_parlays, odds_key="american"),
+        "top_straights": _stats(top_straights),
+        "top_parlays": _stats(top_parlays, odds_key="american"),
         "locks": _stats(locks),
         "parlays_lock": _stats(lock_parlays, odds_key="american"),
         "all_legs": _stats(all_legs),

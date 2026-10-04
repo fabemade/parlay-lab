@@ -131,68 +131,83 @@ def is_lock(l: dict) -> bool:
             and l["edge"] >= LOCK_MIN_EDGE and k.get("price", 100) <= LOCK_MAX_PRICE)
 
 
-def pick_top(all_legs: list[dict], today: dt.date) -> tuple[dict, list[str], list[str]]:
-    """The day's picks, from games today and tomorrow only, in two tiers.
+TOP_P, TOP_MIN_EDGE = 0.55, -0.02     # Top picks: likely, and priced near fair or better
+TOP_STRAIGHTS, TOP_PER_SPORT = 10, 2
 
-    Locks: the most likely bets on the board, as single bets (one per game, a few per
-    sport) and as 2-, 3- and 4-leg lock parlays mixed across sports.
-    Value plays: every leg beats Kalshi's price after fees by our model. Riskier, pays more.
-    No leg is reused between parlays, so one miss can't sink several tickets.
-    """
-    window = {today, today + dt.timedelta(days=1)}
-    legs = [l for l in all_legs if candidate(l)
-            and dt.datetime.fromisoformat(l["start"].replace("Z", "+00:00")).astimezone(ET).date() in window]
-    pool = [l for l in legs if is_lock(l)]
-    featured, used = {}, set()
-    fresh = lambda ls: [l for l in ls if l["id"] not in used]
-    n_sports = len({l["sport"] for l in pool})
-    lock_kw = dict(mode="safest", min_edge=LOCK_MIN_EDGE, min_odds=-5000, max_odds=200, pool=45)
 
-    def band(n: int, target: float) -> list[dict]:
-        # The likeliest locks are too short-priced to reach a payout target together (two 95c
-        # legs pay about -900), and a likeliest-first search never looks past them. An n-leg
-        # ticket paying `target` needs legs costing at most target_decimal ** (-1/n) each, so
-        # draw each lock parlay from locks priced inside that band.
-        cap = american_to_decimal(target) ** (-1 / n)
-        return [l for l in pool if l["p_breakeven"] <= cap + 1e-9]
-    specs = [
-        # name, pool, search settings, minimum hit chance
-        # each lock parlay must pay something real: -300 / -200 / even money at least
-        ("lock_2", band(2, -300), dict(n=2, target_american=-300, max_per_sport=1 if n_sports >= 2 else None, **lock_kw), 0.65),
-        ("lock_3", band(3, -200), dict(n=3, target_american=-200, max_per_sport=1 if n_sports >= 3 else 2, **lock_kw), 0.55),
-        ("lock_4", band(4, 100), dict(n=4, target_american=100, max_per_sport=2, **lock_kw), 0.45),
-        ("safest_2", legs, dict(n=2, mode="safest", target_american=100, min_edge=0.005), 0.30),
-        ("safest_3", legs, dict(n=3, mode="safest", target_american=150, min_edge=0.005), 0.18),
-        ("value_3", legs, dict(n=3, mode="value", min_hit=0.2, min_edge=0.005), 0.0),
-    ]
-    for name, ls, kw, floor in specs:
-        n = kw.pop("n")
-        p = parlay.build(fresh(ls), n, **kw)
-        if p and p["p"] >= floor:
-            featured[name] = {**p, "tier": "lock" if name.startswith("lock") else "edge"}
-            used.update(p["legs"])
-    # single locks: likeliest first, one per game, a few per sport so the card stays varied
-    locks, per, games, totals = [], {}, set(), {}
-    by_conf = sorted(pool, key=lambda l: (-l["p"], -l["edge"]))
+def _varied(cands: list[dict], n_max: int, per_sport: int, games: set, totals_max: int,
+            totals_per_sport: int) -> list[str]:
+    """Likeliest first, one per game, a few per sport, and winners/spreads before totals:
+    Kalshi lists dozens of total strikes per game, which would otherwise crowd everything out."""
+    out, per, totals = [], {}, {}
+    by_conf = sorted(cands, key=lambda l: (-l["p"], -l["edge"]))
     for l in [l for l in by_conf if l["market"] != "total"] + [l for l in by_conf if l["market"] == "total"]:
-        if per.get(l["sport"], 0) >= LOCKS_PER_SPORT or l["game_id"] in games or len(locks) >= LOCKS_MAX:
+        if per.get(l["sport"], 0) >= per_sport or l["game_id"] in games or len(out) >= n_max:
             continue
-        if l["market"] == "total" and (sum(totals.values()) >= LOCK_TOTALS_MAX
-                                       or totals.get(l["sport"], 0) >= LOCK_TOTALS_PER_SPORT):
+        if l["market"] == "total" and (sum(totals.values()) >= totals_max
+                                       or totals.get(l["sport"], 0) >= totals_per_sport):
             continue
-        locks.append(l["id"])
+        out.append(l["id"])
         games.add(l["game_id"])
         per[l["sport"]] = per.get(l["sport"], 0) + 1
         if l["market"] == "total":
             totals[l["sport"]] = totals.get(l["sport"], 0) + 1
-    # value plays: the best few per league by expected value, one per game
-    straights, per = [], {}
-    for l in sorted(parlay.eligible(legs, min_edge=0.005), key=lambda l: -l["ev"]):
-        if l["p"] >= 0.45 and per.get(l["sport"], 0) < STRAIGHTS_PER_LEAGUE and l["game_id"] not in games:
-            straights.append(l["id"])
-            games.add(l["game_id"])
-            per[l["sport"]] = per.get(l["sport"], 0) + 1
-    return featured, straights, locks
+    return out
+
+
+def pick_top(all_legs: list[dict], today: dt.date) -> tuple[dict, list[str], list[str]]:
+    """The day's card: Top picks and Locks, for games before the next day's card.
+
+    Picks are chosen by how likely they are, not by how far our model sits from Kalshi's
+    price: graded results showed the "edge" picks hit exactly what Kalshi said (50%), not
+    what we said (54%). Selecting on disagreement mostly selects the model's noise.
+
+    Top picks: mixed parlays (2, 3, 4 legs, across sports) and straight bets, each leg 55%+
+    and priced near fair or better.
+    Locks: bets both our model and Kalshi rate 80%+, as singles and lock parlays.
+    No leg is reused between parlays, and no game appears in both lists of straights.
+    """
+    # Each card covers games until the next card (24h). With "today and tomorrow", a
+    # Saturday game was picked on Friday's card and again on Saturday's, and counted twice.
+    until = dt.datetime.combine(today + dt.timedelta(days=1), dt.time(grade.LOCK_HOUR), ET)
+    legs = [l for l in all_legs if candidate(l)
+            and dt.datetime.fromisoformat(l["start"].replace("Z", "+00:00")) < until]
+    lock_pool = [l for l in legs if is_lock(l)]
+    top_pool = [l for l in legs if l["p"] >= TOP_P and l["edge"] >= TOP_MIN_EDGE and not is_lock(l)]
+    featured, used = {}, set()
+    fresh = lambda ls: [l for l in ls if l["id"] not in used]
+
+    def band(pool: list[dict], n: int, target: float) -> list[dict]:
+        # A likeliest-first search never looks past the shortest prices, which can't reach a
+        # payout target together (two 95c legs pay about -900). An n-leg ticket paying
+        # `target` needs legs costing at most target_decimal ** (-1/n) each.
+        cap = american_to_decimal(target) ** (-1 / n)
+        return [l for l in pool if l["p_breakeven"] <= cap + 1e-9]
+
+    def mix(pool, n):   # one leg per sport when the slate allows
+        k = len({l["sport"] for l in pool})
+        return 1 if k >= n else 2
+    kw = dict(mode="safest", min_odds=-5000, max_odds=300, pool=45)
+    specs = [
+        # name, tier, pool, legs, minimum payout, minimum hit chance
+        ("lock_2", "lock", lock_pool, 2, -300, 0.65),
+        ("lock_3", "lock", lock_pool, 3, -200, 0.55),
+        ("lock_4", "lock", lock_pool, 4, 100, 0.45),
+        ("best_2", "best", top_pool, 2, 100, 0.35),
+        ("best_3", "best", top_pool, 3, 200, 0.24),
+        ("best_4", "best", top_pool, 4, 350, 0.15),
+    ]
+    for name, tier, pool, n, target, floor in specs:
+        cands = fresh(band(pool, n, target))
+        p = parlay.build(cands, n, target_american=target, max_per_sport=mix(cands, n),
+                         min_edge=LOCK_MIN_EDGE if tier == "lock" else TOP_MIN_EDGE, **kw)
+        if p and p["p"] >= floor:
+            featured[name] = {**p, "tier": tier}
+            used.update(p["legs"])
+    games: set = set()
+    locks = _varied(lock_pool, LOCKS_MAX, LOCKS_PER_SPORT, games, LOCK_TOTALS_MAX, LOCK_TOTALS_PER_SPORT)
+    top = _varied(top_pool, TOP_STRAIGHTS, TOP_PER_SPORT, games, 4, 1)
+    return featured, top, locks
 
 
 def apply_training(legs: list[dict]) -> int:
@@ -321,17 +336,25 @@ def main():
     featured, straights = {}, []
     # only a full run (every league) may lock the day's picks
     if top_log is None and not args.sports and (args.date or now.hour >= grade.LOCK_HOUR):
-        featured, straights, locks = pick_top(all_legs, today)
+        featured, top, locks = pick_top(all_legs, today)
         problems = validate(all_legs, featured)
         if problems:
             for msg in problems[:25]:
                 log("  ✗ " + msg)
             log(f"\n{len(problems)} consistency problems; not publishing this board.")
             return 1
-        top_log = grade.lock_picks(day, now.isoformat(timespec="minutes"), legs_by_id, featured, straights, locks=locks)
+        top_log = grade.lock_picks(day, now.isoformat(timespec="minutes"), legs_by_id, featured, [], best=top, locks=locks)
         grade.record_calibration(day, all_legs)
-        log(f"  Locked today's picks: {len(locks)} locks, {sum(p['tier'] == 'lock' for p in featured.values())} lock parlays, "
-            f"{len(straights)} value plays, {sum(p['tier'] == 'edge' for p in featured.values())} value parlays")
+        log(f"  Locked today's card: {len(top)} top straights, {sum(p['tier'] == 'best' for p in featured.values())} top parlays, "
+            f"{len(locks)} locks, {sum(p['tier'] == 'lock' for p in featured.values())} lock parlays")
+    elif top_log is not None and "straights_best" not in top_log and not args.sports:
+        # a day locked before the Top picks tier existed: add that tier from games not yet started
+        featured, top, _ = pick_top(all_legs, today)
+        featured = {n: p for n, p in featured.items() if p["tier"] == "best"}
+        if not validate(all_legs, featured):
+            top_log = grade.add_best_tier(day, legs_by_id, featured, top)
+            log(f"  Added Top picks to today's card: {len(top_log['straights_best'])} straights, "
+                f"{sum(p.get('tier') == 'best' for p in top_log['parlays'])} parlays")
     problems = validate(all_legs, {})
     if problems:
         for msg in problems[:25]:
