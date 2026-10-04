@@ -135,7 +135,7 @@
     "contract": "Yes \u00b7 Carolina",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -137
   },
   "401869932:KXNCAAFGAME-26OCT03ARSTULL-ULL:yes": {
@@ -230,7 +230,7 @@
     "buy": "yes"
    },
    "result": null,
-   "close_odds": -239
+   "close_odds": -228
   },
   "401862792:KXNCAAFGAME-26OCT03TEMUSF-USF:yes": {
    "id": "401862792:KXNCAAFGAME-26OCT03TEMUSF-USF:yes",
@@ -323,7 +323,7 @@
     "contract": "Yes \u00b7 South Carolina wins by over 1.5 points",
     "buy": "yes"
    },
-   "result": null,
+   "result": "L",
    "close_odds": -121
   },
   "401891776:KXNHLGAME-26OCT03CHIBUF-BUF:yes": {
@@ -369,7 +369,7 @@
     "contract": "Yes \u00b7 Buffalo",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -239
   },
   "401866430:KXNCAAFSPREAD-26OCT03AKRCMU-CMU2:yes": {
@@ -416,7 +416,7 @@
     "contract": "Yes \u00b7 Central Michigan wins by over 1.5 points",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -228
   },
   "401858253:KXNCAAFSPREAD-26OCT03UVAFSU-FSU2:yes": {
@@ -464,7 +464,7 @@
     "contract": "Yes \u00b7 Florida St. wins by over 1.5 points",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": 105
   },
   "401861112:KXUEFANLGAME-26OCT03ISLBUL-ISL:yes": {
@@ -599,7 +599,7 @@
     "contract": "Yes \u00b7 Central Michigan",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -263
   },
   "401900593:KXCONCACAFNLTOTAL-26OCT02LCAGLP-4:no": {
@@ -689,7 +689,7 @@
     "contract": "Yes \u00b7 UNLV",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -116
   },
   "401869932:KXNCAAFSPREAD-26OCT03ARSTULL-ULL2:yes": {
@@ -1275,7 +1275,10 @@
    "ev": 0.0538,
    "tier": "edge",
    "name": "safest_3",
-   "result": null
+   "result": "L",
+   "missed": [
+    "401856709:KXNCAAFSPREAD-26OCT03UKSCAR-SCAR2:yes"
+   ]
   },
   {
    "legs": [
@@ -1306,7 +1309,8 @@
    "ev": -0.0615,
    "tier": "best",
    "name": "best_3",
-   "result": null
+   "result": "W",
+   "missed": []
   },
   {
    "legs": [
