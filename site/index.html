@@ -985,12 +985,12 @@ function lockHero(l) {
 function renderPicks() {
   const top = DATA.top;
   if (!top) {
-    $("#picked").textContent = "Today's locks are chosen at noon Eastern.";
+    $("#picked").textContent = "Today's locks are chosen at 10 AM Eastern.";
     $("#lock-hero").innerHTML = `<div class="card empty">No locks yet today.</div>`;
     ["#lock-parlays", "#locks", "#featured", "#straights"].forEach(x => $(x).innerHTML = "");
     return;
   }
-  $("#picked").innerHTML = `Picked ${esc(dayLabel(top.locked_at).toLowerCase() === "today" ? "today" : dayLabel(top.locked_at))} at ${clock(top.locked_at)} for games today and tomorrow · new locks every day at noon ET · prices update every 30 min`;
+  $("#picked").innerHTML = `Picked ${esc(dayLabel(top.locked_at).toLowerCase() === "today" ? "today" : dayLabel(top.locked_at))} at ${clock(top.locked_at)} for games today and tomorrow · new locks every day at 10 AM ET · prices update every 30 min`;
   top.parlays.forEach(p => p.legs.forEach(attach));
   top.straights.forEach(attach);
   (top.locks ||= []).forEach(l => { attach(l); l.isLock = true; });
