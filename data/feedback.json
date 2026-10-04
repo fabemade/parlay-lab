@@ -1,9 +1,9 @@
 {
  "cfb|Game lines": {
-  "n": 298,
+  "n": 347,
   "trusted": true,
   "w_mult": 1.0,
-  "z": 1.78
+  "z": 1.2
  },
  "mlb|Game lines": {
   "n": 2,
@@ -30,16 +30,16 @@
   "z": -0.75
  },
  "nhl|Player props": {
-  "n": 55,
+  "n": 56,
   "trusted": false,
   "w_mult": 0.5,
-  "z": 1.12
+  "z": 1.0
  },
  "soccer_arg.1|Game lines": {
-  "n": 4,
+  "n": 5,
   "trusted": true,
   "w_mult": 1.0,
-  "z": 1.66
+  "z": 2.36
  },
  "soccer_bra.1|Game lines": {
   "n": 1,

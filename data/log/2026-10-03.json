@@ -44,7 +44,7 @@
     "buy": "yes"
    },
    "result": null,
-   "close_odds": -142
+   "close_odds": -168
   },
   "401872972:KXNFLGAME-26OCT04NYJCHI-CHI:yes": {
    "id": "401872972:KXNFLGAME-26OCT04NYJCHI-CHI:yes",
@@ -140,7 +140,7 @@
     "buy": "yes"
    },
    "result": null,
-   "close_odds": -137
+   "close_odds": -131
   },
   "401856820:KXNCAAFGAME-26OCT03CINARIZ-ARIZ:yes": {
    "id": "401856820:KXNCAAFGAME-26OCT03CINARIZ-ARIZ:yes",
@@ -278,7 +278,7 @@
     "buy": "yes"
    },
    "result": null,
-   "close_odds": -208
+   "close_odds": -183
   },
   "401918295:KXWNBASPREAD-26OCT04NYATL-ATL2:yes": {
    "id": "401918295:KXWNBASPREAD-26OCT04NYATL-ATL2:yes",
@@ -325,7 +325,7 @@
     "buy": "yes"
    },
    "result": null,
-   "close_odds": -148
+   "close_odds": -154
   },
   "401858246:KXNCAAFSPREAD-26OCT03BCSMU-SMU17:yes": {
    "id": "401858246:KXNCAAFSPREAD-26OCT03BCSMU-SMU17:yes",
@@ -926,7 +926,7 @@
     "buy": "yes"
    },
    "result": null,
-   "close_odds": -168
+   "close_odds": -175
   },
   "401864513:KXNCAAFGAME-26OCT04SJSUHAW-HAW:yes": {
    "id": "401864513:KXNCAAFGAME-26OCT04SJSUHAW-HAW:yes",
