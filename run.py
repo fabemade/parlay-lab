@@ -19,6 +19,7 @@ from zoneinfo import ZoneInfo
 
 from engine import espn, grade, kalshi, mlb, parlay, ratings
 from engine.picks import GameModel, build_legs, finalize
+from engine.odds import american_to_decimal
 from engine.sports import SPORTS
 
 ROOT = Path(__file__).resolve().parent
@@ -116,6 +117,10 @@ LOCK_AGREE = 0.08          # model and market within 8 points of each other
 LOCK_MAX_PRICE = 95        # cents; above that the payout is too small to be worth a slot
 LOCK_MIN_EDGE = -0.03      # can sit a little under Kalshi's price, never far under
 LOCKS_MAX, LOCKS_PER_SPORT = 12, 3
+# Kalshi lists dozens of over/under strikes per game, so ranked purely by probability the
+# card fills with "at least 1 goal"-type totals at 95c. Winners and spreads come first;
+# totals are capped so the locks stay varied.
+LOCK_TOTALS_MAX, LOCK_TOTALS_PER_SPORT = 5, 2
 
 
 def is_lock(l: dict) -> bool:
@@ -141,12 +146,21 @@ def pick_top(all_legs: list[dict], today: dt.date) -> tuple[dict, list[str], lis
     featured, used = {}, set()
     fresh = lambda ls: [l for l in ls if l["id"] not in used]
     n_sports = len({l["sport"] for l in pool})
-    lock_kw = dict(mode="safest", min_edge=LOCK_MIN_EDGE, min_odds=-5000, max_odds=200)
+    lock_kw = dict(mode="safest", min_edge=LOCK_MIN_EDGE, min_odds=-5000, max_odds=200, pool=45)
+
+    def band(n: int, target: float) -> list[dict]:
+        # The likeliest locks are too short-priced to reach a payout target together (two 95c
+        # legs pay about -900), and a likeliest-first search never looks past them. An n-leg
+        # ticket paying `target` needs legs costing at most target_decimal ** (-1/n) each, so
+        # draw each lock parlay from locks priced inside that band.
+        cap = american_to_decimal(target) ** (-1 / n)
+        return [l for l in pool if l["p_breakeven"] <= cap + 1e-9]
     specs = [
         # name, pool, search settings, minimum hit chance
-        ("lock_2", pool, dict(n=2, target_american=-400, max_per_sport=1 if n_sports >= 2 else None, **lock_kw), 0.68),
-        ("lock_3", pool, dict(n=3, target_american=-250, max_per_sport=1 if n_sports >= 3 else 2, **lock_kw), 0.58),
-        ("lock_4", pool, dict(n=4, target_american=-120, max_per_sport=2, **lock_kw), 0.48),
+        # each lock parlay must pay something real: -300 / -200 / even money at least
+        ("lock_2", band(2, -300), dict(n=2, target_american=-300, max_per_sport=1 if n_sports >= 2 else None, **lock_kw), 0.65),
+        ("lock_3", band(3, -200), dict(n=3, target_american=-200, max_per_sport=1 if n_sports >= 3 else 2, **lock_kw), 0.55),
+        ("lock_4", band(4, 100), dict(n=4, target_american=100, max_per_sport=2, **lock_kw), 0.45),
         ("safest_2", legs, dict(n=2, mode="safest", target_american=100, min_edge=0.005), 0.30),
         ("safest_3", legs, dict(n=3, mode="safest", target_american=150, min_edge=0.005), 0.18),
         ("value_3", legs, dict(n=3, mode="value", min_hit=0.2, min_edge=0.005), 0.0),
@@ -158,12 +172,19 @@ def pick_top(all_legs: list[dict], today: dt.date) -> tuple[dict, list[str], lis
             featured[name] = {**p, "tier": "lock" if name.startswith("lock") else "edge"}
             used.update(p["legs"])
     # single locks: likeliest first, one per game, a few per sport so the card stays varied
-    locks, per, games = [], {}, set()
-    for l in sorted(pool, key=lambda l: (-l["p"], -l["edge"])):
-        if per.get(l["sport"], 0) < LOCKS_PER_SPORT and l["game_id"] not in games and len(locks) < LOCKS_MAX:
-            locks.append(l["id"])
-            games.add(l["game_id"])
-            per[l["sport"]] = per.get(l["sport"], 0) + 1
+    locks, per, games, totals = [], {}, set(), {}
+    by_conf = sorted(pool, key=lambda l: (-l["p"], -l["edge"]))
+    for l in [l for l in by_conf if l["market"] != "total"] + [l for l in by_conf if l["market"] == "total"]:
+        if per.get(l["sport"], 0) >= LOCKS_PER_SPORT or l["game_id"] in games or len(locks) >= LOCKS_MAX:
+            continue
+        if l["market"] == "total" and (sum(totals.values()) >= LOCK_TOTALS_MAX
+                                       or totals.get(l["sport"], 0) >= LOCK_TOTALS_PER_SPORT):
+            continue
+        locks.append(l["id"])
+        games.add(l["game_id"])
+        per[l["sport"]] = per.get(l["sport"], 0) + 1
+        if l["market"] == "total":
+            totals[l["sport"]] = totals.get(l["sport"], 0) + 1
     # value plays: the best few per league by expected value, one per game
     straights, per = [], {}
     for l in sorted(parlay.eligible(legs, min_edge=0.005), key=lambda l: -l["ev"]):
