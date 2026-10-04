@@ -43,7 +43,7 @@
     "contract": "Yes \u00b7 Egypt",
     "buy": "yes"
    },
-   "result": null,
+   "result": "L",
    "close_odds": -168
   },
   "401872972:KXNFLGAME-26OCT04NYJCHI-CHI:yes": {
@@ -91,7 +91,7 @@
     "contract": "Yes \u00b7 Chicago",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -191
   },
   "401872967:KXNFLSPREAD-26OCT04DALHOU-HOU2:yes": {
@@ -139,7 +139,7 @@
     "contract": "Yes \u00b7 HOU Texans wins by over 1.5 points",
     "buy": "yes"
    },
-   "result": null,
+   "result": "L",
    "close_odds": -131
   },
   "401856820:KXNCAAFGAME-26OCT03CINARIZ-ARIZ:yes": {
@@ -277,7 +277,7 @@
     "contract": "Yes \u00b7 Netherlands wins by more than 1.5 goals",
     "buy": "yes"
    },
-   "result": null,
+   "result": "L",
    "close_odds": -191
   },
   "401918295:KXWNBASPREAD-26OCT04NYATL-ATL2:yes": {
@@ -324,7 +324,7 @@
     "contract": "Yes \u00b7 Atlanta wins by over 1.5 points",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -154
   },
   "401858246:KXNCAAFSPREAD-26OCT03BCSMU-SMU17:yes": {
@@ -925,7 +925,7 @@
     "contract": "Yes \u00b7 Atlanta",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -183
   },
   "401864513:KXNCAAFGAME-26OCT04SJSUHAW-HAW:yes": {
@@ -1278,7 +1278,10 @@
    "ev": -0.0643,
    "tier": "best",
    "name": "best_3",
-   "result": null
+   "result": "L",
+   "missed": [
+    "401861122:KXUEFANLSPREAD-26OCT04NEDSRB-NED2:yes"
+   ]
   },
   {
    "legs": [
@@ -1295,7 +1298,8 @@
    "ev": -0.0669,
    "tier": "best",
    "name": "best_4",
-   "result": null
+   "result": "W",
+   "missed": []
   }
  ],
  "straights": [

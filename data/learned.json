@@ -1,21 +1,56 @@
 {
  "groups": {
-  "Game lines": {
-   "T": 0.99,
-   "games": 64,
+  "1st half": {
+   "T": 1.0,
+   "games": 4,
    "k": 1.0,
-   "loss_after": 34.623,
-   "loss_before": 34.632,
-   "n": 415
+   "n": 35,
+   "note": "needs 100 graded"
+  },
+  "1st quarter": {
+   "T": 1.0,
+   "games": 4,
+   "k": 1.0,
+   "n": 19,
+   "note": "needs 100 graded"
+  },
+  "2nd quarter": {
+   "T": 1.0,
+   "games": 1,
+   "k": 1.0,
+   "n": 5,
+   "note": "needs 100 graded"
+  },
+  "3rd quarter": {
+   "T": 1.0,
+   "games": 1,
+   "k": 1.0,
+   "n": 5,
+   "note": "needs 100 graded"
+  },
+  "Game lines": {
+   "T": 1.01,
+   "games": 75,
+   "k": 1.05,
+   "loss_after": 36.114,
+   "loss_before": 36.126,
+   "n": 433
   },
   "Player props": {
+   "T": 0.95,
+   "games": 39,
+   "k": 1.05,
+   "loss_after": 23.498,
+   "loss_before": 23.794,
+   "n": 226
+  },
+  "Team props": {
    "T": 1.0,
-   "games": 31,
+   "games": 2,
    "k": 1.0,
-   "loss_after": 14.101,
-   "loss_before": 14.101,
-   "n": 145
+   "n": 10,
+   "note": "needs 100 graded"
   }
  },
- "trained_at": "2026-10-04T19:56+00:00"
+ "trained_at": "2026-10-04T22:53+00:00"
 }

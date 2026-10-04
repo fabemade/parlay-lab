@@ -136,7 +136,7 @@
     "contract": "Yes \u00b7 Baltimore",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -660
   },
   "401891824:KXNHLTOTAL-26OCT04CGYSEA-4:yes": {
@@ -181,7 +181,7 @@
     "buy": "yes"
    },
    "result": null,
-   "close_odds": -564
+   "close_odds": -609
   },
   "401872974:KXNFLGAME-26OCT04MIAMIN-MIN:yes": {
    "id": "401872974:KXNFLGAME-26OCT04MIAMIN-MIN:yes",
@@ -271,7 +271,7 @@
     "contract": "No \u00b7 Over 5.5",
     "buy": "no"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -2580
   },
   "401861126:KXUEFANLTOTAL-26OCT04PORNOR-6:no": {
@@ -315,7 +315,7 @@
     "contract": "No \u00b7 Over 5.5",
     "buy": "no"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -660
   },
   "401841591:KXARGPREMDIVTOTAL-26OCT04RCURAC-5:no": {
@@ -404,7 +404,7 @@
     "contract": "Yes \u00b7 Guyana",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -967
   },
   "401861122:KXUEFANLGAME-26OCT04NEDSRB-NED:yes": {
@@ -449,7 +449,7 @@
     "contract": "Yes \u00b7 Netherlands",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -525
   },
   "401900586:KXCONCACAFNLGAME-26OCT04ARUAIA-ARU:yes": {
@@ -495,7 +495,7 @@
     "buy": "yes"
    },
    "result": null,
-   "close_odds": -1236
+   "close_odds": -1428
   },
   "401883162:KXLALIGA2TOTAL-26OCT04CASCEU-6:no": {
    "id": "401883162:KXLALIGA2TOTAL-26OCT04CASCEU-6:no",
@@ -764,7 +764,7 @@
     "contract": "No \u00b7 Over 5.5",
     "buy": "no"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -2580
   },
   "401918295:KXWNBASPREAD-26OCT04NYATL-ATL2:yes": {
@@ -811,7 +811,7 @@
     "contract": "Yes \u00b7 Atlanta wins by over 1.5 points",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -154
   },
   "401891824:KXNHLTOTAL-26OCT04CGYSEA-3:yes": {
@@ -899,7 +899,7 @@
     "contract": "No \u00b7 Over 3.5",
     "buy": "no"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -306
   },
   "401872977:KXNFLGAME-26OCT04LACSEA-SEA:yes": {
@@ -995,7 +995,7 @@
     "buy": "yes"
    },
    "result": null,
-   "close_odds": -228
+   "close_odds": -239
   }
  },
  "parlays": [
