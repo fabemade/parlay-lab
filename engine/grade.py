@@ -18,12 +18,14 @@ from pathlib import Path
 
 import requests
 
-from .odds import american_to_decimal, implied_prob
+from .odds import american_to_decimal, implied_prob, inv_logit, logit
 
 KALSHI_API = "https://api.elections.kalshi.com/trade-api/v2"
 ROOT = Path(__file__).resolve().parent.parent
 LOG_DIR = ROOT / "data" / "log"
 FEEDBACK_PATH = ROOT / "data" / "feedback.json"
+LEARNED_PATH = ROOT / "data" / "learned.json"
+TRAIN_MIN_ROWS = 100     # graded predictions a bet type needs before its calibration is fitted
 CALIB_DIR = ROOT / "data" / "calib"
 TESTED = "Game lines"   # full-game winner/spread/total: calibrated by the walk-forward backtest
 TRUST_MIN_N = 150       # graded predictions a bet type needs before it can be a Top Pick
@@ -78,14 +80,15 @@ def _snapshot(leg: dict) -> dict:
 
 
 def lock_picks(day: str, locked_at: str, legs_by_id: dict, featured: dict, straights: list[str],
-               best: list[str] = ()) -> dict:
-    ids = {i for p in featured.values() for i in p["legs"]} | set(straights) | set(best)
+               best: list[str] = (), locks: list[str] = ()) -> dict:
+    ids = {i for p in featured.values() for i in p["legs"]} | set(straights) | set(best) | set(locks)
     log = {
         "date": day, "locked_at": locked_at,
         "legs": {i: _snapshot(legs_by_id[i]) for i in ids},
         "parlays": [{**p, "name": name, "result": None} for name, p in featured.items()],
         "straights": straights,
         "straights_best": list(best),
+        "locks": list(locks),
     }
     _write(day, log)
     return log
@@ -133,11 +136,14 @@ def record_calibration(day: str, legs: list[dict]):
     rows = {}
     for l in legs:
         k = l.get("kalshi") or {}
-        if l.get("p_model") is None or l["edge"] < 0 or not k.get("ticker"):
+        # candidates with an edge, plus every high-probability bet (the Locks population)
+        if l.get("p_model") is None or (l["edge"] < 0 and l["p"] < 0.75) or not k.get("ticker"):
             continue
+        # "p" is the model's blend before learned calibration, so retraining doesn't compound;
+        # "pc" is what we showed
         rows[l["id"]] = {"t": k["ticker"], "b": k.get("buy", "yes"), "s": l["sport"],
-                         "g": l.get("group") or TESTED, "p": l["p"], "pm": l["p_market"],
-                         "st": l["start"], "r": None}
+                         "g": l.get("group") or TESTED, "p": l.get("p_raw", l["p"]), "pc": l["p"],
+                         "pm": l["p_market"], "st": l["start"], "r": None}
     CALIB_DIR.mkdir(parents=True, exist_ok=True)
     (CALIB_DIR / f"{day}.json").write_text(json.dumps(rows, separators=(",", ":")))
 
@@ -286,6 +292,7 @@ def top_payload(log: dict | None, legs_by_id: dict) -> dict | None:
         "parlays": [{**p, "legs": [legs[i] for i in p["legs"]]} for p in log["parlays"]],
         "straights": [legs[i] for i in log["straights"]],
         "straights_best": [legs[i] for i in log.get("straights_best", [])],
+        "locks": [legs[i] for i in log.get("locks", [])],
     }
 
 
@@ -306,6 +313,8 @@ def summary() -> dict:
     best_straights = [log["legs"][i] for log in logs for i in log.get("straights_best", [])]
     parlays = [p for log in logs for p in log["parlays"] if p.get("tier", "edge") == "edge"]
     best_parlays = [p for log in logs for p in log["parlays"] if p.get("tier") == "best"]
+    locks = [log["legs"][i] for log in logs for i in log.get("locks", [])]
+    lock_parlays = [p for log in logs for p in log["parlays"] if p.get("tier") == "lock"]
     all_legs = [l for log in logs for l in log["legs"].values()]
     by = lambda rows, key: {k: _stats([r for r in rows if key(r) == k]) for k in sorted({key(r) for r in rows})}
     clv = [implied_prob(l["close_odds"]) - implied_prob(l["odds"]) for l in all_legs
@@ -318,12 +327,15 @@ def summary() -> dict:
             "parlays": [{**p, "legs": [legs[i] for i in p["legs"]]} for p in log["parlays"]],
             "straights": [legs[i] for i in log["straights"]],
             "straights_best": [legs[i] for i in log.get("straights_best", [])],
+            "locks": [legs[i] for i in log.get("locks", [])],
         })
     return {
         "straight": _stats(straights),
         "parlays": _stats(parlays, odds_key="american"),
         "straight_best": _stats(best_straights),
         "parlays_best": _stats(best_parlays, odds_key="american"),
+        "locks": _stats(locks),
+        "parlays_lock": _stats(lock_parlays, odds_key="american"),
         "all_legs": _stats(all_legs),
         "by_grade": by(all_legs, lambda l: l.get("grade", "?")),
         "by_type": by(all_legs, lambda l: l.get("group") or "Game lines"),
@@ -343,7 +355,7 @@ def _calibration_summary() -> dict:
     for g, rs in out.items():
         w = sum(r["r"] == "W" for r in rs)
         res[g] = {"n": len(rs), "hit_rate": round(w / len(rs), 3),
-                  "expected_hit_rate": round(sum(r["p"] for r in rs) / len(rs), 3),
+                  "expected_hit_rate": round(sum(r.get("pc", r["p"]) for r in rs) / len(rs), 3),
                   "market_hit_rate": round(sum(r["pm"] for r in rs) / len(rs), 3),
                   "trusted": g == TESTED or _is_trusted(_z_stats(rs))}
     return res
@@ -425,3 +437,58 @@ def trusted(sport: str, group: str | None) -> bool:
     if g == TESTED and sport in _calibrated_sports():
         return True
     return bool(_feedback().get(f"{sport}|{g}", {}).get("trusted"))
+
+
+# ---------------------------------------------------------------- training on our own results
+
+def train(days: int = 60) -> dict:
+    """Refit the final calibration on every graded prediction (runs each refresh).
+
+    Two numbers per bet type, fitted by maximum likelihood:
+      k: how far to follow the model when it disagrees with Kalshi (1 = as now, 0 = market only)
+      T: a temperature on Kalshi's own probability (<1 = favourites win less often than priced)
+    final = inv_logit(T * logit(market) + k * (logit(ours) - logit(market)))
+    Each game counts once however many contracts it had, and both numbers are pulled toward
+    "no change" (k=1, T=1), so a few days of results nudge the model instead of swinging it.
+    """
+    import numpy as np
+    rows: dict[str, list] = {}
+    for path in _calib_files()[-days:]:
+        for r in json.loads(path.read_text()).values():
+            if r["r"] in ("W", "L"):
+                rows.setdefault(r["g"], []).append(r)
+    out = {"trained_at": dt.datetime.now(dt.timezone.utc).isoformat(timespec="minutes"), "groups": {}}
+    for g, rs in rows.items():
+        games = [r["t"].split("-")[1] if "-" in r["t"] else r["t"] for r in rs]
+        info = {"n": len(rs), "games": len(set(games))}
+        if len(rs) < TRAIN_MIN_ROWS:
+            out["groups"][g] = {**info, "k": 1.0, "T": 1.0, "note": f"needs {TRAIN_MIN_ROWS} graded"}
+            continue
+        count = {x: games.count(x) for x in set(games)}
+        w = np.array([1 / count[x] for x in games])
+        y = np.array([r["r"] == "W" for r in rs], float)
+        lp = np.array([logit(min(max(r["p"], 1e-3), 1 - 1e-3)) for r in rs])
+        lm = np.array([logit(min(max(r["pm"], 1e-3), 1 - 1e-3)) for r in rs])
+
+        def nll(k, T):
+            q = np.clip(1 / (1 + np.exp(-(T * lm + k * (lp - lm)))), 1e-6, 1 - 1e-6)
+            return float(-(w * (y * np.log(q) + (1 - y) * np.log(1 - q))).sum())
+        best = min(((nll(k, T) + 0.5 * ((k - 1) / 0.5) ** 2 + 0.5 * ((T - 1) / 0.1) ** 2, k, T)
+                    for k in np.arange(0, 2.51, 0.05) for T in np.arange(0.8, 1.201, 0.01)))
+        _, k, T = best
+        out["groups"][g] = {**info, "k": round(float(k), 2), "T": round(float(T), 2),
+                            "loss_before": round(nll(1, 1), 3), "loss_after": round(nll(k, T), 3)}
+    LEARNED_PATH.write_text(json.dumps(out, indent=1, sort_keys=True))
+    learned_p.cache = out
+    return out
+
+
+def learned_p(p: float, p_market: float, group: str | None) -> float:
+    """Our probability after the calibration learned from graded results."""
+    if not hasattr(learned_p, "cache"):
+        learned_p.cache = json.loads(LEARNED_PATH.read_text()) if LEARNED_PATH.exists() else {}
+    prm = learned_p.cache.get("groups", {}).get(group or TESTED)
+    if not prm or (prm["k"] == 1.0 and prm["T"] == 1.0):
+        return p
+    lp, lm = logit(min(max(p, 1e-4), 1 - 1e-4)), logit(min(max(p_market, 1e-4), 1 - 1e-4))
+    return inv_logit(prm["T"] * lm + prm["k"] * (lp - lm))

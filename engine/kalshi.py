@@ -51,7 +51,8 @@ LEAGUE = {
 KINDS = ("GAME", "SPREAD", "TOTAL")
 MONTHS = {m: i for i, m in enumerate("JAN FEB MAR APR MAY JUN JUL AUG SEP OCT NOV DEC".split(), 1)}
 FEE = 0.07              # Kalshi taker fee per contract: 0.07 x P x (1 - P)
-PRICE_RANGE = (0.10, 0.90)
+PRICE_RANGE = (0.10, 0.96)
+LOCK_PRICE = 0.95       # the safest contract kept per team/total, for the Locks section
 STRIKES_PER_SIDE = 3    # Kalshi lists many margins; keep a spread of them per team/side
 
 _session = requests.Session()
@@ -156,10 +157,17 @@ def _cost(price: float) -> float:
     return price + FEE * price * (1 - price)
 
 
-def _spread_out(items: list, k: int) -> list:
-    if len(items) <= k:
-        return items
-    return [items[i] for i in sorted({round(x) for x in np.linspace(0, len(items) - 1, k)})]
+def _spread_out(items: list, k: int, price_at: int | None = None) -> list:
+    """k strikes spread across the ladder, plus (with price_at) the safest one still priced
+    at or under LOCK_PRICE, so lock-grade contracts always reach the board."""
+    picked = items if len(items) <= k else [items[i] for i in sorted({round(x) for x in np.linspace(0, len(items) - 1, k)})]
+    if price_at is not None:
+        safe = [r for r in items if r[price_at] <= LOCK_PRICE]
+        if safe:
+            top = max(safe, key=lambda r: r[price_at])
+            if all(top is not r for r in picked):
+                picked = picked + [top]
+    return picked
 
 
 class _Series:
@@ -383,7 +391,7 @@ def _game_legs(gm, ev, codes, series, by_matchup, key, dk_reasons) -> list[dict]
                 per_side[side].append((float(x), m, yes, no))
         for side, rows in per_side.items():
             rows = [r for r in sorted(rows, key=lambda r: r[0]) if PRICE_RANGE[0] <= r[2] <= PRICE_RANGE[1]]
-            for x, m, yes, no in _spread_out(rows, STRIKES_PER_SIDE):
+            for x, m, yes, no in _spread_out(rows, STRIKES_PER_SIDE, price_at=2):
                 if side == "home":
                     p_model = out.p_margin_gt(x)[0]
                 else:
@@ -406,11 +414,11 @@ def _game_legs(gm, ev, codes, series, by_matchup, key, dk_reasons) -> list[dict]
         reasons = dk_reasons.get((g["id"], "total", "over")) or []
         over = [r for r in rows if PRICE_RANGE[0] <= r[2] <= PRICE_RANGE[1]]
         under = [r for r in rows if PRICE_RANGE[0] <= r[3] <= PRICE_RANGE[1]]
-        for x, m, yes, no in _spread_out(over, STRIKES_PER_SIDE):
+        for x, m, yes, no in _spread_out(over, STRIKES_PER_SIDE, price_at=2):
             gt = out.p_total_gt(x)[0]
             add("total", "over", x, f"Over {x:g}", f"Yes · Over {x:g}", yes, gt, yes / (yes + no),
                 reasons, url, m["ticker"], "yes")
-        for x, m, yes, no in _spread_out(under, STRIKES_PER_SIDE):
+        for x, m, yes, no in _spread_out(under, STRIKES_PER_SIDE, price_at=3):
             gt, eq = out.p_total_gt(x)
             add("total", "under", x, f"Under {x:g}", f"No · Over {x:g}", no, max(0.0, 1 - gt - eq), no / (yes + no),
                 reasons, url, m["ticker"], "no")

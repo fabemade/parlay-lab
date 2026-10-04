@@ -217,6 +217,23 @@ section[hidden] { display: none; }
 .pricecheck.stale { color: #f1d9a8; }
 #slip-bar .sp { margin-left: auto; font-family: var(--mono); }
 .leg-sel { font-weight: 700; font-size: 15.5px; }
+.grade.lockb { background: var(--accent-soft); font-size: 15px; }
+.lock-note { font-size: 13px; color: var(--muted); background: var(--panel); border-radius: 14px; padding: 12px 14px; margin: 4px 0 14px; line-height: 1.5; }
+.lock-hero { background: linear-gradient(160deg, rgba(61, 220, 151, .16), var(--panel) 60%); border: 1px solid rgba(61, 220, 151, .35); border-radius: var(--radius); padding: 18px; }
+.lh-top { display: flex; justify-content: space-between; align-items: center; margin-bottom: 10px; }
+.lh-tag { font-size: 12px; font-weight: 800; letter-spacing: .06em; text-transform: uppercase; color: var(--accent); }
+.lh-main { display: flex; justify-content: space-between; gap: 14px; align-items: flex-start; }
+.lh-sel { font-size: 21px; font-weight: 800; letter-spacing: -.02em; line-height: 1.2; }
+.lh-note { font-size: 12.5px; color: var(--faint); margin-top: 3px; }
+.lh-meta { font-size: 13px; color: var(--muted); margin-top: 8px; }
+.lh-conf { text-align: right; flex: none; }
+.lh-conf b { display: block; font: 700 34px/1 var(--mono); color: var(--accent); }
+.lh-conf span { font-size: 12px; color: var(--muted); }
+.lh-meter { margin: 14px 0 12px; }
+.lh-foot { display: flex; justify-content: space-between; align-items: center; gap: 10px; font-size: 13px; color: var(--muted); flex-wrap: wrap; }
+.lock-group .lg-head { display: flex; justify-content: space-between; align-items: center; padding: 14px 18px 4px; font-weight: 800; font-size: 15px; }
+.lock-group .lg-head span { font-size: 12px; color: var(--faint); font-weight: 600; }
+.value-more { margin-top: 26px; }
 .tier-note { font-size: 12.5px; color: var(--faint); margin: -4px 2px 10px; }
 .untested { font-size: 10.5px; font-weight: 700; text-transform: uppercase; letter-spacing: .04em; color: #f1c27d; background: rgba(241, 194, 125, .12); padding: 1px 6px; border-radius: 6px; }
 .leg-sel .note { font-weight: 500; font-size: 12px; color: var(--faint); white-space: nowrap; }
@@ -381,17 +398,25 @@ nav.tabs button[aria-selected="true"] svg { transform: translateY(-2px) scale(1.
 
   <!-- TOP PICKS -->
   <section id="tab-picks" hidden>
-    <h1>Top picks</h1>
+    <h1>Locks</h1>
     <div class="picked" id="picked"></div>
-    <h2>Edge picks</h2>
-    <div class="tier-note">Every leg beats Kalshi's price after fees, by our model.</div>
-    <div id="featured"></div>
-    <div class="chips" id="straight-filter" style="margin:14px 0 10px"></div>
-    <div id="straights"></div>
-    <h2>Best available</h2>
-    <div class="tier-note">The safest tested bets on the board, mixed across sports. Close to a fair price rather than beating it, so these are for variety, not value.</div>
-    <div id="best-featured"></div>
-    <div id="best-straights"></div>
+    <div class="lock-note">The likeliest bets on the board: our model and Kalshi both rate each one 80% or better, and they agree. Nothing is guaranteed, though. An 85% lock still misses about 1 time in 7, and locks pay little, so size bets to match.</div>
+    <div id="lock-hero"></div>
+    <h2>Lock parlays</h2>
+    <div class="tier-note">Locks combined across different sports and games. More payout, a bit less certainty.</div>
+    <div id="lock-parlays"></div>
+    <h2>All locks</h2>
+    <div id="locks"></div>
+    <div class="more value-more" id="value-more">
+      <button class="more-head" aria-expanded="false">Value plays · riskier, bigger payouts
+        <svg class="chev" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M6 9l6 6 6-6"/></svg></button>
+      <div class="collapse"><div><div class="inner">
+        <div class="tier-note" style="margin-top:6px">Bets that beat Kalshi's price by our model. They hit less often than locks; the edge is the point.</div>
+        <div id="featured"></div>
+        <div class="chips" id="straight-filter" style="margin:14px 0 10px"></div>
+        <div id="straights"></div>
+      </div></div></div>
+    </div>
   </section>
 
   <!-- GAMES -->
@@ -437,7 +462,7 @@ nav.tabs button[aria-selected="true"] svg { transform: translateY(-2px) scale(1.
     <button role="tab" data-tab="build" aria-selected="true">
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="3" width="16" height="18" rx="3"/><path d="M8 8h8M8 12h8M8 16h5"/></svg>Build</button>
     <button role="tab" data-tab="picks" aria-selected="false">
-      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l2.7 5.6 6.1.9-4.4 4.3 1 6.1L12 17l-5.4 2.9 1-6.1L3.2 9.5l6.1-.9z"/></svg>Top picks</button>
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="11" width="16" height="10" rx="2.5"/><path d="M8 11V8a4 4 0 0 1 8 0v3"/></svg>Locks</button>
     <button role="tab" data-tab="games" aria-selected="false">
       <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="17" rx="3"/><path d="M3 9h18M8 2v4M16 2v4"/></svg>Games</button>
     <button role="tab" data-tab="record" aria-selected="false">
@@ -727,7 +752,7 @@ function legHTML(l, open = false) {
   const k = l.kalshi;
   return `<div class="leg${open ? " open" : ""}${l.result === "L" ? " missed" : ""}">
     <button class="leg-main" aria-expanded="${open}" onclick="toggleOpen(this.parentElement)">
-      <div class="grade ${l.grade}">${l.grade}</div>
+      ${l.isLock ? `<div class="grade lockb" title="Lock">🔒</div>` : `<div class="grade ${l.grade}">${l.grade}</div>`}
       <div class="leg-info">
         <div class="leg-when">${CLOCK}${esc(whenLong(l.start))} · ${esc(l.short)} <span class="lg-name">${esc(leagueName(l.sport))}</span>${statusOf(l) ? ` <span class="res ${statusOf(l)}">${RES_LABEL[statusOf(l)]}</span>` : ""}${l.untested ? ` <span class="untested">untested</span>` : ""}</div>
         <div class="leg-sel">${esc(describe(l)[0])}${describe(l)[1] ? ` <span class="note">${esc(describe(l)[1])}</span>` : ""}</div>
@@ -754,7 +779,7 @@ function legHTML(l, open = false) {
   </div>`;
 }
 
-function ticketHTML(title, legs, p, d, i = 0) {
+function ticketHTML(title, legs, p, d, i = 0, opts = {}) {
   const ev = p * d - 1;
   const id = "t" + Math.random().toString(36).slice(2, 8);
   return `<div class="ticket" style="--i:${i}">
@@ -764,7 +789,7 @@ function ticketHTML(title, legs, p, d, i = 0) {
     </div>
     <div class="meter"><i style="width:${Math.max(p * 100, 2)}%"></i></div>
     ${priceNote(legs)}
-    ${legs.some(l => l.edge < 0 && l.modeled !== false) ? `<div class="pricecheck stale">At current prices, ${plural(legs.filter(l => l.edge < 0 && l.modeled !== false).length, "leg")} no longer has an edge</div>` : ""}
+    ${!opts.lock && legs.some(l => l.edge < 0 && l.modeled !== false) ? `<div class="pricecheck stale">At current prices, ${plural(legs.filter(l => l.edge < 0 && l.modeled !== false).length, "leg")} no longer has an edge</div>` : ""}
     ${legs.map(l => legHTML(l)).join("")}
     <div class="stake">$<input id="${id}" type="number" inputmode="decimal" min="0" value="${state.stake}" data-dec="${d}" aria-label="Stake">
       <span class="ev">EV ${ev >= 0 ? "+" : ""}${(ev * 100).toFixed(1)}%</span>
@@ -936,35 +961,67 @@ function renderBuild() {
 
 // ------------------------------------------------------------------ top picks
 const PARLAY_NAMES = { safest_2: "Safest 2-leg", safest_3: "Safest 3-leg", safest_4: "Safest 4-leg", value_3: "Best-value 3-leg", props_3: "Player props 3-leg",
-  best_2: "Mixed 2-leg", best_3: "Mixed 3-leg", best_4: "Mixed 4-leg" };
+  best_2: "Mixed 2-leg", best_3: "Mixed 3-leg", best_4: "Mixed 4-leg",
+  lock_2: "2-leg lock parlay", lock_3: "3-leg lock parlay", lock_4: "4-leg lock ladder" };
+const iconOf = sport => (GROUP_LIST.find(g => g.leagues.includes(sport)) || {}).icon || "🎯";
+function lockHero(l) {
+  const k = l.kalshi || {}, [main, note] = describe(l), st = statusOf(l);
+  const pays = k.price ? (state.stake * 100 / k.price).toFixed(2) : null;
+  return `<div class="lock-hero enter">
+    <div class="lh-top"><span class="lh-tag">🔒 Lock of the day</span>${st ? `<span class="res ${st}">${RES_LABEL[st]}</span>` : ""}</div>
+    <div class="lh-main">
+      <div><div class="lh-sel">${esc(main)}</div>${note ? `<div class="lh-note">${esc(note)}</div>` : ""}
+        <div class="lh-meta">${iconOf(l.sport)} ${esc(leagueName(l.sport))} · ${esc(l.short)} · ${esc(whenLong(l.start))}</div></div>
+      <div class="lh-conf"><b>${pct(l.p)}</b><span>likely</span></div>
+    </div>
+    <div class="meter lh-meter"><i style="width:${l.p * 100}%"></i></div>
+    <div class="lh-foot">
+      <span>${k.price ? `${k.price}¢ on Kalshi · $${state.stake} pays $${pays}` : esc(l.odds_str)}</span>
+      ${k.url ? `<a class="book kalshi" href="${esc(k.url)}" target="_blank" rel="noopener">Open on Kalshi →</a>` : ""}
+    </div>
+  </div>`;
+}
+
 function renderPicks() {
   const top = DATA.top;
   if (!top) {
-    $("#picked").textContent = "Today's picks are chosen at 10 AM Eastern.";
-    $("#featured").innerHTML = `<div class="card empty">No picks yet today.</div>`;
-    $("#straights").innerHTML = "";
+    $("#picked").textContent = "Today's locks are chosen at noon Eastern.";
+    $("#lock-hero").innerHTML = `<div class="card empty">No locks yet today.</div>`;
+    ["#lock-parlays", "#locks", "#featured", "#straights"].forEach(x => $(x).innerHTML = "");
     return;
   }
-  const at = new Date(top.locked_at);
-  $("#picked").innerHTML = `Picked ${esc(dayLabel(top.locked_at).toLowerCase() === "today" ? "today" : dayLabel(top.locked_at))} at ${clock(top.locked_at)} for games today and tomorrow · new picks every day at 10 AM ET · prices update every 30 min`;
+  $("#picked").innerHTML = `Picked ${esc(dayLabel(top.locked_at).toLowerCase() === "today" ? "today" : dayLabel(top.locked_at))} at ${clock(top.locked_at)} for games today and tomorrow · new locks every day at noon ET · prices update every 30 min`;
   top.parlays.forEach(p => p.legs.forEach(attach));
   top.straights.forEach(attach);
-  (top.straights_best ||= []).forEach(attach);
+  (top.locks ||= []).forEach(l => { attach(l); l.isLock = true; });
+  top.parlays.filter(p => p.tier === "lock").forEach(p => p.legs.forEach(l => l.isLock = true));
   let i = 0;
   const tierOf = p => p.tier || "edge";
   const ticket = p => {
     const c = combo(p.legs);
     const status = p.result ? `<span class="res ${p.result}">${p.result === "W" ? "✓ Parlay hit" : p.result === "L" ? "✗ Parlay missed" : "Push"}</span>` : "";
     const moved = p.legs.some(l => l.locked_odds !== l.odds) ? ` · picked at ${fmtOdds(p.american)}` : "";
-    return ticketHTML(`${PARLAY_NAMES[p.name] || p.name}${moved}`, p.legs, c.p, c.d, i++).replace('<div class="t-title">', `<div class="t-title">${status} `);
+    return ticketHTML(`${PARLAY_NAMES[p.name] || p.name}${moved}`, p.legs, c.p, c.d, i++, { lock: tierOf(p) === "lock" })
+      .replace('<div class="t-title">', `<div class="t-title">${status} `);
   };
-  const f = top.parlays.filter(p => tierOf(p) === "edge").map(ticket).join("");
-  $("#featured").innerHTML = f || `<div class="card empty">No parlay cleared the edge bar today. When the market and the data agree, the smart play is to pass.</div>`;
-  const bf = top.parlays.filter(p => tierOf(p) === "best").map(ticket).join("");
-  const bs = top.straights_best.slice().sort((a, b) => a.start.localeCompare(b.start));
-  $("#best-featured").innerHTML = bf || `<div class="card empty">Best-available parlays start with tomorrow's picks.</div>`;
-  $("#best-straights").innerHTML = bs.length ? `<h2 style="margin-top:18px">Best available straights</h2><div class="ticket" style="--i:${i}">${bs.map(l => legHTML(l)).join("")}</div>` : "";
 
+  // ---- locks: hero, lock parlays, then every lock grouped by sport
+  const locks = top.locks.slice().sort((a, b) => b.p - a.p);
+  $("#lock-hero").innerHTML = locks.length ? lockHero(locks[0])
+    : `<div class="card empty">No bet cleared the lock bar for today's picks. On slates without a clear favourite, that's the honest answer.</div>`;
+  const lp = top.parlays.filter(p => tierOf(p) === "lock").sort((a, b) => a.legs.length - b.legs.length).map(ticket).join("");
+  $("#lock-parlays").innerHTML = lp || `<div class="card empty">Not enough locks across different games for a lock parlay today.</div>`;
+  const bySport = {};
+  locks.slice(1).forEach(l => (bySport[l.sport] ||= []).push(l));
+  const groups = Object.entries(bySport).sort((a, b) => b[1][0].p - a[1][0].p);
+  $("#locks").innerHTML = groups.length ? groups.map(([sport, ls]) => `<div class="ticket lock-group" style="--i:${i++}">
+      <div class="lg-head">${iconOf(sport)} ${esc(leagueName(sport))}<span>${plural(ls.length, "lock")}</span></div>
+      ${ls.map(l => legHTML(l)).join("")}</div>`).join("")
+    : locks.length ? "" : `<div class="card empty">No other locks today.</div>`;
+
+  // ---- value plays (collapsed)
+  const f = top.parlays.filter(p => tierOf(p) === "edge").map(ticket).join("");
+  $("#featured").innerHTML = f || `<div class="card empty">No value parlay cleared the edge bar today.</div>`;
   const sports = [...new Set(top.straights.map(l => l.sport))];
   if (!sports.includes(state.straightSport)) state.straightSport = "all";
   $("#straight-filter").innerHTML = [["all", "All"], ...sports.map(k => [k, leagueName(k)])]
@@ -976,6 +1033,7 @@ function renderPicks() {
     ? `<div class="ticket" style="--i:${i}">${list.map(l => legHTML(l)).join("")}</div>`
     : `<div class="card empty">No straight bets with an edge today.</div>`;
 }
+$("#value-more .more-head").onclick = () => toggleOpen($("#value-more"));
 $("#straight-filter").onclick = e => {
   const c = e.target.closest(".chip"); if (!c) return;
   state.straightSport = c.dataset.v; renderPicks();
@@ -1165,6 +1223,11 @@ function renderRecord() {
       ${stat(s.n ? `<span class="${s.units >= 0 ? "W" : "L"}">${s.units >= 0 ? "+" : ""}${s.units}u</span>` : "—", "Straight-bet profit, 1 unit each")}
       ${stat(al.n ? `${pct(al.hit_rate)} / ${pct(al.expected_hit_rate)}` : "—", "Every leg: hit rate vs predicted")}
     </div></div>`;
+  const lk = r.locks || { n: 0 }, lkp = r.parlays_lock || { n: 0 };
+  if (lk.n || lkp.n) html += `<div class="card"><div class="stats">
+      ${stat(lk.n ? `${lk.wins}-${lk.n - lk.wins}` : "—", `Locks${lk.n ? ` (${pct(lk.hit_rate)} vs ${pct(lk.expected_hit_rate)} predicted)` : ""}`)}
+      ${stat(lkp.n ? `${lkp.wins}-${lkp.n - lkp.wins}` : "—", "Lock parlays")}
+    </div></div>`;
   const bp = r.parlays_best || { n: 0 }, bst = r.straight_best || { n: 0 };
   if (bp.n || bst.n) html += `<div class="card"><div class="stats">
       ${stat(bp.n ? `${bp.wins}-${bp.n - bp.wins}` : "—", "Best-available parlays")}
@@ -1190,6 +1253,8 @@ function renderRecord() {
         <span class="odds">${fmtOdds(p.american)}</span></div>${legsOf(p)}</div>`).join("");
     const straights = (d.straights.length ? `<div class="rec-t"><div class="h">Straight bets <span class="odds">${wl(d.straights)}</span></div>
         ${d.straights.map(l => recLeg(l, l.result === "L")).join("")}</div>` : "")
+      + ((d.locks || []).length ? `<div class="rec-t"><div class="h">Locks <span class="odds">${wl(d.locks)}</span></div>
+        ${d.locks.map(l => recLeg(l, l.result === "L")).join("")}</div>` : "")
       + ((d.straights_best || []).length ? `<div class="rec-t"><div class="h">Best-available straights <span class="odds">${wl(d.straights_best)}</span></div>
         ${d.straights_best.map(l => recLeg(l, l.result === "L")).join("")}</div>` : "");
     return `<div class="day${di === 0 ? " open" : ""}"><button class="day-head" aria-expanded="${di === 0}">
