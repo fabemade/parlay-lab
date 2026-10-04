@@ -18,10 +18,10 @@
   "z": -0.65
  },
  "nfl|Player props": {
-  "n": 32,
+  "n": 46,
   "trusted": false,
   "w_mult": 0.5,
-  "z": 3.91
+  "z": 2.71
  },
  "nhl|Game lines": {
   "n": 3,

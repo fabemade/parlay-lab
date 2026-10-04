@@ -675,6 +675,327 @@
    },
    "result": null,
    "close_odds": -660
+  },
+  "401872975:KXNFLGAME-26OCT04DENSF-SF:yes": {
+   "id": "401872975:KXNFLGAME-26OCT04DENSF-SF:yes",
+   "sport": "nfl",
+   "game_id": "401872975",
+   "short": "DEN @ SF",
+   "game": "Denver Broncos at San Francisco 49ers",
+   "start": "2026-10-04T20:25Z",
+   "market": "ml",
+   "side": "home",
+   "selection": "SF to win",
+   "group": "Game lines",
+   "market_name": "Winner",
+   "odds": -154,
+   "p": 0.6005,
+   "p_model": 0.6965,
+   "p_market": 0.5842,
+   "p_breakeven": 0.6069,
+   "edge": -0.0064,
+   "ev": -0.0105,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "SF ranks #5 in offense and #10 in defense of 32 (schedule-adjusted, recent games weighted more)",
+    "Last 3: 3-0, scoring 32.67 and allowing 16.67 pts/game (season: 32.67 / 16.67). Current streak: W3",
+    "At home: 35.5 scored / 21.5 allowed per game",
+    "Record 3-0 (home 2-0)",
+    "Injuries: Christian Kirk (WR, Injured Reserve), Mykel Williams (DE, Out)",
+    "Price moved -135 \u2192 -162 since opening, money moving toward SF"
+   ],
+   "home": {
+    "name": "San Francisco 49ers",
+    "abbr": "SF"
+   },
+   "away": {
+    "name": "Denver Broncos",
+    "abbr": "DEN"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxnflgame/nfl-game/kxnflgame-26oct04densf",
+    "price": 59,
+    "ticker": "KXNFLGAME-26OCT04DENSF-SF",
+    "contract": "Yes \u00b7 San Francisco",
+    "buy": "yes"
+   },
+   "result": null,
+   "close_odds": -154
+  },
+  "401861124:KXUEFANLTOTAL-26OCT04IRLISR-6:no": {
+   "id": "401861124:KXUEFANLTOTAL-26OCT04IRLISR-6:no",
+   "sport": "soccer_uefa.nations",
+   "game_id": "401861124",
+   "short": "ISR @ IRL",
+   "game": "Israel at Republic of Ireland",
+   "start": "2026-10-04T18:45Z",
+   "market": "total",
+   "side": "under",
+   "line": 5.5,
+   "selection": "Under 5.5",
+   "group": "Game lines",
+   "market_name": "Total",
+   "odds": -2580,
+   "p": 0.9487,
+   "p_model": 0.9407,
+   "p_market": 0.9505,
+   "p_breakeven": 0.9627,
+   "edge": -0.014,
+   "ev": -0.0145,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "ISR: 0.33 scored / 2.0 allowed per game this season; last 3: 0.33 / 2.0",
+    "IRL: 1.67 scored / 1.0 allowed per game this season; last 3: 1.67 / 1.0"
+   ],
+   "home": {
+    "name": "Republic of Ireland",
+    "abbr": "IRL"
+   },
+   "away": {
+    "name": "Israel",
+    "abbr": "ISR"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxuefanltotal/point-total/kxuefanltotal-26oct04irlisr",
+    "price": 96,
+    "ticker": "KXUEFANLTOTAL-26OCT04IRLISR-6",
+    "contract": "No \u00b7 Over 5.5",
+    "buy": "no"
+   },
+   "result": null,
+   "close_odds": -2580
+  },
+  "401918295:KXWNBASPREAD-26OCT04NYATL-ATL2:yes": {
+   "id": "401918295:KXWNBASPREAD-26OCT04NYATL-ATL2:yes",
+   "sport": "wnba",
+   "game_id": "401918295",
+   "short": "NY @ ATL",
+   "game": "New York Liberty at Atlanta Dream",
+   "start": "2026-10-04T18:00Z",
+   "market": "spread",
+   "side": "home",
+   "line": -1.5,
+   "selection": "ATL by 1.5+",
+   "group": "Game lines",
+   "market_name": "Spread",
+   "odds": -154,
+   "p": 0.594,
+   "p_model": 0.6202,
+   "p_market": 0.5842,
+   "p_breakeven": 0.6069,
+   "edge": -0.0129,
+   "ev": -0.0213,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "ATL ranks #2 in offense and #3 in defense of 15 (schedule-adjusted, recent games weighted more)",
+    "Last 10: 9-1, scoring 92.1 and allowing 78.3 pts/game (season: 91.39 / 84.11). Current streak: W7",
+    "At home: 93.87 scored / 86.65 allowed per game",
+    "Record 30-14 (home 15-7)",
+    "Injuries: Matilde Villa (G, Out), Brionna Jones (F, Out)"
+   ],
+   "home": {
+    "name": "Atlanta Dream",
+    "abbr": "ATL"
+   },
+   "away": {
+    "name": "New York Liberty",
+    "abbr": "NY"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxwnbaspread/women-s-pro-basketball-spread/kxwnbaspread-26oct04nyatl",
+    "price": 59,
+    "ticker": "KXWNBASPREAD-26OCT04NYATL-ATL2",
+    "contract": "Yes \u00b7 Atlanta wins by over 1.5 points",
+    "buy": "yes"
+   },
+   "result": null,
+   "close_odds": -154
+  },
+  "401891824:KXNHLTOTAL-26OCT04CGYSEA-3:yes": {
+   "id": "401891824:KXNHLTOTAL-26OCT04CGYSEA-3:yes",
+   "sport": "nhl",
+   "game_id": "401891824",
+   "short": "CGY @ SEA",
+   "game": "Calgary Flames at Seattle Kraken",
+   "start": "2026-10-05T00:00Z",
+   "market": "total",
+   "side": "over",
+   "line": 2.5,
+   "selection": "Over 2.5",
+   "group": "Game lines",
+   "market_name": "Total",
+   "odds": -2580,
+   "p": 0.9484,
+   "p_model": 0.9372,
+   "p_market": 0.9505,
+   "p_breakeven": 0.9627,
+   "edge": -0.0143,
+   "ev": -0.0149,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "CGY: 1.0 scored / 5.0 allowed per game this season; last 2: 1.0 / 5.0",
+    "SEA: 3.5 scored / 2.0 allowed per game this season; last 2: 3.5 / 2.0"
+   ],
+   "home": {
+    "name": "Seattle Kraken",
+    "abbr": "SEA"
+   },
+   "away": {
+    "name": "Calgary Flames",
+    "abbr": "CGY"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxnhltotal/nhl-total-goals/kxnhltotal-26oct04cgysea",
+    "price": 96,
+    "ticker": "KXNHLTOTAL-26OCT04CGYSEA-3",
+    "contract": "Yes \u00b7 Over 2.5",
+    "buy": "yes"
+   },
+   "result": null,
+   "close_odds": -2580
+  },
+  "401883160:KXLALIGA2TOTAL-26OCT04GIRMAL-4:no": {
+   "id": "401883160:KXLALIGA2TOTAL-26OCT04GIRMAL-4:no",
+   "sport": "soccer_esp.2",
+   "game_id": "401883160",
+   "short": "MLL @ GIR",
+   "game": "Mallorca at Girona",
+   "start": "2026-10-04T19:00Z",
+   "market": "total",
+   "side": "under",
+   "line": 3.5,
+   "selection": "Under 3.5",
+   "group": "Game lines",
+   "market_name": "Total",
+   "odds": -306,
+   "p": 0.7344,
+   "p_model": 0.7675,
+   "p_market": 0.7327,
+   "p_breakeven": 0.7535,
+   "edge": -0.0191,
+   "ev": -0.0253,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "MLL: 1.14 scored / 0.43 allowed per game this season; last 7: 1.14 / 0.43",
+    "GIR: 2.0 scored / 1.14 allowed per game this season; last 7: 2.0 / 1.14"
+   ],
+   "home": {
+    "name": "Girona",
+    "abbr": "GIR"
+   },
+   "away": {
+    "name": "Mallorca",
+    "abbr": "MLL"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxlaliga2total/point-total/kxlaliga2total-26oct04girmal",
+    "price": 74,
+    "ticker": "KXLALIGA2TOTAL-26OCT04GIRMAL-4",
+    "contract": "No \u00b7 Over 3.5",
+    "buy": "no"
+   },
+   "result": null,
+   "close_odds": -306
+  },
+  "401872977:KXNFLGAME-26OCT04LACSEA-SEA:yes": {
+   "id": "401872977:KXNFLGAME-26OCT04LACSEA-SEA:yes",
+   "sport": "nfl",
+   "game_id": "401872977",
+   "short": "LAC @ SEA",
+   "game": "Los Angeles Chargers at Seattle Seahawks",
+   "start": "2026-10-04T20:25Z",
+   "market": "ml",
+   "side": "home",
+   "selection": "SEA to win",
+   "group": "Game lines",
+   "market_name": "Winner",
+   "odds": -340,
+   "p": 0.7547,
+   "p_model": 0.7763,
+   "p_market": 0.7525,
+   "p_breakeven": 0.7728,
+   "edge": -0.0181,
+   "ev": -0.0234,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "SEA ranks #4 in offense and #1 in defense of 32 (schedule-adjusted, recent games weighted more)",
+    "Last 3: 2-1, scoring 25.0 and allowing 16.67 pts/game (season: 25.0 / 16.67)",
+    "At home: 13.0 scored / 10.0 allowed per game",
+    "Record 2-1 (home 1-0)",
+    "Injuries: Jadarian Price (RB, Injured Reserve), Zach Charbonnet (RB, Out), Anthony Bradford (G, Injured Reserve)",
+    "Price moved -162 \u2192 -360 since opening, money moving toward SEA"
+   ],
+   "home": {
+    "name": "Seattle Seahawks",
+    "abbr": "SEA"
+   },
+   "away": {
+    "name": "Los Angeles Chargers",
+    "abbr": "LAC"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxnflgame/nfl-game/kxnflgame-26oct04lacsea",
+    "price": 76,
+    "ticker": "KXNFLGAME-26OCT04LACSEA-SEA",
+    "contract": "Yes \u00b7 Seattle",
+    "buy": "yes"
+   },
+   "result": null,
+   "close_odds": -340
+  },
+  "401908014:KXMLBGAME-26OCT042000ATLLAD-LAD:yes": {
+   "id": "401908014:KXMLBGAME-26OCT042000ATLLAD-LAD:yes",
+   "sport": "mlb",
+   "game_id": "401908014",
+   "short": "ATL @ LAD",
+   "game": "Atlanta Braves at Los Angeles Dodgers",
+   "start": "2026-10-05T00:00Z",
+   "market": "ml",
+   "side": "home",
+   "selection": "LAD to win",
+   "group": "Game lines",
+   "market_name": "Winner",
+   "odds": -154,
+   "p": 0.5981,
+   "p_model": 0.6346,
+   "p_market": 0.5842,
+   "p_breakeven": 0.6069,
+   "edge": -0.0088,
+   "ev": -0.0145,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "LAD ranks #6 in offense and #1 in defense of 30 (schedule-adjusted, recent games weighted more)",
+    "Last 10: 8-2, scoring 4.7 and allowing 2.3 runs/game (season: 4.94 / 3.7). Current streak: W4",
+    "At home: 4.63 scored / 3.94 allowed per game",
+    "Record 100-62 (home 51-30)",
+    "Injuries: Will Klein (RP, 60-Day-IL), Gavin Stone (SP, 60-Day-IL), Jake Cousins (RP, 60-Day-IL), Ben Casparius (RP, 60-Day-IL), Brusdar Graterol (RP, 60-Day-IL)",
+    "Starter Blake Snell (LHP): 1.90 ERA, 1.72 FIP over 43 IP, 1.25 ERA last 5 starts. Projects below the team's usual pitching (-13% runs allowed)",
+    "Price moved -149 \u2192 -157 since opening, money moving toward LAD"
+   ],
+   "home": {
+    "name": "Los Angeles Dodgers",
+    "abbr": "LAD"
+   },
+   "away": {
+    "name": "Atlanta Braves",
+    "abbr": "ATL"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxmlbgame/professional-baseball-game/kxmlbgame-26oct042000atllad",
+    "price": 59,
+    "ticker": "KXMLBGAME-26OCT042000ATLLAD-LAD",
+    "contract": "Yes \u00b7 Los Angeles D",
+    "buy": "yes"
+   },
+   "result": null,
+   "close_odds": -154
   }
  },
  "parlays": [
@@ -708,6 +1029,21 @@
    "tier": "lock",
    "name": "lock_3",
    "result": null
+  },
+  {
+   "legs": [
+    "401872975:KXNFLGAME-26OCT04DENSF-SF:yes",
+    "401908014:KXMLBGAME-26OCT042000ATLLAD-LAD:yes"
+   ],
+   "n": 2,
+   "mode": "safest",
+   "p": 0.3592,
+   "decimal": 2.72,
+   "american": 172,
+   "ev": -0.023,
+   "tier": "best",
+   "name": "best_2",
+   "result": null
   }
  ],
  "straights": [],
@@ -722,5 +1058,12 @@
   "401900573:KXCONCACAFNLTOTAL-26OCT04NICDOM-1:yes",
   "401841591:KXARGPREMDIVTOTAL-26OCT04RCURAC-5:no",
   "401861121:KXUEFANLTOTAL-26OCT04KOSAUT-6:no"
+ ],
+ "straights_best": [
+  "401872977:KXNFLGAME-26OCT04LACSEA-SEA:yes",
+  "401918295:KXWNBASPREAD-26OCT04NYATL-ATL2:yes",
+  "401861124:KXUEFANLTOTAL-26OCT04IRLISR-6:no",
+  "401891824:KXNHLTOTAL-26OCT04CGYSEA-3:yes",
+  "401883160:KXLALIGA2TOTAL-26OCT04GIRMAL-4:no"
  ]
 }
