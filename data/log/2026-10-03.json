@@ -44,7 +44,7 @@
     "buy": "yes"
    },
    "result": null,
-   "close_odds": -131
+   "close_odds": -142
   },
   "401872972:KXNFLGAME-26OCT04NYJCHI-CHI:yes": {
    "id": "401872972:KXNFLGAME-26OCT04NYJCHI-CHI:yes",
@@ -185,7 +185,7 @@
     "contract": "Yes \u00b7 Arizona",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -251
   },
   "401891824:KXNHLGAME-26OCT04CGYSEA-SEA:yes": {
@@ -325,7 +325,7 @@
     "buy": "yes"
    },
    "result": null,
-   "close_odds": -142
+   "close_odds": -148
   },
   "401858246:KXNCAAFSPREAD-26OCT03BCSMU-SMU17:yes": {
    "id": "401858246:KXNCAAFSPREAD-26OCT03BCSMU-SMU17:yes",
@@ -419,7 +419,7 @@
     "contract": "Yes \u00b7 USC wins by over 11.5 points",
     "buy": "yes"
    },
-   "result": null,
+   "result": "L",
    "close_odds": 140
   },
   "401892436:KXNHLTOTAL-26OCT03UTACBJ-6:yes": {
@@ -464,7 +464,7 @@
     "contract": "Yes \u00b7 Over 5.5",
     "buy": "yes"
    },
-   "result": null,
+   "result": "L",
    "close_odds": -142
   },
   "401869932:KXNCAAFSPREAD-26OCT03ARSTULL-ULL2:yes": {
@@ -511,7 +511,7 @@
     "contract": "Yes \u00b7 Louisiana wins by over 1.5 points",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -199
   },
   "401869932:KXNCAAFGAME-26OCT03ARSTULL-ULL:yes": {
@@ -557,7 +557,7 @@
     "contract": "Yes \u00b7 Louisiana",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -208
   },
   "401866430:KXNCAAFSPREAD-26OCT03AKRCMU-CMU10:yes": {
@@ -742,7 +742,7 @@
     "contract": "Yes \u00b7 Washington St. wins by over 1.5 points",
     "buy": "yes"
    },
-   "result": null,
+   "result": "L",
    "close_odds": -116
   },
   "401872975:KXNFLGAME-26OCT04DENSF-SF:yes": {
@@ -926,7 +926,7 @@
     "buy": "yes"
    },
    "result": null,
-   "close_odds": -161
+   "close_odds": -168
   },
   "401864513:KXNCAAFGAME-26OCT04SJSUHAW-HAW:yes": {
    "id": "401864513:KXNCAAFGAME-26OCT04SJSUHAW-HAW:yes",
@@ -972,7 +972,7 @@
     "contract": "Yes \u00b7 Hawai'i",
     "buy": "yes"
    },
-   "result": null,
+   "result": "L",
    "close_odds": -148
   },
   "401866430:KXNCAAFSPREAD-26OCT03AKRCMU-CMU2:yes": {
@@ -1113,7 +1113,7 @@
     "contract": "Yes \u00b7 Arizona wins by over 1.5 points",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -228
   },
   "401861118:KXUEFANLTOTAL-26OCT03ESPCZE-5:no": {
@@ -1204,7 +1204,7 @@
     "contract": "Yes \u00b7 South Florida",
     "buy": "yes"
    },
-   "result": null,
+   "result": "L",
    "close_odds": -208
   }
  },
@@ -1222,7 +1222,10 @@
    "ev": 0.0268,
    "tier": "edge",
    "name": "safest_2",
-   "result": null
+   "result": "L",
+   "missed": [
+    "401862792:KXNCAAFGAME-26OCT03TEMUSF-USF:yes"
+   ]
   },
   {
    "legs": [
@@ -1238,7 +1241,10 @@
    "ev": 0.0545,
    "tier": "edge",
    "name": "safest_3",
-   "result": null
+   "result": "L",
+   "missed": [
+    "401864513:KXNCAAFGAME-26OCT04SJSUHAW-HAW:yes"
+   ]
   },
   {
    "legs": [

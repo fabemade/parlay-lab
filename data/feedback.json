@@ -1,21 +1,21 @@
 {
  "cfb|Game lines": {
-  "n": 179,
+  "n": 298,
   "trusted": true,
   "w_mult": 1.0,
-  "z": 2.16
+  "z": 1.78
  },
  "mlb|Game lines": {
-  "n": 1,
+  "n": 2,
   "trusted": true,
   "w_mult": 1.0,
-  "z": 0.87
+  "z": 1.14
  },
  "mlb|Player props": {
-  "n": 5,
+  "n": 8,
   "trusted": false,
   "w_mult": 0.5,
-  "z": 0.07
+  "z": -0.43
  },
  "nfl|Player props": {
   "n": 26,
@@ -24,16 +24,16 @@
   "z": 2.28
  },
  "nhl|Game lines": {
-  "n": 3,
+  "n": 1,
   "trusted": true,
   "w_mult": 1.0,
-  "z": 0.24
+  "z": -0.75
  },
  "nhl|Player props": {
-  "n": 47,
+  "n": 55,
   "trusted": false,
   "w_mult": 0.5,
-  "z": 1.39
+  "z": 1.12
  },
  "soccer_arg.1|Game lines": {
   "n": 4,
@@ -66,10 +66,10 @@
   "z": -0.6
  },
  "soccer_fifa.friendly|Game lines": {
-  "n": 1,
+  "n": 2,
   "trusted": true,
   "w_mult": 1.0,
-  "z": -1.15
+  "z": -0.31
  },
  "soccer_uefa.nations|Game lines": {
   "n": 5,
