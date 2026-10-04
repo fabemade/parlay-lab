@@ -28,7 +28,7 @@ CALIB_DIR = ROOT / "data" / "calib"
 TESTED = "Game lines"   # full-game winner/spread/total: calibrated by the walk-forward backtest
 TRUST_MIN_N = 150       # graded predictions a bet type needs before it can be a Top Pick
 TRUST_MIN_Z = -1.0      # ...and it must not be hitting clearly below what we predicted
-LOCK_HOUR = 11          # Eastern: by 11am most lineups, starters and prop markets are posted
+LOCK_HOUR = 12          # Eastern: by noon lineups, starters and prop markets are posted
 RECORD_DAYS = 30
 
 SNAPSHOT = ("id", "sport", "game_id", "short", "game", "start", "market", "side", "line", "selection",
