@@ -43,7 +43,7 @@
     "contract": "No \u00b7 Over 5.5",
     "buy": "no"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -2042
   },
   "401907986:KXMLBTOTAL-26OCT052000NYYTB-11:no": {
@@ -181,7 +181,7 @@
     "buy": "yes"
    },
    "result": null,
-   "close_odds": -609
+   "close_odds": -564
   },
   "401872974:KXNFLGAME-26OCT04MIAMIN-MIN:yes": {
    "id": "401872974:KXNFLGAME-26OCT04MIAMIN-MIN:yes",
@@ -538,7 +538,7 @@
     "contract": "No \u00b7 Over 5.5",
     "buy": "no"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -660
   },
   "401872979:KXNFLTOTAL-26OCT05ATLNO-70:no": {
@@ -628,7 +628,7 @@
     "buy": "yes"
    },
    "result": null,
-   "close_odds": -2042
+   "close_odds": -2580
   },
   "401908003:KXMLBTOTAL-26OCT041600SDMIL-12:no": {
    "id": "401908003:KXMLBTOTAL-26OCT041600SDMIL-12:no",
@@ -721,7 +721,7 @@
     "buy": "yes"
    },
    "result": null,
-   "close_odds": -154
+   "close_odds": -161
   },
   "401861124:KXUEFANLTOTAL-26OCT04IRLISR-6:no": {
    "id": "401861124:KXUEFANLTOTAL-26OCT04IRLISR-6:no",
@@ -995,7 +995,7 @@
     "buy": "yes"
    },
    "result": null,
-   "close_odds": -154
+   "close_odds": -228
   }
  },
  "parlays": [

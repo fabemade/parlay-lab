@@ -9,13 +9,13 @@
    "n": 415
   },
   "Player props": {
-   "T": 0.99,
+   "T": 1.0,
    "games": 31,
    "k": 1.0,
-   "loss_after": 15.053,
-   "loss_before": 15.059,
-   "n": 131
+   "loss_after": 14.101,
+   "loss_before": 14.101,
+   "n": 145
   }
  },
- "trained_at": "2026-10-04T17:00+00:00"
+ "trained_at": "2026-10-04T19:56+00:00"
 }
