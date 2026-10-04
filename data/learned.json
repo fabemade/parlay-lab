@@ -1,20 +1,21 @@
 {
  "groups": {
   "Game lines": {
-   "T": 0.98,
-   "games": 58,
+   "T": 0.99,
+   "games": 60,
    "k": 1.05,
-   "loss_after": 32.174,
-   "loss_before": 32.224,
-   "n": 363
+   "loss_after": 32.615,
+   "loss_before": 32.636,
+   "n": 390
   },
   "Player props": {
-   "T": 1.0,
-   "games": 22,
+   "T": 0.99,
+   "games": 27,
    "k": 1.0,
-   "n": 90,
-   "note": "needs 100 graded"
+   "loss_after": 13.012,
+   "loss_before": 13.019,
+   "n": 112
   }
  },
- "trained_at": "2026-10-04T15:53+00:00"
+ "trained_at": "2026-10-04T15:57+00:00"
 }
