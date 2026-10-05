@@ -1,61 +1,62 @@
 {
  "groups": {
   "1st half": {
-   "T": 1.01,
-   "games": 25,
+   "T": 1.02,
+   "games": 26,
    "k": 1.0,
-   "loss_after": 8.291,
-   "loss_before": 8.304,
-   "n": 254
+   "loss_after": 8.5,
+   "loss_before": 8.534,
+   "n": 284
   },
   "1st period": {
    "T": 1.0,
-   "games": 2,
+   "games": 3,
    "k": 1.0,
-   "n": 4,
+   "n": 7,
    "note": "needs 100 graded"
   },
   "1st quarter": {
    "T": 1.0,
-   "games": 11,
+   "games": 12,
    "k": 1.0,
-   "n": 77,
+   "n": 82,
    "note": "needs 100 graded"
   },
   "2nd half": {
    "T": 1.0,
-   "games": 10,
+   "games": 12,
    "k": 1.0,
-   "n": 93,
-   "note": "needs 100 graded"
+   "loss_after": 5.121,
+   "loss_before": 5.121,
+   "n": 116
   },
   "2nd period": {
    "T": 1.0,
-   "games": 2,
+   "games": 5,
    "k": 1.0,
-   "n": 3,
+   "n": 8,
    "note": "needs 100 graded"
   },
   "2nd quarter": {
    "T": 1.01,
    "games": 13,
    "k": 1.0,
-   "loss_after": 4.356,
-   "loss_before": 4.366,
-   "n": 101
+   "loss_after": 4.559,
+   "loss_before": 4.567,
+   "n": 118
   },
   "3rd period": {
    "T": 1.0,
-   "games": 2,
+   "games": 3,
    "k": 1.0,
-   "n": 5,
+   "n": 6,
    "note": "needs 100 graded"
   },
   "3rd quarter": {
    "T": 1.0,
-   "games": 10,
+   "games": 13,
    "k": 1.0,
-   "n": 58,
+   "n": 78,
    "note": "needs 100 graded"
   },
   "4th quarter": {
@@ -74,36 +75,36 @@
    "note": "needs 100 graded"
   },
   "Game lines": {
-   "T": 0.99,
-   "games": 103,
+   "T": 1.0,
+   "games": 105,
    "k": 1.05,
-   "loss_after": 48.109,
-   "loss_before": 48.133,
-   "n": 532
+   "loss_after": 47.637,
+   "loss_before": 47.65,
+   "n": 543
   },
   "Game specials": {
    "T": 1.0,
-   "games": 14,
+   "games": 18,
    "k": 1.0,
-   "n": 20,
+   "n": 24,
    "note": "needs 100 graded"
   },
   "Player props": {
    "T": 1.0,
    "games": 53,
    "k": 1.0,
-   "loss_after": 22.991,
-   "loss_before": 22.991,
-   "n": 3117
+   "loss_after": 23.262,
+   "loss_before": 23.262,
+   "n": 3299
   },
   "Team props": {
-   "T": 1.04,
-   "games": 23,
+   "T": 1.03,
+   "games": 24,
    "k": 1.0,
-   "loss_after": 4.724,
-   "loss_before": 4.892,
-   "n": 187
+   "loss_after": 5.774,
+   "loss_before": 5.883,
+   "n": 189
   }
  },
- "trained_at": "2026-10-05T18:37+00:00"
+ "trained_at": "2026-10-05T20:23+00:00"
 }
