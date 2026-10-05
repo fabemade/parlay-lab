@@ -1004,12 +1004,12 @@ function renderPicks() {
   $("#view-locks").hidden = state.picksView !== "locks";
   const top = DATA.top;
   if (!top) {
-    $("#picked").textContent = "Today's picks are chosen at 10 AM Eastern.";
+    $("#picked").textContent = "Today's picks are chosen at 8 AM Eastern.";
     ["#top-parlays", "#top-straights", "#lock-hero", "#lock-parlays", "#locks"].forEach(x => $(x).innerHTML = "");
     $("#top-parlays").innerHTML = `<div class="card empty">No picks yet today.</div>`;
     return;
   }
-  $("#picked").innerHTML = `Picked ${esc(dayLabel(top.locked_at).toLowerCase() === "today" ? "today" : dayLabel(top.locked_at))} at ${clock(top.locked_at)} · new picks daily at 10 AM ET`;
+  $("#picked").innerHTML = `Picked ${esc(dayLabel(top.locked_at).toLowerCase() === "today" ? "today" : dayLabel(top.locked_at))} at ${clock(top.locked_at)} · new picks daily at 8 AM ET`;
   top.parlays.forEach(p => p.legs.forEach(attach));
   [top.straights, (top.straights_best ||= []), (top.locks ||= [])].forEach(ls => ls.forEach(attach));
   top.locks.forEach(l => l.isLock = true);

@@ -6,6 +6,9 @@ on:
     # and starting pitchers are never more than ~30 minutes stale. (GitHub may start
     # scheduled runs a few minutes late when it's busy.)
     - cron: "0,30 12-23,0-5 * * *"
+    # Extra off-the-hour runs right after 8am Eastern (EDT and EST) so the daily picks lock
+    # on time; GitHub delays or skips many runs scheduled on :00/:30.
+    - cron: "4,14,24 12,13 * * *"
   workflow_dispatch: {}
 
 permissions:
