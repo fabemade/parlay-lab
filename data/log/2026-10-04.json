@@ -227,7 +227,7 @@
     "contract": "Yes \u00b7 Minnesota",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -525
   },
   "401883160:KXLALIGA2TOTAL-26OCT04GIRMAL-6:no": {
@@ -494,7 +494,7 @@
     "contract": "Yes \u00b7 Aruba",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -1428
   },
   "401883162:KXLALIGA2TOTAL-26OCT04CASCEU-6:no": {
@@ -673,7 +673,7 @@
     "contract": "No \u00b7 Over 11.5",
     "buy": "no"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -660
   },
   "401872975:KXNFLGAME-26OCT04DENSF-SF:yes": {
@@ -720,7 +720,7 @@
     "contract": "Yes \u00b7 San Francisco",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -161
   },
   "401861124:KXUEFANLTOTAL-26OCT04IRLISR-6:no": {
@@ -946,7 +946,7 @@
     "contract": "Yes \u00b7 Seattle",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -340
   },
   "401908014:KXMLBGAME-26OCT042000ATLLAD-LAD:yes": {
@@ -1028,7 +1028,8 @@
    "ev": -0.0523,
    "tier": "lock",
    "name": "lock_3",
-   "result": null
+   "result": "W",
+   "missed": []
   },
   {
    "legs": [

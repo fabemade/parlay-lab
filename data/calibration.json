@@ -1,11 +1,11 @@
 {
  "nfl": {
-  "margin_k": 0.951,
-  "total_k": 0.63,
-  "margin_sd": 12.97,
-  "total_sd": 13.75,
-  "n": 269,
-  "updated": "2026-10-04"
+  "margin_k": 0.947,
+  "total_k": 0.619,
+  "margin_sd": 12.73,
+  "total_sd": 13.65,
+  "n": 282,
+  "updated": "2026-10-05"
  },
  "cfb": {
   "margin_k": 1.04,
@@ -13,39 +13,39 @@
   "margin_sd": 17.14,
   "total_sd": 15.57,
   "n": 932,
-  "updated": "2026-10-04"
+  "updated": "2026-10-05"
  },
  "nba": {
-  "margin_k": 1.205,
-  "total_k": 0.82,
-  "margin_sd": 15.26,
+  "margin_k": 1.199,
+  "total_k": 0.825,
+  "margin_sd": 15.27,
   "total_sd": 18.87,
   "n": 863,
-  "updated": "2026-10-04"
+  "updated": "2026-10-05"
  },
  "wnba": {
-  "margin_k": 1.019,
-  "total_k": 0.862,
-  "margin_sd": 12.94,
-  "total_sd": 18.96,
-  "n": 267,
-  "updated": "2026-10-04"
+  "margin_k": 1.021,
+  "total_k": 0.881,
+  "margin_sd": 12.9,
+  "total_sd": 19.0,
+  "n": 269,
+  "updated": "2026-10-05"
  },
  "mlb": {
   "margin_k": 0.7,
   "total_k": 0.471,
-  "margin_sd": 4.55,
+  "margin_sd": 4.54,
   "total_sd": 4.47,
-  "n": 2294,
-  "updated": "2026-10-04"
+  "n": 2295,
+  "updated": "2026-10-05"
  },
  "nhl": {
-  "margin_k": 0.778,
-  "total_k": 0.341,
+  "margin_k": 0.78,
+  "total_k": 0.383,
   "margin_sd": 2.56,
   "total_sd": 2.31,
-  "n": 852,
-  "updated": "2026-10-04"
+  "n": 854,
+  "updated": "2026-10-05"
  },
  "soccer_eng.1": {
   "margin_k": 0.963,
@@ -53,7 +53,7 @@
   "margin_sd": 1.51,
   "total_sd": 1.61,
   "n": 362,
-  "updated": "2026-10-04"
+  "updated": "2026-10-05"
  },
  "soccer_esp.1": {
   "margin_k": 1.086,
@@ -61,7 +61,7 @@
   "margin_sd": 1.5,
   "total_sd": 1.59,
   "n": 381,
-  "updated": "2026-10-04"
+  "updated": "2026-10-05"
  },
  "soccer_ita.1": {
   "margin_k": 1.359,
@@ -69,7 +69,7 @@
   "margin_sd": 1.48,
   "total_sd": 1.52,
   "n": 361,
-  "updated": "2026-10-04"
+  "updated": "2026-10-05"
  },
  "soccer_ger.1": {
   "margin_k": 1.104,
@@ -77,7 +77,7 @@
   "margin_sd": 1.83,
   "total_sd": 1.68,
   "n": 269,
-  "updated": "2026-10-04"
+  "updated": "2026-10-05"
  },
  "soccer_fra.1": {
   "margin_k": 0.952,
@@ -85,15 +85,15 @@
   "margin_sd": 1.68,
   "total_sd": 1.79,
   "n": 281,
-  "updated": "2026-10-04"
+  "updated": "2026-10-05"
  },
  "soccer_usa.1": {
-  "margin_k": 0.824,
-  "total_k": 0.574,
-  "margin_sd": 1.77,
+  "margin_k": 0.839,
+  "total_k": 0.556,
+  "margin_sd": 1.76,
   "total_sd": 1.8,
-  "n": 496,
-  "updated": "2026-10-04"
+  "n": 506,
+  "updated": "2026-10-05"
  },
  "soccer_uefa.champions": {
   "margin_k": 1.108,
@@ -101,15 +101,15 @@
   "margin_sd": 1.98,
   "total_sd": 1.93,
   "n": 123,
-  "updated": "2026-10-04"
+  "updated": "2026-10-05"
  },
  "soccer_mex.1": {
-  "margin_k": 0.912,
+  "margin_k": 0.9,
   "total_k": 0.3,
   "margin_sd": 1.54,
-  "total_sd": 1.71,
-  "n": 332,
-  "updated": "2026-10-04"
+  "total_sd": 1.72,
+  "n": 323,
+  "updated": "2026-10-05"
  },
  "soccer_uefa.europa": {
   "margin_k": 1.474,
@@ -117,55 +117,55 @@
   "margin_sd": 1.79,
   "total_sd": 1.61,
   "n": 118,
-  "updated": "2026-10-04"
+  "updated": "2026-10-05"
  },
  "soccer_ned.1": {
-  "margin_k": 1.274,
-  "total_k": 0.739,
-  "margin_sd": 1.79,
+  "margin_k": 1.217,
+  "total_k": 0.755,
+  "margin_sd": 1.8,
   "total_sd": 1.67,
-  "n": 291,
-  "updated": "2026-10-04"
+  "n": 290,
+  "updated": "2026-10-05"
  },
  "soccer_por.1": {
-  "margin_k": 1.202,
-  "total_k": 0.526,
-  "margin_sd": 1.6,
-  "total_sd": 1.55,
-  "n": 300,
-  "updated": "2026-10-04"
+  "margin_k": 1.209,
+  "total_k": 0.552,
+  "margin_sd": 1.61,
+  "total_sd": 1.56,
+  "n": 291,
+  "updated": "2026-10-05"
  },
  "soccer_bel.1": {
-  "margin_k": 1.295,
-  "total_k": 0.302,
-  "margin_sd": 1.7,
+  "margin_k": 1.249,
+  "total_k": 0.3,
+  "margin_sd": 1.72,
   "total_sd": 1.69,
-  "n": 285,
-  "updated": "2026-10-04"
+  "n": 274,
+  "updated": "2026-10-05"
  },
  "soccer_tur.1": {
-  "margin_k": 1.159,
-  "total_k": 0.822,
-  "margin_sd": 1.62,
+  "margin_k": 1.17,
+  "total_k": 0.825,
+  "margin_sd": 1.63,
   "total_sd": 1.6,
-  "n": 289,
-  "updated": "2026-10-04"
+  "n": 282,
+  "updated": "2026-10-05"
  },
  "soccer_sco.1": {
-  "margin_k": 1.121,
+  "margin_k": 1.135,
   "total_k": 0.3,
-  "margin_sd": 1.6,
-  "total_sd": 1.68,
-  "n": 197,
-  "updated": "2026-10-04"
+  "margin_sd": 1.59,
+  "total_sd": 1.7,
+  "n": 190,
+  "updated": "2026-10-05"
  },
  "soccer_eng.2": {
-  "margin_k": 0.86,
+  "margin_k": 0.857,
   "total_k": 0.3,
   "margin_sd": 1.59,
   "total_sd": 1.46,
-  "n": 560,
-  "updated": "2026-10-04"
+  "n": 559,
+  "updated": "2026-10-05"
  },
  "soccer_eng.3": {
   "margin_k": 0.934,
@@ -173,23 +173,23 @@
   "margin_sd": 1.66,
   "total_sd": 1.62,
   "n": 534,
-  "updated": "2026-10-04"
+  "updated": "2026-10-05"
  },
  "soccer_ger.2": {
   "margin_k": 0.7,
   "total_k": 0.3,
-  "margin_sd": 1.6,
-  "total_sd": 1.71,
-  "n": 262,
-  "updated": "2026-10-04"
+  "margin_sd": 1.63,
+  "total_sd": 1.72,
+  "n": 267,
+  "updated": "2026-10-05"
  },
  "soccer_esp.2": {
-  "margin_k": 0.793,
-  "total_k": 0.474,
+  "margin_k": 0.769,
+  "total_k": 0.467,
   "margin_sd": 1.56,
-  "total_sd": 1.62,
-  "n": 466,
-  "updated": "2026-10-04"
+  "total_sd": 1.63,
+  "n": 472,
+  "updated": "2026-10-05"
  },
  "soccer_ita.2": {
   "margin_k": 1.058,
@@ -197,7 +197,7 @@
   "margin_sd": 1.48,
   "total_sd": 1.47,
   "n": 359,
-  "updated": "2026-10-04"
+  "updated": "2026-10-05"
  },
  "soccer_fra.2": {
   "margin_k": 1.007,
@@ -205,23 +205,23 @@
   "margin_sd": 1.5,
   "total_sd": 1.76,
   "n": 285,
-  "updated": "2026-10-04"
+  "updated": "2026-10-05"
  },
  "soccer_bra.1": {
-  "margin_k": 0.905,
+  "margin_k": 0.882,
   "total_k": 0.3,
   "margin_sd": 1.55,
   "total_sd": 1.51,
-  "n": 396,
-  "updated": "2026-10-04"
+  "n": 393,
+  "updated": "2026-10-05"
  },
  "soccer_arg.1": {
-  "margin_k": 0.729,
-  "total_k": 0.452,
-  "margin_sd": 1.36,
-  "total_sd": 1.41,
-  "n": 536,
-  "updated": "2026-10-04"
+  "margin_k": 0.77,
+  "total_k": 0.426,
+  "margin_sd": 1.35,
+  "total_sd": 1.42,
+  "n": 530,
+  "updated": "2026-10-05"
  },
  "soccer_ksa.1": {
   "margin_k": 1.263,
@@ -229,30 +229,30 @@
   "margin_sd": 1.64,
   "total_sd": 1.74,
   "n": 299,
-  "updated": "2026-10-04"
+  "updated": "2026-10-05"
  },
  "soccer_uefa.nations": {
   "margin_k": 1.384,
-  "total_k": 0.702,
+  "total_k": 0.722,
   "margin_sd": 2.0,
-  "total_sd": 1.81,
-  "n": 1644,
-  "updated": "2026-10-04"
+  "total_sd": 1.82,
+  "n": 1664,
+  "updated": "2026-10-05"
  },
  "soccer_fifa.friendly": {
   "margin_k": 1.384,
-  "total_k": 0.702,
+  "total_k": 0.722,
   "margin_sd": 2.0,
-  "total_sd": 1.81,
-  "n": 1644,
-  "updated": "2026-10-04"
+  "total_sd": 1.82,
+  "n": 1664,
+  "updated": "2026-10-05"
  },
  "soccer_concacaf.nations.league": {
   "margin_k": 1.384,
-  "total_k": 0.702,
+  "total_k": 0.722,
   "margin_sd": 2.0,
-  "total_sd": 1.81,
-  "n": 1644,
-  "updated": "2026-10-04"
+  "total_sd": 1.82,
+  "n": 1664,
+  "updated": "2026-10-05"
  }
 }
