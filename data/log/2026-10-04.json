@@ -180,7 +180,7 @@
     "contract": "Yes \u00b7 Over 3.5",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -609
   },
   "401872974:KXNFLGAME-26OCT04MIAMIN-MIN:yes": {
@@ -359,7 +359,7 @@
     "contract": "No \u00b7 Over 4.5",
     "buy": "no"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -2042
   },
   "401900584:KXCONCACAFNLGAME-26OCT04GUYDMA-GUY:yes": {
@@ -627,7 +627,7 @@
     "contract": "Yes \u00b7 Over 0.5",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -2580
   },
   "401908003:KXMLBTOTAL-26OCT041600SDMIL-12:no": {
@@ -855,7 +855,7 @@
     "contract": "Yes \u00b7 Over 2.5",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -2580
   },
   "401883160:KXLALIGA2TOTAL-26OCT04GIRMAL-4:no": {
@@ -994,7 +994,7 @@
     "contract": "Yes \u00b7 Los Angeles D",
     "buy": "yes"
    },
-   "result": null,
+   "result": "L",
    "close_odds": -239
   }
  },
@@ -1044,7 +1044,10 @@
    "ev": -0.023,
    "tier": "best",
    "name": "best_2",
-   "result": null
+   "result": "L",
+   "missed": [
+    "401908014:KXMLBGAME-26OCT042000ATLLAD-LAD:yes"
+   ]
   }
  ],
  "straights": [],
