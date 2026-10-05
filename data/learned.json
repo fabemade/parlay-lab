@@ -2,45 +2,52 @@
  "groups": {
   "1st half": {
    "T": 1.02,
-   "games": 14,
+   "games": 19,
    "k": 1.0,
-   "loss_after": 3.667,
-   "loss_before": 3.698,
-   "n": 141
+   "loss_after": 4.763,
+   "loss_before": 4.809,
+   "n": 199
+  },
+  "1st period": {
+   "T": 1.0,
+   "games": 1,
+   "k": 1.0,
+   "n": 2,
+   "note": "needs 100 graded"
   },
   "1st quarter": {
    "T": 1.0,
-   "games": 8,
+   "games": 11,
    "k": 1.0,
-   "n": 45,
+   "n": 73,
    "note": "needs 100 graded"
   },
   "2nd half": {
    "T": 1.0,
-   "games": 6,
+   "games": 10,
    "k": 1.0,
-   "n": 37,
+   "n": 69,
    "note": "needs 100 graded"
   },
   "2nd quarter": {
    "T": 1.0,
-   "games": 4,
+   "games": 10,
    "k": 1.0,
-   "n": 20,
+   "n": 75,
    "note": "needs 100 graded"
   },
   "3rd quarter": {
    "T": 1.0,
-   "games": 6,
+   "games": 9,
    "k": 1.0,
-   "n": 28,
+   "n": 47,
    "note": "needs 100 graded"
   },
   "4th quarter": {
    "T": 1.0,
-   "games": 5,
+   "games": 10,
    "k": 1.0,
-   "n": 25,
+   "n": 60,
    "note": "needs 100 graded"
   },
   "First 5 innings": {
@@ -51,35 +58,36 @@
    "note": "needs 100 graded"
   },
   "Game lines": {
-   "T": 0.99,
-   "games": 88,
+   "T": 0.98,
+   "games": 98,
    "k": 1.05,
-   "loss_after": 43.261,
-   "loss_before": 43.285,
-   "n": 494
+   "loss_after": 47.543,
+   "loss_before": 47.593,
+   "n": 517
   },
   "Game specials": {
    "T": 1.0,
-   "games": 6,
+   "games": 11,
    "k": 1.0,
-   "n": 6,
+   "n": 14,
    "note": "needs 100 graded"
   },
   "Player props": {
    "T": 1.0,
-   "games": 46,
+   "games": 51,
    "k": 1.0,
-   "loss_after": 20.528,
-   "loss_before": 20.528,
-   "n": 2248
+   "loss_after": 22.088,
+   "loss_before": 22.088,
+   "n": 2960
   },
   "Team props": {
-   "T": 1.0,
-   "games": 10,
+   "T": 1.03,
+   "games": 17,
    "k": 1.0,
-   "n": 90,
-   "note": "needs 100 graded"
+   "loss_after": 3.635,
+   "loss_before": 3.721,
+   "n": 149
   }
  },
- "trained_at": "2026-10-05T08:29+00:00"
+ "trained_at": "2026-10-05T18:34+00:00"
 }
