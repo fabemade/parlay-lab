@@ -103,6 +103,10 @@ def candidate(l: dict) -> bool:
     predictions. And when our model disagrees with Kalshi by a lot, the usual reason is
     news the model can't see (injury, lineup, pitch count), not a giant edge, so skip it.
     """
+    # Full-game lines only: props and period bets "earn" trust from many correlated
+    # predictions over a few dozen games, and props went 7-13 when we actually picked them.
+    if (l.get("group") or grade.TESTED) != grade.TESTED:
+        return False
     if not l.get("modeled", True) or not grade.trusted(l["sport"], l.get("group")):
         return False
     pm = l.get("p_model")
