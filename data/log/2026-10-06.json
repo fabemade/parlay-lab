@@ -88,7 +88,7 @@
     "buy": "yes"
    },
    "result": null,
-   "close_odds": -609
+   "close_odds": -660
   },
   "401892449:KXNHLTOTAL-26OCT06NSHTOR-4:yes": {
    "id": "401892449:KXNHLTOTAL-26OCT06NSHTOR-4:yes",
@@ -177,7 +177,7 @@
     "contract": "Yes \u00b7 Over 1.5",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -609
   },
   "401861139:KXUEFANLGAME-26OCT06SUIMKD-SUI:yes": {
@@ -222,7 +222,7 @@
     "contract": "Yes \u00b7 Switzerland",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -1236
   },
   "401892452:KXNHLTOTAL-26OCT06NYINYR-3:yes": {
@@ -310,7 +310,7 @@
     "contract": "Yes \u00b7 Over 1.5",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -660
   },
   "401861140:KXUEFANLTOTAL-26OCT06ALBSMR-5:no": {
@@ -355,7 +355,7 @@
     "contract": "No \u00b7 Over 4.5",
     "buy": "no"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -168
   },
   "401905332:KXINTLFRIENDLYGAME-26OCT06COLPER-COL:yes": {
@@ -487,7 +487,7 @@
     "contract": "No \u00b7 Over 5.5",
     "buy": "no"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -2042
   },
   "401908015:KXMLBTOTAL-26OCT061800LADATL-11:no": {
@@ -576,7 +576,7 @@
     "contract": "Yes \u00b7 England",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -869
   },
   "401903298:KXINTLFRIENDLYTOTAL-26OCT06MEXCHI-6:no": {
@@ -621,7 +621,7 @@
     "buy": "no"
    },
    "result": null,
-   "close_odds": -1684
+   "close_odds": -2042
   },
   "401891806:KXNHLTOTAL-26OCT06FLALA-10:no": {
    "id": "401891806:KXNHLTOTAL-26OCT06FLALA-10:no",
@@ -710,7 +710,7 @@
     "contract": "Yes \u00b7 Albania wins by more than 1.5 goals",
     "buy": "yes"
    },
-   "result": null,
+   "result": "L",
    "close_odds": -869
   },
   "401921408:KXINTLFRIENDLYSPREAD-26OCT06ARGBEN-ARG2:yes": {
@@ -756,7 +756,7 @@
     "buy": "yes"
    },
    "result": null,
-   "close_odds": -2042
+   "close_odds": -2580
   },
   "401891779:KXNHLTOTAL-26OCT06STLCHI-10:no": {
    "id": "401891779:KXNHLTOTAL-26OCT06STLCHI-10:no",
@@ -800,7 +800,7 @@
     "buy": "no"
    },
    "result": null,
-   "close_odds": -2042
+   "close_odds": -1684
   },
   "401861136:KXUEFANLTOTAL-26OCT06ESTISL-6:no": {
    "id": "401861136:KXUEFANLTOTAL-26OCT06ESTISL-6:no",
@@ -843,7 +843,7 @@
     "contract": "No \u00b7 Over 5.5",
     "buy": "no"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -2580
   },
   "401908004:KXMLBTOTAL-26OCT062130MILSD-3:yes": {
