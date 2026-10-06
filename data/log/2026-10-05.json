@@ -43,7 +43,7 @@
     "contract": "No \u00b7 Over 4.5",
     "buy": "no"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -2042
   },
   "401861129:KXUEFANLTOTAL-26OCT05FRABEL-2:yes": {
@@ -88,7 +88,7 @@
     "contract": "Yes \u00b7 Over 1.5",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -564
   },
   "401896386:KXINTLFRIENDLYTOTAL-26OCT05LIEGIB-1:yes": {
@@ -132,7 +132,7 @@
     "contract": "Yes \u00b7 Over 0.5",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -609
   },
   "401841585:KXARGPREMDIVTOTAL-26OCT05VELPLA-5:no": {
@@ -176,7 +176,7 @@
     "contract": "No \u00b7 Over 4.5",
     "buy": "no"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -2042
   },
   "401861128:KXUEFANLTOTAL-26OCT05ROUSWE-1:yes": {
@@ -220,7 +220,7 @@
     "contract": "Yes \u00b7 Over 0.5",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -2580
   },
   "401900576:KXCONCACAFNLTOTAL-26OCT05GRNBON-1:yes": {
@@ -308,7 +308,7 @@
     "contract": "Yes \u00b7 Over 0.5",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -2580
   },
   "401902245:KXINTLFRIENDLYTOTAL-26OCT06KORUZB-6:no": {
@@ -529,7 +529,7 @@
     "contract": "No \u00b7 Over 5.5",
     "buy": "no"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -2042
   },
   "401841595:KXARGPREMDIVTOTAL-26OCT05BANCARC-3:no": {
@@ -618,7 +618,7 @@
     "contract": "Yes \u00b7 Montenegro",
     "buy": "yes"
    },
-   "result": null,
+   "result": "L",
    "close_odds": -239
   },
   "401900578:KXCONCACAFNLTOTAL-26OCT05BMUBAR-6:no": {
@@ -758,7 +758,10 @@
    "ev": -0.0531,
    "tier": "best",
    "name": "best_2",
-   "result": null
+   "result": "L",
+   "missed": [
+    "401861130:KXUEFANLGAME-26OCT05MNEARM-MNE:yes"
+   ]
   }
  ],
  "straights": [],
