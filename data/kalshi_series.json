@@ -6,6 +6,9 @@
    "SPREAD": "Argentina Premier Division Spread",
    "TOTAL": "Argentina Premier Division Total"
   },
+  "BELGIANPL": {
+   "GAME": "Belgian Pro League Game"
+  },
   "BRASILEIRO": {
    "BBTTS": "BTTS",
    "BGAME": "Brasileiro Serie B Game",
@@ -17,6 +20,15 @@
    "SPREAD": "Brasileiro Serie A Game",
    "TOTAL": "Brasileiro Total"
   },
+  "BUNDESLIGA": {
+   "BTTS": "Bundesliga BTTS",
+   "GAME": "Bundesliga Game",
+   "SPREAD": "Bundesliga Spread",
+   "TOTAL": "Bundesliga Total"
+  },
+  "BUNDESLIGA2": {
+   "GAME": "Bundesliga 2 Game"
+  },
   "CONCACAFNL": {
    "1H": "1st Half Winner",
    "1HBTTS": "1st Half BTTS",
@@ -26,6 +38,9 @@
    "GAME": "CONCACAF Nations League Game",
    "SPREAD": "Spread",
    "TOTAL": "Point Total"
+  },
+  "EFLCHAMPIONSHIP": {
+   "GAME": "EFL Championship Game"
   },
   "EFLL1": {
    "1H": "1st Half Winner",
@@ -37,6 +52,9 @@
    "SPREAD": "Spread",
    "TOTAL": "Point Total"
   },
+  "EREDIVISIE": {
+   "GAME": "Eredivisie Game"
+  },
   "INTLFRIENDLY": {
    "1H": "1st Half Winner",
    "1HBTTS": "1st Half BTTS",
@@ -47,11 +65,35 @@
    "SPREAD": "International Friendly Spread",
    "TOTAL": "International Friendly Total"
   },
+  "LALIGA": {
+   "BTTS": "La Liga BTTS",
+   "GAME": "La Liga Game",
+   "SPREAD": "La Liga Spread",
+   "TOTAL": "La Liga Total"
+  },
   "LALIGA2": {
    "BTTS": "BTTS",
    "GAME": "LaLiga 2 Game",
    "SPREAD": "Spread",
    "TOTAL": "Point Total"
+  },
+  "LIGAMX": {
+   "BTTS": "Liga MX BTTS",
+   "GAME": "Liga MX Game",
+   "SPREAD": "Liga MX Game",
+   "TOTAL": "Liga MX Total"
+  },
+  "LIGAPORTUGAL": {
+   "GAME": "Liga Portugal Game"
+  },
+  "LIGUE1": {
+   "BTTS": "Ligue 1 BTTS",
+   "GAME": "Ligue 1 Game",
+   "SPREAD": "Ligue 1 Spread",
+   "TOTAL": "Ligue 1 Total"
+  },
+  "LIGUE2": {
+   "GAME": "Ligue 2 Game"
   },
   "MLB": {
    "DELAY": "Pro Baseball Weather Delay",
@@ -188,6 +230,15 @@
    "SPREAD": "NHL Spread",
    "TEAMTOTAL": "NHL Team Goals Scored During Game",
    "TOTAL": "NHL Total Goals"
+  },
+  "SAUDIPL": {
+   "GAME": "Saudi Pro League Game"
+  },
+  "SERIEB": {
+   "GAME": "Serie B Game"
+  },
+  "SUPERLIG": {
+   "GAME": "Turkish Super Lig Game"
   },
   "UEFANL": {
    "1H": "1st Half Winner",

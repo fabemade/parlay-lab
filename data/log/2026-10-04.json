@@ -89,7 +89,7 @@
     "contract": "No \u00b7 Over 10.5",
     "buy": "no"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -525
   },
   "401872973:KXNFLGAME-26OCT04TENBAL-BAL:yes": {
@@ -583,7 +583,7 @@
     "contract": "No \u00b7 Over 69.5",
     "buy": "no"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -1684
   },
   "401900573:KXCONCACAFNLTOTAL-26OCT04NICDOM-1:yes": {
@@ -1012,7 +1012,8 @@
    "ev": -0.0393,
    "tier": "lock",
    "name": "lock_2",
-   "result": null
+   "result": "W",
+   "missed": []
   },
   {
    "legs": [

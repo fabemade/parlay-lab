@@ -264,7 +264,7 @@
     "contract": "Yes \u00b7 Over 0.5",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -2042
   },
   "401900579:KXCONCACAFNLTOTAL-26OCT05GLPLCA-1:yes": {
@@ -353,7 +353,7 @@
     "buy": "no"
    },
    "result": null,
-   "close_odds": -2042
+   "close_odds": -1684
   },
   "401892445:KXNHLTOTAL-26OCT05PHITB-4:yes": {
    "id": "401892445:KXNHLTOTAL-26OCT05PHITB-4:yes",
@@ -396,7 +396,7 @@
     "contract": "Yes \u00b7 Over 3.5",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -609
   },
   "401892446:KXNHLTOTAL-26OCT05OTTBOS-4:yes": {
@@ -440,7 +440,7 @@
     "contract": "Yes \u00b7 Over 3.5",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -609
   },
   "401872979:KXNFLTOTAL-26OCT05ATLNO-50:no": {
@@ -485,7 +485,7 @@
     "contract": "No \u00b7 Over 49.5",
     "buy": "no"
    },
-   "result": null,
+   "result": "L",
    "close_odds": -137
   },
   "401900580:KXCONCACAFNLTOTAL-26OCT05MTQSLV-6:no": {
@@ -573,7 +573,7 @@
     "contract": "No \u00b7 Over 2.5",
     "buy": "no"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -154
   },
   "401861130:KXUEFANLGAME-26OCT05MNEARM-MNE:yes": {
@@ -662,7 +662,7 @@
     "contract": "No \u00b7 Over 5.5",
     "buy": "no"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -660
   },
   "401892447:KXNHLGAME-26OCT05WPGPIT-PIT:yes": {
@@ -709,7 +709,7 @@
     "contract": "Yes \u00b7 Pittsburgh",
     "buy": "yes"
    },
-   "result": null,
+   "result": "L",
    "close_odds": -183
   }
  },
@@ -727,7 +727,8 @@
    "ev": -0.0506,
    "tier": "lock",
    "name": "lock_2",
-   "result": null
+   "result": "W",
+   "missed": []
   },
   {
    "legs": [
@@ -743,7 +744,8 @@
    "ev": -0.0781,
    "tier": "lock",
    "name": "lock_3",
-   "result": null
+   "result": "W",
+   "missed": []
   },
   {
    "legs": [
@@ -760,7 +762,8 @@
    "name": "best_2",
    "result": "L",
    "missed": [
-    "401861130:KXUEFANLGAME-26OCT05MNEARM-MNE:yes"
+    "401861130:KXUEFANLGAME-26OCT05MNEARM-MNE:yes",
+    "401892447:KXNHLGAME-26OCT05WPGPIT-PIT:yes"
    ]
   }
  ],
