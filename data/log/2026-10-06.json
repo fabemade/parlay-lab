@@ -1,0 +1,961 @@
+{
+ "date": "2026-10-06",
+ "locked_at": "2026-10-06T14:00-04:00",
+ "legs": {
+  "401905188:KXINTLFRIENDLYTOTAL-26OCT06USACAN-4:no": {
+   "id": "401905188:KXINTLFRIENDLYTOTAL-26OCT06USACAN-4:no",
+   "sport": "soccer_fifa.friendly",
+   "game_id": "401905188",
+   "short": "CAN @ USA",
+   "game": "Canada at United States",
+   "start": "2026-10-07T00:00Z",
+   "market": "total",
+   "side": "under",
+   "line": 3.5,
+   "selection": "Under 3.5",
+   "group": "Game lines",
+   "market_name": "Total",
+   "odds": -175,
+   "p": 0.6184,
+   "p_model": 0.697,
+   "p_market": 0.6139,
+   "p_breakeven": 0.6365,
+   "edge": -0.0181,
+   "ev": -0.0284,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "CAN: 1.5 scored / 0.0 allowed per game this season; last 2: 1.5 / 0.0",
+    "USA: 3.67 scored / 1.0 allowed per game this season; last 3: 3.67 / 1.0"
+   ],
+   "home": {
+    "name": "United States",
+    "abbr": "USA"
+   },
+   "away": {
+    "name": "Canada",
+    "abbr": "CAN"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxintlfriendlytotal/international-friendly-total/kxintlfriendlytotal-26oct06usacan",
+    "price": 62,
+    "ticker": "KXINTLFRIENDLYTOTAL-26OCT06USACAN-4",
+    "contract": "No \u00b7 Over 3.5",
+    "buy": "no"
+   },
+   "result": null,
+   "close_odds": -175
+  },
+  "401891806:KXNHLTOTAL-26OCT06FLALA-4:yes": {
+   "id": "401891806:KXNHLTOTAL-26OCT06FLALA-4:yes",
+   "sport": "nhl",
+   "game_id": "401891806",
+   "short": "FLA @ LA",
+   "game": "Florida Panthers at Los Angeles Kings",
+   "start": "2026-10-07T02:00Z",
+   "market": "total",
+   "side": "over",
+   "line": 3.5,
+   "selection": "Over 3.5",
+   "group": "Game lines",
+   "market_name": "Total",
+   "odds": -609,
+   "p": 0.8457,
+   "p_model": 0.8703,
+   "p_market": 0.8416,
+   "p_breakeven": 0.8589,
+   "edge": -0.0132,
+   "ev": -0.0154,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "FLA: 2.0 scored / 2.33 allowed per game this season; last 3: 2.0 / 2.33",
+    "LA: 4.0 scored / 6.5 allowed per game this season; last 2: 4.0 / 6.5"
+   ],
+   "home": {
+    "name": "Los Angeles Kings",
+    "abbr": "LA"
+   },
+   "away": {
+    "name": "Florida Panthers",
+    "abbr": "FLA"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxnhltotal/nhl-total-goals/kxnhltotal-26oct06flala",
+    "price": 85,
+    "ticker": "KXNHLTOTAL-26OCT06FLALA-4",
+    "contract": "Yes \u00b7 Over 3.5",
+    "buy": "yes"
+   },
+   "result": null,
+   "close_odds": -609
+  },
+  "401892449:KXNHLTOTAL-26OCT06NSHTOR-4:yes": {
+   "id": "401892449:KXNHLTOTAL-26OCT06NSHTOR-4:yes",
+   "sport": "nhl",
+   "game_id": "401892449",
+   "short": "NSH @ TOR",
+   "game": "Nashville Predators at Toronto Maple Leafs",
+   "start": "2026-10-06T23:00Z",
+   "market": "total",
+   "side": "over",
+   "line": 3.5,
+   "selection": "Over 3.5",
+   "group": "Game lines",
+   "market_name": "Total",
+   "odds": -660,
+   "p": 0.8546,
+   "p_model": 0.8651,
+   "p_market": 0.8515,
+   "p_breakeven": 0.8684,
+   "edge": -0.0138,
+   "ev": -0.0159,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "NSH: 1.5 scored / 2.0 allowed per game this season; last 2: 1.5 / 2.0",
+    "TOR: 2.0 scored / 2.33 allowed per game this season; last 3: 2.0 / 2.33",
+    "Line moved from +6.5 to +5.5 since opening (total)",
+    "\u26a0 The line has moved against this side since opening (a sharp-money signal), so the model defers more to the market"
+   ],
+   "home": {
+    "name": "Toronto Maple Leafs",
+    "abbr": "TOR"
+   },
+   "away": {
+    "name": "Nashville Predators",
+    "abbr": "NSH"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxnhltotal/nhl-total-goals/kxnhltotal-26oct06nshtor",
+    "price": 86,
+    "ticker": "KXNHLTOTAL-26OCT06NSHTOR-4",
+    "contract": "Yes \u00b7 Over 3.5",
+    "buy": "yes"
+   },
+   "result": null,
+   "close_odds": -660
+  },
+  "401861139:KXUEFANLTOTAL-26OCT06SUIMKD-2:yes": {
+   "id": "401861139:KXUEFANLTOTAL-26OCT06SUIMKD-2:yes",
+   "sport": "soccer_uefa.nations",
+   "game_id": "401861139",
+   "short": "MKD @ SUI",
+   "game": "North Macedonia at Switzerland",
+   "start": "2026-10-06T18:45Z",
+   "market": "total",
+   "side": "over",
+   "line": 1.5,
+   "selection": "Over 1.5",
+   "group": "Game lines",
+   "market_name": "Total",
+   "odds": -609,
+   "p": 0.8423,
+   "p_model": 0.7979,
+   "p_market": 0.8416,
+   "p_breakeven": 0.8589,
+   "edge": -0.0166,
+   "ev": -0.0193,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "MKD: 0.0 scored / 2.33 allowed per game this season; last 3: 0.0 / 2.33",
+    "SUI: 2.67 scored / 0.33 allowed per game this season; last 3: 2.67 / 0.33"
+   ],
+   "home": {
+    "name": "Switzerland",
+    "abbr": "SUI"
+   },
+   "away": {
+    "name": "North Macedonia",
+    "abbr": "MKD"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxuefanltotal/point-total/kxuefanltotal-26oct06suimkd",
+    "price": 85,
+    "ticker": "KXUEFANLTOTAL-26OCT06SUIMKD-2",
+    "contract": "Yes \u00b7 Over 1.5",
+    "buy": "yes"
+   },
+   "result": null,
+   "close_odds": -609
+  },
+  "401861139:KXUEFANLGAME-26OCT06SUIMKD-SUI:yes": {
+   "id": "401861139:KXUEFANLGAME-26OCT06SUIMKD-SUI:yes",
+   "sport": "soccer_uefa.nations",
+   "game_id": "401861139",
+   "short": "MKD @ SUI",
+   "game": "North Macedonia at Switzerland",
+   "start": "2026-10-06T18:45Z",
+   "market": "ml",
+   "side": "home",
+   "selection": "SUI to win",
+   "group": "Game lines",
+   "market_name": "Winner",
+   "odds": -1236,
+   "p": 0.9067,
+   "p_model": 0.9243,
+   "p_market": 0.902,
+   "p_breakeven": 0.9252,
+   "edge": -0.0185,
+   "ev": -0.02,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "SUI ranks #12 in offense and #15 in defense of 203 (schedule-adjusted, recent games weighted more)",
+    "Last 3: 3-0, scoring 2.67 and allowing 0.33 goals/game (season: 2.67 / 0.33). Current streak: W3",
+    "At home: 2.0 scored / 1.0 allowed per game",
+    "Record 3-0-0"
+   ],
+   "home": {
+    "name": "Switzerland",
+    "abbr": "SUI"
+   },
+   "away": {
+    "name": "North Macedonia",
+    "abbr": "MKD"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxuefanlgame/uefa-nations-league-game/kxuefanlgame-26oct06suimkd",
+    "price": 92,
+    "ticker": "KXUEFANLGAME-26OCT06SUIMKD-SUI",
+    "contract": "Yes \u00b7 Switzerland",
+    "buy": "yes"
+   },
+   "result": null,
+   "close_odds": -1236
+  },
+  "401892452:KXNHLTOTAL-26OCT06NYINYR-3:yes": {
+   "id": "401892452:KXNHLTOTAL-26OCT06NYINYR-3:yes",
+   "sport": "nhl",
+   "game_id": "401892452",
+   "short": "NYI @ NYR",
+   "game": "New York Islanders at New York Rangers",
+   "start": "2026-10-06T23:30Z",
+   "market": "total",
+   "side": "over",
+   "line": 2.5,
+   "selection": "Over 2.5",
+   "group": "Game lines",
+   "market_name": "Total",
+   "odds": -2580,
+   "p": 0.9508,
+   "p_model": 0.9304,
+   "p_market": 0.9505,
+   "p_breakeven": 0.9627,
+   "edge": -0.0119,
+   "ev": -0.0124,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "NYI: 3.5 scored / 1.0 allowed per game this season; last 2: 3.5 / 1.0",
+    "NYR: 2.75 scored / 1.5 allowed per game this season; last 4: 2.75 / 1.5"
+   ],
+   "home": {
+    "name": "New York Rangers",
+    "abbr": "NYR"
+   },
+   "away": {
+    "name": "New York Islanders",
+    "abbr": "NYI"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxnhltotal/nhl-total-goals/kxnhltotal-26oct06nyinyr",
+    "price": 96,
+    "ticker": "KXNHLTOTAL-26OCT06NYINYR-3",
+    "contract": "Yes \u00b7 Over 2.5",
+    "buy": "yes"
+   },
+   "result": null,
+   "close_odds": -2580
+  },
+  "401861137:KXUEFANLTOTAL-26OCT06CROESP-2:yes": {
+   "id": "401861137:KXUEFANLTOTAL-26OCT06CROESP-2:yes",
+   "sport": "soccer_uefa.nations",
+   "game_id": "401861137",
+   "short": "ESP @ CRO",
+   "game": "Spain at Croatia",
+   "start": "2026-10-06T18:45Z",
+   "market": "total",
+   "side": "over",
+   "line": 1.5,
+   "selection": "Over 1.5",
+   "group": "Game lines",
+   "market_name": "Total",
+   "odds": -660,
+   "p": 0.8527,
+   "p_model": 0.8257,
+   "p_market": 0.8515,
+   "p_breakeven": 0.8684,
+   "edge": -0.0157,
+   "ev": -0.0181,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "ESP: 3.33 scored / 1.33 allowed per game this season; last 3: 3.33 / 1.33",
+    "CRO: 1.0 scored / 4.0 allowed per game this season; last 3: 1.0 / 4.0"
+   ],
+   "home": {
+    "name": "Croatia",
+    "abbr": "CRO"
+   },
+   "away": {
+    "name": "Spain",
+    "abbr": "ESP"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxuefanltotal/point-total/kxuefanltotal-26oct06croesp",
+    "price": 86,
+    "ticker": "KXUEFANLTOTAL-26OCT06CROESP-2",
+    "contract": "Yes \u00b7 Over 1.5",
+    "buy": "yes"
+   },
+   "result": null,
+   "close_odds": -660
+  },
+  "401861140:KXUEFANLTOTAL-26OCT06ALBSMR-5:no": {
+   "id": "401861140:KXUEFANLTOTAL-26OCT06ALBSMR-5:no",
+   "sport": "soccer_uefa.nations",
+   "game_id": "401861140",
+   "short": "SMR @ ALB",
+   "game": "San Marino at Albania",
+   "start": "2026-10-06T18:45Z",
+   "market": "total",
+   "side": "under",
+   "line": 4.5,
+   "selection": "Under 4.5",
+   "group": "Game lines",
+   "market_name": "Total",
+   "odds": -168,
+   "p": 0.6098,
+   "p_model": 0.7508,
+   "p_market": 0.604,
+   "p_breakeven": 0.6267,
+   "edge": -0.0169,
+   "ev": -0.027,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "SMR: 0.0 scored / 4.67 allowed per game this season; last 3: 0.0 / 4.67",
+    "ALB: 2.0 scored / 0.67 allowed per game this season; last 3: 2.0 / 0.67",
+    "Line moved from +4.5 to +3.5 since opening (total)"
+   ],
+   "home": {
+    "name": "Albania",
+    "abbr": "ALB"
+   },
+   "away": {
+    "name": "San Marino",
+    "abbr": "SMR"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxuefanltotal/point-total/kxuefanltotal-26oct06albsmr",
+    "price": 61,
+    "ticker": "KXUEFANLTOTAL-26OCT06ALBSMR-5",
+    "contract": "No \u00b7 Over 4.5",
+    "buy": "no"
+   },
+   "result": null,
+   "close_odds": -168
+  },
+  "401905332:KXINTLFRIENDLYGAME-26OCT06COLPER-COL:yes": {
+   "id": "401905332:KXINTLFRIENDLYGAME-26OCT06COLPER-COL:yes",
+   "sport": "soccer_fifa.friendly",
+   "game_id": "401905332",
+   "short": "PER @ COL",
+   "game": "Peru at Colombia",
+   "start": "2026-10-06T23:45Z",
+   "market": "ml",
+   "side": "home",
+   "selection": "COL to win",
+   "group": "Game lines",
+   "market_name": "Winner",
+   "odds": -263,
+   "p": 0.7065,
+   "p_model": 0.77,
+   "p_market": 0.6961,
+   "p_breakeven": 0.7244,
+   "edge": -0.0179,
+   "ev": -0.0247,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "COL ranks #25 in offense and #8 in defense of 203 (schedule-adjusted, recent games weighted more)",
+    "Last 2: 0-2, scoring 0.5 and allowing 1.0 goals/game (season: 0.5 / 1.0)",
+    "At home: 0.0 scored / 1.0 allowed per game"
+   ],
+   "home": {
+    "name": "Colombia",
+    "abbr": "COL"
+   },
+   "away": {
+    "name": "Peru",
+    "abbr": "PER"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxintlfriendlygame/international-friendly-game/kxintlfriendlygame-26oct06colper",
+    "price": 71,
+    "ticker": "KXINTLFRIENDLYGAME-26OCT06COLPER-COL",
+    "contract": "Yes \u00b7 Colombia",
+    "buy": "yes"
+   },
+   "result": null,
+   "close_odds": -263
+  },
+  "401900571:KXCONCACAFNLTOTAL-26OCT06ANTARU-1:yes": {
+   "id": "401900571:KXCONCACAFNLTOTAL-26OCT06ANTARU-1:yes",
+   "sport": "soccer_concacaf.nations.league",
+   "game_id": "401900571",
+   "short": "ARU @ ATG",
+   "game": "Aruba at Antigua and Barbuda",
+   "start": "2026-10-06T23:00Z",
+   "market": "total",
+   "side": "over",
+   "line": 0.5,
+   "selection": "Over 0.5",
+   "group": "Game lines",
+   "market_name": "Total",
+   "odds": -1428,
+   "p": 0.9224,
+   "p_model": 0.9168,
+   "p_market": 0.9208,
+   "p_breakeven": 0.9346,
+   "edge": -0.0122,
+   "ev": -0.0131,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "ARU: 2.0 scored / 0.67 allowed per game this season; last 3: 2.0 / 0.67",
+    "ATG: 2.67 scored / 0.33 allowed per game this season; last 3: 2.67 / 0.33"
+   ],
+   "home": {
+    "name": "Antigua and Barbuda",
+    "abbr": "ATG"
+   },
+   "away": {
+    "name": "Aruba",
+    "abbr": "ARU"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxconcacafnltotal/point-total/kxconcacafnltotal-26oct06antaru",
+    "price": 93,
+    "ticker": "KXCONCACAFNLTOTAL-26OCT06ANTARU-1",
+    "contract": "Yes \u00b7 Over 0.5",
+    "buy": "yes"
+   },
+   "result": null,
+   "close_odds": -1428
+  },
+  "401900572:KXCONCACAFNLTOTAL-26OCT06MSRTCA-6:no": {
+   "id": "401900572:KXCONCACAFNLTOTAL-26OCT06MSRTCA-6:no",
+   "sport": "soccer_concacaf.nations.league",
+   "game_id": "401900572",
+   "short": "TCA @ MSR",
+   "game": "Turks and Caicos Islands at Montserrat",
+   "start": "2026-10-06T20:00Z",
+   "market": "total",
+   "side": "under",
+   "line": 5.5,
+   "selection": "Under 5.5",
+   "group": "Game lines",
+   "market_name": "Total",
+   "odds": -1684,
+   "p": 0.9334,
+   "p_model": 0.9536,
+   "p_market": 0.9307,
+   "p_breakeven": 0.9439,
+   "edge": -0.0105,
+   "ev": -0.0111,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "TCA: 2.0 scored / 0.67 allowed per game this season; last 3: 2.0 / 0.67",
+    "MSR: 2.33 scored / 0.0 allowed per game this season; last 3: 2.33 / 0.0"
+   ],
+   "home": {
+    "name": "Montserrat",
+    "abbr": "MSR"
+   },
+   "away": {
+    "name": "Turks and Caicos Islands",
+    "abbr": "TCA"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxconcacafnltotal/point-total/kxconcacafnltotal-26oct06msrtca",
+    "price": 94,
+    "ticker": "KXCONCACAFNLTOTAL-26OCT06MSRTCA-6",
+    "contract": "No \u00b7 Over 5.5",
+    "buy": "no"
+   },
+   "result": null,
+   "close_odds": -1684
+  },
+  "401908015:KXMLBTOTAL-26OCT061800LADATL-11:no": {
+   "id": "401908015:KXMLBTOTAL-26OCT061800LADATL-11:no",
+   "sport": "mlb",
+   "game_id": "401908015",
+   "short": "LAD @ ATL",
+   "game": "Los Angeles Dodgers at Atlanta Braves",
+   "start": "2026-10-06T22:00Z",
+   "market": "total",
+   "side": "under",
+   "line": 10.5,
+   "selection": "Under 10.5",
+   "group": "Game lines",
+   "market_name": "Total",
+   "odds": -564,
+   "p": 0.8327,
+   "p_model": 0.8202,
+   "p_market": 0.8317,
+   "p_breakeven": 0.8494,
+   "edge": -0.0167,
+   "ev": -0.0197,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "LAD: 4.93 scored / 3.7 allowed per game this season; last 10: 4.1 / 2.4",
+    "ATL: 4.56 scored / 3.84 allowed per game this season; last 10: 4.0 / 3.6"
+   ],
+   "home": {
+    "name": "Atlanta Braves",
+    "abbr": "ATL"
+   },
+   "away": {
+    "name": "Los Angeles Dodgers",
+    "abbr": "LAD"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxmlbtotal/pro-baseball-total-points/kxmlbtotal-26oct061800ladatl",
+    "price": 84,
+    "ticker": "KXMLBTOTAL-26OCT061800LADATL-11",
+    "contract": "No \u00b7 Over 10.5",
+    "buy": "no"
+   },
+   "result": null,
+   "close_odds": -564
+  },
+  "401861142:KXUEFANLGAME-26OCT06ENGCZE-ENG:yes": {
+   "id": "401861142:KXUEFANLGAME-26OCT06ENGCZE-ENG:yes",
+   "sport": "soccer_uefa.nations",
+   "game_id": "401861142",
+   "short": "CZE @ ENG",
+   "game": "Czechia at England",
+   "start": "2026-10-06T18:45Z",
+   "market": "ml",
+   "side": "home",
+   "selection": "ENG to win",
+   "group": "Game lines",
+   "market_name": "Winner",
+   "odds": -869,
+   "p": 0.8768,
+   "p_model": 0.8889,
+   "p_market": 0.8725,
+   "p_breakeven": 0.8969,
+   "edge": -0.0201,
+   "ev": -0.0224,
+   "grade": "D",
+   "modeled": true,
+   "reasons": [
+    "ENG ranks #3 in offense and #7 in defense of 203 (schedule-adjusted, recent games weighted more)",
+    "Last 3: 2-1, scoring 3.67 and allowing 1.0 goals/game (season: 3.67 / 1.0)",
+    "At home: 2.0 scored / 3.0 allowed per game",
+    "Record 2-0-1"
+   ],
+   "home": {
+    "name": "England",
+    "abbr": "ENG"
+   },
+   "away": {
+    "name": "Czechia",
+    "abbr": "CZE"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxuefanlgame/uefa-nations-league-game/kxuefanlgame-26oct06engcze",
+    "price": 89,
+    "ticker": "KXUEFANLGAME-26OCT06ENGCZE-ENG",
+    "contract": "Yes \u00b7 England",
+    "buy": "yes"
+   },
+   "result": null,
+   "close_odds": -869
+  },
+  "401903298:KXINTLFRIENDLYTOTAL-26OCT06MEXCHI-6:no": {
+   "id": "401903298:KXINTLFRIENDLYTOTAL-26OCT06MEXCHI-6:no",
+   "sport": "soccer_fifa.friendly",
+   "game_id": "401903298",
+   "short": "CHI @ MEX",
+   "game": "Chile at Mexico",
+   "start": "2026-10-07T02:30Z",
+   "market": "total",
+   "side": "under",
+   "line": 5.5,
+   "selection": "Under 5.5",
+   "group": "Game lines",
+   "market_name": "Total",
+   "odds": -1684,
+   "p": 0.9329,
+   "p_model": 0.9414,
+   "p_market": 0.9307,
+   "p_breakeven": 0.9439,
+   "edge": -0.011,
+   "ev": -0.0117,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "CHI: 1.0 scored / 2.5 allowed per game this season; last 2: 1.0 / 2.5",
+    "MEX: 0.67 scored / 1.67 allowed per game this season; last 3: 0.67 / 1.67"
+   ],
+   "home": {
+    "name": "Mexico",
+    "abbr": "MEX"
+   },
+   "away": {
+    "name": "Chile",
+    "abbr": "CHI"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxintlfriendlytotal/international-friendly-total/kxintlfriendlytotal-26oct06mexchi",
+    "price": 94,
+    "ticker": "KXINTLFRIENDLYTOTAL-26OCT06MEXCHI-6",
+    "contract": "No \u00b7 Over 5.5",
+    "buy": "no"
+   },
+   "result": null,
+   "close_odds": -1684
+  },
+  "401891806:KXNHLTOTAL-26OCT06FLALA-10:no": {
+   "id": "401891806:KXNHLTOTAL-26OCT06FLALA-10:no",
+   "sport": "nhl",
+   "game_id": "401891806",
+   "short": "FLA @ LA",
+   "game": "Florida Panthers at Los Angeles Kings",
+   "start": "2026-10-07T02:00Z",
+   "market": "total",
+   "side": "under",
+   "line": 9.5,
+   "selection": "Under 9.5",
+   "group": "Game lines",
+   "market_name": "Total",
+   "odds": -1684,
+   "p": 0.9306,
+   "p_model": 0.8889,
+   "p_market": 0.9307,
+   "p_breakeven": 0.9439,
+   "edge": -0.0133,
+   "ev": -0.0141,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "FLA: 2.0 scored / 2.33 allowed per game this season; last 3: 2.0 / 2.33",
+    "LA: 4.0 scored / 6.5 allowed per game this season; last 2: 4.0 / 6.5"
+   ],
+   "home": {
+    "name": "Los Angeles Kings",
+    "abbr": "LA"
+   },
+   "away": {
+    "name": "Florida Panthers",
+    "abbr": "FLA"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxnhltotal/nhl-total-goals/kxnhltotal-26oct06flala",
+    "price": 94,
+    "ticker": "KXNHLTOTAL-26OCT06FLALA-10",
+    "contract": "No \u00b7 Over 9.5",
+    "buy": "no"
+   },
+   "result": null,
+   "close_odds": -1684
+  },
+  "401861140:KXUEFANLSPREAD-26OCT06ALBSMR-ALB2:yes": {
+   "id": "401861140:KXUEFANLSPREAD-26OCT06ALBSMR-ALB2:yes",
+   "sport": "soccer_uefa.nations",
+   "game_id": "401861140",
+   "short": "SMR @ ALB",
+   "game": "San Marino at Albania",
+   "start": "2026-10-06T18:45Z",
+   "market": "spread",
+   "side": "home",
+   "line": -1.5,
+   "selection": "ALB by 1.5+",
+   "group": "Game lines",
+   "market_name": "Spread",
+   "odds": -869,
+   "p": 0.8781,
+   "p_model": 0.8216,
+   "p_market": 0.8812,
+   "p_breakeven": 0.8969,
+   "edge": -0.0188,
+   "ev": -0.021,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "ALB ranks #152 in offense and #40 in defense of 203 (schedule-adjusted, recent games weighted more)",
+    "Last 3: 2-1, scoring 2.0 and allowing 0.67 goals/game (season: 2.0 / 0.67)",
+    "At home: 2.0 scored / 0.0 allowed per game",
+    "Record 2-0-1"
+   ],
+   "home": {
+    "name": "Albania",
+    "abbr": "ALB"
+   },
+   "away": {
+    "name": "San Marino",
+    "abbr": "SMR"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxuefanlspread/spread/kxuefanlspread-26oct06albsmr",
+    "price": 89,
+    "ticker": "KXUEFANLSPREAD-26OCT06ALBSMR-ALB2",
+    "contract": "Yes \u00b7 Albania wins by more than 1.5 goals",
+    "buy": "yes"
+   },
+   "result": null,
+   "close_odds": -869
+  },
+  "401921408:KXINTLFRIENDLYSPREAD-26OCT06ARGBEN-ARG2:yes": {
+   "id": "401921408:KXINTLFRIENDLYSPREAD-26OCT06ARGBEN-ARG2:yes",
+   "sport": "soccer_fifa.friendly",
+   "game_id": "401921408",
+   "short": "BEN @ ARG",
+   "game": "Benin at Argentina",
+   "start": "2026-10-06T23:00Z",
+   "market": "spread",
+   "side": "home",
+   "line": -1.5,
+   "selection": "ARG by 1.5+",
+   "group": "Game lines",
+   "market_name": "Spread",
+   "odds": -2042,
+   "p": 0.9386,
+   "p_model": 0.8337,
+   "p_market": 0.9406,
+   "p_breakeven": 0.9533,
+   "edge": -0.0147,
+   "ev": -0.0154,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "ARG ranks #2 in offense and #1 in defense of 203 (schedule-adjusted, recent games weighted more)",
+    "Last 2: 2-0, scoring 5.5 and allowing 0.0 goals/game (season: 5.5 / 0.0)",
+    "At home: 5.5 scored / 0.0 allowed per game"
+   ],
+   "home": {
+    "name": "Argentina",
+    "abbr": "ARG"
+   },
+   "away": {
+    "name": "Benin",
+    "abbr": "BEN"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxintlfriendlyspread/international-friendly-spread/kxintlfriendlyspread-26oct06argben",
+    "price": 95,
+    "ticker": "KXINTLFRIENDLYSPREAD-26OCT06ARGBEN-ARG2",
+    "contract": "Yes \u00b7 Argentina wins by more than 1.5 goals",
+    "buy": "yes"
+   },
+   "result": null,
+   "close_odds": -2042
+  },
+  "401891779:KXNHLTOTAL-26OCT06STLCHI-10:no": {
+   "id": "401891779:KXNHLTOTAL-26OCT06STLCHI-10:no",
+   "sport": "nhl",
+   "game_id": "401891779",
+   "short": "STL @ CHI",
+   "game": "St. Louis Blues at Chicago Blackhawks",
+   "start": "2026-10-07T00:00Z",
+   "market": "total",
+   "side": "under",
+   "line": 9.5,
+   "selection": "Under 9.5",
+   "group": "Game lines",
+   "market_name": "Total",
+   "odds": -2042,
+   "p": 0.9405,
+   "p_model": 0.8958,
+   "p_market": 0.9406,
+   "p_breakeven": 0.9533,
+   "edge": -0.0128,
+   "ev": -0.0134,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "STL: 2.5 scored / 3.0 allowed per game this season; last 2: 2.5 / 3.0",
+    "CHI: 1.67 scored / 5.0 allowed per game this season; last 3: 1.67 / 5.0"
+   ],
+   "home": {
+    "name": "Chicago Blackhawks",
+    "abbr": "CHI"
+   },
+   "away": {
+    "name": "St. Louis Blues",
+    "abbr": "STL"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxnhltotal/nhl-total-goals/kxnhltotal-26oct06stlchi",
+    "price": 95,
+    "ticker": "KXNHLTOTAL-26OCT06STLCHI-10",
+    "contract": "No \u00b7 Over 9.5",
+    "buy": "no"
+   },
+   "result": null,
+   "close_odds": -2042
+  },
+  "401861136:KXUEFANLTOTAL-26OCT06ESTISL-6:no": {
+   "id": "401861136:KXUEFANLTOTAL-26OCT06ESTISL-6:no",
+   "sport": "soccer_uefa.nations",
+   "game_id": "401861136",
+   "short": "ISL @ EST",
+   "game": "Iceland at Estonia",
+   "start": "2026-10-06T18:45Z",
+   "market": "total",
+   "side": "under",
+   "line": 5.5,
+   "selection": "Under 5.5",
+   "group": "Game lines",
+   "market_name": "Total",
+   "odds": -2580,
+   "p": 0.9516,
+   "p_model": 0.9432,
+   "p_market": 0.9505,
+   "p_breakeven": 0.9627,
+   "edge": -0.0111,
+   "ev": -0.0115,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "ISL: 2.33 scored / 0.33 allowed per game this season; last 3: 2.33 / 0.33",
+    "EST: 0.67 scored / 0.33 allowed per game this season; last 3: 0.67 / 0.33"
+   ],
+   "home": {
+    "name": "Estonia",
+    "abbr": "EST"
+   },
+   "away": {
+    "name": "Iceland",
+    "abbr": "ISL"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxuefanltotal/point-total/kxuefanltotal-26oct06estisl",
+    "price": 96,
+    "ticker": "KXUEFANLTOTAL-26OCT06ESTISL-6",
+    "contract": "No \u00b7 Over 5.5",
+    "buy": "no"
+   },
+   "result": null,
+   "close_odds": -2580
+  },
+  "401908004:KXMLBTOTAL-26OCT062130MILSD-3:yes": {
+   "id": "401908004:KXMLBTOTAL-26OCT062130MILSD-3:yes",
+   "sport": "mlb",
+   "game_id": "401908004",
+   "short": "MIL @ SD",
+   "game": "Milwaukee Brewers at San Diego Padres",
+   "start": "2026-10-07T01:30Z",
+   "market": "total",
+   "side": "over",
+   "line": 2.5,
+   "selection": "Over 2.5",
+   "group": "Game lines",
+   "market_name": "Total",
+   "odds": -2580,
+   "p": 0.953,
+   "p_model": 0.9603,
+   "p_market": 0.9505,
+   "p_breakeven": 0.9627,
+   "edge": -0.0097,
+   "ev": -0.0101,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "MIL: 5.12 scored / 3.8 allowed per game this season; last 10: 4.1 / 2.3",
+    "SD: 4.45 scored / 4.15 allowed per game this season; last 10: 4.9 / 4.0",
+    "Line moved from +7 to +7.5 since opening (total)"
+   ],
+   "home": {
+    "name": "San Diego Padres",
+    "abbr": "SD"
+   },
+   "away": {
+    "name": "Milwaukee Brewers",
+    "abbr": "MIL"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxmlbtotal/pro-baseball-total-points/kxmlbtotal-26oct062130milsd",
+    "price": 96,
+    "ticker": "KXMLBTOTAL-26OCT062130MILSD-3",
+    "contract": "Yes \u00b7 Over 2.5",
+    "buy": "yes"
+   },
+   "result": null,
+   "close_odds": -2580
+  }
+ },
+ "parlays": [
+  {
+   "legs": [
+    "401891806:KXNHLTOTAL-26OCT06FLALA-4:yes",
+    "401861139:KXUEFANLTOTAL-26OCT06SUIMKD-2:yes"
+   ],
+   "n": 2,
+   "mode": "safest",
+   "p": 0.7123,
+   "decimal": 1.355,
+   "american": -281,
+   "ev": -0.0345,
+   "tier": "lock",
+   "name": "lock_2",
+   "result": null
+  },
+  {
+   "legs": [
+    "401892449:KXNHLTOTAL-26OCT06NSHTOR-4:yes",
+    "401861137:KXUEFANLTOTAL-26OCT06CROESP-2:yes",
+    "401908015:KXMLBTOTAL-26OCT061800LADATL-11:no"
+   ],
+   "n": 3,
+   "mode": "safest",
+   "p": 0.6068,
+   "decimal": 1.561,
+   "american": -178,
+   "ev": -0.0527,
+   "tier": "lock",
+   "name": "lock_3",
+   "result": null
+  },
+  {
+   "legs": [
+    "401905188:KXINTLFRIENDLYTOTAL-26OCT06USACAN-4:no",
+    "401861140:KXUEFANLTOTAL-26OCT06ALBSMR-5:no"
+   ],
+   "n": 2,
+   "mode": "safest",
+   "p": 0.3771,
+   "decimal": 2.507,
+   "american": 151,
+   "ev": -0.0547,
+   "tier": "best",
+   "name": "best_2",
+   "result": null
+  }
+ ],
+ "straights": [],
+ "straights_best": [
+  "401921408:KXINTLFRIENDLYSPREAD-26OCT06ARGBEN-ARG2:yes",
+  "401905332:KXINTLFRIENDLYGAME-26OCT06COLPER-COL:yes",
+  "401908004:KXMLBTOTAL-26OCT062130MILSD-3:yes",
+  "401861136:KXUEFANLTOTAL-26OCT06ESTISL-6:no",
+  "401892452:KXNHLTOTAL-26OCT06NYINYR-3:yes"
+ ],
+ "locks": [
+  "401861139:KXUEFANLGAME-26OCT06SUIMKD-SUI:yes",
+  "401861140:KXUEFANLSPREAD-26OCT06ALBSMR-ALB2:yes",
+  "401861142:KXUEFANLGAME-26OCT06ENGCZE-ENG:yes",
+  "401891779:KXNHLTOTAL-26OCT06STLCHI-10:no",
+  "401900572:KXCONCACAFNLTOTAL-26OCT06MSRTCA-6:no",
+  "401903298:KXINTLFRIENDLYTOTAL-26OCT06MEXCHI-6:no",
+  "401891806:KXNHLTOTAL-26OCT06FLALA-10:no",
+  "401900571:KXCONCACAFNLTOTAL-26OCT06ANTARU-1:yes"
+ ]
+}
