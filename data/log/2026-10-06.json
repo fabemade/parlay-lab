@@ -87,7 +87,7 @@
     "contract": "Yes \u00b7 Over 3.5",
     "buy": "yes"
    },
-   "result": null,
+   "result": "L",
    "close_odds": -660
   },
   "401892449:KXNHLTOTAL-26OCT06NSHTOR-4:yes": {
@@ -266,7 +266,7 @@
     "contract": "Yes \u00b7 Over 2.5",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -2580
   },
   "401861137:KXUEFANLTOTAL-26OCT06CROESP-2:yes": {
@@ -620,7 +620,7 @@
     "contract": "No \u00b7 Over 5.5",
     "buy": "no"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -2042
   },
   "401891806:KXNHLTOTAL-26OCT06FLALA-10:no": {
@@ -664,7 +664,7 @@
     "contract": "No \u00b7 Over 9.5",
     "buy": "no"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -1684
   },
   "401861140:KXUEFANLSPREAD-26OCT06ALBSMR-ALB2:yes": {
@@ -799,7 +799,7 @@
     "contract": "No \u00b7 Over 9.5",
     "buy": "no"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -1684
   },
   "401861136:KXUEFANLTOTAL-26OCT06ESTISL-6:no": {
@@ -888,7 +888,7 @@
     "contract": "Yes \u00b7 Over 2.5",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -2580
   }
  },
@@ -906,7 +906,10 @@
    "ev": -0.0345,
    "tier": "lock",
    "name": "lock_2",
-   "result": null
+   "result": "L",
+   "missed": [
+    "401891806:KXNHLTOTAL-26OCT06FLALA-4:yes"
+   ]
   },
   {
    "legs": [

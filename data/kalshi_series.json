@@ -63,6 +63,14 @@
    "SPREAD": "Spread",
    "TOTAL": "Point Total"
   },
+  "EPL": {
+   "BTTS": "EPL Both Teams to Score",
+   "CORNERS": "EPL Corners",
+   "GAME": "English Premier League Game",
+   "SPREAD": "English Premier League Spread",
+   "TCORNERS": "EPL Team Corners",
+   "TOTAL": "English Premier League Total Goals"
+  },
   "EREDIVISIE": {
    "BTTS": "BTTS",
    "GAME": "Eredivisie Game",
@@ -277,6 +285,15 @@
    "GAME": "Saudi Pro League Game",
    "SPREAD": "Saudi Pro League Game",
    "TOTAL": "Saudi Pro League Total"
+  },
+  "SCOTTISHPREM": {
+   "GAME": "Scottish Premiership Game"
+  },
+  "SERIEA": {
+   "BTTS": "Serie A BTTS",
+   "GAME": "Serie A Game",
+   "SPREAD": "Serie A Spread",
+   "TOTAL": "Serie A Total"
   },
   "SERIEB": {
    "GAME": "Serie B Game"
