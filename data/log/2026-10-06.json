@@ -43,7 +43,7 @@
     "contract": "No \u00b7 Over 3.5",
     "buy": "no"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -175
   },
   "401891806:KXNHLTOTAL-26OCT06FLALA-4:yes": {
@@ -133,7 +133,7 @@
     "contract": "Yes \u00b7 Over 3.5",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -660
   },
   "401861139:KXUEFANLTOTAL-26OCT06SUIMKD-2:yes": {
@@ -399,7 +399,7 @@
     "contract": "Yes \u00b7 Colombia",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -263
   },
   "401900571:KXCONCACAFNLTOTAL-26OCT06ANTARU-1:yes": {
@@ -443,7 +443,7 @@
     "contract": "Yes \u00b7 Over 0.5",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -1428
   },
   "401900572:KXCONCACAFNLTOTAL-26OCT06MSRTCA-6:no": {
@@ -531,7 +531,7 @@
     "contract": "No \u00b7 Over 10.5",
     "buy": "no"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -564
   },
   "401861142:KXUEFANLGAME-26OCT06ENGCZE-ENG:yes": {
@@ -755,7 +755,7 @@
     "contract": "Yes \u00b7 Argentina wins by more than 1.5 goals",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -2580
   },
   "401891779:KXNHLTOTAL-26OCT06STLCHI-10:no": {
@@ -922,7 +922,8 @@
    "ev": -0.0527,
    "tier": "lock",
    "name": "lock_3",
-   "result": null
+   "result": "W",
+   "missed": []
   },
   {
    "legs": [
@@ -937,7 +938,8 @@
    "ev": -0.0547,
    "tier": "best",
    "name": "best_2",
-   "result": null
+   "result": "W",
+   "missed": []
   }
  ],
  "straights": [],
