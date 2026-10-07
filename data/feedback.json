@@ -18,16 +18,16 @@
   "z": 0.2
  },
  "mlb|Game specials": {
-  "n": 7,
+  "n": 8,
   "trusted": false,
   "w_mult": 0.5,
-  "z": 0.95
+  "z": 1.03
  },
  "mlb|Player props": {
-  "n": 553,
+  "n": 631,
   "trusted": true,
   "w_mult": 1.0,
-  "z": 0.86
+  "z": 0.96
  },
  "mlb|Team props": {
   "n": 57,
@@ -96,46 +96,46 @@
   "z": 1.81
  },
  "nhl|1st period": {
-  "n": 49,
+  "n": 54,
   "trusted": false,
   "w_mult": 0.5,
-  "z": 0.47
+  "z": 0.41
  },
  "nhl|2nd period": {
-  "n": 39,
+  "n": 43,
   "trusted": false,
   "w_mult": 0.5,
-  "z": -0.33
+  "z": -0.98
  },
  "nhl|3rd period": {
-  "n": 42,
+  "n": 45,
   "trusted": false,
   "w_mult": 0.5,
-  "z": 0.5
+  "z": 0.67
  },
  "nhl|Game lines": {
-  "n": 68,
+  "n": 71,
   "trusted": true,
   "w_mult": 1.0,
-  "z": 1.12
+  "z": 1.21
  },
  "nhl|Game specials": {
-  "n": 20,
+  "n": 22,
   "trusted": false,
   "w_mult": 0.5,
-  "z": 0.33
+  "z": 0.56
  },
  "nhl|Player props": {
-  "n": 999,
+  "n": 1107,
   "trusted": true,
   "w_mult": 1.0,
-  "z": 1.03
+  "z": 0.37
  },
  "nhl|Team props": {
-  "n": 147,
-  "trusted": false,
-  "w_mult": 0.5,
-  "z": 1.19
+  "n": 151,
+  "trusted": true,
+  "w_mult": 1.0,
+  "z": 1.08
  },
  "soccer_arg.1|Game lines": {
   "n": 34,
@@ -150,10 +150,10 @@
   "z": 1.73
  },
  "soccer_concacaf.nations.league|1st half": {
-  "n": 38,
+  "n": 43,
   "trusted": false,
   "w_mult": 0.5,
-  "z": 1.25
+  "z": 0.62
  },
  "soccer_concacaf.nations.league|Game lines": {
   "n": 37,
@@ -192,10 +192,10 @@
   "z": 0.57
  },
  "soccer_uefa.nations|1st half": {
-  "n": 114,
+  "n": 119,
   "trusted": false,
   "w_mult": 0.5,
-  "z": 3.95
+  "z": 4.08
  },
  "soccer_uefa.nations|Game lines": {
   "n": 99,

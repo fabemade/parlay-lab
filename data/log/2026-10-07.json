@@ -1,0 +1,639 @@
+{
+ "date": "2026-10-07",
+ "locked_at": "2026-10-07T10:26-04:00",
+ "legs": {
+  "401907987:KXMLBTOTAL-26OCT072000TBNYY-12:no": {
+   "id": "401907987:KXMLBTOTAL-26OCT072000TBNYY-12:no",
+   "sport": "mlb",
+   "game_id": "401907987",
+   "short": "TB @ NYY",
+   "game": "Tampa Bay Rays at New York Yankees",
+   "start": "2026-10-08T00:00Z",
+   "market": "total",
+   "side": "under",
+   "line": 11.5,
+   "selection": "Under 11.5",
+   "group": "Game lines",
+   "market_name": "Total",
+   "odds": -609,
+   "p": 0.8494,
+   "p_model": 0.8723,
+   "p_market": 0.8416,
+   "p_breakeven": 0.8589,
+   "edge": -0.0095,
+   "ev": -0.0111,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "TB: 4.52 scored / 3.98 allowed per game this season; last 10: 4.0 / 2.9",
+    "NYY: 4.6 scored / 3.69 allowed per game this season; last 10: 4.6 / 3.3",
+    "Starter Carlos Rod\u00f3n (LHP): 2.67 ERA, 3.44 FIP over 84 IP, 1.8 ERA last 5 starts. Projects below the team's usual pitching (-3% runs allowed)"
+   ],
+   "home": {
+    "name": "New York Yankees",
+    "abbr": "NYY"
+   },
+   "away": {
+    "name": "Tampa Bay Rays",
+    "abbr": "TB"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxmlbtotal/pro-baseball-total-points/kxmlbtotal-26oct072000tbnyy",
+    "price": 85,
+    "ticker": "KXMLBTOTAL-26OCT072000TBNYY-12",
+    "contract": "No \u00b7 Over 11.5",
+    "buy": "no"
+   },
+   "result": null,
+   "close_odds": -609
+  },
+  "401871051:KXNCAAFTOTAL-26OCT07JVSTKENN-29:yes": {
+   "id": "401871051:KXNCAAFTOTAL-26OCT07JVSTKENN-29:yes",
+   "sport": "cfb",
+   "game_id": "401871051",
+   "short": "JXST @ KENN",
+   "game": "Jacksonville State Gamecocks at Kennesaw State Owls",
+   "start": "2026-10-07T23:00Z",
+   "market": "total",
+   "side": "over",
+   "line": 28.5,
+   "selection": "Over 28.5",
+   "group": "Game lines",
+   "market_name": "Total",
+   "odds": -1684,
+   "p": 0.9257,
+   "p_model": 0.9275,
+   "p_market": 0.9216,
+   "p_breakeven": 0.9439,
+   "edge": -0.0182,
+   "ev": -0.0193,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "JXST: 27.4 scored / 21.8 allowed per game this season; last 5: 27.4 / 21.8",
+    "KENN: 21.75 scored / 22.5 allowed per game this season; last 4: 21.75 / 22.5",
+    "Line moved from +48.5 to +49.5 since opening (total)"
+   ],
+   "home": {
+    "name": "Kennesaw State Owls",
+    "abbr": "KENN"
+   },
+   "away": {
+    "name": "Jacksonville State Gamecocks",
+    "abbr": "JXST"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxncaaftotal/college-football-total-points/kxncaaftotal-26oct07jvstkenn",
+    "price": 94,
+    "ticker": "KXNCAAFTOTAL-26OCT07JVSTKENN-29",
+    "contract": "Yes \u00b7 Over 28.5",
+    "buy": "yes"
+   },
+   "result": null,
+   "close_odds": -1684
+  },
+  "401841252:KXBRASILEIROTOTAL-26OCT07CRGPA-6:no": {
+   "id": "401841252:KXBRASILEIROTOTAL-26OCT07CRGPA-6:no",
+   "sport": "soccer_bra.1",
+   "game_id": "401841252",
+   "short": "GRE @ REMO",
+   "game": "Gr\u00eamio at Remo",
+   "start": "2026-10-07T22:30Z",
+   "market": "total",
+   "side": "under",
+   "line": 5.5,
+   "selection": "Under 5.5",
+   "group": "Game lines",
+   "market_name": "Total",
+   "odds": -2042,
+   "p": 0.9442,
+   "p_model": 0.9461,
+   "p_market": 0.9406,
+   "p_breakeven": 0.9533,
+   "edge": -0.0091,
+   "ev": -0.0095,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "GRE: 1.0 scored / 1.5 allowed per game this season; last 10: 1.0 / 1.5",
+    "REMO: 1.1 scored / 1.8 allowed per game this season; last 10: 1.1 / 1.8"
+   ],
+   "home": {
+    "name": "Remo",
+    "abbr": "REMO"
+   },
+   "away": {
+    "name": "Gr\u00eamio",
+    "abbr": "GRE"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxbrasileirototal/brasileiro-total/kxbrasileirototal-26oct07crgpa",
+    "price": 95,
+    "ticker": "KXBRASILEIROTOTAL-26OCT07CRGPA-6",
+    "contract": "No \u00b7 Over 5.5",
+    "buy": "no"
+   },
+   "result": null,
+   "close_odds": -2042
+  },
+  "401841257:KXBRASILEIROTOTAL-26OCT07BOTVDG-4:no": {
+   "id": "401841257:KXBRASILEIROTOTAL-26OCT07BOTVDG-4:no",
+   "sport": "soccer_bra.1",
+   "game_id": "401841257",
+   "short": "VAS @ BOT",
+   "game": "Vasco da Gama at Botafogo",
+   "start": "2026-10-07T23:30Z",
+   "market": "total",
+   "side": "under",
+   "line": 3.5,
+   "selection": "Under 3.5",
+   "group": "Game lines",
+   "market_name": "Total",
+   "odds": -239,
+   "p": 0.6882,
+   "p_model": 0.6985,
+   "p_market": 0.6832,
+   "p_breakeven": 0.705,
+   "edge": -0.0168,
+   "ev": -0.0238,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "VAS: 1.33 scored / 1.33 allowed per game this season; last 9: 1.33 / 1.33",
+    "BOT: 0.91 scored / 1.27 allowed per game this season; last 10: 0.8 / 1.3"
+   ],
+   "home": {
+    "name": "Botafogo",
+    "abbr": "BOT"
+   },
+   "away": {
+    "name": "Vasco da Gama",
+    "abbr": "VAS"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxbrasileirototal/brasileiro-total/kxbrasileirototal-26oct07botvdg",
+    "price": 69,
+    "ticker": "KXBRASILEIROTOTAL-26OCT07BOTVDG-4",
+    "contract": "No \u00b7 Over 3.5",
+    "buy": "no"
+   },
+   "result": null,
+   "close_odds": -239
+  },
+  "401871066:KXNCAAFTOTAL-26OCT07NMSUFIU-70:no": {
+   "id": "401871066:KXNCAAFTOTAL-26OCT07NMSUFIU-70:no",
+   "sport": "cfb",
+   "game_id": "401871066",
+   "short": "NMSU @ FIU",
+   "game": "New Mexico State Aggies at Florida International Panthers",
+   "start": "2026-10-07T23:30Z",
+   "market": "total",
+   "side": "under",
+   "line": 69.5,
+   "selection": "Under 69.5",
+   "group": "Game lines",
+   "market_name": "Total",
+   "odds": -1684,
+   "p": 0.9318,
+   "p_model": 0.904,
+   "p_market": 0.9307,
+   "p_breakeven": 0.9439,
+   "edge": -0.0121,
+   "ev": -0.0128,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "NMSU: 27.8 scored / 26.4 allowed per game this season; last 5: 27.8 / 26.4",
+    "FIU: 18.0 scored / 14.5 allowed per game this season; last 4: 18.0 / 14.5",
+    "Line moved from +47.5 to +46.5 since opening (total)"
+   ],
+   "home": {
+    "name": "Florida International Panthers",
+    "abbr": "FIU"
+   },
+   "away": {
+    "name": "New Mexico State Aggies",
+    "abbr": "NMSU"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxncaaftotal/college-football-total-points/kxncaaftotal-26oct07nmsufiu",
+    "price": 94,
+    "ticker": "KXNCAAFTOTAL-26OCT07NMSUFIU-70",
+    "contract": "No \u00b7 Over 69.5",
+    "buy": "no"
+   },
+   "result": null,
+   "close_odds": -1684
+  },
+  "401841249:KXBRASILEIROTOTAL-26OCT07CRUSPA-6:no": {
+   "id": "401841249:KXBRASILEIROTOTAL-26OCT07CRUSPA-6:no",
+   "sport": "soccer_bra.1",
+   "game_id": "401841249",
+   "short": "SAO @ CRU",
+   "game": "S\u00e3o Paulo at Cruzeiro",
+   "start": "2026-10-08T00:30Z",
+   "market": "total",
+   "side": "under",
+   "line": 5.5,
+   "selection": "Under 5.5",
+   "group": "Game lines",
+   "market_name": "Total",
+   "odds": -2580,
+   "p": 0.9529,
+   "p_model": 0.9472,
+   "p_market": 0.9505,
+   "p_breakeven": 0.9627,
+   "edge": -0.0098,
+   "ev": -0.0102,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "SAO: 1.0 scored / 1.2 allowed per game this season; last 10: 1.0 / 1.2",
+    "CRU: 1.8 scored / 1.2 allowed per game this season; last 10: 1.8 / 1.2"
+   ],
+   "home": {
+    "name": "Cruzeiro",
+    "abbr": "CRU"
+   },
+   "away": {
+    "name": "S\u00e3o Paulo",
+    "abbr": "SAO"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxbrasileirototal/brasileiro-total/kxbrasileirototal-26oct07cruspa",
+    "price": 96,
+    "ticker": "KXBRASILEIROTOTAL-26OCT07CRUSPA-6",
+    "contract": "No \u00b7 Over 5.5",
+    "buy": "no"
+   },
+   "result": null,
+   "close_odds": -2580
+  },
+  "401918298:KXWNBAGAME-26OCT07LVGS-GS:yes": {
+   "id": "401918298:KXWNBAGAME-26OCT07LVGS-GS:yes",
+   "sport": "wnba",
+   "game_id": "401918298",
+   "short": "LV @ GS",
+   "game": "Las Vegas Aces at Golden State Valkyries",
+   "start": "2026-10-08T01:30Z",
+   "market": "ml",
+   "side": "home",
+   "selection": "GS to win",
+   "group": "Game lines",
+   "market_name": "Winner",
+   "odds": -126,
+   "p": 0.5571,
+   "p_model": 0.627,
+   "p_market": 0.5294,
+   "p_breakeven": 0.5574,
+   "edge": -0.0003,
+   "ev": -0.0005,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "GS ranks #14 in offense and #1 in defense of 15 (schedule-adjusted, recent games weighted more)",
+    "Last 10: 8-2, scoring 82.7 and allowing 73.8 pts/game (season: 82.65 / 75.54)",
+    "At home: 82.64 scored / 74.2 allowed per game",
+    "Record 32-12 (home 17-5)",
+    "Injuries: Iliana Rupert (C, Out)",
+    "Price moved -122 \u2192 -130 since opening, money moving toward GS"
+   ],
+   "home": {
+    "name": "Golden State Valkyries",
+    "abbr": "GS"
+   },
+   "away": {
+    "name": "Las Vegas Aces",
+    "abbr": "LV"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxwnbagame/women-s-pro-basketball-game/kxwnbagame-26oct07lvgs",
+    "price": 54,
+    "ticker": "KXWNBAGAME-26OCT07LVGS-GS",
+    "contract": "Yes \u00b7 Golden State",
+    "buy": "yes"
+   },
+   "result": null,
+   "close_odds": -126
+  },
+  "401892456:KXNHLTOTAL-26OCT07EDMANA-4:yes": {
+   "id": "401892456:KXNHLTOTAL-26OCT07EDMANA-4:yes",
+   "sport": "nhl",
+   "game_id": "401892456",
+   "short": "EDM @ ANA",
+   "game": "Edmonton Oilers at Anaheim Ducks",
+   "start": "2026-10-08T02:00Z",
+   "market": "total",
+   "side": "over",
+   "line": 3.5,
+   "selection": "Over 3.5",
+   "group": "Game lines",
+   "market_name": "Total",
+   "odds": -1236,
+   "p": 0.9051,
+   "p_model": 0.8908,
+   "p_market": 0.902,
+   "p_breakeven": 0.9252,
+   "edge": -0.0201,
+   "ev": -0.0217,
+   "grade": "D",
+   "modeled": true,
+   "reasons": [
+    "EDM: 5.67 scored / 4.67 allowed per game this season; last 3: 5.67 / 4.67",
+    "ANA: 3.5 scored / 2.5 allowed per game this season; last 2: 3.5 / 2.5"
+   ],
+   "home": {
+    "name": "Anaheim Ducks",
+    "abbr": "ANA"
+   },
+   "away": {
+    "name": "Edmonton Oilers",
+    "abbr": "EDM"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxnhltotal/nhl-total-goals/kxnhltotal-26oct07edmana",
+    "price": 92,
+    "ticker": "KXNHLTOTAL-26OCT07EDMANA-4",
+    "contract": "Yes \u00b7 Over 3.5",
+    "buy": "yes"
+   },
+   "result": null,
+   "close_odds": -1236
+  },
+  "401907987:KXMLBTOTAL-26OCT072000TBNYY-3:yes": {
+   "id": "401907987:KXMLBTOTAL-26OCT072000TBNYY-3:yes",
+   "sport": "mlb",
+   "game_id": "401907987",
+   "short": "TB @ NYY",
+   "game": "Tampa Bay Rays at New York Yankees",
+   "start": "2026-10-08T00:00Z",
+   "market": "total",
+   "side": "over",
+   "line": 2.5,
+   "selection": "Over 2.5",
+   "group": "Game lines",
+   "market_name": "Total",
+   "odds": -2580,
+   "p": 0.9466,
+   "p_model": 0.9654,
+   "p_market": 0.9412,
+   "p_breakeven": 0.9627,
+   "edge": -0.0161,
+   "ev": -0.0167,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "TB: 4.52 scored / 3.98 allowed per game this season; last 10: 4.0 / 2.9",
+    "NYY: 4.6 scored / 3.69 allowed per game this season; last 10: 4.6 / 3.3",
+    "Starter Carlos Rod\u00f3n (LHP): 2.67 ERA, 3.44 FIP over 84 IP, 1.8 ERA last 5 starts. Projects below the team's usual pitching (-3% runs allowed)"
+   ],
+   "home": {
+    "name": "New York Yankees",
+    "abbr": "NYY"
+   },
+   "away": {
+    "name": "Tampa Bay Rays",
+    "abbr": "TB"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxmlbtotal/pro-baseball-total-points/kxmlbtotal-26oct072000tbnyy",
+    "price": 96,
+    "ticker": "KXMLBTOTAL-26OCT072000TBNYY-3",
+    "contract": "Yes \u00b7 Over 2.5",
+    "buy": "yes"
+   },
+   "result": null,
+   "close_odds": -2580
+  },
+  "401918297:KXWNBAGAME-26OCT07NYATL-ATL:yes": {
+   "id": "401918297:KXWNBAGAME-26OCT07NYATL-ATL:yes",
+   "sport": "wnba",
+   "game_id": "401918297",
+   "short": "NY @ ATL",
+   "game": "New York Liberty at Atlanta Dream",
+   "start": "2026-10-07T23:30Z",
+   "market": "ml",
+   "side": "home",
+   "selection": "ATL to win",
+   "group": "Game lines",
+   "market_name": "Winner",
+   "odds": -126,
+   "p": 0.5623,
+   "p_model": 0.6569,
+   "p_market": 0.5294,
+   "p_breakeven": 0.5574,
+   "edge": 0.0049,
+   "ev": 0.0088,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "ATL ranks #2 in offense and #3 in defense of 15 (schedule-adjusted, recent games weighted more)",
+    "Last 10: 9-1, scoring 91.4 and allowing 77.6 pts/game (season: 91.4 / 84.06). Current streak: W8",
+    "At home: 93.79 scored / 86.46 allowed per game",
+    "Record 30-14 (home 15-7)",
+    "Injuries: Allisha Gray (G, Out), Matilde Villa (G, Out), Brionna Jones (F, Out)",
+    "Price moved -180 \u2192 -125 since opening, money moving away from ATL",
+    "\u26a0 The line has moved against this side since opening (a sharp-money signal), so the model defers more to the market"
+   ],
+   "home": {
+    "name": "Atlanta Dream",
+    "abbr": "ATL"
+   },
+   "away": {
+    "name": "New York Liberty",
+    "abbr": "NY"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxwnbagame/women-s-pro-basketball-game/kxwnbagame-26oct07nyatl",
+    "price": 54,
+    "ticker": "KXWNBAGAME-26OCT07NYATL-ATL",
+    "contract": "Yes \u00b7 Atlanta",
+    "buy": "yes"
+   },
+   "result": null,
+   "close_odds": -126
+  },
+  "401841250:KXBRASILEIROTOTAL-26OCT07VITCHA-6:no": {
+   "id": "401841250:KXBRASILEIROTOTAL-26OCT07VITCHA-6:no",
+   "sport": "soccer_bra.1",
+   "game_id": "401841250",
+   "short": "CHA @ VIT",
+   "game": "Chapecoense at Vit\u00f3ria",
+   "start": "2026-10-07T23:00Z",
+   "market": "total",
+   "side": "under",
+   "line": 5.5,
+   "selection": "Under 5.5",
+   "group": "Game lines",
+   "market_name": "Total",
+   "odds": -2042,
+   "p": 0.9439,
+   "p_model": 0.9438,
+   "p_market": 0.9406,
+   "p_breakeven": 0.9533,
+   "edge": -0.0094,
+   "ev": -0.0099,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "CHA: 1.2 scored / 2.0 allowed per game this season; last 10: 1.2 / 2.0",
+    "VIT: 0.64 scored / 1.55 allowed per game this season; last 10: 0.6 / 1.7"
+   ],
+   "home": {
+    "name": "Vit\u00f3ria",
+    "abbr": "VIT"
+   },
+   "away": {
+    "name": "Chapecoense",
+    "abbr": "CHA"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxbrasileirototal/brasileiro-total/kxbrasileirototal-26oct07vitcha",
+    "price": 95,
+    "ticker": "KXBRASILEIROTOTAL-26OCT07VITCHA-6",
+    "contract": "No \u00b7 Over 5.5",
+    "buy": "no"
+   },
+   "result": null,
+   "close_odds": -2042
+  },
+  "401871066:KXNCAAFSPREAD-26OCT07NMSUFIU-FIU2:yes": {
+   "id": "401871066:KXNCAAFSPREAD-26OCT07NMSUFIU-FIU2:yes",
+   "sport": "cfb",
+   "game_id": "401871066",
+   "short": "NMSU @ FIU",
+   "game": "New Mexico State Aggies at Florida International Panthers",
+   "start": "2026-10-07T23:30Z",
+   "market": "spread",
+   "side": "home",
+   "line": -1.5,
+   "selection": "FIU by 1.5+",
+   "group": "Game lines",
+   "market_name": "Spread",
+   "odds": -218,
+   "p": 0.6901,
+   "p_model": 0.7464,
+   "p_market": 0.6634,
+   "p_breakeven": 0.6855,
+   "edge": 0.0046,
+   "ev": 0.0067,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "FIU ranks #145 in offense and #54 in defense of 190 (schedule-adjusted, recent games weighted more)",
+    "Last 4: 2-2, scoring 18.0 and allowing 14.5 pts/game (season: 18.0 / 14.5)",
+    "At home: 26.5 scored / 11.5 allowed per game",
+    "Record 2-2",
+    "Line moved from -3.5 to -6.5 since opening (spread)"
+   ],
+   "home": {
+    "name": "Florida International Panthers",
+    "abbr": "FIU"
+   },
+   "away": {
+    "name": "New Mexico State Aggies",
+    "abbr": "NMSU"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxncaafspread/college-football-spread/kxncaafspread-26oct07nmsufiu",
+    "price": 67,
+    "ticker": "KXNCAAFSPREAD-26OCT07NMSUFIU-FIU2",
+    "contract": "Yes \u00b7 Florida International wins by over 1.5 points",
+    "buy": "yes"
+   },
+   "result": null,
+   "close_odds": -218
+  },
+  "401908005:KXMLBTOTAL-26OCT072200MILSD-12:no": {
+   "id": "401908005:KXMLBTOTAL-26OCT072200MILSD-12:no",
+   "sport": "mlb",
+   "game_id": "401908005",
+   "short": "MIL @ SD",
+   "game": "Milwaukee Brewers at San Diego Padres",
+   "start": "2026-10-08T02:00Z",
+   "market": "total",
+   "side": "under",
+   "line": 11.5,
+   "selection": "Under 11.5",
+   "group": "Game lines",
+   "market_name": "Total",
+   "odds": -489,
+   "p": 0.8232,
+   "p_model": 0.8827,
+   "p_market": 0.8119,
+   "p_breakeven": 0.8303,
+   "edge": -0.0071,
+   "ev": -0.0086,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "MIL: 5.1 scored / 3.8 allowed per game this season; last 10: 4.3 / 2.7",
+    "SD: 4.45 scored / 4.14 allowed per game this season; last 10: 5.3 / 3.6",
+    "Starter Walker Buehler (RHP): 4.63 ERA, 4.51 FIP over 154 IP, 4.43 ERA last 5 starts. Projects above the team's usual pitching (+3% runs allowed)"
+   ],
+   "home": {
+    "name": "San Diego Padres",
+    "abbr": "SD"
+   },
+   "away": {
+    "name": "Milwaukee Brewers",
+    "abbr": "MIL"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxmlbtotal/pro-baseball-total-points/kxmlbtotal-26oct072200milsd",
+    "price": 82,
+    "ticker": "KXMLBTOTAL-26OCT072200MILSD-12",
+    "contract": "No \u00b7 Over 11.5",
+    "buy": "no"
+   },
+   "result": null,
+   "close_odds": -489
+  }
+ },
+ "parlays": [
+  {
+   "legs": [
+    "401907987:KXMLBTOTAL-26OCT072000TBNYY-12:no",
+    "401908005:KXMLBTOTAL-26OCT072200MILSD-12:no"
+   ],
+   "n": 2,
+   "mode": "safest",
+   "p": 0.6992,
+   "decimal": 1.402,
+   "american": -249,
+   "ev": -0.0195,
+   "tier": "lock",
+   "name": "lock_2",
+   "result": null
+  },
+  {
+   "legs": [
+    "401871066:KXNCAAFSPREAD-26OCT07NMSUFIU-FIU2:yes",
+    "401841257:KXBRASILEIROTOTAL-26OCT07BOTVDG-4:no"
+   ],
+   "n": 2,
+   "mode": "safest",
+   "p": 0.4749,
+   "decimal": 2.069,
+   "american": 107,
+   "ev": -0.0173,
+   "tier": "best",
+   "name": "best_2",
+   "result": null
+  }
+ ],
+ "straights": [],
+ "straights_best": [
+  "401918297:KXWNBAGAME-26OCT07NYATL-ATL:yes",
+  "401918298:KXWNBAGAME-26OCT07LVGS-GS:yes",
+  "401841249:KXBRASILEIROTOTAL-26OCT07CRUSPA-6:no",
+  "401907987:KXMLBTOTAL-26OCT072000TBNYY-3:yes"
+ ],
+ "locks": [
+  "401841252:KXBRASILEIROTOTAL-26OCT07CRGPA-6:no",
+  "401841250:KXBRASILEIROTOTAL-26OCT07VITCHA-6:no",
+  "401871066:KXNCAAFTOTAL-26OCT07NMSUFIU-70:no",
+  "401871051:KXNCAAFTOTAL-26OCT07JVSTKENN-29:yes",
+  "401892456:KXNHLTOTAL-26OCT07EDMANA-4:yes"
+ ]
+}
