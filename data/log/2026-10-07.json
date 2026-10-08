@@ -89,7 +89,7 @@
     "contract": "Yes \u00b7 Over 28.5",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -1428
   },
   "401841252:KXBRASILEIROTOTAL-26OCT07CRGPA-6:no": {
@@ -133,7 +133,7 @@
     "contract": "No \u00b7 Over 5.5",
     "buy": "no"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -2042
   },
   "401841257:KXBRASILEIROTOTAL-26OCT07BOTVDG-4:no": {
@@ -177,7 +177,7 @@
     "contract": "No \u00b7 Over 3.5",
     "buy": "no"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -199
   },
   "401871066:KXNCAAFTOTAL-26OCT07NMSUFIU-70:no": {
@@ -266,7 +266,7 @@
     "contract": "No \u00b7 Over 5.5",
     "buy": "no"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -2580
   },
   "401918298:KXWNBAGAME-26OCT07LVGS-GS:yes": {
@@ -402,7 +402,7 @@
     "contract": "Yes \u00b7 Over 2.5",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -1684
   },
   "401918297:KXWNBAGAME-26OCT07NYATL-ATL:yes": {
@@ -450,7 +450,7 @@
     "contract": "Yes \u00b7 Atlanta",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -126
   },
   "401841250:KXBRASILEIROTOTAL-26OCT07VITCHA-6:no": {
@@ -494,7 +494,7 @@
     "contract": "No \u00b7 Over 5.5",
     "buy": "no"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -2042
   },
   "401871066:KXNCAAFSPREAD-26OCT07NMSUFIU-FIU2:yes": {
