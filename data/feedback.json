@@ -36,10 +36,10 @@
   "z": 1.24
  },
  "mlb|Player props": {
-  "n": 995,
+  "n": 997,
   "trusted": true,
   "w_mult": 1.0,
-  "z": 2.18
+  "z": 2.08
  },
  "mlb|Team props": {
   "n": 85,
@@ -162,10 +162,10 @@
   "z": 1.88
  },
  "soccer_bra.1|Game lines": {
-  "n": 69,
+  "n": 70,
   "trusted": true,
   "w_mult": 1.0,
-  "z": 1.05
+  "z": 0.98
  },
  "soccer_bra.1|Team props": {
   "n": 19,
@@ -246,10 +246,10 @@
   "z": 0.99
  },
  "wnba|1st half": {
-  "n": 15,
+  "n": 16,
   "trusted": false,
   "w_mult": 0.5,
-  "z": -0.55
+  "z": -0.37
  },
  "wnba|1st quarter": {
   "n": 3,
@@ -276,10 +276,10 @@
   "z": -1.81
  },
  "wnba|Game lines": {
-  "n": 34,
+  "n": 37,
   "trusted": true,
   "w_mult": 1.0,
-  "z": 0.71
+  "z": 0.67
  },
  "wnba|Game specials": {
   "n": 8,
@@ -294,9 +294,9 @@
   "z": -1.83
  },
  "wnba|Team props": {
-  "n": 5,
+  "n": 6,
   "trusted": false,
   "w_mult": 0.5,
-  "z": -2.1
+  "z": -1.74
  }
 }
