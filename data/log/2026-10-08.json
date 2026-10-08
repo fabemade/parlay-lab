@@ -277,7 +277,7 @@
     "buy": "yes"
    },
    "result": null,
-   "close_odds": -154
+   "close_odds": -161
   },
   "401841254:KXBRASILEIROTOTAL-26OCT08PALBAH-4:no": {
    "id": "401841254:KXBRASILEIROTOTAL-26OCT08PALBAH-4:no",
@@ -321,7 +321,7 @@
     "buy": "no"
    },
    "result": null,
-   "close_odds": -168
+   "close_odds": -191
   },
   "401841251:KXBRASILEIROTOTAL-26OCT08SANFLA-4:no": {
    "id": "401841251:KXBRASILEIROTOTAL-26OCT08SANFLA-4:no",
@@ -409,7 +409,7 @@
     "buy": "no"
    },
    "result": null,
-   "close_odds": -1428
+   "close_odds": -1684
   },
   "401891820:KXNHLTOTAL-26OCT08PHIOTT-10:no": {
    "id": "401891820:KXNHLTOTAL-26OCT08PHIOTT-10:no",
@@ -629,7 +629,7 @@
     "buy": "yes"
    },
    "result": null,
-   "close_odds": -564
+   "close_odds": -525
   },
   "401841256:KXBRASILEIROTOTAL-26OCT08CAPATL-6:no": {
    "id": "401841256:KXBRASILEIROTOTAL-26OCT08CAPATL-6:no",
