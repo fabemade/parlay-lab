@@ -1,0 +1,896 @@
+{
+ "date": "2026-10-08",
+ "locked_at": "2026-10-08T09:23-04:00",
+ "legs": {
+  "401869933:KXNCAAFGAME-26OCT08USAARST-ARST:yes": {
+   "id": "401869933:KXNCAAFGAME-26OCT08USAARST-ARST:yes",
+   "sport": "cfb",
+   "game_id": "401869933",
+   "short": "USA @ ARST",
+   "game": "South Alabama Jaguars at Arkansas State Red Wolves",
+   "start": "2026-10-08T23:30Z",
+   "market": "ml",
+   "side": "home",
+   "selection": "ARST to win",
+   "group": "Game lines",
+   "market_name": "Winner",
+   "odds": -137,
+   "p": 0.5849,
+   "p_model": 0.6578,
+   "p_market": 0.5545,
+   "p_breakeven": 0.5772,
+   "edge": 0.0077,
+   "ev": 0.0133,
+   "grade": "B",
+   "modeled": true,
+   "reasons": [
+    "ARST ranks #112 in offense and #79 in defense of 190 (schedule-adjusted, recent games weighted more)",
+    "Last 5: 2-3, scoring 24.0 and allowing 23.4 pts/game (season: 24.0 / 23.4)",
+    "At home: 34.5 scored / 10.5 allowed per game",
+    "Record 2-3",
+    "Price moved -112 \u2192 -142 since opening, money moving toward ARST"
+   ],
+   "home": {
+    "name": "Arkansas State Red Wolves",
+    "abbr": "ARST"
+   },
+   "away": {
+    "name": "South Alabama Jaguars",
+    "abbr": "USA"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxncaafgame/college-football-game/kxncaafgame-26oct08usaarst",
+    "price": 56,
+    "ticker": "KXNCAAFGAME-26OCT08USAARST-ARST",
+    "contract": "Yes \u00b7 Arkansas St.",
+    "buy": "yes"
+   },
+   "result": null,
+   "close_odds": -137
+  },
+  "401870766:KXNCAAFSPREAD-26OCT08SHSULIB-LIB2:yes": {
+   "id": "401870766:KXNCAAFSPREAD-26OCT08SHSULIB-LIB2:yes",
+   "sport": "cfb",
+   "game_id": "401870766",
+   "short": "SHSU @ LIB",
+   "game": "Sam Houston Bearkats at Liberty Flames",
+   "start": "2026-10-08T23:00Z",
+   "market": "spread",
+   "side": "home",
+   "line": -1.5,
+   "selection": "LIB by 1.5+",
+   "group": "Game lines",
+   "market_name": "Spread",
+   "odds": -489,
+   "p": 0.8379,
+   "p_model": 0.8741,
+   "p_market": 0.8119,
+   "p_breakeven": 0.8303,
+   "edge": 0.0076,
+   "ev": 0.0092,
+   "grade": "B",
+   "modeled": true,
+   "reasons": [
+    "LIB ranks #68 in offense and #39 in defense of 190 (schedule-adjusted, recent games weighted more)",
+    "Last 5: 4-1, scoring 30.4 and allowing 17.8 pts/game (season: 30.4 / 17.8). Current streak: W4",
+    "At home: 37.5 scored / 19.0 allowed per game",
+    "Record 4-1"
+   ],
+   "home": {
+    "name": "Liberty Flames",
+    "abbr": "LIB"
+   },
+   "away": {
+    "name": "Sam Houston Bearkats",
+    "abbr": "SHSU"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxncaafspread/college-football-spread/kxncaafspread-26oct08shsulib",
+    "price": 82,
+    "ticker": "KXNCAAFSPREAD-26OCT08SHSULIB-LIB2",
+    "contract": "Yes \u00b7 Liberty wins by over 1.5 points",
+    "buy": "yes"
+   },
+   "result": null,
+   "close_odds": -489
+  },
+  "401892464:KXNHLGAME-26OCT08TORVGK-VGK:yes": {
+   "id": "401892464:KXNHLGAME-26OCT08TORVGK-VGK:yes",
+   "sport": "nhl",
+   "game_id": "401892464",
+   "short": "TOR @ VGK",
+   "game": "Toronto Maple Leafs at Vegas Golden Knights",
+   "start": "2026-10-09T02:00Z",
+   "market": "ml",
+   "side": "home",
+   "selection": "VGK to win",
+   "group": "Game lines",
+   "market_name": "Winner",
+   "odds": -175,
+   "p": 0.6216,
+   "p_model": 0.6245,
+   "p_market": 0.6139,
+   "p_breakeven": 0.6365,
+   "edge": -0.0149,
+   "ev": -0.0234,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "VGK ranks #8 in offense and #5 in defense of 32 (schedule-adjusted, recent games weighted more)",
+    "Last 4: 3-1, scoring 4.25 and allowing 2.5 goals/game (season: 4.25 / 2.5)",
+    "At home: 4.0 scored / 3.0 allowed per game",
+    "Record 3-1-0 (home 1-1-0)",
+    "Injuries: Lukas Cormier (D, Injured Reserve)",
+    "Price moved -162 \u2192 -170 since opening, money moving toward VGK"
+   ],
+   "home": {
+    "name": "Vegas Golden Knights",
+    "abbr": "VGK"
+   },
+   "away": {
+    "name": "Toronto Maple Leafs",
+    "abbr": "TOR"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxnhlgame/nhl-game/kxnhlgame-26oct08torvgk",
+    "price": 62,
+    "ticker": "KXNHLGAME-26OCT08TORVGK-VGK",
+    "contract": "Yes \u00b7 Vegas",
+    "buy": "yes"
+   },
+   "result": null,
+   "close_odds": -175
+  },
+  "401872980:KXNFLTOTAL-26OCT08TBDAL-30:yes": {
+   "id": "401872980:KXNFLTOTAL-26OCT08TBDAL-30:yes",
+   "sport": "nfl",
+   "game_id": "401872980",
+   "short": "TB @ DAL",
+   "game": "Tampa Bay Buccaneers at Dallas Cowboys",
+   "start": "2026-10-09T00:15Z",
+   "market": "total",
+   "side": "over",
+   "line": 29.5,
+   "selection": "Over 29.5",
+   "group": "Game lines",
+   "market_name": "Total",
+   "odds": -2042,
+   "p": 0.9393,
+   "p_model": 0.946,
+   "p_market": 0.9314,
+   "p_breakeven": 0.9533,
+   "edge": -0.014,
+   "ev": -0.0147,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "TB: 19.0 scored / 24.0 allowed per game this season; last 4: 19.0 / 24.0",
+    "DAL: 30.5 scored / 28.0 allowed per game this season; last 4: 30.5 / 28.0",
+    "Line moved from +52.5 to +47.5 since opening (total)",
+    "\u26a0 The line has moved against this side since opening (a sharp-money signal), so the model defers more to the market"
+   ],
+   "home": {
+    "name": "Dallas Cowboys",
+    "abbr": "DAL"
+   },
+   "away": {
+    "name": "Tampa Bay Buccaneers",
+    "abbr": "TB"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxnfltotal/pro-football-total-points/kxnfltotal-26oct08tbdal",
+    "price": 95,
+    "ticker": "KXNFLTOTAL-26OCT08TBDAL-30",
+    "contract": "Yes \u00b7 Over 29.5",
+    "buy": "yes"
+   },
+   "result": null,
+   "close_odds": -2042
+  },
+  "401862794:KXNCAAFTOTAL-26OCT08USFUTSA-77:no": {
+   "id": "401862794:KXNCAAFTOTAL-26OCT08USFUTSA-77:no",
+   "sport": "cfb",
+   "game_id": "401862794",
+   "short": "USF @ UTSA",
+   "game": "South Florida Bulls at UTSA Roadrunners",
+   "start": "2026-10-08T23:30Z",
+   "market": "total",
+   "side": "under",
+   "line": 76.5,
+   "selection": "Under 76.5",
+   "group": "Game lines",
+   "market_name": "Total",
+   "odds": -2580,
+   "p": 0.9452,
+   "p_model": 0.9179,
+   "p_market": 0.9412,
+   "p_breakeven": 0.9627,
+   "edge": -0.0175,
+   "ev": -0.0182,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "USF: 26.6 scored / 14.6 allowed per game this season; last 5: 26.6 / 14.6",
+    "UTSA: 31.4 scored / 26.2 allowed per game this season; last 5: 31.4 / 26.2",
+    "Line moved from +55.5 to +49.5 since opening (total)",
+    "\u26a0 The line has moved against this side since opening (a sharp-money signal), so the model defers more to the market"
+   ],
+   "home": {
+    "name": "UTSA Roadrunners",
+    "abbr": "UTSA"
+   },
+   "away": {
+    "name": "South Florida Bulls",
+    "abbr": "USF"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxncaaftotal/college-football-total-points/kxncaaftotal-26oct08usfutsa",
+    "price": 96,
+    "ticker": "KXNCAAFTOTAL-26OCT08USFUTSA-77",
+    "contract": "No \u00b7 Over 76.5",
+    "buy": "no"
+   },
+   "result": null,
+   "close_odds": -2580
+  },
+  "401891825:KXNHLGAME-26OCT08SJSTL-STL:yes": {
+   "id": "401891825:KXNHLGAME-26OCT08SJSTL-STL:yes",
+   "sport": "nhl",
+   "game_id": "401891825",
+   "short": "SJ @ STL",
+   "game": "San Jose Sharks at St. Louis Blues",
+   "start": "2026-10-09T00:00Z",
+   "market": "ml",
+   "side": "home",
+   "selection": "STL to win",
+   "group": "Game lines",
+   "market_name": "Winner",
+   "odds": -148,
+   "p": 0.5831,
+   "p_model": 0.58,
+   "p_market": 0.58,
+   "p_breakeven": 0.5971,
+   "edge": -0.014,
+   "ev": -0.0234,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "STL ranks #19 in offense and #10 in defense of 32 (schedule-adjusted, recent games weighted more)",
+    "Last 3: 1-2, scoring 2.33 and allowing 3.33 goals/game (season: 2.33 / 3.33)",
+    "Record 1-2-0 (home 0-0-0)",
+    "Injuries: Alexey Toropchenko (RW, Injured Reserve), Tyler Tucker (D, Injured Reserve), Felix Trudeau (LW, Injured Reserve), Logan Mailloux (D, Injured Reserve)",
+    "Price moved +100 \u2192 -142 since opening, money moving toward STL"
+   ],
+   "home": {
+    "name": "St. Louis Blues",
+    "abbr": "STL"
+   },
+   "away": {
+    "name": "San Jose Sharks",
+    "abbr": "SJ"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxnhlgame/nhl-game/kxnhlgame-26oct08sjstl",
+    "price": 58,
+    "ticker": "KXNHLGAME-26OCT08SJSTL-STL",
+    "contract": "Yes \u00b7 St. Louis",
+    "buy": "yes"
+   },
+   "result": null,
+   "close_odds": -148
+  },
+  "401841254:KXBRASILEIROTOTAL-26OCT08PALBAH-4:no": {
+   "id": "401841254:KXBRASILEIROTOTAL-26OCT08PALBAH-4:no",
+   "sport": "soccer_bra.1",
+   "game_id": "401841254",
+   "short": "BAH @ PAL",
+   "game": "Bahia at Palmeiras",
+   "start": "2026-10-09T00:30Z",
+   "market": "total",
+   "side": "under",
+   "line": 3.5,
+   "selection": "Under 3.5",
+   "group": "Game lines",
+   "market_name": "Total",
+   "odds": -208,
+   "p": 0.6663,
+   "p_model": 0.7212,
+   "p_market": 0.6535,
+   "p_breakeven": 0.6757,
+   "edge": -0.0094,
+   "ev": -0.0139,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "BAH: 1.64 scored / 1.09 allowed per game this season; last 10: 1.6 / 1.2",
+    "PAL: 1.7 scored / 0.8 allowed per game this season; last 10: 1.7 / 0.8"
+   ],
+   "home": {
+    "name": "Palmeiras",
+    "abbr": "PAL"
+   },
+   "away": {
+    "name": "Bahia",
+    "abbr": "BAH"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxbrasileirototal/brasileiro-total/kxbrasileirototal-26oct08palbah",
+    "price": 66,
+    "ticker": "KXBRASILEIROTOTAL-26OCT08PALBAH-4",
+    "contract": "No \u00b7 Over 3.5",
+    "buy": "no"
+   },
+   "result": null,
+   "close_odds": -208
+  },
+  "401841251:KXBRASILEIROTOTAL-26OCT08SANFLA-4:no": {
+   "id": "401841251:KXBRASILEIROTOTAL-26OCT08SANFLA-4:no",
+   "sport": "soccer_bra.1",
+   "game_id": "401841251",
+   "short": "FLA @ SAN",
+   "game": "Flamengo at Santos",
+   "start": "2026-10-08T22:30Z",
+   "market": "total",
+   "side": "under",
+   "line": 3.5,
+   "selection": "Under 3.5",
+   "group": "Game lines",
+   "market_name": "Total",
+   "odds": -228,
+   "p": 0.6836,
+   "p_model": 0.71,
+   "p_market": 0.6733,
+   "p_breakeven": 0.6952,
+   "edge": -0.0116,
+   "ev": -0.0167,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "FLA: 2.18 scored / 0.64 allowed per game this season; last 10: 2.0 / 0.7",
+    "SAN: 1.7 scored / 1.2 allowed per game this season; last 10: 1.7 / 1.2"
+   ],
+   "home": {
+    "name": "Santos",
+    "abbr": "SAN"
+   },
+   "away": {
+    "name": "Flamengo",
+    "abbr": "FLA"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxbrasileirototal/brasileiro-total/kxbrasileirototal-26oct08sanfla",
+    "price": 68,
+    "ticker": "KXBRASILEIROTOTAL-26OCT08SANFLA-4",
+    "contract": "No \u00b7 Over 3.5",
+    "buy": "no"
+   },
+   "result": null,
+   "close_odds": -228
+  },
+  "401841248:KXBRASILEIROTOTAL-26OCT08FLUCFC-6:no": {
+   "id": "401841248:KXBRASILEIROTOTAL-26OCT08FLUCFC-6:no",
+   "sport": "soccer_bra.1",
+   "game_id": "401841248",
+   "short": "CFC @ FLU",
+   "game": "Coritiba at Fluminense",
+   "start": "2026-10-09T00:30Z",
+   "market": "total",
+   "side": "under",
+   "line": 5.5,
+   "selection": "Under 5.5",
+   "group": "Game lines",
+   "market_name": "Total",
+   "odds": -2042,
+   "p": 0.9459,
+   "p_model": 0.935,
+   "p_market": 0.9406,
+   "p_breakeven": 0.9533,
+   "edge": -0.0074,
+   "ev": -0.0078,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "CFC: 1.3 scored / 1.9 allowed per game this season; last 10: 1.3 / 1.9",
+    "FLU: 1.6 scored / 1.3 allowed per game this season; last 10: 1.6 / 1.3"
+   ],
+   "home": {
+    "name": "Fluminense",
+    "abbr": "FLU"
+   },
+   "away": {
+    "name": "Coritiba",
+    "abbr": "CFC"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxbrasileirototal/brasileiro-total/kxbrasileirototal-26oct08flucfc",
+    "price": 95,
+    "ticker": "KXBRASILEIROTOTAL-26OCT08FLUCFC-6",
+    "contract": "No \u00b7 Over 5.5",
+    "buy": "no"
+   },
+   "result": null,
+   "close_odds": -2042
+  },
+  "401891820:KXNHLTOTAL-26OCT08PHIOTT-10:no": {
+   "id": "401891820:KXNHLTOTAL-26OCT08PHIOTT-10:no",
+   "sport": "nhl",
+   "game_id": "401891820",
+   "short": "PHI @ OTT",
+   "game": "Philadelphia Flyers at Ottawa Senators",
+   "start": "2026-10-08T23:00Z",
+   "market": "total",
+   "side": "under",
+   "line": 9.5,
+   "selection": "Under 9.5",
+   "group": "Game lines",
+   "market_name": "Total",
+   "odds": -1684,
+   "p": 0.9358,
+   "p_model": 0.8993,
+   "p_market": 0.9307,
+   "p_breakeven": 0.9439,
+   "edge": -0.0081,
+   "ev": -0.0086,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "PHI: 1.25 scored / 4.25 allowed per game this season; last 4: 1.25 / 4.25",
+    "OTT: 3.33 scored / 2.67 allowed per game this season; last 3: 3.33 / 2.67"
+   ],
+   "home": {
+    "name": "Ottawa Senators",
+    "abbr": "OTT"
+   },
+   "away": {
+    "name": "Philadelphia Flyers",
+    "abbr": "PHI"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxnhltotal/nhl-total-goals/kxnhltotal-26oct08phiott",
+    "price": 94,
+    "ticker": "KXNHLTOTAL-26OCT08PHIOTT-10",
+    "contract": "No \u00b7 Over 9.5",
+    "buy": "no"
+   },
+   "result": null,
+   "close_odds": -1684
+  },
+  "401892457:KXNHLTOTAL-26OCT08UTABOS-4:yes": {
+   "id": "401892457:KXNHLTOTAL-26OCT08UTABOS-4:yes",
+   "sport": "nhl",
+   "game_id": "401892457",
+   "short": "UTA @ BOS",
+   "game": "Utah Mammoth at Boston Bruins",
+   "start": "2026-10-08T23:00Z",
+   "market": "total",
+   "side": "over",
+   "line": 3.5,
+   "selection": "Over 3.5",
+   "group": "Game lines",
+   "market_name": "Total",
+   "odds": -660,
+   "p": 0.862,
+   "p_model": 0.8695,
+   "p_market": 0.8515,
+   "p_breakeven": 0.8684,
+   "edge": -0.0064,
+   "ev": -0.0074,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "UTA: 4.25 scored / 2.0 allowed per game this season; last 4: 4.25 / 2.0",
+    "BOS: 2.25 scored / 2.75 allowed per game this season; last 4: 2.25 / 2.75"
+   ],
+   "home": {
+    "name": "Boston Bruins",
+    "abbr": "BOS"
+   },
+   "away": {
+    "name": "Utah Mammoth",
+    "abbr": "UTA"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxnhltotal/nhl-total-goals/kxnhltotal-26oct08utabos",
+    "price": 86,
+    "ticker": "KXNHLTOTAL-26OCT08UTABOS-4",
+    "contract": "Yes \u00b7 Over 3.5",
+    "buy": "yes"
+   },
+   "result": null,
+   "close_odds": -660
+  },
+  "401841251:KXBRASILEIROTOTAL-26OCT08SANFLA-1:yes": {
+   "id": "401841251:KXBRASILEIROTOTAL-26OCT08SANFLA-1:yes",
+   "sport": "soccer_bra.1",
+   "game_id": "401841251",
+   "short": "FLA @ SAN",
+   "game": "Flamengo at Santos",
+   "start": "2026-10-08T22:30Z",
+   "market": "total",
+   "side": "over",
+   "line": 0.5,
+   "selection": "Over 0.5",
+   "group": "Game lines",
+   "market_name": "Total",
+   "odds": -2042,
+   "p": 0.9449,
+   "p_model": 0.9213,
+   "p_market": 0.9406,
+   "p_breakeven": 0.9533,
+   "edge": -0.0084,
+   "ev": -0.0088,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "FLA: 2.18 scored / 0.64 allowed per game this season; last 10: 2.0 / 0.7",
+    "SAN: 1.7 scored / 1.2 allowed per game this season; last 10: 1.7 / 1.2"
+   ],
+   "home": {
+    "name": "Santos",
+    "abbr": "SAN"
+   },
+   "away": {
+    "name": "Flamengo",
+    "abbr": "FLA"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxbrasileirototal/brasileiro-total/kxbrasileirototal-26oct08sanfla",
+    "price": 95,
+    "ticker": "KXBRASILEIROTOTAL-26OCT08SANFLA-1",
+    "contract": "Yes \u00b7 Over 0.5",
+    "buy": "yes"
+   },
+   "result": null,
+   "close_odds": -2042
+  },
+  "401892462:KXNHLTOTAL-26OCT08CHINYI-10:no": {
+   "id": "401892462:KXNHLTOTAL-26OCT08CHINYI-10:no",
+   "sport": "nhl",
+   "game_id": "401892462",
+   "short": "CHI @ NYI",
+   "game": "Chicago Blackhawks at New York Islanders",
+   "start": "2026-10-08T23:30Z",
+   "market": "total",
+   "side": "under",
+   "line": 9.5,
+   "selection": "Under 9.5",
+   "group": "Game lines",
+   "market_name": "Total",
+   "odds": -1684,
+   "p": 0.9356,
+   "p_model": 0.8944,
+   "p_market": 0.9307,
+   "p_breakeven": 0.9439,
+   "edge": -0.0083,
+   "ev": -0.0088,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "CHI: 2.25 scored / 4.25 allowed per game this season; last 4: 2.25 / 4.25",
+    "NYI: 3.0 scored / 2.33 allowed per game this season; last 3: 3.0 / 2.33"
+   ],
+   "home": {
+    "name": "New York Islanders",
+    "abbr": "NYI"
+   },
+   "away": {
+    "name": "Chicago Blackhawks",
+    "abbr": "CHI"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxnhltotal/nhl-total-goals/kxnhltotal-26oct08chinyi",
+    "price": 94,
+    "ticker": "KXNHLTOTAL-26OCT08CHINYI-10",
+    "contract": "No \u00b7 Over 9.5",
+    "buy": "no"
+   },
+   "result": null,
+   "close_odds": -1684
+  },
+  "401841254:KXBRASILEIROTOTAL-26OCT08PALBAH-2:yes": {
+   "id": "401841254:KXBRASILEIROTOTAL-26OCT08PALBAH-2:yes",
+   "sport": "soccer_bra.1",
+   "game_id": "401841254",
+   "short": "BAH @ PAL",
+   "game": "Bahia at Palmeiras",
+   "start": "2026-10-09T00:30Z",
+   "market": "total",
+   "side": "over",
+   "line": 1.5,
+   "selection": "Over 1.5",
+   "group": "Game lines",
+   "market_name": "Total",
+   "odds": -489,
+   "p": 0.8153,
+   "p_model": 0.7488,
+   "p_market": 0.8119,
+   "p_breakeven": 0.8303,
+   "edge": -0.015,
+   "ev": -0.0181,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "BAH: 1.64 scored / 1.09 allowed per game this season; last 10: 1.6 / 1.2",
+    "PAL: 1.7 scored / 0.8 allowed per game this season; last 10: 1.7 / 0.8"
+   ],
+   "home": {
+    "name": "Palmeiras",
+    "abbr": "PAL"
+   },
+   "away": {
+    "name": "Bahia",
+    "abbr": "BAH"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxbrasileirototal/brasileiro-total/kxbrasileirototal-26oct08palbah",
+    "price": 82,
+    "ticker": "KXBRASILEIROTOTAL-26OCT08PALBAH-2",
+    "contract": "Yes \u00b7 Over 1.5",
+    "buy": "yes"
+   },
+   "result": null,
+   "close_odds": -489
+  },
+  "401841256:KXBRASILEIROTOTAL-26OCT08CAPATL-6:no": {
+   "id": "401841256:KXBRASILEIROTOTAL-26OCT08CAPATL-6:no",
+   "sport": "soccer_bra.1",
+   "game_id": "401841256",
+   "short": "CAM @ CAP",
+   "game": "Atl\u00e9tico-MG at Athletico Paranaense",
+   "start": "2026-10-08T23:00Z",
+   "market": "total",
+   "side": "under",
+   "line": 5.5,
+   "selection": "Under 5.5",
+   "group": "Game lines",
+   "market_name": "Total",
+   "odds": -2580,
+   "p": 0.9554,
+   "p_model": 0.9462,
+   "p_market": 0.9505,
+   "p_breakeven": 0.9627,
+   "edge": -0.0073,
+   "ev": -0.0076,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "CAM: 1.5 scored / 0.9 allowed per game this season; last 10: 1.5 / 0.9",
+    "CAP: 1.9 scored / 1.4 allowed per game this season; last 10: 1.9 / 1.4"
+   ],
+   "home": {
+    "name": "Athletico-PR",
+    "abbr": "CAP"
+   },
+   "away": {
+    "name": "Atl\u00e9tico-MG",
+    "abbr": "CAM"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxbrasileirototal/brasileiro-total/kxbrasileirototal-26oct08capatl",
+    "price": 96,
+    "ticker": "KXBRASILEIROTOTAL-26OCT08CAPATL-6",
+    "contract": "No \u00b7 Over 5.5",
+    "buy": "no"
+   },
+   "result": null,
+   "close_odds": -2580
+  },
+  "401870766:KXNCAAFGAME-26OCT08SHSULIB-LIB:yes": {
+   "id": "401870766:KXNCAAFGAME-26OCT08SHSULIB-LIB:yes",
+   "sport": "cfb",
+   "game_id": "401870766",
+   "short": "SHSU @ LIB",
+   "game": "Sam Houston Bearkats at Liberty Flames",
+   "start": "2026-10-08T23:00Z",
+   "market": "ml",
+   "side": "home",
+   "selection": "LIB to win",
+   "group": "Game lines",
+   "market_name": "Winner",
+   "odds": -525,
+   "p": 0.8407,
+   "p_model": 0.8551,
+   "p_market": 0.8218,
+   "p_breakeven": 0.8399,
+   "edge": 0.0008,
+   "ev": 0.001,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "LIB ranks #68 in offense and #39 in defense of 190 (schedule-adjusted, recent games weighted more)",
+    "Last 5: 4-1, scoring 30.4 and allowing 17.8 pts/game (season: 30.4 / 17.8). Current streak: W4",
+    "At home: 37.5 scored / 19.0 allowed per game",
+    "Record 4-1",
+    "Price moved -600 \u2192 -550 since opening, money moving away from LIB"
+   ],
+   "home": {
+    "name": "Liberty Flames",
+    "abbr": "LIB"
+   },
+   "away": {
+    "name": "Sam Houston Bearkats",
+    "abbr": "SHSU"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxncaafgame/college-football-game/kxncaafgame-26oct08shsulib",
+    "price": 83,
+    "ticker": "KXNCAAFGAME-26OCT08SHSULIB-LIB",
+    "contract": "Yes \u00b7 Liberty",
+    "buy": "yes"
+   },
+   "result": null,
+   "close_odds": -525
+  },
+  "401891820:KXNHLTOTAL-26OCT08PHIOTT-4:yes": {
+   "id": "401891820:KXNHLTOTAL-26OCT08PHIOTT-4:yes",
+   "sport": "nhl",
+   "game_id": "401891820",
+   "short": "PHI @ OTT",
+   "game": "Philadelphia Flyers at Ottawa Senators",
+   "start": "2026-10-08T23:00Z",
+   "market": "total",
+   "side": "over",
+   "line": 3.5,
+   "selection": "Over 3.5",
+   "group": "Game lines",
+   "market_name": "Total",
+   "odds": -609,
+   "p": 0.8515,
+   "p_model": 0.8599,
+   "p_market": 0.8416,
+   "p_breakeven": 0.8589,
+   "edge": -0.0074,
+   "ev": -0.0086,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "PHI: 1.25 scored / 4.25 allowed per game this season; last 4: 1.25 / 4.25",
+    "OTT: 3.33 scored / 2.67 allowed per game this season; last 3: 3.33 / 2.67"
+   ],
+   "home": {
+    "name": "Ottawa Senators",
+    "abbr": "OTT"
+   },
+   "away": {
+    "name": "Philadelphia Flyers",
+    "abbr": "PHI"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxnhltotal/nhl-total-goals/kxnhltotal-26oct08phiott",
+    "price": 85,
+    "ticker": "KXNHLTOTAL-26OCT08PHIOTT-4",
+    "contract": "Yes \u00b7 Over 3.5",
+    "buy": "yes"
+   },
+   "result": null,
+   "close_odds": -609
+  },
+  "401892462:KXNHLGAME-26OCT08CHINYI-NYI:yes": {
+   "id": "401892462:KXNHLGAME-26OCT08CHINYI-NYI:yes",
+   "sport": "nhl",
+   "game_id": "401892462",
+   "short": "CHI @ NYI",
+   "game": "Chicago Blackhawks at New York Islanders",
+   "start": "2026-10-08T23:30Z",
+   "market": "ml",
+   "side": "home",
+   "selection": "NYI to win",
+   "group": "Game lines",
+   "market_name": "Winner",
+   "odds": -183,
+   "p": 0.6287,
+   "p_model": 0.625,
+   "p_market": 0.6238,
+   "p_breakeven": 0.6463,
+   "edge": -0.0176,
+   "ev": -0.0272,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "NYI ranks #26 in offense and #12 in defense of 32 (schedule-adjusted, recent games weighted more)",
+    "Last 3: 1-2, scoring 3.0 and allowing 2.33 goals/game (season: 3.0 / 2.33)",
+    "At home: 6.0 scored / 0.0 allowed per game",
+    "Record 1-2-0 (home 1-0-0)",
+    "Injuries: Alexander Romanov (D, Out), Mathew Barzal (C, Injured Reserve)",
+    "Price moved -205 \u2192 -185 since opening, money moving away from NYI"
+   ],
+   "home": {
+    "name": "New York Islanders",
+    "abbr": "NYI"
+   },
+   "away": {
+    "name": "Chicago Blackhawks",
+    "abbr": "CHI"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxnhlgame/nhl-game/kxnhlgame-26oct08chinyi",
+    "price": 63,
+    "ticker": "KXNHLGAME-26OCT08CHINYI-NYI",
+    "contract": "Yes \u00b7 New York I",
+    "buy": "yes"
+   },
+   "result": null,
+   "close_odds": -183
+  }
+ },
+ "parlays": [
+  {
+   "legs": [
+    "401891820:KXNHLTOTAL-26OCT08PHIOTT-4:yes",
+    "401870766:KXNCAAFGAME-26OCT08SHSULIB-LIB:yes"
+   ],
+   "n": 2,
+   "mode": "safest",
+   "p": 0.7159,
+   "decimal": 1.386,
+   "american": -259,
+   "ev": -0.0079,
+   "tier": "lock",
+   "name": "lock_2",
+   "result": null
+  },
+  {
+   "legs": [
+    "401892457:KXNHLTOTAL-26OCT08UTABOS-4:yes",
+    "401870766:KXNCAAFSPREAD-26OCT08SHSULIB-LIB2:yes",
+    "401841254:KXBRASILEIROTOTAL-26OCT08PALBAH-2:yes"
+   ],
+   "n": 3,
+   "mode": "safest",
+   "p": 0.5889,
+   "decimal": 1.671,
+   "american": -149,
+   "ev": -0.0162,
+   "tier": "lock",
+   "name": "lock_3",
+   "result": null
+  },
+  {
+   "legs": [
+    "401841251:KXBRASILEIROTOTAL-26OCT08SANFLA-4:no",
+    "401892462:KXNHLGAME-26OCT08CHINYI-NYI:yes"
+   ],
+   "n": 2,
+   "mode": "safest",
+   "p": 0.4298,
+   "decimal": 2.225,
+   "american": 122,
+   "ev": -0.0439,
+   "tier": "best",
+   "name": "best_2",
+   "result": null
+  },
+  {
+   "legs": [
+    "401841254:KXBRASILEIROTOTAL-26OCT08PALBAH-4:no",
+    "401892464:KXNHLGAME-26OCT08TORVGK-VGK:yes",
+    "401869933:KXNCAAFGAME-26OCT08USAARST-ARST:yes"
+   ],
+   "n": 3,
+   "mode": "safest",
+   "p": 0.2422,
+   "decimal": 4.025,
+   "american": 303,
+   "ev": -0.0248,
+   "tier": "best",
+   "name": "best_3",
+   "result": null
+  }
+ ],
+ "straights": [],
+ "straights_best": [
+  "401892464:KXNHLGAME-26OCT08TORVGK-VGK:yes",
+  "401869933:KXNCAAFGAME-26OCT08USAARST-ARST:yes",
+  "401891825:KXNHLGAME-26OCT08SJSTL-STL:yes",
+  "401841256:KXBRASILEIROTOTAL-26OCT08CAPATL-6:no",
+  "401862794:KXNCAAFTOTAL-26OCT08USFUTSA-77:no"
+ ],
+ "locks": [
+  "401870766:KXNCAAFGAME-26OCT08SHSULIB-LIB:yes",
+  "401841248:KXBRASILEIROTOTAL-26OCT08FLUCFC-6:no",
+  "401841251:KXBRASILEIROTOTAL-26OCT08SANFLA-1:yes",
+  "401872980:KXNFLTOTAL-26OCT08TBDAL-30:yes",
+  "401891820:KXNHLTOTAL-26OCT08PHIOTT-10:no",
+  "401892462:KXNHLTOTAL-26OCT08CHINYI-10:no"
+ ]
+}

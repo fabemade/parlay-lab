@@ -6,46 +6,46 @@
   "z": 1.46
  },
  "cfb|Game lines": {
-  "n": 448,
+  "n": 449,
   "trusted": true,
   "w_mult": 1.0,
-  "z": 0.01
+  "z": -0.05
  },
  "cfb|Team props": {
-  "n": 11,
+  "n": 22,
   "trusted": false,
   "w_mult": 0.5,
-  "z": 1.46
+  "z": 0.34
  },
  "mlb|First 5 innings": {
-  "n": 69,
+  "n": 74,
   "trusted": false,
   "w_mult": 0.5,
-  "z": 1.18
+  "z": 1.43
  },
  "mlb|Game lines": {
-  "n": 29,
+  "n": 34,
   "trusted": true,
   "w_mult": 1.0,
-  "z": 0.53
+  "z": 0.82
  },
  "mlb|Game specials": {
-  "n": 11,
+  "n": 12,
   "trusted": false,
   "w_mult": 0.5,
-  "z": 1.18
+  "z": 1.24
  },
  "mlb|Player props": {
-  "n": 880,
+  "n": 958,
   "trusted": true,
   "w_mult": 1.0,
-  "z": 2.28
+  "z": 2.2
  },
  "mlb|Team props": {
-  "n": 78,
+  "n": 85,
   "trusted": false,
   "w_mult": 0.5,
-  "z": 2.81
+  "z": 2.75
  },
  "nfl|1st half": {
   "n": 335,
@@ -108,16 +108,16 @@
   "z": 1.81
  },
  "nhl|1st period": {
-  "n": 76,
+  "n": 81,
   "trusted": false,
   "w_mult": 0.5,
-  "z": 0.77
+  "z": 0.68
  },
  "nhl|2nd period": {
-  "n": 57,
+  "n": 59,
   "trusted": false,
   "w_mult": 0.5,
-  "z": -0.44
+  "z": -0.71
  },
  "nhl|3rd period": {
   "n": 59,
@@ -126,28 +126,28 @@
   "z": 1.0
  },
  "nhl|Game lines": {
-  "n": 83,
+  "n": 87,
   "trusted": true,
   "w_mult": 1.0,
-  "z": 1.25
+  "z": 1.38
  },
  "nhl|Game specials": {
-  "n": 32,
+  "n": 33,
   "trusted": false,
   "w_mult": 0.5,
-  "z": 1.0
+  "z": 1.09
  },
  "nhl|Player props": {
-  "n": 1421,
+  "n": 1437,
   "trusted": true,
   "w_mult": 1.0,
-  "z": -0.23
+  "z": -0.16
  },
  "nhl|Team props": {
-  "n": 176,
+  "n": 181,
   "trusted": true,
   "w_mult": 1.0,
-  "z": 1.81
+  "z": 1.95
  },
  "soccer_arg.1|Game lines": {
   "n": 34,
@@ -246,10 +246,10 @@
   "z": 0.99
  },
  "wnba|1st half": {
-  "n": 11,
+  "n": 13,
   "trusted": false,
   "w_mult": 0.5,
-  "z": -0.51
+  "z": -0.19
  },
  "wnba|1st quarter": {
   "n": 3,
@@ -276,10 +276,10 @@
   "z": -1.81
  },
  "wnba|Game lines": {
-  "n": 33,
+  "n": 34,
   "trusted": true,
   "w_mult": 1.0,
-  "z": 0.56
+  "z": 0.71
  },
  "wnba|Game specials": {
   "n": 8,
