@@ -44,7 +44,7 @@
     "contract": "No \u00b7 Over 11.5",
     "buy": "no"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -609
   },
   "401871051:KXNCAAFTOTAL-26OCT07JVSTKENN-29:yes": {
@@ -222,7 +222,7 @@
     "contract": "No \u00b7 Over 69.5",
     "buy": "no"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -2042
   },
   "401841249:KXBRASILEIROTOTAL-26OCT07CRUSPA-6:no": {
@@ -313,7 +313,7 @@
     "contract": "Yes \u00b7 Golden State",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -126
   },
   "401892456:KXNHLTOTAL-26OCT07EDMANA-4:yes": {
@@ -357,7 +357,7 @@
     "contract": "Yes \u00b7 Over 3.5",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -1236
   },
   "401907987:KXMLBTOTAL-26OCT072000TBNYY-3:yes": {
@@ -541,7 +541,7 @@
     "contract": "Yes \u00b7 Florida International wins by over 1.5 points",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -218
   },
   "401908005:KXMLBTOTAL-26OCT072200MILSD-12:no": {
@@ -586,7 +586,7 @@
     "contract": "No \u00b7 Over 11.5",
     "buy": "no"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -489
   }
  },
@@ -604,7 +604,8 @@
    "ev": -0.0195,
    "tier": "lock",
    "name": "lock_2",
-   "result": null
+   "result": "W",
+   "missed": []
   },
   {
    "legs": [
@@ -619,7 +620,8 @@
    "ev": -0.0173,
    "tier": "best",
    "name": "best_2",
-   "result": null
+   "result": "W",
+   "missed": []
   }
  ],
  "straights": [],

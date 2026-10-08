@@ -1,15 +1,15 @@
 {
  "cfb|1st half": {
-  "n": 23,
+  "n": 34,
   "trusted": false,
   "w_mult": 0.5,
-  "z": 0.76
+  "z": 1.46
  },
  "cfb|Game lines": {
-  "n": 431,
+  "n": 448,
   "trusted": true,
   "w_mult": 1.0,
-  "z": 0.03
+  "z": 0.01
  },
  "cfb|Team props": {
   "n": 11,
@@ -18,34 +18,34 @@
   "z": 1.46
  },
  "mlb|First 5 innings": {
-  "n": 66,
+  "n": 69,
   "trusted": false,
   "w_mult": 0.5,
-  "z": 1.06
+  "z": 1.18
  },
  "mlb|Game lines": {
-  "n": 27,
+  "n": 29,
   "trusted": true,
   "w_mult": 1.0,
-  "z": 0.38
+  "z": 0.53
  },
  "mlb|Game specials": {
-  "n": 9,
+  "n": 11,
   "trusted": false,
   "w_mult": 0.5,
-  "z": 1.08
+  "z": 1.18
  },
  "mlb|Player props": {
-  "n": 763,
+  "n": 880,
   "trusted": true,
   "w_mult": 1.0,
-  "z": 1.77
+  "z": 2.28
  },
  "mlb|Team props": {
-  "n": 64,
+  "n": 78,
   "trusted": false,
   "w_mult": 0.5,
-  "z": 2.3
+  "z": 2.81
  },
  "nfl|1st half": {
   "n": 335,
@@ -120,34 +120,34 @@
   "z": -0.44
  },
  "nhl|3rd period": {
-  "n": 53,
+  "n": 59,
   "trusted": false,
   "w_mult": 0.5,
-  "z": 0.66
+  "z": 1.0
  },
  "nhl|Game lines": {
-  "n": 79,
+  "n": 83,
   "trusted": true,
   "w_mult": 1.0,
-  "z": 1.12
+  "z": 1.25
  },
  "nhl|Game specials": {
-  "n": 31,
+  "n": 32,
   "trusted": false,
   "w_mult": 0.5,
-  "z": 0.93
+  "z": 1.0
  },
  "nhl|Player props": {
-  "n": 1398,
+  "n": 1421,
   "trusted": true,
   "w_mult": 1.0,
-  "z": -0.16
+  "z": -0.23
  },
  "nhl|Team props": {
-  "n": 171,
+  "n": 176,
   "trusted": true,
   "w_mult": 1.0,
-  "z": 1.66
+  "z": 1.81
  },
  "soccer_arg.1|Game lines": {
   "n": 34,
@@ -156,16 +156,16 @@
   "z": -0.47
  },
  "soccer_bra.1|1st half": {
-  "n": 17,
+  "n": 18,
   "trusted": false,
   "w_mult": 0.5,
-  "z": 1.65
+  "z": 1.72
  },
  "soccer_bra.1|Game lines": {
-  "n": 66,
+  "n": 69,
   "trusted": true,
   "w_mult": 1.0,
-  "z": 1.39
+  "z": 1.05
  },
  "soccer_bra.1|Team props": {
   "n": 19,
@@ -276,16 +276,16 @@
   "z": -1.81
  },
  "wnba|Game lines": {
-  "n": 22,
+  "n": 33,
   "trusted": true,
   "w_mult": 1.0,
-  "z": 0.41
+  "z": 0.56
  },
  "wnba|Game specials": {
-  "n": 5,
+  "n": 8,
   "trusted": false,
   "w_mult": 0.5,
-  "z": -4.25
+  "z": -3.24
  },
  "wnba|Player props": {
   "n": 65,
