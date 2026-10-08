@@ -46,7 +46,7 @@
     "buy": "yes"
    },
    "result": null,
-   "close_odds": -137
+   "close_odds": -142
   },
   "401870766:KXNCAAFSPREAD-26OCT08SHSULIB-LIB2:yes": {
    "id": "401870766:KXNCAAFSPREAD-26OCT08SHSULIB-LIB2:yes",
@@ -277,7 +277,7 @@
     "buy": "yes"
    },
    "result": null,
-   "close_odds": -148
+   "close_odds": -154
   },
   "401841254:KXBRASILEIROTOTAL-26OCT08PALBAH-4:no": {
    "id": "401841254:KXBRASILEIROTOTAL-26OCT08PALBAH-4:no",
@@ -321,7 +321,7 @@
     "buy": "no"
    },
    "result": null,
-   "close_odds": -208
+   "close_odds": -168
   },
   "401841251:KXBRASILEIROTOTAL-26OCT08SANFLA-4:no": {
    "id": "401841251:KXBRASILEIROTOTAL-26OCT08SANFLA-4:no",
@@ -365,7 +365,7 @@
     "buy": "no"
    },
    "result": null,
-   "close_odds": -228
+   "close_odds": -208
   },
   "401841248:KXBRASILEIROTOTAL-26OCT08FLUCFC-6:no": {
    "id": "401841248:KXBRASILEIROTOTAL-26OCT08FLUCFC-6:no",
@@ -409,7 +409,7 @@
     "buy": "no"
    },
    "result": null,
-   "close_odds": -2042
+   "close_odds": -1428
   },
   "401891820:KXNHLTOTAL-26OCT08PHIOTT-10:no": {
    "id": "401891820:KXNHLTOTAL-26OCT08PHIOTT-10:no",
@@ -629,7 +629,7 @@
     "buy": "yes"
    },
    "result": null,
-   "close_odds": -489
+   "close_odds": -564
   },
   "401841256:KXBRASILEIROTOTAL-26OCT08CAPATL-6:no": {
    "id": "401841256:KXBRASILEIROTOTAL-26OCT08CAPATL-6:no",
@@ -719,7 +719,7 @@
     "buy": "yes"
    },
    "result": null,
-   "close_odds": -525
+   "close_odds": -564
   },
   "401891820:KXNHLTOTAL-26OCT08PHIOTT-4:yes": {
    "id": "401891820:KXNHLTOTAL-26OCT08PHIOTT-4:yes",
@@ -763,7 +763,7 @@
     "buy": "yes"
    },
    "result": null,
-   "close_odds": -609
+   "close_odds": -564
   },
   "401892462:KXNHLGAME-26OCT08CHINYI-NYI:yes": {
    "id": "401892462:KXNHLGAME-26OCT08CHINYI-NYI:yes",

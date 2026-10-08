@@ -36,10 +36,10 @@
   "z": 1.24
  },
  "mlb|Player props": {
-  "n": 958,
+  "n": 995,
   "trusted": true,
   "w_mult": 1.0,
-  "z": 2.2
+  "z": 2.18
  },
  "mlb|Team props": {
   "n": 85,
@@ -108,22 +108,22 @@
   "z": 1.81
  },
  "nhl|1st period": {
-  "n": 81,
+  "n": 83,
   "trusted": false,
   "w_mult": 0.5,
-  "z": 0.68
+  "z": 0.44
  },
  "nhl|2nd period": {
-  "n": 59,
+  "n": 62,
   "trusted": false,
   "w_mult": 0.5,
-  "z": -0.71
+  "z": -0.56
  },
  "nhl|3rd period": {
-  "n": 59,
+  "n": 62,
   "trusted": false,
   "w_mult": 0.5,
-  "z": 1.0
+  "z": 0.78
  },
  "nhl|Game lines": {
   "n": 87,
@@ -138,10 +138,10 @@
   "z": 1.09
  },
  "nhl|Player props": {
-  "n": 1437,
+  "n": 1452,
   "trusted": true,
   "w_mult": 1.0,
-  "z": -0.16
+  "z": -0.04
  },
  "nhl|Team props": {
   "n": 181,
@@ -156,10 +156,10 @@
   "z": -0.47
  },
  "soccer_bra.1|1st half": {
-  "n": 18,
+  "n": 21,
   "trusted": false,
   "w_mult": 0.5,
-  "z": 1.72
+  "z": 1.88
  },
  "soccer_bra.1|Game lines": {
   "n": 69,
@@ -246,10 +246,10 @@
   "z": 0.99
  },
  "wnba|1st half": {
-  "n": 13,
+  "n": 15,
   "trusted": false,
   "w_mult": 0.5,
-  "z": -0.19
+  "z": -0.55
  },
  "wnba|1st quarter": {
   "n": 3,
@@ -292,5 +292,11 @@
   "trusted": false,
   "w_mult": 0.25,
   "z": -1.83
+ },
+ "wnba|Team props": {
+  "n": 5,
+  "trusted": false,
+  "w_mult": 0.5,
+  "z": -2.1
  }
 }
