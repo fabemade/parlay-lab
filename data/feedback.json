@@ -96,10 +96,10 @@
   "z": 1.74
  },
  "nfl|Player props": {
-  "n": 3907,
+  "n": 3908,
   "trusted": false,
   "w_mult": 0.25,
-  "z": -2.35
+  "z": -2.38
  },
  "nfl|Team props": {
   "n": 227,
@@ -108,22 +108,22 @@
   "z": 0.78
  },
  "nhl|1st period": {
-  "n": 103,
+  "n": 108,
   "trusted": false,
   "w_mult": 0.5,
-  "z": 0.59
+  "z": 0.22
  },
  "nhl|2nd period": {
-  "n": 82,
+  "n": 91,
   "trusted": false,
   "w_mult": 0.5,
-  "z": -0.91
+  "z": -1.09
  },
  "nhl|3rd period": {
-  "n": 85,
+  "n": 89,
   "trusted": false,
   "w_mult": 0.5,
-  "z": 1.11
+  "z": 0.63
  },
  "nhl|Game lines": {
   "n": 119,
@@ -132,16 +132,16 @@
   "z": 1.36
  },
  "nhl|Game specials": {
-  "n": 40,
+  "n": 42,
   "trusted": false,
   "w_mult": 0.5,
-  "z": 0.45
+  "z": 0.6
  },
  "nhl|Player props": {
-  "n": 1966,
+  "n": 2002,
   "trusted": true,
   "w_mult": 1.0,
-  "z": -0.82
+  "z": -0.77
  },
  "nhl|Team props": {
   "n": 242,
@@ -156,10 +156,10 @@
   "z": -0.47
  },
  "soccer_bra.1|1st half": {
-  "n": 43,
+  "n": 45,
   "trusted": false,
   "w_mult": 0.5,
-  "z": 1.03
+  "z": 1.16
  },
  "soccer_bra.1|Game lines": {
   "n": 108,
