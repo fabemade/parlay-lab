@@ -45,7 +45,7 @@
     "contract": "Yes \u00b7 Arkansas St.",
     "buy": "yes"
    },
-   "result": null,
+   "result": "L",
    "close_odds": -142
   },
   "401870766:KXNCAAFSPREAD-26OCT08SHSULIB-LIB2:yes": {
@@ -91,7 +91,7 @@
     "contract": "Yes \u00b7 Liberty wins by over 1.5 points",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -489
   },
   "401892464:KXNHLGAME-26OCT08TORVGK-VGK:yes": {
@@ -184,7 +184,7 @@
     "contract": "Yes \u00b7 Over 29.5",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -2042
   },
   "401862794:KXNCAAFTOTAL-26OCT08USFUTSA-77:no": {
@@ -230,7 +230,7 @@
     "contract": "No \u00b7 Over 76.5",
     "buy": "no"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -2580
   },
   "401891825:KXNHLGAME-26OCT08SJSTL-STL:yes": {
@@ -276,7 +276,7 @@
     "contract": "Yes \u00b7 St. Louis",
     "buy": "yes"
    },
-   "result": null,
+   "result": "L",
    "close_odds": -161
   },
   "401841254:KXBRASILEIROTOTAL-26OCT08PALBAH-4:no": {
@@ -320,7 +320,7 @@
     "contract": "No \u00b7 Over 3.5",
     "buy": "no"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -191
   },
   "401841251:KXBRASILEIROTOTAL-26OCT08SANFLA-4:no": {
@@ -364,7 +364,7 @@
     "contract": "No \u00b7 Over 3.5",
     "buy": "no"
    },
-   "result": null,
+   "result": "L",
    "close_odds": -208
   },
   "401841248:KXBRASILEIROTOTAL-26OCT08FLUCFC-6:no": {
@@ -408,7 +408,7 @@
     "contract": "No \u00b7 Over 5.5",
     "buy": "no"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -1684
   },
   "401891820:KXNHLTOTAL-26OCT08PHIOTT-10:no": {
@@ -452,7 +452,7 @@
     "contract": "No \u00b7 Over 9.5",
     "buy": "no"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -1684
   },
   "401892457:KXNHLTOTAL-26OCT08UTABOS-4:yes": {
@@ -496,7 +496,7 @@
     "contract": "Yes \u00b7 Over 3.5",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -660
   },
   "401841251:KXBRASILEIROTOTAL-26OCT08SANFLA-1:yes": {
@@ -540,7 +540,7 @@
     "contract": "Yes \u00b7 Over 0.5",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -2042
   },
   "401892462:KXNHLTOTAL-26OCT08CHINYI-10:no": {
@@ -584,7 +584,7 @@
     "contract": "No \u00b7 Over 9.5",
     "buy": "no"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -1684
   },
   "401841254:KXBRASILEIROTOTAL-26OCT08PALBAH-2:yes": {
@@ -628,7 +628,7 @@
     "contract": "Yes \u00b7 Over 1.5",
     "buy": "yes"
    },
-   "result": null,
+   "result": "L",
    "close_odds": -525
   },
   "401841256:KXBRASILEIROTOTAL-26OCT08CAPATL-6:no": {
@@ -672,7 +672,7 @@
     "contract": "No \u00b7 Over 5.5",
     "buy": "no"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -2580
   },
   "401870766:KXNCAAFGAME-26OCT08SHSULIB-LIB:yes": {
@@ -718,7 +718,7 @@
     "contract": "Yes \u00b7 Liberty",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -564
   },
   "401891820:KXNHLTOTAL-26OCT08PHIOTT-4:yes": {
@@ -762,7 +762,7 @@
     "contract": "Yes \u00b7 Over 3.5",
     "buy": "yes"
    },
-   "result": null,
+   "result": "L",
    "close_odds": -564
   },
   "401892462:KXNHLGAME-26OCT08CHINYI-NYI:yes": {
@@ -809,7 +809,7 @@
     "contract": "Yes \u00b7 New York I",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -183
   }
  },
@@ -827,7 +827,10 @@
    "ev": -0.0079,
    "tier": "lock",
    "name": "lock_2",
-   "result": null
+   "result": "L",
+   "missed": [
+    "401891820:KXNHLTOTAL-26OCT08PHIOTT-4:yes"
+   ]
   },
   {
    "legs": [
@@ -843,7 +846,10 @@
    "ev": -0.0162,
    "tier": "lock",
    "name": "lock_3",
-   "result": null
+   "result": "L",
+   "missed": [
+    "401841254:KXBRASILEIROTOTAL-26OCT08PALBAH-2:yes"
+   ]
   },
   {
    "legs": [
@@ -858,7 +864,10 @@
    "ev": -0.0439,
    "tier": "best",
    "name": "best_2",
-   "result": null
+   "result": "L",
+   "missed": [
+    "401841251:KXBRASILEIROTOTAL-26OCT08SANFLA-4:no"
+   ]
   },
   {
    "legs": [
@@ -874,7 +883,10 @@
    "ev": -0.0248,
    "tier": "best",
    "name": "best_3",
-   "result": null
+   "result": "L",
+   "missed": [
+    "401869933:KXNCAAFGAME-26OCT08USAARST-ARST:yes"
+   ]
   }
  ],
  "straights": [],
