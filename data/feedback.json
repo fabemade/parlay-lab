@@ -108,28 +108,28 @@
   "z": 0.78
  },
  "nhl|1st period": {
-  "n": 97,
+  "n": 103,
   "trusted": false,
   "w_mult": 0.5,
-  "z": 0.38
+  "z": 0.59
  },
  "nhl|2nd period": {
-  "n": 78,
-  "trusted": false,
-  "w_mult": 0.5,
-  "z": -1.1
- },
- "nhl|3rd period": {
   "n": 82,
   "trusted": false,
   "w_mult": 0.5,
-  "z": 1.02
+  "z": -0.91
+ },
+ "nhl|3rd period": {
+  "n": 85,
+  "trusted": false,
+  "w_mult": 0.5,
+  "z": 1.11
  },
  "nhl|Game lines": {
-  "n": 115,
+  "n": 119,
   "trusted": true,
   "w_mult": 1.0,
-  "z": 1.25
+  "z": 1.36
  },
  "nhl|Game specials": {
   "n": 40,
@@ -138,16 +138,16 @@
   "z": 0.45
  },
  "nhl|Player props": {
-  "n": 1851,
+  "n": 1966,
   "trusted": true,
   "w_mult": 1.0,
-  "z": -0.52
+  "z": -0.82
  },
  "nhl|Team props": {
-  "n": 225,
+  "n": 242,
   "trusted": true,
   "w_mult": 1.0,
-  "z": 2.15
+  "z": 1.86
  },
  "soccer_arg.1|Game lines": {
   "n": 34,
