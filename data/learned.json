@@ -1,35 +1,35 @@
 {
  "groups": {
   "1st half": {
-   "T": 1.07,
-   "games": 75,
+   "T": 1.08,
+   "games": 82,
    "k": 1.0,
-   "loss_after": 22.722,
-   "loss_before": 23.235,
-   "n": 602
+   "loss_after": 23.871,
+   "loss_before": 24.559,
+   "n": 743
   },
   "1st period": {
    "T": 1.0,
-   "games": 21,
+   "games": 22,
    "k": 1.0,
-   "n": 83,
+   "n": 85,
    "note": "needs 100 graded"
   },
   "1st quarter": {
    "T": 1.01,
-   "games": 16,
+   "games": 17,
    "k": 1.0,
-   "loss_after": 5.289,
-   "loss_before": 5.299,
-   "n": 133
+   "loss_after": 5.44,
+   "loss_before": 5.454,
+   "n": 155
   },
   "2nd half": {
-   "T": 1.0,
-   "games": 15,
+   "T": 0.99,
+   "games": 16,
    "k": 1.0,
-   "loss_after": 6.549,
-   "loss_before": 6.549,
-   "n": 199
+   "loss_after": 7.82,
+   "loss_before": 7.831,
+   "n": 233
   },
   "2nd period": {
    "T": 1.0,
@@ -40,11 +40,11 @@
   },
   "2nd quarter": {
    "T": 1.01,
-   "games": 14,
+   "games": 15,
    "k": 1.0,
-   "loss_after": 4.853,
-   "loss_before": 4.862,
-   "n": 158
+   "loss_after": 5.35,
+   "loss_before": 5.359,
+   "n": 162
   },
   "3rd period": {
    "T": 1.0,
@@ -78,35 +78,36 @@
   },
   "Game lines": {
    "T": 1.04,
-   "games": 180,
+   "games": 193,
    "k": 1.05,
-   "loss_after": 68.616,
-   "loss_before": 68.831,
-   "n": 995
+   "loss_after": 73.224,
+   "loss_before": 73.436,
+   "n": 1117
   },
   "Game specials": {
-   "T": 1.0,
-   "games": 53,
+   "T": 1.03,
+   "games": 55,
    "k": 1.0,
-   "n": 94,
-   "note": "needs 100 graded"
+   "loss_after": 19.826,
+   "loss_before": 19.929,
+   "n": 100
   },
   "Player props": {
    "T": 1.01,
-   "games": 76,
+   "games": 84,
    "k": 1.0,
-   "loss_after": 32.465,
-   "loss_before": 32.472,
-   "n": 5892
+   "loss_after": 35.945,
+   "loss_before": 35.953,
+   "n": 6660
   },
   "Team props": {
    "T": 1.07,
-   "games": 77,
+   "games": 86,
    "k": 1.0,
-   "loss_after": 23.024,
-   "loss_before": 23.552,
-   "n": 593
+   "loss_after": 26.41,
+   "loss_before": 26.96,
+   "n": 728
   }
  },
- "trained_at": "2026-10-09T05:00+00:00"
+ "trained_at": "2026-10-09T11:42+00:00"
 }

@@ -42,9 +42,9 @@
  "nhl": {
   "margin_k": 0.7,
   "total_k": 0.3,
-  "margin_sd": 2.58,
+  "margin_sd": 2.57,
   "total_sd": 2.29,
-  "n": 901,
+  "n": 902,
   "updated": "2026-10-09"
  },
  "soccer_eng.1": {

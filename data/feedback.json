@@ -1,21 +1,21 @@
 {
  "cfb|1st half": {
-  "n": 89,
+  "n": 149,
   "trusted": false,
   "w_mult": 0.5,
-  "z": 2.66
+  "z": 1.16
  },
  "cfb|Game lines": {
-  "n": 502,
+  "n": 535,
   "trusted": true,
   "w_mult": 1.0,
-  "z": 0.37
+  "z": 0.75
  },
  "cfb|Team props": {
-  "n": 73,
+  "n": 88,
   "trusted": false,
   "w_mult": 0.5,
-  "z": -0.13
+  "z": -1.39
  },
  "mlb|First 5 innings": {
   "n": 74,
@@ -48,22 +48,22 @@
   "z": 2.75
  },
  "nfl|1st half": {
-  "n": 414,
+  "n": 420,
   "trusted": true,
   "w_mult": 1.0,
-  "z": 2.3
+  "z": 2.26
  },
  "nfl|1st quarter": {
-  "n": 152,
+  "n": 156,
   "trusted": true,
   "w_mult": 1.0,
-  "z": 0.92
+  "z": 1.04
  },
  "nfl|2nd half": {
-  "n": 232,
+  "n": 247,
   "trusted": false,
-  "w_mult": 0.125,
-  "z": -2.61
+  "w_mult": 0.25,
+  "z": -2.19
  },
  "nfl|2nd quarter": {
   "n": 162,
@@ -72,34 +72,34 @@
   "z": 1.28
  },
  "nfl|3rd quarter": {
-  "n": 127,
+  "n": 136,
   "trusted": false,
   "w_mult": 0.5,
-  "z": -0.13
+  "z": -0.8
  },
  "nfl|4th quarter": {
-  "n": 159,
+  "n": 182,
   "trusted": true,
   "w_mult": 1.0,
-  "z": -0.52
+  "z": -0.64
  },
  "nfl|Game lines": {
-  "n": 95,
+  "n": 99,
   "trusted": true,
   "w_mult": 1.0,
-  "z": 3.0
+  "z": 3.45
  },
  "nfl|Game specials": {
-  "n": 38,
+  "n": 40,
   "trusted": false,
   "w_mult": 0.5,
-  "z": 1.66
+  "z": 1.74
  },
  "nfl|Player props": {
-  "n": 3898,
+  "n": 3905,
   "trusted": false,
   "w_mult": 0.25,
-  "z": -2.38
+  "z": -2.32
  },
  "nfl|Team props": {
   "n": 227,
@@ -108,46 +108,46 @@
   "z": 0.78
  },
  "nhl|1st period": {
-  "n": 85,
+  "n": 94,
   "trusted": false,
   "w_mult": 0.5,
-  "z": 0.2
+  "z": 0.55
  },
  "nhl|2nd period": {
-  "n": 62,
+  "n": 76,
   "trusted": false,
   "w_mult": 0.5,
-  "z": -0.56
+  "z": -0.86
  },
  "nhl|3rd period": {
-  "n": 62,
+  "n": 76,
   "trusted": false,
   "w_mult": 0.5,
-  "z": 0.78
+  "z": 0.75
  },
  "nhl|Game lines": {
-  "n": 107,
+  "n": 109,
   "trusted": true,
   "w_mult": 1.0,
-  "z": 1.33
+  "z": 1.08
  },
  "nhl|Game specials": {
-  "n": 34,
+  "n": 37,
   "trusted": false,
   "w_mult": 0.5,
-  "z": 0.76
+  "z": 0.21
  },
  "nhl|Player props": {
-  "n": 1700,
+  "n": 1767,
   "trusted": true,
   "w_mult": 1.0,
-  "z": -0.83
+  "z": -0.51
  },
  "nhl|Team props": {
-  "n": 208,
+  "n": 216,
   "trusted": true,
   "w_mult": 1.0,
-  "z": 2.17
+  "z": 2.12
  },
  "soccer_arg.1|Game lines": {
   "n": 34,
@@ -156,22 +156,22 @@
   "z": -0.47
  },
  "soccer_bra.1|1st half": {
-  "n": 28,
+  "n": 34,
   "trusted": false,
   "w_mult": 0.5,
-  "z": 2.11
+  "z": 2.39
  },
  "soccer_bra.1|Game lines": {
-  "n": 103,
+  "n": 108,
   "trusted": true,
   "w_mult": 1.0,
-  "z": 1.17
+  "z": 0.94
  },
  "soccer_bra.1|Team props": {
-  "n": 25,
+  "n": 35,
   "trusted": false,
   "w_mult": 0.5,
-  "z": 2.28
+  "z": 2.65
  },
  "soccer_concacaf.nations.league|1st half": {
   "n": 44,
