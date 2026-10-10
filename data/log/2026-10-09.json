@@ -484,7 +484,7 @@
     "contract": "No \u00b7 Over 3.5",
     "buy": "no"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -239
   },
   "401884781:KXBUNDESLIGAGAME-26OCT09BVBSVW-BVB:yes": {
@@ -1073,7 +1073,7 @@
     "contract": "No \u00b7 Over 5.5",
     "buy": "no"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -1684
   },
   "401878976:KXBELGIANPLTOTAL-26OCT09BEVLOM-4:no": {
@@ -1235,7 +1235,8 @@
    "ev": -0.0662,
    "tier": "best",
    "name": "best_3",
-   "result": null
+   "result": "W",
+   "missed": []
   },
   {
    "legs": [

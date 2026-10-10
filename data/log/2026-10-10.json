@@ -269,7 +269,7 @@
     "buy": "yes"
    },
    "result": null,
-   "close_odds": -2042
+   "close_odds": -1684
   },
   "401876952:KXLIGAMXTOTAL-26OCT10JUATIJ-6:no": {
    "id": "401876952:KXLIGAMXTOTAL-26OCT10JUATIJ-6:no",
@@ -404,7 +404,7 @@
     "buy": "no"
    },
    "result": null,
-   "close_odds": -218
+   "close_odds": -239
   },
   "401878773:KXEPLGAME-26OCT10MUNTOT-MUN:yes": {
    "id": "401878773:KXEPLGAME-26OCT10MUNTOT-MUN:yes",
@@ -494,7 +494,7 @@
     "buy": "yes"
    },
    "result": null,
-   "close_odds": -525
+   "close_odds": -564
   },
   "401876446:KXLIGUE1TOTAL-26OCT10LILHAC-4:no": {
    "id": "401876446:KXLIGUE1TOTAL-26OCT10LILHAC-4:no",
@@ -582,7 +582,7 @@
     "buy": "no"
    },
    "result": null,
-   "close_odds": -609
+   "close_odds": -788
   },
   "401892481:KXNHLGAME-26OCT10LAVGK-VGK:yes": {
    "id": "401892481:KXNHLGAME-26OCT10LAVGK-VGK:yes",
@@ -904,7 +904,7 @@
     "buy": "yes"
    },
    "result": null,
-   "close_odds": -239
+   "close_odds": -251
   },
   "761856:KXMLSTOTAL-26OCT10ATXNSH-1:yes": {
    "id": "761856:KXMLSTOTAL-26OCT10ATXNSH-1:yes",
@@ -992,7 +992,7 @@
     "buy": "no"
    },
    "result": null,
-   "close_odds": -199
+   "close_odds": -191
   },
   "401866439:KXNCAAFGAME-26OCT10KENTWMU-WMU:yes": {
    "id": "401866439:KXNCAAFGAME-26OCT10KENTWMU-WMU:yes",
@@ -1127,7 +1127,7 @@
     "buy": "yes"
    },
    "result": null,
-   "close_odds": -525
+   "close_odds": -564
   },
   "401875588:KXEREDIVISIETOTAL-26OCT10FORTWE-6:no": {
    "id": "401875588:KXEREDIVISIETOTAL-26OCT10FORTWE-6:no",
@@ -1355,7 +1355,7 @@
     "contract": "Yes \u00b7 GA Eagles",
     "buy": "yes"
    },
-   "result": null,
+   "result": "L",
    "close_odds": -154
   },
   "401841611:KXARGPREMDIVTOTAL-26OCT10BARHUR-1:yes": {
@@ -1400,7 +1400,7 @@
     "buy": "yes"
    },
    "result": null,
-   "close_odds": -525
+   "close_odds": -564
   },
   "401883184:KXLALIGA2TOTAL-26OCT10CDECOR-4:no": {
    "id": "401883184:KXLALIGA2TOTAL-26OCT10CDECOR-4:no",
@@ -1488,7 +1488,7 @@
     "buy": "no"
    },
    "result": null,
-   "close_odds": -218
+   "close_odds": -228
   },
   "761858:KXMLSTOTAL-26OCT10LAFCVAN-1:yes": {
    "id": "761858:KXMLSTOTAL-26OCT10LAFCVAN-1:yes",
@@ -1532,7 +1532,7 @@
     "buy": "yes"
    },
    "result": null,
-   "close_odds": -2042
+   "close_odds": -2580
   },
   "401892478:KXNHLGAME-26OCT10TORCOL-COL:yes": {
    "id": "401892478:KXNHLGAME-26OCT10TORCOL-COL:yes",
@@ -1580,7 +1580,7 @@
     "buy": "yes"
    },
    "result": null,
-   "close_odds": -208
+   "close_odds": -218
   }
  },
  "parlays": [
