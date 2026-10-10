@@ -88,7 +88,7 @@
     "buy": "yes"
    },
    "result": null,
-   "close_odds": -609
+   "close_odds": -458
   },
   "401876953:KXLIGAMXTOTAL-26OCT09TIGTOL-4:no": {
    "id": "401876953:KXLIGAMXTOTAL-26OCT09TIGTOL-4:no",
@@ -131,7 +131,7 @@
     "contract": "No \u00b7 Over 3.5",
     "buy": "no"
    },
-   "result": null,
+   "result": "L",
    "close_odds": -218
   },
   "401876447:KXLIGUE1TOTAL-26OCT09RCLOL-4:no": {
@@ -219,7 +219,7 @@
     "contract": "Yes \u00b7 Over 0.5",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -2042
   },
   "401858487:KXNCAAFTOTAL-26OCT09IOWAWASH-22:yes": {
@@ -264,7 +264,7 @@
     "contract": "Yes \u00b7 Over 21.5",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -1684
   },
   "401885095:KXBUNDESLIGA2TOTAL-26OCT10FCMH96-6:no": {
@@ -309,7 +309,7 @@
     "buy": "no"
    },
    "result": null,
-   "close_odds": -609
+   "close_odds": -719
   },
   "401900907:KXSAUDIPLTOTAL-26OCT09ALNDIR-4:no": {
    "id": "401900907:KXSAUDIPLTOTAL-26OCT09ALNDIR-4:no",
@@ -440,7 +440,7 @@
     "contract": "No \u00b7 Over 5.5",
     "buy": "no"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -2042
   },
   "401880236:KXEFLCHAMPIONSHIPTOTAL-26OCT10SWANOR-4:no": {
@@ -485,7 +485,7 @@
     "buy": "no"
    },
    "result": null,
-   "close_odds": -218
+   "close_odds": -239
   },
   "401884781:KXBUNDESLIGAGAME-26OCT09BVBSVW-BVB:yes": {
    "id": "401884781:KXBUNDESLIGAGAME-26OCT09BVBSVW-BVB:yes",
@@ -576,7 +576,7 @@
     "contract": "Yes \u00b7 Utah St. wins by over 1.5 points",
     "buy": "yes"
    },
-   "result": null,
+   "result": "L",
    "close_odds": -168
   },
   "401856826:KXNCAAFGAME-26OCT09ISUBYU-BYU:yes": {
@@ -623,7 +623,7 @@
     "contract": "Yes \u00b7 BYU",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -458
   },
   "401892465:KXNHLTOTAL-26OCT09SEADET-4:yes": {
@@ -713,7 +713,7 @@
     "buy": "no"
    },
    "result": null,
-   "close_odds": -609
+   "close_odds": -719
   },
   "401876732:KXLIGUE2TOTAL-26OCT09ASNEAG-6:no": {
    "id": "401876732:KXLIGUE2TOTAL-26OCT09ASNEAG-6:no",
@@ -891,7 +891,7 @@
     "contract": "Yes \u00b7 Utah St.",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -183
   },
   "401858254:KXNCAAFSPREAD-26OCT09FSULOU-LOU2:yes": {
@@ -939,7 +939,7 @@
     "contract": "Yes \u00b7 Louisville wins by over 1.5 points",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -168
   },
   "401864519:KXNCAAFTOTAL-26OCT09WYOSJSU-67:no": {
@@ -985,7 +985,7 @@
     "contract": "No \u00b7 Over 66.5",
     "buy": "no"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -2042
   },
   "401885427:KXLIGAPORTUGALTOTAL-26OCT09BRASPO-6:no": {
@@ -1074,7 +1074,7 @@
     "buy": "no"
    },
    "result": null,
-   "close_odds": -2042
+   "close_odds": -1684
   },
   "401878976:KXBELGIANPLTOTAL-26OCT09BEVLOM-4:no": {
    "id": "401878976:KXBELGIANPLTOTAL-26OCT09BEVLOM-4:no",
@@ -1164,7 +1164,7 @@
     "contract": "Yes \u00b7 San Jose St.",
     "buy": "yes"
    },
-   "result": null,
+   "result": "L",
    "close_odds": -191
   }
  },
@@ -1213,7 +1213,11 @@
    "ev": 0.0029,
    "tier": "best",
    "name": "best_2",
-   "result": null
+   "result": "L",
+   "missed": [
+    "401876953:KXLIGAMXTOTAL-26OCT09TIGTOL-4:no",
+    "401864519:KXNCAAFGAME-26OCT09WYOSJSU-SJSU:yes"
+   ]
   },
   {
    "legs": [
@@ -1248,6 +1252,7 @@
    "name": "best_4",
    "result": "L",
    "missed": [
+    "401860922:KXNCAAFSPREAD-26OCT09WSUUSU-USU2:yes",
     "401878976:KXBELGIANPLTOTAL-26OCT09BEVLOM-4:no"
    ]
   }

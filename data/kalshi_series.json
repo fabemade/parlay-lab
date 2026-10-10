@@ -409,6 +409,12 @@
    "SPREAD": "Spread",
    "TOTAL": "Point Total"
   },
+  "UCL": {
+   "BTTS": "Champions League BTTS",
+   "GAME": "UEFA Champions League Game",
+   "SPREAD": "Champions League Spread",
+   "TOTAL": "Champions League Total Goals"
+  },
   "UEFANL": {
    "1H": "1st Half Winner",
    "1HBTTS": "1st Half BTTS",
