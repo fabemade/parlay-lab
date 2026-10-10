@@ -135,7 +135,7 @@
     "contract": "Yes \u00b7 Inter",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -660
   },
   "401878978:KXBELGIANPLGAME-26OCT10RAALBRU-BRU:yes": {
@@ -180,7 +180,7 @@
     "contract": "Yes \u00b7 Club Brugge",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -276
   },
   "401841603:KXARGPREMDIVTOTAL-26OCT10RIVRCU-6:no": {
@@ -359,7 +359,7 @@
     "contract": "Yes \u00b7 Northwestern wins by over 13.5 points",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -2042
   },
   "401876951:KXLIGAMXTOTAL-26OCT10ATLCDG-4:no": {
@@ -448,7 +448,7 @@
     "contract": "Yes \u00b7 Manchester United",
     "buy": "yes"
    },
-   "result": null,
+   "result": "L",
    "close_odds": -142
   },
   "401876444:KXLIGUE1TOTAL-26OCT10ASMTFC-2:yes": {
@@ -537,7 +537,7 @@
     "contract": "No \u00b7 Over 3.5",
     "buy": "no"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -199
   },
   "401885097:KXBUNDESLIGA2TOTAL-26OCT10FCNWOB-6:no": {
@@ -581,7 +581,7 @@
     "contract": "No \u00b7 Over 5.5",
     "buy": "no"
    },
-   "result": null,
+   "result": "L",
    "close_odds": -788
   },
   "401892481:KXNHLGAME-26OCT10LAVGK-VGK:yes": {
@@ -676,7 +676,7 @@
     "buy": "yes"
    },
    "result": null,
-   "close_odds": -609
+   "close_odds": -564
   },
   "401869943:KXNCAAFSPREAD-26OCT10CCARMRSH-MRSH2:yes": {
    "id": "401869943:KXNCAAFSPREAD-26OCT10CCARMRSH-MRSH2:yes",
@@ -813,7 +813,7 @@
     "contract": "Yes \u00b7 Leipzig",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -168
   },
   "401862798:KXNCAAFGAME-26OCT10UABMEM-MEM:yes": {
@@ -1082,7 +1082,7 @@
     "contract": "Yes \u00b7 Barcelona",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -967
   },
   "401841262:KXBRASILEIROTOTAL-26OCT10VDGCR-2:yes": {
@@ -1170,7 +1170,7 @@
     "contract": "No \u00b7 Over 5.5",
     "buy": "no"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -660
   },
   "761857:KXMLSTOTAL-26OCT10COLSJ-2:yes": {
@@ -1215,7 +1215,7 @@
     "buy": "yes"
    },
    "result": null,
-   "close_odds": -525
+   "close_odds": -489
   },
   "401856827:KXNCAAFSPREAD-26OCT10KUUTAH-UTAH2:yes": {
    "id": "401856827:KXNCAAFSPREAD-26OCT10KUUTAH-UTAH2:yes",
@@ -1443,7 +1443,7 @@
     "contract": "No \u00b7 Over 3.5",
     "buy": "no"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -208
   },
   "761854:KXMLSTOTAL-26OCT10MINHOU-4:no": {
@@ -1597,7 +1597,10 @@
    "ev": 0.0168,
    "tier": "lock",
    "name": "lock_2",
-   "result": null
+   "result": "L",
+   "missed": [
+    "401885097:KXBUNDESLIGA2TOTAL-26OCT10FCNWOB-6:no"
+   ]
   },
   {
    "legs": [
