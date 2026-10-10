@@ -44,7 +44,7 @@
     "buy": "no"
    },
    "result": null,
-   "close_odds": -199
+   "close_odds": -208
   },
   "401885093:KXBUNDESLIGA2TOTAL-26OCT10OSNSGD-2:yes": {
    "id": "401885093:KXBUNDESLIGA2TOTAL-26OCT10OSNSGD-2:yes",
@@ -624,7 +624,7 @@
     "buy": "yes"
    },
    "result": null,
-   "close_odds": -430
+   "close_odds": -458
   },
   "401892465:KXNHLTOTAL-26OCT09SEADET-4:yes": {
    "id": "401892465:KXNHLTOTAL-26OCT09SEADET-4:yes",
@@ -668,7 +668,7 @@
     "contract": "Yes \u00b7 Over 3.5",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -719
   },
   "401888379:KXSUPERLIGTOTAL-26OCT10GENAMS-5:no": {
