@@ -43,7 +43,7 @@
     "contract": "No \u00b7 Over 3.5",
     "buy": "no"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -208
   },
   "401885093:KXBUNDESLIGA2TOTAL-26OCT10OSNSGD-2:yes": {
@@ -87,7 +87,7 @@
     "contract": "Yes \u00b7 Over 1.5",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -458
   },
   "401876953:KXLIGAMXTOTAL-26OCT09TIGTOL-4:no": {
@@ -308,7 +308,7 @@
     "contract": "No \u00b7 Over 5.5",
     "buy": "no"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -719
   },
   "401900907:KXSAUDIPLTOTAL-26OCT09ALNDIR-4:no": {
@@ -712,7 +712,7 @@
     "contract": "No \u00b7 Over 4.5",
     "buy": "no"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -719
   },
   "401876732:KXLIGUE2TOTAL-26OCT09ASNEAG-6:no": {
@@ -1182,7 +1182,8 @@
    "ev": -0.032,
    "tier": "lock",
    "name": "lock_2",
-   "result": null
+   "result": "W",
+   "missed": []
   },
   {
    "legs": [
@@ -1198,7 +1199,8 @@
    "ev": -0.0564,
    "tier": "lock",
    "name": "lock_3",
-   "result": null
+   "result": "W",
+   "missed": []
   },
   {
    "legs": [
