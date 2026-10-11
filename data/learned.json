@@ -1,12 +1,12 @@
 {
  "groups": {
   "1st half": {
-   "T": 1.09,
-   "games": 144,
+   "T": 1.08,
+   "games": 153,
    "k": 1.0,
-   "loss_after": 47.492,
-   "loss_before": 48.445,
-   "n": 1565
+   "loss_after": 51.937,
+   "loss_before": 52.766,
+   "n": 1689
   },
   "1st period": {
    "T": 1.0,
@@ -28,9 +28,9 @@
    "T": 1.0,
    "games": 24,
    "k": 1.0,
-   "loss_after": 9.968,
-   "loss_before": 9.968,
-   "n": 432
+   "loss_after": 9.916,
+   "loss_before": 9.916,
+   "n": 440
   },
   "2nd period": {
    "T": 0.98,
@@ -80,20 +80,20 @@
    "note": "needs 100 graded"
   },
   "Game lines": {
-   "T": 1.07,
-   "games": 315,
-   "k": 1.05,
-   "loss_after": 110.459,
-   "loss_before": 111.217,
-   "n": 1799
+   "T": 1.08,
+   "games": 336,
+   "k": 1.0,
+   "loss_after": 117.051,
+   "loss_before": 118.011,
+   "n": 1886
   },
   "Game specials": {
-   "T": 1.04,
-   "games": 78,
-   "k": 1.0,
-   "loss_after": 27.162,
-   "loss_before": 27.328,
-   "n": 139
+   "T": 1.0,
+   "games": 83,
+   "k": 0.95,
+   "loss_after": 32.941,
+   "loss_before": 32.947,
+   "n": 149
   },
   "Player props": {
    "T": 1.01,
@@ -105,12 +105,12 @@
   },
   "Team props": {
    "T": 1.07,
-   "games": 140,
+   "games": 149,
    "k": 1.0,
-   "loss_after": 47.63,
-   "loss_before": 48.219,
-   "n": 1519
+   "loss_after": 51.026,
+   "loss_before": 51.629,
+   "n": 1680
   }
  },
- "trained_at": "2026-10-11T06:17+00:00"
+ "trained_at": "2026-10-11T13:59+00:00"
 }
