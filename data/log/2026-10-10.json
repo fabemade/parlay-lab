@@ -90,7 +90,7 @@
     "contract": "Yes \u00b7 Notre Dame wins by over 14.5 points",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -1684
   },
   "401875021:KXSERIEAGAME-26OCT10INTPAR-INT:yes": {
@@ -269,7 +269,7 @@
     "buy": "yes"
    },
    "result": null,
-   "close_odds": -1684
+   "close_odds": -2042
   },
   "401876952:KXLIGAMXTOTAL-26OCT10JUATIJ-6:no": {
    "id": "401876952:KXLIGAMXTOTAL-26OCT10JUATIJ-6:no",
@@ -493,7 +493,7 @@
     "contract": "Yes \u00b7 Over 1.5",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -564
   },
   "401876446:KXLIGUE1TOTAL-26OCT10LILHAC-4:no": {
@@ -903,7 +903,7 @@
     "contract": "Yes \u00b7 Genk",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -251
   },
   "761856:KXMLSTOTAL-26OCT10ATXNSH-1:yes": {
@@ -991,7 +991,7 @@
     "contract": "No \u00b7 Over 4.5",
     "buy": "no"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -191
   },
   "401866439:KXNCAAFGAME-26OCT10KENTWMU-WMU:yes": {
@@ -1037,7 +1037,7 @@
     "contract": "Yes \u00b7 Western Michigan",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -564
   },
   "401882853:KXLALIGAGAME-26OCT10BARGET-BAR:yes": {
@@ -1126,7 +1126,7 @@
     "contract": "Yes \u00b7 Over 1.5",
     "buy": "yes"
    },
-   "result": null,
+   "result": "L",
    "close_odds": -564
   },
   "401875588:KXEREDIVISIETOTAL-26OCT10FORTWE-6:no": {
@@ -1215,7 +1215,7 @@
     "buy": "yes"
    },
    "result": null,
-   "close_odds": -489
+   "close_odds": -525
   },
   "401856827:KXNCAAFSPREAD-26OCT10KUUTAH-UTAH2:yes": {
    "id": "401856827:KXNCAAFSPREAD-26OCT10KUUTAH-UTAH2:yes",
@@ -1310,7 +1310,7 @@
     "contract": "Yes \u00b7 North Texas wins by over 4.5 points",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -2042
   },
   "401875590:KXEREDIVISIEGAME-26OCT10GAESPA-GAE:yes": {
@@ -1399,7 +1399,7 @@
     "contract": "Yes \u00b7 Over 0.5",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -564
   },
   "401883184:KXLALIGA2TOTAL-26OCT10CDECOR-4:no": {
@@ -1633,7 +1633,10 @@
    "ev": -0.0405,
    "tier": "lock",
    "name": "lock_4",
-   "result": null
+   "result": "L",
+   "missed": [
+    "401841262:KXBRASILEIROTOTAL-26OCT10VDGCR-2:yes"
+   ]
   },
   {
    "legs": [

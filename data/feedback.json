@@ -1,15 +1,15 @@
 {
  "cfb|1st half": {
-  "n": 636,
+  "n": 828,
   "trusted": true,
   "w_mult": 1.0,
-  "z": 1.31
+  "z": 1.91
  },
  "cfb|1st quarter": {
-  "n": 127,
+  "n": 132,
   "trusted": false,
   "w_mult": 0.5,
-  "z": 0.9
+  "z": 1.08
  },
  "cfb|2nd half": {
   "n": 184,
@@ -24,10 +24,10 @@
   "z": -0.13
  },
  "cfb|3rd quarter": {
-  "n": 109,
+  "n": 113,
   "trusted": false,
   "w_mult": 0.5,
-  "z": -0.38
+  "z": -0.47
  },
  "cfb|4th quarter": {
   "n": 34,
@@ -36,22 +36,22 @@
   "z": 1.42
  },
  "cfb|Game lines": {
-  "n": 665,
+  "n": 736,
   "trusted": true,
   "w_mult": 1.0,
-  "z": 0.23
+  "z": -0.09
  },
  "cfb|Game specials": {
-  "n": 17,
+  "n": 21,
   "trusted": false,
   "w_mult": 0.5,
-  "z": 1.09
+  "z": 1.19
  },
  "cfb|Team props": {
-  "n": 536,
+  "n": 770,
   "trusted": true,
   "w_mult": 1.0,
-  "z": -0.66
+  "z": -0.62
  },
  "mlb|First 5 innings": {
   "n": 74,
@@ -270,10 +270,10 @@
   "z": -0.3
  },
  "soccer_esp.1|Game lines": {
-  "n": 20,
+  "n": 23,
   "trusted": true,
   "w_mult": 1.0,
-  "z": 1.33
+  "z": 1.24
  },
  "soccer_esp.1|Team props": {
   "n": 3,
@@ -312,10 +312,10 @@
   "z": 1.04
  },
  "soccer_fra.1|Game lines": {
-  "n": 14,
+  "n": 19,
   "trusted": true,
   "w_mult": 1.0,
-  "z": 0.54
+  "z": 0.64
  },
  "soccer_fra.1|Team props": {
   "n": 4,
@@ -336,10 +336,10 @@
   "z": -0.73
  },
  "soccer_ger.1|Game lines": {
-  "n": 44,
+  "n": 46,
   "trusted": true,
   "w_mult": 1.0,
-  "z": -0.91
+  "z": -1.18
  },
  "soccer_ger.1|Team props": {
   "n": 3,
@@ -360,10 +360,10 @@
   "z": 0.46
  },
  "soccer_ita.1|Game lines": {
-  "n": 4,
+  "n": 6,
   "trusted": true,
   "w_mult": 1.0,
-  "z": 0.76
+  "z": 0.95
  },
  "soccer_ita.2|Game lines": {
   "n": 6,
@@ -420,10 +420,10 @@
   "z": 0.74
  },
  "soccer_por.1|Game lines": {
-  "n": 8,
+  "n": 10,
   "trusted": true,
   "w_mult": 1.0,
-  "z": 0.89
+  "z": 1.02
  },
  "soccer_sco.1|Game lines": {
   "n": 23,
@@ -462,10 +462,10 @@
   "z": 0.4
  },
  "soccer_usa.1|Game lines": {
-  "n": 12,
+  "n": 13,
   "trusted": true,
   "w_mult": 1.0,
-  "z": 1.34
+  "z": 1.38
  },
  "wnba|1st half": {
   "n": 20,
