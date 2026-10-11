@@ -43,7 +43,7 @@
     "contract": "No \u00b7 Over 3.5",
     "buy": "no"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -239
   },
   "401858257:KXNCAAFSPREAD-26OCT10STANND-ND15:yes": {
@@ -224,7 +224,7 @@
     "contract": "No \u00b7 Over 5.5",
     "buy": "no"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -2042
   },
   "401876951:KXLIGAMXTOTAL-26OCT10ATLCDG-1:yes": {
@@ -268,7 +268,7 @@
     "contract": "Yes \u00b7 Over 0.5",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -2042
   },
   "401876952:KXLIGAMXTOTAL-26OCT10JUATIJ-6:no": {
@@ -312,7 +312,7 @@
     "contract": "No \u00b7 Over 5.5",
     "buy": "no"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -2042
   },
   "401858482:KXNCAAFSPREAD-26OCT10BALLNW-NW14:yes": {
@@ -403,7 +403,7 @@
     "contract": "No \u00b7 Over 3.5",
     "buy": "no"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -239
   },
   "401878773:KXEPLGAME-26OCT10MUNTOT-MUN:yes": {
@@ -628,7 +628,7 @@
     "contract": "Yes \u00b7 Vegas",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -168
   },
   "401862798:KXNCAAFSPREAD-26OCT10UABMEM-MEM2:yes": {
@@ -675,7 +675,7 @@
     "contract": "Yes \u00b7 Memphis wins by over 1.5 points",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -564
   },
   "401869943:KXNCAAFSPREAD-26OCT10CCARMRSH-MRSH2:yes": {
@@ -722,7 +722,7 @@
     "contract": "Yes \u00b7 Marshall wins by over 1.5 points",
     "buy": "yes"
    },
-   "result": null,
+   "result": "L",
    "close_odds": -183
   },
   "401892474:KXNHLTOTAL-26OCT10NSHOTT-4:yes": {
@@ -768,7 +768,7 @@
     "contract": "Yes \u00b7 Over 3.5",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -660
   },
   "401884780:KXBUNDESLIGAGAME-26OCT10RBLSGE-RBL:yes": {
@@ -858,7 +858,7 @@
     "contract": "Yes \u00b7 Memphis",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -609
   },
   "401878973:KXBELGIANPLGAME-26OCT10GENKOR-GEN:yes": {
@@ -947,7 +947,7 @@
     "contract": "Yes \u00b7 Over 0.5",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -2042
   },
   "401882848:KXLALIGATOTAL-26OCT10RMAVIL-5:no": {
@@ -1214,7 +1214,7 @@
     "contract": "Yes \u00b7 Over 1.5",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -525
   },
   "401856827:KXNCAAFSPREAD-26OCT10KUUTAH-UTAH2:yes": {
@@ -1263,7 +1263,7 @@
     "contract": "Yes \u00b7 Utah wins by over 1.5 points",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -660
   },
   "401862796:KXNCAAFSPREAD-26OCT10CHARUNT-UNT5:yes": {
@@ -1487,7 +1487,7 @@
     "contract": "No \u00b7 Over 3.5",
     "buy": "no"
    },
-   "result": null,
+   "result": "L",
    "close_odds": -228
   },
   "761858:KXMLSTOTAL-26OCT10LAFCVAN-1:yes": {
@@ -1531,7 +1531,7 @@
     "contract": "Yes \u00b7 Over 0.5",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -2580
   },
   "401892478:KXNHLGAME-26OCT10TORCOL-COL:yes": {
@@ -1579,7 +1579,7 @@
     "contract": "Yes \u00b7 Colorado",
     "buy": "yes"
    },
-   "result": null,
+   "result": "L",
    "close_odds": -218
   }
  },
@@ -1616,7 +1616,8 @@
    "ev": 0.0096,
    "tier": "lock",
    "name": "lock_3",
-   "result": null
+   "result": "W",
+   "missed": []
   },
   {
    "legs": [
@@ -1651,7 +1652,8 @@
    "ev": -0.0274,
    "tier": "best",
    "name": "best_2",
-   "result": null
+   "result": "W",
+   "missed": []
   },
   {
    "legs": [
@@ -1667,7 +1669,11 @@
    "ev": -0.0426,
    "tier": "best",
    "name": "best_3",
-   "result": null
+   "result": "L",
+   "missed": [
+    "761854:KXMLSTOTAL-26OCT10MINHOU-4:no",
+    "401892478:KXNHLGAME-26OCT10TORCOL-COL:yes"
+   ]
   },
   {
    "legs": [
@@ -1684,7 +1690,10 @@
    "ev": -0.0132,
    "tier": "best",
    "name": "best_4",
-   "result": null
+   "result": "L",
+   "missed": [
+    "401869943:KXNCAAFSPREAD-26OCT10CCARMRSH-MRSH2:yes"
+   ]
   }
  ],
  "straights": [],

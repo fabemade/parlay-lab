@@ -1,9 +1,9 @@
 {
  "cfb|1st half": {
-  "n": 828,
+  "n": 952,
   "trusted": true,
   "w_mult": 1.0,
-  "z": 1.91
+  "z": 1.68
  },
  "cfb|1st quarter": {
   "n": 132,
@@ -12,10 +12,10 @@
   "z": 1.08
  },
  "cfb|2nd half": {
-  "n": 184,
+  "n": 192,
   "trusted": true,
   "w_mult": 1.0,
-  "z": 0.83
+  "z": 1.09
  },
  "cfb|2nd quarter": {
   "n": 118,
@@ -36,22 +36,22 @@
   "z": 1.42
  },
  "cfb|Game lines": {
-  "n": 736,
+  "n": 790,
   "trusted": true,
   "w_mult": 1.0,
-  "z": -0.09
+  "z": -0.47
  },
  "cfb|Game specials": {
-  "n": 21,
+  "n": 31,
   "trusted": false,
-  "w_mult": 0.5,
-  "z": 1.19
+  "w_mult": 0.25,
+  "z": -1.52
  },
  "cfb|Team props": {
-  "n": 770,
+  "n": 931,
   "trusted": true,
   "w_mult": 1.0,
-  "z": -0.62
+  "z": -0.48
  },
  "mlb|First 5 innings": {
   "n": 74,
@@ -186,10 +186,10 @@
   "z": 1.61
  },
  "soccer_arg.1|Game lines": {
-  "n": 42,
+  "n": 44,
   "trusted": true,
   "w_mult": 1.0,
-  "z": -0.1
+  "z": -0.07
  },
  "soccer_bel.1|Game lines": {
   "n": 6,
@@ -312,10 +312,10 @@
   "z": 1.04
  },
  "soccer_fra.1|Game lines": {
-  "n": 19,
+  "n": 24,
   "trusted": true,
   "w_mult": 1.0,
-  "z": 0.64
+  "z": 0.9
  },
  "soccer_fra.1|Team props": {
   "n": 4,
@@ -336,10 +336,10 @@
   "z": -0.73
  },
  "soccer_ger.1|Game lines": {
-  "n": 46,
+  "n": 47,
   "trusted": true,
   "w_mult": 1.0,
-  "z": -1.18
+  "z": -1.24
  },
  "soccer_ger.1|Team props": {
   "n": 3,
@@ -360,10 +360,10 @@
   "z": 0.46
  },
  "soccer_ita.1|Game lines": {
-  "n": 6,
+  "n": 9,
   "trusted": true,
   "w_mult": 1.0,
-  "z": 0.95
+  "z": 1.16
  },
  "soccer_ita.2|Game lines": {
   "n": 6,
@@ -390,10 +390,10 @@
   "z": -0.57
  },
  "soccer_mex.1|Game lines": {
-  "n": 21,
+  "n": 26,
   "trusted": true,
   "w_mult": 1.0,
-  "z": 1.55
+  "z": 1.74
  },
  "soccer_mex.1|Team props": {
   "n": 7,
@@ -426,10 +426,10 @@
   "z": 1.02
  },
  "soccer_sco.1|Game lines": {
-  "n": 23,
+  "n": 25,
   "trusted": true,
   "w_mult": 1.0,
-  "z": 1.76
+  "z": 1.29
  },
  "soccer_tur.1|Game lines": {
   "n": 10,
@@ -462,10 +462,10 @@
   "z": 0.4
  },
  "soccer_usa.1|Game lines": {
-  "n": 13,
+  "n": 28,
   "trusted": true,
   "w_mult": 1.0,
-  "z": 1.38
+  "z": 1.21
  },
  "wnba|1st half": {
   "n": 20,
