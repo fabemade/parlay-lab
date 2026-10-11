@@ -135,7 +135,7 @@ def is_lock(l: dict) -> bool:
             and l["edge"] >= LOCK_MIN_EDGE and k.get("price", 100) <= LOCK_MAX_PRICE)
 
 
-TOP_P, TOP_MIN_EDGE = 0.55, -0.02     # Top picks: likely, and priced near fair or better
+TOP_P, TOP_MIN_EDGE = 0.60, -0.02     # Top picks: likely (55-60% picks went 10-13, -5.8u), priced near fair or better
 TOP_STRAIGHTS, TOP_PER_SPORT = 10, 2
 
 
