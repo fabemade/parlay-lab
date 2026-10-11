@@ -44,7 +44,7 @@
     "buy": "no"
    },
    "result": null,
-   "close_odds": -208
+   "close_odds": -228
   },
   "401884778:KXBUNDESLIGATOTAL-26OCT11SCFSCH-2:yes": {
    "id": "401884778:KXBUNDESLIGATOTAL-26OCT11SCFSCH-2:yes",
@@ -135,7 +135,7 @@
     "buy": "yes"
    },
    "result": null,
-   "close_odds": -263
+   "close_odds": -276
   },
   "401882850:KXLALIGATOTAL-26OCT11SANVCF-1:yes": {
    "id": "401882850:KXLALIGATOTAL-26OCT11SANVCF-1:yes",
@@ -222,7 +222,7 @@
     "contract": "Yes \u00b7 Over 1.5",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -660
   },
   "401892484:KXNHLGAME-26OCT11CARPHI-CAR:yes": {
@@ -271,7 +271,7 @@
     "buy": "yes"
    },
    "result": null,
-   "close_odds": -183
+   "close_odds": -218
   },
   "401875584:KXEREDIVISIETOTAL-26OCT11EXCGRO-2:yes": {
    "id": "401875584:KXEREDIVISIETOTAL-26OCT11EXCGRO-2:yes",
@@ -315,7 +315,7 @@
     "contract": "Yes \u00b7 Over 1.5",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -564
   },
   "401874789:KXSERIEATOTAL-26OCT11SASACM-4:no": {
@@ -850,7 +850,7 @@
     "contract": "No \u00b7 Over 5.5",
     "buy": "no"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -2042
   },
   "401892484:KXNHLTOTAL-26OCT11CARPHI-4:yes": {
@@ -941,7 +941,7 @@
     "buy": "no"
    },
    "result": null,
-   "close_odds": -208
+   "close_odds": -191
   },
   "401883189:KXLALIGA2TOTAL-26OCT11ALMLEG-6:no": {
    "id": "401883189:KXLALIGA2TOTAL-26OCT11ALMLEG-6:no",
@@ -984,7 +984,7 @@
     "contract": "No \u00b7 Over 5.5",
     "buy": "no"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -2042
   },
   "401879264:KXEPLTOTAL-26OCT11LFCMCI-2:yes": {
@@ -1073,7 +1073,7 @@
     "buy": "no"
    },
    "result": null,
-   "close_odds": -199
+   "close_odds": -208
   },
   "401876440:KXLIGUE1TOTAL-26OCT11ESTOLM-1:yes": {
    "id": "401876440:KXLIGUE1TOTAL-26OCT11ESTOLM-1:yes",
@@ -1117,7 +1117,7 @@
     "buy": "yes"
    },
    "result": null,
-   "close_odds": -2580
+   "close_odds": -2042
   },
   "401878975:KXBELGIANPLGAME-26OCT11USGOHL-USG:yes": {
    "id": "401878975:KXBELGIANPLGAME-26OCT11USGOHL-USG:yes",
@@ -1161,7 +1161,7 @@
     "contract": "Yes \u00b7 Union Gilloise",
     "buy": "yes"
    },
-   "result": null,
+   "result": "L",
    "close_odds": -404
   },
   "401899603:KXSERIEBTOTAL-26OCT11MODVER-6:no": {
@@ -1295,7 +1295,7 @@
     "contract": "No \u00b7 Over 3.5",
     "buy": "no"
    },
-   "result": null,
+   "result": "L",
    "close_odds": -228
   },
   "401875584:KXEREDIVISIETOTAL-26OCT11EXCGRO-1:yes": {
@@ -1340,7 +1340,7 @@
     "contract": "Yes \u00b7 Over 0.5",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -2580
   },
   "401908030:KXMLBTOTAL-26OCT112000LADMIL-11:no": {
@@ -1388,7 +1388,7 @@
     "buy": "no"
    },
    "result": null,
-   "close_odds": -660
+   "close_odds": -719
   },
   "401876440:KXLIGUE1TOTAL-26OCT11ESTOLM-2:yes": {
    "id": "401876440:KXLIGUE1TOTAL-26OCT11ESTOLM-2:yes",
@@ -1476,7 +1476,7 @@
     "buy": "no"
    },
    "result": null,
-   "close_odds": -228
+   "close_odds": -239
   }
  },
  "parlays": [
@@ -1541,7 +1541,10 @@
    "ev": -0.0346,
    "tier": "best",
    "name": "best_2",
-   "result": null
+   "result": "L",
+   "missed": [
+    "401882847:KXLALIGATOTAL-26OCT11RSODEP-4:no"
+   ]
   },
   {
    "legs": [
