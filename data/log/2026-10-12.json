@@ -1,0 +1,584 @@
+{
+ "date": "2026-10-12",
+ "locked_at": "2026-10-12T11:36-04:00",
+ "legs": {
+  "401876735:KXLIGUE2TOTAL-26OCT12DIJFCM-1:yes": {
+   "id": "401876735:KXLIGUE2TOTAL-26OCT12DIJFCM-1:yes",
+   "sport": "soccer_fra.2",
+   "game_id": "401876735",
+   "short": "METZ @ DIJO",
+   "game": "Metz at Dijon FCO",
+   "start": "2026-10-12T18:45Z",
+   "market": "total",
+   "side": "over",
+   "line": 0.5,
+   "selection": "Over 0.5",
+   "group": "Game lines",
+   "market_name": "Total",
+   "odds": -2042,
+   "p": 0.9484,
+   "p_model": 0.9049,
+   "p_market": 0.9406,
+   "p_breakeven": 0.9533,
+   "edge": -0.0049,
+   "ev": -0.0051,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "METZ: 1.43 scored / 1.0 allowed per game this season; last 7: 1.43 / 1.0",
+    "DIJO: 1.43 scored / 1.43 allowed per game this season; last 7: 1.43 / 1.43"
+   ],
+   "home": {
+    "name": "Dijon FCO",
+    "abbr": "DIJO"
+   },
+   "away": {
+    "name": "Metz",
+    "abbr": "METZ"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxligue2total/point-total/kxligue2total-26oct12dijfcm",
+    "price": 95,
+    "ticker": "KXLIGUE2TOTAL-26OCT12DIJFCM-1",
+    "contract": "Yes \u00b7 Over 0.5",
+    "buy": "yes"
+   },
+   "result": null,
+   "close_odds": -2042
+  },
+  "401876735:KXLIGUE2TOTAL-26OCT12DIJFCM-4:no": {
+   "id": "401876735:KXLIGUE2TOTAL-26OCT12DIJFCM-4:no",
+   "sport": "soccer_fra.2",
+   "game_id": "401876735",
+   "short": "METZ @ DIJO",
+   "game": "Metz at Dijon FCO",
+   "start": "2026-10-12T18:45Z",
+   "market": "total",
+   "side": "under",
+   "line": 3.5,
+   "selection": "Under 3.5",
+   "group": "Game lines",
+   "market_name": "Total",
+   "odds": -228,
+   "p": 0.6926,
+   "p_model": 0.7559,
+   "p_market": 0.6733,
+   "p_breakeven": 0.6952,
+   "edge": -0.0026,
+   "ev": -0.0037,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "METZ: 1.43 scored / 1.0 allowed per game this season; last 7: 1.43 / 1.0",
+    "DIJO: 1.43 scored / 1.43 allowed per game this season; last 7: 1.43 / 1.43"
+   ],
+   "home": {
+    "name": "Dijon FCO",
+    "abbr": "DIJO"
+   },
+   "away": {
+    "name": "Metz",
+    "abbr": "METZ"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxligue2total/point-total/kxligue2total-26oct12dijfcm",
+    "price": 68,
+    "ticker": "KXLIGUE2TOTAL-26OCT12DIJFCM-4",
+    "contract": "No \u00b7 Over 3.5",
+    "buy": "no"
+   },
+   "result": null,
+   "close_odds": -228
+  },
+  "401875005:KXSERIEAGAME-26OCT12ATAVEN-ATA:yes": {
+   "id": "401875005:KXSERIEAGAME-26OCT12ATAVEN-ATA:yes",
+   "sport": "soccer_ita.1",
+   "game_id": "401875005",
+   "short": "VEN @ ATA",
+   "game": "Venezia at Atalanta",
+   "start": "2026-10-12T16:30Z",
+   "market": "ml",
+   "side": "home",
+   "selection": "ATA to win",
+   "group": "Game lines",
+   "market_name": "Winner",
+   "odds": -199,
+   "p": 0.6609,
+   "p_model": 0.6691,
+   "p_market": 0.6436,
+   "p_breakeven": 0.6659,
+   "edge": -0.005,
+   "ev": -0.0075,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "ATA ranks #11 in offense and #7 in defense of 23 (schedule-adjusted, recent games weighted more)",
+    "Last 5: 2-3, scoring 1.0 and allowing 1.4 goals/game (season: 1.0 / 1.4). Current streak: L3",
+    "At home: 1.33 scored / 1.0 allowed per game",
+    "Record 2-0-3"
+   ],
+   "home": {
+    "name": "Atalanta",
+    "abbr": "ATA"
+   },
+   "away": {
+    "name": "Venezia",
+    "abbr": "VEN"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxserieagame/serie-a-game/kxserieagame-26oct12ataven",
+    "price": 65,
+    "ticker": "KXSERIEAGAME-26OCT12ATAVEN-ATA",
+    "contract": "Yes \u00b7 Atalanta",
+    "buy": "yes"
+   },
+   "result": null,
+   "close_odds": -199
+  },
+  "401879267:KXEPLTOTAL-26OCT12COVNEW-1:yes": {
+   "id": "401879267:KXEPLTOTAL-26OCT12COVNEW-1:yes",
+   "sport": "soccer_eng.1",
+   "game_id": "401879267",
+   "short": "NEW @ COV",
+   "game": "Newcastle United at Coventry City",
+   "start": "2026-10-12T19:00Z",
+   "market": "total",
+   "side": "over",
+   "line": 0.5,
+   "selection": "Over 0.5",
+   "group": "Game lines",
+   "market_name": "Total",
+   "odds": -2042,
+   "p": 0.9491,
+   "p_model": 0.9228,
+   "p_market": 0.9406,
+   "p_breakeven": 0.9533,
+   "edge": -0.0042,
+   "ev": -0.0044,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "NEW: 1.8 scored / 1.8 allowed per game this season; last 5: 1.8 / 1.8",
+    "COV: 0.2 scored / 2.0 allowed per game this season; last 5: 0.2 / 2.0"
+   ],
+   "home": {
+    "name": "Coventry City",
+    "abbr": "COV"
+   },
+   "away": {
+    "name": "Newcastle United",
+    "abbr": "NEW"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxepltotal/english-premier-league-total-goals/kxepltotal-26oct12covnew",
+    "price": 95,
+    "ticker": "KXEPLTOTAL-26OCT12COVNEW-1",
+    "contract": "Yes \u00b7 Over 0.5",
+    "buy": "yes"
+   },
+   "result": null,
+   "close_odds": -2042
+  },
+  "401872994:KXNFLTOTAL-26OCT12BUFLAR-34:yes": {
+   "id": "401872994:KXNFLTOTAL-26OCT12BUFLAR-34:yes",
+   "sport": "nfl",
+   "game_id": "401872994",
+   "short": "BUF @ LAR",
+   "game": "Buffalo Bills at Los Angeles Rams",
+   "start": "2026-10-13T00:15Z",
+   "market": "total",
+   "side": "over",
+   "line": 33.5,
+   "selection": "Over 33.5",
+   "group": "Game lines",
+   "market_name": "Total",
+   "odds": -2042,
+   "p": 0.9486,
+   "p_model": 0.9103,
+   "p_market": 0.9406,
+   "p_breakeven": 0.9533,
+   "edge": -0.0047,
+   "ev": -0.0049,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "BUF: 31.75 scored / 26.75 allowed per game this season; last 4: 31.75 / 26.75",
+    "LAR: 21.25 scored / 20.75 allowed per game this season; last 4: 21.25 / 20.75",
+    "Line moved from +53.5 to +54.5 since opening (total)"
+   ],
+   "home": {
+    "name": "Los Angeles Rams",
+    "abbr": "LAR"
+   },
+   "away": {
+    "name": "Buffalo Bills",
+    "abbr": "BUF"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxnfltotal/pro-football-total-points/kxnfltotal-26oct12buflar",
+    "price": 95,
+    "ticker": "KXNFLTOTAL-26OCT12BUFLAR-34",
+    "contract": "Yes \u00b7 Over 33.5",
+    "buy": "yes"
+   },
+   "result": null,
+   "close_odds": -2042
+  },
+  "401885425:KXLIGAPORTUGALTOTAL-26OCT12FAMALV-6:no": {
+   "id": "401885425:KXLIGAPORTUGALTOTAL-26OCT12FAMALV-6:no",
+   "sport": "soccer_por.1",
+   "game_id": "401885425",
+   "short": "ALV @ FCF",
+   "game": "Alverca at FC Famalicao",
+   "start": "2026-10-12T19:15Z",
+   "market": "total",
+   "side": "under",
+   "line": 5.5,
+   "selection": "Under 5.5",
+   "group": "Game lines",
+   "market_name": "Total",
+   "odds": -2580,
+   "p": 0.9604,
+   "p_model": 0.9615,
+   "p_market": 0.9505,
+   "p_breakeven": 0.9627,
+   "edge": -0.0023,
+   "ev": -0.0024,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "ALV: 1.29 scored / 1.57 allowed per game this season; last 7: 1.29 / 1.57",
+    "FCF: 1.29 scored / 1.0 allowed per game this season; last 7: 1.29 / 1.0"
+   ],
+   "home": {
+    "name": "FC Famalicao",
+    "abbr": "FCF"
+   },
+   "away": {
+    "name": "Alverca",
+    "abbr": "ALV"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxligaportugaltotal/point-total/kxligaportugaltotal-26oct12famalv",
+    "price": 96,
+    "ticker": "KXLIGAPORTUGALTOTAL-26OCT12FAMALV-6",
+    "contract": "No \u00b7 Over 5.5",
+    "buy": "no"
+   },
+   "result": null,
+   "close_odds": -2580
+  },
+  "401841260:KXBRASILEIROTOTAL-26OCT12RBBCRU-4:no": {
+   "id": "401841260:KXBRASILEIROTOTAL-26OCT12RBBCRU-4:no",
+   "sport": "soccer_bra.1",
+   "game_id": "401841260",
+   "short": "CRU @ BRA",
+   "game": "Cruzeiro at Red Bull Bragantino",
+   "start": "2026-10-13T00:00Z",
+   "market": "total",
+   "side": "under",
+   "line": 3.5,
+   "selection": "Under 3.5",
+   "group": "Game lines",
+   "market_name": "Total",
+   "odds": -228,
+   "p": 0.6909,
+   "p_model": 0.7368,
+   "p_market": 0.6733,
+   "p_breakeven": 0.6952,
+   "edge": -0.0043,
+   "ev": -0.0062,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "CRU: 1.82 scored / 1.09 allowed per game this season; last 10: 1.8 / 1.1",
+    "BRA: 0.82 scored / 1.27 allowed per game this season; last 10: 0.8 / 1.3"
+   ],
+   "home": {
+    "name": "Red Bull Bragantino",
+    "abbr": "BRA"
+   },
+   "away": {
+    "name": "Cruzeiro",
+    "abbr": "CRU"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxbrasileirototal/brasileiro-total/kxbrasileirototal-26oct12rbbcru",
+    "price": 68,
+    "ticker": "KXBRASILEIROTOTAL-26OCT12RBBCRU-4",
+    "contract": "No \u00b7 Over 3.5",
+    "buy": "no"
+   },
+   "result": null,
+   "close_odds": -228
+  },
+  "401841265:KXBRASILEIROTOTAL-26OCT12CHACAP-6:no": {
+   "id": "401841265:KXBRASILEIROTOTAL-26OCT12CHACAP-6:no",
+   "sport": "soccer_bra.1",
+   "game_id": "401841265",
+   "short": "CAP @ CHA",
+   "game": "Athletico Paranaense at Chapecoense",
+   "start": "2026-10-12T22:30Z",
+   "market": "total",
+   "side": "under",
+   "line": 5.5,
+   "selection": "Under 5.5",
+   "group": "Game lines",
+   "market_name": "Total",
+   "odds": -2042,
+   "p": 0.9502,
+   "p_model": 0.9364,
+   "p_market": 0.9406,
+   "p_breakeven": 0.9533,
+   "edge": -0.0031,
+   "ev": -0.0033,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "CAP: 1.91 scored / 1.45 allowed per game this season; last 10: 1.9 / 1.5",
+    "CHA: 1.09 scored / 2.18 allowed per game this season; last 10: 1.2 / 2.2"
+   ],
+   "home": {
+    "name": "Chapecoense",
+    "abbr": "CHA"
+   },
+   "away": {
+    "name": "Athletico-PR",
+    "abbr": "CAP"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxbrasileirototal/brasileiro-total/kxbrasileirototal-26oct12chacap",
+    "price": 95,
+    "ticker": "KXBRASILEIROTOTAL-26OCT12CHACAP-6",
+    "contract": "No \u00b7 Over 5.5",
+    "buy": "no"
+   },
+   "result": null,
+   "close_odds": -2042
+  },
+  "401841264:KXBRASILEIROTOTAL-26OCT12CFCBOT-1:yes": {
+   "id": "401841264:KXBRASILEIROTOTAL-26OCT12CFCBOT-1:yes",
+   "sport": "soccer_bra.1",
+   "game_id": "401841264",
+   "short": "BOT @ CFC",
+   "game": "Botafogo at Coritiba",
+   "start": "2026-10-12T19:00Z",
+   "market": "total",
+   "side": "over",
+   "line": 0.5,
+   "selection": "Over 0.5",
+   "group": "Game lines",
+   "market_name": "Total",
+   "odds": -2042,
+   "p": 0.9493,
+   "p_model": 0.9251,
+   "p_market": 0.9406,
+   "p_breakeven": 0.9533,
+   "edge": -0.004,
+   "ev": -0.0042,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "BOT: 0.92 scored / 1.33 allowed per game this season; last 10: 0.9 / 1.5",
+    "CFC: 1.18 scored / 2.09 allowed per game this season; last 10: 1.2 / 2.0"
+   ],
+   "home": {
+    "name": "Coritiba",
+    "abbr": "CFC"
+   },
+   "away": {
+    "name": "Botafogo",
+    "abbr": "BOT"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxbrasileirototal/brasileiro-total/kxbrasileirototal-26oct12cfcbot",
+    "price": 95,
+    "ticker": "KXBRASILEIROTOTAL-26OCT12CFCBOT-1",
+    "contract": "Yes \u00b7 Over 0.5",
+    "buy": "yes"
+   },
+   "result": null,
+   "close_odds": -2042
+  },
+  "401841264:KXBRASILEIROTOTAL-26OCT12CFCBOT-4:no": {
+   "id": "401841264:KXBRASILEIROTOTAL-26OCT12CFCBOT-4:no",
+   "sport": "soccer_bra.1",
+   "game_id": "401841264",
+   "short": "BOT @ CFC",
+   "game": "Botafogo at Coritiba",
+   "start": "2026-10-12T19:00Z",
+   "market": "total",
+   "side": "under",
+   "line": 3.5,
+   "selection": "Under 3.5",
+   "group": "Game lines",
+   "market_name": "Total",
+   "odds": -208,
+   "p": 0.6682,
+   "p_model": 0.6977,
+   "p_market": 0.6535,
+   "p_breakeven": 0.6757,
+   "edge": -0.0075,
+   "ev": -0.0111,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "BOT: 0.92 scored / 1.33 allowed per game this season; last 10: 0.9 / 1.5",
+    "CFC: 1.18 scored / 2.09 allowed per game this season; last 10: 1.2 / 2.0"
+   ],
+   "home": {
+    "name": "Coritiba",
+    "abbr": "CFC"
+   },
+   "away": {
+    "name": "Botafogo",
+    "abbr": "BOT"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxbrasileirototal/brasileiro-total/kxbrasileirototal-26oct12cfcbot",
+    "price": 66,
+    "ticker": "KXBRASILEIROTOTAL-26OCT12CFCBOT-4",
+    "contract": "No \u00b7 Over 3.5",
+    "buy": "no"
+   },
+   "result": null,
+   "close_odds": -208
+  },
+  "401841606:KXARGPREMDIVTOTAL-26OCT12LANVEL-3:no": {
+   "id": "401841606:KXARGPREMDIVTOTAL-26OCT12LANVEL-3:no",
+   "sport": "soccer_arg.1",
+   "game_id": "401841606",
+   "short": "VEL @ LAN",
+   "game": "V\u00e9lez Sarsfield at Lan\u00fas",
+   "start": "2026-10-12T19:00Z",
+   "market": "total",
+   "side": "under",
+   "line": 2.5,
+   "selection": "Under 2.5",
+   "group": "Game lines",
+   "market_name": "Total",
+   "odds": -191,
+   "p": 0.6444,
+   "p_model": 0.6513,
+   "p_market": 0.6337,
+   "p_breakeven": 0.6561,
+   "edge": -0.0117,
+   "ev": -0.0178,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "VEL: 1.55 scored / 1.0 allowed per game this season; last 10: 1.6 / 1.1",
+    "LAN: 1.18 scored / 0.82 allowed per game this season; last 10: 1.2 / 0.9",
+    "Line moved from +1.5 to +2.5 since opening (total)"
+   ],
+   "home": {
+    "name": "Lan\u00fas",
+    "abbr": "LAN"
+   },
+   "away": {
+    "name": "V\u00e9lez Sarsfield",
+    "abbr": "VEL"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxargpremdivtotal/argentina-premier-division-total/kxargpremdivtotal-26oct12lanvel",
+    "price": 64,
+    "ticker": "KXARGPREMDIVTOTAL-26OCT12LANVEL-3",
+    "contract": "No \u00b7 Over 2.5",
+    "buy": "no"
+   },
+   "result": null,
+   "close_odds": -191
+  },
+  "401879267:KXEPLTOTAL-26OCT12COVNEW-4:no": {
+   "id": "401879267:KXEPLTOTAL-26OCT12COVNEW-4:no",
+   "sport": "soccer_eng.1",
+   "game_id": "401879267",
+   "short": "NEW @ COV",
+   "game": "Newcastle United at Coventry City",
+   "start": "2026-10-12T19:00Z",
+   "market": "total",
+   "side": "under",
+   "line": 3.5,
+   "selection": "Under 3.5",
+   "group": "Game lines",
+   "market_name": "Total",
+   "odds": -191,
+   "p": 0.6499,
+   "p_model": 0.7051,
+   "p_market": 0.6337,
+   "p_breakeven": 0.6561,
+   "edge": -0.0062,
+   "ev": -0.0094,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "NEW: 1.8 scored / 1.8 allowed per game this season; last 5: 1.8 / 1.8",
+    "COV: 0.2 scored / 2.0 allowed per game this season; last 5: 0.2 / 2.0"
+   ],
+   "home": {
+    "name": "Coventry City",
+    "abbr": "COV"
+   },
+   "away": {
+    "name": "Newcastle United",
+    "abbr": "NEW"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxepltotal/english-premier-league-total-goals/kxepltotal-26oct12covnew",
+    "price": 64,
+    "ticker": "KXEPLTOTAL-26OCT12COVNEW-4",
+    "contract": "No \u00b7 Over 3.5",
+    "buy": "no"
+   },
+   "result": null,
+   "close_odds": -191
+  }
+ },
+ "parlays": [
+  {
+   "legs": [
+    "401876735:KXLIGUE2TOTAL-26OCT12DIJFCM-4:no",
+    "401841260:KXBRASILEIROTOTAL-26OCT12RBBCRU-4:no"
+   ],
+   "n": 2,
+   "mode": "safest",
+   "p": 0.4785,
+   "decimal": 2.07,
+   "american": 107,
+   "ev": -0.0097,
+   "tier": "best",
+   "name": "best_2",
+   "result": null
+  },
+  {
+   "legs": [
+    "401841264:KXBRASILEIROTOTAL-26OCT12CFCBOT-4:no",
+    "401875005:KXSERIEAGAME-26OCT12ATAVEN-ATA:yes",
+    "401879267:KXEPLTOTAL-26OCT12COVNEW-4:no"
+   ],
+   "n": 3,
+   "mode": "safest",
+   "p": 0.287,
+   "decimal": 3.39,
+   "american": 239,
+   "ev": -0.0271,
+   "tier": "best",
+   "name": "best_3",
+   "result": null
+  }
+ ],
+ "straights": [],
+ "straights_best": [
+  "401875005:KXSERIEAGAME-26OCT12ATAVEN-ATA:yes",
+  "401885425:KXLIGAPORTUGALTOTAL-26OCT12FAMALV-6:no",
+  "401841260:KXBRASILEIROTOTAL-26OCT12RBBCRU-4:no",
+  "401841606:KXARGPREMDIVTOTAL-26OCT12LANVEL-3:no"
+ ],
+ "locks": [
+  "401841265:KXBRASILEIROTOTAL-26OCT12CHACAP-6:no",
+  "401841264:KXBRASILEIROTOTAL-26OCT12CFCBOT-1:yes",
+  "401879267:KXEPLTOTAL-26OCT12COVNEW-1:yes",
+  "401872994:KXNFLTOTAL-26OCT12BUFLAR-34:yes",
+  "401876735:KXLIGUE2TOTAL-26OCT12DIJFCM-1:yes"
+ ]
+}
