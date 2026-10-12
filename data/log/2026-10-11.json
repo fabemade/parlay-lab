@@ -44,7 +44,7 @@
     "buy": "no"
    },
    "result": null,
-   "close_odds": -228
+   "close_odds": -218
   },
   "401884778:KXBUNDESLIGATOTAL-26OCT11SCFSCH-2:yes": {
    "id": "401884778:KXBUNDESLIGATOTAL-26OCT11SCFSCH-2:yes",
@@ -134,7 +134,7 @@
     "contract": "Yes \u00b7 New York R",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -276
   },
   "401882850:KXLALIGATOTAL-26OCT11SANVCF-1:yes": {
@@ -491,7 +491,7 @@
     "contract": "No \u00b7 Over 3.5",
     "buy": "no"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -660
   },
   "401882855:KXLALIGATOTAL-26OCT11RBBOSA-4:no": {
@@ -806,7 +806,7 @@
     "contract": "Yes \u00b7 Palmeiras",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -161
   },
   "401899602:KXSERIEBTOTAL-26OCT11PADCAR-6:no": {
@@ -940,7 +940,7 @@
     "contract": "No \u00b7 Over 3.5",
     "buy": "no"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -191
   },
   "401883189:KXLALIGA2TOTAL-26OCT11ALMLEG-6:no": {
@@ -1251,7 +1251,7 @@
     "contract": "No \u00b7 Over 64.5",
     "buy": "no"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -2042
   },
   "401882847:KXLALIGATOTAL-26OCT11RSODEP-4:no": {
@@ -1475,7 +1475,7 @@
     "contract": "No \u00b7 Over 2.5",
     "buy": "no"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -239
   }
  },
