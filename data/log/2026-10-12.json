@@ -43,7 +43,7 @@
     "contract": "Yes \u00b7 Over 0.5",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -2042
   },
   "401876735:KXLIGUE2TOTAL-26OCT12DIJFCM-4:no": {
@@ -87,7 +87,7 @@
     "contract": "No \u00b7 Over 3.5",
     "buy": "no"
    },
-   "result": null,
+   "result": "L",
    "close_odds": -228
   },
   "401875005:KXSERIEAGAME-26OCT12ATAVEN-ATA:yes": {
@@ -132,7 +132,7 @@
     "contract": "Yes \u00b7 Atalanta",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -199
   },
   "401879267:KXEPLTOTAL-26OCT12COVNEW-1:yes": {
@@ -176,7 +176,7 @@
     "contract": "Yes \u00b7 Over 0.5",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -2042
   },
   "401872994:KXNFLTOTAL-26OCT12BUFLAR-34:yes": {
@@ -310,7 +310,7 @@
     "buy": "no"
    },
    "result": null,
-   "close_odds": -228
+   "close_odds": -199
   },
   "401841265:KXBRASILEIROTOTAL-26OCT12CHACAP-6:no": {
    "id": "401841265:KXBRASILEIROTOTAL-26OCT12CHACAP-6:no",
@@ -354,7 +354,7 @@
     "buy": "no"
    },
    "result": null,
-   "close_odds": -2042
+   "close_odds": -1684
   },
   "401841264:KXBRASILEIROTOTAL-26OCT12CFCBOT-1:yes": {
    "id": "401841264:KXBRASILEIROTOTAL-26OCT12CFCBOT-1:yes",
@@ -397,7 +397,7 @@
     "contract": "Yes \u00b7 Over 0.5",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -2042
   },
   "401841264:KXBRASILEIROTOTAL-26OCT12CFCBOT-4:no": {
@@ -530,7 +530,7 @@
     "contract": "No \u00b7 Over 3.5",
     "buy": "no"
    },
-   "result": null,
+   "result": "L",
    "close_odds": -191
   }
  },
@@ -548,7 +548,10 @@
    "ev": -0.0097,
    "tier": "best",
    "name": "best_2",
-   "result": null
+   "result": "L",
+   "missed": [
+    "401876735:KXLIGUE2TOTAL-26OCT12DIJFCM-4:no"
+   ]
   },
   {
    "legs": [
@@ -564,7 +567,10 @@
    "ev": -0.0271,
    "tier": "best",
    "name": "best_3",
-   "result": null
+   "result": "L",
+   "missed": [
+    "401879267:KXEPLTOTAL-26OCT12COVNEW-4:no"
+   ]
   }
  ],
  "straights": [],
