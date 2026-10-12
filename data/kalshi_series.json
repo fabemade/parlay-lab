@@ -424,6 +424,12 @@
    "SPREAD": "Champions League Spread",
    "TOTAL": "Champions League Total Goals"
   },
+  "UECL": {
+   "BTTS": "Conference League BTTS",
+   "GAME": "UEFA Conference League Game",
+   "SPREAD": "Conference League Spread",
+   "TOTAL": "Conference League Total"
+  },
   "UEFANL": {
    "1H": "1st Half Winner",
    "1HBTTS": "1st Half BTTS",
@@ -436,6 +442,12 @@
    "SPREAD": "Spread",
    "TEAMTOTAL": "Team Total",
    "TOTAL": "Point Total"
+  },
+  "UEL": {
+   "BTTS": "Europa League BTTS",
+   "GAME": "UEFA Europa League Game",
+   "SPREAD": "Europa League Spread",
+   "TOTAL": "Europa League Total"
   },
   "WNBA": {
    "1HSPREAD": "Women's Pro Basketball 1st Half Spread",

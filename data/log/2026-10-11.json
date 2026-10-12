@@ -43,7 +43,7 @@
     "contract": "No \u00b7 Over 3.5",
     "buy": "no"
    },
-   "result": null,
+   "result": "L",
    "close_odds": -218
   },
   "401884778:KXBUNDESLIGATOTAL-26OCT11SCFSCH-2:yes": {
@@ -270,7 +270,7 @@
     "contract": "Yes \u00b7 Carolina",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -218
   },
   "401875584:KXEREDIVISIETOTAL-26OCT11EXCGRO-2:yes": {
@@ -896,7 +896,7 @@
     "contract": "Yes \u00b7 Over 3.5",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -609
   },
   "401841266:KXBRASILEIROTOTAL-26OCT11BAHMIR-4:no": {
@@ -1072,7 +1072,7 @@
     "contract": "No \u00b7 Over 3.5",
     "buy": "no"
    },
-   "result": null,
+   "result": "L",
    "close_odds": -208
   },
   "401876440:KXLIGUE1TOTAL-26OCT11ESTOLM-1:yes": {
@@ -1387,7 +1387,7 @@
     "contract": "No \u00b7 Over 10.5",
     "buy": "no"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -660
   },
   "401876440:KXLIGUE1TOTAL-26OCT11ESTOLM-2:yes": {
@@ -1493,7 +1493,8 @@
    "ev": -0.0097,
    "tier": "lock",
    "name": "lock_2",
-   "result": null
+   "result": "W",
+   "missed": []
   },
   {
    "legs": [
@@ -1509,7 +1510,8 @@
    "ev": -0.0179,
    "tier": "lock",
    "name": "lock_3",
-   "result": null
+   "result": "W",
+   "missed": []
   },
   {
    "legs": [
@@ -1561,7 +1563,10 @@
    "ev": -0.0218,
    "tier": "best",
    "name": "best_3",
-   "result": null
+   "result": "L",
+   "missed": [
+    "401876947:KXLIGAMXTOTAL-26OCT11PUMCRA-4:no"
+   ]
   },
   {
    "legs": [
@@ -1580,7 +1585,8 @@
    "name": "best_4",
    "result": "L",
    "missed": [
-    "401882855:KXLALIGATOTAL-26OCT11RBBOSA-4:no"
+    "401882855:KXLALIGATOTAL-26OCT11RBBOSA-4:no",
+    "401876949:KXLIGAMXTOTAL-26OCT11PACNCX-4:no"
    ]
   }
  ],
