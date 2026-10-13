@@ -181,7 +181,7 @@
     "buy": "yes"
    },
    "result": null,
-   "close_odds": -2580
+   "close_odds": -2042
   },
   "401880226:KXEFLCHAMPIONSHIPTOTAL-26OCT13WOLBOL-2:yes": {
    "id": "401880226:KXEFLCHAMPIONSHIPTOTAL-26OCT13WOLBOL-2:yes",
@@ -313,7 +313,7 @@
     "contract": "Yes \u00b7 Over 0.5",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -2580
   },
   "401892501:KXNHLGAME-26OCT13CGYANA-ANA:yes": {
@@ -362,7 +362,7 @@
     "buy": "yes"
    },
    "result": null,
-   "close_odds": -175
+   "close_odds": -168
   },
   "401915435:KXUCLTOTAL-26OCT13GALBAR-6:no": {
    "id": "401915435:KXUCLTOTAL-26OCT13GALBAR-6:no",
@@ -407,7 +407,7 @@
     "buy": "no"
    },
    "result": null,
-   "close_odds": -306
+   "close_odds": -322
   },
   "401892494:KXNHLTOTAL-26OCT13STLOTT-4:yes": {
    "id": "401892494:KXNHLTOTAL-26OCT13STLOTT-4:yes",
@@ -451,7 +451,7 @@
     "buy": "yes"
    },
    "result": null,
-   "close_odds": -609
+   "close_odds": -660
   },
   "401915417:KXUCLTOTAL-26OCT13ARSLIL-2:yes": {
    "id": "401915417:KXUCLTOTAL-26OCT13ARSLIL-2:yes",
@@ -495,7 +495,7 @@
     "buy": "yes"
    },
    "result": null,
-   "close_odds": -609
+   "close_odds": -564
   },
   "401915418:KXUCLTOTAL-26OCT13RCLSPO-2:yes": {
    "id": "401915418:KXUCLTOTAL-26OCT13RCLSPO-2:yes",
@@ -539,7 +539,7 @@
     "contract": "Yes \u00b7 Over 1.5",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -564
   },
   "401871053:KXNCAAFTOTAL-26OCT13FIUJVST-68:no": {
