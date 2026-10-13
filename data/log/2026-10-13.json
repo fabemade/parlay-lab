@@ -43,7 +43,7 @@
     "contract": "Yes \u00b7 Over 0.5",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -2042
   },
   "401915412:KXUCLTOTAL-26OCT13ATMMUN-1:yes": {
@@ -89,7 +89,7 @@
     "contract": "Yes \u00b7 Over 0.5",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -2042
   },
   "401908024:KXMLBTOTAL-26OCT132000CLETB-3:yes": {
@@ -224,7 +224,7 @@
     "contract": "Yes \u00b7 Over 1.5",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -489
   },
   "401880231:KXEFLCHAMPIONSHIPTOTAL-26OCT13BRCBLA-6:no": {
@@ -268,7 +268,7 @@
     "contract": "No \u00b7 Over 5.5",
     "buy": "no"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -2580
   },
   "401915418:KXUCLTOTAL-26OCT13RCLSPO-1:yes": {
@@ -406,7 +406,7 @@
     "contract": "No \u00b7 Over 5.5",
     "buy": "no"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -322
   },
   "401892494:KXNHLTOTAL-26OCT13STLOTT-4:yes": {
@@ -494,7 +494,7 @@
     "contract": "Yes \u00b7 Over 1.5",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -564
   },
   "401915418:KXUCLTOTAL-26OCT13RCLSPO-2:yes": {
@@ -586,7 +586,7 @@
     "buy": "no"
    },
    "result": null,
-   "close_odds": -2042
+   "close_odds": -1684
   },
   "401880225:KXEFLCHAMPIONSHIPTOTAL-26OCT13WREWBA-4:no": {
    "id": "401880225:KXEFLCHAMPIONSHIPTOTAL-26OCT13WREWBA-4:no",
@@ -629,7 +629,7 @@
     "contract": "No \u00b7 Over 3.5",
     "buy": "no"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -340
   },
   "401880230:KXEFLCHAMPIONSHIPTOTAL-26OCT13BURCHA-6:no": {
@@ -673,7 +673,7 @@
     "contract": "No \u00b7 Over 5.5",
     "buy": "no"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -2042
   },
   "401915417:KXUCLGAME-26OCT13ARSLIL-ARS:yes": {
@@ -717,7 +717,7 @@
     "contract": "Yes \u00b7 Arsenal",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -458
   },
   "401892495:KXNHLGAME-26OCT13VANNYI-NYI:yes": {
@@ -857,7 +857,8 @@
    "ev": -0.0071,
    "tier": "best",
    "name": "best_2",
-   "result": null
+   "result": "W",
+   "missed": []
   }
  ],
  "straights": [],
