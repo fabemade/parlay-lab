@@ -197,9 +197,10 @@ def pick_top(all_legs: list[dict], today: dt.date) -> tuple[dict, list[str], lis
         ("lock_2", "lock", lock_pool, 2, -300, 0.65),
         ("lock_3", "lock", lock_pool, 3, -200, 0.55),
         ("lock_4", "lock", lock_pool, 4, 100, 0.45),
-        ("best_2", "best", top_pool, 2, 100, 0.35),
-        ("best_3", "best", top_pool, 3, 200, 0.24),
-        ("best_4", "best", top_pool, 4, 350, 0.15),
+        # Top parlays from ~75-80% legs: three 66% legs hit only ~30% of the time, and those
+        # parlays lost most days even though their legs hit as often as predicted.
+        ("best_2", "best", top_pool, 2, -150, 0.55),
+        ("best_3", "best", top_pool, 3, 100, 0.45),
     ]
     for name, tier, pool, n, target, floor in specs:
         cands = fresh(band(pool, n, target))
