@@ -265,7 +265,7 @@
     "contract": "No \u00b7 Over 5.5",
     "buy": "no"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -2580
   },
   "401841260:KXBRASILEIROTOTAL-26OCT12RBBCRU-4:no": {
@@ -309,7 +309,7 @@
     "contract": "No \u00b7 Over 3.5",
     "buy": "no"
    },
-   "result": null,
+   "result": "L",
    "close_odds": -199
   },
   "401841265:KXBRASILEIROTOTAL-26OCT12CHACAP-6:no": {
@@ -353,7 +353,7 @@
     "contract": "No \u00b7 Over 5.5",
     "buy": "no"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -1684
   },
   "401841264:KXBRASILEIROTOTAL-26OCT12CFCBOT-1:yes": {
@@ -441,7 +441,7 @@
     "contract": "No \u00b7 Over 3.5",
     "buy": "no"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -208
   },
   "401841606:KXARGPREMDIVTOTAL-26OCT12LANVEL-3:no": {
@@ -486,7 +486,7 @@
     "contract": "No \u00b7 Over 2.5",
     "buy": "no"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -191
   },
   "401879267:KXEPLTOTAL-26OCT12COVNEW-4:no": {
@@ -550,7 +550,8 @@
    "name": "best_2",
    "result": "L",
    "missed": [
-    "401876735:KXLIGUE2TOTAL-26OCT12DIJFCM-4:no"
+    "401876735:KXLIGUE2TOTAL-26OCT12DIJFCM-4:no",
+    "401841260:KXBRASILEIROTOTAL-26OCT12RBBCRU-4:no"
    ]
   },
   {
