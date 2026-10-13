@@ -1,0 +1,879 @@
+{
+ "date": "2026-10-13",
+ "locked_at": "2026-10-13T10:32-04:00",
+ "legs": {
+  "401915410:KXUCLTOTAL-26OCT13VILNAP-1:yes": {
+   "id": "401915410:KXUCLTOTAL-26OCT13VILNAP-1:yes",
+   "sport": "soccer_uefa.champions",
+   "game_id": "401915410",
+   "short": "NAP @ VIL",
+   "game": "Napoli at Villarreal",
+   "start": "2026-10-13T19:00Z",
+   "market": "total",
+   "side": "over",
+   "line": 0.5,
+   "selection": "Over 0.5",
+   "group": "Game lines",
+   "market_name": "Total",
+   "odds": -2042,
+   "p": 0.9525,
+   "p_model": 0.9545,
+   "p_market": 0.9406,
+   "p_breakeven": 0.9533,
+   "edge": -0.0008,
+   "ev": -0.0008,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "NAP: 0.0 scored / 1.0 allowed per game this season; last 1: 0.0 / 1.0",
+    "VIL: 2.0 scored / 3.0 allowed per game this season; last 1: 2.0 / 3.0"
+   ],
+   "home": {
+    "name": "Villarreal",
+    "abbr": "VIL"
+   },
+   "away": {
+    "name": "Napoli",
+    "abbr": "NAP"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxucltotal/champions-league-total-goals/kxucltotal-26oct13vilnap",
+    "price": 95,
+    "ticker": "KXUCLTOTAL-26OCT13VILNAP-1",
+    "contract": "Yes \u00b7 Over 0.5",
+    "buy": "yes"
+   },
+   "result": null,
+   "close_odds": -2042
+  },
+  "401915412:KXUCLTOTAL-26OCT13ATMMUN-1:yes": {
+   "id": "401915412:KXUCLTOTAL-26OCT13ATMMUN-1:yes",
+   "sport": "soccer_uefa.champions",
+   "game_id": "401915412",
+   "short": "MAN @ ATM",
+   "game": "Manchester United at Atl\u00e9tico Madrid",
+   "start": "2026-10-13T19:00Z",
+   "market": "total",
+   "side": "over",
+   "line": 0.5,
+   "selection": "Over 0.5",
+   "group": "Game lines",
+   "market_name": "Total",
+   "odds": -2042,
+   "p": 0.9521,
+   "p_model": 0.961,
+   "p_market": 0.9406,
+   "p_breakeven": 0.9533,
+   "edge": -0.0012,
+   "ev": -0.0013,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "MAN: 4.0 scored / 0.0 allowed per game this season; last 1: 4.0 / 0.0",
+    "ATM: 1.0 scored / 2.0 allowed per game this season; last 1: 1.0 / 2.0",
+    "Line moved from +3.5 to +2.5 since opening (total)",
+    "\u26a0 The line has moved against this side since opening (a sharp-money signal), so the model defers more to the market"
+   ],
+   "home": {
+    "name": "Atl\u00e9tico Madrid",
+    "abbr": "ATM"
+   },
+   "away": {
+    "name": "Manchester United",
+    "abbr": "MAN"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxucltotal/champions-league-total-goals/kxucltotal-26oct13atmmun",
+    "price": 95,
+    "ticker": "KXUCLTOTAL-26OCT13ATMMUN-1",
+    "contract": "Yes \u00b7 Over 0.5",
+    "buy": "yes"
+   },
+   "result": null,
+   "close_odds": -2042
+  },
+  "401908024:KXMLBTOTAL-26OCT132000CLETB-3:yes": {
+   "id": "401908024:KXMLBTOTAL-26OCT132000CLETB-3:yes",
+   "sport": "mlb",
+   "game_id": "401908024",
+   "short": "CLE @ TB",
+   "game": "Cleveland Guardians at Tampa Bay Rays",
+   "start": "2026-10-14T00:00Z",
+   "market": "total",
+   "side": "over",
+   "line": 2.5,
+   "selection": "Over 2.5",
+   "group": "Game lines",
+   "market_name": "Total",
+   "odds": -1684,
+   "p": 0.945,
+   "p_model": 0.9554,
+   "p_market": 0.9307,
+   "p_breakeven": 0.9439,
+   "edge": 0.0011,
+   "ev": 0.0012,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "CLE: 4.21 scored / 4.08 allowed per game this season; last 10: 5.6 / 3.5",
+    "TB: 4.51 scored / 3.99 allowed per game this season; last 10: 4.2 / 3.6",
+    "Starter Freddy Peralta (RHP): 4.42 ERA, 4.28 FIP over 169 IP, 0.96 ERA last 5 starts. Projects above the team's usual pitching (+3% runs allowed)",
+    "Starter Parker Messick (LHP): 2.56 ERA, 3.07 FIP over 186 IP, 3.2 ERA last 5 starts. Projects below the team's usual pitching (-10% runs allowed)"
+   ],
+   "home": {
+    "name": "Tampa Bay Rays",
+    "abbr": "TB"
+   },
+   "away": {
+    "name": "Cleveland Guardians",
+    "abbr": "CLE"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxmlbtotal/pro-baseball-total-points/kxmlbtotal-26oct132000cletb",
+    "price": 94,
+    "ticker": "KXMLBTOTAL-26OCT132000CLETB-3",
+    "contract": "Yes \u00b7 Over 2.5",
+    "buy": "yes"
+   },
+   "result": null,
+   "close_odds": -1684
+  },
+  "401871067:KXNCAAFTOTAL-26OCT13DELMTU-27:yes": {
+   "id": "401871067:KXNCAAFTOTAL-26OCT13DELMTU-27:yes",
+   "sport": "cfb",
+   "game_id": "401871067",
+   "short": "DEL @ MTSU",
+   "game": "Delaware Blue Hens at Middle Tennessee Blue Raiders",
+   "start": "2026-10-13T23:00Z",
+   "market": "total",
+   "side": "over",
+   "line": 26.5,
+   "selection": "Over 26.5",
+   "group": "Game lines",
+   "market_name": "Total",
+   "odds": -2580,
+   "p": 0.9535,
+   "p_model": 0.9547,
+   "p_market": 0.9412,
+   "p_breakeven": 0.9627,
+   "edge": -0.0092,
+   "ev": -0.0096,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "DEL: 21.4 scored / 25.6 allowed per game this season; last 5: 21.4 / 25.6",
+    "MTSU: 20.8 scored / 28.0 allowed per game this season; last 5: 20.8 / 28.0",
+    "Line moved from +48.5 to +47.5 since opening (total)"
+   ],
+   "home": {
+    "name": "Middle Tennessee Blue Raiders",
+    "abbr": "MTSU"
+   },
+   "away": {
+    "name": "Delaware Blue Hens",
+    "abbr": "DEL"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxncaaftotal/college-football-total-points/kxncaaftotal-26oct13delmtu",
+    "price": 96,
+    "ticker": "KXNCAAFTOTAL-26OCT13DELMTU-27",
+    "contract": "Yes \u00b7 Over 26.5",
+    "buy": "yes"
+   },
+   "result": null,
+   "close_odds": -2580
+  },
+  "401880226:KXEFLCHAMPIONSHIPTOTAL-26OCT13WOLBOL-2:yes": {
+   "id": "401880226:KXEFLCHAMPIONSHIPTOTAL-26OCT13WOLBOL-2:yes",
+   "sport": "soccer_eng.2",
+   "game_id": "401880226",
+   "short": "BOL @ WOL",
+   "game": "Bolton Wanderers at Wolverhampton Wanderers",
+   "start": "2026-10-13T18:45Z",
+   "market": "total",
+   "side": "over",
+   "line": 1.5,
+   "selection": "Over 1.5",
+   "group": "Game lines",
+   "market_name": "Total",
+   "odds": -489,
+   "p": 0.8262,
+   "p_model": 0.7798,
+   "p_market": 0.8119,
+   "p_breakeven": 0.8303,
+   "edge": -0.0041,
+   "ev": -0.0049,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "BOL: 1.33 scored / 1.89 allowed per game this season; last 9: 1.33 / 1.89",
+    "WOL: 1.88 scored / 1.38 allowed per game this season; last 8: 1.88 / 1.38"
+   ],
+   "home": {
+    "name": "Wolverhampton Wanderers",
+    "abbr": "WOL"
+   },
+   "away": {
+    "name": "Bolton Wanderers",
+    "abbr": "BOL"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxeflchampionshiptotal/efl-championship-total/kxeflchampionshiptotal-26oct13wolbol",
+    "price": 82,
+    "ticker": "KXEFLCHAMPIONSHIPTOTAL-26OCT13WOLBOL-2",
+    "contract": "Yes \u00b7 Over 1.5",
+    "buy": "yes"
+   },
+   "result": null,
+   "close_odds": -489
+  },
+  "401880231:KXEFLCHAMPIONSHIPTOTAL-26OCT13BRCBLA-6:no": {
+   "id": "401880231:KXEFLCHAMPIONSHIPTOTAL-26OCT13BRCBLA-6:no",
+   "sport": "soccer_eng.2",
+   "game_id": "401880231",
+   "short": "BLK @ BRC",
+   "game": "Blackburn Rovers at Bristol City",
+   "start": "2026-10-13T18:45Z",
+   "market": "total",
+   "side": "under",
+   "line": 5.5,
+   "selection": "Under 5.5",
+   "group": "Game lines",
+   "market_name": "Total",
+   "odds": -2580,
+   "p": 0.9603,
+   "p_model": 0.9483,
+   "p_market": 0.9505,
+   "p_breakeven": 0.9627,
+   "edge": -0.0024,
+   "ev": -0.0025,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "BLK: 1.56 scored / 1.44 allowed per game this season; last 9: 1.56 / 1.44",
+    "BRC: 1.33 scored / 1.44 allowed per game this season; last 9: 1.33 / 1.44"
+   ],
+   "home": {
+    "name": "Bristol City",
+    "abbr": "BRC"
+   },
+   "away": {
+    "name": "Blackburn Rovers",
+    "abbr": "BLK"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxeflchampionshiptotal/efl-championship-total/kxeflchampionshiptotal-26oct13brcbla",
+    "price": 96,
+    "ticker": "KXEFLCHAMPIONSHIPTOTAL-26OCT13BRCBLA-6",
+    "contract": "No \u00b7 Over 5.5",
+    "buy": "no"
+   },
+   "result": null,
+   "close_odds": -2580
+  },
+  "401915418:KXUCLTOTAL-26OCT13RCLSPO-1:yes": {
+   "id": "401915418:KXUCLTOTAL-26OCT13RCLSPO-1:yes",
+   "sport": "soccer_uefa.champions",
+   "game_id": "401915418",
+   "short": "SCP @ RCL",
+   "game": "Sporting CP at Lens",
+   "start": "2026-10-13T16:45Z",
+   "market": "total",
+   "side": "over",
+   "line": 0.5,
+   "selection": "Over 0.5",
+   "group": "Game lines",
+   "market_name": "Total",
+   "odds": -2580,
+   "p": 0.9607,
+   "p_model": 0.9589,
+   "p_market": 0.9505,
+   "p_breakeven": 0.9627,
+   "edge": -0.002,
+   "ev": -0.0021,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "SCP: 3.0 scored / 1.0 allowed per game this season; last 1: 3.0 / 1.0",
+    "RCL: 3.0 scored / 2.0 allowed per game this season; last 1: 3.0 / 2.0",
+    "Line moved from +2.5 to +3.5 since opening (total)"
+   ],
+   "home": {
+    "name": "Lens",
+    "abbr": "RCL"
+   },
+   "away": {
+    "name": "Sporting CP",
+    "abbr": "SCP"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxucltotal/champions-league-total-goals/kxucltotal-26oct13rclspo",
+    "price": 96,
+    "ticker": "KXUCLTOTAL-26OCT13RCLSPO-1",
+    "contract": "Yes \u00b7 Over 0.5",
+    "buy": "yes"
+   },
+   "result": null,
+   "close_odds": -2580
+  },
+  "401892501:KXNHLGAME-26OCT13CGYANA-ANA:yes": {
+   "id": "401892501:KXNHLGAME-26OCT13CGYANA-ANA:yes",
+   "sport": "nhl",
+   "game_id": "401892501",
+   "short": "CGY @ ANA",
+   "game": "Calgary Flames at Anaheim Ducks",
+   "start": "2026-10-14T01:45Z",
+   "market": "ml",
+   "side": "home",
+   "selection": "ANA to win",
+   "group": "Game lines",
+   "market_name": "Winner",
+   "odds": -175,
+   "p": 0.6311,
+   "p_model": 0.6424,
+   "p_market": 0.6139,
+   "p_breakeven": 0.6365,
+   "edge": -0.0054,
+   "ev": -0.0085,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "ANA ranks #12 in offense and #24 in defense of 32 (schedule-adjusted, recent games weighted more)",
+    "Last 5: 4-1, scoring 3.6 and allowing 2.6 goals/game (season: 3.6 / 2.6)",
+    "At home: 2.5 scored / 3.5 allowed per game",
+    "Record 4-1-0 (home 1-1-0)",
+    "Injuries: Drew Helleson (D, Injured Reserve), Troy Terry (RW, Injured Reserve), Ian Moore (D, Injured Reserve)",
+    "Price moved -218 \u2192 -175 since opening, money moving away from ANA",
+    "\u26a0 The line has moved against this side since opening (a sharp-money signal), so the model defers more to the market"
+   ],
+   "home": {
+    "name": "Anaheim Ducks",
+    "abbr": "ANA"
+   },
+   "away": {
+    "name": "Calgary Flames",
+    "abbr": "CGY"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxnhlgame/nhl-game/kxnhlgame-26oct13cgyana",
+    "price": 62,
+    "ticker": "KXNHLGAME-26OCT13CGYANA-ANA",
+    "contract": "Yes \u00b7 Anaheim",
+    "buy": "yes"
+   },
+   "result": null,
+   "close_odds": -175
+  },
+  "401915435:KXUCLTOTAL-26OCT13GALBAR-6:no": {
+   "id": "401915435:KXUCLTOTAL-26OCT13GALBAR-6:no",
+   "sport": "soccer_uefa.champions",
+   "game_id": "401915435",
+   "short": "BAR @ GAL",
+   "game": "Barcelona at Galatasaray",
+   "start": "2026-10-13T19:00Z",
+   "market": "total",
+   "side": "under",
+   "line": 5.5,
+   "selection": "Under 5.5",
+   "group": "Game lines",
+   "market_name": "Total",
+   "odds": -306,
+   "p": 0.7536,
+   "p_model": 0.843,
+   "p_market": 0.7327,
+   "p_breakeven": 0.7535,
+   "edge": 0.0001,
+   "ev": 0.0001,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "BAR: 5.0 scored / 1.0 allowed per game this season; last 1: 5.0 / 1.0",
+    "GAL: 1.0 scored / 3.0 allowed per game this season; last 1: 1.0 / 3.0",
+    "Line moved from +3.5 to +4.5 since opening (total)"
+   ],
+   "home": {
+    "name": "Galatasaray",
+    "abbr": "GAL"
+   },
+   "away": {
+    "name": "Barcelona",
+    "abbr": "BAR"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxucltotal/champions-league-total-goals/kxucltotal-26oct13galbar",
+    "price": 74,
+    "ticker": "KXUCLTOTAL-26OCT13GALBAR-6",
+    "contract": "No \u00b7 Over 5.5",
+    "buy": "no"
+   },
+   "result": null,
+   "close_odds": -306
+  },
+  "401892494:KXNHLTOTAL-26OCT13STLOTT-4:yes": {
+   "id": "401892494:KXNHLTOTAL-26OCT13STLOTT-4:yes",
+   "sport": "nhl",
+   "game_id": "401892494",
+   "short": "STL @ OTT",
+   "game": "St. Louis Blues at Ottawa Senators",
+   "start": "2026-10-13T23:30Z",
+   "market": "total",
+   "side": "over",
+   "line": 3.5,
+   "selection": "Over 3.5",
+   "group": "Game lines",
+   "market_name": "Total",
+   "odds": -609,
+   "p": 0.8601,
+   "p_model": 0.8568,
+   "p_market": 0.8416,
+   "p_breakeven": 0.8589,
+   "edge": 0.0012,
+   "ev": 0.0014,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "STL: 2.8 scored / 3.2 allowed per game this season; last 5: 2.8 / 3.2",
+    "OTT: 3.17 scored / 2.0 allowed per game this season; last 6: 3.17 / 2.0"
+   ],
+   "home": {
+    "name": "Ottawa Senators",
+    "abbr": "OTT"
+   },
+   "away": {
+    "name": "St. Louis Blues",
+    "abbr": "STL"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxnhltotal/nhl-total-goals/kxnhltotal-26oct13stlott",
+    "price": 85,
+    "ticker": "KXNHLTOTAL-26OCT13STLOTT-4",
+    "contract": "Yes \u00b7 Over 3.5",
+    "buy": "yes"
+   },
+   "result": null,
+   "close_odds": -609
+  },
+  "401915417:KXUCLTOTAL-26OCT13ARSLIL-2:yes": {
+   "id": "401915417:KXUCLTOTAL-26OCT13ARSLIL-2:yes",
+   "sport": "soccer_uefa.champions",
+   "game_id": "401915417",
+   "short": "LILL @ ARS",
+   "game": "Lille at Arsenal",
+   "start": "2026-10-13T19:00Z",
+   "market": "total",
+   "side": "over",
+   "line": 1.5,
+   "selection": "Over 1.5",
+   "group": "Game lines",
+   "market_name": "Total",
+   "odds": -609,
+   "p": 0.8587,
+   "p_model": 0.8487,
+   "p_market": 0.8416,
+   "p_breakeven": 0.8589,
+   "edge": -0.0002,
+   "ev": -0.0002,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "LILL: 2.0 scored / 3.0 allowed per game this season; last 1: 2.0 / 3.0",
+    "ARS: 1.0 scored / 0.0 allowed per game this season; last 1: 1.0 / 0.0"
+   ],
+   "home": {
+    "name": "Arsenal",
+    "abbr": "ARS"
+   },
+   "away": {
+    "name": "Lille",
+    "abbr": "LILL"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxucltotal/champions-league-total-goals/kxucltotal-26oct13arslil",
+    "price": 85,
+    "ticker": "KXUCLTOTAL-26OCT13ARSLIL-2",
+    "contract": "Yes \u00b7 Over 1.5",
+    "buy": "yes"
+   },
+   "result": null,
+   "close_odds": -609
+  },
+  "401915418:KXUCLTOTAL-26OCT13RCLSPO-2:yes": {
+   "id": "401915418:KXUCLTOTAL-26OCT13RCLSPO-2:yes",
+   "sport": "soccer_uefa.champions",
+   "game_id": "401915418",
+   "short": "SCP @ RCL",
+   "game": "Sporting CP at Lens",
+   "start": "2026-10-13T16:45Z",
+   "market": "total",
+   "side": "over",
+   "line": 1.5,
+   "selection": "Over 1.5",
+   "group": "Game lines",
+   "market_name": "Total",
+   "odds": -564,
+   "p": 0.8494,
+   "p_model": 0.8629,
+   "p_market": 0.8317,
+   "p_breakeven": 0.8494,
+   "edge": 0.0,
+   "ev": 0.0,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "SCP: 3.0 scored / 1.0 allowed per game this season; last 1: 3.0 / 1.0",
+    "RCL: 3.0 scored / 2.0 allowed per game this season; last 1: 3.0 / 2.0",
+    "Line moved from +2.5 to +3.5 since opening (total)"
+   ],
+   "home": {
+    "name": "Lens",
+    "abbr": "RCL"
+   },
+   "away": {
+    "name": "Sporting CP",
+    "abbr": "SCP"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxucltotal/champions-league-total-goals/kxucltotal-26oct13rclspo",
+    "price": 84,
+    "ticker": "KXUCLTOTAL-26OCT13RCLSPO-2",
+    "contract": "Yes \u00b7 Over 1.5",
+    "buy": "yes"
+   },
+   "result": null,
+   "close_odds": -564
+  },
+  "401871053:KXNCAAFTOTAL-26OCT13FIUJVST-68:no": {
+   "id": "401871053:KXNCAAFTOTAL-26OCT13FIUJVST-68:no",
+   "sport": "cfb",
+   "game_id": "401871053",
+   "short": "FIU @ JXST",
+   "game": "Florida International Panthers at Jacksonville State Gamecocks",
+   "start": "2026-10-14T00:00Z",
+   "market": "total",
+   "side": "under",
+   "line": 67.5,
+   "selection": "Under 67.5",
+   "group": "Game lines",
+   "market_name": "Total",
+   "odds": -2042,
+   "p": 0.9494,
+   "p_model": 0.8848,
+   "p_market": 0.9406,
+   "p_breakeven": 0.9533,
+   "edge": -0.0039,
+   "ev": -0.0041,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "FIU: 18.8 scored / 12.2 allowed per game this season; last 5: 18.8 / 12.2",
+    "JXST: 27.33 scored / 22.5 allowed per game this season; last 6: 27.33 / 22.5",
+    "Line moved from +45.5 to +43.5 since opening (total)",
+    "\u26a0 The line has moved against this side since opening (a sharp-money signal), so the model defers more to the market"
+   ],
+   "home": {
+    "name": "Jacksonville State Gamecocks",
+    "abbr": "JXST"
+   },
+   "away": {
+    "name": "Florida International Panthers",
+    "abbr": "FIU"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxncaaftotal/college-football-total-points/kxncaaftotal-26oct13fiujvst",
+    "price": 95,
+    "ticker": "KXNCAAFTOTAL-26OCT13FIUJVST-68",
+    "contract": "No \u00b7 Over 67.5",
+    "buy": "no"
+   },
+   "result": null,
+   "close_odds": -2042
+  },
+  "401880225:KXEFLCHAMPIONSHIPTOTAL-26OCT13WREWBA-4:no": {
+   "id": "401880225:KXEFLCHAMPIONSHIPTOTAL-26OCT13WREWBA-4:no",
+   "sport": "soccer_eng.2",
+   "game_id": "401880225",
+   "short": "WBA @ WXM",
+   "game": "West Bromwich Albion at Wrexham",
+   "start": "2026-10-13T18:45Z",
+   "market": "total",
+   "side": "under",
+   "line": 3.5,
+   "selection": "Under 3.5",
+   "group": "Game lines",
+   "market_name": "Total",
+   "odds": -340,
+   "p": 0.7673,
+   "p_model": 0.7379,
+   "p_market": 0.7525,
+   "p_breakeven": 0.7728,
+   "edge": -0.0055,
+   "ev": -0.0071,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "WBA: 1.11 scored / 1.0 allowed per game this season; last 9: 1.11 / 1.0",
+    "WXM: 1.11 scored / 1.44 allowed per game this season; last 9: 1.11 / 1.44"
+   ],
+   "home": {
+    "name": "Wrexham",
+    "abbr": "WXM"
+   },
+   "away": {
+    "name": "West Bromwich Albion",
+    "abbr": "WBA"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxeflchampionshiptotal/efl-championship-total/kxeflchampionshiptotal-26oct13wrewba",
+    "price": 76,
+    "ticker": "KXEFLCHAMPIONSHIPTOTAL-26OCT13WREWBA-4",
+    "contract": "No \u00b7 Over 3.5",
+    "buy": "no"
+   },
+   "result": null,
+   "close_odds": -340
+  },
+  "401880230:KXEFLCHAMPIONSHIPTOTAL-26OCT13BURCHA-6:no": {
+   "id": "401880230:KXEFLCHAMPIONSHIPTOTAL-26OCT13BURCHA-6:no",
+   "sport": "soccer_eng.2",
+   "game_id": "401880230",
+   "short": "CHA @ BUR",
+   "game": "Charlton Athletic at Burnley",
+   "start": "2026-10-13T18:45Z",
+   "market": "total",
+   "side": "under",
+   "line": 5.5,
+   "selection": "Under 5.5",
+   "group": "Game lines",
+   "market_name": "Total",
+   "odds": -2042,
+   "p": 0.9521,
+   "p_model": 0.9444,
+   "p_market": 0.9406,
+   "p_breakeven": 0.9533,
+   "edge": -0.0012,
+   "ev": -0.0013,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "CHA: 0.89 scored / 1.22 allowed per game this season; last 9: 0.89 / 1.22",
+    "BUR: 1.44 scored / 1.89 allowed per game this season; last 9: 1.44 / 1.89"
+   ],
+   "home": {
+    "name": "Burnley",
+    "abbr": "BUR"
+   },
+   "away": {
+    "name": "Charlton Athletic",
+    "abbr": "CHA"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxeflchampionshiptotal/efl-championship-total/kxeflchampionshiptotal-26oct13burcha",
+    "price": 95,
+    "ticker": "KXEFLCHAMPIONSHIPTOTAL-26OCT13BURCHA-6",
+    "contract": "No \u00b7 Over 5.5",
+    "buy": "no"
+   },
+   "result": null,
+   "close_odds": -2042
+  },
+  "401915417:KXUCLGAME-26OCT13ARSLIL-ARS:yes": {
+   "id": "401915417:KXUCLGAME-26OCT13ARSLIL-ARS:yes",
+   "sport": "soccer_uefa.champions",
+   "game_id": "401915417",
+   "short": "LILL @ ARS",
+   "game": "Lille at Arsenal",
+   "start": "2026-10-13T19:00Z",
+   "market": "ml",
+   "side": "home",
+   "selection": "ARS to win",
+   "group": "Game lines",
+   "market_name": "Winner",
+   "odds": -458,
+   "p": 0.8155,
+   "p_model": 0.6852,
+   "p_market": 0.802,
+   "p_breakeven": 0.8208,
+   "edge": -0.0053,
+   "ev": -0.0065,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "ARS ranks #14 in offense and #1 in defense of 36 (schedule-adjusted, recent games weighted more)",
+    "Last 1: 1-0, scoring 1.0 and allowing 0.0 goals/game (season: 1.0 / 0.0)",
+    "Record 1-0-0"
+   ],
+   "home": {
+    "name": "Arsenal",
+    "abbr": "ARS"
+   },
+   "away": {
+    "name": "Lille",
+    "abbr": "LILL"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxuclgame/uefa-champions-league-game/kxuclgame-26oct13arslil",
+    "price": 81,
+    "ticker": "KXUCLGAME-26OCT13ARSLIL-ARS",
+    "contract": "Yes \u00b7 Arsenal",
+    "buy": "yes"
+   },
+   "result": null,
+   "close_odds": -458
+  },
+  "401892495:KXNHLGAME-26OCT13VANNYI-NYI:yes": {
+   "id": "401892495:KXNHLGAME-26OCT13VANNYI-NYI:yes",
+   "sport": "nhl",
+   "game_id": "401892495",
+   "short": "VAN @ NYI",
+   "game": "Vancouver Canucks at New York Islanders",
+   "start": "2026-10-13T23:45Z",
+   "market": "ml",
+   "side": "home",
+   "selection": "NYI to win",
+   "group": "Game lines",
+   "market_name": "Winner",
+   "odds": -208,
+   "p": 0.6612,
+   "p_model": 0.6222,
+   "p_market": 0.66,
+   "p_breakeven": 0.6757,
+   "edge": -0.0145,
+   "ev": -0.0215,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "NYI ranks #24 in offense and #14 in defense of 32 (schedule-adjusted, recent games weighted more)",
+    "Last 5: 2-3, scoring 3.2 and allowing 2.6 goals/game (season: 3.2 / 2.6)",
+    "At home: 4.33 scored / 2.0 allowed per game",
+    "Record 2-3-0 (home 2-1-0)",
+    "Injuries: Mathew Barzal (C, Injured Reserve), Alexander Romanov (D, Out)",
+    "Price moved -250 \u2192 -218 since opening, money moving away from NYI"
+   ],
+   "home": {
+    "name": "New York Islanders",
+    "abbr": "NYI"
+   },
+   "away": {
+    "name": "Vancouver Canucks",
+    "abbr": "VAN"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxnhlgame/nhl-game/kxnhlgame-26oct13vannyi",
+    "price": 66,
+    "ticker": "KXNHLGAME-26OCT13VANNYI-NYI",
+    "contract": "Yes \u00b7 New York I",
+    "buy": "yes"
+   },
+   "result": null,
+   "close_odds": -208
+  },
+  "401892489:KXNHLTOTAL-26OCT13FLACBJ-4:yes": {
+   "id": "401892489:KXNHLTOTAL-26OCT13FLACBJ-4:yes",
+   "sport": "nhl",
+   "game_id": "401892489",
+   "short": "FLA @ CBJ",
+   "game": "Florida Panthers at Columbus Blue Jackets",
+   "start": "2026-10-13T22:15Z",
+   "market": "total",
+   "side": "over",
+   "line": 3.5,
+   "selection": "Over 3.5",
+   "group": "Game lines",
+   "market_name": "Total",
+   "odds": -660,
+   "p": 0.8695,
+   "p_model": 0.8634,
+   "p_market": 0.8515,
+   "p_breakeven": 0.8684,
+   "edge": 0.0011,
+   "ev": 0.0013,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "FLA: 2.0 scored / 2.83 allowed per game this season; last 6: 2.0 / 2.83",
+    "CBJ: 3.25 scored / 3.5 allowed per game this season; last 4: 3.25 / 3.5"
+   ],
+   "home": {
+    "name": "Columbus Blue Jackets",
+    "abbr": "CBJ"
+   },
+   "away": {
+    "name": "Florida Panthers",
+    "abbr": "FLA"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxnhltotal/nhl-total-goals/kxnhltotal-26oct13flacbj",
+    "price": 86,
+    "ticker": "KXNHLTOTAL-26OCT13FLACBJ-4",
+    "contract": "Yes \u00b7 Over 3.5",
+    "buy": "yes"
+   },
+   "result": null,
+   "close_odds": -660
+  }
+ },
+ "parlays": [
+  {
+   "legs": [
+    "401892494:KXNHLTOTAL-26OCT13STLOTT-4:yes",
+    "401915417:KXUCLTOTAL-26OCT13ARSLIL-2:yes"
+   ],
+   "n": 2,
+   "mode": "safest",
+   "p": 0.7386,
+   "decimal": 1.355,
+   "american": -281,
+   "ev": 0.001,
+   "tier": "lock",
+   "name": "lock_2",
+   "result": null
+  },
+  {
+   "legs": [
+    "401892489:KXNHLTOTAL-26OCT13FLACBJ-4:yes",
+    "401915418:KXUCLTOTAL-26OCT13RCLSPO-2:yes",
+    "401880226:KXEFLCHAMPIONSHIPTOTAL-26OCT13WOLBOL-2:yes"
+   ],
+   "n": 3,
+   "mode": "safest",
+   "p": 0.6102,
+   "decimal": 1.633,
+   "american": -158,
+   "ev": -0.0036,
+   "tier": "lock",
+   "name": "lock_3",
+   "result": null
+  },
+  {
+   "legs": [
+    "401880225:KXEFLCHAMPIONSHIPTOTAL-26OCT13WREWBA-4:no",
+    "401915435:KXUCLTOTAL-26OCT13GALBAR-6:no"
+   ],
+   "n": 2,
+   "mode": "safest",
+   "p": 0.5782,
+   "decimal": 1.717,
+   "american": -139,
+   "ev": -0.0071,
+   "tier": "best",
+   "name": "best_2",
+   "result": null
+  }
+ ],
+ "straights": [],
+ "straights_best": [
+  "401915417:KXUCLGAME-26OCT13ARSLIL-ARS:yes",
+  "401892495:KXNHLGAME-26OCT13VANNYI-NYI:yes",
+  "401892501:KXNHLGAME-26OCT13CGYANA-ANA:yes",
+  "401915418:KXUCLTOTAL-26OCT13RCLSPO-1:yes",
+  "401880231:KXEFLCHAMPIONSHIPTOTAL-26OCT13BRCBLA-6:no",
+  "401871067:KXNCAAFTOTAL-26OCT13DELMTU-27:yes"
+ ],
+ "locks": [
+  "401915410:KXUCLTOTAL-26OCT13VILNAP-1:yes",
+  "401915412:KXUCLTOTAL-26OCT13ATMMUN-1:yes",
+  "401880230:KXEFLCHAMPIONSHIPTOTAL-26OCT13BURCHA-6:no",
+  "401871053:KXNCAAFTOTAL-26OCT13FIUJVST-68:no",
+  "401908024:KXMLBTOTAL-26OCT132000CLETB-3:yes"
+ ]
+}
