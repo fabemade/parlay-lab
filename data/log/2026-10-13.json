@@ -180,7 +180,7 @@
     "contract": "Yes \u00b7 Over 26.5",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -2042
   },
   "401880226:KXEFLCHAMPIONSHIPTOTAL-26OCT13WOLBOL-2:yes": {
@@ -361,7 +361,7 @@
     "contract": "Yes \u00b7 Anaheim",
     "buy": "yes"
    },
-   "result": null,
+   "result": "L",
    "close_odds": -168
   },
   "401915435:KXUCLTOTAL-26OCT13GALBAR-6:no": {
@@ -450,7 +450,7 @@
     "contract": "Yes \u00b7 Over 3.5",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -660
   },
   "401915417:KXUCLTOTAL-26OCT13ARSLIL-2:yes": {
@@ -585,7 +585,7 @@
     "contract": "No \u00b7 Over 67.5",
     "buy": "no"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -1684
   },
   "401880225:KXEFLCHAMPIONSHIPTOTAL-26OCT13WREWBA-4:no": {
@@ -764,7 +764,7 @@
     "contract": "Yes \u00b7 New York I",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -208
   },
   "401892489:KXNHLTOTAL-26OCT13FLACBJ-4:yes": {
@@ -826,7 +826,8 @@
    "ev": 0.001,
    "tier": "lock",
    "name": "lock_2",
-   "result": null
+   "result": "W",
+   "missed": []
   },
   {
    "legs": [
