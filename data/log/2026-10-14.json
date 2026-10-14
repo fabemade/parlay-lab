@@ -43,7 +43,7 @@
     "contract": "Yes \u00b7 Over 0.5",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -2042
   },
   "761865:KXMLSTOTAL-26OCT14CLBCLT-6:no": {
@@ -88,7 +88,7 @@
     "buy": "no"
    },
    "result": null,
-   "close_odds": -609
+   "close_odds": -564
   },
   "761862:KXMLSTOTAL-26OCT14CINNE-6:no": {
    "id": "761862:KXMLSTOTAL-26OCT14CINNE-6:no",
@@ -176,7 +176,7 @@
     "buy": "no"
    },
    "result": null,
-   "close_odds": -525
+   "close_odds": -564
   },
   "401841598:KXARGPREMDIVTOTAL-26OCT14CASRIV-4:no": {
    "id": "401841598:KXARGPREMDIVTOTAL-26OCT14CASRIV-4:no",
@@ -308,7 +308,7 @@
     "buy": "no"
    },
    "result": null,
-   "close_odds": -489
+   "close_odds": -564
   },
   "761860:KXMLSTOTAL-26OCT14TORORL-6:no": {
    "id": "761860:KXMLSTOTAL-26OCT14TORORL-6:no",
@@ -352,7 +352,7 @@
     "buy": "no"
    },
    "result": null,
-   "close_odds": -564
+   "close_odds": -525
   },
   "401915409:KXUCLTOTAL-26OCT14AVLFEN-1:yes": {
    "id": "401915409:KXUCLTOTAL-26OCT14AVLFEN-1:yes",
@@ -395,7 +395,7 @@
     "contract": "Yes \u00b7 Over 0.5",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -2580
   },
   "401915409:KXUCLTOTAL-26OCT14AVLFEN-2:yes": {
@@ -439,7 +439,7 @@
     "contract": "Yes \u00b7 Over 1.5",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -525
   },
   "401880222:KXEFLCHAMPIONSHIPTOTAL-26OCT14PORSHU-6:no": {
@@ -483,7 +483,7 @@
     "contract": "No \u00b7 Over 5.5",
     "buy": "no"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -2580
   },
   "401880221:KXEFLCHAMPIONSHIPTOTAL-26OCT14QPRDER-6:no": {
@@ -527,7 +527,7 @@
     "contract": "No \u00b7 Over 5.5",
     "buy": "no"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -2042
   },
   "401915406:KXUCLTOTAL-26OCT14SHAAEK-6:no": {
@@ -571,7 +571,7 @@
     "contract": "No \u00b7 Over 5.5",
     "buy": "no"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -2042
   },
   "401915416:KXUCLTOTAL-26OCT14FEYCOM-2:yes": {
@@ -660,7 +660,7 @@
     "contract": "Yes \u00b7 Over 1.5",
     "buy": "yes"
    },
-   "result": null,
+   "result": "L",
    "close_odds": -564
   },
   "401915407:KXUCLTOTAL-26OCT14MCIPSG-6:no": {
@@ -704,7 +704,7 @@
     "contract": "No \u00b7 Over 5.5",
     "buy": "no"
    },
-   "result": null,
+   "result": "L",
    "close_odds": -564
   },
   "761873:KXMLSTOTAL-26OCT14LAFCATX-1:yes": {
@@ -794,7 +794,7 @@
     "buy": "yes"
    },
    "result": null,
-   "close_odds": -2580
+   "close_odds": -2042
   }
  },
  "parlays": [
@@ -811,7 +811,10 @@
    "ev": -0.0037,
    "tier": "lock",
    "name": "lock_2",
-   "result": null
+   "result": "L",
+   "missed": [
+    "401915407:KXUCLTOTAL-26OCT14MCIPSG-6:no"
+   ]
   },
   {
    "legs": [
@@ -827,7 +830,10 @@
    "ev": -0.0158,
    "tier": "lock",
    "name": "lock_3",
-   "result": null
+   "result": "L",
+   "missed": [
+    "401880223:KXEFLCHAMPIONSHIPTOTAL-26OCT14NORSOU-2:yes"
+   ]
   },
   {
    "legs": [
