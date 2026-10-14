@@ -176,7 +176,7 @@
     "buy": "no"
    },
    "result": null,
-   "close_odds": -489
+   "close_odds": -525
   },
   "401841598:KXARGPREMDIVTOTAL-26OCT14CASRIV-4:no": {
    "id": "401841598:KXARGPREMDIVTOTAL-26OCT14CASRIV-4:no",
@@ -264,7 +264,7 @@
     "buy": "yes"
    },
    "result": null,
-   "close_odds": -2580
+   "close_odds": -2042
   },
   "761866:KXMLSTOTAL-26OCT14NSHSKC-6:no": {
    "id": "761866:KXMLSTOTAL-26OCT14NSHSKC-6:no",
@@ -794,7 +794,7 @@
     "buy": "yes"
    },
    "result": null,
-   "close_odds": -2580
+   "close_odds": -2042
   }
  },
  "parlays": [
