@@ -1,0 +1,864 @@
+{
+ "date": "2026-10-14",
+ "locked_at": "2026-10-14T10:42-04:00",
+ "legs": {
+  "401915408:KXUCLTOTAL-26OCT14RBBFCP-1:yes": {
+   "id": "401915408:KXUCLTOTAL-26OCT14RBBFCP-1:yes",
+   "sport": "soccer_uefa.champions",
+   "game_id": "401915408",
+   "short": "FCP @ BET",
+   "game": "FC Porto at Real Betis",
+   "start": "2026-10-14T19:00Z",
+   "market": "total",
+   "side": "over",
+   "line": 0.5,
+   "selection": "Over 0.5",
+   "group": "Game lines",
+   "market_name": "Total",
+   "odds": -2042,
+   "p": 0.9509,
+   "p_model": 0.9605,
+   "p_market": 0.9406,
+   "p_breakeven": 0.9533,
+   "edge": -0.0024,
+   "ev": -0.0025,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "FCP: 0.0 scored / 2.0 allowed per game this season; last 1: 0.0 / 2.0",
+    "BET: 3.0 scored / 2.0 allowed per game this season; last 1: 3.0 / 2.0"
+   ],
+   "home": {
+    "name": "Real Betis",
+    "abbr": "BET"
+   },
+   "away": {
+    "name": "FC Porto",
+    "abbr": "FCP"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxucltotal/champions-league-total-goals/kxucltotal-26oct14rbbfcp",
+    "price": 95,
+    "ticker": "KXUCLTOTAL-26OCT14RBBFCP-1",
+    "contract": "Yes \u00b7 Over 0.5",
+    "buy": "yes"
+   },
+   "result": null,
+   "close_odds": -2042
+  },
+  "761865:KXMLSTOTAL-26OCT14CLBCLT-6:no": {
+   "id": "761865:KXMLSTOTAL-26OCT14CLBCLT-6:no",
+   "sport": "soccer_usa.1",
+   "game_id": "761865",
+   "short": "CLT @ CLB",
+   "game": "Charlotte FC at Columbus Crew",
+   "start": "2026-10-14T23:30Z",
+   "market": "total",
+   "side": "under",
+   "line": 5.5,
+   "selection": "Under 5.5",
+   "group": "Game lines",
+   "market_name": "Total",
+   "odds": -660,
+   "p": 0.8709,
+   "p_model": 0.9011,
+   "p_market": 0.8515,
+   "p_breakeven": 0.8684,
+   "edge": 0.0025,
+   "ev": 0.0029,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "CLT: 2.0 scored / 1.31 allowed per game this season; last 10: 2.1 / 1.3",
+    "CLB: 1.54 scored / 1.77 allowed per game this season; last 10: 1.5 / 1.8"
+   ],
+   "home": {
+    "name": "Columbus Crew",
+    "abbr": "CLB"
+   },
+   "away": {
+    "name": "Charlotte FC",
+    "abbr": "CLT"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxmlstotal/mls-total/kxmlstotal-26oct14clbclt",
+    "price": 86,
+    "ticker": "KXMLSTOTAL-26OCT14CLBCLT-6",
+    "contract": "No \u00b7 Over 5.5",
+    "buy": "no"
+   },
+   "result": null,
+   "close_odds": -660
+  },
+  "761862:KXMLSTOTAL-26OCT14CINNE-6:no": {
+   "id": "761862:KXMLSTOTAL-26OCT14CINNE-6:no",
+   "sport": "soccer_usa.1",
+   "game_id": "761862",
+   "short": "NE @ CIN",
+   "game": "New England Revolution at FC Cincinnati",
+   "start": "2026-10-14T23:30Z",
+   "market": "total",
+   "side": "under",
+   "line": 5.5,
+   "selection": "Under 5.5",
+   "group": "Game lines",
+   "market_name": "Total",
+   "odds": -525,
+   "p": 0.8388,
+   "p_model": 0.8404,
+   "p_market": 0.8218,
+   "p_breakeven": 0.8399,
+   "edge": -0.0011,
+   "ev": -0.0013,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "NE: 1.64 scored / 1.5 allowed per game this season; last 10: 1.7 / 1.6",
+    "CIN: 1.83 scored / 2.33 allowed per game this season; last 10: 1.7 / 2.3"
+   ],
+   "home": {
+    "name": "FC Cincinnati",
+    "abbr": "CIN"
+   },
+   "away": {
+    "name": "New England Revolution",
+    "abbr": "NE"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxmlstotal/mls-total/kxmlstotal-26oct14cinne",
+    "price": 83,
+    "ticker": "KXMLSTOTAL-26OCT14CINNE-6",
+    "contract": "No \u00b7 Over 5.5",
+    "buy": "no"
+   },
+   "result": null,
+   "close_odds": -525
+  },
+  "401908032:KXMLBTOTAL-26OCT142000MILLAD-12:no": {
+   "id": "401908032:KXMLBTOTAL-26OCT142000MILLAD-12:no",
+   "sport": "mlb",
+   "game_id": "401908032",
+   "short": "MIL @ LAD",
+   "game": "Milwaukee Brewers at Los Angeles Dodgers",
+   "start": "2026-10-15T00:00Z",
+   "market": "total",
+   "side": "under",
+   "line": 11.5,
+   "selection": "Under 11.5",
+   "group": "Game lines",
+   "market_name": "Total",
+   "odds": -525,
+   "p": 0.8351,
+   "p_model": 0.8849,
+   "p_market": 0.8137,
+   "p_breakeven": 0.8399,
+   "edge": -0.0048,
+   "ev": -0.0057,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "MIL: 5.08 scored / 3.77 allowed per game this season; last 10: 4.4 / 2.6",
+    "LAD: 4.88 scored / 3.67 allowed per game this season; last 10: 3.2 / 2.5"
+   ],
+   "home": {
+    "name": "Los Angeles Dodgers",
+    "abbr": "LAD"
+   },
+   "away": {
+    "name": "Milwaukee Brewers",
+    "abbr": "MIL"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxmlbtotal/pro-baseball-total-points/kxmlbtotal-26oct142000millad",
+    "price": 83,
+    "ticker": "KXMLBTOTAL-26OCT142000MILLAD-12",
+    "contract": "No \u00b7 Over 11.5",
+    "buy": "no"
+   },
+   "result": null,
+   "close_odds": -525
+  },
+  "401841598:KXARGPREMDIVTOTAL-26OCT14CASRIV-4:no": {
+   "id": "401841598:KXARGPREMDIVTOTAL-26OCT14CASRIV-4:no",
+   "sport": "soccer_arg.1",
+   "game_id": "401841598",
+   "short": "RIV @ SARM",
+   "game": "River Plate at Sarmiento (Jun\u00edn)",
+   "start": "2026-10-14T22:00Z",
+   "market": "total",
+   "side": "under",
+   "line": 3.5,
+   "selection": "Under 3.5",
+   "group": "Game lines",
+   "market_name": "Total",
+   "odds": -381,
+   "p": 0.7882,
+   "p_model": 0.7851,
+   "p_market": 0.7723,
+   "p_breakeven": 0.792,
+   "edge": -0.0038,
+   "ev": -0.0048,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "RIV: 1.27 scored / 1.09 allowed per game this season; last 10: 1.4 / 1.1",
+    "SARM: 1.82 scored / 1.55 allowed per game this season; last 10: 1.8 / 1.4"
+   ],
+   "home": {
+    "name": "Sarmiento (Jun\u00edn)",
+    "abbr": "SARM"
+   },
+   "away": {
+    "name": "River Plate",
+    "abbr": "RIV"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxargpremdivtotal/argentina-premier-division-total/kxargpremdivtotal-26oct14casriv",
+    "price": 78,
+    "ticker": "KXARGPREMDIVTOTAL-26OCT14CASRIV-4",
+    "contract": "No \u00b7 Over 3.5",
+    "buy": "no"
+   },
+   "result": null,
+   "close_odds": -381
+  },
+  "761871:KXMLSTOTAL-26OCT14COLMIN-1:yes": {
+   "id": "761871:KXMLSTOTAL-26OCT14COLMIN-1:yes",
+   "sport": "soccer_usa.1",
+   "game_id": "761871",
+   "short": "MIN @ COL",
+   "game": "Minnesota United FC at Colorado Rapids",
+   "start": "2026-10-15T01:30Z",
+   "market": "total",
+   "side": "over",
+   "line": 0.5,
+   "selection": "Over 0.5",
+   "group": "Game lines",
+   "market_name": "Total",
+   "odds": -2042,
+   "p": 0.9509,
+   "p_model": 0.9455,
+   "p_market": 0.9406,
+   "p_breakeven": 0.9533,
+   "edge": -0.0024,
+   "ev": -0.0025,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "MIN: 1.85 scored / 2.23 allowed per game this season; last 10: 2.2 / 2.6",
+    "COL: 1.08 scored / 1.15 allowed per game this season; last 10: 1.2 / 1.4"
+   ],
+   "home": {
+    "name": "Colorado Rapids",
+    "abbr": "COL"
+   },
+   "away": {
+    "name": "Minnesota United FC",
+    "abbr": "MIN"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxmlstotal/mls-total/kxmlstotal-26oct14colmin",
+    "price": 95,
+    "ticker": "KXMLSTOTAL-26OCT14COLMIN-1",
+    "contract": "Yes \u00b7 Over 0.5",
+    "buy": "yes"
+   },
+   "result": null,
+   "close_odds": -2042
+  },
+  "761866:KXMLSTOTAL-26OCT14NSHSKC-6:no": {
+   "id": "761866:KXMLSTOTAL-26OCT14NSHSKC-6:no",
+   "sport": "soccer_usa.1",
+   "game_id": "761866",
+   "short": "SKC @ NSH",
+   "game": "Sporting Kansas City at Nashville SC",
+   "start": "2026-10-15T00:30Z",
+   "market": "total",
+   "side": "under",
+   "line": 5.5,
+   "selection": "Under 5.5",
+   "group": "Game lines",
+   "market_name": "Total",
+   "odds": -489,
+   "p": 0.8299,
+   "p_model": 0.8407,
+   "p_market": 0.8119,
+   "p_breakeven": 0.8303,
+   "edge": -0.0004,
+   "ev": -0.0005,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "SKC: 1.5 scored / 2.29 allowed per game this season; last 10: 1.7 / 2.2",
+    "NSH: 2.0 scored / 0.79 allowed per game this season; last 10: 2.4 / 0.8"
+   ],
+   "home": {
+    "name": "Nashville SC",
+    "abbr": "NSH"
+   },
+   "away": {
+    "name": "Sporting Kansas City",
+    "abbr": "SKC"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxmlstotal/mls-total/kxmlstotal-26oct14nshskc",
+    "price": 82,
+    "ticker": "KXMLSTOTAL-26OCT14NSHSKC-6",
+    "contract": "No \u00b7 Over 5.5",
+    "buy": "no"
+   },
+   "result": null,
+   "close_odds": -489
+  },
+  "761860:KXMLSTOTAL-26OCT14TORORL-6:no": {
+   "id": "761860:KXMLSTOTAL-26OCT14TORORL-6:no",
+   "sport": "soccer_usa.1",
+   "game_id": "761860",
+   "short": "ORL @ TOR",
+   "game": "Orlando City SC at Toronto FC",
+   "start": "2026-10-14T23:30Z",
+   "market": "total",
+   "side": "under",
+   "line": 5.5,
+   "selection": "Under 5.5",
+   "group": "Game lines",
+   "market_name": "Total",
+   "odds": -609,
+   "p": 0.8569,
+   "p_model": 0.8452,
+   "p_market": 0.8416,
+   "p_breakeven": 0.8589,
+   "edge": -0.002,
+   "ev": -0.0023,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "ORL: 2.15 scored / 1.69 allowed per game this season; last 10: 2.1 / 1.9",
+    "TOR: 1.36 scored / 1.64 allowed per game this season; last 10: 1.7 / 2.0"
+   ],
+   "home": {
+    "name": "Toronto FC",
+    "abbr": "TOR"
+   },
+   "away": {
+    "name": "Orlando City SC",
+    "abbr": "ORL"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxmlstotal/mls-total/kxmlstotal-26oct14tororl",
+    "price": 85,
+    "ticker": "KXMLSTOTAL-26OCT14TORORL-6",
+    "contract": "No \u00b7 Over 5.5",
+    "buy": "no"
+   },
+   "result": null,
+   "close_odds": -609
+  },
+  "401915409:KXUCLTOTAL-26OCT14AVLFEN-1:yes": {
+   "id": "401915409:KXUCLTOTAL-26OCT14AVLFEN-1:yes",
+   "sport": "soccer_uefa.champions",
+   "game_id": "401915409",
+   "short": "FEN @ AVL",
+   "game": "Fenerbahce at Aston Villa",
+   "start": "2026-10-14T19:00Z",
+   "market": "total",
+   "side": "over",
+   "line": 0.5,
+   "selection": "Over 0.5",
+   "group": "Game lines",
+   "market_name": "Total",
+   "odds": -2580,
+   "p": 0.9595,
+   "p_model": 0.9584,
+   "p_market": 0.9505,
+   "p_breakeven": 0.9627,
+   "edge": -0.0032,
+   "ev": -0.0033,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "FEN: 1.0 scored / 1.0 allowed per game this season; last 1: 1.0 / 1.0",
+    "AVL: 3.0 scored / 2.0 allowed per game this season; last 1: 3.0 / 2.0"
+   ],
+   "home": {
+    "name": "Aston Villa",
+    "abbr": "AVL"
+   },
+   "away": {
+    "name": "Fenerbahce",
+    "abbr": "FEN"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxucltotal/champions-league-total-goals/kxucltotal-26oct14avlfen",
+    "price": 96,
+    "ticker": "KXUCLTOTAL-26OCT14AVLFEN-1",
+    "contract": "Yes \u00b7 Over 0.5",
+    "buy": "yes"
+   },
+   "result": null,
+   "close_odds": -2580
+  },
+  "401915409:KXUCLTOTAL-26OCT14AVLFEN-2:yes": {
+   "id": "401915409:KXUCLTOTAL-26OCT14AVLFEN-2:yes",
+   "sport": "soccer_uefa.champions",
+   "game_id": "401915409",
+   "short": "FEN @ AVL",
+   "game": "Fenerbahce at Aston Villa",
+   "start": "2026-10-14T19:00Z",
+   "market": "total",
+   "side": "over",
+   "line": 1.5,
+   "selection": "Over 1.5",
+   "group": "Game lines",
+   "market_name": "Total",
+   "odds": -525,
+   "p": 0.8376,
+   "p_model": 0.8597,
+   "p_market": 0.8218,
+   "p_breakeven": 0.8399,
+   "edge": -0.0023,
+   "ev": -0.0027,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "FEN: 1.0 scored / 1.0 allowed per game this season; last 1: 1.0 / 1.0",
+    "AVL: 3.0 scored / 2.0 allowed per game this season; last 1: 3.0 / 2.0"
+   ],
+   "home": {
+    "name": "Aston Villa",
+    "abbr": "AVL"
+   },
+   "away": {
+    "name": "Fenerbahce",
+    "abbr": "FEN"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxucltotal/champions-league-total-goals/kxucltotal-26oct14avlfen",
+    "price": 83,
+    "ticker": "KXUCLTOTAL-26OCT14AVLFEN-2",
+    "contract": "Yes \u00b7 Over 1.5",
+    "buy": "yes"
+   },
+   "result": null,
+   "close_odds": -525
+  },
+  "401880222:KXEFLCHAMPIONSHIPTOTAL-26OCT14PORSHU-6:no": {
+   "id": "401880222:KXEFLCHAMPIONSHIPTOTAL-26OCT14PORSHU-6:no",
+   "sport": "soccer_eng.2",
+   "game_id": "401880222",
+   "short": "SHU @ POR",
+   "game": "Sheffield United at Portsmouth",
+   "start": "2026-10-14T18:45Z",
+   "market": "total",
+   "side": "under",
+   "line": 5.5,
+   "selection": "Under 5.5",
+   "group": "Game lines",
+   "market_name": "Total",
+   "odds": -2580,
+   "p": 0.9587,
+   "p_model": 0.9418,
+   "p_market": 0.9505,
+   "p_breakeven": 0.9627,
+   "edge": -0.004,
+   "ev": -0.0042,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "SHU: 1.33 scored / 1.22 allowed per game this season; last 9: 1.33 / 1.22",
+    "POR: 1.12 scored / 1.38 allowed per game this season; last 8: 1.12 / 1.38"
+   ],
+   "home": {
+    "name": "Portsmouth",
+    "abbr": "POR"
+   },
+   "away": {
+    "name": "Sheffield United",
+    "abbr": "SHU"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxeflchampionshiptotal/efl-championship-total/kxeflchampionshiptotal-26oct14porshu",
+    "price": 96,
+    "ticker": "KXEFLCHAMPIONSHIPTOTAL-26OCT14PORSHU-6",
+    "contract": "No \u00b7 Over 5.5",
+    "buy": "no"
+   },
+   "result": null,
+   "close_odds": -2580
+  },
+  "401880221:KXEFLCHAMPIONSHIPTOTAL-26OCT14QPRDER-6:no": {
+   "id": "401880221:KXEFLCHAMPIONSHIPTOTAL-26OCT14QPRDER-6:no",
+   "sport": "soccer_eng.2",
+   "game_id": "401880221",
+   "short": "DER @ QPR",
+   "game": "Derby County at Queens Park Rangers",
+   "start": "2026-10-14T18:45Z",
+   "market": "total",
+   "side": "under",
+   "line": 5.5,
+   "selection": "Under 5.5",
+   "group": "Game lines",
+   "market_name": "Total",
+   "odds": -2042,
+   "p": 0.9508,
+   "p_model": 0.9431,
+   "p_market": 0.9406,
+   "p_breakeven": 0.9533,
+   "edge": -0.0025,
+   "ev": -0.0026,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "DER: 0.89 scored / 1.67 allowed per game this season; last 9: 0.89 / 1.67",
+    "QPR: 1.22 scored / 0.89 allowed per game this season; last 9: 1.22 / 0.89"
+   ],
+   "home": {
+    "name": "Queens Park Rangers",
+    "abbr": "QPR"
+   },
+   "away": {
+    "name": "Derby County",
+    "abbr": "DER"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxeflchampionshiptotal/efl-championship-total/kxeflchampionshiptotal-26oct14qprder",
+    "price": 95,
+    "ticker": "KXEFLCHAMPIONSHIPTOTAL-26OCT14QPRDER-6",
+    "contract": "No \u00b7 Over 5.5",
+    "buy": "no"
+   },
+   "result": null,
+   "close_odds": -2042
+  },
+  "401915406:KXUCLTOTAL-26OCT14SHAAEK-6:no": {
+   "id": "401915406:KXUCLTOTAL-26OCT14SHAAEK-6:no",
+   "sport": "soccer_uefa.champions",
+   "game_id": "401915406",
+   "short": "AEK @ SHK",
+   "game": "AEK Athens at Shakhtar Donetsk",
+   "start": "2026-10-14T19:00Z",
+   "market": "total",
+   "side": "under",
+   "line": 5.5,
+   "selection": "Under 5.5",
+   "group": "Game lines",
+   "market_name": "Total",
+   "odds": -2042,
+   "p": 0.9501,
+   "p_model": 0.8826,
+   "p_market": 0.9406,
+   "p_breakeven": 0.9533,
+   "edge": -0.0032,
+   "ev": -0.0034,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "AEK: 1.0 scored / 0.0 allowed per game this season; last 1: 1.0 / 0.0",
+    "SHK: 1.0 scored / 1.0 allowed per game this season; last 1: 1.0 / 1.0"
+   ],
+   "home": {
+    "name": "Shakhtar Donetsk",
+    "abbr": "SHK"
+   },
+   "away": {
+    "name": "AEK Athens",
+    "abbr": "AEK"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxucltotal/champions-league-total-goals/kxucltotal-26oct14shaaek",
+    "price": 95,
+    "ticker": "KXUCLTOTAL-26OCT14SHAAEK-6",
+    "contract": "No \u00b7 Over 5.5",
+    "buy": "no"
+   },
+   "result": null,
+   "close_odds": -2042
+  },
+  "401915416:KXUCLTOTAL-26OCT14FEYCOM-2:yes": {
+   "id": "401915416:KXUCLTOTAL-26OCT14FEYCOM-2:yes",
+   "sport": "soccer_uefa.champions",
+   "game_id": "401915416",
+   "short": "COMO @ FEY",
+   "game": "Como at Feyenoord Rotterdam",
+   "start": "2026-10-14T16:45Z",
+   "market": "total",
+   "side": "over",
+   "line": 1.5,
+   "selection": "Over 1.5",
+   "group": "Game lines",
+   "market_name": "Total",
+   "odds": -609,
+   "p": 0.8571,
+   "p_model": 0.8754,
+   "p_market": 0.8416,
+   "p_breakeven": 0.8589,
+   "edge": -0.0018,
+   "ev": -0.0021,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "COMO: 4.0 scored / 1.0 allowed per game this season; last 1: 4.0 / 1.0",
+    "FEY: 1.0 scored / 5.0 allowed per game this season; last 1: 1.0 / 5.0"
+   ],
+   "home": {
+    "name": "Feyenoord Rotterdam",
+    "abbr": "FEY"
+   },
+   "away": {
+    "name": "Como",
+    "abbr": "COMO"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxucltotal/champions-league-total-goals/kxucltotal-26oct14feycom",
+    "price": 85,
+    "ticker": "KXUCLTOTAL-26OCT14FEYCOM-2",
+    "contract": "Yes \u00b7 Over 1.5",
+    "buy": "yes"
+   },
+   "result": null,
+   "close_odds": -609
+  },
+  "401880223:KXEFLCHAMPIONSHIPTOTAL-26OCT14NORSOU-2:yes": {
+   "id": "401880223:KXEFLCHAMPIONSHIPTOTAL-26OCT14NORSOU-2:yes",
+   "sport": "soccer_eng.2",
+   "game_id": "401880223",
+   "short": "SOU @ NOR",
+   "game": "Southampton at Norwich City",
+   "start": "2026-10-14T18:45Z",
+   "market": "total",
+   "side": "over",
+   "line": 1.5,
+   "selection": "Over 1.5",
+   "group": "Game lines",
+   "market_name": "Total",
+   "odds": -564,
+   "p": 0.8354,
+   "p_model": 0.7856,
+   "p_market": 0.8235,
+   "p_breakeven": 0.8494,
+   "edge": -0.014,
+   "ev": -0.0165,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "SOU: 2.22 scored / 1.11 allowed per game this season; last 9: 2.22 / 1.11",
+    "NOR: 1.89 scored / 2.11 allowed per game this season; last 9: 1.89 / 2.11",
+    "Line moved from +3.5 to +2.5 since opening (total)"
+   ],
+   "home": {
+    "name": "Norwich City",
+    "abbr": "NOR"
+   },
+   "away": {
+    "name": "Southampton",
+    "abbr": "SOU"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxeflchampionshiptotal/efl-championship-total/kxeflchampionshiptotal-26oct14norsou",
+    "price": 84,
+    "ticker": "KXEFLCHAMPIONSHIPTOTAL-26OCT14NORSOU-2",
+    "contract": "Yes \u00b7 Over 1.5",
+    "buy": "yes"
+   },
+   "result": null,
+   "close_odds": -564
+  },
+  "401915407:KXUCLTOTAL-26OCT14MCIPSG-6:no": {
+   "id": "401915407:KXUCLTOTAL-26OCT14MCIPSG-6:no",
+   "sport": "soccer_uefa.champions",
+   "game_id": "401915407",
+   "short": "PSG @ MNC",
+   "game": "Paris Saint-Germain at Manchester City",
+   "start": "2026-10-14T19:00Z",
+   "market": "total",
+   "side": "under",
+   "line": 5.5,
+   "selection": "Under 5.5",
+   "group": "Game lines",
+   "market_name": "Total",
+   "odds": -609,
+   "p": 0.8578,
+   "p_model": 0.8612,
+   "p_market": 0.8416,
+   "p_breakeven": 0.8589,
+   "edge": -0.0011,
+   "ev": -0.0013,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "PSG: 6.0 scored / 1.0 allowed per game this season; last 1: 6.0 / 1.0",
+    "MNC: 2.0 scored / 0.0 allowed per game this season; last 1: 2.0 / 0.0"
+   ],
+   "home": {
+    "name": "Manchester City",
+    "abbr": "MNC"
+   },
+   "away": {
+    "name": "Paris Saint-Germain",
+    "abbr": "PSG"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxucltotal/champions-league-total-goals/kxucltotal-26oct14mcipsg",
+    "price": 85,
+    "ticker": "KXUCLTOTAL-26OCT14MCIPSG-6",
+    "contract": "No \u00b7 Over 5.5",
+    "buy": "no"
+   },
+   "result": null,
+   "close_odds": -609
+  },
+  "761873:KXMLSTOTAL-26OCT14LAFCATX-1:yes": {
+   "id": "761873:KXMLSTOTAL-26OCT14LAFCATX-1:yes",
+   "sport": "soccer_usa.1",
+   "game_id": "761873",
+   "short": "ATX @ LAFC",
+   "game": "Austin FC at LAFC",
+   "start": "2026-10-15T02:30Z",
+   "market": "total",
+   "side": "over",
+   "line": 0.5,
+   "selection": "Over 0.5",
+   "group": "Game lines",
+   "market_name": "Total",
+   "odds": -2580,
+   "p": 0.9585,
+   "p_model": 0.9401,
+   "p_market": 0.9505,
+   "p_breakeven": 0.9627,
+   "edge": -0.0042,
+   "ev": -0.0044,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "ATX: 1.31 scored / 1.54 allowed per game this season; last 10: 1.4 / 1.5",
+    "LAFC: 1.43 scored / 1.0 allowed per game this season; last 10: 0.9 / 1.2",
+    "Line moved from +2.5 to +3.5 since opening (total)"
+   ],
+   "home": {
+    "name": "LAFC",
+    "abbr": "LAFC"
+   },
+   "away": {
+    "name": "Austin FC",
+    "abbr": "ATX"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxmlstotal/mls-total/kxmlstotal-26oct14lafcatx",
+    "price": 96,
+    "ticker": "KXMLSTOTAL-26OCT14LAFCATX-1",
+    "contract": "Yes \u00b7 Over 0.5",
+    "buy": "yes"
+   },
+   "result": null,
+   "close_odds": -2580
+  },
+  "401908032:KXMLBTOTAL-26OCT142000MILLAD-3:yes": {
+   "id": "401908032:KXMLBTOTAL-26OCT142000MILLAD-3:yes",
+   "sport": "mlb",
+   "game_id": "401908032",
+   "short": "MIL @ LAD",
+   "game": "Milwaukee Brewers at Los Angeles Dodgers",
+   "start": "2026-10-15T00:00Z",
+   "market": "total",
+   "side": "over",
+   "line": 2.5,
+   "selection": "Over 2.5",
+   "group": "Game lines",
+   "market_name": "Total",
+   "odds": -2042,
+   "p": 0.9524,
+   "p_model": 0.962,
+   "p_market": 0.9406,
+   "p_breakeven": 0.9533,
+   "edge": -0.0009,
+   "ev": -0.0009,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "MIL: 5.08 scored / 3.77 allowed per game this season; last 10: 4.4 / 2.6",
+    "LAD: 4.88 scored / 3.67 allowed per game this season; last 10: 3.2 / 2.5"
+   ],
+   "home": {
+    "name": "Los Angeles Dodgers",
+    "abbr": "LAD"
+   },
+   "away": {
+    "name": "Milwaukee Brewers",
+    "abbr": "MIL"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxmlbtotal/pro-baseball-total-points/kxmlbtotal-26oct142000millad",
+    "price": 95,
+    "ticker": "KXMLBTOTAL-26OCT142000MILLAD-3",
+    "contract": "Yes \u00b7 Over 2.5",
+    "buy": "yes"
+   },
+   "result": null,
+   "close_odds": -2042
+  }
+ },
+ "parlays": [
+  {
+   "legs": [
+    "401915407:KXUCLTOTAL-26OCT14MCIPSG-6:no",
+    "761860:KXMLSTOTAL-26OCT14TORORL-6:no"
+   ],
+   "n": 2,
+   "mode": "safest",
+   "p": 0.735,
+   "decimal": 1.355,
+   "american": -281,
+   "ev": -0.0037,
+   "tier": "lock",
+   "name": "lock_2",
+   "result": null
+  },
+  {
+   "legs": [
+    "761865:KXMLSTOTAL-26OCT14CLBCLT-6:no",
+    "401915416:KXUCLTOTAL-26OCT14FEYCOM-2:yes",
+    "401880223:KXEFLCHAMPIONSHIPTOTAL-26OCT14NORSOU-2:yes"
+   ],
+   "n": 3,
+   "mode": "safest",
+   "p": 0.6236,
+   "decimal": 1.578,
+   "american": -173,
+   "ev": -0.0158,
+   "tier": "lock",
+   "name": "lock_3",
+   "result": null
+  },
+  {
+   "legs": [
+    "761862:KXMLSTOTAL-26OCT14CINNE-6:no",
+    "401915409:KXUCLTOTAL-26OCT14AVLFEN-2:yes",
+    "401908032:KXMLBTOTAL-26OCT142000MILLAD-12:no",
+    "761866:KXMLSTOTAL-26OCT14NSHSKC-6:no"
+   ],
+   "n": 4,
+   "mode": "safest",
+   "p": 0.4869,
+   "decimal": 2.032,
+   "american": 103,
+   "ev": -0.0105,
+   "tier": "lock",
+   "name": "lock_4",
+   "result": null
+  }
+ ],
+ "straights": [],
+ "straights_best": [
+  "401915409:KXUCLTOTAL-26OCT14AVLFEN-1:yes",
+  "401880222:KXEFLCHAMPIONSHIPTOTAL-26OCT14PORSHU-6:no",
+  "761873:KXMLSTOTAL-26OCT14LAFCATX-1:yes",
+  "401841598:KXARGPREMDIVTOTAL-26OCT14CASRIV-4:no"
+ ],
+ "locks": [
+  "401908032:KXMLBTOTAL-26OCT142000MILLAD-3:yes",
+  "401915408:KXUCLTOTAL-26OCT14RBBFCP-1:yes",
+  "761871:KXMLSTOTAL-26OCT14COLMIN-1:yes",
+  "401880221:KXEFLCHAMPIONSHIPTOTAL-26OCT14QPRDER-6:no",
+  "401915406:KXUCLTOTAL-26OCT14SHAAEK-6:no"
+ ]
+}
