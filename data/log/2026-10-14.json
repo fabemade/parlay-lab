@@ -132,7 +132,7 @@
     "buy": "no"
    },
    "result": null,
-   "close_odds": -525
+   "close_odds": -564
   },
   "401908032:KXMLBTOTAL-26OCT142000MILLAD-12:no": {
    "id": "401908032:KXMLBTOTAL-26OCT142000MILLAD-12:no",
@@ -615,7 +615,7 @@
     "contract": "Yes \u00b7 Over 1.5",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -525
   },
   "401880223:KXEFLCHAMPIONSHIPTOTAL-26OCT14NORSOU-2:yes": {
@@ -794,7 +794,7 @@
     "buy": "yes"
    },
    "result": null,
-   "close_odds": -2042
+   "close_odds": -2580
   }
  },
  "parlays": [
