@@ -45,7 +45,7 @@
     "contract": "Yes \u00b7 Over 2.5",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -1428
   },
   "401880798:KXEFLL1TOTAL-26OCT15MATOXU-1:yes": {
@@ -223,7 +223,7 @@
     "contract": "No \u00b7 Over 5.5",
     "buy": "no"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -1684
   },
   "401915566:KXUELTOTAL-26OCT15OLCRY-1:yes": {
@@ -267,7 +267,7 @@
     "contract": "Yes \u00b7 Over 0.5",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -2580
   },
   "401860923:KXNCAAFGAME-26OCT15CSUTXST-TXST:yes": {
