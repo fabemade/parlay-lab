@@ -1,0 +1,48 @@
+name: Parlay Lab – ad-hoc board query
+
+# Manual only: builds the board for the chosen leagues without committing or deploying,
+# then prints bets of one market type, for answering one-off questions.
+on:
+  workflow_dispatch:
+    inputs:
+      sports:
+        description: "comma-separated league keys"
+        required: true
+      market:
+        description: "market type to print, e.g. btts"
+        required: true
+
+permissions:
+  contents: read
+
+jobs:
+  query:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+          cache-dependency-path: requirements.txt
+      - run: pip install -r requirements.txt
+      - run: python run.py --sports "${{ inputs.sports }}" --days 1
+      - name: Print bets
+        env:
+          MARKET: ${{ inputs.market }}
+        run: |
+          python - <<'PY'
+          import json, glob, os
+          m = os.environ["MARKET"]
+          legs = json.load(open("site/data/picks.json")).get("legs", [])
+          for f in glob.glob("site/data/games/*.json"):
+              legs += json.load(open(f))
+          seen = set()
+          for l in sorted(legs, key=lambda l: (l.get("start", ""), l.get("game", ""))):
+              if l.get("market") != m or l["id"] in seen:
+                  continue
+              seen.add(l["id"])
+              k = l.get("kalshi") or {}
+              print("ROW", l.get("start"), "|", l.get("game"), "|", l.get("selection"), "|",
+                    l.get("group"), "| p", l.get("p"), "| mkt", l.get("p_market"), "|", k.get("price"), "c", k.get("contract"))
+          PY
