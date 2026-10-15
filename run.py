@@ -135,6 +135,7 @@ def is_lock(l: dict) -> bool:
             and l["edge"] >= LOCK_MIN_EDGE and k.get("price", 100) <= LOCK_MAX_PRICE)
 
 
+LOCK_PARLAY_P = 0.90                   # lock parlay legs
 TOP_P, TOP_MIN_EDGE = 0.60, -0.02     # Top picks: likely (55-60% picks went 10-13, -5.8u), priced near fair or better
 TOP_STRAIGHTS, TOP_PER_SPORT = 10, 2
 
@@ -191,12 +192,14 @@ def pick_top(all_legs: list[dict], today: dt.date) -> tuple[dict, list[str], lis
     def mix(pool, n):   # one leg per sport when the slate allows
         k = len({l["sport"] for l in pool})
         return 1 if k >= n else 2
+    lock_legs = [l for l in lock_pool if l["p"] >= LOCK_PARLAY_P]
     kw = dict(mode="safest", min_odds=-5000, max_odds=300, pool=45)
     specs = [
         # name, tier, pool, legs, minimum payout, minimum hit chance
-        ("lock_2", "lock", lock_pool, 2, -300, 0.65),
-        ("lock_3", "lock", lock_pool, 3, -200, 0.55),
-        ("lock_4", "lock", lock_pool, 4, 100, 0.45),
+        # Lock parlays only from 90%+ legs: those went 87-0 through Oct 14, while 80-90% legs
+        # hit 86% (as predicted) and sank lock parlays a third of the time.
+        ("lock_2", "lock", lock_legs, 2, -700, 0.80),
+        ("lock_3", "lock", lock_legs, 3, -500, 0.75),
         # Top parlays from ~75-80% legs: three 66% legs hit only ~30% of the time, and those
         # parlays lost most days even though their legs hit as often as predicted.
         ("best_2", "best", top_pool, 2, -150, 0.55),
