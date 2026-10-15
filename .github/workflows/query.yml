@@ -34,7 +34,9 @@ jobs:
           python - <<'PY'
           import json, glob, os
           m = os.environ["MARKET"]
-          legs = json.load(open("site/data/picks.json")).get("legs", [])
+          board = json.load(open("site/data/picks.json"))
+          legs = board.get("legs", [])
+          games = {g["id"]: g for g in board.get("games", [])}
           for f in glob.glob("site/data/games/*.json"):
               legs += json.load(open(f))
           seen = set()
@@ -43,6 +45,8 @@ jobs:
                   continue
               seen.add(l["id"])
               k = l.get("kalshi") or {}
-              print("ROW", l.get("start"), "|", l.get("game"), "|", l.get("selection"), "|",
+              g = games.get(l.get("game_id"), {})
+              print("ROW", g.get("start") or g.get("date"), "|", g.get("game") or g.get("short") or l.get("game_id"), "|",
+                    k.get("ticker"), "|", l.get("selection"), "|",
                     l.get("group"), "| p", l.get("p"), "| mkt", l.get("p_market"), "|", k.get("price"), "c", k.get("contract"))
           PY
