@@ -4,9 +4,9 @@
    "T": 1.1,
    "games": 224,
    "k": 1.0,
-   "loss_after": 77.248,
-   "loss_before": 78.587,
-   "n": 4705
+   "loss_after": 77.026,
+   "loss_before": 78.356,
+   "n": 4817
   },
   "1st period": {
    "T": 1.0,
@@ -20,17 +20,17 @@
    "T": 1.04,
    "games": 62,
    "k": 1.0,
-   "loss_after": 20.85,
-   "loss_before": 21.048,
-   "n": 937
+   "loss_after": 20.757,
+   "loss_before": 20.956,
+   "n": 969
   },
   "2nd half": {
    "T": 1.01,
    "games": 63,
    "k": 1.0,
-   "loss_after": 26.479,
-   "loss_before": 26.489,
-   "n": 1461
+   "loss_after": 26.424,
+   "loss_before": 26.435,
+   "n": 1472
   },
   "2nd period": {
    "T": 0.98,
@@ -44,9 +44,9 @@
    "T": 1.02,
    "games": 60,
    "k": 1.0,
-   "loss_after": 23.991,
-   "loss_before": 24.041,
-   "n": 922
+   "loss_after": 24.025,
+   "loss_before": 24.073,
+   "n": 927
   },
   "3rd period": {
    "T": 1.0,
@@ -68,9 +68,9 @@
    "T": 1.02,
    "games": 60,
    "k": 1.0,
-   "loss_after": 26.626,
-   "loss_before": 26.668,
-   "n": 419
+   "loss_after": 26.953,
+   "loss_before": 26.987,
+   "n": 425
   },
   "First 5 innings": {
    "T": 1.0,
@@ -81,36 +81,36 @@
   },
   "Game lines": {
    "T": 1.06,
-   "games": 436,
+   "games": 441,
    "k": 1.0,
-   "loss_after": 157.01,
-   "loss_before": 157.661,
-   "n": 3055
+   "loss_after": 157.962,
+   "loss_before": 158.65,
+   "n": 3116
   },
   "Game specials": {
    "T": 0.96,
    "games": 123,
    "k": 0.95,
-   "loss_after": 54.39,
-   "loss_before": 54.569,
-   "n": 253
+   "loss_after": 54.367,
+   "loss_before": 54.548,
+   "n": 256
   },
   "Player props": {
    "T": 1.01,
    "games": 105,
    "k": 0.95,
-   "loss_after": 44.675,
-   "loss_before": 44.693,
-   "n": 9862
+   "loss_after": 44.792,
+   "loss_before": 44.81,
+   "n": 10123
   },
   "Team props": {
    "T": 1.09,
    "games": 232,
    "k": 1.0,
-   "loss_after": 81.462,
-   "loss_before": 82.647,
-   "n": 3559
+   "loss_after": 81.442,
+   "loss_before": 82.625,
+   "n": 3636
   }
  },
- "trained_at": "2026-10-15T20:01+00:00"
+ "trained_at": "2026-10-15T23:01+00:00"
 }
