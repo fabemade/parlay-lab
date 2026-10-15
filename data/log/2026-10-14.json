@@ -87,7 +87,7 @@
     "contract": "No \u00b7 Over 5.5",
     "buy": "no"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -564
   },
   "761862:KXMLSTOTAL-26OCT14CINNE-6:no": {
@@ -131,7 +131,7 @@
     "contract": "No \u00b7 Over 5.5",
     "buy": "no"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -564
   },
   "401908032:KXMLBTOTAL-26OCT142000MILLAD-12:no": {
@@ -175,7 +175,7 @@
     "contract": "No \u00b7 Over 11.5",
     "buy": "no"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -564
   },
   "401841598:KXARGPREMDIVTOTAL-26OCT14CASRIV-4:no": {
@@ -263,7 +263,7 @@
     "contract": "Yes \u00b7 Over 0.5",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -2042
   },
   "761866:KXMLSTOTAL-26OCT14NSHSKC-6:no": {
@@ -307,7 +307,7 @@
     "contract": "No \u00b7 Over 5.5",
     "buy": "no"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -564
   },
   "761860:KXMLSTOTAL-26OCT14TORORL-6:no": {
@@ -351,7 +351,7 @@
     "contract": "No \u00b7 Over 5.5",
     "buy": "no"
    },
-   "result": null,
+   "result": "L",
    "close_odds": -525
   },
   "401915409:KXUCLTOTAL-26OCT14AVLFEN-1:yes": {
@@ -749,7 +749,7 @@
     "contract": "Yes \u00b7 Over 0.5",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -2580
   },
   "401908032:KXMLBTOTAL-26OCT142000MILLAD-3:yes": {
@@ -793,7 +793,7 @@
     "contract": "Yes \u00b7 Over 2.5",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -2042
   }
  },
@@ -813,7 +813,8 @@
    "name": "lock_2",
    "result": "L",
    "missed": [
-    "401915407:KXUCLTOTAL-26OCT14MCIPSG-6:no"
+    "401915407:KXUCLTOTAL-26OCT14MCIPSG-6:no",
+    "761860:KXMLSTOTAL-26OCT14TORORL-6:no"
    ]
   },
   {
@@ -850,7 +851,8 @@
    "ev": -0.0105,
    "tier": "lock",
    "name": "lock_4",
-   "result": null
+   "result": "W",
+   "missed": []
   }
  ],
  "straights": [],
