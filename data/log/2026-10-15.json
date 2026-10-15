@@ -1,0 +1,771 @@
+{
+ "date": "2026-10-15",
+ "locked_at": "2026-10-15T10:58-04:00",
+ "legs": {
+  "401908025:KXMLBTOTAL-26OCT151800TBCLE-3:yes": {
+   "id": "401908025:KXMLBTOTAL-26OCT151800TBCLE-3:yes",
+   "sport": "mlb",
+   "game_id": "401908025",
+   "short": "TB @ CLE",
+   "game": "Tampa Bay Rays at Cleveland Guardians",
+   "start": "2026-10-15T17:00Z",
+   "market": "total",
+   "side": "over",
+   "line": 2.5,
+   "selection": "Over 2.5",
+   "group": "Game lines",
+   "market_name": "Total",
+   "odds": -1684,
+   "p": 0.9428,
+   "p_model": 0.9634,
+   "p_market": 0.9307,
+   "p_breakeven": 0.9439,
+   "edge": -0.0011,
+   "ev": -0.0012,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "TB: 4.5 scored / 3.97 allowed per game this season; last 10: 3.9 / 3.6",
+    "CLE: 4.2 scored / 4.07 allowed per game this season; last 10: 5.6 / 3.8",
+    "Line moved from +7 to +6.5 since opening (total)",
+    "\u26a0 The line has moved against this side since opening (a sharp-money signal), so the model defers more to the market"
+   ],
+   "home": {
+    "name": "Cleveland Guardians",
+    "abbr": "CLE"
+   },
+   "away": {
+    "name": "Tampa Bay Rays",
+    "abbr": "TB"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxmlbtotal/pro-baseball-total-points/kxmlbtotal-26oct151800tbcle",
+    "price": 94,
+    "ticker": "KXMLBTOTAL-26OCT151800TBCLE-3",
+    "contract": "Yes \u00b7 Over 2.5",
+    "buy": "yes"
+   },
+   "result": null,
+   "close_odds": -1684
+  },
+  "401880798:KXEFLL1TOTAL-26OCT15MATOXU-1:yes": {
+   "id": "401880798:KXEFLL1TOTAL-26OCT15MATOXU-1:yes",
+   "sport": "soccer_eng.3",
+   "game_id": "401880798",
+   "short": "OXF @ MNF",
+   "game": "Oxford United at Mansfield Town",
+   "start": "2026-10-15T19:00Z",
+   "market": "total",
+   "side": "over",
+   "line": 0.5,
+   "selection": "Over 0.5",
+   "group": "Game lines",
+   "market_name": "Total",
+   "odds": -2042,
+   "p": 0.9481,
+   "p_model": 0.9267,
+   "p_market": 0.9406,
+   "p_breakeven": 0.9533,
+   "edge": -0.0052,
+   "ev": -0.0055,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "OXF: 2.14 scored / 1.14 allowed per game this season; last 7: 2.14 / 1.14",
+    "MNF: 1.5 scored / 1.75 allowed per game this season; last 8: 1.5 / 1.75"
+   ],
+   "home": {
+    "name": "Mansfield Town",
+    "abbr": "MNF"
+   },
+   "away": {
+    "name": "Oxford United",
+    "abbr": "OXF"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxefll1total/point-total/kxefll1total-26oct15matoxu",
+    "price": 95,
+    "ticker": "KXEFLL1TOTAL-26OCT15MATOXU-1",
+    "contract": "Yes \u00b7 Over 0.5",
+    "buy": "yes"
+   },
+   "result": null,
+   "close_odds": -2042
+  },
+  "401880798:KXEFLL1TOTAL-26OCT15MATOXU-6:no": {
+   "id": "401880798:KXEFLL1TOTAL-26OCT15MATOXU-6:no",
+   "sport": "soccer_eng.3",
+   "game_id": "401880798",
+   "short": "OXF @ MNF",
+   "game": "Oxford United at Mansfield Town",
+   "start": "2026-10-15T19:00Z",
+   "market": "total",
+   "side": "under",
+   "line": 5.5,
+   "selection": "Under 5.5",
+   "group": "Game lines",
+   "market_name": "Total",
+   "odds": -1428,
+   "p": 0.932,
+   "p_model": 0.9325,
+   "p_market": 0.9208,
+   "p_breakeven": 0.9346,
+   "edge": -0.0026,
+   "ev": -0.0028,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "OXF: 2.14 scored / 1.14 allowed per game this season; last 7: 2.14 / 1.14",
+    "MNF: 1.5 scored / 1.75 allowed per game this season; last 8: 1.5 / 1.75"
+   ],
+   "home": {
+    "name": "Mansfield Town",
+    "abbr": "MNF"
+   },
+   "away": {
+    "name": "Oxford United",
+    "abbr": "OXF"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxefll1total/point-total/kxefll1total-26oct15matoxu",
+    "price": 93,
+    "ticker": "KXEFLL1TOTAL-26OCT15MATOXU-6",
+    "contract": "No \u00b7 Over 5.5",
+    "buy": "no"
+   },
+   "result": null,
+   "close_odds": -1428
+  },
+  "401872995:KXNFLTOTAL-26OCT15SEADEN-25:yes": {
+   "id": "401872995:KXNFLTOTAL-26OCT15SEADEN-25:yes",
+   "sport": "nfl",
+   "game_id": "401872995",
+   "short": "SEA @ DEN",
+   "game": "Seattle Seahawks at Denver Broncos",
+   "start": "2026-10-16T00:15Z",
+   "market": "total",
+   "side": "over",
+   "line": 24.5,
+   "selection": "Over 24.5",
+   "group": "Game lines",
+   "market_name": "Total",
+   "odds": -1236,
+   "p": 0.9236,
+   "p_model": 0.9321,
+   "p_market": 0.9109,
+   "p_breakeven": 0.9252,
+   "edge": -0.0016,
+   "ev": -0.0017,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "SEA: 26.8 scored / 21.0 allowed per game this season; last 5: 26.8 / 21.0",
+    "DEN: 19.4 scored / 22.2 allowed per game this season; last 5: 19.4 / 22.2",
+    "Line moved from +43.5 to +40.5 since opening (total)",
+    "\u26a0 The line has moved against this side since opening (a sharp-money signal), so the model defers more to the market"
+   ],
+   "home": {
+    "name": "Denver Broncos",
+    "abbr": "DEN"
+   },
+   "away": {
+    "name": "Seattle Seahawks",
+    "abbr": "SEA"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxnfltotal/pro-football-total-points/kxnfltotal-26oct15seaden",
+    "price": 92,
+    "ticker": "KXNFLTOTAL-26OCT15SEADEN-25",
+    "contract": "Yes \u00b7 Over 24.5",
+    "buy": "yes"
+   },
+   "result": null,
+   "close_odds": -1236
+  },
+  "401900904:KXSAUDIPLTOTAL-26OCT15HAZFAT-6:no": {
+   "id": "401900904:KXSAUDIPLTOTAL-26OCT15HAZFAT-6:no",
+   "sport": "soccer_ksa.1",
+   "game_id": "401900904",
+   "short": "FAT @ HAZ",
+   "game": "Al Fateh at Al Hazem",
+   "start": "2026-10-15T15:15Z",
+   "market": "total",
+   "side": "under",
+   "line": 5.5,
+   "selection": "Under 5.5",
+   "group": "Game lines",
+   "market_name": "Total",
+   "odds": -1684,
+   "p": 0.9415,
+   "p_model": 0.9459,
+   "p_market": 0.9307,
+   "p_breakeven": 0.9439,
+   "edge": -0.0024,
+   "ev": -0.0025,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "FAT: 0.5 scored / 1.88 allowed per game this season; last 8: 0.5 / 1.88",
+    "HAZ: 1.0 scored / 1.25 allowed per game this season; last 8: 1.0 / 1.25"
+   ],
+   "home": {
+    "name": "Al Hazem",
+    "abbr": "HAZ"
+   },
+   "away": {
+    "name": "Al Fateh",
+    "abbr": "FAT"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxsaudipltotal/saudi-pro-league-total/kxsaudipltotal-26oct15hazfat",
+    "price": 94,
+    "ticker": "KXSAUDIPLTOTAL-26OCT15HAZFAT-6",
+    "contract": "No \u00b7 Over 5.5",
+    "buy": "no"
+   },
+   "result": null,
+   "close_odds": -1684
+  },
+  "401915566:KXUELTOTAL-26OCT15OLCRY-1:yes": {
+   "id": "401915566:KXUELTOTAL-26OCT15OLCRY-1:yes",
+   "sport": "soccer_uefa.europa",
+   "game_id": "401915566",
+   "short": "CRY @ LYON",
+   "game": "Crystal Palace at Lyon",
+   "start": "2026-10-15T16:45Z",
+   "market": "total",
+   "side": "over",
+   "line": 0.5,
+   "selection": "Over 0.5",
+   "group": "Game lines",
+   "market_name": "Total",
+   "odds": -2580,
+   "p": 0.9579,
+   "p_model": 0.9222,
+   "p_market": 0.9505,
+   "p_breakeven": 0.9627,
+   "edge": -0.0048,
+   "ev": -0.005,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "CRY: 4.0 scored / 0.0 allowed per game this season; last 1: 4.0 / 0.0",
+    "LYON: 2.0 scored / 1.0 allowed per game this season; last 1: 2.0 / 1.0"
+   ],
+   "home": {
+    "name": "Lyon",
+    "abbr": "LYON"
+   },
+   "away": {
+    "name": "Crystal Palace",
+    "abbr": "CRY"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxueltotal/europa-league-total/kxueltotal-26oct15olcry",
+    "price": 96,
+    "ticker": "KXUELTOTAL-26OCT15OLCRY-1",
+    "contract": "Yes \u00b7 Over 0.5",
+    "buy": "yes"
+   },
+   "result": null,
+   "close_odds": -2580
+  },
+  "401860923:KXNCAAFGAME-26OCT15CSUTXST-TXST:yes": {
+   "id": "401860923:KXNCAAFGAME-26OCT15CSUTXST-TXST:yes",
+   "sport": "cfb",
+   "game_id": "401860923",
+   "short": "CSU @ TXST",
+   "game": "Colorado State Rams at Texas State Bobcats",
+   "start": "2026-10-16T00:00Z",
+   "market": "ml",
+   "side": "home",
+   "selection": "TXST to win",
+   "group": "Game lines",
+   "market_name": "Winner",
+   "odds": -564,
+   "p": 0.8433,
+   "p_model": 0.8008,
+   "p_market": 0.84,
+   "p_breakeven": 0.8494,
+   "edge": -0.0061,
+   "ev": -0.0072,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "TXST ranks #32 in offense and #135 in defense of 190 (schedule-adjusted, recent games weighted more)",
+    "Last 5: 2-3, scoring 34.8 and allowing 33.2 pts/game (season: 34.8 / 33.2)",
+    "At home: 46.0 scored / 25.33 allowed per game",
+    "Record 2-3",
+    "Price moved -425 \u2192 -625 since opening, money moving toward TXST"
+   ],
+   "home": {
+    "name": "Texas State Bobcats",
+    "abbr": "TXST"
+   },
+   "away": {
+    "name": "Colorado State Rams",
+    "abbr": "CSU"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxncaafgame/college-football-game/kxncaafgame-26oct15csutxst",
+    "price": 84,
+    "ticker": "KXNCAAFGAME-26OCT15CSUTXST-TXST",
+    "contract": "Yes \u00b7 Texas St.",
+    "buy": "yes"
+   },
+   "result": null,
+   "close_odds": -564
+  },
+  "401860923:KXNCAAFTOTAL-26OCT15CSUTXST-46:yes": {
+   "id": "401860923:KXNCAAFTOTAL-26OCT15CSUTXST-46:yes",
+   "sport": "cfb",
+   "game_id": "401860923",
+   "short": "CSU @ TXST",
+   "game": "Colorado State Rams at Texas State Bobcats",
+   "start": "2026-10-16T00:00Z",
+   "market": "total",
+   "side": "over",
+   "line": 45.5,
+   "selection": "Over 45.5",
+   "group": "Game lines",
+   "market_name": "Total",
+   "odds": -1428,
+   "p": 0.9291,
+   "p_model": 0.8974,
+   "p_market": 0.9208,
+   "p_breakeven": 0.9346,
+   "edge": -0.0055,
+   "ev": -0.0059,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "CSU: 37.4 scored / 38.6 allowed per game this season; last 5: 37.4 / 38.6",
+    "TXST: 34.8 scored / 33.2 allowed per game this season; last 5: 34.8 / 33.2",
+    "Line moved from +67.5 to +70.5 since opening (total)"
+   ],
+   "home": {
+    "name": "Texas State Bobcats",
+    "abbr": "TXST"
+   },
+   "away": {
+    "name": "Colorado State Rams",
+    "abbr": "CSU"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxncaaftotal/college-football-total-points/kxncaaftotal-26oct15csutxst",
+    "price": 93,
+    "ticker": "KXNCAAFTOTAL-26OCT15CSUTXST-46",
+    "contract": "Yes \u00b7 Over 45.5",
+    "buy": "yes"
+   },
+   "result": null,
+   "close_odds": -1428
+  },
+  "401862800:KXNCAAFTOTAL-26OCT15ECUUAB-75:no": {
+   "id": "401862800:KXNCAAFTOTAL-26OCT15ECUUAB-75:no",
+   "sport": "cfb",
+   "game_id": "401862800",
+   "short": "ECU @ UAB",
+   "game": "East Carolina Pirates at UAB Blazers",
+   "start": "2026-10-15T23:30Z",
+   "market": "total",
+   "side": "under",
+   "line": 74.5,
+   "selection": "Under 74.5",
+   "group": "Game lines",
+   "market_name": "Total",
+   "odds": -2580,
+   "p": 0.9566,
+   "p_model": 0.9232,
+   "p_market": 0.9505,
+   "p_breakeven": 0.9627,
+   "edge": -0.0061,
+   "ev": -0.0063,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "ECU: 24.8 scored / 22.6 allowed per game this season; last 5: 24.8 / 22.6",
+    "UAB: 22.17 scored / 25.83 allowed per game this season; last 6: 22.17 / 25.83",
+    "Line moved from +53.5 to +47.5 since opening (total)",
+    "\u26a0 The line has moved against this side since opening (a sharp-money signal), so the model defers more to the market"
+   ],
+   "home": {
+    "name": "UAB Blazers",
+    "abbr": "UAB"
+   },
+   "away": {
+    "name": "East Carolina Pirates",
+    "abbr": "ECU"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxncaaftotal/college-football-total-points/kxncaaftotal-26oct15ecuuab",
+    "price": 96,
+    "ticker": "KXNCAAFTOTAL-26OCT15ECUUAB-75",
+    "contract": "No \u00b7 Over 74.5",
+    "buy": "no"
+   },
+   "result": null,
+   "close_odds": -2580
+  },
+  "401872995:KXNFLTOTAL-26OCT15SEADEN-64:no": {
+   "id": "401872995:KXNFLTOTAL-26OCT15SEADEN-64:no",
+   "sport": "nfl",
+   "game_id": "401872995",
+   "short": "SEA @ DEN",
+   "game": "Seattle Seahawks at Denver Broncos",
+   "start": "2026-10-16T00:15Z",
+   "market": "total",
+   "side": "under",
+   "line": 63.5,
+   "selection": "Under 63.5",
+   "group": "Game lines",
+   "market_name": "Total",
+   "odds": -2042,
+   "p": 0.9475,
+   "p_model": 0.9156,
+   "p_market": 0.9406,
+   "p_breakeven": 0.9533,
+   "edge": -0.0058,
+   "ev": -0.0061,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "SEA: 26.8 scored / 21.0 allowed per game this season; last 5: 26.8 / 21.0",
+    "DEN: 19.4 scored / 22.2 allowed per game this season; last 5: 19.4 / 22.2",
+    "Line moved from +43.5 to +40.5 since opening (total)",
+    "\u26a0 The line has moved against this side since opening (a sharp-money signal), so the model defers more to the market"
+   ],
+   "home": {
+    "name": "Denver Broncos",
+    "abbr": "DEN"
+   },
+   "away": {
+    "name": "Seattle Seahawks",
+    "abbr": "SEA"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxnfltotal/pro-football-total-points/kxnfltotal-26oct15seaden",
+    "price": 95,
+    "ticker": "KXNFLTOTAL-26OCT15SEADEN-64",
+    "contract": "No \u00b7 Over 63.5",
+    "buy": "no"
+   },
+   "result": null,
+   "close_odds": -2042
+  },
+  "401915549:KXUELTOTAL-26OCT15DINRSC-1:yes": {
+   "id": "401915549:KXUELTOTAL-26OCT15DINRSC-1:yes",
+   "sport": "soccer_uefa.europa",
+   "game_id": "401915549",
+   "short": "AND @ DZG",
+   "game": "Anderlecht at Dinamo Zagreb",
+   "start": "2026-10-15T19:00Z",
+   "market": "total",
+   "side": "over",
+   "line": 0.5,
+   "selection": "Over 0.5",
+   "group": "Game lines",
+   "market_name": "Total",
+   "odds": -2042,
+   "p": 0.949,
+   "p_model": 0.9225,
+   "p_market": 0.9406,
+   "p_breakeven": 0.9533,
+   "edge": -0.0043,
+   "ev": -0.0045,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "AND: 1.0 scored / 2.0 allowed per game this season; last 1: 1.0 / 2.0",
+    "DZG: 0.0 scored / 0.0 allowed per game this season; last 1: 0.0 / 0.0"
+   ],
+   "home": {
+    "name": "Dinamo Zagreb",
+    "abbr": "DZG"
+   },
+   "away": {
+    "name": "Anderlecht",
+    "abbr": "AND"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxueltotal/europa-league-total/kxueltotal-26oct15dinrsc",
+    "price": 95,
+    "ticker": "KXUELTOTAL-26OCT15DINRSC-1",
+    "contract": "Yes \u00b7 Over 0.5",
+    "buy": "yes"
+   },
+   "result": null,
+   "close_odds": -2042
+  },
+  "401915561:KXUELGAME-26OCT15JAGARA-JAG:yes": {
+   "id": "401915561:KXUELGAME-26OCT15JAGARA-JAG:yes",
+   "sport": "soccer_uefa.europa",
+   "game_id": "401915561",
+   "short": "ARA @ JAG",
+   "game": "Ararat-Armenia at Jagiellonia Bialystok",
+   "start": "2026-10-15T19:00Z",
+   "market": "ml",
+   "side": "home",
+   "selection": "JAG to win",
+   "group": "Game lines",
+   "market_name": "Winner",
+   "odds": -239,
+   "p": 0.6884,
+   "p_model": 0.5646,
+   "p_market": 0.6832,
+   "p_breakeven": 0.705,
+   "edge": -0.0166,
+   "ev": -0.0235,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "Last 1: 0-1, scoring 1.0 and allowing 2.0 goals/game (season: 1.0 / 2.0)"
+   ],
+   "home": {
+    "name": "Jagiellonia Bialystok",
+    "abbr": "JAG"
+   },
+   "away": {
+    "name": "Ararat-Armenia",
+    "abbr": "ARA"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxuelgame/uefa-europa-league-game/kxuelgame-26oct15jagara",
+    "price": 69,
+    "ticker": "KXUELGAME-26OCT15JAGARA-JAG",
+    "contract": "Yes \u00b7 Jagiellonia",
+    "buy": "yes"
+   },
+   "result": null,
+   "close_odds": -239
+  },
+  "401841622:KXARGPREMDIVTOTAL-26OCT15HURGLP-3:no": {
+   "id": "401841622:KXARGPREMDIVTOTAL-26OCT15HURGLP-3:no",
+   "sport": "soccer_arg.1",
+   "game_id": "401841622",
+   "short": "GLP @ HUR",
+   "game": "Gimnasia La Plata at Hurac\u00e1n",
+   "start": "2026-10-15T23:00Z",
+   "market": "total",
+   "side": "under",
+   "line": 2.5,
+   "selection": "Under 2.5",
+   "group": "Game lines",
+   "market_name": "Total",
+   "odds": -191,
+   "p": 0.6424,
+   "p_model": 0.6444,
+   "p_market": 0.6337,
+   "p_breakeven": 0.6561,
+   "edge": -0.0137,
+   "ev": -0.0209,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "GLP: 1.42 scored / 1.42 allowed per game this season; last 10: 1.5 / 1.5",
+    "HUR: 0.92 scored / 0.83 allowed per game this season; last 10: 0.9 / 0.8",
+    "Line moved from +1.5 to +2.5 since opening (total)"
+   ],
+   "home": {
+    "name": "Hurac\u00e1n",
+    "abbr": "HUR"
+   },
+   "away": {
+    "name": "Gimnasia La Plata",
+    "abbr": "GLP"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxargpremdivtotal/argentina-premier-division-total/kxargpremdivtotal-26oct15hurglp",
+    "price": 64,
+    "ticker": "KXARGPREMDIVTOTAL-26OCT15HURGLP-3",
+    "contract": "No \u00b7 Over 2.5",
+    "buy": "no"
+   },
+   "result": null,
+   "close_odds": -191
+  },
+  "401908033:KXMLBTOTAL-26OCT152000MILLAD-3:yes": {
+   "id": "401908033:KXMLBTOTAL-26OCT152000MILLAD-3:yes",
+   "sport": "mlb",
+   "game_id": "401908033",
+   "short": "MIL @ LAD",
+   "game": "Milwaukee Brewers at Los Angeles Dodgers",
+   "start": "2026-10-16T00:00Z",
+   "market": "total",
+   "side": "over",
+   "line": 2.5,
+   "selection": "Over 2.5",
+   "group": "Game lines",
+   "market_name": "Total",
+   "odds": -2580,
+   "p": 0.9516,
+   "p_model": 0.9619,
+   "p_market": 0.9412,
+   "p_breakeven": 0.9627,
+   "edge": -0.0111,
+   "ev": -0.0115,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "MIL: 5.09 scored / 3.76 allowed per game this season; last 10: 4.5 / 2.7",
+    "LAD: 4.86 scored / 3.69 allowed per game this season; last 10: 3.2 / 2.7"
+   ],
+   "home": {
+    "name": "Los Angeles Dodgers",
+    "abbr": "LAD"
+   },
+   "away": {
+    "name": "Milwaukee Brewers",
+    "abbr": "MIL"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxmlbtotal/pro-baseball-total-points/kxmlbtotal-26oct152000millad",
+    "price": 96,
+    "ticker": "KXMLBTOTAL-26OCT152000MILLAD-3",
+    "contract": "Yes \u00b7 Over 2.5",
+    "buy": "yes"
+   },
+   "result": null,
+   "close_odds": -2580
+  },
+  "401915561:KXUELTOTAL-26OCT15JAGARA-6:no": {
+   "id": "401915561:KXUELTOTAL-26OCT15JAGARA-6:no",
+   "sport": "soccer_uefa.europa",
+   "game_id": "401915561",
+   "short": "ARA @ JAG",
+   "game": "Ararat-Armenia at Jagiellonia Bialystok",
+   "start": "2026-10-15T19:00Z",
+   "market": "total",
+   "side": "under",
+   "line": 5.5,
+   "selection": "Under 5.5",
+   "group": "Game lines",
+   "market_name": "Total",
+   "odds": -1236,
+   "p": 0.922,
+   "p_model": 0.9348,
+   "p_market": 0.9109,
+   "p_breakeven": 0.9252,
+   "edge": -0.0032,
+   "ev": -0.0035,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "ARA: 1.0 scored / 4.0 allowed per game this season; last 1: 1.0 / 4.0",
+    "JAG: 1.0 scored / 2.0 allowed per game this season; last 1: 1.0 / 2.0"
+   ],
+   "home": {
+    "name": "Jagiellonia Bialystok",
+    "abbr": "JAG"
+   },
+   "away": {
+    "name": "Ararat-Armenia",
+    "abbr": "ARA"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxueltotal/europa-league-total/kxueltotal-26oct15jagara",
+    "price": 92,
+    "ticker": "KXUELTOTAL-26OCT15JAGARA-6",
+    "contract": "No \u00b7 Over 5.5",
+    "buy": "no"
+   },
+   "result": null,
+   "close_odds": -1236
+  },
+  "401869950:KXNCAAFTOTAL-26OCT15GASOODU-70:no": {
+   "id": "401869950:KXNCAAFTOTAL-26OCT15GASOODU-70:no",
+   "sport": "cfb",
+   "game_id": "401869950",
+   "short": "GASO @ ODU",
+   "game": "Georgia Southern Eagles at Old Dominion Monarchs",
+   "start": "2026-10-15T23:30Z",
+   "market": "total",
+   "side": "under",
+   "line": 69.5,
+   "selection": "Under 69.5",
+   "group": "Game lines",
+   "market_name": "Total",
+   "odds": -1428,
+   "p": 0.9283,
+   "p_model": 0.8827,
+   "p_market": 0.9208,
+   "p_breakeven": 0.9346,
+   "edge": -0.0063,
+   "ev": -0.0067,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "GASO: 24.67 scored / 24.33 allowed per game this season; last 6: 24.67 / 24.33",
+    "ODU: 18.17 scored / 27.5 allowed per game this season; last 6: 18.17 / 27.5",
+    "Line moved from +49.5 to +46.5 since opening (total)",
+    "\u26a0 The line has moved against this side since opening (a sharp-money signal), so the model defers more to the market"
+   ],
+   "home": {
+    "name": "Old Dominion Monarchs",
+    "abbr": "ODU"
+   },
+   "away": {
+    "name": "Georgia Southern Eagles",
+    "abbr": "GASO"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxncaaftotal/college-football-total-points/kxncaaftotal-26oct15gasoodu",
+    "price": 93,
+    "ticker": "KXNCAAFTOTAL-26OCT15GASOODU-70",
+    "contract": "No \u00b7 Over 69.5",
+    "buy": "no"
+   },
+   "result": null,
+   "close_odds": -1428
+  }
+ },
+ "parlays": [
+  {
+   "legs": [
+    "401880798:KXEFLL1TOTAL-26OCT15MATOXU-6:no",
+    "401860923:KXNCAAFTOTAL-26OCT15CSUTXST-46:yes"
+   ],
+   "n": 2,
+   "mode": "safest",
+   "p": 0.8659,
+   "decimal": 1.145,
+   "american": -690,
+   "ev": -0.0086,
+   "tier": "lock",
+   "name": "lock_2",
+   "result": null
+  },
+  {
+   "legs": [
+    "401869950:KXNCAAFTOTAL-26OCT15GASOODU-70:no",
+    "401872995:KXNFLTOTAL-26OCT15SEADEN-25:yes",
+    "401915561:KXUELTOTAL-26OCT15JAGARA-6:no"
+   ],
+   "n": 3,
+   "mode": "safest",
+   "p": 0.7905,
+   "decimal": 1.25,
+   "american": -400,
+   "ev": -0.0117,
+   "tier": "lock",
+   "name": "lock_3",
+   "result": null
+  }
+ ],
+ "straights": [],
+ "straights_best": [
+  "401915561:KXUELGAME-26OCT15JAGARA-JAG:yes",
+  "401915566:KXUELTOTAL-26OCT15OLCRY-1:yes",
+  "401862800:KXNCAAFTOTAL-26OCT15ECUUAB-75:no",
+  "401908033:KXMLBTOTAL-26OCT152000MILLAD-3:yes",
+  "401841622:KXARGPREMDIVTOTAL-26OCT15HURGLP-3:no"
+ ],
+ "locks": [
+  "401860923:KXNCAAFGAME-26OCT15CSUTXST-TXST:yes",
+  "401915549:KXUELTOTAL-26OCT15DINRSC-1:yes",
+  "401880798:KXEFLL1TOTAL-26OCT15MATOXU-1:yes",
+  "401872995:KXNFLTOTAL-26OCT15SEADEN-64:no",
+  "401908025:KXMLBTOTAL-26OCT151800TBCLE-3:yes",
+  "401900904:KXSAUDIPLTOTAL-26OCT15HAZFAT-6:no"
+ ]
+}
