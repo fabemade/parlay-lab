@@ -46,7 +46,7 @@
     "buy": "yes"
    },
    "result": null,
-   "close_odds": -1684
+   "close_odds": -1428
   },
   "401880798:KXEFLL1TOTAL-26OCT15MATOXU-1:yes": {
    "id": "401880798:KXEFLL1TOTAL-26OCT15MATOXU-1:yes",
@@ -314,7 +314,7 @@
     "buy": "yes"
    },
    "result": null,
-   "close_odds": -564
+   "close_odds": -609
   },
   "401860923:KXNCAAFTOTAL-26OCT15CSUTXST-46:yes": {
    "id": "401860923:KXNCAAFTOTAL-26OCT15CSUTXST-46:yes",
@@ -359,7 +359,7 @@
     "buy": "yes"
    },
    "result": null,
-   "close_odds": -1428
+   "close_odds": -1684
   },
   "401862800:KXNCAAFTOTAL-26OCT15ECUUAB-75:no": {
    "id": "401862800:KXNCAAFTOTAL-26OCT15ECUUAB-75:no",
@@ -537,7 +537,7 @@
     "buy": "yes"
    },
    "result": null,
-   "close_odds": -239
+   "close_odds": -228
   },
   "401841622:KXARGPREMDIVTOTAL-26OCT15HURGLP-3:no": {
    "id": "401841622:KXARGPREMDIVTOTAL-26OCT15HURGLP-3:no",
@@ -582,7 +582,7 @@
     "buy": "no"
    },
    "result": null,
-   "close_odds": -191
+   "close_odds": -175
   },
   "401908033:KXMLBTOTAL-26OCT152000MILLAD-3:yes": {
    "id": "401908033:KXMLBTOTAL-26OCT152000MILLAD-3:yes",
@@ -670,7 +670,7 @@
     "buy": "no"
    },
    "result": null,
-   "close_odds": -1236
+   "close_odds": -1087
   },
   "401869950:KXNCAAFTOTAL-26OCT15GASOODU-70:no": {
    "id": "401869950:KXNCAAFTOTAL-26OCT15GASOODU-70:no",
