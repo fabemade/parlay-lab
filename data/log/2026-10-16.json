@@ -88,7 +88,7 @@
     "contract": "Yes \u00b7 Over 0.5",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -2580
   },
   "401880211:KXEFLCHAMPIONSHIPTOTAL-26OCT17WATCHA-4:no": {
@@ -401,7 +401,7 @@
     "buy": "yes"
    },
    "result": null,
-   "close_odds": -168
+   "close_odds": -161
   },
   "401841626:KXARGPREMDIVTOTAL-26OCT16DYJIACC-5:no": {
    "id": "401841626:KXARGPREMDIVTOTAL-26OCT16DYJIACC-5:no",
@@ -581,7 +581,7 @@
     "buy": "yes"
    },
    "result": null,
-   "close_odds": -1428
+   "close_odds": -1236
   },
   "401876946:KXLIGAMXTOTAL-26OCT16NCXATL-1:yes": {
    "id": "401876946:KXLIGAMXTOTAL-26OCT16NCXATL-1:yes",
@@ -757,7 +757,7 @@
     "buy": "no"
    },
    "result": null,
-   "close_odds": -2042
+   "close_odds": -1684
   }
  },
  "parlays": [
