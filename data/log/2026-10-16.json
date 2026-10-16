@@ -1,0 +1,826 @@
+{
+ "date": "2026-10-16",
+ "locked_at": "2026-10-16T12:12-04:00",
+ "legs": {
+  "401883158:KXLALIGA2TOTAL-26OCT16LEGCOR-6:no": {
+   "id": "401883158:KXLALIGA2TOTAL-26OCT16LEGCOR-6:no",
+   "sport": "soccer_esp.2",
+   "game_id": "401883158",
+   "short": "COR @ LEG",
+   "game": "C\u00f3rdoba at Legan\u00e9s",
+   "start": "2026-10-16T18:30Z",
+   "market": "total",
+   "side": "under",
+   "line": 5.5,
+   "selection": "Under 5.5",
+   "group": "Game lines",
+   "market_name": "Total",
+   "odds": -2042,
+   "p": 0.9497,
+   "p_model": 0.9465,
+   "p_market": 0.9406,
+   "p_breakeven": 0.9533,
+   "edge": -0.0036,
+   "ev": -0.0038,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "COR: 1.56 scored / 2.22 allowed per game this season; last 9: 1.56 / 2.22",
+    "LEG: 0.67 scored / 1.56 allowed per game this season; last 9: 0.67 / 1.56"
+   ],
+   "home": {
+    "name": "Legan\u00e9s",
+    "abbr": "LEG"
+   },
+   "away": {
+    "name": "C\u00f3rdoba",
+    "abbr": "COR"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxlaliga2total/point-total/kxlaliga2total-26oct16legcor",
+    "price": 95,
+    "ticker": "KXLALIGA2TOTAL-26OCT16LEGCOR-6",
+    "contract": "No \u00b7 Over 5.5",
+    "buy": "no"
+   },
+   "result": null,
+   "close_odds": -2042
+  },
+  "401888377:KXSUPERLIGTOTAL-26OCT16CORRIZ-1:yes": {
+   "id": "401888377:KXSUPERLIGTOTAL-26OCT16CORRIZ-1:yes",
+   "sport": "soccer_tur.1",
+   "game_id": "401888377",
+   "short": "CAY @ COR",
+   "game": "Caykur Rizespor at \u00c7orum FK",
+   "start": "2026-10-16T17:00Z",
+   "market": "total",
+   "side": "over",
+   "line": 0.5,
+   "selection": "Over 0.5",
+   "group": "Game lines",
+   "market_name": "Total",
+   "odds": -2580,
+   "p": 0.9584,
+   "p_model": 0.9523,
+   "p_market": 0.9505,
+   "p_breakeven": 0.9627,
+   "edge": -0.0043,
+   "ev": -0.0045,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "CAY: 1.0 scored / 1.29 allowed per game this season; last 7: 1.0 / 1.29",
+    "COR: 2.29 scored / 1.71 allowed per game this season; last 7: 2.29 / 1.71",
+    "Line moved from +2.5 to +3.5 since opening (total)"
+   ],
+   "home": {
+    "name": "\u00c7orum FK",
+    "abbr": "COR"
+   },
+   "away": {
+    "name": "Caykur Rizespor",
+    "abbr": "CAY"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxsuperligtotal/point-total/kxsuperligtotal-26oct16corriz",
+    "price": 96,
+    "ticker": "KXSUPERLIGTOTAL-26OCT16CORRIZ-1",
+    "contract": "Yes \u00b7 Over 0.5",
+    "buy": "yes"
+   },
+   "result": null,
+   "close_odds": -2580
+  },
+  "401880211:KXEFLCHAMPIONSHIPTOTAL-26OCT17WATCHA-4:no": {
+   "id": "401880211:KXEFLCHAMPIONSHIPTOTAL-26OCT17WATCHA-4:no",
+   "sport": "soccer_eng.2",
+   "game_id": "401880211",
+   "short": "CHA @ WAT",
+   "game": "Charlton Athletic at Watford",
+   "start": "2026-10-17T11:30Z",
+   "market": "total",
+   "side": "under",
+   "line": 3.5,
+   "selection": "Under 3.5",
+   "group": "Game lines",
+   "market_name": "Total",
+   "odds": -290,
+   "p": 0.7354,
+   "p_model": 0.7353,
+   "p_market": 0.7228,
+   "p_breakeven": 0.7438,
+   "edge": -0.0084,
+   "ev": -0.0113,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "CHA: 1.0 scored / 1.3 allowed per game this season; last 10: 1.0 / 1.3",
+    "WAT: 0.8 scored / 1.9 allowed per game this season; last 10: 0.8 / 1.9"
+   ],
+   "home": {
+    "name": "Watford",
+    "abbr": "WAT"
+   },
+   "away": {
+    "name": "Charlton Athletic",
+    "abbr": "CHA"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxeflchampionshiptotal/efl-championship-total/kxeflchampionshiptotal-26oct17watcha",
+    "price": 73,
+    "ticker": "KXEFLCHAMPIONSHIPTOTAL-26OCT17WATCHA-4",
+    "contract": "No \u00b7 Over 3.5",
+    "buy": "no"
+   },
+   "result": null,
+   "close_odds": -290
+  },
+  "401876437:KXLIGUE1TOTAL-26OCT16MANTFC-1:yes": {
+   "id": "401876437:KXLIGUE1TOTAL-26OCT16MANTFC-1:yes",
+   "sport": "soccer_fra.1",
+   "game_id": "401876437",
+   "short": "TOU @ MNS",
+   "game": "Toulouse at Le Mans",
+   "start": "2026-10-16T18:45Z",
+   "market": "total",
+   "side": "over",
+   "line": 0.5,
+   "selection": "Over 0.5",
+   "group": "Game lines",
+   "market_name": "Total",
+   "odds": -2580,
+   "p": 0.9572,
+   "p_model": 0.9363,
+   "p_market": 0.9505,
+   "p_breakeven": 0.9627,
+   "edge": -0.0055,
+   "ev": -0.0057,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "TOU: 1.5 scored / 1.83 allowed per game this season; last 6: 1.5 / 1.83",
+    "MNS: 1.67 scored / 2.0 allowed per game this season; last 6: 1.67 / 2.0"
+   ],
+   "home": {
+    "name": "Le Mans",
+    "abbr": "MNS"
+   },
+   "away": {
+    "name": "Toulouse",
+    "abbr": "TOU"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxligue1total/ligue-1-total/kxligue1total-26oct16mantfc",
+    "price": 96,
+    "ticker": "KXLIGUE1TOTAL-26OCT16MANTFC-1",
+    "contract": "Yes \u00b7 Over 0.5",
+    "buy": "yes"
+   },
+   "result": null,
+   "close_odds": -2580
+  },
+  "401876725:KXLIGUE2TOTAL-26OCT16EAGPAU-6:no": {
+   "id": "401876725:KXLIGUE2TOTAL-26OCT16EAGPAU-6:no",
+   "sport": "soccer_fra.2",
+   "game_id": "401876725",
+   "short": "PAU @ EAG",
+   "game": "Pau at Guingamp",
+   "start": "2026-10-16T18:00Z",
+   "market": "total",
+   "side": "under",
+   "line": 5.5,
+   "selection": "Under 5.5",
+   "group": "Game lines",
+   "market_name": "Total",
+   "odds": -2042,
+   "p": 0.9421,
+   "p_model": 0.9467,
+   "p_market": 0.9314,
+   "p_breakeven": 0.9533,
+   "edge": -0.0112,
+   "ev": -0.0117,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "PAU: 1.12 scored / 1.0 allowed per game this season; last 8: 1.12 / 1.0",
+    "EAG: 1.25 scored / 1.62 allowed per game this season; last 8: 1.25 / 1.62"
+   ],
+   "home": {
+    "name": "Guingamp",
+    "abbr": "EAG"
+   },
+   "away": {
+    "name": "Pau",
+    "abbr": "PAU"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxligue2total/point-total/kxligue2total-26oct16eagpau",
+    "price": 95,
+    "ticker": "KXLIGUE2TOTAL-26OCT16EAGPAU-6",
+    "contract": "No \u00b7 Over 5.5",
+    "buy": "no"
+   },
+   "result": null,
+   "close_odds": -2042
+  },
+  "401880211:KXEFLCHAMPIONSHIPTOTAL-26OCT17WATCHA-6:no": {
+   "id": "401880211:KXEFLCHAMPIONSHIPTOTAL-26OCT17WATCHA-6:no",
+   "sport": "soccer_eng.2",
+   "game_id": "401880211",
+   "short": "CHA @ WAT",
+   "game": "Charlton Athletic at Watford",
+   "start": "2026-10-17T11:30Z",
+   "market": "total",
+   "side": "under",
+   "line": 5.5,
+   "selection": "Under 5.5",
+   "group": "Game lines",
+   "market_name": "Total",
+   "odds": -2580,
+   "p": 0.9504,
+   "p_model": 0.9488,
+   "p_market": 0.9412,
+   "p_breakeven": 0.9627,
+   "edge": -0.0123,
+   "ev": -0.0128,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "CHA: 1.0 scored / 1.3 allowed per game this season; last 10: 1.0 / 1.3",
+    "WAT: 0.8 scored / 1.9 allowed per game this season; last 10: 0.8 / 1.9"
+   ],
+   "home": {
+    "name": "Watford",
+    "abbr": "WAT"
+   },
+   "away": {
+    "name": "Charlton Athletic",
+    "abbr": "CHA"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxeflchampionshiptotal/efl-championship-total/kxeflchampionshiptotal-26oct17watcha",
+    "price": 96,
+    "ticker": "KXEFLCHAMPIONSHIPTOTAL-26OCT17WATCHA-6",
+    "contract": "No \u00b7 Over 5.5",
+    "buy": "no"
+   },
+   "result": null,
+   "close_odds": -2580
+  },
+  "401869844:KXNCAAFTOTAL-26OCT16APPCCAR-73:no": {
+   "id": "401869844:KXNCAAFTOTAL-26OCT16APPCCAR-73:no",
+   "sport": "cfb",
+   "game_id": "401869844",
+   "short": "APP @ CCU",
+   "game": "App State Mountaineers at Coastal Carolina Chanticleers",
+   "start": "2026-10-17T00:00Z",
+   "market": "total",
+   "side": "under",
+   "line": 72.5,
+   "selection": "Under 72.5",
+   "group": "Game lines",
+   "market_name": "Total",
+   "odds": -1428,
+   "p": 0.9299,
+   "p_model": 0.9097,
+   "p_market": 0.9208,
+   "p_breakeven": 0.9346,
+   "edge": -0.0047,
+   "ev": -0.005,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "APP: 28.4 scored / 19.8 allowed per game this season; last 5: 28.4 / 19.8",
+    "CCU: 25.17 scored / 24.33 allowed per game this season; last 6: 25.17 / 24.33",
+    "Line moved from +51.5 to +48.5 since opening (total)",
+    "\u26a0 The line has moved against this side since opening (a sharp-money signal), so the model defers more to the market"
+   ],
+   "home": {
+    "name": "Coastal Carolina Chanticleers",
+    "abbr": "CCU"
+   },
+   "away": {
+    "name": "App State Mountaineers",
+    "abbr": "APP"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxncaaftotal/college-football-total-points/kxncaaftotal-26oct16appccar",
+    "price": 93,
+    "ticker": "KXNCAAFTOTAL-26OCT16APPCCAR-73",
+    "contract": "No \u00b7 Over 72.5",
+    "buy": "no"
+   },
+   "result": null,
+   "close_odds": -1428
+  },
+  "401876720:KXLIGUE2TOTAL-26OCT16SDRDIJ-6:no": {
+   "id": "401876720:KXLIGUE2TOTAL-26OCT16SDRDIJ-6:no",
+   "sport": "soccer_fra.2",
+   "game_id": "401876720",
+   "short": "DIJO @ REIM",
+   "game": "Dijon FCO at Stade de Reims",
+   "start": "2026-10-16T18:00Z",
+   "market": "total",
+   "side": "under",
+   "line": 5.5,
+   "selection": "Under 5.5",
+   "group": "Game lines",
+   "market_name": "Total",
+   "odds": -1428,
+   "p": 0.9252,
+   "p_model": 0.9424,
+   "p_market": 0.9118,
+   "p_breakeven": 0.9346,
+   "edge": -0.0094,
+   "ev": -0.0101,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "DIJO: 1.75 scored / 1.5 allowed per game this season; last 8: 1.75 / 1.5",
+    "REIM: 1.88 scored / 1.12 allowed per game this season; last 8: 1.88 / 1.12"
+   ],
+   "home": {
+    "name": "Stade de Reims",
+    "abbr": "REIM"
+   },
+   "away": {
+    "name": "Dijon FCO",
+    "abbr": "DIJO"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxligue2total/point-total/kxligue2total-26oct16sdrdij",
+    "price": 93,
+    "ticker": "KXLIGUE2TOTAL-26OCT16SDRDIJ-6",
+    "contract": "No \u00b7 Over 5.5",
+    "buy": "no"
+   },
+   "result": null,
+   "close_odds": -1428
+  },
+  "401858493:KXNCAAFGAME-26OCT16WASHPUR-PUR:yes": {
+   "id": "401858493:KXNCAAFGAME-26OCT16WASHPUR-PUR:yes",
+   "sport": "cfb",
+   "game_id": "401858493",
+   "short": "WASH @ PUR",
+   "game": "Washington Huskies at Purdue Boilermakers",
+   "start": "2026-10-17T00:00Z",
+   "market": "ml",
+   "side": "home",
+   "selection": "PUR to win",
+   "group": "Game lines",
+   "market_name": "Winner",
+   "odds": -168,
+   "p": 0.6112,
+   "p_model": 0.608,
+   "p_market": 0.604,
+   "p_breakeven": 0.6267,
+   "edge": -0.0155,
+   "ev": -0.0247,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "PUR ranks #67 in offense and #122 in defense of 190 (schedule-adjusted, recent games weighted more)",
+    "Last 6: 3-3, scoring 32.17 and allowing 31.33 pts/game (season: 32.17 / 31.33)",
+    "At home: 32.75 scored / 29.75 allowed per game",
+    "Record 3-3",
+    "Price moved -148 \u2192 -170 since opening, money moving toward PUR"
+   ],
+   "home": {
+    "name": "Purdue Boilermakers",
+    "abbr": "PUR"
+   },
+   "away": {
+    "name": "Washington Huskies",
+    "abbr": "WASH"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxncaafgame/college-football-game/kxncaafgame-26oct16washpur",
+    "price": 61,
+    "ticker": "KXNCAAFGAME-26OCT16WASHPUR-PUR",
+    "contract": "Yes \u00b7 Purdue",
+    "buy": "yes"
+   },
+   "result": null,
+   "close_odds": -168
+  },
+  "401841626:KXARGPREMDIVTOTAL-26OCT16DYJIACC-5:no": {
+   "id": "401841626:KXARGPREMDIVTOTAL-26OCT16DYJIACC-5:no",
+   "sport": "soccer_arg.1",
+   "game_id": "401841626",
+   "short": "IACC @ DYJ",
+   "game": "Instituto (C\u00f3rdoba) at Defensa y Justicia",
+   "start": "2026-10-16T22:00Z",
+   "market": "total",
+   "side": "under",
+   "line": 4.5,
+   "selection": "Under 4.5",
+   "group": "Game lines",
+   "market_name": "Total",
+   "odds": -1428,
+   "p": 0.9232,
+   "p_model": 0.9198,
+   "p_market": 0.9118,
+   "p_breakeven": 0.9346,
+   "edge": -0.0114,
+   "ev": -0.0122,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "IACC: 1.58 scored / 0.83 allowed per game this season; last 10: 1.7 / 0.8",
+    "DYJ: 1.5 scored / 0.92 allowed per game this season; last 10: 1.5 / 0.9"
+   ],
+   "home": {
+    "name": "Defensa y Justicia",
+    "abbr": "DYJ"
+   },
+   "away": {
+    "name": "Instituto (C\u00f3rdoba)",
+    "abbr": "IACC"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxargpremdivtotal/argentina-premier-division-total/kxargpremdivtotal-26oct16dyjiacc",
+    "price": 93,
+    "ticker": "KXARGPREMDIVTOTAL-26OCT16DYJIACC-5",
+    "contract": "No \u00b7 Over 4.5",
+    "buy": "no"
+   },
+   "result": null,
+   "close_odds": -1428
+  },
+  "401880797:KXEFLL1TOTAL-26OCT17MKDLUT-1:yes": {
+   "id": "401880797:KXEFLL1TOTAL-26OCT17MKDLUT-1:yes",
+   "sport": "soccer_eng.3",
+   "game_id": "401880797",
+   "short": "LTN @ MKD",
+   "game": "Luton Town at Milton Keynes Dons",
+   "start": "2026-10-17T11:30Z",
+   "market": "total",
+   "side": "over",
+   "line": 0.5,
+   "selection": "Over 0.5",
+   "group": "Game lines",
+   "market_name": "Total",
+   "odds": -2042,
+   "p": 0.9488,
+   "p_model": 0.9355,
+   "p_market": 0.9406,
+   "p_breakeven": 0.9533,
+   "edge": -0.0045,
+   "ev": -0.0047,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "LTN: 2.0 scored / 1.88 allowed per game this season; last 8: 2.0 / 1.88",
+    "MKD: 1.12 scored / 1.88 allowed per game this season; last 8: 1.12 / 1.88"
+   ],
+   "home": {
+    "name": "Milton Keynes Dons",
+    "abbr": "MKD"
+   },
+   "away": {
+    "name": "Luton Town",
+    "abbr": "LTN"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxefll1total/point-total/kxefll1total-26oct17mkdlut",
+    "price": 95,
+    "ticker": "KXEFLL1TOTAL-26OCT17MKDLUT-1",
+    "contract": "Yes \u00b7 Over 0.5",
+    "buy": "yes"
+   },
+   "result": null,
+   "close_odds": -2042
+  },
+  "401869844:KXNCAAFTOTAL-26OCT16APPCCAR-76:no": {
+   "id": "401869844:KXNCAAFTOTAL-26OCT16APPCCAR-76:no",
+   "sport": "cfb",
+   "game_id": "401869844",
+   "short": "APP @ CCU",
+   "game": "App State Mountaineers at Coastal Carolina Chanticleers",
+   "start": "2026-10-17T00:00Z",
+   "market": "total",
+   "side": "under",
+   "line": 75.5,
+   "selection": "Under 75.5",
+   "group": "Game lines",
+   "market_name": "Total",
+   "odds": -2580,
+   "p": 0.9494,
+   "p_model": 0.9371,
+   "p_market": 0.9412,
+   "p_breakeven": 0.9627,
+   "edge": -0.0133,
+   "ev": -0.0138,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "APP: 28.4 scored / 19.8 allowed per game this season; last 5: 28.4 / 19.8",
+    "CCU: 25.17 scored / 24.33 allowed per game this season; last 6: 25.17 / 24.33",
+    "Line moved from +51.5 to +48.5 since opening (total)",
+    "\u26a0 The line has moved against this side since opening (a sharp-money signal), so the model defers more to the market"
+   ],
+   "home": {
+    "name": "Coastal Carolina Chanticleers",
+    "abbr": "CCU"
+   },
+   "away": {
+    "name": "App State Mountaineers",
+    "abbr": "APP"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxncaaftotal/college-football-total-points/kxncaaftotal-26oct16appccar",
+    "price": 96,
+    "ticker": "KXNCAAFTOTAL-26OCT16APPCCAR-76",
+    "contract": "No \u00b7 Over 75.5",
+    "buy": "no"
+   },
+   "result": null,
+   "close_odds": -2580
+  },
+  "401908026:KXMLBTOTAL-26OCT161800TBCLE-3:yes": {
+   "id": "401908026:KXMLBTOTAL-26OCT161800TBCLE-3:yes",
+   "sport": "mlb",
+   "game_id": "401908026",
+   "short": "TB @ CLE",
+   "game": "Tampa Bay Rays at Cleveland Guardians",
+   "start": "2026-10-17T00:00Z",
+   "market": "total",
+   "side": "over",
+   "line": 2.5,
+   "selection": "Over 2.5",
+   "group": "Game lines",
+   "market_name": "Total",
+   "odds": -1428,
+   "p": 0.9341,
+   "p_model": 0.9627,
+   "p_market": 0.9208,
+   "p_breakeven": 0.9346,
+   "edge": -0.0005,
+   "ev": -0.0005,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "TB: 4.49 scored / 3.96 allowed per game this season; last 10: 3.9 / 3.0",
+    "CLE: 4.19 scored / 4.06 allowed per game this season; last 10: 4.7 / 3.1",
+    "Line moved from +7.5 to +6.5 since opening (total)",
+    "\u26a0 The line has moved against this side since opening (a sharp-money signal), so the model defers more to the market"
+   ],
+   "home": {
+    "name": "Cleveland Guardians",
+    "abbr": "CLE"
+   },
+   "away": {
+    "name": "Tampa Bay Rays",
+    "abbr": "TB"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxmlbtotal/pro-baseball-total-points/kxmlbtotal-26oct161800tbcle",
+    "price": 93,
+    "ticker": "KXMLBTOTAL-26OCT161800TBCLE-3",
+    "contract": "Yes \u00b7 Over 2.5",
+    "buy": "yes"
+   },
+   "result": null,
+   "close_odds": -1428
+  },
+  "401876946:KXLIGAMXTOTAL-26OCT16NCXATL-1:yes": {
+   "id": "401876946:KXLIGAMXTOTAL-26OCT16NCXATL-1:yes",
+   "sport": "soccer_mex.1",
+   "game_id": "401876946",
+   "short": "ATS @ NCX",
+   "game": "Atlas at Necaxa",
+   "start": "2026-10-17T01:00Z",
+   "market": "total",
+   "side": "over",
+   "line": 0.5,
+   "selection": "Over 0.5",
+   "group": "Game lines",
+   "market_name": "Total",
+   "odds": -2042,
+   "p": 0.9484,
+   "p_model": 0.9309,
+   "p_market": 0.9406,
+   "p_breakeven": 0.9533,
+   "edge": -0.0049,
+   "ev": -0.0051,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "ATS: 1.55 scored / 1.64 allowed per game this season; last 10: 1.4 / 1.6",
+    "NCX: 1.36 scored / 2.09 allowed per game this season; last 10: 1.3 / 2.2"
+   ],
+   "home": {
+    "name": "Necaxa",
+    "abbr": "NCX"
+   },
+   "away": {
+    "name": "Atlas",
+    "abbr": "ATS"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxligamxtotal/liga-mx-total/kxligamxtotal-26oct16ncxatl",
+    "price": 95,
+    "ticker": "KXLIGAMXTOTAL-26OCT16NCXATL-1",
+    "contract": "Yes \u00b7 Over 0.5",
+    "buy": "yes"
+   },
+   "result": null,
+   "close_odds": -2042
+  },
+  "401888271:KXSUPERLIGTOTAL-26OCT17ERZEYU-4:no": {
+   "id": "401888271:KXSUPERLIGTOTAL-26OCT17ERZEYU-4:no",
+   "sport": "soccer_tur.1",
+   "game_id": "401888271",
+   "short": "EYU @ ERZ",
+   "game": "Eyupspor at Erzurum BB",
+   "start": "2026-10-17T10:30Z",
+   "market": "total",
+   "side": "under",
+   "line": 3.5,
+   "selection": "Under 3.5",
+   "group": "Game lines",
+   "market_name": "Total",
+   "odds": -340,
+   "p": 0.7683,
+   "p_model": 0.7873,
+   "p_market": 0.7525,
+   "p_breakeven": 0.7728,
+   "edge": -0.0045,
+   "ev": -0.0058,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "EYU: 0.29 scored / 2.86 allowed per game this season; last 7: 0.29 / 2.86",
+    "ERZ: 0.43 scored / 1.57 allowed per game this season; last 7: 0.43 / 1.57"
+   ],
+   "home": {
+    "name": "Erzurum BB",
+    "abbr": "ERZ"
+   },
+   "away": {
+    "name": "Eyupspor",
+    "abbr": "EYU"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxsuperligtotal/point-total/kxsuperligtotal-26oct17erzeyu",
+    "price": 76,
+    "ticker": "KXSUPERLIGTOTAL-26OCT17ERZEYU-4",
+    "contract": "No \u00b7 Over 3.5",
+    "buy": "no"
+   },
+   "result": null,
+   "close_odds": -340
+  },
+  "401841275:KXBRASILEIROTOTAL-26OCT16MIRINT-1:yes": {
+   "id": "401841275:KXBRASILEIROTOTAL-26OCT16MIRINT-1:yes",
+   "sport": "soccer_bra.1",
+   "game_id": "401841275",
+   "short": "INT @ MIR",
+   "game": "Internacional at Mirassol",
+   "start": "2026-10-16T23:00Z",
+   "market": "total",
+   "side": "over",
+   "line": 0.5,
+   "selection": "Over 0.5",
+   "group": "Game lines",
+   "market_name": "Total",
+   "odds": -1428,
+   "p": 0.9302,
+   "p_model": 0.9131,
+   "p_market": 0.9208,
+   "p_breakeven": 0.9346,
+   "edge": -0.0044,
+   "ev": -0.0047,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "INT: 1.0 scored / 1.33 allowed per game this season; last 10: 1.1 / 1.2",
+    "MIR: 1.23 scored / 1.54 allowed per game this season; last 10: 1.1 / 1.7"
+   ],
+   "home": {
+    "name": "Mirassol",
+    "abbr": "MIR"
+   },
+   "away": {
+    "name": "Internacional",
+    "abbr": "INT"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxbrasileirototal/brasileiro-total/kxbrasileirototal-26oct16mirint",
+    "price": 93,
+    "ticker": "KXBRASILEIROTOTAL-26OCT16MIRINT-1",
+    "contract": "Yes \u00b7 Over 0.5",
+    "buy": "yes"
+   },
+   "result": null,
+   "close_odds": -1428
+  },
+  "401841275:KXBRASILEIROTOTAL-26OCT16MIRINT-6:no": {
+   "id": "401841275:KXBRASILEIROTOTAL-26OCT16MIRINT-6:no",
+   "sport": "soccer_bra.1",
+   "game_id": "401841275",
+   "short": "INT @ MIR",
+   "game": "Internacional at Mirassol",
+   "start": "2026-10-16T23:00Z",
+   "market": "total",
+   "side": "under",
+   "line": 5.5,
+   "selection": "Under 5.5",
+   "group": "Game lines",
+   "market_name": "Total",
+   "odds": -2042,
+   "p": 0.95,
+   "p_model": 0.9486,
+   "p_market": 0.9406,
+   "p_breakeven": 0.9533,
+   "edge": -0.0033,
+   "ev": -0.0035,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "INT: 1.0 scored / 1.33 allowed per game this season; last 10: 1.1 / 1.2",
+    "MIR: 1.23 scored / 1.54 allowed per game this season; last 10: 1.1 / 1.7"
+   ],
+   "home": {
+    "name": "Mirassol",
+    "abbr": "MIR"
+   },
+   "away": {
+    "name": "Internacional",
+    "abbr": "INT"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxbrasileirototal/brasileiro-total/kxbrasileirototal-26oct16mirint",
+    "price": 95,
+    "ticker": "KXBRASILEIROTOTAL-26OCT16MIRINT-6",
+    "contract": "No \u00b7 Over 5.5",
+    "buy": "no"
+   },
+   "result": null,
+   "close_odds": -2042
+  }
+ },
+ "parlays": [
+  {
+   "legs": [
+    "401908026:KXMLBTOTAL-26OCT161800TBCLE-3:yes",
+    "401841275:KXBRASILEIROTOTAL-26OCT16MIRINT-1:yes"
+   ],
+   "n": 2,
+   "mode": "safest",
+   "p": 0.8689,
+   "decimal": 1.145,
+   "american": -690,
+   "ev": -0.0051,
+   "tier": "lock",
+   "name": "lock_2",
+   "result": null
+  },
+  {
+   "legs": [
+    "401869844:KXNCAAFTOTAL-26OCT16APPCCAR-73:no",
+    "401876720:KXLIGUE2TOTAL-26OCT16SDRDIJ-6:no",
+    "401841626:KXARGPREMDIVTOTAL-26OCT16DYJIACC-5:no"
+   ],
+   "n": 3,
+   "mode": "safest",
+   "p": 0.7943,
+   "decimal": 1.225,
+   "american": -444,
+   "ev": -0.0269,
+   "tier": "lock",
+   "name": "lock_3",
+   "result": null
+  },
+  {
+   "legs": [
+    "401888271:KXSUPERLIGTOTAL-26OCT17ERZEYU-4:no",
+    "401880211:KXEFLCHAMPIONSHIPTOTAL-26OCT17WATCHA-4:no"
+   ],
+   "n": 2,
+   "mode": "safest",
+   "p": 0.565,
+   "decimal": 1.74,
+   "american": -135,
+   "ev": -0.0167,
+   "tier": "best",
+   "name": "best_2",
+   "result": null
+  }
+ ],
+ "straights": [],
+ "straights_best": [
+  "401858493:KXNCAAFGAME-26OCT16WASHPUR-PUR:yes",
+  "401888377:KXSUPERLIGTOTAL-26OCT16CORRIZ-1:yes",
+  "401876437:KXLIGUE1TOTAL-26OCT16MANTFC-1:yes",
+  "401880211:KXEFLCHAMPIONSHIPTOTAL-26OCT17WATCHA-6:no",
+  "401869844:KXNCAAFTOTAL-26OCT16APPCCAR-76:no"
+ ],
+ "locks": [
+  "401841275:KXBRASILEIROTOTAL-26OCT16MIRINT-6:no",
+  "401883158:KXLALIGA2TOTAL-26OCT16LEGCOR-6:no",
+  "401880797:KXEFLL1TOTAL-26OCT17MKDLUT-1:yes",
+  "401876946:KXLIGAMXTOTAL-26OCT16NCXATL-1:yes",
+  "401876725:KXLIGUE2TOTAL-26OCT16EAGPAU-6:no"
+ ]
+}
