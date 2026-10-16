@@ -43,7 +43,7 @@
     "contract": "No \u00b7 Over 5.5",
     "buy": "no"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -2042
   },
   "401888377:KXSUPERLIGTOTAL-26OCT16CORRIZ-1:yes": {
@@ -176,7 +176,7 @@
     "contract": "Yes \u00b7 Over 0.5",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -2580
   },
   "401876725:KXLIGUE2TOTAL-26OCT16EAGPAU-6:no": {
@@ -220,7 +220,7 @@
     "contract": "No \u00b7 Over 5.5",
     "buy": "no"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -2042
   },
   "401880211:KXEFLCHAMPIONSHIPTOTAL-26OCT17WATCHA-6:no": {
@@ -354,7 +354,7 @@
     "contract": "No \u00b7 Over 5.5",
     "buy": "no"
    },
-   "result": null,
+   "result": "L",
    "close_odds": -1428
   },
   "401858493:KXNCAAFGAME-26OCT16WASHPUR-PUR:yes": {
@@ -669,7 +669,7 @@
     "buy": "no"
    },
    "result": null,
-   "close_odds": -340
+   "close_odds": -360
   },
   "401841275:KXBRASILEIROTOTAL-26OCT16MIRINT-1:yes": {
    "id": "401841275:KXBRASILEIROTOTAL-26OCT16MIRINT-1:yes",
@@ -713,7 +713,7 @@
     "buy": "yes"
    },
    "result": null,
-   "close_odds": -1428
+   "close_odds": -1684
   },
   "401841275:KXBRASILEIROTOTAL-26OCT16MIRINT-6:no": {
    "id": "401841275:KXBRASILEIROTOTAL-26OCT16MIRINT-6:no",
@@ -790,7 +790,10 @@
    "ev": -0.0269,
    "tier": "lock",
    "name": "lock_3",
-   "result": null
+   "result": "L",
+   "missed": [
+    "401876720:KXLIGUE2TOTAL-26OCT16SDRDIJ-6:no"
+   ]
   },
   {
    "legs": [
