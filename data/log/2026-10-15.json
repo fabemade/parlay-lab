@@ -179,7 +179,7 @@
     "contract": "Yes \u00b7 Over 24.5",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -1236
   },
   "401900904:KXSAUDIPLTOTAL-26OCT15HAZFAT-6:no": {
@@ -313,7 +313,7 @@
     "contract": "Yes \u00b7 Texas St.",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -609
   },
   "401860923:KXNCAAFTOTAL-26OCT15CSUTXST-46:yes": {
@@ -358,7 +358,7 @@
     "contract": "Yes \u00b7 Over 45.5",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -1684
   },
   "401862800:KXNCAAFTOTAL-26OCT15ECUUAB-75:no": {
@@ -404,7 +404,7 @@
     "contract": "No \u00b7 Over 74.5",
     "buy": "no"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -2042
   },
   "401872995:KXNFLTOTAL-26OCT15SEADEN-64:no": {
@@ -450,7 +450,7 @@
     "contract": "No \u00b7 Over 63.5",
     "buy": "no"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -2042
   },
   "401915549:KXUELTOTAL-26OCT15DINRSC-1:yes": {
@@ -625,7 +625,7 @@
     "contract": "Yes \u00b7 Over 2.5",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -2580
   },
   "401915561:KXUELTOTAL-26OCT15JAGARA-6:no": {
@@ -715,7 +715,7 @@
     "contract": "No \u00b7 Over 69.5",
     "buy": "no"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -1428
   }
  },
@@ -733,7 +733,8 @@
    "ev": -0.0086,
    "tier": "lock",
    "name": "lock_2",
-   "result": null
+   "result": "W",
+   "missed": []
   },
   {
    "legs": [
@@ -749,7 +750,8 @@
    "ev": -0.0117,
    "tier": "lock",
    "name": "lock_3",
-   "result": null
+   "result": "W",
+   "missed": []
   }
  ],
  "straights": [],
