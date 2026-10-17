@@ -132,7 +132,7 @@
     "contract": "No \u00b7 Over 3.5",
     "buy": "no"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -290
   },
   "401876437:KXLIGUE1TOTAL-26OCT16MANTFC-1:yes": {
@@ -264,7 +264,7 @@
     "contract": "No \u00b7 Over 5.5",
     "buy": "no"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -2580
   },
   "401869844:KXNCAAFTOTAL-26OCT16APPCCAR-73:no": {
@@ -488,7 +488,7 @@
     "contract": "Yes \u00b7 Over 0.5",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -2042
   },
   "401869844:KXNCAAFTOTAL-26OCT16APPCCAR-76:no": {
@@ -668,7 +668,7 @@
     "contract": "No \u00b7 Over 3.5",
     "buy": "no"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -360
   },
   "401841275:KXBRASILEIROTOTAL-26OCT16MIRINT-1:yes": {
@@ -808,7 +808,8 @@
    "ev": -0.0167,
    "tier": "best",
    "name": "best_2",
-   "result": null
+   "result": "W",
+   "missed": []
   }
  ],
  "straights": [],
