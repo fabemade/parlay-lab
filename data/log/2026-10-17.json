@@ -87,7 +87,7 @@
     "contract": "No \u00b7 Over 5.5",
     "buy": "no"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -1428
   },
   "401862806:KXNCAAFGAME-26OCT16KENTUSF-USF:yes": {
@@ -310,7 +310,7 @@
     "contract": "Yes \u00b7 Roma",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -168
   },
   "401864520:KXNCAAFSPREAD-26OCT17NEVNDSU-NDSU2:yes": {
@@ -402,7 +402,7 @@
     "contract": "Yes \u00b7 Temple",
     "buy": "yes"
    },
-   "result": null,
+   "result": "L",
    "close_odds": -1236
   },
   "761877:KXMLSTOTAL-26OCT17NYCLAFC-6:no": {
@@ -490,7 +490,7 @@
     "contract": "Yes \u00b7 Over 0.5",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -2580
   },
   "401892520:KXNHLGAME-26OCT17CARWPG-CAR:yes": {
@@ -537,7 +537,7 @@
     "contract": "Yes \u00b7 Carolina",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -199
   },
   "401858263:KXNCAAFGAME-26OCT17FSUMIA-MIA:yes": {
@@ -720,7 +720,7 @@
     "contract": "Yes \u00b7 Over 0.5",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -2042
   },
   "401885088:KXBUNDESLIGA2TOTAL-26OCT18SGDFCM-1:yes": {
@@ -987,7 +987,7 @@
     "contract": "No \u00b7 Over 3.5",
     "buy": "no"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -360
   },
   "401876943:KXLIGAMXTOTAL-26OCT17CDGTIG-6:no": {
