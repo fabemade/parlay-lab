@@ -221,7 +221,7 @@
     "contract": "No \u00b7 Over 5.5",
     "buy": "no"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -1236
   },
   "401841273:KXBRASILEIROTOTAL-26OCT17SPAVDG-4:no": {
@@ -585,7 +585,7 @@
     "buy": "yes"
    },
    "result": null,
-   "close_odds": -1428
+   "close_odds": -1236
   },
   "401879258:KXEPLTOTAL-26OCT17NEWAVL-1:yes": {
    "id": "401879258:KXEPLTOTAL-26OCT17NEWAVL-1:yes",
@@ -629,7 +629,7 @@
     "contract": "Yes \u00b7 Over 0.5",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -2580
   },
   "401856828:KXNCAAFGAME-26OCT16ASUTTU-TTU:yes": {
@@ -811,7 +811,7 @@
     "contract": "Yes \u00b7 James Madison",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -340
   },
   "401883155:KXLALIGA2TOTAL-26OCT17GIJALB-6:no": {
@@ -855,7 +855,7 @@
     "contract": "No \u00b7 Over 5.5",
     "buy": "no"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -2580
   },
   "401876941:KXLIGAMXTOTAL-26OCT17LEOAME-1:yes": {
@@ -944,7 +944,7 @@
     "buy": "no"
    },
    "result": null,
-   "close_odds": -2042
+   "close_odds": -1684
   },
   "401882838:KXLALIGATOTAL-26OCT17VCFATH-4:no": {
    "id": "401882838:KXLALIGATOTAL-26OCT17VCFATH-4:no",
@@ -1076,7 +1076,7 @@
     "contract": "Yes \u00b7 Inter",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -183
   },
   "401892532:KXNHLGAME-26OCT17PITVGK-VGK:yes": {
