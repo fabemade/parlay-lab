@@ -43,7 +43,7 @@
     "contract": "No \u00b7 Over 5.5",
     "buy": "no"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -1428
   },
   "401876431:KXLIGUE1TOTAL-26OCT17ESTRCL-6:no": {
@@ -88,7 +88,7 @@
     "buy": "no"
    },
    "result": null,
-   "close_odds": -1236
+   "close_odds": -1428
   },
   "401862806:KXNCAAFGAME-26OCT16KENTUSF-USF:yes": {
    "id": "401862806:KXNCAAFGAME-26OCT16KENTUSF-USF:yes",
@@ -311,7 +311,7 @@
     "buy": "yes"
    },
    "result": null,
-   "close_odds": -175
+   "close_odds": -168
   },
   "401864520:KXNCAAFSPREAD-26OCT17NEVNDSU-NDSU2:yes": {
    "id": "401864520:KXNCAAFSPREAD-26OCT17NEVNDSU-NDSU2:yes",
@@ -538,7 +538,7 @@
     "buy": "yes"
    },
    "result": null,
-   "close_odds": -208
+   "close_odds": -199
   },
   "401858263:KXNCAAFGAME-26OCT17FSUMIA-MIA:yes": {
    "id": "401858263:KXNCAAFGAME-26OCT17FSUMIA-MIA:yes",
@@ -677,7 +677,7 @@
     "buy": "yes"
    },
    "result": null,
-   "close_odds": -660
+   "close_odds": -719
   },
   "401876431:KXLIGUE1TOTAL-26OCT17ESTRCL-1:yes": {
    "id": "401876431:KXLIGUE1TOTAL-26OCT17ESTRCL-1:yes",
@@ -988,7 +988,7 @@
     "buy": "no"
    },
    "result": null,
-   "close_odds": -340
+   "close_odds": -360
   },
   "401876943:KXLIGAMXTOTAL-26OCT17CDGTIG-6:no": {
    "id": "401876943:KXLIGAMXTOTAL-26OCT17CDGTIG-6:no",
