@@ -444,7 +444,7 @@
     "contract": "No \u00b7 Over 4.5",
     "buy": "no"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -1428
   },
   "401880797:KXEFLL1TOTAL-26OCT17MKDLUT-1:yes": {
@@ -712,7 +712,7 @@
     "contract": "Yes \u00b7 Over 0.5",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -1684
   },
   "401841275:KXBRASILEIROTOTAL-26OCT16MIRINT-6:no": {
@@ -756,7 +756,7 @@
     "contract": "No \u00b7 Over 5.5",
     "buy": "no"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -1684
   }
  },
