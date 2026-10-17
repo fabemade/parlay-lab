@@ -310,7 +310,7 @@
     "contract": "No \u00b7 Over 72.5",
     "buy": "no"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -1428
   },
   "401876720:KXLIGUE2TOTAL-26OCT16SDRDIJ-6:no": {
@@ -400,7 +400,7 @@
     "contract": "Yes \u00b7 Purdue",
     "buy": "yes"
    },
-   "result": null,
+   "result": "L",
    "close_odds": -161
   },
   "401841626:KXARGPREMDIVTOTAL-26OCT16DYJIACC-5:no": {
@@ -534,7 +534,7 @@
     "contract": "No \u00b7 Over 75.5",
     "buy": "no"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -2580
   },
   "401908026:KXMLBTOTAL-26OCT161800TBCLE-3:yes": {
@@ -624,7 +624,7 @@
     "contract": "Yes \u00b7 Over 0.5",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -2042
   },
   "401888271:KXSUPERLIGTOTAL-26OCT17ERZEYU-4:no": {
