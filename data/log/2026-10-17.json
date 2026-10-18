@@ -676,7 +676,7 @@
     "contract": "Yes \u00b7 Texas Tech",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -719
   },
   "401876431:KXLIGUE1TOTAL-26OCT17ESTRCL-1:yes": {
@@ -943,7 +943,7 @@
     "contract": "No \u00b7 Over 5.5",
     "buy": "no"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -1684
   },
   "401882838:KXLALIGATOTAL-26OCT17VCFATH-4:no": {
@@ -1169,7 +1169,7 @@
     "contract": "Yes \u00b7 Miami (OH)",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -381
   }
  },
