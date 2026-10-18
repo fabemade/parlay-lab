@@ -8,11 +8,11 @@
   "updated": "2026-10-18"
  },
  "cfb": {
-  "margin_k": 1.031,
-  "total_k": 0.564,
-  "margin_sd": 16.89,
-  "total_sd": 15.71,
-  "n": 1042,
+  "margin_k": 1.029,
+  "total_k": 0.563,
+  "margin_sd": 16.87,
+  "total_sd": 15.7,
+  "n": 1047,
   "updated": "2026-10-18"
  },
  "nba": {
