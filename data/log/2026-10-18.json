@@ -47,7 +47,7 @@
     "contract": "Yes \u00b7 New England",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -340
   },
   "401841277:KXBRASILEIROTOTAL-26OCT18FLUSAN-6:no": {
@@ -228,7 +228,7 @@
     "contract": "Yes \u00b7 Over 20.5",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -2042
   },
   "401892534:KXNHLGAME-26OCT18CARCGY-CAR:yes": {
@@ -319,7 +319,7 @@
     "contract": "No \u00b7 Over 5.5",
     "buy": "no"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -2580
   },
   "401882839:KXLALIGAGAME-26OCT18RMASEV-RMA:yes": {
@@ -411,7 +411,7 @@
     "contract": "Yes \u00b7 Indianapolis",
     "buy": "yes"
    },
-   "result": null,
+   "result": "L",
    "close_odds": -306
   },
   "401841624:KXARGPREMDIVTOTAL-26OCT18RCUCAA-5:no": {
@@ -456,7 +456,7 @@
     "buy": "no"
    },
    "result": null,
-   "close_odds": -2580
+   "close_odds": -2042
   },
   "401873002:KXNFLTOTAL-26OCT18PITTB-23:yes": {
    "id": "401873002:KXNFLTOTAL-26OCT18PITTB-23:yes",
@@ -501,7 +501,7 @@
     "contract": "Yes \u00b7 Over 22.5",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -1428
   },
   "401883154:KXLALIGA2TOTAL-26OCT18VLLCDE-6:no": {
@@ -545,7 +545,7 @@
     "contract": "No \u00b7 Over 5.5",
     "buy": "no"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -2580
   },
   "401873001:KXNFLTOTAL-26OCT18NYJNE-66:no": {
@@ -590,7 +590,7 @@
     "contract": "No \u00b7 Over 65.5",
     "buy": "no"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -2042
   },
   "401873005:KXNFLGAME-26OCT18BUFLV-BUF:yes": {
@@ -770,7 +770,7 @@
     "contract": "No \u00b7 Over 5.5",
     "buy": "no"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -2042
   },
   "401876434:KXLIGUE1TOTAL-26OCT18OLNIC-6:no": {
@@ -814,7 +814,7 @@
     "contract": "No \u00b7 Over 5.5",
     "buy": "no"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -1428
   },
   "401882841:KXLALIGATOTAL-26OCT18MCFRSO-1:yes": {
@@ -858,7 +858,7 @@
     "contract": "Yes \u00b7 Over 0.5",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -2042
   },
   "401899590:KXSERIEBTOTAL-26OCT18SAMARE-4:no": {
@@ -902,7 +902,7 @@
     "contract": "No \u00b7 Over 3.5",
     "buy": "no"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -322
   },
   "401892533:KXNHLGAME-26OCT18CBJMIN-MIN:yes": {
@@ -1011,7 +1011,8 @@
    "ev": -0.004,
    "tier": "lock",
    "name": "lock_2",
-   "result": null
+   "result": "W",
+   "missed": []
   },
   {
    "legs": [
@@ -1042,7 +1043,8 @@
    "ev": -0.0171,
    "tier": "best",
    "name": "best_2",
-   "result": null
+   "result": "W",
+   "missed": []
   }
  ],
  "straights": [],
