@@ -92,7 +92,7 @@
     "buy": "no"
    },
    "result": null,
-   "close_odds": -2042
+   "close_odds": -1684
   },
   "401873004:KXNFLGAME-26OCT18ARILAR-LAR:yes": {
    "id": "401873004:KXNFLGAME-26OCT18ARILAR-LAR:yes",
@@ -638,7 +638,7 @@
     "buy": "yes"
    },
    "result": null,
-   "close_odds": -228
+   "close_odds": -239
   },
   "401873005:KXNFLTOTAL-26OCT18BUFLV-75:no": {
    "id": "401873005:KXNFLTOTAL-26OCT18BUFLV-75:no",
@@ -993,7 +993,7 @@
     "contract": "No \u00b7 Over 5.5",
     "buy": "no"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -1236
   }
  },
