@@ -91,7 +91,7 @@
     "contract": "No \u00b7 Over 5.5",
     "buy": "no"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -1684
   },
   "401873004:KXNFLGAME-26OCT18ARILAR-LAR:yes": {
@@ -364,7 +364,7 @@
     "contract": "Yes \u00b7 Real Madrid",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -404
   },
   "401873003:KXNFLGAME-26OCT18TENIND-IND:yes": {
