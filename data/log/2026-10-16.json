@@ -580,7 +580,7 @@
     "contract": "Yes \u00b7 Over 2.5",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -1236
   },
   "401876946:KXLIGAMXTOTAL-26OCT16NCXATL-1:yes": {
@@ -774,7 +774,8 @@
    "ev": -0.0051,
    "tier": "lock",
    "name": "lock_2",
-   "result": null
+   "result": "W",
+   "missed": []
   },
   {
    "legs": [

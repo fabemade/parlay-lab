@@ -133,7 +133,7 @@
     "contract": "Yes \u00b7 South Florida",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -1236
   },
   "401841616:KXARGPREMDIVTOTAL-26OCT17VELGEM-4:no": {
@@ -177,7 +177,7 @@
     "contract": "No \u00b7 Over 3.5",
     "buy": "no"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -360
   },
   "401874953:KXSERIEATOTAL-26OCT17BFCINT-6:no": {
@@ -265,7 +265,7 @@
     "contract": "No \u00b7 Over 3.5",
     "buy": "no"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -340
   },
   "401874935:KXSERIEAGAME-26OCT17ROMGEN-ROM:yes": {
@@ -356,7 +356,7 @@
     "contract": "Yes \u00b7 North Dakota St. wins by over 1.5 points",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -525
   },
   "401862803:KXNCAAFGAME-26OCT16CHARTEM-TEM:yes": {
@@ -446,7 +446,7 @@
     "contract": "No \u00b7 Over 5.5",
     "buy": "no"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -1684
   },
   "761876:KXMLSTOTAL-26OCT17MINSTL-1:yes": {
@@ -584,7 +584,7 @@
     "contract": "Yes \u00b7 Miami (FL)",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -1236
   },
   "401879258:KXEPLTOTAL-26OCT17NEWAVL-1:yes": {
@@ -899,7 +899,7 @@
     "contract": "Yes \u00b7 Over 0.5",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -2042
   },
   "401841270:KXBRASILEIROTOTAL-26OCT17ATLCFC-6:no": {
@@ -1031,7 +1031,7 @@
     "contract": "No \u00b7 Over 5.5",
     "buy": "no"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -1684
   },
   "401874953:KXSERIEAGAME-26OCT17BFCINT-INT:yes": {
@@ -1123,7 +1123,7 @@
     "contract": "Yes \u00b7 Vegas",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -208
   },
   "401866478:KXNCAAFGAME-26OCT16AKRMOH-MOH:yes": {
@@ -1187,7 +1187,8 @@
    "ev": -0.0072,
    "tier": "lock",
    "name": "lock_2",
-   "result": null
+   "result": "W",
+   "missed": []
   },
   {
    "legs": [
@@ -1203,7 +1204,8 @@
    "ev": 0.0015,
    "tier": "lock",
    "name": "lock_3",
-   "result": null
+   "result": "W",
+   "missed": []
   },
   {
    "legs": [
@@ -1218,7 +1220,8 @@
    "ev": 0.0064,
    "tier": "best",
    "name": "best_2",
-   "result": null
+   "result": "W",
+   "missed": []
   },
   {
    "legs": [
@@ -1234,7 +1237,8 @@
    "ev": -0.0073,
    "tier": "best",
    "name": "best_3",
-   "result": null
+   "result": "W",
+   "missed": []
   }
  ],
  "straights": [],
