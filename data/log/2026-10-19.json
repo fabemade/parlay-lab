@@ -44,7 +44,7 @@
     "buy": "no"
    },
    "result": null,
-   "close_odds": -2042
+   "close_odds": -1684
   },
   "401874762:KXSERIEATOTAL-26OCT19MONCAG-4:no": {
    "id": "401874762:KXSERIEATOTAL-26OCT19MONCAG-4:no",
@@ -87,7 +87,7 @@
     "contract": "No \u00b7 Over 3.5",
     "buy": "no"
    },
-   "result": null,
+   "result": "L",
    "close_odds": -340
   },
   "401900895:KXSAUDIPLTOTAL-26OCT19SHAFAI-1:yes": {
@@ -131,7 +131,7 @@
     "contract": "Yes \u00b7 Over 0.5",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -2580
   },
   "401873008:KXNFLSPREAD-26OCT19WASSF-SF2:yes": {
@@ -180,7 +180,7 @@
     "buy": "yes"
    },
    "result": null,
-   "close_odds": -340
+   "close_odds": -322
   },
   "401900896:KXSAUDIPLGAME-26OCT19HILHAZ-HIL:yes": {
    "id": "401900896:KXSAUDIPLGAME-26OCT19HILHAZ-HIL:yes",
@@ -224,7 +224,7 @@
     "contract": "Yes \u00b7 Al Hilal",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -1428
   },
   "401876719:KXLIGUE2TOTAL-26OCT19RODMHS-1:yes": {
@@ -268,7 +268,7 @@
     "contract": "Yes \u00b7 Over 0.5",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -2042
   },
   "401841620:KXARGPREMDIVTOTAL-26OCT19NOBCC-5:no": {
@@ -358,7 +358,7 @@
     "buy": "no"
    },
    "result": null,
-   "close_odds": -1236
+   "close_odds": -1428
   },
   "401873008:KXNFLGAME-26OCT19WASSF-SF:yes": {
    "id": "401873008:KXNFLGAME-26OCT19WASSF-SF:yes",
@@ -405,7 +405,7 @@
     "buy": "yes"
    },
    "result": null,
-   "close_odds": -404
+   "close_odds": -360
   },
   "401879257:KXEPLTOTAL-26OCT19TOTCOV-6:no": {
    "id": "401879257:KXEPLTOTAL-26OCT19TOTCOV-6:no",
@@ -448,7 +448,7 @@
     "contract": "No \u00b7 Over 5.5",
     "buy": "no"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -1236
   },
   "401841272:KXBRASILEIROTOTAL-26OCT19CORVIT-4:no": {
@@ -580,7 +580,7 @@
     "contract": "No \u00b7 Over 4.5",
     "buy": "no"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -1428
   },
   "401882842:KXLALIGATOTAL-26OCT19GETRVC-5:no": {
@@ -625,7 +625,7 @@
     "contract": "No \u00b7 Over 4.5",
     "buy": "no"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -2042
   },
   "401841617:KXARGPREMDIVTOTAL-26OCT19CASBAR-5:no": {
@@ -713,7 +713,7 @@
     "contract": "Yes \u00b7 Over 0.5",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -2580
   },
   "401874762:KXSERIEATOTAL-26OCT19MONCAG-1:yes": {
@@ -757,7 +757,7 @@
     "contract": "Yes \u00b7 Over 0.5",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -1428
   }
  },
@@ -806,7 +806,10 @@
    "ev": -0.0208,
    "tier": "best",
    "name": "best_2",
-   "result": null
+   "result": "L",
+   "missed": [
+    "401874762:KXSERIEATOTAL-26OCT19MONCAG-4:no"
+   ]
   }
  ],
  "straights": [],
