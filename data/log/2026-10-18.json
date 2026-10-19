@@ -182,7 +182,7 @@
     "contract": "Yes \u00b7 Over 0.5",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -2580
   },
   "401872997:KXNFLTOTAL-26OCT18BALCLE-21:yes": {
@@ -275,7 +275,7 @@
     "contract": "Yes \u00b7 Carolina",
     "buy": "yes"
    },
-   "result": null,
+   "result": "L",
    "close_odds": -218
   },
   "401899590:KXSERIEBTOTAL-26OCT18SAMARE-6:no": {
