@@ -138,7 +138,7 @@
     "contract": "Yes \u00b7 Los Angeles R",
     "buy": "yes"
    },
-   "result": null,
+   "result": "L",
    "close_odds": -788
   },
   "401876938:KXLIGAMXTOTAL-26OCT18MONPAC-1:yes": {
@@ -455,7 +455,7 @@
     "contract": "No \u00b7 Over 4.5",
     "buy": "no"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -2042
   },
   "401873002:KXNFLTOTAL-26OCT18PITTB-23:yes": {
@@ -637,7 +637,7 @@
     "contract": "Yes \u00b7 Buffalo",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -239
   },
   "401873005:KXNFLTOTAL-26OCT18BUFLV-75:no": {
@@ -682,7 +682,7 @@
     "contract": "No \u00b7 Over 74.5",
     "buy": "no"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -1428
   },
   "401841269:KXBRASILEIROTOTAL-26OCT18BAHFLA-6:no": {
@@ -726,7 +726,7 @@
     "contract": "No \u00b7 Over 5.5",
     "buy": "no"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -1428
   },
   "401874765:KXSERIEATOTAL-26OCT18JUVLAZ-6:no": {
@@ -949,7 +949,7 @@
     "contract": "Yes \u00b7 Minnesota",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -191
   },
   "401874978:KXSERIEATOTAL-26OCT18ACMATA-6:no": {
@@ -1028,7 +1028,8 @@
    "ev": -0.0114,
    "tier": "lock",
    "name": "lock_3",
-   "result": null
+   "result": "W",
+   "missed": []
   },
   {
    "legs": [
