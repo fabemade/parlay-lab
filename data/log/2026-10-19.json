@@ -1,0 +1,828 @@
+{
+ "date": "2026-10-19",
+ "locked_at": "2026-10-19T11:51-04:00",
+ "legs": {
+  "401841625:KXARGPREMDIVTOTAL-26OCT19RIEUNI-5:no": {
+   "id": "401841625:KXARGPREMDIVTOTAL-26OCT19RIEUNI-5:no",
+   "sport": "soccer_arg.1",
+   "game_id": "401841625",
+   "short": "USF @ RIE",
+   "game": "Uni\u00f3n (Santa Fe) at Deportivo Riestra",
+   "start": "2026-10-20T00:15Z",
+   "market": "total",
+   "side": "under",
+   "line": 4.5,
+   "selection": "Under 4.5",
+   "group": "Game lines",
+   "market_name": "Total",
+   "odds": -2042,
+   "p": 0.9486,
+   "p_model": 0.9322,
+   "p_market": 0.9406,
+   "p_breakeven": 0.9533,
+   "edge": -0.0047,
+   "ev": -0.0049,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "USF: 1.42 scored / 1.75 allowed per game this season; last 10: 1.5 / 1.7",
+    "RIE: 0.75 scored / 1.0 allowed per game this season; last 10: 0.5 / 1.0"
+   ],
+   "home": {
+    "name": "Deportivo Riestra",
+    "abbr": "RIE"
+   },
+   "away": {
+    "name": "Uni\u00f3n (Santa Fe)",
+    "abbr": "USF"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxargpremdivtotal/argentina-premier-division-total/kxargpremdivtotal-26oct19rieuni",
+    "price": 95,
+    "ticker": "KXARGPREMDIVTOTAL-26OCT19RIEUNI-5",
+    "contract": "No \u00b7 Over 4.5",
+    "buy": "no"
+   },
+   "result": null,
+   "close_odds": -2042
+  },
+  "401874762:KXSERIEATOTAL-26OCT19MONCAG-4:no": {
+   "id": "401874762:KXSERIEATOTAL-26OCT19MONCAG-4:no",
+   "sport": "soccer_ita.1",
+   "game_id": "401874762",
+   "short": "CAG @ MON",
+   "game": "Cagliari at Monza",
+   "start": "2026-10-19T16:30Z",
+   "market": "total",
+   "side": "under",
+   "line": 3.5,
+   "selection": "Under 3.5",
+   "group": "Game lines",
+   "market_name": "Total",
+   "odds": -340,
+   "p": 0.7624,
+   "p_model": 0.7277,
+   "p_market": 0.7525,
+   "p_breakeven": 0.7728,
+   "edge": -0.0104,
+   "ev": -0.0135,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "CAG: 1.0 scored / 0.5 allowed per game this season; last 6: 1.0 / 0.5",
+    "MON: 1.5 scored / 2.5 allowed per game this season; last 6: 1.5 / 2.5"
+   ],
+   "home": {
+    "name": "Monza",
+    "abbr": "MON"
+   },
+   "away": {
+    "name": "Cagliari",
+    "abbr": "CAG"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxserieatotal/serie-a-total/kxserieatotal-26oct19moncag",
+    "price": 76,
+    "ticker": "KXSERIEATOTAL-26OCT19MONCAG-4",
+    "contract": "No \u00b7 Over 3.5",
+    "buy": "no"
+   },
+   "result": null,
+   "close_odds": -340
+  },
+  "401900895:KXSAUDIPLTOTAL-26OCT19SHAFAI-1:yes": {
+   "id": "401900895:KXSAUDIPLTOTAL-26OCT19SHAFAI-1:yes",
+   "sport": "soccer_ksa.1",
+   "game_id": "401900895",
+   "short": "ALF @ SHA",
+   "game": "Al Faisaly at Al Shabab",
+   "start": "2026-10-19T18:00Z",
+   "market": "total",
+   "side": "over",
+   "line": 0.5,
+   "selection": "Over 0.5",
+   "group": "Game lines",
+   "market_name": "Total",
+   "odds": -2580,
+   "p": 0.9567,
+   "p_model": 0.9239,
+   "p_market": 0.9505,
+   "p_breakeven": 0.9627,
+   "edge": -0.006,
+   "ev": -0.0062,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "ALF: 1.0 scored / 1.88 allowed per game this season; last 8: 1.0 / 1.88",
+    "SHA: 1.12 scored / 1.38 allowed per game this season; last 8: 1.12 / 1.38"
+   ],
+   "home": {
+    "name": "Al Shabab",
+    "abbr": "SHA"
+   },
+   "away": {
+    "name": "Al Faisaly",
+    "abbr": "ALF"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxsaudipltotal/saudi-pro-league-total/kxsaudipltotal-26oct19shafai",
+    "price": 96,
+    "ticker": "KXSAUDIPLTOTAL-26OCT19SHAFAI-1",
+    "contract": "Yes \u00b7 Over 0.5",
+    "buy": "yes"
+   },
+   "result": null,
+   "close_odds": -2580
+  },
+  "401873008:KXNFLSPREAD-26OCT19WASSF-SF2:yes": {
+   "id": "401873008:KXNFLSPREAD-26OCT19WASSF-SF2:yes",
+   "sport": "nfl",
+   "game_id": "401873008",
+   "short": "WSH @ SF",
+   "game": "Washington Commanders at San Francisco 49ers",
+   "start": "2026-10-20T00:15Z",
+   "market": "spread",
+   "side": "home",
+   "line": -1.5,
+   "selection": "SF by 1.5+",
+   "group": "Game lines",
+   "market_name": "Spread",
+   "odds": -340,
+   "p": 0.7669,
+   "p_model": 0.7605,
+   "p_market": 0.7525,
+   "p_breakeven": 0.7728,
+   "edge": -0.0059,
+   "ev": -0.0076,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "SF ranks #3 in offense and #10 in defense of 32 (schedule-adjusted, recent games weighted more)",
+    "Last 5: 5-0, scoring 30.8 and allowing 18.6 pts/game (season: 30.8 / 18.6). Current streak: W5",
+    "At home: 31.67 scored / 19.0 allowed per game",
+    "Record 5-0 (home 3-0)",
+    "Injuries: Marques Sigle (S, Out), Nick Bosa (DE, Out)",
+    "Line moved from -5.5 to -7.5 since opening (spread)"
+   ],
+   "home": {
+    "name": "San Francisco 49ers",
+    "abbr": "SF"
+   },
+   "away": {
+    "name": "Washington Commanders",
+    "abbr": "WSH"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxnflspread/pro-football-spread/kxnflspread-26oct19wassf",
+    "price": 76,
+    "ticker": "KXNFLSPREAD-26OCT19WASSF-SF2",
+    "contract": "Yes \u00b7 San Francisco wins by over 1.5 points",
+    "buy": "yes"
+   },
+   "result": null,
+   "close_odds": -340
+  },
+  "401900896:KXSAUDIPLGAME-26OCT19HILHAZ-HIL:yes": {
+   "id": "401900896:KXSAUDIPLGAME-26OCT19HILHAZ-HIL:yes",
+   "sport": "soccer_ksa.1",
+   "game_id": "401900896",
+   "short": "HAZ @ HIL",
+   "game": "Al Hazem at Al Hilal",
+   "start": "2026-10-19T18:00Z",
+   "market": "ml",
+   "side": "home",
+   "selection": "HIL to win",
+   "group": "Game lines",
+   "market_name": "Winner",
+   "odds": -1428,
+   "p": 0.9132,
+   "p_model": 0.8544,
+   "p_market": 0.9118,
+   "p_breakeven": 0.9346,
+   "edge": -0.0214,
+   "ev": -0.0229,
+   "grade": "D",
+   "modeled": true,
+   "reasons": [
+    "HIL ranks #1 in offense and #1 in defense of 21 (schedule-adjusted, recent games weighted more)",
+    "Last 8: 7-1, scoring 3.25 and allowing 0.88 goals/game (season: 3.25 / 0.88)",
+    "At home: 2.5 scored / 1.5 allowed per game",
+    "Record 7-0-1"
+   ],
+   "home": {
+    "name": "Al Hilal",
+    "abbr": "HIL"
+   },
+   "away": {
+    "name": "Al Hazem",
+    "abbr": "HAZ"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxsaudiplgame/saudi-pro-league-game/kxsaudiplgame-26oct19hilhaz",
+    "price": 93,
+    "ticker": "KXSAUDIPLGAME-26OCT19HILHAZ-HIL",
+    "contract": "Yes \u00b7 Al Hilal",
+    "buy": "yes"
+   },
+   "result": null,
+   "close_odds": -1428
+  },
+  "401876719:KXLIGUE2TOTAL-26OCT19RODMHS-1:yes": {
+   "id": "401876719:KXLIGUE2TOTAL-26OCT19RODMHS-1:yes",
+   "sport": "soccer_fra.2",
+   "game_id": "401876719",
+   "short": "MON @ AVE",
+   "game": "Montpellier at Rodez Aveyron",
+   "start": "2026-10-19T18:45Z",
+   "market": "total",
+   "side": "over",
+   "line": 0.5,
+   "selection": "Over 0.5",
+   "group": "Game lines",
+   "market_name": "Total",
+   "odds": -2580,
+   "p": 0.9478,
+   "p_model": 0.9071,
+   "p_market": 0.9412,
+   "p_breakeven": 0.9627,
+   "edge": -0.0149,
+   "ev": -0.0155,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "MON: 1.0 scored / 0.62 allowed per game this season; last 8: 1.0 / 0.62",
+    "AVE: 1.75 scored / 2.25 allowed per game this season; last 8: 1.75 / 2.25"
+   ],
+   "home": {
+    "name": "Rodez Aveyron",
+    "abbr": "AVE"
+   },
+   "away": {
+    "name": "Montpellier",
+    "abbr": "MON"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxligue2total/point-total/kxligue2total-26oct19rodmhs",
+    "price": 96,
+    "ticker": "KXLIGUE2TOTAL-26OCT19RODMHS-1",
+    "contract": "Yes \u00b7 Over 0.5",
+    "buy": "yes"
+   },
+   "result": null,
+   "close_odds": -2580
+  },
+  "401841620:KXARGPREMDIVTOTAL-26OCT19NOBCC-5:no": {
+   "id": "401841620:KXARGPREMDIVTOTAL-26OCT19NOBCC-5:no",
+   "sport": "soccer_arg.1",
+   "game_id": "401841620",
+   "short": "CTR @ NOB",
+   "game": "Central C\u00f3rdoba (Santiago del Estero) at Newell's Old Boys",
+   "start": "2026-10-19T22:00Z",
+   "market": "total",
+   "side": "under",
+   "line": 4.5,
+   "selection": "Under 4.5",
+   "group": "Game lines",
+   "market_name": "Total",
+   "odds": -1428,
+   "p": 0.9246,
+   "p_model": 0.9366,
+   "p_market": 0.9118,
+   "p_breakeven": 0.9346,
+   "edge": -0.01,
+   "ev": -0.0107,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "CTR: 0.83 scored / 1.33 allowed per game this season; last 10: 1.0 / 1.3",
+    "NOB: 0.92 scored / 0.75 allowed per game this season; last 10: 1.0 / 0.8"
+   ],
+   "home": {
+    "name": "Newell's Old Boys",
+    "abbr": "NOB"
+   },
+   "away": {
+    "name": "Central C\u00f3rdoba (Santiago del Estero)",
+    "abbr": "CTR"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxargpremdivtotal/argentina-premier-division-total/kxargpremdivtotal-26oct19nobcc",
+    "price": 93,
+    "ticker": "KXARGPREMDIVTOTAL-26OCT19NOBCC-5",
+    "contract": "No \u00b7 Over 4.5",
+    "buy": "no"
+   },
+   "result": null,
+   "close_odds": -1428
+  },
+  "401873008:KXNFLTOTAL-26OCT19WASSF-72:no": {
+   "id": "401873008:KXNFLTOTAL-26OCT19WASSF-72:no",
+   "sport": "nfl",
+   "game_id": "401873008",
+   "short": "WSH @ SF",
+   "game": "Washington Commanders at San Francisco 49ers",
+   "start": "2026-10-20T00:15Z",
+   "market": "total",
+   "side": "under",
+   "line": 71.5,
+   "selection": "Under 71.5",
+   "group": "Game lines",
+   "market_name": "Total",
+   "odds": -1236,
+   "p": 0.9244,
+   "p_model": 0.9441,
+   "p_market": 0.9109,
+   "p_breakeven": 0.9252,
+   "edge": -0.0008,
+   "ev": -0.0009,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "WSH: 23.0 scored / 29.8 allowed per game this season; last 5: 23.0 / 29.8",
+    "SF: 30.8 scored / 18.6 allowed per game this season; last 5: 30.8 / 18.6",
+    "Line moved from +50.5 to +51.5 since opening (total)"
+   ],
+   "home": {
+    "name": "San Francisco 49ers",
+    "abbr": "SF"
+   },
+   "away": {
+    "name": "Washington Commanders",
+    "abbr": "WSH"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxnfltotal/pro-football-total-points/kxnfltotal-26oct19wassf",
+    "price": 92,
+    "ticker": "KXNFLTOTAL-26OCT19WASSF-72",
+    "contract": "No \u00b7 Over 71.5",
+    "buy": "no"
+   },
+   "result": null,
+   "close_odds": -1236
+  },
+  "401873008:KXNFLGAME-26OCT19WASSF-SF:yes": {
+   "id": "401873008:KXNFLGAME-26OCT19WASSF-SF:yes",
+   "sport": "nfl",
+   "game_id": "401873008",
+   "short": "WSH @ SF",
+   "game": "Washington Commanders at San Francisco 49ers",
+   "start": "2026-10-20T00:15Z",
+   "market": "ml",
+   "side": "home",
+   "selection": "SF to win",
+   "group": "Game lines",
+   "market_name": "Winner",
+   "odds": -404,
+   "p": 0.8069,
+   "p_model": 0.8265,
+   "p_market": 0.7822,
+   "p_breakeven": 0.8016,
+   "edge": 0.0053,
+   "ev": 0.0066,
+   "grade": "B",
+   "modeled": true,
+   "reasons": [
+    "SF ranks #3 in offense and #10 in defense of 32 (schedule-adjusted, recent games weighted more)",
+    "Last 5: 5-0, scoring 30.8 and allowing 18.6 pts/game (season: 30.8 / 18.6). Current streak: W5",
+    "At home: 31.67 scored / 19.0 allowed per game",
+    "Record 5-0 (home 3-0)",
+    "Injuries: Marques Sigle (S, Out), Nick Bosa (DE, Out)",
+    "Price moved -250 \u2192 -395 since opening, money moving toward SF"
+   ],
+   "home": {
+    "name": "San Francisco 49ers",
+    "abbr": "SF"
+   },
+   "away": {
+    "name": "Washington Commanders",
+    "abbr": "WSH"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxnflgame/nfl-game/kxnflgame-26oct19wassf",
+    "price": 79,
+    "ticker": "KXNFLGAME-26OCT19WASSF-SF",
+    "contract": "Yes \u00b7 San Francisco",
+    "buy": "yes"
+   },
+   "result": null,
+   "close_odds": -404
+  },
+  "401879257:KXEPLTOTAL-26OCT19TOTCOV-6:no": {
+   "id": "401879257:KXEPLTOTAL-26OCT19TOTCOV-6:no",
+   "sport": "soccer_eng.1",
+   "game_id": "401879257",
+   "short": "COV @ TOT",
+   "game": "Coventry City at Tottenham Hotspur",
+   "start": "2026-10-19T19:00Z",
+   "market": "total",
+   "side": "under",
+   "line": 5.5,
+   "selection": "Under 5.5",
+   "group": "Game lines",
+   "market_name": "Total",
+   "odds": -1236,
+   "p": 0.9244,
+   "p_model": 0.9434,
+   "p_market": 0.9109,
+   "p_breakeven": 0.9252,
+   "edge": -0.0008,
+   "ev": -0.0009,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "COV: 0.83 scored / 1.83 allowed per game this season; last 6: 0.83 / 1.83",
+    "TOT: 0.5 scored / 1.5 allowed per game this season; last 6: 0.5 / 1.5"
+   ],
+   "home": {
+    "name": "Tottenham Hotspur",
+    "abbr": "TOT"
+   },
+   "away": {
+    "name": "Coventry City",
+    "abbr": "COV"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxepltotal/english-premier-league-total-goals/kxepltotal-26oct19totcov",
+    "price": 92,
+    "ticker": "KXEPLTOTAL-26OCT19TOTCOV-6",
+    "contract": "No \u00b7 Over 5.5",
+    "buy": "no"
+   },
+   "result": null,
+   "close_odds": -1236
+  },
+  "401841272:KXBRASILEIROTOTAL-26OCT19CORVIT-4:no": {
+   "id": "401841272:KXBRASILEIROTOTAL-26OCT19CORVIT-4:no",
+   "sport": "soccer_bra.1",
+   "game_id": "401841272",
+   "short": "VIT @ COR",
+   "game": "Vit\u00f3ria at Corinthians",
+   "start": "2026-10-19T23:00Z",
+   "market": "total",
+   "side": "under",
+   "line": 3.5,
+   "selection": "Under 3.5",
+   "group": "Game lines",
+   "market_name": "Total",
+   "odds": -381,
+   "p": 0.7825,
+   "p_model": 0.7448,
+   "p_market": 0.7723,
+   "p_breakeven": 0.792,
+   "edge": -0.0095,
+   "ev": -0.012,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "VIT: 0.92 scored / 1.46 allowed per game this season; last 10: 1.1 / 1.7",
+    "COR: 1.08 scored / 1.58 allowed per game this season; last 10: 0.9 / 1.8"
+   ],
+   "home": {
+    "name": "Corinthians",
+    "abbr": "COR"
+   },
+   "away": {
+    "name": "Vit\u00f3ria",
+    "abbr": "VIT"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxbrasileirototal/brasileiro-total/kxbrasileirototal-26oct19corvit",
+    "price": 78,
+    "ticker": "KXBRASILEIROTOTAL-26OCT19CORVIT-4",
+    "contract": "No \u00b7 Over 3.5",
+    "buy": "no"
+   },
+   "result": null,
+   "close_odds": -381
+  },
+  "401908028:KXMLBTOTAL-26OCT192008CLETB-3:yes": {
+   "id": "401908028:KXMLBTOTAL-26OCT192008CLETB-3:yes",
+   "sport": "mlb",
+   "game_id": "401908028",
+   "short": "CLE @ TB",
+   "game": "Cleveland Guardians at Tampa Bay Rays",
+   "start": "2026-10-20T00:00Z",
+   "market": "total",
+   "side": "over",
+   "line": 2.5,
+   "selection": "Over 2.5",
+   "group": "Game lines",
+   "market_name": "Total",
+   "odds": -1684,
+   "p": 0.9346,
+   "p_model": 0.9599,
+   "p_market": 0.9216,
+   "p_breakeven": 0.9439,
+   "edge": -0.0093,
+   "ev": -0.0099,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "CLE: 4.16 scored / 4.07 allowed per game this season; last 10: 3.8 / 3.3",
+    "TB: 4.49 scored / 3.94 allowed per game this season; last 10: 4.3 / 2.8"
+   ],
+   "home": {
+    "name": "Tampa Bay Rays",
+    "abbr": "TB"
+   },
+   "away": {
+    "name": "Cleveland Guardians",
+    "abbr": "CLE"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxmlbtotal/pro-baseball-total-points/kxmlbtotal-26oct192008cletb",
+    "price": 94,
+    "ticker": "KXMLBTOTAL-26OCT192008CLETB-3",
+    "contract": "Yes \u00b7 Over 2.5",
+    "buy": "yes"
+   },
+   "result": null,
+   "close_odds": -1684
+  },
+  "401874784:KXSERIEATOTAL-26OCT19PARTOR-5:no": {
+   "id": "401874784:KXSERIEATOTAL-26OCT19PARTOR-5:no",
+   "sport": "soccer_ita.1",
+   "game_id": "401874784",
+   "short": "TOR @ PAR",
+   "game": "Torino at Parma",
+   "start": "2026-10-19T18:45Z",
+   "market": "total",
+   "side": "under",
+   "line": 4.5,
+   "selection": "Under 4.5",
+   "group": "Game lines",
+   "market_name": "Total",
+   "odds": -1428,
+   "p": 0.929,
+   "p_model": 0.8951,
+   "p_market": 0.9208,
+   "p_breakeven": 0.9346,
+   "edge": -0.0056,
+   "ev": -0.006,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "TOR: 1.17 scored / 1.5 allowed per game this season; last 6: 1.17 / 1.5",
+    "PAR: 0.67 scored / 1.67 allowed per game this season; last 6: 0.67 / 1.67"
+   ],
+   "home": {
+    "name": "Parma",
+    "abbr": "PAR"
+   },
+   "away": {
+    "name": "Torino",
+    "abbr": "TOR"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxserieatotal/serie-a-total/kxserieatotal-26oct19partor",
+    "price": 93,
+    "ticker": "KXSERIEATOTAL-26OCT19PARTOR-5",
+    "contract": "No \u00b7 Over 4.5",
+    "buy": "no"
+   },
+   "result": null,
+   "close_odds": -1428
+  },
+  "401882842:KXLALIGATOTAL-26OCT19GETRVC-5:no": {
+   "id": "401882842:KXLALIGATOTAL-26OCT19GETRVC-5:no",
+   "sport": "soccer_esp.1",
+   "game_id": "401882842",
+   "short": "RAY @ GET",
+   "game": "Rayo Vallecano at Getafe",
+   "start": "2026-10-19T19:00Z",
+   "market": "total",
+   "side": "under",
+   "line": 4.5,
+   "selection": "Under 4.5",
+   "group": "Game lines",
+   "market_name": "Total",
+   "odds": -2042,
+   "p": 0.9494,
+   "p_model": 0.948,
+   "p_market": 0.9406,
+   "p_breakeven": 0.9533,
+   "edge": -0.0039,
+   "ev": -0.0041,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "RAY: 1.57 scored / 2.29 allowed per game this season; last 7: 1.57 / 2.29",
+    "GET: 0.5 scored / 1.25 allowed per game this season; last 8: 0.5 / 1.25",
+    "Line moved from +2.5 to +1.5 since opening (total)"
+   ],
+   "home": {
+    "name": "Getafe",
+    "abbr": "GET"
+   },
+   "away": {
+    "name": "Rayo Vallecano",
+    "abbr": "RAY"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxlaligatotal/la-liga-total/kxlaligatotal-26oct19getrvc",
+    "price": 95,
+    "ticker": "KXLALIGATOTAL-26OCT19GETRVC-5",
+    "contract": "No \u00b7 Over 4.5",
+    "buy": "no"
+   },
+   "result": null,
+   "close_odds": -2042
+  },
+  "401841617:KXARGPREMDIVTOTAL-26OCT19CASBAR-5:no": {
+   "id": "401841617:KXARGPREMDIVTOTAL-26OCT19CASBAR-5:no",
+   "sport": "soccer_arg.1",
+   "game_id": "401841617",
+   "short": "BAR @ SARM",
+   "game": "Barracas Central at Sarmiento (Jun\u00edn)",
+   "start": "2026-10-19T22:00Z",
+   "market": "total",
+   "side": "under",
+   "line": 4.5,
+   "selection": "Under 4.5",
+   "group": "Game lines",
+   "market_name": "Total",
+   "odds": -1684,
+   "p": 0.9402,
+   "p_model": 0.9321,
+   "p_market": 0.9307,
+   "p_breakeven": 0.9439,
+   "edge": -0.0037,
+   "ev": -0.0039,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "BAR: 0.83 scored / 0.75 allowed per game this season; last 10: 0.8 / 0.9",
+    "SARM: 1.75 scored / 1.5 allowed per game this season; last 10: 1.7 / 1.2"
+   ],
+   "home": {
+    "name": "Sarmiento (Jun\u00edn)",
+    "abbr": "SARM"
+   },
+   "away": {
+    "name": "Barracas Central",
+    "abbr": "BAR"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxargpremdivtotal/argentina-premier-division-total/kxargpremdivtotal-26oct19casbar",
+    "price": 94,
+    "ticker": "KXARGPREMDIVTOTAL-26OCT19CASBAR-5",
+    "contract": "No \u00b7 Over 4.5",
+    "buy": "no"
+   },
+   "result": null,
+   "close_odds": -1684
+  },
+  "401879257:KXEPLTOTAL-26OCT19TOTCOV-1:yes": {
+   "id": "401879257:KXEPLTOTAL-26OCT19TOTCOV-1:yes",
+   "sport": "soccer_eng.1",
+   "game_id": "401879257",
+   "short": "COV @ TOT",
+   "game": "Coventry City at Tottenham Hotspur",
+   "start": "2026-10-19T19:00Z",
+   "market": "total",
+   "side": "over",
+   "line": 0.5,
+   "selection": "Over 0.5",
+   "group": "Game lines",
+   "market_name": "Total",
+   "odds": -2580,
+   "p": 0.9565,
+   "p_model": 0.918,
+   "p_market": 0.9505,
+   "p_breakeven": 0.9627,
+   "edge": -0.0062,
+   "ev": -0.0064,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "COV: 0.83 scored / 1.83 allowed per game this season; last 6: 0.83 / 1.83",
+    "TOT: 0.5 scored / 1.5 allowed per game this season; last 6: 0.5 / 1.5"
+   ],
+   "home": {
+    "name": "Tottenham Hotspur",
+    "abbr": "TOT"
+   },
+   "away": {
+    "name": "Coventry City",
+    "abbr": "COV"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxepltotal/english-premier-league-total-goals/kxepltotal-26oct19totcov",
+    "price": 96,
+    "ticker": "KXEPLTOTAL-26OCT19TOTCOV-1",
+    "contract": "Yes \u00b7 Over 0.5",
+    "buy": "yes"
+   },
+   "result": null,
+   "close_odds": -2580
+  },
+  "401874762:KXSERIEATOTAL-26OCT19MONCAG-1:yes": {
+   "id": "401874762:KXSERIEATOTAL-26OCT19MONCAG-1:yes",
+   "sport": "soccer_ita.1",
+   "game_id": "401874762",
+   "short": "CAG @ MON",
+   "game": "Cagliari at Monza",
+   "start": "2026-10-19T16:30Z",
+   "market": "total",
+   "side": "over",
+   "line": 0.5,
+   "selection": "Over 0.5",
+   "group": "Game lines",
+   "market_name": "Total",
+   "odds": -1428,
+   "p": 0.9304,
+   "p_model": 0.9154,
+   "p_market": 0.9208,
+   "p_breakeven": 0.9346,
+   "edge": -0.0042,
+   "ev": -0.0045,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "CAG: 1.0 scored / 0.5 allowed per game this season; last 6: 1.0 / 0.5",
+    "MON: 1.5 scored / 2.5 allowed per game this season; last 6: 1.5 / 2.5"
+   ],
+   "home": {
+    "name": "Monza",
+    "abbr": "MON"
+   },
+   "away": {
+    "name": "Cagliari",
+    "abbr": "CAG"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxserieatotal/serie-a-total/kxserieatotal-26oct19moncag",
+    "price": 93,
+    "ticker": "KXSERIEATOTAL-26OCT19MONCAG-1",
+    "contract": "Yes \u00b7 Over 0.5",
+    "buy": "yes"
+   },
+   "result": null,
+   "close_odds": -1428
+  }
+ },
+ "parlays": [
+  {
+   "legs": [
+    "401874762:KXSERIEATOTAL-26OCT19MONCAG-1:yes",
+    "401841620:KXARGPREMDIVTOTAL-26OCT19NOBCC-5:no"
+   ],
+   "n": 2,
+   "mode": "safest",
+   "p": 0.8602,
+   "decimal": 1.145,
+   "american": -690,
+   "ev": -0.0151,
+   "tier": "lock",
+   "name": "lock_2",
+   "result": null
+  },
+  {
+   "legs": [
+    "401874784:KXSERIEATOTAL-26OCT19PARTOR-5:no",
+    "401873008:KXNFLTOTAL-26OCT19WASSF-72:no",
+    "401879257:KXEPLTOTAL-26OCT19TOTCOV-6:no"
+   ],
+   "n": 3,
+   "mode": "safest",
+   "p": 0.7938,
+   "decimal": 1.25,
+   "american": -400,
+   "ev": -0.0076,
+   "tier": "lock",
+   "name": "lock_3",
+   "result": null
+  },
+  {
+   "legs": [
+    "401873008:KXNFLSPREAD-26OCT19WASSF-SF2:yes",
+    "401874762:KXSERIEATOTAL-26OCT19MONCAG-4:no"
+   ],
+   "n": 2,
+   "mode": "safest",
+   "p": 0.5847,
+   "decimal": 1.675,
+   "american": -148,
+   "ev": -0.0208,
+   "tier": "best",
+   "name": "best_2",
+   "result": null
+  }
+ ],
+ "straights": [],
+ "straights_best": [
+  "401900895:KXSAUDIPLTOTAL-26OCT19SHAFAI-1:yes",
+  "401879257:KXEPLTOTAL-26OCT19TOTCOV-1:yes",
+  "401876719:KXLIGUE2TOTAL-26OCT19RODMHS-1:yes",
+  "401841272:KXBRASILEIROTOTAL-26OCT19CORVIT-4:no"
+ ],
+ "locks": [
+  "401900896:KXSAUDIPLGAME-26OCT19HILHAZ-HIL:yes",
+  "401873008:KXNFLGAME-26OCT19WASSF-SF:yes",
+  "401882842:KXLALIGATOTAL-26OCT19GETRVC-5:no",
+  "401841625:KXARGPREMDIVTOTAL-26OCT19RIEUNI-5:no",
+  "401841617:KXARGPREMDIVTOTAL-26OCT19CASBAR-5:no",
+  "401908028:KXMLBTOTAL-26OCT192008CLETB-3:yes",
+  "401874762:KXSERIEATOTAL-26OCT19MONCAG-1:yes"
+ ]
+}
