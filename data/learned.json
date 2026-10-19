@@ -1,20 +1,20 @@
 {
  "groups": {
   "1st half": {
-   "T": 1.07,
-   "games": 281,
+   "T": 1.08,
+   "games": 294,
    "k": 1.0,
-   "loss_after": 104.195,
-   "loss_before": 104.982,
-   "n": 6147
+   "loss_after": 109.269,
+   "loss_before": 110.177,
+   "n": 6205
   },
   "1st period": {
    "T": 1.0,
-   "games": 63,
+   "games": 66,
    "k": 1.0,
-   "loss_after": 25.51,
-   "loss_before": 25.51,
-   "n": 193
+   "loss_after": 26.606,
+   "loss_before": 26.606,
+   "n": 205
   },
   "1st quarter": {
    "T": 1.05,
@@ -33,12 +33,12 @@
    "n": 2194
   },
   "2nd period": {
-   "T": 0.96,
-   "games": 56,
+   "T": 0.97,
+   "games": 65,
    "k": 1.0,
-   "loss_after": 27.448,
-   "loss_before": 27.637,
-   "n": 157
+   "loss_after": 29.497,
+   "loss_before": 29.594,
+   "n": 174
   },
   "2nd quarter": {
    "T": 1.02,
@@ -50,19 +50,19 @@
   },
   "3rd period": {
    "T": 1.01,
-   "games": 61,
+   "games": 66,
    "k": 1.0,
-   "loss_after": 23.3,
-   "loss_before": 23.315,
-   "n": 176
+   "loss_after": 25.3,
+   "loss_before": 25.316,
+   "n": 188
   },
   "3rd quarter": {
    "T": 1.02,
-   "games": 62,
+   "games": 63,
    "k": 1.0,
-   "loss_after": 24.632,
-   "loss_before": 24.665,
-   "n": 1313
+   "loss_after": 24.813,
+   "loss_before": 24.85,
+   "n": 1318
   },
   "4th quarter": {
    "T": 1.01,
@@ -81,12 +81,12 @@
    "n": 104
   },
   "Game lines": {
-   "T": 1.06,
-   "games": 571,
+   "T": 1.07,
+   "games": 577,
    "k": 0.95,
-   "loss_after": 201.596,
-   "loss_before": 202.361,
-   "n": 4062
+   "loss_after": 201.931,
+   "loss_before": 202.865,
+   "n": 4101
   },
   "Game specials": {
    "T": 0.97,
@@ -97,21 +97,21 @@
    "n": 337
   },
   "Player props": {
-   "T": 1.01,
+   "T": 1.02,
    "games": 130,
    "k": 0.9,
-   "loss_after": 54.788,
-   "loss_before": 54.846,
-   "n": 14726
+   "loss_after": 54.745,
+   "loss_before": 54.818,
+   "n": 14743
   },
   "Team props": {
    "T": 1.07,
-   "games": 297,
+   "games": 307,
    "k": 1.0,
-   "loss_after": 111.731,
-   "loss_before": 112.526,
-   "n": 4648
+   "loss_after": 117.371,
+   "loss_before": 118.079,
+   "n": 4681
   }
  },
- "trained_at": "2026-10-19T15:59+00:00"
+ "trained_at": "2026-10-19T18:27+00:00"
 }

@@ -269,7 +269,7 @@
     "buy": "yes"
    },
    "result": null,
-   "close_odds": -2580
+   "close_odds": -2042
   },
   "401841620:KXARGPREMDIVTOTAL-26OCT19NOBCC-5:no": {
    "id": "401841620:KXARGPREMDIVTOTAL-26OCT19NOBCC-5:no",
@@ -313,7 +313,7 @@
     "buy": "no"
    },
    "result": null,
-   "close_odds": -1428
+   "close_odds": -1236
   },
   "401873008:KXNFLTOTAL-26OCT19WASSF-72:no": {
    "id": "401873008:KXNFLTOTAL-26OCT19WASSF-72:no",
@@ -493,7 +493,7 @@
     "buy": "no"
    },
    "result": null,
-   "close_odds": -381
+   "close_odds": -360
   },
   "401908028:KXMLBTOTAL-26OCT192008CLETB-3:yes": {
    "id": "401908028:KXMLBTOTAL-26OCT192008CLETB-3:yes",
