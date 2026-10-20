@@ -43,7 +43,7 @@
     "contract": "No \u00b7 Over 4.5",
     "buy": "no"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -1684
   },
   "401874762:KXSERIEATOTAL-26OCT19MONCAG-4:no": {
@@ -179,7 +179,7 @@
     "contract": "Yes \u00b7 San Francisco wins by over 1.5 points",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -322
   },
   "401900896:KXSAUDIPLGAME-26OCT19HILHAZ-HIL:yes": {
@@ -357,7 +357,7 @@
     "contract": "No \u00b7 Over 71.5",
     "buy": "no"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -1428
   },
   "401873008:KXNFLGAME-26OCT19WASSF-SF:yes": {
@@ -404,7 +404,7 @@
     "contract": "Yes \u00b7 San Francisco",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -360
   },
   "401879257:KXEPLTOTAL-26OCT19TOTCOV-6:no": {
@@ -536,7 +536,7 @@
     "contract": "Yes \u00b7 Over 2.5",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -1684
   },
   "401874784:KXSERIEATOTAL-26OCT19PARTOR-5:no": {
@@ -792,7 +792,8 @@
    "ev": -0.0076,
    "tier": "lock",
    "name": "lock_3",
-   "result": null
+   "result": "W",
+   "missed": []
   },
   {
    "legs": [
