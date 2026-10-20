@@ -44,7 +44,7 @@
     "contract": "Yes \u00b7 Liverpool",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -199
   },
   "401871069:KXNCAAFTOTAL-26OCT20MOSUDEL-32:yes": {
@@ -132,7 +132,7 @@
     "contract": "No \u00b7 Over 5.5",
     "buy": "no"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -381
   },
   "401915402:KXUCLTOTAL-26OCT20ROMSLO-2:yes": {
@@ -176,7 +176,7 @@
     "contract": "Yes \u00b7 Over 1.5",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -1428
   },
   "401892539:KXNHLGAME-26OCT20SJMTL-MTL:yes": {
@@ -267,7 +267,7 @@
     "contract": "No \u00b7 Over 5.5",
     "buy": "no"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -1428
   },
   "401880277:KXEFLCHAMPIONSHIPTOTAL-26OCT20WOLPOR-4:no": {
@@ -311,7 +311,7 @@
     "contract": "No \u00b7 Over 3.5",
     "buy": "no"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -251
   },
   "401880786:KXEFLL1TOTAL-26OCT20CAMWYW-4:no": {
@@ -355,7 +355,7 @@
     "contract": "No \u00b7 Over 3.5",
     "buy": "no"
    },
-   "result": null,
+   "result": "L",
    "close_odds": -340
   },
   "401909089:KXNBAGAME-26OCT20PHINYK-NYK:yes": {
@@ -444,7 +444,7 @@
     "contract": "No \u00b7 Over 5.5",
     "buy": "no"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -2042
   },
   "401915398:KXUCLTOTAL-26OCT20FCPPSV-1:yes": {
@@ -489,7 +489,7 @@
     "contract": "Yes \u00b7 Over 0.5",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -2580
   },
   "401909088:KXNBATOTAL-26OCT20BOSDET-195:yes": {
@@ -534,7 +534,7 @@
     "contract": "Yes \u00b7 Over 194.5",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -2042
   },
   "401880789:KXEFLL1TOTAL-26OCT20BLPMKD-1:yes": {
@@ -579,7 +579,7 @@
     "contract": "Yes \u00b7 Over 0.5",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -2580
   },
   "401876935:KXLIGAMXTOTAL-26OCT20TIGLEO-6:no": {
@@ -760,7 +760,7 @@
     "buy": "yes"
    },
    "result": null,
-   "close_odds": -2580
+   "close_odds": -2042
   },
   "401915399:KXUCLTOTAL-26OCT20PSGBAR-8:no": {
    "id": "401915399:KXUCLTOTAL-26OCT20PSGBAR-8:no",
@@ -804,7 +804,7 @@
     "contract": "No \u00b7 Over 7.5",
     "buy": "no"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -1236
   },
   "401871055:KXNCAAFGAME-26OCT20MTUFIU-FIU:yes": {
@@ -894,7 +894,7 @@
     "contract": "No \u00b7 Over 5.5",
     "buy": "no"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -2042
   },
   "401871092:KXNCAAFTOTAL-26OCT20USAMRSH-41:yes": {
@@ -989,7 +989,10 @@
    "ev": -0.0339,
    "tier": "best",
    "name": "best_3",
-   "result": null
+   "result": "L",
+   "missed": [
+    "401880786:KXEFLL1TOTAL-26OCT20CAMWYW-4:no"
+   ]
   }
  ],
  "straights": [],
