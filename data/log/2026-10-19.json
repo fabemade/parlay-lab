@@ -312,7 +312,7 @@
     "contract": "No \u00b7 Over 4.5",
     "buy": "no"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -1236
   },
   "401873008:KXNFLTOTAL-26OCT19WASSF-72:no": {
@@ -492,7 +492,7 @@
     "contract": "No \u00b7 Over 3.5",
     "buy": "no"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -360
   },
   "401908028:KXMLBTOTAL-26OCT192008CLETB-3:yes": {
@@ -669,7 +669,7 @@
     "contract": "No \u00b7 Over 4.5",
     "buy": "no"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -1684
   },
   "401879257:KXEPLTOTAL-26OCT19TOTCOV-1:yes": {
@@ -775,7 +775,8 @@
    "ev": -0.0151,
    "tier": "lock",
    "name": "lock_2",
-   "result": null
+   "result": "W",
+   "missed": []
   },
   {
    "legs": [
