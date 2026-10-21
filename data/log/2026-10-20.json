@@ -88,7 +88,7 @@
     "contract": "Yes \u00b7 Over 31.5",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -1428
   },
   "401915402:KXUCLTOTAL-26OCT20ROMSLO-6:no": {
@@ -400,7 +400,7 @@
     "contract": "Yes \u00b7 New York",
     "buy": "yes"
    },
-   "result": null,
+   "result": "L",
    "close_odds": -175
   },
   "401880780:KXEFLL1TOTAL-26OCT20STEPA-6:no": {
@@ -623,7 +623,7 @@
     "contract": "No \u00b7 Over 5.5",
     "buy": "no"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -2042
   },
   "401871055:KXNCAAFTOTAL-26OCT20MTUFIU-68:no": {
@@ -667,7 +667,7 @@
     "contract": "No \u00b7 Over 67.5",
     "buy": "no"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -1236
   },
   "401892542:KXNHLGAME-26OCT20LAWSH-WSH:yes": {
@@ -759,7 +759,7 @@
     "contract": "Yes \u00b7 Over 203.5",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -2042
   },
   "401915399:KXUCLTOTAL-26OCT20PSGBAR-8:no": {
@@ -850,7 +850,7 @@
     "contract": "Yes \u00b7 Florida International",
     "buy": "yes"
    },
-   "result": null,
+   "result": "L",
    "close_odds": -381
   },
   "401880787:KXEFLL1TOTAL-26OCT20BURABRA-6:no": {
@@ -939,7 +939,7 @@
     "contract": "Yes \u00b7 Over 40.5",
     "buy": "yes"
    },
-   "result": null,
+   "result": "L",
    "close_odds": -2042
   }
  },
@@ -957,7 +957,8 @@
    "ev": -0.0106,
    "tier": "lock",
    "name": "lock_2",
-   "result": null
+   "result": "W",
+   "missed": []
   },
   {
    "legs": [
@@ -973,7 +974,8 @@
    "ev": -0.0239,
    "tier": "lock",
    "name": "lock_3",
-   "result": null
+   "result": "W",
+   "missed": []
   },
   {
    "legs": [
@@ -991,6 +993,7 @@
    "name": "best_3",
    "result": "L",
    "missed": [
+    "401871055:KXNCAAFGAME-26OCT20MTUFIU-FIU:yes",
     "401880786:KXEFLL1TOTAL-26OCT20CAMWYW-4:no"
    ]
   }
