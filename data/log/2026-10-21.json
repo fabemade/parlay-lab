@@ -1,0 +1,832 @@
+{
+ "date": "2026-10-21",
+ "locked_at": "2026-10-21T12:44-04:00",
+ "legs": {
+  "401909841:KXNBATOTAL-26OCT21PHXPOR-262:no": {
+   "id": "401909841:KXNBATOTAL-26OCT21PHXPOR-262:no",
+   "sport": "nba",
+   "game_id": "401909841",
+   "short": "PHX @ POR",
+   "game": "Phoenix Suns at Portland Trail Blazers",
+   "start": "2026-10-22T02:00Z",
+   "market": "total",
+   "side": "under",
+   "line": 261.5,
+   "selection": "Under 261.5",
+   "group": "Game lines",
+   "market_name": "Total",
+   "odds": -2042,
+   "p": 0.9492,
+   "p_model": 0.9838,
+   "p_market": 0.9406,
+   "p_breakeven": 0.9533,
+   "edge": -0.0041,
+   "ev": -0.0043,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "PHX: 110.92 scored / 110.36 allowed per game this season; last 10: 106.8 / 113.1",
+    "POR: 113.28 scored / 112.93 allowed per game this season; last 10: 108.5 / 112.8",
+    "Line moved from +236.5 to +231.5 since opening (total)"
+   ],
+   "home": {
+    "name": "Portland Trail Blazers",
+    "abbr": "POR"
+   },
+   "away": {
+    "name": "Phoenix Suns",
+    "abbr": "PHX"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxnbatotal/nba-total/kxnbatotal-26oct21phxpor",
+    "price": 95,
+    "ticker": "KXNBATOTAL-26OCT21PHXPOR-262",
+    "contract": "No \u00b7 Over 261.5",
+    "buy": "no"
+   },
+   "result": null,
+   "close_odds": -2042
+  },
+  "401876932:KXLIGAMXTOTAL-26OCT21ATLAME-6:no": {
+   "id": "401876932:KXLIGAMXTOTAL-26OCT21ATLAME-6:no",
+   "sport": "soccer_mex.1",
+   "game_id": "401876932",
+   "short": "AME @ ATS",
+   "game": "Am\u00e9rica at Atlas",
+   "start": "2026-10-22T01:00Z",
+   "market": "total",
+   "side": "under",
+   "line": 5.5,
+   "selection": "Under 5.5",
+   "group": "Game lines",
+   "market_name": "Total",
+   "odds": -1236,
+   "p": 0.9213,
+   "p_model": 0.9267,
+   "p_market": 0.9109,
+   "p_breakeven": 0.9252,
+   "edge": -0.0039,
+   "ev": -0.0042,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "AME: 2.45 scored / 1.27 allowed per game this season; last 10: 2.6 / 1.4",
+    "ATS: 1.58 scored / 1.5 allowed per game this season; last 10: 1.5 / 1.6"
+   ],
+   "home": {
+    "name": "Atlas",
+    "abbr": "ATS"
+   },
+   "away": {
+    "name": "Am\u00e9rica",
+    "abbr": "AME"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxligamxtotal/liga-mx-total/kxligamxtotal-26oct21atlame",
+    "price": 92,
+    "ticker": "KXLIGAMXTOTAL-26OCT21ATLAME-6",
+    "contract": "No \u00b7 Over 5.5",
+    "buy": "no"
+   },
+   "result": null,
+   "close_odds": -1236
+  },
+  "401876933:KXLIGAMXTOTAL-26OCT21PUEMON-1:yes": {
+   "id": "401876933:KXLIGAMXTOTAL-26OCT21PUEMON-1:yes",
+   "sport": "soccer_mex.1",
+   "game_id": "401876933",
+   "short": "MTY @ PUE",
+   "game": "Monterrey at Puebla",
+   "start": "2026-10-22T01:00Z",
+   "market": "total",
+   "side": "over",
+   "line": 0.5,
+   "selection": "Over 0.5",
+   "group": "Game lines",
+   "market_name": "Total",
+   "odds": -2042,
+   "p": 0.9467,
+   "p_model": 0.9255,
+   "p_market": 0.9406,
+   "p_breakeven": 0.9533,
+   "edge": -0.0066,
+   "ev": -0.0069,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "MTY: 1.73 scored / 1.45 allowed per game this season; last 10: 1.6 / 1.4",
+    "PUE: 1.0 scored / 1.08 allowed per game this season; last 10: 1.0 / 1.1"
+   ],
+   "home": {
+    "name": "Puebla",
+    "abbr": "PUE"
+   },
+   "away": {
+    "name": "Monterrey",
+    "abbr": "MTY"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxligamxtotal/liga-mx-total/kxligamxtotal-26oct21puemon",
+    "price": 95,
+    "ticker": "KXLIGAMXTOTAL-26OCT21PUEMON-1",
+    "contract": "Yes \u00b7 Over 0.5",
+    "buy": "yes"
+   },
+   "result": null,
+   "close_odds": -2042
+  },
+  "401909838:KXNBATOTAL-26OCT21UTAMEM-217:yes": {
+   "id": "401909838:KXNBATOTAL-26OCT21UTAMEM-217:yes",
+   "sport": "nba",
+   "game_id": "401909838",
+   "short": "UTAH @ MEM",
+   "game": "Utah Jazz at Memphis Grizzlies",
+   "start": "2026-10-22T00:00Z",
+   "market": "total",
+   "side": "over",
+   "line": 216.5,
+   "selection": "Over 216.5",
+   "group": "Game lines",
+   "market_name": "Total",
+   "odds": -1428,
+   "p": 0.9289,
+   "p_model": 0.9134,
+   "p_market": 0.9208,
+   "p_breakeven": 0.9346,
+   "edge": -0.0057,
+   "ev": -0.0061,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "UTAH: 116.32 scored / 125.23 allowed per game this season; last 10: 118.6 / 132.8",
+    "MEM: 114.46 scored / 123.25 allowed per game this season; last 10: 111.6 / 132.0",
+    "Line moved from +241.5 to +242.5 since opening (total)"
+   ],
+   "home": {
+    "name": "Memphis Grizzlies",
+    "abbr": "MEM"
+   },
+   "away": {
+    "name": "Utah Jazz",
+    "abbr": "UTAH"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxnbatotal/nba-total/kxnbatotal-26oct21utamem",
+    "price": 93,
+    "ticker": "KXNBATOTAL-26OCT21UTAMEM-217",
+    "contract": "Yes \u00b7 Over 216.5",
+    "buy": "yes"
+   },
+   "result": null,
+   "close_odds": -1428
+  },
+  "401909840:KXNBATOTAL-26OCT21DALHOU-256:no": {
+   "id": "401909840:KXNBATOTAL-26OCT21DALHOU-256:no",
+   "sport": "nba",
+   "game_id": "401909840",
+   "short": "DAL @ HOU",
+   "game": "Dallas Mavericks at Houston Rockets",
+   "start": "2026-10-22T00:30Z",
+   "market": "total",
+   "side": "under",
+   "line": 255.5,
+   "selection": "Under 255.5",
+   "group": "Game lines",
+   "market_name": "Total",
+   "odds": -1428,
+   "p": 0.9301,
+   "p_model": 0.9357,
+   "p_market": 0.9208,
+   "p_breakeven": 0.9346,
+   "edge": -0.0045,
+   "ev": -0.0048,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "DAL: 114.43 scored / 121.02 allowed per game this season; last 10: 116.8 / 124.3",
+    "HOU: 111.26 scored / 107.93 allowed per game this season; last 10: 108.8 / 105.1",
+    "Line moved from +226.5 to +229.5 since opening (total)"
+   ],
+   "home": {
+    "name": "Houston Rockets",
+    "abbr": "HOU"
+   },
+   "away": {
+    "name": "Dallas Mavericks",
+    "abbr": "DAL"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxnbatotal/nba-total/kxnbatotal-26oct21dalhou",
+    "price": 93,
+    "ticker": "KXNBATOTAL-26OCT21DALHOU-256",
+    "contract": "No \u00b7 Over 255.5",
+    "buy": "no"
+   },
+   "result": null,
+   "close_odds": -1428
+  },
+  "401915394:KXUCLTOTAL-26OCT21AVLVIK-2:yes": {
+   "id": "401915394:KXUCLTOTAL-26OCT21AVLVIK-2:yes",
+   "sport": "soccer_uefa.champions",
+   "game_id": "401915394",
+   "short": "VFK @ AVL",
+   "game": "Viking FK at Aston Villa",
+   "start": "2026-10-21T19:00Z",
+   "market": "total",
+   "side": "over",
+   "line": 1.5,
+   "selection": "Over 1.5",
+   "group": "Game lines",
+   "market_name": "Total",
+   "odds": -1236,
+   "p": 0.9199,
+   "p_model": 0.9131,
+   "p_market": 0.9109,
+   "p_breakeven": 0.9252,
+   "edge": -0.0053,
+   "ev": -0.0057,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "VFK: 2.0 scored / 3.0 allowed per game this season; last 2: 2.0 / 3.0",
+    "AVL: 4.5 scored / 1.0 allowed per game this season; last 2: 4.5 / 1.0"
+   ],
+   "home": {
+    "name": "Aston Villa",
+    "abbr": "AVL"
+   },
+   "away": {
+    "name": "Viking FK",
+    "abbr": "VFK"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxucltotal/champions-league-total-goals/kxucltotal-26oct21avlvik",
+    "price": 92,
+    "ticker": "KXUCLTOTAL-26OCT21AVLVIK-2",
+    "contract": "Yes \u00b7 Over 1.5",
+    "buy": "yes"
+   },
+   "result": null,
+   "close_odds": -1236
+  },
+  "401909092:KXNBATOTAL-26OCT21GSWLAL-264:no": {
+   "id": "401909092:KXNBATOTAL-26OCT21GSWLAL-264:no",
+   "sport": "nba",
+   "game_id": "401909092",
+   "short": "GS @ LAL",
+   "game": "Golden State Warriors at Los Angeles Lakers",
+   "start": "2026-10-22T02:00Z",
+   "market": "total",
+   "side": "under",
+   "line": 263.5,
+   "selection": "Under 263.5",
+   "group": "Game lines",
+   "market_name": "Total",
+   "odds": -2042,
+   "p": 0.9492,
+   "p_model": 0.9728,
+   "p_market": 0.9406,
+   "p_breakeven": 0.9533,
+   "edge": -0.0041,
+   "ev": -0.0043,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "GS: 114.72 scored / 116.81 allowed per game this season; last 10: 109.6 / 117.3",
+    "LAL: 113.55 scored / 112.19 allowed per game this season; last 10: 102.2 / 107.1",
+    "Line moved from +231.5 to +234.5 since opening (total)"
+   ],
+   "home": {
+    "name": "Los Angeles Lakers",
+    "abbr": "LAL"
+   },
+   "away": {
+    "name": "Golden State Warriors",
+    "abbr": "GS"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxnbatotal/nba-total/kxnbatotal-26oct21gswlal",
+    "price": 95,
+    "ticker": "KXNBATOTAL-26OCT21GSWLAL-264",
+    "contract": "No \u00b7 Over 263.5",
+    "buy": "no"
+   },
+   "result": null,
+   "close_odds": -2042
+  },
+  "401909837:KXNBAGAME-26OCT21CHITOR-TOR:yes": {
+   "id": "401909837:KXNBAGAME-26OCT21CHITOR-TOR:yes",
+   "sport": "nba",
+   "game_id": "401909837",
+   "short": "CHI @ TOR",
+   "game": "Chicago Bulls at Toronto Raptors",
+   "start": "2026-10-21T23:30Z",
+   "market": "ml",
+   "side": "home",
+   "selection": "TOR to win",
+   "group": "Game lines",
+   "market_name": "Winner",
+   "odds": -430,
+   "p": 0.7985,
+   "p_model": 0.7621,
+   "p_market": 0.7921,
+   "p_breakeven": 0.8112,
+   "edge": -0.0127,
+   "ev": -0.0157,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "TOR ranks #16 in offense and #11 in defense of 32 (schedule-adjusted, recent games weighted more)",
+    "Last season's final 10: 5-5, scoring 113.0 and allowing 111.0 pts/game (last season: 114.74 / 111.9)",
+    "At home: 116.0 scored / 108.93 allowed per game",
+    "Injuries: Nate Bittle (C, Out)",
+    "Price moved -345 \u2192 -440 since opening, money moving toward TOR"
+   ],
+   "home": {
+    "name": "Toronto Raptors",
+    "abbr": "TOR"
+   },
+   "away": {
+    "name": "Chicago Bulls",
+    "abbr": "CHI"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxnbagame/nba-game/kxnbagame-26oct21chitor",
+    "price": 80,
+    "ticker": "KXNBAGAME-26OCT21CHITOR-TOR",
+    "contract": "Yes \u00b7 Toronto",
+    "buy": "yes"
+   },
+   "result": null,
+   "close_odds": -430
+  },
+  "401876930:KXLIGAMXTOTAL-26OCT21PACCRA-1:yes": {
+   "id": "401876930:KXLIGAMXTOTAL-26OCT21PACCRA-1:yes",
+   "sport": "soccer_mex.1",
+   "game_id": "401876930",
+   "short": "CAZ @ PAC",
+   "game": "Cruz Azul at Pachuca",
+   "start": "2026-10-22T03:10Z",
+   "market": "total",
+   "side": "over",
+   "line": 0.5,
+   "selection": "Over 0.5",
+   "group": "Game lines",
+   "market_name": "Total",
+   "odds": -2580,
+   "p": 0.9558,
+   "p_model": 0.9323,
+   "p_market": 0.9505,
+   "p_breakeven": 0.9627,
+   "edge": -0.0069,
+   "ev": -0.0072,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "CAZ: 2.25 scored / 1.75 allowed per game this season; last 10: 2.2 / 1.8",
+    "PAC: 1.58 scored / 1.33 allowed per game this season; last 10: 1.5 / 1.4"
+   ],
+   "home": {
+    "name": "Pachuca",
+    "abbr": "PAC"
+   },
+   "away": {
+    "name": "Cruz Azul",
+    "abbr": "CAZ"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxligamxtotal/liga-mx-total/kxligamxtotal-26oct21paccra",
+    "price": 96,
+    "ticker": "KXLIGAMXTOTAL-26OCT21PACCRA-1",
+    "contract": "Yes \u00b7 Over 0.5",
+    "buy": "yes"
+   },
+   "result": null,
+   "close_odds": -2580
+  },
+  "401876933:KXLIGAMXTOTAL-26OCT21PUEMON-6:no": {
+   "id": "401876933:KXLIGAMXTOTAL-26OCT21PUEMON-6:no",
+   "sport": "soccer_mex.1",
+   "game_id": "401876933",
+   "short": "MTY @ PUE",
+   "game": "Monterrey at Puebla",
+   "start": "2026-10-22T01:00Z",
+   "market": "total",
+   "side": "under",
+   "line": 5.5,
+   "selection": "Under 5.5",
+   "group": "Game lines",
+   "market_name": "Total",
+   "odds": -1428,
+   "p": 0.9305,
+   "p_model": 0.9342,
+   "p_market": 0.9208,
+   "p_breakeven": 0.9346,
+   "edge": -0.0041,
+   "ev": -0.0044,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "MTY: 1.73 scored / 1.45 allowed per game this season; last 10: 1.6 / 1.4",
+    "PUE: 1.0 scored / 1.08 allowed per game this season; last 10: 1.0 / 1.1"
+   ],
+   "home": {
+    "name": "Puebla",
+    "abbr": "PUE"
+   },
+   "away": {
+    "name": "Monterrey",
+    "abbr": "MTY"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxligamxtotal/liga-mx-total/kxligamxtotal-26oct21puemon",
+    "price": 93,
+    "ticker": "KXLIGAMXTOTAL-26OCT21PUEMON-6",
+    "contract": "No \u00b7 Over 5.5",
+    "buy": "no"
+   },
+   "result": null,
+   "close_odds": -1428
+  },
+  "401880779:KXEFLL1TOTAL-26OCT21REALEY-1:yes": {
+   "id": "401880779:KXEFLL1TOTAL-26OCT21REALEY-1:yes",
+   "sport": "soccer_eng.3",
+   "game_id": "401880779",
+   "short": "LEY @ REA",
+   "game": "Leyton Orient at Reading",
+   "start": "2026-10-21T19:00Z",
+   "market": "total",
+   "side": "over",
+   "line": 0.5,
+   "selection": "Over 0.5",
+   "group": "Game lines",
+   "market_name": "Total",
+   "odds": -2580,
+   "p": 0.9556,
+   "p_model": 0.9276,
+   "p_market": 0.9505,
+   "p_breakeven": 0.9627,
+   "edge": -0.0071,
+   "ev": -0.0074,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "LEY: 1.5 scored / 1.1 allowed per game this season; last 10: 1.5 / 1.1",
+    "REA: 2.2 scored / 1.2 allowed per game this season; last 10: 2.2 / 1.2",
+    "Line moved from +3.5 to +2.5 since opening (total)"
+   ],
+   "home": {
+    "name": "Reading",
+    "abbr": "REA"
+   },
+   "away": {
+    "name": "Leyton Orient",
+    "abbr": "LEY"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxefll1total/point-total/kxefll1total-26oct21realey",
+    "price": 96,
+    "ticker": "KXEFLL1TOTAL-26OCT21REALEY-1",
+    "contract": "Yes \u00b7 Over 0.5",
+    "buy": "yes"
+   },
+   "result": null,
+   "close_odds": -2580
+  },
+  "401909840:KXNBAGAME-26OCT21DALHOU-HOU:yes": {
+   "id": "401909840:KXNBAGAME-26OCT21DALHOU-HOU:yes",
+   "sport": "nba",
+   "game_id": "401909840",
+   "short": "DAL @ HOU",
+   "game": "Dallas Mavericks at Houston Rockets",
+   "start": "2026-10-22T00:30Z",
+   "market": "ml",
+   "side": "home",
+   "selection": "HOU to win",
+   "group": "Game lines",
+   "market_name": "Winner",
+   "odds": -404,
+   "p": 0.7871,
+   "p_model": 0.741,
+   "p_market": 0.7822,
+   "p_breakeven": 0.8016,
+   "edge": -0.0145,
+   "ev": -0.0181,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "HOU ranks #27 in offense and #8 in defense of 32 (schedule-adjusted, recent games weighted more)",
+    "Last season's final 10: 5-5, scoring 108.8 and allowing 105.1 pts/game (last season: 111.26 / 107.93)",
+    "At home: 111.62 scored / 106.47 allowed per game",
+    "Price moved -340 \u2192 -455 since opening, money moving toward HOU"
+   ],
+   "home": {
+    "name": "Houston Rockets",
+    "abbr": "HOU"
+   },
+   "away": {
+    "name": "Dallas Mavericks",
+    "abbr": "DAL"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxnbagame/nba-game/kxnbagame-26oct21dalhou",
+    "price": 79,
+    "ticker": "KXNBAGAME-26OCT21DALHOU-HOU",
+    "contract": "Yes \u00b7 Houston",
+    "buy": "yes"
+   },
+   "result": null,
+   "close_odds": -404
+  },
+  "401871070:KXNCAAFTOTAL-26OCT21NMSUSHSU-70:no": {
+   "id": "401871070:KXNCAAFTOTAL-26OCT21NMSUSHSU-70:no",
+   "sport": "cfb",
+   "game_id": "401871070",
+   "short": "NMSU @ SHSU",
+   "game": "New Mexico State Aggies at Sam Houston Bearkats",
+   "start": "2026-10-22T00:00Z",
+   "market": "total",
+   "side": "under",
+   "line": 69.5,
+   "selection": "Under 69.5",
+   "group": "Game lines",
+   "market_name": "Total",
+   "odds": -2042,
+   "p": 0.9456,
+   "p_model": 0.8907,
+   "p_market": 0.9406,
+   "p_breakeven": 0.9533,
+   "edge": -0.0077,
+   "ev": -0.0081,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "NMSU: 23.67 scored / 25.67 allowed per game this season; last 6: 23.67 / 25.67",
+    "SHSU: 19.5 scored / 24.5 allowed per game this season; last 6: 19.5 / 24.5",
+    "Line moved from +47.5 to +45.5 since opening (total)",
+    "\u26a0 The line has moved against this side since opening (a sharp-money signal), so the model defers more to the market"
+   ],
+   "home": {
+    "name": "Sam Houston Bearkats",
+    "abbr": "SHSU"
+   },
+   "away": {
+    "name": "New Mexico State Aggies",
+    "abbr": "NMSU"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxncaaftotal/college-football-total-points/kxncaaftotal-26oct21nmsushsu",
+    "price": 95,
+    "ticker": "KXNCAAFTOTAL-26OCT21NMSUSHSU-70",
+    "contract": "No \u00b7 Over 69.5",
+    "buy": "no"
+   },
+   "result": null,
+   "close_odds": -2042
+  },
+  "401915394:KXUCLGAME-26OCT21AVLVIK-AVL:yes": {
+   "id": "401915394:KXUCLGAME-26OCT21AVLVIK-AVL:yes",
+   "sport": "soccer_uefa.champions",
+   "game_id": "401915394",
+   "short": "VFK @ AVL",
+   "game": "Viking FK at Aston Villa",
+   "start": "2026-10-21T19:00Z",
+   "market": "ml",
+   "side": "home",
+   "selection": "AVL to win",
+   "group": "Game lines",
+   "market_name": "Winner",
+   "odds": -381,
+   "p": 0.7747,
+   "p_model": 0.7274,
+   "p_market": 0.7647,
+   "p_breakeven": 0.792,
+   "edge": -0.0173,
+   "ev": -0.0218,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "Last 2: 2-0, scoring 4.5 and allowing 1.0 goals/game (season: 4.5 / 1.0)",
+    "At home: 6.0 scored / 0.0 allowed per game",
+    "Record 2-0-0"
+   ],
+   "home": {
+    "name": "Aston Villa",
+    "abbr": "AVL"
+   },
+   "away": {
+    "name": "Viking FK",
+    "abbr": "VFK"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxuclgame/uefa-champions-league-game/kxuclgame-26oct21avlvik",
+    "price": 78,
+    "ticker": "KXUCLGAME-26OCT21AVLVIK-AVL",
+    "contract": "Yes \u00b7 Aston Villa",
+    "buy": "yes"
+   },
+   "result": null,
+   "close_odds": -381
+  },
+  "401909840:KXNBASPREAD-26OCT21DALHOU-HOU2:yes": {
+   "id": "401909840:KXNBASPREAD-26OCT21DALHOU-HOU2:yes",
+   "sport": "nba",
+   "game_id": "401909840",
+   "short": "DAL @ HOU",
+   "game": "Dallas Mavericks at Houston Rockets",
+   "start": "2026-10-22T00:30Z",
+   "market": "spread",
+   "side": "home",
+   "line": -1.5,
+   "selection": "HOU by 1.5+",
+   "group": "Game lines",
+   "market_name": "Spread",
+   "odds": -340,
+   "p": 0.759,
+   "p_model": 0.7282,
+   "p_market": 0.7525,
+   "p_breakeven": 0.7728,
+   "edge": -0.0138,
+   "ev": -0.0179,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "HOU ranks #27 in offense and #8 in defense of 32 (schedule-adjusted, recent games weighted more)",
+    "Last season's final 10: 5-5, scoring 108.8 and allowing 105.1 pts/game (last season: 111.26 / 107.93)",
+    "At home: 111.62 scored / 106.47 allowed per game",
+    "Line moved from -8.5 to -10.5 since opening (spread)"
+   ],
+   "home": {
+    "name": "Houston Rockets",
+    "abbr": "HOU"
+   },
+   "away": {
+    "name": "Dallas Mavericks",
+    "abbr": "DAL"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxnbaspread/nba-spread/kxnbaspread-26oct21dalhou",
+    "price": 76,
+    "ticker": "KXNBASPREAD-26OCT21DALHOU-HOU2",
+    "contract": "Yes \u00b7 Houston wins by over 1.5 points",
+    "buy": "yes"
+   },
+   "result": null,
+   "close_odds": -340
+  },
+  "401915313:KXUCLTOTAL-26OCT21RMARBL-2:yes": {
+   "id": "401915313:KXUCLTOTAL-26OCT21RMARBL-2:yes",
+   "sport": "soccer_uefa.champions",
+   "game_id": "401915313",
+   "short": "RBL @ RMA",
+   "game": "RB Leipzig at Real Madrid",
+   "start": "2026-10-21T19:00Z",
+   "market": "total",
+   "side": "over",
+   "line": 1.5,
+   "selection": "Over 1.5",
+   "group": "Game lines",
+   "market_name": "Total",
+   "odds": -2042,
+   "p": 0.9478,
+   "p_model": 0.8927,
+   "p_market": 0.9406,
+   "p_breakeven": 0.9533,
+   "edge": -0.0055,
+   "ev": -0.0058,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "RBL: 1.0 scored / 2.0 allowed per game this season; last 2: 1.0 / 2.0",
+    "RMA: 3.0 scored / 2.0 allowed per game this season; last 2: 3.0 / 2.0",
+    "Line moved from +3.5 to +4.5 since opening (total)"
+   ],
+   "home": {
+    "name": "Real Madrid",
+    "abbr": "RMA"
+   },
+   "away": {
+    "name": "RB Leipzig",
+    "abbr": "RBL"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxucltotal/champions-league-total-goals/kxucltotal-26oct21rmarbl",
+    "price": 95,
+    "ticker": "KXUCLTOTAL-26OCT21RMARBL-2",
+    "contract": "Yes \u00b7 Over 1.5",
+    "buy": "yes"
+   },
+   "result": null,
+   "close_odds": -2042
+  },
+  "401915391:KXUCLGAME-26OCT21SPOASK-SPO:yes": {
+   "id": "401915391:KXUCLGAME-26OCT21SPOASK-SPO:yes",
+   "sport": "soccer_uefa.champions",
+   "game_id": "401915391",
+   "short": "LAS @ SCP",
+   "game": "LASK Linz at Sporting CP",
+   "start": "2026-10-21T19:00Z",
+   "market": "ml",
+   "side": "home",
+   "selection": "SCP to win",
+   "group": "Game lines",
+   "market_name": "Winner",
+   "odds": -322,
+   "p": 0.7451,
+   "p_model": 0.7376,
+   "p_market": 0.7353,
+   "p_breakeven": 0.7631,
+   "edge": -0.018,
+   "ev": -0.0236,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "SCP ranks #12 in offense and #2 in defense of 43 (schedule-adjusted, recent games weighted more)",
+    "Last 2: 2-0, scoring 2.5 and allowing 0.5 goals/game (season: 2.5 / 0.5)",
+    "At home: 3.0 scored / 1.0 allowed per game",
+    "Record 2-0-0"
+   ],
+   "home": {
+    "name": "Sporting CP",
+    "abbr": "SCP"
+   },
+   "away": {
+    "name": "LASK Linz",
+    "abbr": "LAS"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxuclgame/uefa-champions-league-game/kxuclgame-26oct21spoask",
+    "price": 75,
+    "ticker": "KXUCLGAME-26OCT21SPOASK-SPO",
+    "contract": "Yes \u00b7 Sporting CP",
+    "buy": "yes"
+   },
+   "result": null,
+   "close_odds": -322
+  }
+ },
+ "parlays": [
+  {
+   "legs": [
+    "401876933:KXLIGAMXTOTAL-26OCT21PUEMON-6:no",
+    "401909840:KXNBATOTAL-26OCT21DALHOU-256:no"
+   ],
+   "n": 2,
+   "mode": "safest",
+   "p": 0.8655,
+   "decimal": 1.145,
+   "american": -690,
+   "ev": -0.0091,
+   "tier": "lock",
+   "name": "lock_2",
+   "result": null
+  },
+  {
+   "legs": [
+    "401909838:KXNBATOTAL-26OCT21UTAMEM-217:yes",
+    "401876932:KXLIGAMXTOTAL-26OCT21ATLAME-6:no",
+    "401915394:KXUCLTOTAL-26OCT21AVLVIK-2:yes"
+   ],
+   "n": 3,
+   "mode": "safest",
+   "p": 0.7872,
+   "decimal": 1.25,
+   "american": -400,
+   "ev": -0.0158,
+   "tier": "lock",
+   "name": "lock_3",
+   "result": null
+  },
+  {
+   "legs": [
+    "401909840:KXNBASPREAD-26OCT21DALHOU-HOU2:yes",
+    "401915391:KXUCLGAME-26OCT21SPOASK-SPO:yes"
+   ],
+   "n": 2,
+   "mode": "safest",
+   "p": 0.5655,
+   "decimal": 1.696,
+   "american": -144,
+   "ev": -0.0408,
+   "tier": "best",
+   "name": "best_2",
+   "result": null
+  }
+ ],
+ "straights": [],
+ "straights_best": [
+  "401909837:KXNBAGAME-26OCT21CHITOR-TOR:yes",
+  "401909840:KXNBAGAME-26OCT21DALHOU-HOU:yes",
+  "401915394:KXUCLGAME-26OCT21AVLVIK-AVL:yes",
+  "401915391:KXUCLGAME-26OCT21SPOASK-SPO:yes",
+  "401876930:KXLIGAMXTOTAL-26OCT21PACCRA-1:yes",
+  "401880779:KXEFLL1TOTAL-26OCT21REALEY-1:yes"
+ ],
+ "locks": [
+  "401909092:KXNBATOTAL-26OCT21GSWLAL-264:no",
+  "401909841:KXNBATOTAL-26OCT21PHXPOR-262:no",
+  "401915313:KXUCLTOTAL-26OCT21RMARBL-2:yes",
+  "401876933:KXLIGAMXTOTAL-26OCT21PUEMON-1:yes",
+  "401871070:KXNCAAFTOTAL-26OCT21NMSUSHSU-70:no"
+ ]
+}
