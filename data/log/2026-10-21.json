@@ -45,7 +45,7 @@
     "buy": "no"
    },
    "result": null,
-   "close_odds": -2042
+   "close_odds": -2580
   },
   "401876932:KXLIGAMXTOTAL-26OCT21ATLAME-6:no": {
    "id": "401876932:KXLIGAMXTOTAL-26OCT21ATLAME-6:no",
@@ -223,7 +223,7 @@
     "buy": "no"
    },
    "result": null,
-   "close_odds": -1428
+   "close_odds": -1236
   },
   "401915394:KXUCLTOTAL-26OCT21AVLVIK-2:yes": {
    "id": "401915394:KXUCLTOTAL-26OCT21AVLVIK-2:yes",
@@ -446,7 +446,7 @@
     "buy": "no"
    },
    "result": null,
-   "close_odds": -1428
+   "close_odds": -1684
   },
   "401880779:KXEFLL1TOTAL-26OCT21REALEY-1:yes": {
    "id": "401880779:KXEFLL1TOTAL-26OCT21REALEY-1:yes",
@@ -582,7 +582,7 @@
     "buy": "no"
    },
    "result": null,
-   "close_odds": -2042
+   "close_odds": -1684
   },
   "401915394:KXUCLGAME-26OCT21AVLVIK-AVL:yes": {
    "id": "401915394:KXUCLGAME-26OCT21AVLVIK-AVL:yes",
@@ -672,7 +672,7 @@
     "buy": "yes"
    },
    "result": null,
-   "close_odds": -340
+   "close_odds": -360
   },
   "401915313:KXUCLTOTAL-26OCT21RMARBL-2:yes": {
    "id": "401915313:KXUCLTOTAL-26OCT21RMARBL-2:yes",
