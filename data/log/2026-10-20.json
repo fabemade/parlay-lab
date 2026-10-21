@@ -223,7 +223,7 @@
     "contract": "Yes \u00b7 Montreal",
     "buy": "yes"
    },
-   "result": null,
+   "result": "L",
    "close_odds": -218
   },
   "401880785:KXEFLL1TOTAL-26OCT20DRSTO-6:no": {
@@ -714,7 +714,7 @@
     "contract": "Yes \u00b7 Washington",
     "buy": "yes"
    },
-   "result": null,
+   "result": "L",
    "close_odds": -161
   },
   "401909090:KXNBATOTAL-26OCT20OKCSAS-204:yes": {
