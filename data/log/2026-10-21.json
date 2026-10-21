@@ -45,7 +45,7 @@
     "buy": "no"
    },
    "result": null,
-   "close_odds": -2580
+   "close_odds": -2042
   },
   "401876932:KXLIGAMXTOTAL-26OCT21ATLAME-6:no": {
    "id": "401876932:KXLIGAMXTOTAL-26OCT21ATLAME-6:no",
@@ -266,7 +266,7 @@
     "contract": "Yes \u00b7 Over 1.5",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -1236
   },
   "401909092:KXNBATOTAL-26OCT21GSWLAL-264:no": {
@@ -490,7 +490,7 @@
     "contract": "Yes \u00b7 Over 0.5",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -2580
   },
   "401909840:KXNBAGAME-26OCT21DALHOU-HOU:yes": {
@@ -582,7 +582,7 @@
     "buy": "no"
    },
    "result": null,
-   "close_odds": -1684
+   "close_odds": -1428
   },
   "401915394:KXUCLGAME-26OCT21AVLVIK-AVL:yes": {
    "id": "401915394:KXUCLGAME-26OCT21AVLVIK-AVL:yes",
@@ -625,7 +625,7 @@
     "contract": "Yes \u00b7 Aston Villa",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -381
   },
   "401909840:KXNBASPREAD-26OCT21DALHOU-HOU2:yes": {
@@ -716,7 +716,7 @@
     "contract": "Yes \u00b7 Over 1.5",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -2042
   },
   "401915391:KXUCLGAME-26OCT21SPOASK-SPO:yes": {
@@ -761,7 +761,7 @@
     "contract": "Yes \u00b7 Sporting CP",
     "buy": "yes"
    },
-   "result": null,
+   "result": "L",
    "close_odds": -322
   }
  },
@@ -810,7 +810,10 @@
    "ev": -0.0408,
    "tier": "best",
    "name": "best_2",
-   "result": null
+   "result": "L",
+   "missed": [
+    "401915391:KXUCLGAME-26OCT21SPOASK-SPO:yes"
+   ]
   }
  ],
  "straights": [],
