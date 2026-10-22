@@ -43,7 +43,7 @@
     "contract": "Yes \u00b7 Over 0.5",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -2042
   },
   "401909094:KXNBATOTAL-26OCT22DENOKC-211:yes": {
@@ -221,7 +221,7 @@
     "contract": "No \u00b7 Over 5.5",
     "buy": "no"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -1428
   },
   "401871056:KXNCAAFTOTAL-26OCT22LIBKENN-28:yes": {
@@ -447,7 +447,7 @@
     "contract": "Yes \u00b7 Over 0.5",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -2042
   },
   "401862807:KXNCAAFTOTAL-26OCT22ECUMEM-34:yes": {
@@ -627,7 +627,7 @@
     "buy": "no"
    },
    "result": null,
-   "close_odds": -1236
+   "close_odds": -1087
   },
   "401862807:KXNCAAFGAME-26OCT22ECUMEM-MEM:yes": {
    "id": "401862807:KXNCAAFGAME-26OCT22ECUMEM-MEM:yes",
@@ -716,7 +716,7 @@
     "contract": "Yes \u00b7 Over 0.5",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -2580
   },
   "401869845:KXNCAAFTOTAL-26OCT22JMUAPP-80:no": {
