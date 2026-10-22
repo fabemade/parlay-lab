@@ -1,0 +1,817 @@
+{
+ "date": "2026-10-22",
+ "locked_at": "2026-10-22T12:44-04:00",
+ "legs": {
+  "401915552:KXUELTOTAL-26OCT22BOUACM-1:yes": {
+   "id": "401915552:KXUELTOTAL-26OCT22BOUACM-1:yes",
+   "sport": "soccer_uefa.europa",
+   "game_id": "401915552",
+   "short": "MIL @ BOU",
+   "game": "AC Milan at AFC Bournemouth",
+   "start": "2026-10-22T19:00Z",
+   "market": "total",
+   "side": "over",
+   "line": 0.5,
+   "selection": "Over 0.5",
+   "group": "Game lines",
+   "market_name": "Total",
+   "odds": -2042,
+   "p": 0.9477,
+   "p_model": 0.9268,
+   "p_market": 0.9406,
+   "p_breakeven": 0.9533,
+   "edge": -0.0056,
+   "ev": -0.0059,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "MIL: 2.0 scored / 1.0 allowed per game this season; last 2: 2.0 / 1.0",
+    "BOU: 2.5 scored / 0.5 allowed per game this season; last 2: 2.5 / 0.5"
+   ],
+   "home": {
+    "name": "AFC Bournemouth",
+    "abbr": "BOU"
+   },
+   "away": {
+    "name": "AC Milan",
+    "abbr": "MIL"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxueltotal/europa-league-total/kxueltotal-26oct22bouacm",
+    "price": 95,
+    "ticker": "KXUELTOTAL-26OCT22BOUACM-1",
+    "contract": "Yes \u00b7 Over 0.5",
+    "buy": "yes"
+   },
+   "result": null,
+   "close_odds": -2042
+  },
+  "401909094:KXNBATOTAL-26OCT22DENOKC-211:yes": {
+   "id": "401909094:KXNBATOTAL-26OCT22DENOKC-211:yes",
+   "sport": "nba",
+   "game_id": "401909094",
+   "short": "DEN @ OKC",
+   "game": "Denver Nuggets at Oklahoma City Thunder",
+   "start": "2026-10-23T01:30Z",
+   "market": "total",
+   "side": "over",
+   "line": 210.5,
+   "selection": "Over 210.5",
+   "group": "Game lines",
+   "market_name": "Total",
+   "odds": -1684,
+   "p": 0.937,
+   "p_model": 0.8637,
+   "p_market": 0.9307,
+   "p_breakeven": 0.9439,
+   "edge": -0.0069,
+   "ev": -0.0073,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "DEN: 118.64 scored / 116.26 allowed per game this season; last 10: 117.3 / 114.8",
+    "OKC: 116.0 scored / 104.0 allowed per game this season; last 1: 116.0 / 104.0",
+    "Line moved from +231.5 to +236.5 since opening (total)"
+   ],
+   "home": {
+    "name": "Oklahoma City Thunder",
+    "abbr": "OKC"
+   },
+   "away": {
+    "name": "Denver Nuggets",
+    "abbr": "DEN"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxnbatotal/nba-total/kxnbatotal-26oct22denokc",
+    "price": 94,
+    "ticker": "KXNBATOTAL-26OCT22DENOKC-211",
+    "contract": "Yes \u00b7 Over 210.5",
+    "buy": "yes"
+   },
+   "result": null,
+   "close_odds": -1684
+  },
+  "401909093:KXNBATOTAL-26OCT22CLEPHI-208:yes": {
+   "id": "401909093:KXNBATOTAL-26OCT22CLEPHI-208:yes",
+   "sport": "nba",
+   "game_id": "401909093",
+   "short": "CLE @ PHI",
+   "game": "Cleveland Cavaliers at Philadelphia 76ers",
+   "start": "2026-10-22T23:00Z",
+   "market": "total",
+   "side": "over",
+   "line": 207.5,
+   "selection": "Over 207.5",
+   "group": "Game lines",
+   "market_name": "Total",
+   "odds": -2580,
+   "p": 0.9558,
+   "p_model": 0.8609,
+   "p_market": 0.9505,
+   "p_breakeven": 0.9627,
+   "edge": -0.0069,
+   "ev": -0.0072,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "CLE: 116.16 scored / 113.13 allowed per game this season; last 10: 105.9 / 111.6",
+    "PHI: 106.0 scored / 100.0 allowed per game this season; last 1: 106.0 / 100.0",
+    "Line moved from +233.5 to +237.5 since opening (total)"
+   ],
+   "home": {
+    "name": "Philadelphia 76ers",
+    "abbr": "PHI"
+   },
+   "away": {
+    "name": "Cleveland Cavaliers",
+    "abbr": "CLE"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxnbatotal/nba-total/kxnbatotal-26oct22clephi",
+    "price": 96,
+    "ticker": "KXNBATOTAL-26OCT22CLEPHI-208",
+    "contract": "Yes \u00b7 Over 207.5",
+    "buy": "yes"
+   },
+   "result": null,
+   "close_odds": -2580
+  },
+  "401892559:KXNHLTOTAL-26OCT22WPGDAL-10:no": {
+   "id": "401892559:KXNHLTOTAL-26OCT22WPGDAL-10:no",
+   "sport": "nhl",
+   "game_id": "401892559",
+   "short": "WPG @ DAL",
+   "game": "Winnipeg Jets at Dallas Stars",
+   "start": "2026-10-23T00:00Z",
+   "market": "total",
+   "side": "under",
+   "line": 9.5,
+   "selection": "Under 9.5",
+   "group": "Game lines",
+   "market_name": "Total",
+   "odds": -1684,
+   "p": 0.9371,
+   "p_model": 0.909,
+   "p_market": 0.9307,
+   "p_breakeven": 0.9439,
+   "edge": -0.0068,
+   "ev": -0.0072,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "WPG: 2.67 scored / 2.89 allowed per game this season; last 9: 2.67 / 2.89",
+    "DAL: 2.56 scored / 1.67 allowed per game this season; last 9: 2.56 / 1.67"
+   ],
+   "home": {
+    "name": "Dallas Stars",
+    "abbr": "DAL"
+   },
+   "away": {
+    "name": "Winnipeg Jets",
+    "abbr": "WPG"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxnhltotal/nhl-total-goals/kxnhltotal-26oct22wpgdal",
+    "price": 94,
+    "ticker": "KXNHLTOTAL-26OCT22WPGDAL-10",
+    "contract": "No \u00b7 Over 9.5",
+    "buy": "no"
+   },
+   "result": null,
+   "close_odds": -1684
+  },
+  "401915552:KXUELTOTAL-26OCT22BOUACM-6:no": {
+   "id": "401915552:KXUELTOTAL-26OCT22BOUACM-6:no",
+   "sport": "soccer_uefa.europa",
+   "game_id": "401915552",
+   "short": "MIL @ BOU",
+   "game": "AC Milan at AFC Bournemouth",
+   "start": "2026-10-22T19:00Z",
+   "market": "total",
+   "side": "under",
+   "line": 5.5,
+   "selection": "Under 5.5",
+   "group": "Game lines",
+   "market_name": "Total",
+   "odds": -1428,
+   "p": 0.9295,
+   "p_model": 0.9326,
+   "p_market": 0.9208,
+   "p_breakeven": 0.9346,
+   "edge": -0.0051,
+   "ev": -0.0055,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "MIL: 2.0 scored / 1.0 allowed per game this season; last 2: 2.0 / 1.0",
+    "BOU: 2.5 scored / 0.5 allowed per game this season; last 2: 2.5 / 0.5"
+   ],
+   "home": {
+    "name": "AFC Bournemouth",
+    "abbr": "BOU"
+   },
+   "away": {
+    "name": "AC Milan",
+    "abbr": "MIL"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxueltotal/europa-league-total/kxueltotal-26oct22bouacm",
+    "price": 93,
+    "ticker": "KXUELTOTAL-26OCT22BOUACM-6",
+    "contract": "No \u00b7 Over 5.5",
+    "buy": "no"
+   },
+   "result": null,
+   "close_odds": -1428
+  },
+  "401871056:KXNCAAFTOTAL-26OCT22LIBKENN-28:yes": {
+   "id": "401871056:KXNCAAFTOTAL-26OCT22LIBKENN-28:yes",
+   "sport": "cfb",
+   "game_id": "401871056",
+   "short": "LIB @ KENN",
+   "game": "Liberty Flames at Kennesaw State Owls",
+   "start": "2026-10-22T23:00Z",
+   "market": "total",
+   "side": "over",
+   "line": 27.5,
+   "selection": "Over 27.5",
+   "group": "Game lines",
+   "market_name": "Total",
+   "odds": -2042,
+   "p": 0.947,
+   "p_model": 0.912,
+   "p_market": 0.9406,
+   "p_breakeven": 0.9533,
+   "edge": -0.0063,
+   "ev": -0.0066,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "LIB: 31.17 scored / 15.33 allowed per game this season; last 6: 31.17 / 15.33",
+    "KENN: 22.33 scored / 23.5 allowed per game this season; last 6: 22.33 / 23.5",
+    "Line moved from +47.5 to +50.5 since opening (total)"
+   ],
+   "home": {
+    "name": "Kennesaw State Owls",
+    "abbr": "KENN"
+   },
+   "away": {
+    "name": "Liberty Flames",
+    "abbr": "LIB"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxncaaftotal/college-football-total-points/kxncaaftotal-26oct22libkenn",
+    "price": 95,
+    "ticker": "KXNCAAFTOTAL-26OCT22LIBKENN-28",
+    "contract": "Yes \u00b7 Over 27.5",
+    "buy": "yes"
+   },
+   "result": null,
+   "close_odds": -2042
+  },
+  "401892557:KXNHLTOTAL-26OCT22LANYI-10:no": {
+   "id": "401892557:KXNHLTOTAL-26OCT22LANYI-10:no",
+   "sport": "nhl",
+   "game_id": "401892557",
+   "short": "LA @ NYI",
+   "game": "Los Angeles Kings at New York Islanders",
+   "start": "2026-10-22T23:30Z",
+   "market": "total",
+   "side": "under",
+   "line": 9.5,
+   "selection": "Under 9.5",
+   "group": "Game lines",
+   "market_name": "Total",
+   "odds": -2580,
+   "p": 0.9464,
+   "p_model": 0.9014,
+   "p_market": 0.9412,
+   "p_breakeven": 0.9627,
+   "edge": -0.0163,
+   "ev": -0.0169,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "LA: 2.43 scored / 3.86 allowed per game this season; last 7: 2.43 / 3.86",
+    "NYI: 3.0 scored / 2.22 allowed per game this season; last 9: 3.0 / 2.22"
+   ],
+   "home": {
+    "name": "New York Islanders",
+    "abbr": "NYI"
+   },
+   "away": {
+    "name": "Los Angeles Kings",
+    "abbr": "LA"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxnhltotal/nhl-total-goals/kxnhltotal-26oct22lanyi",
+    "price": 96,
+    "ticker": "KXNHLTOTAL-26OCT22LANYI-10",
+    "contract": "No \u00b7 Over 9.5",
+    "buy": "no"
+   },
+   "result": null,
+   "close_odds": -2580
+  },
+  "401869845:KXNCAAFGAME-26OCT22JMUAPP-JMU:yes": {
+   "id": "401869845:KXNCAAFGAME-26OCT22JMUAPP-JMU:yes",
+   "sport": "cfb",
+   "game_id": "401869845",
+   "short": "JMU @ APP",
+   "game": "James Madison Dukes at App State Mountaineers",
+   "start": "2026-10-22T23:00Z",
+   "market": "ml",
+   "side": "away",
+   "selection": "JMU to win",
+   "group": "Game lines",
+   "market_name": "Winner",
+   "odds": -430,
+   "p": 0.8021,
+   "p_model": 0.7858,
+   "p_market": 0.7921,
+   "p_breakeven": 0.8112,
+   "edge": -0.0091,
+   "ev": -0.0112,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "JMU ranks #6 in offense and #28 in defense of 189 (schedule-adjusted, recent games weighted more)",
+    "Last 7: 7-0, scoring 42.86 and allowing 16.0 pts/game (season: 42.86 / 16.0). Current streak: W7",
+    "On the road: 33.0 scored / 19.0 allowed per game",
+    "Record 7-0",
+    "Price moved -410 \u2192 -470 since opening, money moving toward JMU"
+   ],
+   "home": {
+    "name": "App State Mountaineers",
+    "abbr": "APP"
+   },
+   "away": {
+    "name": "James Madison Dukes",
+    "abbr": "JMU"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxncaafgame/college-football-game/kxncaafgame-26oct22jmuapp",
+    "price": 80,
+    "ticker": "KXNCAAFGAME-26OCT22JMUAPP-JMU",
+    "contract": "Yes \u00b7 James Madison",
+    "buy": "yes"
+   },
+   "result": null,
+   "close_odds": -430
+  },
+  "401892560:KXNHLGAME-26OCT22MINCGY-MIN:yes": {
+   "id": "401892560:KXNHLGAME-26OCT22MINCGY-MIN:yes",
+   "sport": "nhl",
+   "game_id": "401892560",
+   "short": "MIN @ CGY",
+   "game": "Minnesota Wild at Calgary Flames",
+   "start": "2026-10-23T01:00Z",
+   "market": "ml",
+   "side": "away",
+   "selection": "MIN to win",
+   "group": "Game lines",
+   "market_name": "Winner",
+   "odds": -191,
+   "p": 0.644,
+   "p_model": 0.6302,
+   "p_market": 0.64,
+   "p_breakeven": 0.6561,
+   "edge": -0.0121,
+   "ev": -0.0184,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "MIN ranks #7 in offense and #10 in defense of 32 (schedule-adjusted, recent games weighted more)",
+    "Last 10: 6-4, scoring 3.1 and allowing 2.5 goals/game (season: 3.1 / 2.5)",
+    "On the road: 2.67 scored / 2.83 allowed per game",
+    "Record 6-2-2 (road 2-2-2)",
+    "Injuries: Olli Maatta (D, Out), Jared Spurgeon (D, Injured Reserve), Filip Gustavsson (G, Injured Reserve), Marcus Foligno (LW, Injured Reserve), Nick Foligno (LW, Injured Reserve)",
+    "Price moved -180 \u2192 -205 since opening, money moving toward MIN"
+   ],
+   "home": {
+    "name": "Calgary Flames",
+    "abbr": "CGY"
+   },
+   "away": {
+    "name": "Minnesota Wild",
+    "abbr": "MIN"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxnhlgame/nhl-game/kxnhlgame-26oct22mincgy",
+    "price": 64,
+    "ticker": "KXNHLGAME-26OCT22MINCGY-MIN",
+    "contract": "Yes \u00b7 Minnesota",
+    "buy": "yes"
+   },
+   "result": null,
+   "close_odds": -191
+  },
+  "401915554:KXUELTOTAL-26OCT22OLYSPA-1:yes": {
+   "id": "401915554:KXUELTOTAL-26OCT22OLYSPA-1:yes",
+   "sport": "soccer_uefa.europa",
+   "game_id": "401915554",
+   "short": "SPP @ OLY",
+   "game": "Sparta Prague at Olympiacos",
+   "start": "2026-10-22T19:00Z",
+   "market": "total",
+   "side": "over",
+   "line": 0.5,
+   "selection": "Over 0.5",
+   "group": "Game lines",
+   "market_name": "Total",
+   "odds": -2042,
+   "p": 0.9476,
+   "p_model": 0.923,
+   "p_market": 0.9406,
+   "p_breakeven": 0.9533,
+   "edge": -0.0057,
+   "ev": -0.006,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "SPP: 2.5 scored / 1.0 allowed per game this season; last 2: 2.5 / 1.0",
+    "OLY: 1.5 scored / 0.5 allowed per game this season; last 2: 1.5 / 0.5"
+   ],
+   "home": {
+    "name": "Olympiacos",
+    "abbr": "OLY"
+   },
+   "away": {
+    "name": "Sparta Prague",
+    "abbr": "SPP"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxueltotal/europa-league-total/kxueltotal-26oct22olyspa",
+    "price": 95,
+    "ticker": "KXUELTOTAL-26OCT22OLYSPA-1",
+    "contract": "Yes \u00b7 Over 0.5",
+    "buy": "yes"
+   },
+   "result": null,
+   "close_odds": -2042
+  },
+  "401862807:KXNCAAFTOTAL-26OCT22ECUMEM-34:yes": {
+   "id": "401862807:KXNCAAFTOTAL-26OCT22ECUMEM-34:yes",
+   "sport": "cfb",
+   "game_id": "401862807",
+   "short": "ECU @ MEM",
+   "game": "East Carolina Pirates at Memphis Tigers",
+   "start": "2026-10-22T23:30Z",
+   "market": "total",
+   "side": "over",
+   "line": 33.5,
+   "selection": "Over 33.5",
+   "group": "Game lines",
+   "market_name": "Total",
+   "odds": -1428,
+   "p": 0.9289,
+   "p_model": 0.9103,
+   "p_market": 0.9208,
+   "p_breakeven": 0.9346,
+   "edge": -0.0057,
+   "ev": -0.0061,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "ECU: 23.5 scored / 23.83 allowed per game this season; last 6: 23.5 / 23.83",
+    "MEM: 35.43 scored / 22.29 allowed per game this season; last 7: 35.43 / 22.29",
+    "Line moved from +53.5 to +54.5 since opening (total)"
+   ],
+   "home": {
+    "name": "Memphis Tigers",
+    "abbr": "MEM"
+   },
+   "away": {
+    "name": "East Carolina Pirates",
+    "abbr": "ECU"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxncaaftotal/college-football-total-points/kxncaaftotal-26oct22ecumem",
+    "price": 93,
+    "ticker": "KXNCAAFTOTAL-26OCT22ECUMEM-34",
+    "contract": "Yes \u00b7 Over 33.5",
+    "buy": "yes"
+   },
+   "result": null,
+   "close_odds": -1428
+  },
+  "401892552:KXNHLTOTAL-26OCT22NSHBOS-10:no": {
+   "id": "401892552:KXNHLTOTAL-26OCT22NSHBOS-10:no",
+   "sport": "nhl",
+   "game_id": "401892552",
+   "short": "NSH @ BOS",
+   "game": "Nashville Predators at Boston Bruins",
+   "start": "2026-10-22T23:00Z",
+   "market": "total",
+   "side": "under",
+   "line": 9.5,
+   "selection": "Under 9.5",
+   "group": "Game lines",
+   "market_name": "Total",
+   "odds": -1428,
+   "p": 0.9194,
+   "p_model": 0.8942,
+   "p_market": 0.9118,
+   "p_breakeven": 0.9346,
+   "edge": -0.0152,
+   "ev": -0.0163,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "NSH: 2.88 scored / 3.0 allowed per game this season; last 8: 2.88 / 3.0",
+    "BOS: 3.6 scored / 2.2 allowed per game this season; last 10: 3.6 / 2.2"
+   ],
+   "home": {
+    "name": "Boston Bruins",
+    "abbr": "BOS"
+   },
+   "away": {
+    "name": "Nashville Predators",
+    "abbr": "NSH"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxnhltotal/nhl-total-goals/kxnhltotal-26oct22nshbos",
+    "price": 93,
+    "ticker": "KXNHLTOTAL-26OCT22NSHBOS-10",
+    "contract": "No \u00b7 Over 9.5",
+    "buy": "no"
+   },
+   "result": null,
+   "close_odds": -1428
+  },
+  "401873010:KXNFLTOTAL-26OCT22NECHI-28:yes": {
+   "id": "401873010:KXNFLTOTAL-26OCT22NECHI-28:yes",
+   "sport": "nfl",
+   "game_id": "401873010",
+   "short": "NE @ CHI",
+   "game": "New England Patriots at Chicago Bears",
+   "start": "2026-10-23T00:15Z",
+   "market": "total",
+   "side": "over",
+   "line": 27.5,
+   "selection": "Over 27.5",
+   "group": "Game lines",
+   "market_name": "Total",
+   "odds": -2580,
+   "p": 0.9552,
+   "p_model": 0.9083,
+   "p_market": 0.9505,
+   "p_breakeven": 0.9627,
+   "edge": -0.0075,
+   "ev": -0.0078,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "NE: 22.67 scored / 18.83 allowed per game this season; last 6: 22.67 / 18.83",
+    "CHI: 25.0 scored / 19.83 allowed per game this season; last 6: 25.0 / 19.83",
+    "Line moved from +47.5 to +50.5 since opening (total)"
+   ],
+   "home": {
+    "name": "Chicago Bears",
+    "abbr": "CHI"
+   },
+   "away": {
+    "name": "New England Patriots",
+    "abbr": "NE"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxnfltotal/pro-football-total-points/kxnfltotal-26oct22nechi",
+    "price": 96,
+    "ticker": "KXNFLTOTAL-26OCT22NECHI-28",
+    "contract": "Yes \u00b7 Over 27.5",
+    "buy": "yes"
+   },
+   "result": null,
+   "close_odds": -2580
+  },
+  "401873010:KXNFLTOTAL-26OCT22NECHI-70:no": {
+   "id": "401873010:KXNFLTOTAL-26OCT22NECHI-70:no",
+   "sport": "nfl",
+   "game_id": "401873010",
+   "short": "NE @ CHI",
+   "game": "New England Patriots at Chicago Bears",
+   "start": "2026-10-23T00:15Z",
+   "market": "total",
+   "side": "under",
+   "line": 69.5,
+   "selection": "Under 69.5",
+   "group": "Game lines",
+   "market_name": "Total",
+   "odds": -1087,
+   "p": 0.9142,
+   "p_model": 0.9612,
+   "p_market": 0.901,
+   "p_breakeven": 0.9157,
+   "edge": -0.0015,
+   "ev": -0.0016,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "NE: 22.67 scored / 18.83 allowed per game this season; last 6: 22.67 / 18.83",
+    "CHI: 25.0 scored / 19.83 allowed per game this season; last 6: 25.0 / 19.83",
+    "Line moved from +47.5 to +50.5 since opening (total)"
+   ],
+   "home": {
+    "name": "Chicago Bears",
+    "abbr": "CHI"
+   },
+   "away": {
+    "name": "New England Patriots",
+    "abbr": "NE"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxnfltotal/pro-football-total-points/kxnfltotal-26oct22nechi",
+    "price": 91,
+    "ticker": "KXNFLTOTAL-26OCT22NECHI-70",
+    "contract": "No \u00b7 Over 69.5",
+    "buy": "no"
+   },
+   "result": null,
+   "close_odds": -1087
+  },
+  "401862807:KXNCAAFGAME-26OCT22ECUMEM-MEM:yes": {
+   "id": "401862807:KXNCAAFGAME-26OCT22ECUMEM-MEM:yes",
+   "sport": "cfb",
+   "game_id": "401862807",
+   "short": "ECU @ MEM",
+   "game": "East Carolina Pirates at Memphis Tigers",
+   "start": "2026-10-22T23:30Z",
+   "market": "ml",
+   "side": "home",
+   "selection": "MEM to win",
+   "group": "Game lines",
+   "market_name": "Winner",
+   "odds": -381,
+   "p": 0.7867,
+   "p_model": 0.8015,
+   "p_market": 0.7723,
+   "p_breakeven": 0.792,
+   "edge": -0.0053,
+   "ev": -0.0067,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "MEM ranks #25 in offense and #68 in defense of 189 (schedule-adjusted, recent games weighted more)",
+    "Last 7: 5-2, scoring 35.43 and allowing 22.29 pts/game (season: 35.43 / 22.29)",
+    "At home: 41.67 scored / 19.33 allowed per game",
+    "Record 5-2",
+    "Price moved -395 \u2192 -425 since opening, money moving toward MEM"
+   ],
+   "home": {
+    "name": "Memphis Tigers",
+    "abbr": "MEM"
+   },
+   "away": {
+    "name": "East Carolina Pirates",
+    "abbr": "ECU"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxncaafgame/college-football-game/kxncaafgame-26oct22ecumem",
+    "price": 78,
+    "ticker": "KXNCAAFGAME-26OCT22ECUMEM-MEM",
+    "contract": "Yes \u00b7 Memphis",
+    "buy": "yes"
+   },
+   "result": null,
+   "close_odds": -381
+  },
+  "401915553:KXUELTOTAL-26OCT22BESCRY-1:yes": {
+   "id": "401915553:KXUELTOTAL-26OCT22BESCRY-1:yes",
+   "sport": "soccer_uefa.europa",
+   "game_id": "401915553",
+   "short": "CRY @ BES",
+   "game": "Crystal Palace at Besiktas",
+   "start": "2026-10-22T19:00Z",
+   "market": "total",
+   "side": "over",
+   "line": 0.5,
+   "selection": "Over 0.5",
+   "group": "Game lines",
+   "market_name": "Total",
+   "odds": -2580,
+   "p": 0.9568,
+   "p_model": 0.9373,
+   "p_market": 0.9505,
+   "p_breakeven": 0.9627,
+   "edge": -0.0059,
+   "ev": -0.0061,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "CRY: 3.0 scored / 1.5 allowed per game this season; last 2: 3.0 / 1.5",
+    "BES: 3.5 scored / 1.5 allowed per game this season; last 2: 3.5 / 1.5"
+   ],
+   "home": {
+    "name": "Besiktas",
+    "abbr": "BES"
+   },
+   "away": {
+    "name": "Crystal Palace",
+    "abbr": "CRY"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxueltotal/europa-league-total/kxueltotal-26oct22bescry",
+    "price": 96,
+    "ticker": "KXUELTOTAL-26OCT22BESCRY-1",
+    "contract": "Yes \u00b7 Over 0.5",
+    "buy": "yes"
+   },
+   "result": null,
+   "close_odds": -2580
+  },
+  "401869845:KXNCAAFTOTAL-26OCT22JMUAPP-80:no": {
+   "id": "401869845:KXNCAAFTOTAL-26OCT22JMUAPP-80:no",
+   "sport": "cfb",
+   "game_id": "401869845",
+   "short": "JMU @ APP",
+   "game": "James Madison Dukes at App State Mountaineers",
+   "start": "2026-10-22T23:00Z",
+   "market": "total",
+   "side": "under",
+   "line": 79.5,
+   "selection": "Under 79.5",
+   "group": "Game lines",
+   "market_name": "Total",
+   "odds": -1236,
+   "p": 0.9208,
+   "p_model": 0.9315,
+   "p_market": 0.9109,
+   "p_breakeven": 0.9252,
+   "edge": -0.0044,
+   "ev": -0.0048,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "JMU: 42.86 scored / 16.0 allowed per game this season; last 7: 42.86 / 16.0",
+    "APP: 29.5 scored / 21.83 allowed per game this season; last 6: 29.5 / 21.83"
+   ],
+   "home": {
+    "name": "App State Mountaineers",
+    "abbr": "APP"
+   },
+   "away": {
+    "name": "James Madison Dukes",
+    "abbr": "JMU"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxncaaftotal/college-football-total-points/kxncaaftotal-26oct22jmuapp",
+    "price": 92,
+    "ticker": "KXNCAAFTOTAL-26OCT22JMUAPP-80",
+    "contract": "No \u00b7 Over 79.5",
+    "buy": "no"
+   },
+   "result": null,
+   "close_odds": -1236
+  }
+ },
+ "parlays": [
+  {
+   "legs": [
+    "401915552:KXUELTOTAL-26OCT22BOUACM-6:no",
+    "401862807:KXNCAAFTOTAL-26OCT22ECUMEM-34:yes"
+   ],
+   "n": 2,
+   "mode": "safest",
+   "p": 0.8634,
+   "decimal": 1.145,
+   "american": -690,
+   "ev": -0.0114,
+   "tier": "lock",
+   "name": "lock_2",
+   "result": null
+  },
+  {
+   "legs": [
+    "401869845:KXNCAAFTOTAL-26OCT22JMUAPP-80:no",
+    "401892552:KXNHLTOTAL-26OCT22NSHBOS-10:no",
+    "401873010:KXNFLTOTAL-26OCT22NECHI-70:no"
+   ],
+   "n": 3,
+   "mode": "safest",
+   "p": 0.7739,
+   "decimal": 1.263,
+   "american": -380,
+   "ev": -0.0225,
+   "tier": "lock",
+   "name": "lock_3",
+   "result": null
+  }
+ ],
+ "straights": [],
+ "straights_best": [
+  "401862807:KXNCAAFGAME-26OCT22ECUMEM-MEM:yes",
+  "401892560:KXNHLGAME-26OCT22MINCGY-MIN:yes",
+  "401915553:KXUELTOTAL-26OCT22BESCRY-1:yes",
+  "401909093:KXNBATOTAL-26OCT22CLEPHI-208:yes",
+  "401873010:KXNFLTOTAL-26OCT22NECHI-28:yes",
+  "401892557:KXNHLTOTAL-26OCT22LANYI-10:no"
+ ],
+ "locks": [
+  "401869845:KXNCAAFGAME-26OCT22JMUAPP-JMU:yes",
+  "401915552:KXUELTOTAL-26OCT22BOUACM-1:yes",
+  "401915554:KXUELTOTAL-26OCT22OLYSPA-1:yes",
+  "401871056:KXNCAAFTOTAL-26OCT22LIBKENN-28:yes",
+  "401892559:KXNHLTOTAL-26OCT22WPGDAL-10:no",
+  "401909094:KXNBATOTAL-26OCT22DENOKC-211:yes"
+ ]
+}
