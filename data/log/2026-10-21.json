@@ -88,7 +88,7 @@
     "contract": "No \u00b7 Over 5.5",
     "buy": "no"
    },
-   "result": null,
+   "result": "L",
    "close_odds": -1236
   },
   "401876933:KXLIGAMXTOTAL-26OCT21PUEMON-1:yes": {
@@ -132,7 +132,7 @@
     "contract": "Yes \u00b7 Over 0.5",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -2042
   },
   "401909838:KXNBATOTAL-26OCT21UTAMEM-217:yes": {
@@ -177,7 +177,7 @@
     "contract": "Yes \u00b7 Over 216.5",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -1428
   },
   "401909840:KXNBATOTAL-26OCT21DALHOU-256:no": {
@@ -222,7 +222,7 @@
     "contract": "No \u00b7 Over 255.5",
     "buy": "no"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -1236
   },
   "401915394:KXUCLTOTAL-26OCT21AVLVIK-2:yes": {
@@ -357,7 +357,7 @@
     "contract": "Yes \u00b7 Toronto",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -430
   },
   "401876930:KXLIGAMXTOTAL-26OCT21PACCRA-1:yes": {
@@ -445,7 +445,7 @@
     "contract": "No \u00b7 Over 5.5",
     "buy": "no"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -1684
   },
   "401880779:KXEFLL1TOTAL-26OCT21REALEY-1:yes": {
@@ -535,7 +535,7 @@
     "contract": "Yes \u00b7 Houston",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -404
   },
   "401871070:KXNCAAFTOTAL-26OCT21NMSUSHSU-70:no": {
@@ -671,7 +671,7 @@
     "contract": "Yes \u00b7 Houston wins by over 1.5 points",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -360
   },
   "401915313:KXUCLTOTAL-26OCT21RMARBL-2:yes": {
@@ -779,7 +779,8 @@
    "ev": -0.0091,
    "tier": "lock",
    "name": "lock_2",
-   "result": null
+   "result": "W",
+   "missed": []
   },
   {
    "legs": [
@@ -795,7 +796,10 @@
    "ev": -0.0158,
    "tier": "lock",
    "name": "lock_3",
-   "result": null
+   "result": "L",
+   "missed": [
+    "401876932:KXLIGAMXTOTAL-26OCT21ATLAME-6:no"
+   ]
   },
   {
    "legs": [
