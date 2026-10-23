@@ -93,7 +93,7 @@
     "buy": "yes"
    },
    "result": null,
-   "close_odds": -263
+   "close_odds": -251
   },
   "401908042:KXMLBGAME-26OCT232000TBMIL-MIL:yes": {
    "id": "401908042:KXMLBGAME-26OCT232000TBMIL-MIL:yes",
@@ -451,7 +451,7 @@
     "buy": "yes"
    },
    "result": null,
-   "close_odds": -1684
+   "close_odds": -1428
   },
   "401876717:KXLIGUE2TOTAL-26OCT23CFAEAG-6:no": {
    "id": "401876717:KXLIGUE2TOTAL-26OCT23CFAEAG-6:no",
@@ -494,7 +494,7 @@
     "contract": "No \u00b7 Over 5.5",
     "buy": "no"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -2580
   },
   "401882836:KXLALIGAGAME-26OCT23ALAMCF-ALA:yes": {
@@ -991,7 +991,7 @@
     "contract": "Yes \u00b7 Over 0.5",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -1428
   },
   "401861965:KXNCAAFSPREAD-26OCT23MASSCONN-CONN2:yes": {
@@ -1041,7 +1041,7 @@
     "buy": "yes"
    },
    "result": null,
-   "close_odds": -489
+   "close_odds": -458
   },
   "401879253:KXEPLTOTAL-26OCT23IPSNFO-6:no": {
    "id": "401879253:KXEPLTOTAL-26OCT23IPSNFO-6:no",
