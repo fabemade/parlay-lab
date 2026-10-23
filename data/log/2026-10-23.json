@@ -1,0 +1,1161 @@
+{
+ "date": "2026-10-23",
+ "locked_at": "2026-10-23T12:35-04:00",
+ "legs": {
+  "401864525:KXNCAAFGAME-26OCT23AFAWYO-AFA:yes": {
+   "id": "401864525:KXNCAAFGAME-26OCT23AFAWYO-AFA:yes",
+   "sport": "cfb",
+   "game_id": "401864525",
+   "short": "AFA @ WYO",
+   "game": "Air Force Falcons at Wyoming Cowboys",
+   "start": "2026-10-24T01:00Z",
+   "market": "ml",
+   "side": "away",
+   "selection": "AFA to win",
+   "group": "Game lines",
+   "market_name": "Winner",
+   "odds": -218,
+   "p": 0.671,
+   "p_model": 0.6531,
+   "p_market": 0.6634,
+   "p_breakeven": 0.6855,
+   "edge": -0.0145,
+   "ev": -0.0212,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "AFA ranks #66 in offense and #82 in defense of 187 (schedule-adjusted, recent games weighted more)",
+    "Last 6: 5-1, scoring 30.83 and allowing 19.67 pts/game (season: 30.83 / 19.67). Current streak: W4",
+    "On the road: 32.0 scored / 20.0 allowed per game",
+    "Record 5-1",
+    "Price moved -230 \u2192 -218 since opening, money moving away from AFA"
+   ],
+   "home": {
+    "name": "Wyoming Cowboys",
+    "abbr": "WYO"
+   },
+   "away": {
+    "name": "Air Force Falcons",
+    "abbr": "AFA"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxncaafgame/college-football-game/kxncaafgame-26oct23afawyo",
+    "price": 67,
+    "ticker": "KXNCAAFGAME-26OCT23AFAWYO-AFA",
+    "contract": "Yes \u00b7 Air Force",
+    "buy": "yes"
+   },
+   "result": null,
+   "close_odds": -218
+  },
+  "401909844:KXNBAGAME-26OCT23DALIND-IND:yes": {
+   "id": "401909844:KXNBAGAME-26OCT23DALIND-IND:yes",
+   "sport": "nba",
+   "game_id": "401909844",
+   "short": "DAL @ IND",
+   "game": "Dallas Mavericks at Indiana Pacers",
+   "start": "2026-10-23T23:00Z",
+   "market": "ml",
+   "side": "home",
+   "selection": "IND to win",
+   "group": "Game lines",
+   "market_name": "Winner",
+   "odds": -263,
+   "p": 0.7052,
+   "p_model": 0.6434,
+   "p_market": 0.703,
+   "p_breakeven": 0.7244,
+   "edge": -0.0192,
+   "ev": -0.0265,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "IND ranks #10 in offense and #26 in defense of 32 (schedule-adjusted, recent games weighted more)",
+    "Last 1: 1-0, scoring 123.0 and allowing 120.0 pts/game (season: 123.0 / 120.0)",
+    "Record 1-0 (home 0-0)",
+    "Injuries: T.J. McConnell (G, Out), Johnny Furphy (G, Out)",
+    "Playing the 2nd night of a back-to-back (historically worth about -1 to -1.5 pts in the NBA; tired legs and often the backup goalie in the NHL)",
+    "Price moved -205 \u2192 -265 since opening, money moving toward IND"
+   ],
+   "home": {
+    "name": "Indiana Pacers",
+    "abbr": "IND"
+   },
+   "away": {
+    "name": "Dallas Mavericks",
+    "abbr": "DAL"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxnbagame/nba-game/kxnbagame-26oct23dalind",
+    "price": 71,
+    "ticker": "KXNBAGAME-26OCT23DALIND-IND",
+    "contract": "Yes \u00b7 Indiana",
+    "buy": "yes"
+   },
+   "result": null,
+   "close_odds": -263
+  },
+  "401908042:KXMLBGAME-26OCT232000TBMIL-MIL:yes": {
+   "id": "401908042:KXMLBGAME-26OCT232000TBMIL-MIL:yes",
+   "sport": "mlb",
+   "game_id": "401908042",
+   "short": "TB @ MIL",
+   "game": "Tampa Bay Rays at Milwaukee Brewers",
+   "start": "2026-10-24T00:00Z",
+   "market": "ml",
+   "side": "home",
+   "selection": "MIL to win",
+   "group": "Game lines",
+   "market_name": "Winner",
+   "odds": -183,
+   "p": 0.6317,
+   "p_model": 0.6082,
+   "p_market": 0.63,
+   "p_breakeven": 0.6463,
+   "edge": -0.0146,
+   "ev": -0.0226,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "MIL ranks #2 in offense and #2 in defense of 30 (schedule-adjusted, recent games weighted more)",
+    "Last 10: 9-1, scoring 4.3 and allowing 2.7 runs/game (season: 5.09 / 3.76). Current streak: W5",
+    "At home: 5.45 scored / 3.42 allowed per game",
+    "Record 103-59 (home 55-26)",
+    "Injuries: Grant Anderson (RP, 15-Day-IL), Quinn Priester (SP, 60-Day-IL), Angel Zerpa (RP, 60-Day-IL), Brian Fitzpatrick (RP, 60-Day-IL)",
+    "Starter Logan Henderson (RHP): 2.47 ERA, 3.32 FIP over 98 IP, 2.17 ERA last 5 starts. Projects below the team's usual pitching (-4% runs allowed)",
+    "Price moved -160 \u2192 -192 since opening, money moving toward MIL"
+   ],
+   "home": {
+    "name": "Milwaukee Brewers",
+    "abbr": "MIL"
+   },
+   "away": {
+    "name": "Tampa Bay Rays",
+    "abbr": "TB"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxmlbgame/professional-baseball-game/kxmlbgame-26oct232000tbmil",
+    "price": 63,
+    "ticker": "KXMLBGAME-26OCT232000TBMIL-MIL",
+    "contract": "Yes \u00b7 Milwaukee",
+    "buy": "yes"
+   },
+   "result": null,
+   "close_odds": -183
+  },
+  "401885081:KXBUNDESLIGA2TOTAL-26OCT24BSCARM-1:yes": {
+   "id": "401885081:KXBUNDESLIGA2TOTAL-26OCT24BSCARM-1:yes",
+   "sport": "soccer_ger.2",
+   "game_id": "401885081",
+   "short": "DSC @ BSC",
+   "game": "Arminia Bielefeld at Hertha Berlin",
+   "start": "2026-10-24T11:00Z",
+   "market": "total",
+   "side": "over",
+   "line": 0.5,
+   "selection": "Over 0.5",
+   "group": "Game lines",
+   "market_name": "Total",
+   "odds": -2580,
+   "p": 0.9577,
+   "p_model": 0.9429,
+   "p_market": 0.9505,
+   "p_breakeven": 0.9627,
+   "edge": -0.005,
+   "ev": -0.0052,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "DSC: 1.62 scored / 1.62 allowed per game this season; last 8: 1.62 / 1.62",
+    "BSC: 2.38 scored / 1.0 allowed per game this season; last 8: 2.38 / 1.0"
+   ],
+   "home": {
+    "name": "Hertha Berlin",
+    "abbr": "BSC"
+   },
+   "away": {
+    "name": "Arminia Bielefeld",
+    "abbr": "DSC"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxbundesliga2total/point-total/kxbundesliga2total-26oct24bscarm",
+    "price": 96,
+    "ticker": "KXBUNDESLIGA2TOTAL-26OCT24BSCARM-1",
+    "contract": "Yes \u00b7 Over 0.5",
+    "buy": "yes"
+   },
+   "result": null,
+   "close_odds": -2580
+  },
+  "401883152:KXLALIGA2TOTAL-26OCT23GCFVLL-4:no": {
+   "id": "401883152:KXLALIGA2TOTAL-26OCT23GCFVLL-4:no",
+   "sport": "soccer_esp.2",
+   "game_id": "401883152",
+   "short": "VLL @ GRA",
+   "game": "Real Valladolid at Granada",
+   "start": "2026-10-23T18:30Z",
+   "market": "total",
+   "side": "under",
+   "line": 3.5,
+   "selection": "Under 3.5",
+   "group": "Game lines",
+   "market_name": "Total",
+   "odds": -340,
+   "p": 0.7625,
+   "p_model": 0.7273,
+   "p_market": 0.7525,
+   "p_breakeven": 0.7728,
+   "edge": -0.0103,
+   "ev": -0.0133,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "VLL: 1.5 scored / 1.4 allowed per game this season; last 10: 1.5 / 1.4",
+    "GRA: 1.6 scored / 1.3 allowed per game this season; last 10: 1.6 / 1.3"
+   ],
+   "home": {
+    "name": "Granada",
+    "abbr": "GRA"
+   },
+   "away": {
+    "name": "Real Valladolid",
+    "abbr": "VLL"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxlaliga2total/point-total/kxlaliga2total-26oct23gcfvll",
+    "price": 76,
+    "ticker": "KXLALIGA2TOTAL-26OCT23GCFVLL-4",
+    "contract": "No \u00b7 Over 3.5",
+    "buy": "no"
+   },
+   "result": null,
+   "close_odds": -340
+  },
+  "401879253:KXEPLTOTAL-26OCT23IPSNFO-1:yes": {
+   "id": "401879253:KXEPLTOTAL-26OCT23IPSNFO-1:yes",
+   "sport": "soccer_eng.1",
+   "game_id": "401879253",
+   "short": "NFO @ IPS",
+   "game": "Nottingham Forest at Ipswich Town",
+   "start": "2026-10-23T19:00Z",
+   "market": "total",
+   "side": "over",
+   "line": 0.5,
+   "selection": "Over 0.5",
+   "group": "Game lines",
+   "market_name": "Total",
+   "odds": -2042,
+   "p": 0.9482,
+   "p_model": 0.9262,
+   "p_market": 0.9406,
+   "p_breakeven": 0.9533,
+   "edge": -0.0051,
+   "ev": -0.0053,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "NFO: 0.71 scored / 1.29 allowed per game this season; last 7: 0.71 / 1.29",
+    "IPS: 1.57 scored / 2.14 allowed per game this season; last 7: 1.57 / 2.14"
+   ],
+   "home": {
+    "name": "Ipswich Town",
+    "abbr": "IPS"
+   },
+   "away": {
+    "name": "Nottingham Forest",
+    "abbr": "NFO"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxepltotal/english-premier-league-total-goals/kxepltotal-26oct23ipsnfo",
+    "price": 95,
+    "ticker": "KXEPLTOTAL-26OCT23IPSNFO-1",
+    "contract": "Yes \u00b7 Over 0.5",
+    "buy": "yes"
+   },
+   "result": null,
+   "close_odds": -2042
+  },
+  "401880207:KXEFLCHAMPIONSHIPTOTAL-26OCT23BOLMID-2:yes": {
+   "id": "401880207:KXEFLCHAMPIONSHIPTOTAL-26OCT23BOLMID-2:yes",
+   "sport": "soccer_eng.2",
+   "game_id": "401880207",
+   "short": "MID @ BOL",
+   "game": "Middlesbrough at Bolton Wanderers",
+   "start": "2026-10-23T19:00Z",
+   "market": "total",
+   "side": "over",
+   "line": 1.5,
+   "selection": "Over 1.5",
+   "group": "Game lines",
+   "market_name": "Total",
+   "odds": -719,
+   "p": 0.8692,
+   "p_model": 0.7671,
+   "p_market": 0.8614,
+   "p_breakeven": 0.8779,
+   "edge": -0.0087,
+   "ev": -0.0099,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "MID: 2.0 scored / 1.45 allowed per game this season; last 10: 2.0 / 1.5",
+    "BOL: 1.36 scored / 1.64 allowed per game this season; last 10: 1.3 / 1.7"
+   ],
+   "home": {
+    "name": "Bolton Wanderers",
+    "abbr": "BOL"
+   },
+   "away": {
+    "name": "Middlesbrough",
+    "abbr": "MID"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxeflchampionshiptotal/efl-championship-total/kxeflchampionshiptotal-26oct23bolmid",
+    "price": 87,
+    "ticker": "KXEFLCHAMPIONSHIPTOTAL-26OCT23BOLMID-2",
+    "contract": "Yes \u00b7 Over 1.5",
+    "buy": "yes"
+   },
+   "result": null,
+   "close_odds": -719
+  },
+  "401909846:KXNBATOTAL-26OCT23TORWAS-210:yes": {
+   "id": "401909846:KXNBATOTAL-26OCT23TORWAS-210:yes",
+   "sport": "nba",
+   "game_id": "401909846",
+   "short": "TOR @ WSH",
+   "game": "Toronto Raptors at Washington Wizards",
+   "start": "2026-10-23T23:00Z",
+   "market": "total",
+   "side": "over",
+   "line": 209.5,
+   "selection": "Over 209.5",
+   "group": "Game lines",
+   "market_name": "Total",
+   "odds": -2042,
+   "p": 0.948,
+   "p_model": 0.8919,
+   "p_market": 0.9406,
+   "p_breakeven": 0.9533,
+   "edge": -0.0053,
+   "ev": -0.0056,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "TOR: 135.0 scored / 92.0 allowed per game this season; last 1: 135.0 / 92.0",
+    "WSH: 128.0 scored / 116.0 allowed per game this season; last 1: 128.0 / 116.0",
+    "Line moved from +235.5 to +237.5 since opening (total)"
+   ],
+   "home": {
+    "name": "Washington Wizards",
+    "abbr": "WSH"
+   },
+   "away": {
+    "name": "Toronto Raptors",
+    "abbr": "TOR"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxnbatotal/nba-total/kxnbatotal-26oct23torwas",
+    "price": 95,
+    "ticker": "KXNBATOTAL-26OCT23TORWAS-210",
+    "contract": "Yes \u00b7 Over 209.5",
+    "buy": "yes"
+   },
+   "result": null,
+   "close_odds": -2042
+  },
+  "401841287:KXBRASILEIROTOTAL-26OCT23CRUCR-6:no": {
+   "id": "401841287:KXBRASILEIROTOTAL-26OCT23CRUCR-6:no",
+   "sport": "soccer_bra.1",
+   "game_id": "401841287",
+   "short": "REMO @ CRU",
+   "game": "Remo at Cruzeiro",
+   "start": "2026-10-23T23:00Z",
+   "market": "total",
+   "side": "under",
+   "line": 5.5,
+   "selection": "Under 5.5",
+   "group": "Game lines",
+   "market_name": "Total",
+   "odds": -719,
+   "p": 0.8711,
+   "p_model": 0.9367,
+   "p_market": 0.8529,
+   "p_breakeven": 0.8779,
+   "edge": -0.0068,
+   "ev": -0.0077,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "REMO: 1.0 scored / 1.54 allowed per game this season; last 10: 1.0 / 1.5",
+    "CRU: 2.0 scored / 1.38 allowed per game this season; last 10: 2.3 / 1.6"
+   ],
+   "home": {
+    "name": "Cruzeiro",
+    "abbr": "CRU"
+   },
+   "away": {
+    "name": "Remo",
+    "abbr": "REMO"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxbrasileirototal/brasileiro-total/kxbrasileirototal-26oct23crucr",
+    "price": 87,
+    "ticker": "KXBRASILEIROTOTAL-26OCT23CRUCR-6",
+    "contract": "No \u00b7 Over 5.5",
+    "buy": "no"
+   },
+   "result": null,
+   "close_odds": -719
+  },
+  "401909849:KXNBATOTAL-26OCT23NOPUTA-215:yes": {
+   "id": "401909849:KXNBATOTAL-26OCT23NOPUTA-215:yes",
+   "sport": "nba",
+   "game_id": "401909849",
+   "short": "NO @ UTAH",
+   "game": "New Orleans Pelicans at Utah Jazz",
+   "start": "2026-10-24T01:30Z",
+   "market": "total",
+   "side": "over",
+   "line": 214.5,
+   "selection": "Over 214.5",
+   "group": "Game lines",
+   "market_name": "Total",
+   "odds": -1428,
+   "p": 0.9302,
+   "p_model": 0.9053,
+   "p_market": 0.9208,
+   "p_breakeven": 0.9346,
+   "edge": -0.0044,
+   "ev": -0.0047,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "NO: 120.0 scored / 123.0 allowed per game this season; last 1: 120.0 / 123.0",
+    "UTAH: 103.0 scored / 123.0 allowed per game this season; last 1: 103.0 / 123.0",
+    "Line moved from +241.5 to +239.5 since opening (total)"
+   ],
+   "home": {
+    "name": "Utah Jazz",
+    "abbr": "UTAH"
+   },
+   "away": {
+    "name": "New Orleans Pelicans",
+    "abbr": "NO"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxnbatotal/nba-total/kxnbatotal-26oct23noputa",
+    "price": 93,
+    "ticker": "KXNBATOTAL-26OCT23NOPUTA-215",
+    "contract": "Yes \u00b7 Over 214.5",
+    "buy": "yes"
+   },
+   "result": null,
+   "close_odds": -1428
+  },
+  "401876717:KXLIGUE2TOTAL-26OCT23CFAEAG-6:no": {
+   "id": "401876717:KXLIGUE2TOTAL-26OCT23CFAEAG-6:no",
+   "sport": "soccer_fra.2",
+   "game_id": "401876717",
+   "short": "EAG @ CLE",
+   "game": "Guingamp at Clermont Foot",
+   "start": "2026-10-23T18:00Z",
+   "market": "total",
+   "side": "under",
+   "line": 5.5,
+   "selection": "Under 5.5",
+   "group": "Game lines",
+   "market_name": "Total",
+   "odds": -2580,
+   "p": 0.9505,
+   "p_model": 0.9508,
+   "p_market": 0.9412,
+   "p_breakeven": 0.9627,
+   "edge": -0.0122,
+   "ev": -0.0127,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "EAG: 1.22 scored / 1.67 allowed per game this season; last 9: 1.22 / 1.67",
+    "CLE: 1.0 scored / 1.33 allowed per game this season; last 9: 1.0 / 1.33"
+   ],
+   "home": {
+    "name": "Clermont Foot",
+    "abbr": "CLE"
+   },
+   "away": {
+    "name": "Guingamp",
+    "abbr": "EAG"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxligue2total/point-total/kxligue2total-26oct23cfaeag",
+    "price": 96,
+    "ticker": "KXLIGUE2TOTAL-26OCT23CFAEAG-6",
+    "contract": "No \u00b7 Over 5.5",
+    "buy": "no"
+   },
+   "result": null,
+   "close_odds": -2580
+  },
+  "401882836:KXLALIGAGAME-26OCT23ALAMCF-ALA:yes": {
+   "id": "401882836:KXLALIGAGAME-26OCT23ALAMCF-ALA:yes",
+   "sport": "soccer_esp.1",
+   "game_id": "401882836",
+   "short": "MCF @ ALA",
+   "game": "M\u00e1laga at Alav\u00e9s",
+   "start": "2026-10-23T19:00Z",
+   "market": "ml",
+   "side": "home",
+   "selection": "ALA to win",
+   "group": "Game lines",
+   "market_name": "Winner",
+   "odds": -161,
+   "p": 0.6026,
+   "p_model": 0.64,
+   "p_market": 0.5941,
+   "p_breakeven": 0.6168,
+   "edge": -0.0142,
+   "ev": -0.023,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "ALA ranks #12 in offense and #13 in defense of 23 (schedule-adjusted, recent games weighted more)",
+    "Last 9: 3-6, scoring 1.44 and allowing 1.11 goals/game (season: 1.44 / 1.11)",
+    "At home: 2.0 scored / 1.0 allowed per game",
+    "Record 3-2-4"
+   ],
+   "home": {
+    "name": "Alav\u00e9s",
+    "abbr": "ALA"
+   },
+   "away": {
+    "name": "M\u00e1laga",
+    "abbr": "MCF"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxlaligagame/la-liga-game/kxlaligagame-26oct23alamcf",
+    "price": 60,
+    "ticker": "KXLALIGAGAME-26OCT23ALAMCF-ALA",
+    "contract": "Yes \u00b7 Alaves",
+    "buy": "yes"
+   },
+   "result": null,
+   "close_odds": -161
+  },
+  "401841638:KXARGPREMDIVTOTAL-26OCT23GLPCAS-6:no": {
+   "id": "401841638:KXARGPREMDIVTOTAL-26OCT23GLPCAS-6:no",
+   "sport": "soccer_arg.1",
+   "game_id": "401841638",
+   "short": "SARM @ GLP",
+   "game": "Sarmiento (Jun\u00edn) at Gimnasia La Plata",
+   "start": "2026-10-23T21:00Z",
+   "market": "total",
+   "side": "under",
+   "line": 5.5,
+   "selection": "Under 5.5",
+   "group": "Game lines",
+   "market_name": "Total",
+   "odds": -2042,
+   "p": 0.9508,
+   "p_model": 0.9604,
+   "p_market": 0.9406,
+   "p_breakeven": 0.9533,
+   "edge": -0.0025,
+   "ev": -0.0026,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "SARM: 1.69 scored / 1.46 allowed per game this season; last 10: 1.6 / 1.2",
+    "GLP: 1.46 scored / 1.38 allowed per game this season; last 10: 1.5 / 1.5"
+   ],
+   "home": {
+    "name": "Gimnasia La Plata",
+    "abbr": "GLP"
+   },
+   "away": {
+    "name": "Sarmiento (Jun\u00edn)",
+    "abbr": "SARM"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxargpremdivtotal/argentina-premier-division-total/kxargpremdivtotal-26oct23glpcas",
+    "price": 95,
+    "ticker": "KXARGPREMDIVTOTAL-26OCT23GLPCAS-6",
+    "contract": "No \u00b7 Over 5.5",
+    "buy": "no"
+   },
+   "result": null,
+   "close_odds": -2042
+  },
+  "401909848:KXNBATOTAL-26OCT23CHIMIL-267:no": {
+   "id": "401909848:KXNBATOTAL-26OCT23CHIMIL-267:no",
+   "sport": "nba",
+   "game_id": "401909848",
+   "short": "CHI @ MIL",
+   "game": "Chicago Bulls at Milwaukee Bucks",
+   "start": "2026-10-23T20:00Z",
+   "market": "total",
+   "side": "under",
+   "line": 266.5,
+   "selection": "Under 266.5",
+   "group": "Game lines",
+   "market_name": "Total",
+   "odds": -1428,
+   "p": 0.9326,
+   "p_model": 0.9635,
+   "p_market": 0.9208,
+   "p_breakeven": 0.9346,
+   "edge": -0.002,
+   "ev": -0.0021,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "CHI: 92.0 scored / 135.0 allowed per game this season; last 1: 92.0 / 135.0",
+    "MIL: 116.0 scored / 128.0 allowed per game this season; last 1: 116.0 / 128.0",
+    "Line moved from +239.5 to +240.5 since opening (total)"
+   ],
+   "home": {
+    "name": "Milwaukee Bucks",
+    "abbr": "MIL"
+   },
+   "away": {
+    "name": "Chicago Bulls",
+    "abbr": "CHI"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxnbatotal/nba-total/kxnbatotal-26oct23chimil",
+    "price": 93,
+    "ticker": "KXNBATOTAL-26OCT23CHIMIL-267",
+    "contract": "No \u00b7 Over 266.5",
+    "buy": "no"
+   },
+   "result": null,
+   "close_odds": -1428
+  },
+  "401909843:KXNBATOTAL-26OCT23ATLCHA-200:yes": {
+   "id": "401909843:KXNBATOTAL-26OCT23ATLCHA-200:yes",
+   "sport": "nba",
+   "game_id": "401909843",
+   "short": "ATL @ CHA",
+   "game": "Atlanta Hawks at Charlotte Hornets",
+   "start": "2026-10-23T23:00Z",
+   "market": "total",
+   "side": "over",
+   "line": 199.5,
+   "selection": "Over 199.5",
+   "group": "Game lines",
+   "market_name": "Total",
+   "odds": -2042,
+   "p": 0.9489,
+   "p_model": 0.9339,
+   "p_market": 0.9406,
+   "p_breakeven": 0.9533,
+   "edge": -0.0044,
+   "ev": -0.0046,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "ATL: 132.0 scored / 125.0 allowed per game this season; last 1: 132.0 / 125.0",
+    "CHA: 110.0 scored / 103.0 allowed per game this season; last 1: 110.0 / 103.0"
+   ],
+   "home": {
+    "name": "Charlotte Hornets",
+    "abbr": "CHA"
+   },
+   "away": {
+    "name": "Atlanta Hawks",
+    "abbr": "ATL"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxnbatotal/nba-total/kxnbatotal-26oct23atlcha",
+    "price": 95,
+    "ticker": "KXNBATOTAL-26OCT23ATLCHA-200",
+    "contract": "Yes \u00b7 Over 199.5",
+    "buy": "yes"
+   },
+   "result": null,
+   "close_odds": -2042
+  },
+  "401909851:KXNBAGAME-26OCT23LACLAL-LAL:yes": {
+   "id": "401909851:KXNBAGAME-26OCT23LACLAL-LAL:yes",
+   "sport": "nba",
+   "game_id": "401909851",
+   "short": "LAC @ LAL",
+   "game": "LA Clippers at Los Angeles Lakers",
+   "start": "2026-10-24T02:00Z",
+   "market": "ml",
+   "side": "home",
+   "selection": "LAL to win",
+   "group": "Game lines",
+   "market_name": "Winner",
+   "odds": -360,
+   "p": 0.7629,
+   "p_model": 0.6537,
+   "p_market": 0.7624,
+   "p_breakeven": 0.7824,
+   "edge": -0.0195,
+   "ev": -0.0249,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "LAL ranks #16 in offense and #12 in defense of 32 (schedule-adjusted, recent games weighted more)",
+    "Last 1: 1-0, scoring 127.0 and allowing 105.0 pts/game (season: 127.0 / 105.0)",
+    "At home: 127.0 scored / 105.0 allowed per game",
+    "Record 1-0 (home 1-0)",
+    "Injuries: Adou Thiero (F, Out), Cameron Carr (G, Out)",
+    "Price moved -380 \u2192 -375 since opening, money moving away from LAL"
+   ],
+   "home": {
+    "name": "Los Angeles Lakers",
+    "abbr": "LAL"
+   },
+   "away": {
+    "name": "LA Clippers",
+    "abbr": "LAC"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxnbagame/nba-game/kxnbagame-26oct23laclal",
+    "price": 77,
+    "ticker": "KXNBAGAME-26OCT23LACLAL-LAL",
+    "contract": "Yes \u00b7 Los Angeles L",
+    "buy": "yes"
+   },
+   "result": null,
+   "close_odds": -360
+  },
+  "401862808:KXNCAAFTOTAL-26OCT23ARMYTLSA-31:yes": {
+   "id": "401862808:KXNCAAFTOTAL-26OCT23ARMYTLSA-31:yes",
+   "sport": "cfb",
+   "game_id": "401862808",
+   "short": "ARMY @ TLSA",
+   "game": "Army Black Knights at Tulsa Golden Hurricane",
+   "start": "2026-10-24T00:30Z",
+   "market": "total",
+   "side": "over",
+   "line": 30.5,
+   "selection": "Over 30.5",
+   "group": "Game lines",
+   "market_name": "Total",
+   "odds": -1428,
+   "p": 0.9307,
+   "p_model": 0.917,
+   "p_market": 0.9208,
+   "p_breakeven": 0.9346,
+   "edge": -0.0039,
+   "ev": -0.0042,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "ARMY: 34.83 scored / 20.0 allowed per game this season; last 6: 34.83 / 20.0",
+    "TLSA: 29.0 scored / 22.43 allowed per game this season; last 7: 29.0 / 22.43",
+    "Line moved from +50.5 to +52.5 since opening (total)"
+   ],
+   "home": {
+    "name": "Tulsa Golden Hurricane",
+    "abbr": "TLSA"
+   },
+   "away": {
+    "name": "Army Black Knights",
+    "abbr": "ARMY"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxncaaftotal/college-football-total-points/kxncaaftotal-26oct23armytlsa",
+    "price": 93,
+    "ticker": "KXNCAAFTOTAL-26OCT23ARMYTLSA-31",
+    "contract": "Yes \u00b7 Over 30.5",
+    "buy": "yes"
+   },
+   "result": null,
+   "close_odds": -1428
+  },
+  "401882836:KXLALIGATOTAL-26OCT23ALAMCF-4:no": {
+   "id": "401882836:KXLALIGATOTAL-26OCT23ALAMCF-4:no",
+   "sport": "soccer_esp.1",
+   "game_id": "401882836",
+   "short": "MCF @ ALA",
+   "game": "M\u00e1laga at Alav\u00e9s",
+   "start": "2026-10-23T19:00Z",
+   "market": "total",
+   "side": "under",
+   "line": 3.5,
+   "selection": "Under 3.5",
+   "group": "Game lines",
+   "market_name": "Total",
+   "odds": -340,
+   "p": 0.7635,
+   "p_model": 0.6883,
+   "p_market": 0.7525,
+   "p_breakeven": 0.7728,
+   "edge": -0.0093,
+   "ev": -0.012,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "MCF: 0.67 scored / 2.0 allowed per game this season; last 9: 0.67 / 2.0",
+    "ALA: 1.44 scored / 1.11 allowed per game this season; last 9: 1.44 / 1.11"
+   ],
+   "home": {
+    "name": "Alav\u00e9s",
+    "abbr": "ALA"
+   },
+   "away": {
+    "name": "M\u00e1laga",
+    "abbr": "MCF"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxlaligatotal/la-liga-total/kxlaligatotal-26oct23alamcf",
+    "price": 76,
+    "ticker": "KXLALIGATOTAL-26OCT23ALAMCF-4",
+    "contract": "No \u00b7 Over 3.5",
+    "buy": "no"
+   },
+   "result": null,
+   "close_odds": -340
+  },
+  "401876928:KXLIGAMXTOTAL-26OCT23NCXJUA-1:yes": {
+   "id": "401876928:KXLIGAMXTOTAL-26OCT23NCXJUA-1:yes",
+   "sport": "soccer_mex.1",
+   "game_id": "401876928",
+   "short": "JUA @ NCX",
+   "game": "FC Ju\u00e1rez at Necaxa",
+   "start": "2026-10-24T01:00Z",
+   "market": "total",
+   "side": "over",
+   "line": 0.5,
+   "selection": "Over 0.5",
+   "group": "Game lines",
+   "market_name": "Total",
+   "odds": -2042,
+   "p": 0.9489,
+   "p_model": 0.9368,
+   "p_market": 0.9406,
+   "p_breakeven": 0.9533,
+   "edge": -0.0044,
+   "ev": -0.0046,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "JUA: 0.62 scored / 2.46 allowed per game this season; last 10: 0.7 / 2.5",
+    "NCX: 1.15 scored / 2.0 allowed per game this season; last 10: 1.0 / 2.1",
+    "Line moved from +3.5 to +2.5 since opening (total)",
+    "\u26a0 The line has moved against this side since opening (a sharp-money signal), so the model defers more to the market"
+   ],
+   "home": {
+    "name": "Necaxa",
+    "abbr": "NCX"
+   },
+   "away": {
+    "name": "FC Ju\u00e1rez",
+    "abbr": "JUA"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxligamxtotal/liga-mx-total/kxligamxtotal-26oct23ncxjua",
+    "price": 95,
+    "ticker": "KXLIGAMXTOTAL-26OCT23NCXJUA-1",
+    "contract": "Yes \u00b7 Over 0.5",
+    "buy": "yes"
+   },
+   "result": null,
+   "close_odds": -2042
+  },
+  "401858272:KXNCAAFGAME-26OCT23NCSTSTAN-NCST:yes": {
+   "id": "401858272:KXNCAAFGAME-26OCT23NCSTSTAN-NCST:yes",
+   "sport": "cfb",
+   "game_id": "401858272",
+   "short": "NCSU @ STAN",
+   "game": "NC State Wolfpack at Stanford Cardinal",
+   "start": "2026-10-24T02:30Z",
+   "market": "ml",
+   "side": "away",
+   "selection": "NCSU to win",
+   "group": "Game lines",
+   "market_name": "Winner",
+   "odds": -290,
+   "p": 0.7301,
+   "p_model": 0.6899,
+   "p_market": 0.7228,
+   "p_breakeven": 0.7438,
+   "edge": -0.0137,
+   "ev": -0.0184,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "NCSU ranks #36 in offense and #89 in defense of 187 (schedule-adjusted, recent games weighted more)",
+    "Last 6: 3-3, scoring 33.0 and allowing 27.67 pts/game (season: 33.0 / 27.67)",
+    "On the road: 19.5 scored / 34.5 allowed per game",
+    "Record 3-3",
+    "Coming off a bye week (extra rest)",
+    "Price moved -278 \u2192 -298 since opening, money moving toward NCSU"
+   ],
+   "home": {
+    "name": "Stanford Cardinal",
+    "abbr": "STAN"
+   },
+   "away": {
+    "name": "NC State Wolfpack",
+    "abbr": "NCSU"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxncaafgame/college-football-game/kxncaafgame-26oct23ncststan",
+    "price": 73,
+    "ticker": "KXNCAAFGAME-26OCT23NCSTSTAN-NCST",
+    "contract": "Yes \u00b7 NC St.",
+    "buy": "yes"
+   },
+   "result": null,
+   "close_odds": -290
+  },
+  "401909852:KXNBAGAME-26OCT23PORSAC-POR:yes": {
+   "id": "401909852:KXNBAGAME-26OCT23PORSAC-POR:yes",
+   "sport": "nba",
+   "game_id": "401909852",
+   "short": "POR @ SAC",
+   "game": "Portland Trail Blazers at Sacramento Kings",
+   "start": "2026-10-24T02:00Z",
+   "market": "ml",
+   "side": "away",
+   "selection": "POR to win",
+   "group": "Game lines",
+   "market_name": "Winner",
+   "odds": -458,
+   "p": 0.8021,
+   "p_model": 0.7589,
+   "p_market": 0.7941,
+   "p_breakeven": 0.8208,
+   "edge": -0.0187,
+   "ev": -0.0228,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "POR ranks #17 in offense and #11 in defense of 32 (schedule-adjusted, recent games weighted more)",
+    "Last 1: 1-0, scoring 124.0 and allowing 83.0 pts/game (season: 124.0 / 83.0)",
+    "Record 1-0 (road 0-0)",
+    "Injuries: Branden Carlson (C, Out), Chris Youngblood (G, Out), Shaedon Sharpe (G, Out)",
+    "Price moved -230 \u2192 -470 since opening, money moving toward POR"
+   ],
+   "home": {
+    "name": "Sacramento Kings",
+    "abbr": "SAC"
+   },
+   "away": {
+    "name": "Portland Trail Blazers",
+    "abbr": "POR"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxnbagame/nba-game/kxnbagame-26oct23porsac",
+    "price": 81,
+    "ticker": "KXNBAGAME-26OCT23PORSAC-POR",
+    "contract": "Yes \u00b7 Portland",
+    "buy": "yes"
+   },
+   "result": null,
+   "close_odds": -458
+  },
+  "401876717:KXLIGUE2TOTAL-26OCT23CFAEAG-1:yes": {
+   "id": "401876717:KXLIGUE2TOTAL-26OCT23CFAEAG-1:yes",
+   "sport": "soccer_fra.2",
+   "game_id": "401876717",
+   "short": "EAG @ CLE",
+   "game": "Guingamp at Clermont Foot",
+   "start": "2026-10-23T18:00Z",
+   "market": "total",
+   "side": "over",
+   "line": 0.5,
+   "selection": "Over 0.5",
+   "group": "Game lines",
+   "market_name": "Total",
+   "odds": -1428,
+   "p": 0.9301,
+   "p_model": 0.9107,
+   "p_market": 0.9208,
+   "p_breakeven": 0.9346,
+   "edge": -0.0045,
+   "ev": -0.0048,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "EAG: 1.22 scored / 1.67 allowed per game this season; last 9: 1.22 / 1.67",
+    "CLE: 1.0 scored / 1.33 allowed per game this season; last 9: 1.0 / 1.33"
+   ],
+   "home": {
+    "name": "Clermont Foot",
+    "abbr": "CLE"
+   },
+   "away": {
+    "name": "Guingamp",
+    "abbr": "EAG"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxligue2total/point-total/kxligue2total-26oct23cfaeag",
+    "price": 93,
+    "ticker": "KXLIGUE2TOTAL-26OCT23CFAEAG-1",
+    "contract": "Yes \u00b7 Over 0.5",
+    "buy": "yes"
+   },
+   "result": null,
+   "close_odds": -1428
+  },
+  "401861965:KXNCAAFSPREAD-26OCT23MASSCONN-CONN2:yes": {
+   "id": "401861965:KXNCAAFSPREAD-26OCT23MASSCONN-CONN2:yes",
+   "sport": "cfb",
+   "game_id": "401861965",
+   "short": "MASS @ CONN",
+   "game": "Massachusetts Minutemen at UConn Huskies",
+   "start": "2026-10-23T23:00Z",
+   "market": "spread",
+   "side": "home",
+   "line": -1.5,
+   "selection": "CONN by 1.5+",
+   "group": "Game lines",
+   "market_name": "Spread",
+   "odds": -489,
+   "p": 0.8314,
+   "p_model": 0.8646,
+   "p_market": 0.8119,
+   "p_breakeven": 0.8303,
+   "edge": 0.0011,
+   "ev": 0.0013,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "CONN ranks #34 in offense and #104 in defense of 187 (schedule-adjusted, recent games weighted more)",
+    "Last 6: 3-3, scoring 35.67 and allowing 25.17 pts/game (season: 35.67 / 25.17)",
+    "At home: 37.0 scored / 29.0 allowed per game",
+    "Record 3-3",
+    "Coming off a bye week (extra rest)",
+    "Line moved from -15.5 to -13.5 since opening (spread)",
+    "\u26a0 The line has moved against this side since opening (a sharp-money signal), so the model defers more to the market"
+   ],
+   "home": {
+    "name": "UConn Huskies",
+    "abbr": "CONN"
+   },
+   "away": {
+    "name": "Massachusetts Minutemen",
+    "abbr": "MASS"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxncaafspread/college-football-spread/kxncaafspread-26oct23massconn",
+    "price": 82,
+    "ticker": "KXNCAAFSPREAD-26OCT23MASSCONN-CONN2",
+    "contract": "Yes \u00b7 UConn wins by over 1.5 points",
+    "buy": "yes"
+   },
+   "result": null,
+   "close_odds": -489
+  },
+  "401879253:KXEPLTOTAL-26OCT23IPSNFO-6:no": {
+   "id": "401879253:KXEPLTOTAL-26OCT23IPSNFO-6:no",
+   "sport": "soccer_eng.1",
+   "game_id": "401879253",
+   "short": "NFO @ IPS",
+   "game": "Nottingham Forest at Ipswich Town",
+   "start": "2026-10-23T19:00Z",
+   "market": "total",
+   "side": "under",
+   "line": 5.5,
+   "selection": "Under 5.5",
+   "group": "Game lines",
+   "market_name": "Total",
+   "odds": -1428,
+   "p": 0.932,
+   "p_model": 0.9333,
+   "p_market": 0.9208,
+   "p_breakeven": 0.9346,
+   "edge": -0.0026,
+   "ev": -0.0028,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "NFO: 0.71 scored / 1.29 allowed per game this season; last 7: 0.71 / 1.29",
+    "IPS: 1.57 scored / 2.14 allowed per game this season; last 7: 1.57 / 2.14"
+   ],
+   "home": {
+    "name": "Ipswich Town",
+    "abbr": "IPS"
+   },
+   "away": {
+    "name": "Nottingham Forest",
+    "abbr": "NFO"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxepltotal/english-premier-league-total-goals/kxepltotal-26oct23ipsnfo",
+    "price": 93,
+    "ticker": "KXEPLTOTAL-26OCT23IPSNFO-6",
+    "contract": "No \u00b7 Over 5.5",
+    "buy": "no"
+   },
+   "result": null,
+   "close_odds": -1428
+  }
+ },
+ "parlays": [
+  {
+   "legs": [
+    "401909848:KXNBATOTAL-26OCT23CHIMIL-267:no",
+    "401879253:KXEPLTOTAL-26OCT23IPSNFO-6:no"
+   ],
+   "n": 2,
+   "mode": "safest",
+   "p": 0.8692,
+   "decimal": 1.145,
+   "american": -690,
+   "ev": -0.0048,
+   "tier": "lock",
+   "name": "lock_2",
+   "result": null
+  },
+  {
+   "legs": [
+    "401862808:KXNCAAFTOTAL-26OCT23ARMYTLSA-31:yes",
+    "401909849:KXNBATOTAL-26OCT23NOPUTA-215:yes",
+    "401876717:KXLIGUE2TOTAL-26OCT23CFAEAG-1:yes"
+   ],
+   "n": 3,
+   "mode": "safest",
+   "p": 0.8052,
+   "decimal": 1.225,
+   "american": -444,
+   "ev": -0.0135,
+   "tier": "lock",
+   "name": "lock_3",
+   "result": null
+  },
+  {
+   "legs": [
+    "401882836:KXLALIGATOTAL-26OCT23ALAMCF-4:no",
+    "401883152:KXLALIGA2TOTAL-26OCT23GCFVLL-4:no"
+   ],
+   "n": 2,
+   "mode": "safest",
+   "p": 0.5822,
+   "decimal": 1.675,
+   "american": -148,
+   "ev": -0.025,
+   "tier": "best",
+   "name": "best_2",
+   "result": null
+  }
+ ],
+ "straights": [],
+ "straights_best": [
+  "401909851:KXNBAGAME-26OCT23LACLAL-LAL:yes",
+  "401858272:KXNCAAFGAME-26OCT23NCSTSTAN-NCST:yes",
+  "401909844:KXNBAGAME-26OCT23DALIND-IND:yes",
+  "401864525:KXNCAAFGAME-26OCT23AFAWYO-AFA:yes",
+  "401908042:KXMLBGAME-26OCT232000TBMIL-MIL:yes",
+  "401882836:KXLALIGAGAME-26OCT23ALAMCF-ALA:yes",
+  "401885081:KXBUNDESLIGA2TOTAL-26OCT24BSCARM-1:yes",
+  "401876717:KXLIGUE2TOTAL-26OCT23CFAEAG-6:no",
+  "401841287:KXBRASILEIROTOTAL-26OCT23CRUCR-6:no",
+  "401880207:KXEFLCHAMPIONSHIPTOTAL-26OCT23BOLMID-2:yes"
+ ],
+ "locks": [
+  "401861965:KXNCAAFSPREAD-26OCT23MASSCONN-CONN2:yes",
+  "401909852:KXNBAGAME-26OCT23PORSAC-POR:yes",
+  "401841638:KXARGPREMDIVTOTAL-26OCT23GLPCAS-6:no",
+  "401909843:KXNBATOTAL-26OCT23ATLCHA-200:yes",
+  "401876928:KXLIGAMXTOTAL-26OCT23NCXJUA-1:yes",
+  "401879253:KXEPLTOTAL-26OCT23IPSNFO-1:yes",
+  "401909846:KXNBATOTAL-26OCT23TORWAS-210:yes"
+ ]
+}
