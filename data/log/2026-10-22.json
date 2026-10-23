@@ -133,7 +133,7 @@
     "contract": "Yes \u00b7 Over 207.5",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -2580
   },
   "401892559:KXNHLTOTAL-26OCT22WPGDAL-10:no": {
@@ -177,7 +177,7 @@
     "contract": "No \u00b7 Over 9.5",
     "buy": "no"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -1684
   },
   "401915552:KXUELTOTAL-26OCT22BOUACM-6:no": {
@@ -266,7 +266,7 @@
     "contract": "Yes \u00b7 Over 27.5",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -2042
   },
   "401892557:KXNHLTOTAL-26OCT22LANYI-10:no": {
@@ -310,7 +310,7 @@
     "contract": "No \u00b7 Over 9.5",
     "buy": "no"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -2580
   },
   "401869845:KXNCAAFGAME-26OCT22JMUAPP-JMU:yes": {
@@ -356,7 +356,7 @@
     "contract": "Yes \u00b7 James Madison",
     "buy": "yes"
    },
-   "result": null,
+   "result": "L",
    "close_odds": -430
   },
   "401892560:KXNHLGAME-26OCT22MINCGY-MIN:yes": {
@@ -403,7 +403,7 @@
     "contract": "Yes \u00b7 Minnesota",
     "buy": "yes"
    },
-   "result": null,
+   "result": "L",
    "close_odds": -208
   },
   "401915554:KXUELTOTAL-26OCT22OLYSPA-1:yes": {
@@ -536,7 +536,7 @@
     "contract": "No \u00b7 Over 9.5",
     "buy": "no"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -1428
   },
   "401873010:KXNFLTOTAL-26OCT22NECHI-28:yes": {
@@ -581,7 +581,7 @@
     "contract": "Yes \u00b7 Over 27.5",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -2580
   },
   "401873010:KXNFLTOTAL-26OCT22NECHI-70:no": {
@@ -626,7 +626,7 @@
     "contract": "No \u00b7 Over 69.5",
     "buy": "no"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -1087
   },
   "401862807:KXNCAAFGAME-26OCT22ECUMEM-MEM:yes": {
@@ -760,7 +760,7 @@
     "contract": "No \u00b7 Over 79.5",
     "buy": "no"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -1236
   }
  },
@@ -794,7 +794,8 @@
    "ev": -0.0225,
    "tier": "lock",
    "name": "lock_3",
-   "result": null
+   "result": "W",
+   "missed": []
   }
  ],
  "straights": [],
