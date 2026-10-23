@@ -88,7 +88,7 @@
     "contract": "Yes \u00b7 Over 210.5",
     "buy": "yes"
    },
-   "result": null,
+   "result": "L",
    "close_odds": -1684
   },
   "401909093:KXNBATOTAL-26OCT22CLEPHI-208:yes": {
@@ -492,7 +492,7 @@
     "contract": "Yes \u00b7 Over 33.5",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -1428
   },
   "401892552:KXNHLTOTAL-26OCT22NSHBOS-10:no": {
@@ -672,7 +672,7 @@
     "contract": "Yes \u00b7 Memphis",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -381
   },
   "401915553:KXUELTOTAL-26OCT22BESCRY-1:yes": {
@@ -778,7 +778,8 @@
    "ev": -0.0114,
    "tier": "lock",
    "name": "lock_2",
-   "result": null
+   "result": "W",
+   "missed": []
   },
   {
    "legs": [
