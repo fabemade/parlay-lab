@@ -88,7 +88,7 @@
     "buy": "no"
    },
    "result": null,
-   "close_odds": -2042
+   "close_odds": -1684
   },
   "401876427:KXLIGUE1TOTAL-26OCT24RCLPAR-1:yes": {
    "id": "401876427:KXLIGUE1TOTAL-26OCT24RCLPAR-1:yes",
@@ -310,7 +310,7 @@
     "buy": "yes"
    },
    "result": null,
-   "close_odds": -1428
+   "close_odds": -1684
   },
   "401909854:KXNBAGAME-26OCT24BKNCLE-CLE:yes": {
    "id": "401909854:KXNBAGAME-26OCT24BKNCLE-CLE:yes",
@@ -581,7 +581,7 @@
     "buy": "yes"
    },
    "result": null,
-   "close_odds": -564
+   "close_odds": -660
   },
   "761899:KXMLSTOTAL-26OCT24SKCATX-1:yes": {
    "id": "761899:KXMLSTOTAL-26OCT24SKCATX-1:yes",
@@ -716,7 +716,7 @@
     "buy": "yes"
    },
    "result": null,
-   "close_odds": -360
+   "close_odds": -381
   },
   "401909855:KXNBAGAME-26OCT24MILPHI-PHI:yes": {
    "id": "401909855:KXNBAGAME-26OCT24MILPHI-PHI:yes",
@@ -763,7 +763,7 @@
     "buy": "yes"
    },
    "result": null,
-   "close_odds": -609
+   "close_odds": -564
   },
   "401860907:KXNCAAFGAME-26OCT24BSUWSU-BSU:yes": {
    "id": "401860907:KXNCAAFGAME-26OCT24BSUWSU-BSU:yes",
