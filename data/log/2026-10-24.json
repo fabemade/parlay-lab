@@ -43,7 +43,7 @@
     "contract": "Yes \u00b7 Over 0.5",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -2042
   },
   "401876925:KXLIGAMXTOTAL-26OCT24MONCDG-6:no": {
@@ -88,7 +88,7 @@
     "buy": "no"
    },
    "result": null,
-   "close_odds": -1684
+   "close_odds": -1428
   },
   "401876427:KXLIGUE1TOTAL-26OCT24RCLPAR-1:yes": {
    "id": "401876427:KXLIGUE1TOTAL-26OCT24RCLPAR-1:yes",
@@ -175,7 +175,7 @@
     "contract": "No \u00b7 Over 5.5",
     "buy": "no"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -2580
   },
   "401841280:KXBRASILEIROTOTAL-26OCT24VITCAP-1:yes": {
@@ -219,7 +219,7 @@
     "contract": "Yes \u00b7 Over 0.5",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -1428
   },
   "401858274:KXNCAAFGAME-26OCT23PITTMIA-MIA:yes": {
@@ -398,7 +398,7 @@
     "contract": "No \u00b7 Over 3.5",
     "buy": "no"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -322
   },
   "401875036:KXSERIEAGAME-26OCT25INTFIO-INT:yes": {
@@ -992,7 +992,7 @@
     "contract": "Yes \u00b7 Troy",
     "buy": "yes"
    },
-   "result": null,
+   "result": "L",
    "close_odds": -564
   },
   "401884763:KXBUNDESLIGAGAME-26OCT24BVBSGE-BVB:yes": {
@@ -1295,7 +1295,8 @@
    "ev": -0.0218,
    "tier": "lock",
    "name": "lock_3",
-   "result": null
+   "result": "W",
+   "missed": []
   },
   {
    "legs": [
@@ -1310,7 +1311,8 @@
    "ev": 0.0066,
    "tier": "best",
    "name": "best_2",
-   "result": null
+   "result": "W",
+   "missed": []
   },
   {
    "legs": [
