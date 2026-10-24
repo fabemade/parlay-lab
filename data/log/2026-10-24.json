@@ -131,7 +131,7 @@
     "contract": "Yes \u00b7 Over 0.5",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -2042
   },
   "401841281:KXBRASILEIROTOTAL-26OCT24VDGCOR-6:no": {
@@ -265,7 +265,7 @@
     "contract": "Yes \u00b7 Miami (FL)",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -1428
   },
   "401876925:KXLIGAMXTOTAL-26OCT24MONCDG-1:yes": {
@@ -355,7 +355,7 @@
     "buy": "yes"
    },
    "result": null,
-   "close_odds": -489
+   "close_odds": -458
   },
   "401841284:KXBRASILEIROTOTAL-26OCT24MIRSPA-4:no": {
    "id": "401841284:KXBRASILEIROTOTAL-26OCT24MIRSPA-4:no",
@@ -489,7 +489,7 @@
     "contract": "Yes \u00b7 Florida Atlantic",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -322
   },
   "401882827:KXLALIGATOTAL-26OCT24VCFVIL-6:no": {
@@ -533,7 +533,7 @@
     "contract": "No \u00b7 Over 5.5",
     "buy": "no"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -1428
   },
   "401909858:KXNBAGAME-26OCT24SASDAL-SAS:yes": {
@@ -581,7 +581,7 @@
     "buy": "yes"
    },
    "result": null,
-   "close_odds": -660
+   "close_odds": -719
   },
   "761899:KXMLSTOTAL-26OCT24SKCATX-1:yes": {
    "id": "761899:KXMLSTOTAL-26OCT24SKCATX-1:yes",
@@ -670,7 +670,7 @@
     "contract": "Yes \u00b7 Northwestern",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -719
   },
   "401882834:KXLALIGAGAME-26OCT24ATMDEP-ATM:yes": {
@@ -715,7 +715,7 @@
     "contract": "Yes \u00b7 Atletico",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -381
   },
   "401909855:KXNBAGAME-26OCT24MILPHI-PHI:yes": {
@@ -899,7 +899,7 @@
     "contract": "Yes \u00b7 Over 0.5",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -2580
   },
   "401856841:KXNCAAFGAME-26OCT23WVUTCU-TCU:yes": {
@@ -945,7 +945,7 @@
     "contract": "Yes \u00b7 TCU",
     "buy": "yes"
    },
-   "result": null,
+   "result": "L",
    "close_odds": -381
   },
   "401871094:KXNCAAFGAME-26OCT24ULMTROY-TROY:yes": {
@@ -1037,7 +1037,7 @@
     "contract": "Yes \u00b7 Dortmund",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -208
   },
   "401841278:KXBRASILEIROTOTAL-26OCT24CHAFLU-6:no": {
@@ -1125,7 +1125,7 @@
     "contract": "No \u00b7 Over 4.5",
     "buy": "no"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -1428
   },
   "401858270:KXNCAAFGAME-26OCT23CALSMU-SMU:yes": {
@@ -1171,7 +1171,7 @@
     "contract": "Yes \u00b7 SMU",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -967
   },
   "401875570:KXEREDIVISIETOTAL-26OCT25FOREXC-1:yes": {
@@ -1262,7 +1262,7 @@
     "buy": "yes"
    },
    "result": null,
-   "close_odds": -360
+   "close_odds": -381
   }
  },
  "parlays": [
@@ -1326,7 +1326,10 @@
    "ev": -0.043,
    "tier": "best",
    "name": "best_3",
-   "result": null
+   "result": "L",
+   "missed": [
+    "401856841:KXNCAAFGAME-26OCT23WVUTCU-TCU:yes"
+   ]
   }
  ],
  "straights": [],
