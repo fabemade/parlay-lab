@@ -92,7 +92,7 @@
     "contract": "Yes \u00b7 Indiana",
     "buy": "yes"
    },
-   "result": null,
+   "result": "L",
    "close_odds": -251
   },
   "401908042:KXMLBGAME-26OCT232000TBMIL-MIL:yes": {
@@ -361,7 +361,7 @@
     "contract": "Yes \u00b7 Over 209.5",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -2042
   },
   "401841287:KXBRASILEIROTOTAL-26OCT23CRUCR-6:no": {
@@ -405,7 +405,7 @@
     "contract": "No \u00b7 Over 5.5",
     "buy": "no"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -719
   },
   "401909849:KXNBATOTAL-26OCT23NOPUTA-215:yes": {
@@ -672,7 +672,7 @@
     "contract": "Yes \u00b7 Over 199.5",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -2042
   },
   "401909851:KXNBAGAME-26OCT23LACLAL-LAL:yes": {
