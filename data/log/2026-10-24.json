@@ -1,0 +1,1358 @@
+{
+ "date": "2026-10-24",
+ "locked_at": "2026-10-24T11:29-04:00",
+ "legs": {
+  "401841283:KXBRASILEIROTOTAL-26OCT24PALRBB-1:yes": {
+   "id": "401841283:KXBRASILEIROTOTAL-26OCT24PALRBB-1:yes",
+   "sport": "soccer_bra.1",
+   "game_id": "401841283",
+   "short": "BRA @ PAL",
+   "game": "Red Bull Bragantino at Palmeiras",
+   "start": "2026-10-24T21:30Z",
+   "market": "total",
+   "side": "over",
+   "line": 0.5,
+   "selection": "Over 0.5",
+   "group": "Game lines",
+   "market_name": "Total",
+   "odds": -2042,
+   "p": 0.949,
+   "p_model": 0.9154,
+   "p_market": 0.9406,
+   "p_breakeven": 0.9533,
+   "edge": -0.0043,
+   "ev": -0.0045,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "BRA: 1.08 scored / 1.31 allowed per game this season; last 10: 1.3 / 1.4",
+    "PAL: 1.85 scored / 0.69 allowed per game this season; last 10: 1.6 / 0.6"
+   ],
+   "home": {
+    "name": "Palmeiras",
+    "abbr": "PAL"
+   },
+   "away": {
+    "name": "Red Bull Bragantino",
+    "abbr": "BRA"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxbrasileirototal/brasileiro-total/kxbrasileirototal-26oct24palrbb",
+    "price": 95,
+    "ticker": "KXBRASILEIROTOTAL-26OCT24PALRBB-1",
+    "contract": "Yes \u00b7 Over 0.5",
+    "buy": "yes"
+   },
+   "result": null,
+   "close_odds": -2042
+  },
+  "401876925:KXLIGAMXTOTAL-26OCT24MONCDG-6:no": {
+   "id": "401876925:KXLIGAMXTOTAL-26OCT24MONCDG-6:no",
+   "sport": "soccer_mex.1",
+   "game_id": "401876925",
+   "short": "GDL @ MTY",
+   "game": "Guadalajara at Monterrey",
+   "start": "2026-10-25T01:00Z",
+   "market": "total",
+   "side": "under",
+   "line": 5.5,
+   "selection": "Under 5.5",
+   "group": "Game lines",
+   "market_name": "Total",
+   "odds": -2042,
+   "p": 0.9495,
+   "p_model": 0.9267,
+   "p_market": 0.9406,
+   "p_breakeven": 0.9533,
+   "edge": -0.0038,
+   "ev": -0.004,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "GDL: 1.54 scored / 0.92 allowed per game this season; last 10: 1.8 / 0.9",
+    "MTY: 1.92 scored / 1.42 allowed per game this season; last 10: 1.9 / 1.3"
+   ],
+   "home": {
+    "name": "Monterrey",
+    "abbr": "MTY"
+   },
+   "away": {
+    "name": "Guadalajara",
+    "abbr": "GDL"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxligamxtotal/liga-mx-total/kxligamxtotal-26oct24moncdg",
+    "price": 95,
+    "ticker": "KXLIGAMXTOTAL-26OCT24MONCDG-6",
+    "contract": "No \u00b7 Over 5.5",
+    "buy": "no"
+   },
+   "result": null,
+   "close_odds": -2042
+  },
+  "401876427:KXLIGUE1TOTAL-26OCT24RCLPAR-1:yes": {
+   "id": "401876427:KXLIGUE1TOTAL-26OCT24RCLPAR-1:yes",
+   "sport": "soccer_fra.1",
+   "game_id": "401876427",
+   "short": "PAR @ RCL",
+   "game": "Paris FC at Lens",
+   "start": "2026-10-24T18:45Z",
+   "market": "total",
+   "side": "over",
+   "line": 0.5,
+   "selection": "Over 0.5",
+   "group": "Game lines",
+   "market_name": "Total",
+   "odds": -2042,
+   "p": 0.95,
+   "p_model": 0.9338,
+   "p_market": 0.9406,
+   "p_breakeven": 0.9533,
+   "edge": -0.0033,
+   "ev": -0.0035,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "PAR: 1.71 scored / 1.0 allowed per game this season; last 7: 1.71 / 1.0",
+    "RCL: 2.0 scored / 1.57 allowed per game this season; last 7: 2.0 / 1.57"
+   ],
+   "home": {
+    "name": "Lens",
+    "abbr": "RCL"
+   },
+   "away": {
+    "name": "Paris FC",
+    "abbr": "PAR"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxligue1total/ligue-1-total/kxligue1total-26oct24rclpar",
+    "price": 95,
+    "ticker": "KXLIGUE1TOTAL-26OCT24RCLPAR-1",
+    "contract": "Yes \u00b7 Over 0.5",
+    "buy": "yes"
+   },
+   "result": null,
+   "close_odds": -2042
+  },
+  "401841281:KXBRASILEIROTOTAL-26OCT24VDGCOR-6:no": {
+   "id": "401841281:KXBRASILEIROTOTAL-26OCT24VDGCOR-6:no",
+   "sport": "soccer_bra.1",
+   "game_id": "401841281",
+   "short": "COR @ VAS",
+   "game": "Corinthians at Vasco da Gama",
+   "start": "2026-10-24T21:30Z",
+   "market": "total",
+   "side": "under",
+   "line": 5.5,
+   "selection": "Under 5.5",
+   "group": "Game lines",
+   "market_name": "Total",
+   "odds": -2580,
+   "p": 0.9594,
+   "p_model": 0.9502,
+   "p_market": 0.9505,
+   "p_breakeven": 0.9627,
+   "edge": -0.0033,
+   "ev": -0.0034,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "COR: 1.08 scored / 1.54 allowed per game this season; last 10: 1.0 / 1.9",
+    "VAS: 1.17 scored / 1.17 allowed per game this season; last 10: 1.3 / 1.2"
+   ],
+   "home": {
+    "name": "Vasco da Gama",
+    "abbr": "VAS"
+   },
+   "away": {
+    "name": "Corinthians",
+    "abbr": "COR"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxbrasileirototal/brasileiro-total/kxbrasileirototal-26oct24vdgcor",
+    "price": 96,
+    "ticker": "KXBRASILEIROTOTAL-26OCT24VDGCOR-6",
+    "contract": "No \u00b7 Over 5.5",
+    "buy": "no"
+   },
+   "result": null,
+   "close_odds": -2580
+  },
+  "401841280:KXBRASILEIROTOTAL-26OCT24VITCAP-1:yes": {
+   "id": "401841280:KXBRASILEIROTOTAL-26OCT24VITCAP-1:yes",
+   "sport": "soccer_bra.1",
+   "game_id": "401841280",
+   "short": "CAP @ VIT",
+   "game": "Athletico Paranaense at Vit\u00f3ria",
+   "start": "2026-10-24T19:30Z",
+   "market": "total",
+   "side": "over",
+   "line": 0.5,
+   "selection": "Over 0.5",
+   "group": "Game lines",
+   "market_name": "Total",
+   "odds": -1428,
+   "p": 0.932,
+   "p_model": 0.9151,
+   "p_market": 0.9208,
+   "p_breakeven": 0.9346,
+   "edge": -0.0026,
+   "ev": -0.0028,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "CAP: 1.92 scored / 1.46 allowed per game this season; last 10: 2.1 / 1.8",
+    "VIT: 0.93 scored / 1.43 allowed per game this season; last 10: 1.2 / 1.4"
+   ],
+   "home": {
+    "name": "Vit\u00f3ria",
+    "abbr": "VIT"
+   },
+   "away": {
+    "name": "Athletico-PR",
+    "abbr": "CAP"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxbrasileirototal/brasileiro-total/kxbrasileirototal-26oct24vitcap",
+    "price": 93,
+    "ticker": "KXBRASILEIROTOTAL-26OCT24VITCAP-1",
+    "contract": "Yes \u00b7 Over 0.5",
+    "buy": "yes"
+   },
+   "result": null,
+   "close_odds": -1428
+  },
+  "401858274:KXNCAAFGAME-26OCT23PITTMIA-MIA:yes": {
+   "id": "401858274:KXNCAAFGAME-26OCT23PITTMIA-MIA:yes",
+   "sport": "cfb",
+   "game_id": "401858274",
+   "short": "PITT @ MIA",
+   "game": "Pittsburgh Panthers at Miami Hurricanes",
+   "start": "2026-10-24T16:00Z",
+   "market": "ml",
+   "side": "home",
+   "selection": "MIA to win",
+   "group": "Game lines",
+   "market_name": "Winner",
+   "odds": -1428,
+   "p": 0.9254,
+   "p_model": 0.9224,
+   "p_market": 0.9118,
+   "p_breakeven": 0.9346,
+   "edge": -0.0092,
+   "ev": -0.0098,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "MIA ranks #3 in offense and #3 in defense of 185 (schedule-adjusted, recent games weighted more)",
+    "Last 6: 6-0, scoring 48.5 and allowing 14.0 pts/game (season: 48.5 / 14.0). Current streak: W6",
+    "At home: 57.33 scored / 15.0 allowed per game",
+    "Record 6-0",
+    "Price moved -2800 \u2192 -1800 since opening, money moving away from MIA"
+   ],
+   "home": {
+    "name": "Miami Hurricanes",
+    "abbr": "MIA"
+   },
+   "away": {
+    "name": "Pittsburgh Panthers",
+    "abbr": "PITT"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxncaafgame/college-football-game/kxncaafgame-26oct23pittmia",
+    "price": 93,
+    "ticker": "KXNCAAFGAME-26OCT23PITTMIA-MIA",
+    "contract": "Yes \u00b7 Miami (FL)",
+    "buy": "yes"
+   },
+   "result": null,
+   "close_odds": -1428
+  },
+  "401876925:KXLIGAMXTOTAL-26OCT24MONCDG-1:yes": {
+   "id": "401876925:KXLIGAMXTOTAL-26OCT24MONCDG-1:yes",
+   "sport": "soccer_mex.1",
+   "game_id": "401876925",
+   "short": "GDL @ MTY",
+   "game": "Guadalajara at Monterrey",
+   "start": "2026-10-25T01:00Z",
+   "market": "total",
+   "side": "over",
+   "line": 0.5,
+   "selection": "Over 0.5",
+   "group": "Game lines",
+   "market_name": "Total",
+   "odds": -1428,
+   "p": 0.9333,
+   "p_model": 0.9307,
+   "p_market": 0.9208,
+   "p_breakeven": 0.9346,
+   "edge": -0.0013,
+   "ev": -0.0014,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "GDL: 1.54 scored / 0.92 allowed per game this season; last 10: 1.8 / 0.9",
+    "MTY: 1.92 scored / 1.42 allowed per game this season; last 10: 1.9 / 1.3"
+   ],
+   "home": {
+    "name": "Monterrey",
+    "abbr": "MTY"
+   },
+   "away": {
+    "name": "Guadalajara",
+    "abbr": "GDL"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxligamxtotal/liga-mx-total/kxligamxtotal-26oct24moncdg",
+    "price": 93,
+    "ticker": "KXLIGAMXTOTAL-26OCT24MONCDG-1",
+    "contract": "Yes \u00b7 Over 0.5",
+    "buy": "yes"
+   },
+   "result": null,
+   "close_odds": -1428
+  },
+  "401909854:KXNBAGAME-26OCT24BKNCLE-CLE:yes": {
+   "id": "401909854:KXNBAGAME-26OCT24BKNCLE-CLE:yes",
+   "sport": "nba",
+   "game_id": "401909854",
+   "short": "BKN @ CLE",
+   "game": "Brooklyn Nets at Cleveland Cavaliers",
+   "start": "2026-10-24T23:30Z",
+   "market": "ml",
+   "side": "home",
+   "selection": "CLE to win",
+   "group": "Game lines",
+   "market_name": "Winner",
+   "odds": -489,
+   "p": 0.8357,
+   "p_model": 0.8241,
+   "p_market": 0.82,
+   "p_breakeven": 0.8303,
+   "edge": 0.0054,
+   "ev": 0.0065,
+   "grade": "B",
+   "modeled": true,
+   "reasons": [
+    "CLE ranks #7 in offense and #17 in defense of 32 (schedule-adjusted, recent games weighted more)",
+    "Last 1: 0-1, scoring 106.0 and allowing 114.0 pts/game (season: 106.0 / 114.0)",
+    "Record 0-1 (home 0-0)",
+    "Price moved -455 \u2192 -520 since opening, money moving toward CLE"
+   ],
+   "home": {
+    "name": "Cleveland Cavaliers",
+    "abbr": "CLE"
+   },
+   "away": {
+    "name": "Brooklyn Nets",
+    "abbr": "BKN"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxnbagame/nba-game/kxnbagame-26oct24bkncle",
+    "price": 82,
+    "ticker": "KXNBAGAME-26OCT24BKNCLE-CLE",
+    "contract": "Yes \u00b7 Cleveland",
+    "buy": "yes"
+   },
+   "result": null,
+   "close_odds": -489
+  },
+  "401841284:KXBRASILEIROTOTAL-26OCT24MIRSPA-4:no": {
+   "id": "401841284:KXBRASILEIROTOTAL-26OCT24MIRSPA-4:no",
+   "sport": "soccer_bra.1",
+   "game_id": "401841284",
+   "short": "SAO @ MIR",
+   "game": "S\u00e3o Paulo at Mirassol",
+   "start": "2026-10-24T19:30Z",
+   "market": "total",
+   "side": "under",
+   "line": 3.5,
+   "selection": "Under 3.5",
+   "group": "Game lines",
+   "market_name": "Total",
+   "odds": -322,
+   "p": 0.757,
+   "p_model": 0.748,
+   "p_market": 0.7426,
+   "p_breakeven": 0.7631,
+   "edge": -0.0061,
+   "ev": -0.008,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "SAO: 1.0 scored / 1.15 allowed per game this season; last 10: 1.0 / 1.0",
+    "MIR: 1.29 scored / 1.43 allowed per game this season; last 10: 1.2 / 1.4"
+   ],
+   "home": {
+    "name": "Mirassol",
+    "abbr": "MIR"
+   },
+   "away": {
+    "name": "S\u00e3o Paulo",
+    "abbr": "SAO"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxbrasileirototal/brasileiro-total/kxbrasileirototal-26oct24mirspa",
+    "price": 75,
+    "ticker": "KXBRASILEIROTOTAL-26OCT24MIRSPA-4",
+    "contract": "No \u00b7 Over 3.5",
+    "buy": "no"
+   },
+   "result": null,
+   "close_odds": -322
+  },
+  "401875036:KXSERIEAGAME-26OCT25INTFIO-INT:yes": {
+   "id": "401875036:KXSERIEAGAME-26OCT25INTFIO-INT:yes",
+   "sport": "soccer_ita.1",
+   "game_id": "401875036",
+   "short": "FIO @ INT",
+   "game": "Fiorentina at Internazionale",
+   "start": "2026-10-25T11:30Z",
+   "market": "ml",
+   "side": "home",
+   "selection": "INT to win",
+   "group": "Game lines",
+   "market_name": "Winner",
+   "odds": -290,
+   "p": 0.7534,
+   "p_model": 0.8403,
+   "p_market": 0.7157,
+   "p_breakeven": 0.7438,
+   "edge": 0.0096,
+   "ev": 0.0129,
+   "grade": "B",
+   "modeled": true,
+   "reasons": [
+    "INT ranks #1 in offense and #7 in defense of 23 (schedule-adjusted, recent games weighted more)",
+    "Last 7: 6-1, scoring 3.0 and allowing 1.29 goals/game (season: 3.0 / 1.29)",
+    "At home: 3.75 scored / 1.5 allowed per game",
+    "Record 6-1-0"
+   ],
+   "home": {
+    "name": "Internazionale",
+    "abbr": "INT"
+   },
+   "away": {
+    "name": "Fiorentina",
+    "abbr": "FIO"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxserieagame/serie-a-game/kxserieagame-26oct25intfio",
+    "price": 73,
+    "ticker": "KXSERIEAGAME-26OCT25INTFIO-INT",
+    "contract": "Yes \u00b7 Inter",
+    "buy": "yes"
+   },
+   "result": null,
+   "close_odds": -290
+  },
+  "401862809:KXNCAAFGAME-26OCT23RICEFAU-FAU:yes": {
+   "id": "401862809:KXNCAAFGAME-26OCT23RICEFAU-FAU:yes",
+   "sport": "cfb",
+   "game_id": "401862809",
+   "short": "RICE @ FAU",
+   "game": "Rice Owls at Florida Atlantic Owls",
+   "start": "2026-10-24T16:00Z",
+   "market": "ml",
+   "side": "home",
+   "selection": "FAU to win",
+   "group": "Game lines",
+   "market_name": "Winner",
+   "odds": -322,
+   "p": 0.7742,
+   "p_model": 0.7746,
+   "p_market": 0.7576,
+   "p_breakeven": 0.7631,
+   "edge": 0.0111,
+   "ev": 0.0145,
+   "grade": "B",
+   "modeled": true,
+   "reasons": [
+    "FAU ranks #43 in offense and #155 in defense of 185 (schedule-adjusted, recent games weighted more)",
+    "Last 6: 4-2, scoring 35.0 and allowing 31.5 pts/game (season: 35.0 / 31.5)",
+    "At home: 40.0 scored / 16.67 allowed per game",
+    "Record 4-2",
+    "Price moved -410 \u2192 -355 since opening, money moving away from FAU"
+   ],
+   "home": {
+    "name": "Florida Atlantic Owls",
+    "abbr": "FAU"
+   },
+   "away": {
+    "name": "Rice Owls",
+    "abbr": "RICE"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxncaafgame/college-football-game/kxncaafgame-26oct23ricefau",
+    "price": 75,
+    "ticker": "KXNCAAFGAME-26OCT23RICEFAU-FAU",
+    "contract": "Yes \u00b7 Florida Atlantic",
+    "buy": "yes"
+   },
+   "result": null,
+   "close_odds": -322
+  },
+  "401882827:KXLALIGATOTAL-26OCT24VCFVIL-6:no": {
+   "id": "401882827:KXLALIGATOTAL-26OCT24VCFVIL-6:no",
+   "sport": "soccer_esp.1",
+   "game_id": "401882827",
+   "short": "VIL @ VAL",
+   "game": "Villarreal at Valencia",
+   "start": "2026-10-24T16:30Z",
+   "market": "total",
+   "side": "under",
+   "line": 5.5,
+   "selection": "Under 5.5",
+   "group": "Game lines",
+   "market_name": "Total",
+   "odds": -1428,
+   "p": 0.9329,
+   "p_model": 0.9446,
+   "p_market": 0.9208,
+   "p_breakeven": 0.9346,
+   "edge": -0.0017,
+   "ev": -0.0018,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "VIL: 1.44 scored / 1.44 allowed per game this season; last 9: 1.44 / 1.44",
+    "VAL: 0.67 scored / 1.67 allowed per game this season; last 9: 0.67 / 1.67"
+   ],
+   "home": {
+    "name": "Valencia",
+    "abbr": "VAL"
+   },
+   "away": {
+    "name": "Villarreal",
+    "abbr": "VIL"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxlaligatotal/la-liga-total/kxlaligatotal-26oct24vcfvil",
+    "price": 93,
+    "ticker": "KXLALIGATOTAL-26OCT24VCFVIL-6",
+    "contract": "No \u00b7 Over 5.5",
+    "buy": "no"
+   },
+   "result": null,
+   "close_odds": -1428
+  },
+  "401909858:KXNBAGAME-26OCT24SASDAL-SAS:yes": {
+   "id": "401909858:KXNBAGAME-26OCT24SASDAL-SAS:yes",
+   "sport": "nba",
+   "game_id": "401909858",
+   "short": "SA @ DAL",
+   "game": "San Antonio Spurs at Dallas Mavericks",
+   "start": "2026-10-25T00:00Z",
+   "market": "ml",
+   "side": "away",
+   "selection": "SA to win",
+   "group": "Game lines",
+   "market_name": "Winner",
+   "odds": -564,
+   "p": 0.839,
+   "p_model": 0.7639,
+   "p_market": 0.8317,
+   "p_breakeven": 0.8494,
+   "edge": -0.0104,
+   "ev": -0.0122,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "SA ranks #3 in offense and #7 in defense of 32 (schedule-adjusted, recent games weighted more)",
+    "Last 2: 0-2, scoring 107.0 and allowing 115.0 pts/game (season: 107.0 / 115.0)",
+    "Record 0-2 (road 0-0)",
+    "Injuries: Jayden Quaintance (F, Out)",
+    "Playing the 2nd night of a back-to-back (historically worth about -1 to -1.5 pts in the NBA; tired legs and often the backup goalie in the NHL)",
+    "Price moved -470 \u2192 -600 since opening, money moving toward SA"
+   ],
+   "home": {
+    "name": "Dallas Mavericks",
+    "abbr": "DAL"
+   },
+   "away": {
+    "name": "San Antonio Spurs",
+    "abbr": "SA"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxnbagame/nba-game/kxnbagame-26oct24sasdal",
+    "price": 84,
+    "ticker": "KXNBAGAME-26OCT24SASDAL-SAS",
+    "contract": "Yes \u00b7 San Antonio",
+    "buy": "yes"
+   },
+   "result": null,
+   "close_odds": -564
+  },
+  "761899:KXMLSTOTAL-26OCT24SKCATX-1:yes": {
+   "id": "761899:KXMLSTOTAL-26OCT24SKCATX-1:yes",
+   "sport": "soccer_usa.1",
+   "game_id": "761899",
+   "short": "ATX @ SKC",
+   "game": "Austin FC at Sporting Kansas City",
+   "start": "2026-10-25T00:30Z",
+   "market": "total",
+   "side": "over",
+   "line": 0.5,
+   "selection": "Over 0.5",
+   "group": "Game lines",
+   "market_name": "Total",
+   "odds": -2580,
+   "p": 0.9598,
+   "p_model": 0.9565,
+   "p_market": 0.9505,
+   "p_breakeven": 0.9627,
+   "edge": -0.0029,
+   "ev": -0.003,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "ATX: 1.27 scored / 1.67 allowed per game this season; last 10: 1.3 / 1.7",
+    "SKC: 1.38 scored / 2.44 allowed per game this season; last 10: 1.7 / 2.6"
+   ],
+   "home": {
+    "name": "Sporting Kansas City",
+    "abbr": "SKC"
+   },
+   "away": {
+    "name": "Austin FC",
+    "abbr": "ATX"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxmlstotal/mls-total/kxmlstotal-26oct24skcatx",
+    "price": 96,
+    "ticker": "KXMLSTOTAL-26OCT24SKCATX-1",
+    "contract": "Yes \u00b7 Over 0.5",
+    "buy": "yes"
+   },
+   "result": null,
+   "close_odds": -2580
+  },
+  "401858498:KXNCAAFGAME-26OCT23RUTGNW-NW:yes": {
+   "id": "401858498:KXNCAAFGAME-26OCT23RUTGNW-NW:yes",
+   "sport": "cfb",
+   "game_id": "401858498",
+   "short": "RUTG @ NU",
+   "game": "Rutgers Scarlet Knights at Northwestern Wildcats",
+   "start": "2026-10-24T16:00Z",
+   "market": "ml",
+   "side": "home",
+   "selection": "NU to win",
+   "group": "Game lines",
+   "market_name": "Winner",
+   "odds": -719,
+   "p": 0.8807,
+   "p_model": 0.9009,
+   "p_market": 0.8614,
+   "p_breakeven": 0.8779,
+   "edge": 0.0028,
+   "ev": 0.0032,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "NU ranks #49 in offense and #29 in defense of 185 (schedule-adjusted, recent games weighted more)",
+    "Last 6: 5-1, scoring 33.5 and allowing 17.0 pts/game (season: 33.5 / 17.0). Current streak: W3",
+    "At home: 38.5 scored / 13.0 allowed per game",
+    "Record 5-1",
+    "Price moved -1000 \u2192 -750 since opening, money moving away from NU"
+   ],
+   "home": {
+    "name": "Northwestern Wildcats",
+    "abbr": "NU"
+   },
+   "away": {
+    "name": "Rutgers Scarlet Knights",
+    "abbr": "RUTG"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxncaafgame/college-football-game/kxncaafgame-26oct23rutgnw",
+    "price": 87,
+    "ticker": "KXNCAAFGAME-26OCT23RUTGNW-NW",
+    "contract": "Yes \u00b7 Northwestern",
+    "buy": "yes"
+   },
+   "result": null,
+   "close_odds": -719
+  },
+  "401882834:KXLALIGAGAME-26OCT24ATMDEP-ATM:yes": {
+   "id": "401882834:KXLALIGAGAME-26OCT24ATMDEP-ATM:yes",
+   "sport": "soccer_esp.1",
+   "game_id": "401882834",
+   "short": "DEP @ ATM",
+   "game": "Deportivo at Atl\u00e9tico Madrid",
+   "start": "2026-10-24T19:00Z",
+   "market": "ml",
+   "side": "home",
+   "selection": "ATM to win",
+   "group": "Game lines",
+   "market_name": "Winner",
+   "odds": -360,
+   "p": 0.7643,
+   "p_model": 0.6478,
+   "p_market": 0.7549,
+   "p_breakeven": 0.7824,
+   "edge": -0.0181,
+   "ev": -0.0231,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "ATM ranks #4 in offense and #4 in defense of 23 (schedule-adjusted, recent games weighted more)",
+    "Last 9: 7-2, scoring 2.11 and allowing 0.89 goals/game (season: 2.11 / 0.89). Current streak: W5",
+    "At home: 2.5 scored / 0.75 allowed per game",
+    "Record 7-1-1"
+   ],
+   "home": {
+    "name": "Atl\u00e9tico Madrid",
+    "abbr": "ATM"
+   },
+   "away": {
+    "name": "Deportivo",
+    "abbr": "DEP"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxlaligagame/la-liga-game/kxlaligagame-26oct24atmdep",
+    "price": 77,
+    "ticker": "KXLALIGAGAME-26OCT24ATMDEP-ATM",
+    "contract": "Yes \u00b7 Atletico",
+    "buy": "yes"
+   },
+   "result": null,
+   "close_odds": -360
+  },
+  "401909855:KXNBAGAME-26OCT24MILPHI-PHI:yes": {
+   "id": "401909855:KXNBAGAME-26OCT24MILPHI-PHI:yes",
+   "sport": "nba",
+   "game_id": "401909855",
+   "short": "MIL @ PHI",
+   "game": "Milwaukee Bucks at Philadelphia 76ers",
+   "start": "2026-10-24T23:30Z",
+   "market": "ml",
+   "side": "home",
+   "selection": "PHI to win",
+   "group": "Game lines",
+   "market_name": "Winner",
+   "odds": -609,
+   "p": 0.8557,
+   "p_model": 0.8358,
+   "p_market": 0.8416,
+   "p_breakeven": 0.8589,
+   "edge": -0.0032,
+   "ev": -0.0037,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "PHI ranks #18 in offense and #18 in defense of 32 (schedule-adjusted, recent games weighted more)",
+    "Last 2: 2-0, scoring 110.0 and allowing 103.0 pts/game (season: 110.0 / 103.0)",
+    "At home: 114.0 scored / 106.0 allowed per game",
+    "Record 2-0 (home 1-0)",
+    "Injuries: Tacko Fall (C, Out), Dominick Barlow (F, Out), Ariel Hukporti (C, Out)",
+    "Price moved -625 \u2192 -675 since opening, money moving toward PHI"
+   ],
+   "home": {
+    "name": "Philadelphia 76ers",
+    "abbr": "PHI"
+   },
+   "away": {
+    "name": "Milwaukee Bucks",
+    "abbr": "MIL"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxnbagame/nba-game/kxnbagame-26oct24milphi",
+    "price": 85,
+    "ticker": "KXNBAGAME-26OCT24MILPHI-PHI",
+    "contract": "Yes \u00b7 Philadelphia",
+    "buy": "yes"
+   },
+   "result": null,
+   "close_odds": -609
+  },
+  "401860907:KXNCAAFGAME-26OCT24BSUWSU-BSU:yes": {
+   "id": "401860907:KXNCAAFGAME-26OCT24BSUWSU-BSU:yes",
+   "sport": "cfb",
+   "game_id": "401860907",
+   "short": "BOIS @ WSU",
+   "game": "Boise State Broncos at Washington State Cougars",
+   "start": "2026-10-24T22:00Z",
+   "market": "ml",
+   "side": "away",
+   "selection": "BOIS to win",
+   "group": "Game lines",
+   "market_name": "Winner",
+   "odds": -564,
+   "p": 0.8314,
+   "p_model": 0.7428,
+   "p_market": 0.8235,
+   "p_breakeven": 0.8494,
+   "edge": -0.018,
+   "ev": -0.0212,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "BOIS ranks #20 in offense and #48 in defense of 185 (schedule-adjusted, recent games weighted more)",
+    "Last 6: 5-1, scoring 35.0 and allowing 22.33 pts/game (season: 35.0 / 22.33). Current streak: W5",
+    "On the road: 32.33 scored / 24.0 allowed per game",
+    "Record 5-1",
+    "Coming off a bye week (extra rest)",
+    "Price moved -650 \u2192 -625 since opening, money moving away from BOIS"
+   ],
+   "home": {
+    "name": "Washington State Cougars",
+    "abbr": "WSU"
+   },
+   "away": {
+    "name": "Boise State Broncos",
+    "abbr": "BOIS"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxncaafgame/college-football-game/kxncaafgame-26oct24bsuwsu",
+    "price": 84,
+    "ticker": "KXNCAAFGAME-26OCT24BSUWSU-BSU",
+    "contract": "Yes \u00b7 Boise St.",
+    "buy": "yes"
+   },
+   "result": null,
+   "close_odds": -564
+  },
+  "401892568:KXNHLGAME-26OCT24SJBOS-BOS:yes": {
+   "id": "401892568:KXNHLGAME-26OCT24SJBOS-BOS:yes",
+   "sport": "nhl",
+   "game_id": "401892568",
+   "short": "SJ @ BOS",
+   "game": "San Jose Sharks at Boston Bruins",
+   "start": "2026-10-24T23:00Z",
+   "market": "ml",
+   "side": "home",
+   "selection": "BOS to win",
+   "group": "Game lines",
+   "market_name": "Winner",
+   "odds": -199,
+   "p": 0.6563,
+   "p_model": 0.6369,
+   "p_market": 0.65,
+   "p_breakeven": 0.6659,
+   "edge": -0.0096,
+   "ev": -0.0144,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "BOS ranks #4 in offense and #2 in defense of 32 (schedule-adjusted, recent games weighted more)",
+    "Last 10: 7-3, scoring 3.9 and allowing 2.2 goals/game (season: 3.82 / 2.0)",
+    "At home: 4.2 scored / 1.2 allowed per game",
+    "Record 8-2-1 (home 4-1-0)",
+    "Price moved -185 \u2192 -192 since opening, money moving toward BOS"
+   ],
+   "home": {
+    "name": "Boston Bruins",
+    "abbr": "BOS"
+   },
+   "away": {
+    "name": "San Jose Sharks",
+    "abbr": "SJ"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxnhlgame/nhl-game/kxnhlgame-26oct24sjbos",
+    "price": 65,
+    "ticker": "KXNHLGAME-26OCT24SJBOS-BOS",
+    "contract": "Yes \u00b7 Boston",
+    "buy": "yes"
+   },
+   "result": null,
+   "close_odds": -199
+  },
+  "401878767:KXEPLTOTAL-26OCT24CFCTOT-1:yes": {
+   "id": "401878767:KXEPLTOTAL-26OCT24CFCTOT-1:yes",
+   "sport": "soccer_eng.1",
+   "game_id": "401878767",
+   "short": "TOT @ CHE",
+   "game": "Tottenham Hotspur at Chelsea",
+   "start": "2026-10-24T16:30Z",
+   "market": "total",
+   "side": "over",
+   "line": 0.5,
+   "selection": "Over 0.5",
+   "group": "Game lines",
+   "market_name": "Total",
+   "odds": -2580,
+   "p": 0.9582,
+   "p_model": 0.9309,
+   "p_market": 0.9505,
+   "p_breakeven": 0.9627,
+   "edge": -0.0045,
+   "ev": -0.0047,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "TOT: 0.86 scored / 1.43 allowed per game this season; last 7: 0.86 / 1.43",
+    "CHE: 2.43 scored / 1.86 allowed per game this season; last 7: 2.43 / 1.86"
+   ],
+   "home": {
+    "name": "Chelsea",
+    "abbr": "CHE"
+   },
+   "away": {
+    "name": "Tottenham Hotspur",
+    "abbr": "TOT"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxepltotal/english-premier-league-total-goals/kxepltotal-26oct24cfctot",
+    "price": 96,
+    "ticker": "KXEPLTOTAL-26OCT24CFCTOT-1",
+    "contract": "Yes \u00b7 Over 0.5",
+    "buy": "yes"
+   },
+   "result": null,
+   "close_odds": -2580
+  },
+  "401856841:KXNCAAFGAME-26OCT23WVUTCU-TCU:yes": {
+   "id": "401856841:KXNCAAFGAME-26OCT23WVUTCU-TCU:yes",
+   "sport": "cfb",
+   "game_id": "401856841",
+   "short": "WVU @ TCU",
+   "game": "West Virginia Mountaineers at TCU Horned Frogs",
+   "start": "2026-10-24T16:00Z",
+   "market": "ml",
+   "side": "home",
+   "selection": "TCU to win",
+   "group": "Game lines",
+   "market_name": "Winner",
+   "odds": -381,
+   "p": 0.7944,
+   "p_model": 0.8323,
+   "p_market": 0.7723,
+   "p_breakeven": 0.792,
+   "edge": 0.0024,
+   "ev": 0.003,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "TCU ranks #79 in offense and #7 in defense of 185 (schedule-adjusted, recent games weighted more)",
+    "Last 6: 3-3, scoring 24.0 and allowing 12.17 pts/game (season: 24.0 / 12.17)",
+    "At home: 28.5 scored / 11.5 allowed per game",
+    "Record 3-3",
+    "Price moved -258 \u2192 -380 since opening, money moving toward TCU"
+   ],
+   "home": {
+    "name": "TCU Horned Frogs",
+    "abbr": "TCU"
+   },
+   "away": {
+    "name": "West Virginia Mountaineers",
+    "abbr": "WVU"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxncaafgame/college-football-game/kxncaafgame-26oct23wvutcu",
+    "price": 78,
+    "ticker": "KXNCAAFGAME-26OCT23WVUTCU-TCU",
+    "contract": "Yes \u00b7 TCU",
+    "buy": "yes"
+   },
+   "result": null,
+   "close_odds": -381
+  },
+  "401871094:KXNCAAFGAME-26OCT24ULMTROY-TROY:yes": {
+   "id": "401871094:KXNCAAFGAME-26OCT24ULMTROY-TROY:yes",
+   "sport": "cfb",
+   "game_id": "401871094",
+   "short": "ULM @ TROY",
+   "game": "UL Monroe Warhawks at Troy Trojans",
+   "start": "2026-10-24T20:00Z",
+   "market": "ml",
+   "side": "home",
+   "selection": "TROY to win",
+   "group": "Game lines",
+   "market_name": "Winner",
+   "odds": -564,
+   "p": 0.8474,
+   "p_model": 0.9144,
+   "p_market": 0.8235,
+   "p_breakeven": 0.8494,
+   "edge": -0.002,
+   "ev": -0.0024,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "TROY ranks #113 in offense and #83 in defense of 185 (schedule-adjusted, recent games weighted more)",
+    "Last 6: 3-3, scoring 24.33 and allowing 25.5 pts/game (season: 24.33 / 25.5)",
+    "At home: 37.67 scored / 24.0 allowed per game",
+    "Record 3-3",
+    "Price moved -1100 \u2192 -625 since opening, money moving away from TROY",
+    "\u26a0 The line has moved against this side since opening (a sharp-money signal), so the model defers more to the market"
+   ],
+   "home": {
+    "name": "Troy Trojans",
+    "abbr": "TROY"
+   },
+   "away": {
+    "name": "UL Monroe Warhawks",
+    "abbr": "ULM"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxncaafgame/college-football-game/kxncaafgame-26oct24ulmtroy",
+    "price": 84,
+    "ticker": "KXNCAAFGAME-26OCT24ULMTROY-TROY",
+    "contract": "Yes \u00b7 Troy",
+    "buy": "yes"
+   },
+   "result": null,
+   "close_odds": -564
+  },
+  "401884763:KXBUNDESLIGAGAME-26OCT24BVBSGE-BVB:yes": {
+   "id": "401884763:KXBUNDESLIGAGAME-26OCT24BVBSGE-BVB:yes",
+   "sport": "soccer_ger.1",
+   "game_id": "401884763",
+   "short": "SGE @ DOR",
+   "game": "Eintracht Frankfurt at Borussia Dortmund",
+   "start": "2026-10-24T16:30Z",
+   "market": "ml",
+   "side": "home",
+   "selection": "DOR to win",
+   "group": "Game lines",
+   "market_name": "Winner",
+   "odds": -208,
+   "p": 0.661,
+   "p_model": 0.7141,
+   "p_market": 0.6471,
+   "p_breakeven": 0.6757,
+   "edge": -0.0147,
+   "ev": -0.0218,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "DOR ranks #5 in offense and #1 in defense of 21 (schedule-adjusted, recent games weighted more)",
+    "Last 6: 4-2, scoring 1.83 and allowing 0.67 goals/game (season: 1.83 / 0.67)",
+    "At home: 2.33 scored / 0.67 allowed per game",
+    "Record 4-2-0"
+   ],
+   "home": {
+    "name": "Borussia Dortmund",
+    "abbr": "DOR"
+   },
+   "away": {
+    "name": "Eintracht Frankfurt",
+    "abbr": "SGE"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxbundesligagame/bundesliga-game/kxbundesligagame-26oct24bvbsge",
+    "price": 66,
+    "ticker": "KXBUNDESLIGAGAME-26OCT24BVBSGE-BVB",
+    "contract": "Yes \u00b7 Dortmund",
+    "buy": "yes"
+   },
+   "result": null,
+   "close_odds": -208
+  },
+  "401841278:KXBRASILEIROTOTAL-26OCT24CHAFLU-6:no": {
+   "id": "401841278:KXBRASILEIROTOTAL-26OCT24CHAFLU-6:no",
+   "sport": "soccer_bra.1",
+   "game_id": "401841278",
+   "short": "FLU @ CHA",
+   "game": "Fluminense at Chapecoense",
+   "start": "2026-10-24T22:30Z",
+   "market": "total",
+   "side": "under",
+   "line": 5.5,
+   "selection": "Under 5.5",
+   "group": "Game lines",
+   "market_name": "Total",
+   "odds": -2042,
+   "p": 0.9505,
+   "p_model": 0.9406,
+   "p_market": 0.9406,
+   "p_breakeven": 0.9533,
+   "edge": -0.0028,
+   "ev": -0.0029,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "FLU: 1.62 scored / 1.23 allowed per game this season; last 10: 1.9 / 1.4",
+    "CHA: 1.0 scored / 2.23 allowed per game this season; last 10: 1.1 / 2.1"
+   ],
+   "home": {
+    "name": "Chapecoense",
+    "abbr": "CHA"
+   },
+   "away": {
+    "name": "Fluminense",
+    "abbr": "FLU"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxbrasileirototal/brasileiro-total/kxbrasileirototal-26oct24chaflu",
+    "price": 95,
+    "ticker": "KXBRASILEIROTOTAL-26OCT24CHAFLU-6",
+    "contract": "No \u00b7 Over 5.5",
+    "buy": "no"
+   },
+   "result": null,
+   "close_odds": -2042
+  },
+  "401841641:KXARGPREMDIVTOTAL-26OCT24BANLAN-5:no": {
+   "id": "401841641:KXARGPREMDIVTOTAL-26OCT24BANLAN-5:no",
+   "sport": "soccer_arg.1",
+   "game_id": "401841641",
+   "short": "LAN @ BAN",
+   "game": "Lan\u00fas at Banfield",
+   "start": "2026-10-24T17:45Z",
+   "market": "total",
+   "side": "under",
+   "line": 4.5,
+   "selection": "Under 4.5",
+   "group": "Game lines",
+   "market_name": "Total",
+   "odds": -1428,
+   "p": 0.9258,
+   "p_model": 0.9322,
+   "p_market": 0.9118,
+   "p_breakeven": 0.9346,
+   "edge": -0.0088,
+   "ev": -0.0094,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "LAN: 1.23 scored / 0.69 allowed per game this season; last 10: 1.4 / 0.6",
+    "BAN: 1.08 scored / 1.46 allowed per game this season; last 10: 1.1 / 1.6"
+   ],
+   "home": {
+    "name": "Banfield",
+    "abbr": "BAN"
+   },
+   "away": {
+    "name": "Lan\u00fas",
+    "abbr": "LAN"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxargpremdivtotal/argentina-premier-division-total/kxargpremdivtotal-26oct24banlan",
+    "price": 93,
+    "ticker": "KXARGPREMDIVTOTAL-26OCT24BANLAN-5",
+    "contract": "No \u00b7 Over 4.5",
+    "buy": "no"
+   },
+   "result": null,
+   "close_odds": -1428
+  },
+  "401858270:KXNCAAFGAME-26OCT23CALSMU-SMU:yes": {
+   "id": "401858270:KXNCAAFGAME-26OCT23CALSMU-SMU:yes",
+   "sport": "cfb",
+   "game_id": "401858270",
+   "short": "CAL @ SMU",
+   "game": "California Golden Bears at SMU Mustangs",
+   "start": "2026-10-24T16:00Z",
+   "market": "ml",
+   "side": "home",
+   "selection": "SMU to win",
+   "group": "Game lines",
+   "market_name": "Winner",
+   "odds": -967,
+   "p": 0.9045,
+   "p_model": 0.8902,
+   "p_market": 0.8911,
+   "p_breakeven": 0.9063,
+   "edge": -0.0018,
+   "ev": -0.002,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "SMU ranks #48 in offense and #46 in defense of 185 (schedule-adjusted, recent games weighted more)",
+    "Last 6: 5-1, scoring 32.67 and allowing 21.33 pts/game (season: 32.67 / 21.33). Current streak: W3",
+    "At home: 34.5 scored / 15.75 allowed per game",
+    "Record 5-1",
+    "Price moved -800 \u2192 -1100 since opening, money moving toward SMU"
+   ],
+   "home": {
+    "name": "SMU Mustangs",
+    "abbr": "SMU"
+   },
+   "away": {
+    "name": "California Golden Bears",
+    "abbr": "CAL"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxncaafgame/college-football-game/kxncaafgame-26oct23calsmu",
+    "price": 90,
+    "ticker": "KXNCAAFGAME-26OCT23CALSMU-SMU",
+    "contract": "Yes \u00b7 SMU",
+    "buy": "yes"
+   },
+   "result": null,
+   "close_odds": -967
+  },
+  "401875570:KXEREDIVISIETOTAL-26OCT25FOREXC-1:yes": {
+   "id": "401875570:KXEREDIVISIETOTAL-26OCT25FOREXC-1:yes",
+   "sport": "soccer_ned.1",
+   "game_id": "401875570",
+   "short": "EXC @ FOR",
+   "game": "Excelsior at Fortuna Sittard",
+   "start": "2026-10-25T11:15Z",
+   "market": "total",
+   "side": "over",
+   "line": 0.5,
+   "selection": "Over 0.5",
+   "group": "Game lines",
+   "market_name": "Total",
+   "odds": -2042,
+   "p": 0.9515,
+   "p_model": 0.9523,
+   "p_market": 0.9406,
+   "p_breakeven": 0.9533,
+   "edge": -0.0018,
+   "ev": -0.0019,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "EXC: 1.78 scored / 2.0 allowed per game this season; last 9: 1.78 / 2.0",
+    "FOR: 1.78 scored / 1.89 allowed per game this season; last 9: 1.78 / 1.89"
+   ],
+   "home": {
+    "name": "Fortuna Sittard",
+    "abbr": "FOR"
+   },
+   "away": {
+    "name": "Excelsior",
+    "abbr": "EXC"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxeredivisietotal/eredivisie-total/kxeredivisietotal-26oct25forexc",
+    "price": 95,
+    "ticker": "KXEREDIVISIETOTAL-26OCT25FOREXC-1",
+    "contract": "Yes \u00b7 Over 0.5",
+    "buy": "yes"
+   },
+   "result": null,
+   "close_odds": -2042
+  },
+  "401909860:KXNBAGAME-26OCT24GSWPHX-PHX:yes": {
+   "id": "401909860:KXNBAGAME-26OCT24GSWPHX-PHX:yes",
+   "sport": "nba",
+   "game_id": "401909860",
+   "short": "GS @ PHX",
+   "game": "Golden State Warriors at Phoenix Suns",
+   "start": "2026-10-25T02:00Z",
+   "market": "ml",
+   "side": "home",
+   "selection": "PHX to win",
+   "group": "Game lines",
+   "market_name": "Winner",
+   "odds": -360,
+   "p": 0.7647,
+   "p_model": 0.6481,
+   "p_market": 0.7624,
+   "p_breakeven": 0.7824,
+   "edge": -0.0177,
+   "ev": -0.0226,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "PHX ranks #29 in offense and #15 in defense of 32 (schedule-adjusted, recent games weighted more)",
+    "Last 1: 0-1, scoring 83.0 and allowing 124.0 pts/game (season: 83.0 / 124.0)",
+    "Record 0-1 (home 0-0)",
+    "Injuries: Mark Williams (C, Out)",
+    "Price moved -205 \u2192 -375 since opening, money moving toward PHX"
+   ],
+   "home": {
+    "name": "Phoenix Suns",
+    "abbr": "PHX"
+   },
+   "away": {
+    "name": "Golden State Warriors",
+    "abbr": "GS"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxnbagame/nba-game/kxnbagame-26oct24gswphx",
+    "price": 77,
+    "ticker": "KXNBAGAME-26OCT24GSWPHX-PHX",
+    "contract": "Yes \u00b7 Phoenix",
+    "buy": "yes"
+   },
+   "result": null,
+   "close_odds": -360
+  }
+ },
+ "parlays": [
+  {
+   "legs": [
+    "401876925:KXLIGAMXTOTAL-26OCT24MONCDG-1:yes",
+    "401882827:KXLALIGATOTAL-26OCT24VCFVIL-6:no"
+   ],
+   "n": 2,
+   "mode": "safest",
+   "p": 0.8707,
+   "decimal": 1.145,
+   "american": -690,
+   "ev": -0.0031,
+   "tier": "lock",
+   "name": "lock_2",
+   "result": null
+  },
+  {
+   "legs": [
+    "401841280:KXBRASILEIROTOTAL-26OCT24VITCAP-1:yes",
+    "401841641:KXARGPREMDIVTOTAL-26OCT24BANLAN-5:no",
+    "401858274:KXNCAAFGAME-26OCT23PITTMIA-MIA:yes"
+   ],
+   "n": 3,
+   "mode": "safest",
+   "p": 0.7985,
+   "decimal": 1.225,
+   "american": -444,
+   "ev": -0.0218,
+   "tier": "lock",
+   "name": "lock_3",
+   "result": null
+  },
+  {
+   "legs": [
+    "401862809:KXNCAAFGAME-26OCT23RICEFAU-FAU:yes",
+    "401841284:KXBRASILEIROTOTAL-26OCT24MIRSPA-4:no"
+   ],
+   "n": 2,
+   "mode": "safest",
+   "p": 0.5861,
+   "decimal": 1.718,
+   "american": -139,
+   "ev": 0.0066,
+   "tier": "best",
+   "name": "best_2",
+   "result": null
+  },
+  {
+   "legs": [
+    "401856841:KXNCAAFGAME-26OCT23WVUTCU-TCU:yes",
+    "401909860:KXNBAGAME-26OCT24GSWPHX-PHX:yes",
+    "401882834:KXLALIGAGAME-26OCT24ATMDEP-ATM:yes"
+   ],
+   "n": 3,
+   "mode": "safest",
+   "p": 0.4643,
+   "decimal": 2.061,
+   "american": 106,
+   "ev": -0.043,
+   "tier": "best",
+   "name": "best_3",
+   "result": null
+  }
+ ],
+ "straights": [],
+ "straights_best": [
+  "401871094:KXNCAAFGAME-26OCT24ULMTROY-TROY:yes",
+  "401860907:KXNCAAFGAME-26OCT24BSUWSU-BSU:yes",
+  "401909860:KXNBAGAME-26OCT24GSWPHX-PHX:yes",
+  "401882834:KXLALIGAGAME-26OCT24ATMDEP-ATM:yes",
+  "401875036:KXSERIEAGAME-26OCT25INTFIO-INT:yes",
+  "401884763:KXBUNDESLIGAGAME-26OCT24BVBSGE-BVB:yes",
+  "401892568:KXNHLGAME-26OCT24SJBOS-BOS:yes",
+  "761899:KXMLSTOTAL-26OCT24SKCATX-1:yes",
+  "401841281:KXBRASILEIROTOTAL-26OCT24VDGCOR-6:no",
+  "401878767:KXEPLTOTAL-26OCT24CFCTOT-1:yes"
+ ],
+ "locks": [
+  "401858274:KXNCAAFGAME-26OCT23PITTMIA-MIA:yes",
+  "401858270:KXNCAAFGAME-26OCT23CALSMU-SMU:yes",
+  "401858498:KXNCAAFGAME-26OCT23RUTGNW-NW:yes",
+  "401909855:KXNBAGAME-26OCT24MILPHI-PHI:yes",
+  "401909858:KXNBAGAME-26OCT24SASDAL-SAS:yes",
+  "401909854:KXNBAGAME-26OCT24BKNCLE-CLE:yes",
+  "401875570:KXEREDIVISIETOTAL-26OCT25FOREXC-1:yes",
+  "401841278:KXBRASILEIROTOTAL-26OCT24CHAFLU-6:no",
+  "401876427:KXLIGUE1TOTAL-26OCT24RCLPAR-1:yes",
+  "401876925:KXLIGAMXTOTAL-26OCT24MONCDG-6:no",
+  "401841283:KXBRASILEIROTOTAL-26OCT24PALRBB-1:yes"
+ ]
+}
