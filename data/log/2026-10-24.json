@@ -444,7 +444,7 @@
     "buy": "yes"
    },
    "result": null,
-   "close_odds": -290
+   "close_odds": -306
   },
   "401862809:KXNCAAFGAME-26OCT23RICEFAU-FAU:yes": {
    "id": "401862809:KXNCAAFGAME-26OCT23RICEFAU-FAU:yes",
@@ -1261,7 +1261,7 @@
     "contract": "Yes \u00b7 Phoenix",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -381
   }
  },
