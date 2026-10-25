@@ -90,7 +90,7 @@
     "contract": "Yes \u00b7 Over 0.5",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -2042
   },
   "401873021:KXNFLGAME-26OCT25LARLV-LAR:yes": {
@@ -589,7 +589,7 @@
     "contract": "Yes \u00b7 Toulouse",
     "buy": "yes"
    },
-   "result": null,
+   "result": "L",
    "close_odds": -183
   },
   "401874772:KXSERIEATOTAL-26OCT25LECJUV-6:no": {
@@ -678,7 +678,7 @@
     "buy": "no"
    },
    "result": null,
-   "close_odds": -322
+   "close_odds": -306
   },
   "401884759:KXBUNDESLIGAGAME-26OCT25SCFBMU-BMU:yes": {
    "id": "401884759:KXBUNDESLIGAGAME-26OCT25SCFBMU-BMU:yes",
@@ -722,7 +722,7 @@
     "contract": "Yes \u00b7 Bayern Munich",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -199
   },
   "401873015:KXNFLTOTAL-26OCT25MIANYJ-21:yes": {
@@ -858,7 +858,7 @@
     "contract": "Yes \u00b7 Ajax",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -199
   },
   "401873022:KXNFLTOTAL-26OCT25KCSEA-25:yes": {
@@ -1085,7 +1085,7 @@
     "contract": "No \u00b7 Over 5.5",
     "buy": "no"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -1428
   }
  },
