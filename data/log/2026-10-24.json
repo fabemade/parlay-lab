@@ -87,7 +87,7 @@
     "contract": "No \u00b7 Over 5.5",
     "buy": "no"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -1428
   },
   "401876427:KXLIGUE1TOTAL-26OCT24RCLPAR-1:yes": {
@@ -309,7 +309,7 @@
     "contract": "Yes \u00b7 Over 0.5",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -1684
   },
   "401909854:KXNBAGAME-26OCT24BKNCLE-CLE:yes": {
@@ -354,7 +354,7 @@
     "contract": "Yes \u00b7 Cleveland",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -458
   },
   "401841284:KXBRASILEIROTOTAL-26OCT24MIRSPA-4:no": {
@@ -580,7 +580,7 @@
     "contract": "Yes \u00b7 San Antonio",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -719
   },
   "761899:KXMLSTOTAL-26OCT24SKCATX-1:yes": {
@@ -624,7 +624,7 @@
     "contract": "Yes \u00b7 Over 0.5",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -2580
   },
   "401858498:KXNCAAFGAME-26OCT23RUTGNW-NW:yes": {
@@ -762,7 +762,7 @@
     "contract": "Yes \u00b7 Philadelphia",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -564
   },
   "401860907:KXNCAAFGAME-26OCT24BSUWSU-BSU:yes": {
@@ -809,7 +809,7 @@
     "contract": "Yes \u00b7 Boise St.",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -609
   },
   "401892568:KXNHLGAME-26OCT24SJBOS-BOS:yes": {
@@ -855,7 +855,7 @@
     "contract": "Yes \u00b7 Boston",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -199
   },
   "401878767:KXEPLTOTAL-26OCT24CFCTOT-1:yes": {
@@ -1081,7 +1081,7 @@
     "contract": "No \u00b7 Over 5.5",
     "buy": "no"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -2042
   },
   "401841641:KXARGPREMDIVTOTAL-26OCT24BANLAN-5:no": {
@@ -1279,7 +1279,8 @@
    "ev": -0.0031,
    "tier": "lock",
    "name": "lock_2",
-   "result": null
+   "result": "W",
+   "missed": []
   },
   {
    "legs": [
