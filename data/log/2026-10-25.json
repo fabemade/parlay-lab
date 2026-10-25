@@ -46,7 +46,7 @@
     "contract": "Yes \u00b7 Houston",
     "buy": "yes"
    },
-   "result": null,
+   "result": "L",
    "close_odds": -458
   },
   "401876429:KXLIGUE1TOTAL-26OCT25AUXMAN-1:yes": {
@@ -226,7 +226,7 @@
     "contract": "No \u00b7 Over 5.5",
     "buy": "no"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -1428
   },
   "401876921:KXLIGAMXTOTAL-26OCT25QUECRA-1:yes": {
@@ -315,7 +315,7 @@
     "buy": "no"
    },
    "result": null,
-   "close_odds": -2580
+   "close_odds": -2042
   },
   "401873019:KXNFLGAME-26OCT25DENARI-DEN:yes": {
    "id": "401873019:KXNFLGAME-26OCT25DENARI-DEN:yes",
@@ -405,7 +405,7 @@
     "contract": "No \u00b7 Over 3.5",
     "buy": "no"
    },
-   "result": null,
+   "result": "L",
    "close_odds": -340
   },
   "401909863:KXNBAGAME-26OCT25ORLNYK-NYK:yes": {
@@ -452,7 +452,7 @@
     "buy": "yes"
    },
    "result": null,
-   "close_odds": -276
+   "close_odds": -263
   },
   "401873014:KXNFLTOTAL-26OCT25INDMIN-25:yes": {
    "id": "401873014:KXNFLTOTAL-26OCT25INDMIN-25:yes",
@@ -497,7 +497,7 @@
     "contract": "Yes \u00b7 Over 24.5",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -1428
   },
   "401909861:KXNBAGAME-26OCT25LALUTA-LAL:yes": {
@@ -633,7 +633,7 @@
     "contract": "No \u00b7 Over 5.5",
     "buy": "no"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -1684
   },
   "401841634:KXARGPREMDIVTOTAL-26OCT25RIVRAC-4:no": {
@@ -678,7 +678,7 @@
     "buy": "no"
    },
    "result": null,
-   "close_odds": -306
+   "close_odds": -276
   },
   "401884759:KXBUNDESLIGAGAME-26OCT25SCFBMU-BMU:yes": {
    "id": "401884759:KXBUNDESLIGAGAME-26OCT25SCFBMU-BMU:yes",
@@ -768,7 +768,7 @@
     "contract": "Yes \u00b7 Over 20.5",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -2042
   },
   "401878961:KXBELGIANPLGAME-26OCT25USGCER-USG:yes": {
@@ -813,7 +813,7 @@
     "contract": "Yes \u00b7 Union Gilloise",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -306
   },
   "401875567:KXEREDIVISIEGAME-26OCT25SPAAJA-AJA:yes": {
@@ -950,7 +950,7 @@
     "contract": "No \u00b7 Over 63.5",
     "buy": "no"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -2042
   },
   "401878962:KXBELGIANPLTOTAL-26OCT25KAARSC-6:no": {
@@ -994,7 +994,7 @@
     "contract": "No \u00b7 Over 5.5",
     "buy": "no"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -2580
   },
   "401909865:KXNBAGAME-26OCT25LACOKC-OKC:yes": {
@@ -1103,7 +1103,8 @@
    "ev": -0.0035,
    "tier": "lock",
    "name": "lock_2",
-   "result": null
+   "result": "W",
+   "missed": []
   },
   {
    "legs": [
@@ -1134,7 +1135,10 @@
    "ev": -0.0187,
    "tier": "best",
    "name": "best_2",
-   "result": null
+   "result": "L",
+   "missed": [
+    "401885415:KXLIGAPORTUGALTOTAL-26OCT25RAVFAM-4:no"
+   ]
   }
  ],
  "straights": [],
