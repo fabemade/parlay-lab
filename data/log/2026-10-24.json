@@ -443,7 +443,7 @@
     "contract": "Yes \u00b7 Inter",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -306
   },
   "401862809:KXNCAAFGAME-26OCT23RICEFAU-FAU:yes": {
@@ -1215,7 +1215,7 @@
     "contract": "Yes \u00b7 Over 0.5",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -2042
   },
   "401909860:KXNBAGAME-26OCT24GSWPHX-PHX:yes": {
