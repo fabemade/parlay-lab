@@ -183,7 +183,7 @@
     "buy": "no"
    },
    "result": null,
-   "close_odds": -1428
+   "close_odds": -1236
   },
   "401883129:KXLALIGA2TOTAL-26OCT25CASGIJ-6:no": {
    "id": "401883129:KXLALIGA2TOTAL-26OCT25CASGIJ-6:no",
@@ -361,7 +361,7 @@
     "contract": "Yes \u00b7 Denver",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -218
   },
   "401885415:KXLIGAPORTUGALTOTAL-26OCT25RAVFAM-4:no": {
@@ -905,7 +905,7 @@
     "buy": "yes"
    },
    "result": null,
-   "close_odds": -1428
+   "close_odds": -1684
   },
   "401873014:KXNFLTOTAL-26OCT25INDMIN-64:no": {
    "id": "401873014:KXNFLTOTAL-26OCT25INDMIN-64:no",
