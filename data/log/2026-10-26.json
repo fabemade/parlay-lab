@@ -43,7 +43,7 @@
     "contract": "No \u00b7 Over 3.5",
     "buy": "no"
    },
-   "result": null,
+   "result": "L",
    "close_odds": -322
   },
   "401892584:KXNHLGAME-26OCT26DETEDM-EDM:yes": {
@@ -178,7 +178,7 @@
     "buy": "yes"
    },
    "result": null,
-   "close_odds": -2042
+   "close_odds": -1684
   },
   "401876422:KXLIGUE1TOTAL-26OCT25PSGOL-2:yes": {
    "id": "401876422:KXLIGUE1TOTAL-26OCT25PSGOL-2:yes",
@@ -221,7 +221,7 @@
     "contract": "Yes \u00b7 Over 1.5",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -967
   },
   "401909873:KXNBAGAME-26OCT26PHXOKC-OKC:yes": {
@@ -269,7 +269,7 @@
     "buy": "yes"
    },
    "result": null,
-   "close_odds": -306
+   "close_odds": -322
   },
   "401873009:KXNFLTOTAL-26OCT26DALPHI-66:no": {
    "id": "401873009:KXNFLTOTAL-26OCT26DALPHI-66:no",
@@ -360,7 +360,7 @@
     "buy": "no"
    },
    "result": null,
-   "close_odds": -1428
+   "close_odds": -1684
   },
   "401883131:KXLALIGA2TOTAL-26OCT26ANDBUR-1:yes": {
    "id": "401883131:KXLALIGA2TOTAL-26OCT26ANDBUR-1:yes",
@@ -403,7 +403,7 @@
     "contract": "Yes \u00b7 Over 0.5",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -1236
   },
   "401882828:KXLALIGATOTAL-26OCT26SEVOSA-1:yes": {
@@ -447,7 +447,7 @@
     "contract": "Yes \u00b7 Over 0.5",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -1236
   },
   "401892582:KXNHLTOTAL-26OCT26LANYR-10:no": {
@@ -536,7 +536,7 @@
     "buy": "no"
    },
    "result": null,
-   "close_odds": -1684
+   "close_odds": -1428
   },
   "401909870:KXNBAGAME-26OCT26CHIBOS-BOS:yes": {
    "id": "401909870:KXNBAGAME-26OCT26CHIBOS-BOS:yes",
@@ -804,7 +804,7 @@
     "contract": "No \u00b7 Over 5.5",
     "buy": "no"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -2580
   },
   "401909876:KXNBAGAME-26OCT26GSWDEN-DEN:yes": {
@@ -900,7 +900,10 @@
    "ev": 0.0015,
    "tier": "best",
    "name": "best_2",
-   "result": null
+   "result": "L",
+   "missed": [
+    "401883131:KXLALIGA2TOTAL-26OCT26ANDBUR-4:no"
+   ]
   }
  ],
  "straights": [],
