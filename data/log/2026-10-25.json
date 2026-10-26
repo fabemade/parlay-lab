@@ -138,7 +138,7 @@
     "contract": "Yes \u00b7 Los Angeles R",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -175
   },
   "401876921:KXLIGAMXTOTAL-26OCT25QUECRA-6:no": {
@@ -314,7 +314,7 @@
     "contract": "No \u00b7 Over 5.5",
     "buy": "no"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -2042
   },
   "401873019:KXNFLGAME-26OCT25DENARI-DEN:yes": {
@@ -544,7 +544,7 @@
     "contract": "Yes \u00b7 Los Angeles L",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -239
   },
   "401876423:KXLIGUE1GAME-26OCT24TFCEST-TFC:yes": {
@@ -677,7 +677,7 @@
     "contract": "No \u00b7 Over 3.5",
     "buy": "no"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -276
   },
   "401884759:KXBUNDESLIGAGAME-26OCT25SCFBMU-BMU:yes": {
@@ -1041,7 +1041,7 @@
     "contract": "Yes \u00b7 Oklahoma City",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -1087
   },
   "401876429:KXLIGUE1TOTAL-26OCT25AUXMAN-6:no": {
