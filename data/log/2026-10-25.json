@@ -182,7 +182,7 @@
     "contract": "No \u00b7 Over 5.5",
     "buy": "no"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -1236
   },
   "401883129:KXLALIGA2TOTAL-26OCT25CASGIJ-6:no": {
@@ -270,7 +270,7 @@
     "contract": "Yes \u00b7 Over 0.5",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -2042
   },
   "401841634:KXARGPREMDIVTOTAL-26OCT25RIVRAC-6:no": {
@@ -451,7 +451,7 @@
     "contract": "Yes \u00b7 New York",
     "buy": "yes"
    },
-   "result": null,
+   "result": "L",
    "close_odds": -263
   },
   "401873014:KXNFLTOTAL-26OCT25INDMIN-25:yes": {
@@ -904,7 +904,7 @@
     "contract": "Yes \u00b7 Over 24.5",
     "buy": "yes"
    },
-   "result": null,
+   "result": "L",
    "close_odds": -1684
   },
   "401873014:KXNFLTOTAL-26OCT25INDMIN-64:no": {
@@ -1120,7 +1120,10 @@
    "ev": -0.0189,
    "tier": "lock",
    "name": "lock_3",
-   "result": null
+   "result": "L",
+   "missed": [
+    "401873022:KXNFLTOTAL-26OCT25KCSEA-25:yes"
+   ]
   },
   {
    "legs": [
