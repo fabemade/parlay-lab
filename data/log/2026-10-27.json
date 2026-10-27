@@ -43,7 +43,7 @@
     "contract": "No \u00b7 Over 5.5",
     "buy": "no"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -1236
   },
   "401874786:KXSERIEATOTAL-26OCT27TORCOM-1:yes": {
@@ -87,7 +87,7 @@
     "contract": "Yes \u00b7 Over 0.5",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -2042
   },
   "401909877:KXNBAGAME-26OCT27BKNBOS-BOS:yes": {
@@ -180,7 +180,7 @@
     "buy": "yes"
    },
    "result": null,
-   "close_odds": -2042
+   "close_odds": -2580
   },
   "401909878:KXNBAGAME-26OCT27DETNYK-NYK:yes": {
    "id": "401909878:KXNBAGAME-26OCT27DETNYK-NYK:yes",
@@ -227,7 +227,7 @@
     "buy": "yes"
    },
    "result": null,
-   "close_odds": -168
+   "close_odds": -175
   },
   "401899579:KXSERIEBTOTAL-26OCT27ASCSAM-6:no": {
    "id": "401899579:KXSERIEBTOTAL-26OCT27ASCSAM-6:no",
@@ -270,7 +270,7 @@
     "contract": "No \u00b7 Over 5.5",
     "buy": "no"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -2042
   },
   "401880819:KXEFLL1TOTAL-26OCT27OXUSTO-1:yes": {
@@ -314,7 +314,7 @@
     "contract": "Yes \u00b7 Over 0.5",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -2580
   },
   "401899576:KXSERIEBTOTAL-26OCT27CESEMP-6:no": {
@@ -358,7 +358,7 @@
     "contract": "No \u00b7 Over 5.5",
     "buy": "no"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -2580
   },
   "401899574:KXSERIEBTOTAL-26OCT27VICMOD-6:no": {
@@ -402,7 +402,7 @@
     "contract": "No \u00b7 Over 5.5",
     "buy": "no"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -2042
   },
   "401871072:KXNCAAFGAME-26OCT27SHSUMOSU-MOSU:yes": {
@@ -537,7 +537,7 @@
     "contract": "No \u00b7 Over 3.5",
     "buy": "no"
    },
-   "result": null,
+   "result": "L",
    "close_odds": -263
   },
   "401909880:KXNBATOTAL-26OCT27PORLAL-210:yes": {
@@ -717,7 +717,7 @@
     "contract": "No \u00b7 Over 5.5",
     "buy": "no"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -1428
   },
   "401880832:KXEFLL1TOTAL-26OCT27MKDBRO-1:yes": {
@@ -761,7 +761,7 @@
     "contract": "Yes \u00b7 Over 0.5",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -2580
   }
  },
