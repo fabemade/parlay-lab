@@ -89,7 +89,7 @@
     "contract": "Yes \u00b7 Edmonton",
     "buy": "yes"
    },
-   "result": null,
+   "result": "L",
    "close_odds": -175
   },
   "401908044:KXMLBTOTAL-26OCT262000MILTB-3:yes": {
@@ -133,7 +133,7 @@
     "contract": "Yes \u00b7 Over 2.5",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -2580
   },
   "401909875:KXNBATOTAL-26OCT26MEMUTA-211:yes": {
@@ -177,7 +177,7 @@
     "contract": "Yes \u00b7 Over 210.5",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -1684
   },
   "401876422:KXLIGUE1TOTAL-26OCT25PSGOL-2:yes": {
@@ -268,7 +268,7 @@
     "contract": "Yes \u00b7 Oklahoma City",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -322
   },
   "401873009:KXNFLTOTAL-26OCT26DALPHI-66:no": {
@@ -314,7 +314,7 @@
     "contract": "No \u00b7 Over 65.5",
     "buy": "no"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -1684
   },
   "401909876:KXNBATOTAL-26OCT26GSWDEN-264:no": {
@@ -359,7 +359,7 @@
     "contract": "No \u00b7 Over 263.5",
     "buy": "no"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -1428
   },
   "401883131:KXLALIGA2TOTAL-26OCT26ANDBUR-1:yes": {
@@ -535,7 +535,7 @@
     "contract": "No \u00b7 Over 260.5",
     "buy": "no"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -1428
   },
   "401909870:KXNBAGAME-26OCT26CHIBOS-BOS:yes": {
@@ -582,7 +582,7 @@
     "contract": "Yes \u00b7 Boston",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -719
   },
   "401841635:KXARGPREMDIVTOTAL-26OCT26IACCRIE-5:no": {
@@ -626,7 +626,7 @@
     "contract": "No \u00b7 Over 4.5",
     "buy": "no"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -2042
   },
   "401841279:KXBRASILEIROTOTAL-26OCT26CFCGPA-1:yes": {
@@ -760,7 +760,7 @@
     "contract": "Yes \u00b7 Over 26.5",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -1428
   },
   "401883131:KXLALIGA2TOTAL-26OCT26ANDBUR-6:no": {
@@ -851,7 +851,7 @@
     "contract": "Yes \u00b7 Denver",
     "buy": "yes"
    },
-   "result": null,
+   "result": "L",
    "close_odds": -263
   }
  },
@@ -869,7 +869,8 @@
    "ev": -0.0032,
    "tier": "lock",
    "name": "lock_2",
-   "result": null
+   "result": "W",
+   "missed": []
   },
   {
    "legs": [
@@ -885,7 +886,8 @@
    "ev": -0.0146,
    "tier": "lock",
    "name": "lock_3",
-   "result": null
+   "result": "W",
+   "missed": []
   },
   {
    "legs": [
