@@ -1,0 +1,819 @@
+{
+ "date": "2026-10-27",
+ "locked_at": "2026-10-27T13:34-04:00",
+ "legs": {
+  "401874786:KXSERIEATOTAL-26OCT27TORCOM-6:no": {
+   "id": "401874786:KXSERIEATOTAL-26OCT27TORCOM-6:no",
+   "sport": "soccer_ita.1",
+   "game_id": "401874786",
+   "short": "COMO @ TOR",
+   "game": "Como at Torino",
+   "start": "2026-10-27T19:45Z",
+   "market": "total",
+   "side": "under",
+   "line": 5.5,
+   "selection": "Under 5.5",
+   "group": "Game lines",
+   "market_name": "Total",
+   "odds": -1236,
+   "p": 0.9273,
+   "p_model": 0.9406,
+   "p_market": 0.9109,
+   "p_breakeven": 0.9252,
+   "edge": 0.0021,
+   "ev": 0.0023,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "COMO: 1.75 scored / 0.88 allowed per game this season; last 8: 1.75 / 0.88",
+    "TOR: 1.62 scored / 1.38 allowed per game this season; last 8: 1.62 / 1.38"
+   ],
+   "home": {
+    "name": "Torino",
+    "abbr": "TOR"
+   },
+   "away": {
+    "name": "Como",
+    "abbr": "COMO"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxserieatotal/serie-a-total/kxserieatotal-26oct27torcom",
+    "price": 92,
+    "ticker": "KXSERIEATOTAL-26OCT27TORCOM-6",
+    "contract": "No \u00b7 Over 5.5",
+    "buy": "no"
+   },
+   "result": null,
+   "close_odds": -1236
+  },
+  "401874786:KXSERIEATOTAL-26OCT27TORCOM-1:yes": {
+   "id": "401874786:KXSERIEATOTAL-26OCT27TORCOM-1:yes",
+   "sport": "soccer_ita.1",
+   "game_id": "401874786",
+   "short": "COMO @ TOR",
+   "game": "Como at Torino",
+   "start": "2026-10-27T19:45Z",
+   "market": "total",
+   "side": "over",
+   "line": 0.5,
+   "selection": "Over 0.5",
+   "group": "Game lines",
+   "market_name": "Total",
+   "odds": -2042,
+   "p": 0.9506,
+   "p_model": 0.921,
+   "p_market": 0.9406,
+   "p_breakeven": 0.9533,
+   "edge": -0.0027,
+   "ev": -0.0028,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "COMO: 1.75 scored / 0.88 allowed per game this season; last 8: 1.75 / 0.88",
+    "TOR: 1.62 scored / 1.38 allowed per game this season; last 8: 1.62 / 1.38"
+   ],
+   "home": {
+    "name": "Torino",
+    "abbr": "TOR"
+   },
+   "away": {
+    "name": "Como",
+    "abbr": "COMO"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxserieatotal/serie-a-total/kxserieatotal-26oct27torcom",
+    "price": 95,
+    "ticker": "KXSERIEATOTAL-26OCT27TORCOM-1",
+    "contract": "Yes \u00b7 Over 0.5",
+    "buy": "yes"
+   },
+   "result": null,
+   "close_odds": -2042
+  },
+  "401909877:KXNBAGAME-26OCT27BKNBOS-BOS:yes": {
+   "id": "401909877:KXNBAGAME-26OCT27BKNBOS-BOS:yes",
+   "sport": "nba",
+   "game_id": "401909877",
+   "short": "BKN @ BOS",
+   "game": "Brooklyn Nets at Boston Celtics",
+   "start": "2026-10-27T23:30Z",
+   "market": "ml",
+   "side": "home",
+   "selection": "BOS to win",
+   "group": "Game lines",
+   "market_name": "Winner",
+   "odds": -609,
+   "p": 0.8715,
+   "p_model": 0.8814,
+   "p_market": 0.85,
+   "p_breakeven": 0.8589,
+   "edge": 0.0126,
+   "ev": 0.0147,
+   "grade": "B",
+   "modeled": true,
+   "reasons": [
+    "BOS ranks #15 in offense and #5 in defense of 32 (schedule-adjusted, recent games weighted more)",
+    "Last 3: 2-1, scoring 118.0 and allowing 107.67 pts/game (season: 118.0 / 107.67)",
+    "At home: 120.5 scored / 101.0 allowed per game",
+    "Record 2-1 (home 2-0)",
+    "Injuries: Devin Carter (G, Out)",
+    "Playing the 2nd night of a back-to-back (historically worth about -1 to -1.5 pts in the NBA; tired legs and often the backup goalie in the NHL)",
+    "Price moved -575 \u2192 -625 since opening, money moving toward BOS"
+   ],
+   "home": {
+    "name": "Boston Celtics",
+    "abbr": "BOS"
+   },
+   "away": {
+    "name": "Brooklyn Nets",
+    "abbr": "BKN"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxnbagame/nba-game/kxnbagame-26oct27bknbos",
+    "price": 85,
+    "ticker": "KXNBAGAME-26OCT27BKNBOS-BOS",
+    "contract": "Yes \u00b7 Boston",
+    "buy": "yes"
+   },
+   "result": null,
+   "close_odds": -609
+  },
+  "401908045:KXMLBTOTAL-26OCT272000MILTB-3:yes": {
+   "id": "401908045:KXMLBTOTAL-26OCT272000MILTB-3:yes",
+   "sport": "mlb",
+   "game_id": "401908045",
+   "short": "MIL @ TB",
+   "game": "Milwaukee Brewers at Tampa Bay Rays",
+   "start": "2026-10-28T00:00Z",
+   "market": "total",
+   "side": "over",
+   "line": 2.5,
+   "selection": "Over 2.5",
+   "group": "Game lines",
+   "market_name": "Total",
+   "odds": -2042,
+   "p": 0.9535,
+   "p_model": 0.9636,
+   "p_market": 0.9406,
+   "p_breakeven": 0.9533,
+   "edge": 0.0002,
+   "ev": 0.0002,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "MIL: 5.11 scored / 3.73 allowed per game this season; last 10: 4.9 / 2.6",
+    "TB: 4.47 scored / 3.97 allowed per game this season; last 10: 3.6 / 3.9"
+   ],
+   "home": {
+    "name": "Tampa Bay Rays",
+    "abbr": "TB"
+   },
+   "away": {
+    "name": "Milwaukee Brewers",
+    "abbr": "MIL"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxmlbtotal/pro-baseball-total-points/kxmlbtotal-26oct272000miltb",
+    "price": 95,
+    "ticker": "KXMLBTOTAL-26OCT272000MILTB-3",
+    "contract": "Yes \u00b7 Over 2.5",
+    "buy": "yes"
+   },
+   "result": null,
+   "close_odds": -2042
+  },
+  "401909878:KXNBAGAME-26OCT27DETNYK-NYK:yes": {
+   "id": "401909878:KXNBAGAME-26OCT27DETNYK-NYK:yes",
+   "sport": "nba",
+   "game_id": "401909878",
+   "short": "DET @ NY",
+   "game": "Detroit Pistons at New York Knicks",
+   "start": "2026-10-28T00:00Z",
+   "market": "ml",
+   "side": "home",
+   "selection": "NY to win",
+   "group": "Game lines",
+   "market_name": "Winner",
+   "odds": -168,
+   "p": 0.609,
+   "p_model": 0.5848,
+   "p_market": 0.604,
+   "p_breakeven": 0.6267,
+   "edge": -0.0177,
+   "ev": -0.0282,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "NY ranks #21 in offense and #1 in defense of 32 (schedule-adjusted, recent games weighted more)",
+    "Last 3: 0-3, scoring 101.67 and allowing 108.0 pts/game (season: 101.67 / 108.0). Current streak: L3",
+    "At home: 101.0 scored / 108.5 allowed per game",
+    "Record 0-3 (home 0-2)",
+    "Injuries: Jose Alvarado (G, Out)",
+    "Price moved -162 \u2192 -170 since opening, money moving toward NY"
+   ],
+   "home": {
+    "name": "New York Knicks",
+    "abbr": "NY"
+   },
+   "away": {
+    "name": "Detroit Pistons",
+    "abbr": "DET"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxnbagame/nba-game/kxnbagame-26oct27detnyk",
+    "price": 61,
+    "ticker": "KXNBAGAME-26OCT27DETNYK-NYK",
+    "contract": "Yes \u00b7 New York",
+    "buy": "yes"
+   },
+   "result": null,
+   "close_odds": -168
+  },
+  "401899579:KXSERIEBTOTAL-26OCT27ASCSAM-6:no": {
+   "id": "401899579:KXSERIEBTOTAL-26OCT27ASCSAM-6:no",
+   "sport": "soccer_ita.2",
+   "game_id": "401899579",
+   "short": "SAM @ ASC",
+   "game": "Sampdoria at Ascoli",
+   "start": "2026-10-27T19:00Z",
+   "market": "total",
+   "side": "under",
+   "line": 5.5,
+   "selection": "Under 5.5",
+   "group": "Game lines",
+   "market_name": "Total",
+   "odds": -2042,
+   "p": 0.9524,
+   "p_model": 0.9476,
+   "p_market": 0.9406,
+   "p_breakeven": 0.9533,
+   "edge": -0.0009,
+   "ev": -0.0009,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "SAM: 1.0 scored / 2.0 allowed per game this season; last 8: 1.0 / 2.0",
+    "ASC: 1.75 scored / 0.75 allowed per game this season; last 8: 1.75 / 0.75"
+   ],
+   "home": {
+    "name": "Ascoli",
+    "abbr": "ASC"
+   },
+   "away": {
+    "name": "Sampdoria",
+    "abbr": "SAM"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxseriebtotal/point-total/kxseriebtotal-26oct27ascsam",
+    "price": 95,
+    "ticker": "KXSERIEBTOTAL-26OCT27ASCSAM-6",
+    "contract": "No \u00b7 Over 5.5",
+    "buy": "no"
+   },
+   "result": null,
+   "close_odds": -2042
+  },
+  "401880819:KXEFLL1TOTAL-26OCT27OXUSTO-1:yes": {
+   "id": "401880819:KXEFLL1TOTAL-26OCT27OXUSTO-1:yes",
+   "sport": "soccer_eng.3",
+   "game_id": "401880819",
+   "short": "STO @ OXF",
+   "game": "Stockport County at Oxford United",
+   "start": "2026-10-27T19:45Z",
+   "market": "total",
+   "side": "over",
+   "line": 0.5,
+   "selection": "Over 0.5",
+   "group": "Game lines",
+   "market_name": "Total",
+   "odds": -2042,
+   "p": 0.9507,
+   "p_model": 0.9241,
+   "p_market": 0.9406,
+   "p_breakeven": 0.9533,
+   "edge": -0.0026,
+   "ev": -0.0027,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "STO: 2.0 scored / 1.0 allowed per game this season; last 10: 2.0 / 0.9",
+    "OXF: 1.8 scored / 1.0 allowed per game this season; last 10: 1.8 / 1.0"
+   ],
+   "home": {
+    "name": "Oxford United",
+    "abbr": "OXF"
+   },
+   "away": {
+    "name": "Stockport County",
+    "abbr": "STO"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxefll1total/point-total/kxefll1total-26oct27oxusto",
+    "price": 95,
+    "ticker": "KXEFLL1TOTAL-26OCT27OXUSTO-1",
+    "contract": "Yes \u00b7 Over 0.5",
+    "buy": "yes"
+   },
+   "result": null,
+   "close_odds": -2042
+  },
+  "401899576:KXSERIEBTOTAL-26OCT27CESEMP-6:no": {
+   "id": "401899576:KXSERIEBTOTAL-26OCT27CESEMP-6:no",
+   "sport": "soccer_ita.2",
+   "game_id": "401899576",
+   "short": "EMP @ CES",
+   "game": "Empoli at Cesena",
+   "start": "2026-10-27T19:00Z",
+   "market": "total",
+   "side": "under",
+   "line": 5.5,
+   "selection": "Under 5.5",
+   "group": "Game lines",
+   "market_name": "Total",
+   "odds": -2580,
+   "p": 0.9604,
+   "p_model": 0.9496,
+   "p_market": 0.9505,
+   "p_breakeven": 0.9627,
+   "edge": -0.0023,
+   "ev": -0.0024,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "EMP: 0.88 scored / 1.62 allowed per game this season; last 8: 0.88 / 1.62",
+    "CES: 1.0 scored / 1.5 allowed per game this season; last 8: 1.0 / 1.5"
+   ],
+   "home": {
+    "name": "Cesena",
+    "abbr": "CES"
+   },
+   "away": {
+    "name": "Empoli",
+    "abbr": "EMP"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxseriebtotal/point-total/kxseriebtotal-26oct27cesemp",
+    "price": 96,
+    "ticker": "KXSERIEBTOTAL-26OCT27CESEMP-6",
+    "contract": "No \u00b7 Over 5.5",
+    "buy": "no"
+   },
+   "result": null,
+   "close_odds": -2580
+  },
+  "401899574:KXSERIEBTOTAL-26OCT27VICMOD-6:no": {
+   "id": "401899574:KXSERIEBTOTAL-26OCT27VICMOD-6:no",
+   "sport": "soccer_ita.2",
+   "game_id": "401899574",
+   "short": "MOD @ VIC",
+   "game": "Modena at Vicenza",
+   "start": "2026-10-27T19:00Z",
+   "market": "total",
+   "side": "under",
+   "line": 5.5,
+   "selection": "Under 5.5",
+   "group": "Game lines",
+   "market_name": "Total",
+   "odds": -2042,
+   "p": 0.9522,
+   "p_model": 0.9449,
+   "p_market": 0.9406,
+   "p_breakeven": 0.9533,
+   "edge": -0.0011,
+   "ev": -0.0012,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "MOD: 1.88 scored / 1.0 allowed per game this season; last 8: 1.88 / 1.0",
+    "VIC: 1.38 scored / 1.88 allowed per game this season; last 8: 1.38 / 1.88"
+   ],
+   "home": {
+    "name": "Vicenza",
+    "abbr": "VIC"
+   },
+   "away": {
+    "name": "Modena",
+    "abbr": "MOD"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxseriebtotal/point-total/kxseriebtotal-26oct27vicmod",
+    "price": 95,
+    "ticker": "KXSERIEBTOTAL-26OCT27VICMOD-6",
+    "contract": "No \u00b7 Over 5.5",
+    "buy": "no"
+   },
+   "result": null,
+   "close_odds": -2042
+  },
+  "401871072:KXNCAAFGAME-26OCT27SHSUMOSU-MOSU:yes": {
+   "id": "401871072:KXNCAAFGAME-26OCT27SHSUMOSU-MOSU:yes",
+   "sport": "cfb",
+   "game_id": "401871072",
+   "short": "SHSU @ MOST",
+   "game": "Sam Houston Bearkats at Missouri State Bears",
+   "start": "2026-10-28T00:00Z",
+   "market": "ml",
+   "side": "home",
+   "selection": "MOST to win",
+   "group": "Game lines",
+   "market_name": "Winner",
+   "odds": -218,
+   "p": 0.6697,
+   "p_model": 0.666,
+   "p_market": 0.6569,
+   "p_breakeven": 0.6855,
+   "edge": -0.0158,
+   "ev": -0.023,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "MOST ranks #97 in offense and #144 in defense of 172 (schedule-adjusted, recent games weighted more)",
+    "Last 7: 2-5, scoring 24.43 and allowing 34.86 pts/game (season: 24.43 / 34.86)",
+    "At home: 32.0 scored / 21.67 allowed per game",
+    "Record 2-5",
+    "Price moved -218 \u2192 -225 since opening, money moving toward MOST"
+   ],
+   "home": {
+    "name": "Missouri State Bears",
+    "abbr": "MOST"
+   },
+   "away": {
+    "name": "Sam Houston Bearkats",
+    "abbr": "SHSU"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxncaafgame/college-football-game/kxncaafgame-26oct27shsumosu",
+    "price": 67,
+    "ticker": "KXNCAAFGAME-26OCT27SHSUMOSU-MOSU",
+    "contract": "Yes \u00b7 Missouri St.",
+    "buy": "yes"
+   },
+   "result": null,
+   "close_odds": -218
+  },
+  "401892591:KXNHLTOTAL-26OCT27FLAWPG-10:no": {
+   "id": "401892591:KXNHLTOTAL-26OCT27FLAWPG-10:no",
+   "sport": "nhl",
+   "game_id": "401892591",
+   "short": "FLA @ WPG",
+   "game": "Florida Panthers at Winnipeg Jets",
+   "start": "2026-10-28T00:00Z",
+   "market": "total",
+   "side": "under",
+   "line": 9.5,
+   "selection": "Under 9.5",
+   "group": "Game lines",
+   "market_name": "Total",
+   "odds": -1428,
+   "p": 0.9325,
+   "p_model": 0.8979,
+   "p_market": 0.9208,
+   "p_breakeven": 0.9346,
+   "edge": -0.0021,
+   "ev": -0.0022,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "FLA: 2.83 scored / 3.0 allowed per game this season; last 10: 3.0 / 3.2",
+    "WPG: 2.45 scored / 2.82 allowed per game this season; last 10: 2.4 / 2.7",
+    "Line moved from +5.5 to +6.5 since opening (total)"
+   ],
+   "home": {
+    "name": "Winnipeg Jets",
+    "abbr": "WPG"
+   },
+   "away": {
+    "name": "Florida Panthers",
+    "abbr": "FLA"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxnhltotal/nhl-total-goals/kxnhltotal-26oct27flawpg",
+    "price": 93,
+    "ticker": "KXNHLTOTAL-26OCT27FLAWPG-10",
+    "contract": "No \u00b7 Over 9.5",
+    "buy": "no"
+   },
+   "result": null,
+   "close_odds": -1428
+  },
+  "401874780:KXSERIEATOTAL-26OCT27ROMCAG-4:no": {
+   "id": "401874780:KXSERIEATOTAL-26OCT27ROMCAG-4:no",
+   "sport": "soccer_ita.1",
+   "game_id": "401874780",
+   "short": "CAG @ ROMA",
+   "game": "Cagliari at AS Roma",
+   "start": "2026-10-27T19:45Z",
+   "market": "total",
+   "side": "under",
+   "line": 3.5,
+   "selection": "Under 3.5",
+   "group": "Game lines",
+   "market_name": "Total",
+   "odds": -263,
+   "p": 0.7197,
+   "p_model": 0.7306,
+   "p_market": 0.703,
+   "p_breakeven": 0.7244,
+   "edge": -0.0047,
+   "ev": -0.0065,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "CAG: 0.75 scored / 1.12 allowed per game this season; last 8: 0.75 / 1.12",
+    "ROMA: 2.38 scored / 0.75 allowed per game this season; last 8: 2.38 / 0.75"
+   ],
+   "home": {
+    "name": "AS Roma",
+    "abbr": "ROMA"
+   },
+   "away": {
+    "name": "Cagliari",
+    "abbr": "CAG"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxserieatotal/serie-a-total/kxserieatotal-26oct27romcag",
+    "price": 71,
+    "ticker": "KXSERIEATOTAL-26OCT27ROMCAG-4",
+    "contract": "No \u00b7 Over 3.5",
+    "buy": "no"
+   },
+   "result": null,
+   "close_odds": -263
+  },
+  "401909880:KXNBATOTAL-26OCT27PORLAL-210:yes": {
+   "id": "401909880:KXNBATOTAL-26OCT27PORLAL-210:yes",
+   "sport": "nba",
+   "game_id": "401909880",
+   "short": "POR @ LAL",
+   "game": "Portland Trail Blazers at Los Angeles Lakers",
+   "start": "2026-10-28T03:00Z",
+   "market": "total",
+   "side": "over",
+   "line": 209.5,
+   "selection": "Over 209.5",
+   "group": "Game lines",
+   "market_name": "Total",
+   "odds": -1684,
+   "p": 0.933,
+   "p_model": 0.8081,
+   "p_market": 0.9216,
+   "p_breakeven": 0.9439,
+   "edge": -0.0109,
+   "ev": -0.0115,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "POR: 126.0 scored / 101.5 allowed per game this season; last 2: 126.0 / 101.5",
+    "LAL: 128.0 scored / 115.0 allowed per game this season; last 3: 128.0 / 115.0",
+    "Line moved from +236.5 to +233.5 since opening (total)"
+   ],
+   "home": {
+    "name": "Los Angeles Lakers",
+    "abbr": "LAL"
+   },
+   "away": {
+    "name": "Portland Trail Blazers",
+    "abbr": "POR"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxnbatotal/nba-total/kxnbatotal-26oct27porlal",
+    "price": 94,
+    "ticker": "KXNBATOTAL-26OCT27PORLAL-210",
+    "contract": "Yes \u00b7 Over 209.5",
+    "buy": "yes"
+   },
+   "result": null,
+   "close_odds": -1684
+  },
+  "401909879:KXNBAGAME-26OCT27SACSAS-SAS:yes": {
+   "id": "401909879:KXNBAGAME-26OCT27SACSAS-SAS:yes",
+   "sport": "nba",
+   "game_id": "401909879",
+   "short": "SAC @ SA",
+   "game": "Sacramento Kings at San Antonio Spurs",
+   "start": "2026-10-28T00:00Z",
+   "market": "ml",
+   "side": "home",
+   "selection": "SA to win",
+   "group": "Game lines",
+   "market_name": "Winner",
+   "odds": -1428,
+   "p": 0.935,
+   "p_model": 0.9284,
+   "p_market": 0.9208,
+   "p_breakeven": 0.9346,
+   "edge": 0.0004,
+   "ev": 0.0004,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "SA ranks #3 in offense and #8 in defense of 32 (schedule-adjusted, recent games weighted more)",
+    "Last 3: 1-2, scoring 112.0 and allowing 112.0 pts/game (season: 112.0 / 112.0)",
+    "At home: 107.0 scored / 115.0 allowed per game",
+    "Record 1-2 (home 0-2)",
+    "Injuries: Tobias Harris (F, Out), Jayden Quaintance (F, Out)",
+    "Price moved -1800 \u2192 -1650 since opening, money moving away from SA"
+   ],
+   "home": {
+    "name": "San Antonio Spurs",
+    "abbr": "SA"
+   },
+   "away": {
+    "name": "Sacramento Kings",
+    "abbr": "SAC"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxnbagame/nba-game/kxnbagame-26oct27sacsas",
+    "price": 93,
+    "ticker": "KXNBAGAME-26OCT27SACSAS-SAS",
+    "contract": "Yes \u00b7 San Antonio",
+    "buy": "yes"
+   },
+   "result": null,
+   "close_odds": -1428
+  },
+  "401892588:KXNHLTOTAL-26OCT27MTLSTL-10:no": {
+   "id": "401892588:KXNHLTOTAL-26OCT27MTLSTL-10:no",
+   "sport": "nhl",
+   "game_id": "401892588",
+   "short": "MTL @ STL",
+   "game": "Montreal Canadiens at St. Louis Blues",
+   "start": "2026-10-28T00:00Z",
+   "market": "total",
+   "side": "under",
+   "line": 9.5,
+   "selection": "Under 9.5",
+   "group": "Game lines",
+   "market_name": "Total",
+   "odds": -1428,
+   "p": 0.9319,
+   "p_model": 0.8848,
+   "p_market": 0.9208,
+   "p_breakeven": 0.9346,
+   "edge": -0.0027,
+   "ev": -0.0029,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "MTL: 3.27 scored / 3.27 allowed per game this season; last 10: 3.3 / 3.4",
+    "STL: 3.18 scored / 3.18 allowed per game this season; last 10: 3.1 / 3.5"
+   ],
+   "home": {
+    "name": "St. Louis Blues",
+    "abbr": "STL"
+   },
+   "away": {
+    "name": "Montreal Canadiens",
+    "abbr": "MTL"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxnhltotal/nhl-total-goals/kxnhltotal-26oct27mtlstl",
+    "price": 93,
+    "ticker": "KXNHLTOTAL-26OCT27MTLSTL-10",
+    "contract": "No \u00b7 Over 9.5",
+    "buy": "no"
+   },
+   "result": null,
+   "close_odds": -1428
+  },
+  "401880819:KXEFLL1TOTAL-26OCT27OXUSTO-6:no": {
+   "id": "401880819:KXEFLL1TOTAL-26OCT27OXUSTO-6:no",
+   "sport": "soccer_eng.3",
+   "game_id": "401880819",
+   "short": "STO @ OXF",
+   "game": "Stockport County at Oxford United",
+   "start": "2026-10-27T19:45Z",
+   "market": "total",
+   "side": "under",
+   "line": 5.5,
+   "selection": "Under 5.5",
+   "group": "Game lines",
+   "market_name": "Total",
+   "odds": -1428,
+   "p": 0.9277,
+   "p_model": 0.936,
+   "p_market": 0.9118,
+   "p_breakeven": 0.9346,
+   "edge": -0.0069,
+   "ev": -0.0074,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "STO: 2.0 scored / 1.0 allowed per game this season; last 10: 2.0 / 0.9",
+    "OXF: 1.8 scored / 1.0 allowed per game this season; last 10: 1.8 / 1.0"
+   ],
+   "home": {
+    "name": "Oxford United",
+    "abbr": "OXF"
+   },
+   "away": {
+    "name": "Stockport County",
+    "abbr": "STO"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxefll1total/point-total/kxefll1total-26oct27oxusto",
+    "price": 93,
+    "ticker": "KXEFLL1TOTAL-26OCT27OXUSTO-6",
+    "contract": "No \u00b7 Over 5.5",
+    "buy": "no"
+   },
+   "result": null,
+   "close_odds": -1428
+  },
+  "401880832:KXEFLL1TOTAL-26OCT27MKDBRO-1:yes": {
+   "id": "401880832:KXEFLL1TOTAL-26OCT27MKDBRO-1:yes",
+   "sport": "soccer_eng.3",
+   "game_id": "401880832",
+   "short": "BRO @ MKD",
+   "game": "Bromley at Milton Keynes Dons",
+   "start": "2026-10-27T19:45Z",
+   "market": "total",
+   "side": "over",
+   "line": 0.5,
+   "selection": "Over 0.5",
+   "group": "Game lines",
+   "market_name": "Total",
+   "odds": -2580,
+   "p": 0.9514,
+   "p_model": 0.9267,
+   "p_market": 0.9412,
+   "p_breakeven": 0.9627,
+   "edge": -0.0113,
+   "ev": -0.0117,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "BRO: 0.91 scored / 2.36 allowed per game this season; last 10: 0.9 / 2.6",
+    "MKD: 1.09 scored / 1.64 allowed per game this season; last 10: 1.0 / 1.6"
+   ],
+   "home": {
+    "name": "Milton Keynes Dons",
+    "abbr": "MKD"
+   },
+   "away": {
+    "name": "Bromley",
+    "abbr": "BRO"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxefll1total/point-total/kxefll1total-26oct27mkdbro",
+    "price": 96,
+    "ticker": "KXEFLL1TOTAL-26OCT27MKDBRO-1",
+    "contract": "Yes \u00b7 Over 0.5",
+    "buy": "yes"
+   },
+   "result": null,
+   "close_odds": -2580
+  }
+ },
+ "parlays": [
+  {
+   "legs": [
+    "401909879:KXNBAGAME-26OCT27SACSAS-SAS:yes",
+    "401892591:KXNHLTOTAL-26OCT27FLAWPG-10:no"
+   ],
+   "n": 2,
+   "mode": "safest",
+   "p": 0.8719,
+   "decimal": 1.145,
+   "american": -690,
+   "ev": -0.0017,
+   "tier": "lock",
+   "name": "lock_2",
+   "result": null
+  },
+  {
+   "legs": [
+    "401892588:KXNHLTOTAL-26OCT27MTLSTL-10:no",
+    "401880819:KXEFLL1TOTAL-26OCT27OXUSTO-6:no",
+    "401874786:KXSERIEATOTAL-26OCT27TORCOM-6:no"
+   ],
+   "n": 3,
+   "mode": "safest",
+   "p": 0.8017,
+   "decimal": 1.238,
+   "american": -421,
+   "ev": -0.0079,
+   "tier": "lock",
+   "name": "lock_3",
+   "result": null
+  }
+ ],
+ "straights": [],
+ "straights_best": [
+  "401871072:KXNCAAFGAME-26OCT27SHSUMOSU-MOSU:yes",
+  "401909878:KXNBAGAME-26OCT27DETNYK-NYK:yes",
+  "401899576:KXSERIEBTOTAL-26OCT27CESEMP-6:no",
+  "401880832:KXEFLL1TOTAL-26OCT27MKDBRO-1:yes",
+  "401909880:KXNBATOTAL-26OCT27PORLAL-210:yes",
+  "401874780:KXSERIEATOTAL-26OCT27ROMCAG-4:no"
+ ],
+ "locks": [
+  "401909879:KXNBAGAME-26OCT27SACSAS-SAS:yes",
+  "401909877:KXNBAGAME-26OCT27BKNBOS-BOS:yes",
+  "401908045:KXMLBTOTAL-26OCT272000MILTB-3:yes",
+  "401899579:KXSERIEBTOTAL-26OCT27ASCSAM-6:no",
+  "401899574:KXSERIEBTOTAL-26OCT27VICMOD-6:no",
+  "401880819:KXEFLL1TOTAL-26OCT27OXUSTO-1:yes",
+  "401874786:KXSERIEATOTAL-26OCT27TORCOM-1:yes"
+ ]
+}
