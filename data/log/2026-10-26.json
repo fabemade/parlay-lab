@@ -360,7 +360,7 @@
     "buy": "no"
    },
    "result": null,
-   "close_odds": -1684
+   "close_odds": -1428
   },
   "401883131:KXLALIGA2TOTAL-26OCT26ANDBUR-1:yes": {
    "id": "401883131:KXLALIGA2TOTAL-26OCT26ANDBUR-1:yes",
@@ -491,7 +491,7 @@
     "contract": "No \u00b7 Over 9.5",
     "buy": "no"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -1684
   },
   "401909869:KXNBATOTAL-26OCT26MINCLE-261:no": {
@@ -670,7 +670,7 @@
     "contract": "Yes \u00b7 Over 0.5",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -1428
   },
   "401841279:KXBRASILEIROTOTAL-26OCT26CFCGPA-6:no": {
@@ -714,7 +714,7 @@
     "contract": "No \u00b7 Over 5.5",
     "buy": "no"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -2580
   },
   "401873009:KXNFLTOTAL-26OCT26DALPHI-27:yes": {
