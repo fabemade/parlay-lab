@@ -1,0 +1,1169 @@
+{
+ "date": "2026-10-28",
+ "locked_at": "2026-10-28T13:58-04:00",
+ "legs": {
+  "401841289:KXBRASILEIROTOTAL-26OCT28FLUINT-4:no": {
+   "id": "401841289:KXBRASILEIROTOTAL-26OCT28FLUINT-4:no",
+   "sport": "soccer_bra.1",
+   "game_id": "401841289",
+   "short": "INT @ FLU",
+   "game": "Internacional at Fluminense",
+   "start": "2026-10-28T22:30Z",
+   "market": "total",
+   "side": "under",
+   "line": 3.5,
+   "selection": "Under 3.5",
+   "group": "Game lines",
+   "market_name": "Total",
+   "odds": -306,
+   "p": 0.746,
+   "p_model": 0.7301,
+   "p_market": 0.7327,
+   "p_breakeven": 0.7535,
+   "edge": -0.0075,
+   "ev": -0.01,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "INT: 1.07 scored / 1.29 allowed per game this season; last 10: 1.3 / 1.3",
+    "FLU: 1.57 scored / 1.29 allowed per game this season; last 10: 1.9 / 1.5"
+   ],
+   "home": {
+    "name": "Fluminense",
+    "abbr": "FLU"
+   },
+   "away": {
+    "name": "Internacional",
+    "abbr": "INT"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxbrasileirototal/brasileiro-total/kxbrasileirototal-26oct28fluint",
+    "price": 74,
+    "ticker": "KXBRASILEIROTOTAL-26OCT28FLUINT-4",
+    "contract": "No \u00b7 Over 3.5",
+    "buy": "no"
+   },
+   "result": null,
+   "close_odds": -306
+  },
+  "761908:KXMLSGAME-26OCT28MIACIN-MIA:yes": {
+   "id": "761908:KXMLSGAME-26OCT28MIACIN-MIA:yes",
+   "sport": "soccer_usa.1",
+   "game_id": "761908",
+   "short": "CIN @ MIA",
+   "game": "FC Cincinnati at Inter Miami CF",
+   "start": "2026-10-28T23:30Z",
+   "market": "ml",
+   "side": "home",
+   "selection": "MIA to win",
+   "group": "Game lines",
+   "market_name": "Winner",
+   "odds": -183,
+   "p": 0.6382,
+   "p_model": 0.6469,
+   "p_market": 0.6238,
+   "p_breakeven": 0.6463,
+   "edge": -0.0081,
+   "ev": -0.0125,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "MIA ranks #1 in offense and #17 in defense of 30 (schedule-adjusted, recent games weighted more)",
+    "Last 10: 4-6, scoring 2.4 and allowing 1.3 goals/game (season: 2.12 / 1.56)",
+    "At home: 2.78 scored / 1.44 allowed per game",
+    "Record 15-10-6"
+   ],
+   "home": {
+    "name": "Inter Miami CF",
+    "abbr": "MIA"
+   },
+   "away": {
+    "name": "FC Cincinnati",
+    "abbr": "CIN"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxmlsgame/major-league-soccer-game/kxmlsgame-26oct28miacin",
+    "price": 63,
+    "ticker": "KXMLSGAME-26OCT28MIACIN-MIA",
+    "contract": "Yes \u00b7 Miami",
+    "buy": "yes"
+   },
+   "result": null,
+   "close_odds": -183
+  },
+  "401892597:KXNHLGAME-26OCT28CGYEDM-EDM:yes": {
+   "id": "401892597:KXNHLGAME-26OCT28CGYEDM-EDM:yes",
+   "sport": "nhl",
+   "game_id": "401892597",
+   "short": "CGY @ EDM",
+   "game": "Calgary Flames at Edmonton Oilers",
+   "start": "2026-10-29T00:30Z",
+   "market": "ml",
+   "side": "home",
+   "selection": "EDM to win",
+   "group": "Game lines",
+   "market_name": "Winner",
+   "odds": -183,
+   "p": 0.6329,
+   "p_model": 0.6357,
+   "p_market": 0.6238,
+   "p_breakeven": 0.6463,
+   "edge": -0.0134,
+   "ev": -0.0207,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "EDM ranks #2 in offense and #27 in defense of 32 (schedule-adjusted, recent games weighted more)",
+    "Last 10: 7-3, scoring 3.8 and allowing 3.0 goals/game (season: 4.33 / 3.58)",
+    "At home: 3.57 scored / 4.29 allowed per game",
+    "Record 8-2-2 (home 3-2-2)",
+    "Injuries: Zach Hyman (LW, Injured Reserve), Devon Levi (G, Injured Reserve), Jason Dickinson (C, Injured Reserve), Alec Regula (D, Injured Reserve), Matt Savoie (C, Injured Reserve)",
+    "Price moved -218 \u2192 -192 since opening, money moving away from EDM"
+   ],
+   "home": {
+    "name": "Edmonton Oilers",
+    "abbr": "EDM"
+   },
+   "away": {
+    "name": "Calgary Flames",
+    "abbr": "CGY"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxnhlgame/nhl-game/kxnhlgame-26oct28cgyedm",
+    "price": 63,
+    "ticker": "KXNHLGAME-26OCT28CGYEDM-EDM",
+    "contract": "Yes \u00b7 Edmonton",
+    "buy": "yes"
+   },
+   "result": null,
+   "close_odds": -183
+  },
+  "761911:KXMLSTOTAL-26OCT28CHIORL-6:no": {
+   "id": "761911:KXMLSTOTAL-26OCT28CHIORL-6:no",
+   "sport": "soccer_usa.1",
+   "game_id": "761911",
+   "short": "ORL @ CHI",
+   "game": "Orlando City SC at Chicago Fire FC",
+   "start": "2026-10-29T00:30Z",
+   "market": "total",
+   "side": "under",
+   "line": 5.5,
+   "selection": "Under 5.5",
+   "group": "Game lines",
+   "market_name": "Total",
+   "odds": -381,
+   "p": 0.7903,
+   "p_model": 0.8089,
+   "p_market": 0.7723,
+   "p_breakeven": 0.792,
+   "edge": -0.0017,
+   "ev": -0.0021,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "ORL: 2.31 scored / 1.75 allowed per game this season; last 10: 2.6 / 2.1",
+    "CHI: 1.65 scored / 1.76 allowed per game this season; last 10: 1.6 / 1.8",
+    "Line moved from +3.5 to +4.5 since opening (total)"
+   ],
+   "home": {
+    "name": "Chicago Fire FC",
+    "abbr": "CHI"
+   },
+   "away": {
+    "name": "Orlando City SC",
+    "abbr": "ORL"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxmlstotal/mls-total/kxmlstotal-26oct28chiorl",
+    "price": 78,
+    "ticker": "KXMLSTOTAL-26OCT28CHIORL-6",
+    "contract": "No \u00b7 Over 5.5",
+    "buy": "no"
+   },
+   "result": null,
+   "close_odds": -381
+  },
+  "401841297:KXBRASILEIROTOTAL-26OCT28CRBOT-6:no": {
+   "id": "401841297:KXBRASILEIROTOTAL-26OCT28CRBOT-6:no",
+   "sport": "soccer_bra.1",
+   "game_id": "401841297",
+   "short": "BOT @ REMO",
+   "game": "Botafogo at Remo",
+   "start": "2026-10-29T00:30Z",
+   "market": "total",
+   "side": "under",
+   "line": 5.5,
+   "selection": "Under 5.5",
+   "group": "Game lines",
+   "market_name": "Total",
+   "odds": -1428,
+   "p": 0.9346,
+   "p_model": 0.9475,
+   "p_market": 0.9208,
+   "p_breakeven": 0.9346,
+   "edge": 0.0,
+   "ev": 0.0,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "BOT: 0.87 scored / 1.33 allowed per game this season; last 10: 0.9 / 1.7",
+    "REMO: 0.93 scored / 1.5 allowed per game this season; last 10: 0.8 / 1.4"
+   ],
+   "home": {
+    "name": "Remo",
+    "abbr": "REMO"
+   },
+   "away": {
+    "name": "Botafogo",
+    "abbr": "BOT"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxbrasileirototal/brasileiro-total/kxbrasileirototal-26oct28crbot",
+    "price": 93,
+    "ticker": "KXBRASILEIROTOTAL-26OCT28CRBOT-6",
+    "contract": "No \u00b7 Over 5.5",
+    "buy": "no"
+   },
+   "result": null,
+   "close_odds": -1428
+  },
+  "401909882:KXNBAGAME-26OCT28WASCLE-CLE:yes": {
+   "id": "401909882:KXNBAGAME-26OCT28WASCLE-CLE:yes",
+   "sport": "nba",
+   "game_id": "401909882",
+   "short": "WSH @ CLE",
+   "game": "Washington Wizards at Cleveland Cavaliers",
+   "start": "2026-10-28T23:00Z",
+   "market": "ml",
+   "side": "home",
+   "selection": "CLE to win",
+   "group": "Game lines",
+   "market_name": "Winner",
+   "odds": -360,
+   "p": 0.7783,
+   "p_model": 0.7716,
+   "p_market": 0.7624,
+   "p_breakeven": 0.7824,
+   "edge": -0.0041,
+   "ev": -0.0052,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "CLE ranks #5 in offense and #19 in defense of 32 (schedule-adjusted, recent games weighted more)",
+    "Last 3: 2-1, scoring 119.33 and allowing 120.0 pts/game (season: 119.33 / 120.0)",
+    "At home: 126.0 scored / 123.0 allowed per game",
+    "Record 2-1 (home 2-0)",
+    "Price moved -380 \u2192 -395 since opening, money moving toward CLE"
+   ],
+   "home": {
+    "name": "Cleveland Cavaliers",
+    "abbr": "CLE"
+   },
+   "away": {
+    "name": "Washington Wizards",
+    "abbr": "WSH"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxnbagame/nba-game/kxnbagame-26oct28wascle",
+    "price": 77,
+    "ticker": "KXNBAGAME-26OCT28WASCLE-CLE",
+    "contract": "Yes \u00b7 Cleveland",
+    "buy": "yes"
+   },
+   "result": null,
+   "close_odds": -360
+  },
+  "401909890:KXNBAGAME-26OCT28SASUTA-SAS:yes": {
+   "id": "401909890:KXNBAGAME-26OCT28SASUTA-SAS:yes",
+   "sport": "nba",
+   "game_id": "401909890",
+   "short": "SA @ UTAH",
+   "game": "San Antonio Spurs at Utah Jazz",
+   "start": "2026-10-29T01:00Z",
+   "market": "ml",
+   "side": "away",
+   "selection": "SA to win",
+   "group": "Game lines",
+   "market_name": "Winner",
+   "odds": -609,
+   "p": 0.8543,
+   "p_model": 0.8325,
+   "p_market": 0.8416,
+   "p_breakeven": 0.8589,
+   "edge": -0.0046,
+   "ev": -0.0054,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "SA ranks #2 in offense and #8 in defense of 32 (schedule-adjusted, recent games weighted more)",
+    "Last 4: 2-2, scoring 116.5 and allowing 109.75 pts/game (season: 116.5 / 109.75)",
+    "On the road: 122.0 scored / 106.0 allowed per game",
+    "Record 2-2 (road 1-0)",
+    "Injuries: Tobias Harris (F, Out), Jayden Quaintance (F, Out)",
+    "Playing the 2nd night of a back-to-back (historically worth about -1 to -1.5 pts in the NBA; tired legs and often the backup goalie in the NHL)",
+    "Price moved -575 \u2192 -650 since opening, money moving toward SA"
+   ],
+   "home": {
+    "name": "Utah Jazz",
+    "abbr": "UTAH"
+   },
+   "away": {
+    "name": "San Antonio Spurs",
+    "abbr": "SA"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxnbagame/nba-game/kxnbagame-26oct28sasuta",
+    "price": 85,
+    "ticker": "KXNBAGAME-26OCT28SASUTA-SAS",
+    "contract": "Yes \u00b7 San Antonio",
+    "buy": "yes"
+   },
+   "result": null,
+   "close_odds": -609
+  },
+  "401899575:KXSERIEBTOTAL-26OCT28STAVER-6:no": {
+   "id": "401899575:KXSERIEBTOTAL-26OCT28STAVER-6:no",
+   "sport": "soccer_ita.2",
+   "game_id": "401899575",
+   "short": "VER @ JVS",
+   "game": "Hellas Verona at Juve Stabia",
+   "start": "2026-10-28T19:00Z",
+   "market": "total",
+   "side": "under",
+   "line": 5.5,
+   "selection": "Under 5.5",
+   "group": "Game lines",
+   "market_name": "Total",
+   "odds": -2042,
+   "p": 0.9509,
+   "p_model": 0.9451,
+   "p_market": 0.9406,
+   "p_breakeven": 0.9533,
+   "edge": -0.0024,
+   "ev": -0.0025,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "VER: 1.88 scored / 1.62 allowed per game this season; last 8: 1.88 / 1.62",
+    "JVS: 1.12 scored / 1.0 allowed per game this season; last 8: 1.12 / 1.0"
+   ],
+   "home": {
+    "name": "Juve Stabia",
+    "abbr": "JVS"
+   },
+   "away": {
+    "name": "Hellas Verona",
+    "abbr": "VER"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxseriebtotal/point-total/kxseriebtotal-26oct28staver",
+    "price": 95,
+    "ticker": "KXSERIEBTOTAL-26OCT28STAVER-6",
+    "contract": "No \u00b7 Over 5.5",
+    "buy": "no"
+   },
+   "result": null,
+   "close_odds": -2042
+  },
+  "401909887:KXNBAGAME-26OCT28HOUMIL-HOU:yes": {
+   "id": "401909887:KXNBAGAME-26OCT28HOUMIL-HOU:yes",
+   "sport": "nba",
+   "game_id": "401909887",
+   "short": "HOU @ MIL",
+   "game": "Houston Rockets at Milwaukee Bucks",
+   "start": "2026-10-29T00:00Z",
+   "market": "ml",
+   "side": "away",
+   "selection": "HOU to win",
+   "group": "Game lines",
+   "market_name": "Winner",
+   "odds": -340,
+   "p": 0.7681,
+   "p_model": 0.7579,
+   "p_market": 0.7525,
+   "p_breakeven": 0.7728,
+   "edge": -0.0047,
+   "ev": -0.0061,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "HOU ranks #17 in offense and #7 in defense of 32 (schedule-adjusted, recent games weighted more)",
+    "Last 4: 4-0, scoring 120.75 and allowing 111.0 pts/game (season: 120.75 / 111.0). Current streak: W4",
+    "On the road: 117.5 scored / 112.0 allowed per game",
+    "Record 4-0 (road 2-0)",
+    "Injuries: Marcus Smart (G, Out), Alperen Sengun (C, Out), Steven Adams (C, Out)",
+    "Price moved -310 \u2192 -340 since opening, money moving toward HOU"
+   ],
+   "home": {
+    "name": "Milwaukee Bucks",
+    "abbr": "MIL"
+   },
+   "away": {
+    "name": "Houston Rockets",
+    "abbr": "HOU"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxnbagame/nba-game/kxnbagame-26oct28houmil",
+    "price": 76,
+    "ticker": "KXNBAGAME-26OCT28HOUMIL-HOU",
+    "contract": "Yes \u00b7 Houston",
+    "buy": "yes"
+   },
+   "result": null,
+   "close_odds": -340
+  },
+  "401878355:KXSCOTTISHPREMGAME-26OCT28CELDUU-CEL:yes": {
+   "id": "401878355:KXSCOTTISHPREMGAME-26OCT28CELDUU-CEL:yes",
+   "sport": "soccer_sco.1",
+   "game_id": "401878355",
+   "short": "DUN @ CEL",
+   "game": "Dundee United at Celtic",
+   "start": "2026-10-28T19:45Z",
+   "market": "ml",
+   "side": "home",
+   "selection": "CEL to win",
+   "group": "Game lines",
+   "market_name": "Winner",
+   "odds": -430,
+   "p": 0.7986,
+   "p_model": 0.7559,
+   "p_market": 0.7921,
+   "p_breakeven": 0.8112,
+   "edge": -0.0126,
+   "ev": -0.0155,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "CEL ranks #1 in offense and #1 in defense of 13 (schedule-adjusted, recent games weighted more)",
+    "Last 10: 9-1, scoring 2.5 and allowing 0.6 goals/game (season: 2.5 / 0.6). Current streak: W3",
+    "At home: 2.6 scored / 0.6 allowed per game",
+    "Record 9-0-1"
+   ],
+   "home": {
+    "name": "Celtic",
+    "abbr": "CEL"
+   },
+   "away": {
+    "name": "Dundee United",
+    "abbr": "DUN"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxscottishpremgame/scottish-premiership-game/kxscottishpremgame-26oct28celduu",
+    "price": 80,
+    "ticker": "KXSCOTTISHPREMGAME-26OCT28CELDUU-CEL",
+    "contract": "Yes \u00b7 Celtic",
+    "buy": "yes"
+   },
+   "result": null,
+   "close_odds": -430
+  },
+  "761914:KXMLSTOTAL-26OCT28NSHPHI-1:yes": {
+   "id": "761914:KXMLSTOTAL-26OCT28NSHPHI-1:yes",
+   "sport": "soccer_usa.1",
+   "game_id": "761914",
+   "short": "PHI @ NSH",
+   "game": "Philadelphia Union at Nashville SC",
+   "start": "2026-10-29T00:30Z",
+   "market": "total",
+   "side": "over",
+   "line": 0.5,
+   "selection": "Over 0.5",
+   "group": "Game lines",
+   "market_name": "Total",
+   "odds": -2580,
+   "p": 0.9594,
+   "p_model": 0.9507,
+   "p_market": 0.9505,
+   "p_breakeven": 0.9627,
+   "edge": -0.0033,
+   "ev": -0.0034,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "PHI: 2.75 scored / 1.25 allowed per game this season; last 10: 3.1 / 1.2",
+    "NSH: 2.06 scored / 0.71 allowed per game this season; last 10: 2.3 / 0.6",
+    "Line moved from +3.5 to +2.5 since opening (total)",
+    "\u26a0 The line has moved against this side since opening (a sharp-money signal), so the model defers more to the market"
+   ],
+   "home": {
+    "name": "Nashville SC",
+    "abbr": "NSH"
+   },
+   "away": {
+    "name": "Philadelphia Union",
+    "abbr": "PHI"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxmlstotal/mls-total/kxmlstotal-26oct28nshphi",
+    "price": 96,
+    "ticker": "KXMLSTOTAL-26OCT28NSHPHI-1",
+    "contract": "Yes \u00b7 Over 0.5",
+    "buy": "yes"
+   },
+   "result": null,
+   "close_odds": -2580
+  },
+  "401841289:KXBRASILEIROTOTAL-26OCT28FLUINT-6:no": {
+   "id": "401841289:KXBRASILEIROTOTAL-26OCT28FLUINT-6:no",
+   "sport": "soccer_bra.1",
+   "game_id": "401841289",
+   "short": "INT @ FLU",
+   "game": "Internacional at Fluminense",
+   "start": "2026-10-28T22:30Z",
+   "market": "total",
+   "side": "under",
+   "line": 5.5,
+   "selection": "Under 5.5",
+   "group": "Game lines",
+   "market_name": "Total",
+   "odds": -2580,
+   "p": 0.9591,
+   "p_model": 0.9468,
+   "p_market": 0.9505,
+   "p_breakeven": 0.9627,
+   "edge": -0.0036,
+   "ev": -0.0037,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "INT: 1.07 scored / 1.29 allowed per game this season; last 10: 1.3 / 1.3",
+    "FLU: 1.57 scored / 1.29 allowed per game this season; last 10: 1.9 / 1.5"
+   ],
+   "home": {
+    "name": "Fluminense",
+    "abbr": "FLU"
+   },
+   "away": {
+    "name": "Internacional",
+    "abbr": "INT"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxbrasileirototal/brasileiro-total/kxbrasileirototal-26oct28fluint",
+    "price": 96,
+    "ticker": "KXBRASILEIROTOTAL-26OCT28FLUINT-6",
+    "contract": "No \u00b7 Over 5.5",
+    "buy": "no"
+   },
+   "result": null,
+   "close_odds": -2580
+  },
+  "401899577:KXSERIEBTOTAL-26OCT28CARARE-1:yes": {
+   "id": "401899577:KXSERIEBTOTAL-26OCT28CARARE-1:yes",
+   "sport": "soccer_ita.2",
+   "game_id": "401899577",
+   "short": "ARE @ CAR",
+   "game": "Arezzo at Carrarese",
+   "start": "2026-10-28T19:00Z",
+   "market": "total",
+   "side": "over",
+   "line": 0.5,
+   "selection": "Over 0.5",
+   "group": "Game lines",
+   "market_name": "Total",
+   "odds": -1428,
+   "p": 0.9321,
+   "p_model": 0.9167,
+   "p_market": 0.9208,
+   "p_breakeven": 0.9346,
+   "edge": -0.0025,
+   "ev": -0.0027,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "ARE: 1.0 scored / 2.12 allowed per game this season; last 8: 1.0 / 2.12",
+    "CAR: 0.88 scored / 1.12 allowed per game this season; last 8: 0.88 / 1.12"
+   ],
+   "home": {
+    "name": "Carrarese",
+    "abbr": "CAR"
+   },
+   "away": {
+    "name": "Arezzo",
+    "abbr": "ARE"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxseriebtotal/point-total/kxseriebtotal-26oct28carare",
+    "price": 93,
+    "ticker": "KXSERIEBTOTAL-26OCT28CARARE-1",
+    "contract": "Yes \u00b7 Over 0.5",
+    "buy": "yes"
+   },
+   "result": null,
+   "close_odds": -1428
+  },
+  "401878354:KXSCOTTISHPREMTOTAL-26OCT28DUNKIL-1:yes": {
+   "id": "401878354:KXSCOTTISHPREMTOTAL-26OCT28DUNKIL-1:yes",
+   "sport": "soccer_sco.1",
+   "game_id": "401878354",
+   "short": "KIL @ DUN",
+   "game": "Kilmarnock at Dundee",
+   "start": "2026-10-28T19:45Z",
+   "market": "total",
+   "side": "over",
+   "line": 0.5,
+   "selection": "Over 0.5",
+   "group": "Game lines",
+   "market_name": "Total",
+   "odds": -2580,
+   "p": 0.9583,
+   "p_model": 0.9322,
+   "p_market": 0.9505,
+   "p_breakeven": 0.9627,
+   "edge": -0.0044,
+   "ev": -0.0046,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "KIL: 1.0 scored / 2.3 allowed per game this season; last 10: 1.0 / 2.3",
+    "DUN: 1.4 scored / 1.2 allowed per game this season; last 10: 1.4 / 1.2"
+   ],
+   "home": {
+    "name": "Dundee",
+    "abbr": "DUN"
+   },
+   "away": {
+    "name": "Kilmarnock",
+    "abbr": "KIL"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxscottishpremtotal/point-total/kxscottishpremtotal-26oct28dunkil",
+    "price": 96,
+    "ticker": "KXSCOTTISHPREMTOTAL-26OCT28DUNKIL-1",
+    "contract": "Yes \u00b7 Over 0.5",
+    "buy": "yes"
+   },
+   "result": null,
+   "close_odds": -2580
+  },
+  "761908:KXMLSTOTAL-26OCT28MIACIN-2:yes": {
+   "id": "761908:KXMLSTOTAL-26OCT28MIACIN-2:yes",
+   "sport": "soccer_usa.1",
+   "game_id": "761908",
+   "short": "CIN @ MIA",
+   "game": "FC Cincinnati at Inter Miami CF",
+   "start": "2026-10-28T23:30Z",
+   "market": "total",
+   "side": "over",
+   "line": 1.5,
+   "selection": "Over 1.5",
+   "group": "Game lines",
+   "market_name": "Total",
+   "odds": -1428,
+   "p": 0.9333,
+   "p_model": 0.9308,
+   "p_market": 0.9208,
+   "p_breakeven": 0.9346,
+   "edge": -0.0013,
+   "ev": -0.0014,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "CIN: 1.75 scored / 2.12 allowed per game this season; last 10: 1.5 / 2.4",
+    "MIA: 2.12 scored / 1.56 allowed per game this season; last 10: 2.4 / 1.3"
+   ],
+   "home": {
+    "name": "Inter Miami CF",
+    "abbr": "MIA"
+   },
+   "away": {
+    "name": "FC Cincinnati",
+    "abbr": "CIN"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxmlstotal/mls-total/kxmlstotal-26oct28miacin",
+    "price": 93,
+    "ticker": "KXMLSTOTAL-26OCT28MIACIN-2",
+    "contract": "Yes \u00b7 Over 1.5",
+    "buy": "yes"
+   },
+   "result": null,
+   "close_odds": -1428
+  },
+  "401874799:KXSERIEATOTAL-26OCT28MONNAP-1:yes": {
+   "id": "401874799:KXSERIEATOTAL-26OCT28MONNAP-1:yes",
+   "sport": "soccer_ita.1",
+   "game_id": "401874799",
+   "short": "NAP @ MON",
+   "game": "Napoli at Monza",
+   "start": "2026-10-28T19:45Z",
+   "market": "total",
+   "side": "over",
+   "line": 0.5,
+   "selection": "Over 0.5",
+   "group": "Game lines",
+   "market_name": "Total",
+   "odds": -2042,
+   "p": 0.9501,
+   "p_model": 0.936,
+   "p_market": 0.9406,
+   "p_breakeven": 0.9533,
+   "edge": -0.0032,
+   "ev": -0.0034,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "NAP: 1.62 scored / 1.25 allowed per game this season; last 8: 1.62 / 1.25",
+    "MON: 1.88 scored / 2.25 allowed per game this season; last 8: 1.88 / 2.25"
+   ],
+   "home": {
+    "name": "Monza",
+    "abbr": "MON"
+   },
+   "away": {
+    "name": "Napoli",
+    "abbr": "NAP"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxserieatotal/serie-a-total/kxserieatotal-26oct28monnap",
+    "price": 95,
+    "ticker": "KXSERIEATOTAL-26OCT28MONNAP-1",
+    "contract": "Yes \u00b7 Over 0.5",
+    "buy": "yes"
+   },
+   "result": null,
+   "close_odds": -2042
+  },
+  "401899577:KXSERIEBTOTAL-26OCT28CARARE-6:no": {
+   "id": "401899577:KXSERIEBTOTAL-26OCT28CARARE-6:no",
+   "sport": "soccer_ita.2",
+   "game_id": "401899577",
+   "short": "ARE @ CAR",
+   "game": "Arezzo at Carrarese",
+   "start": "2026-10-28T19:00Z",
+   "market": "total",
+   "side": "under",
+   "line": 5.5,
+   "selection": "Under 5.5",
+   "group": "Game lines",
+   "market_name": "Total",
+   "odds": -2580,
+   "p": 0.959,
+   "p_model": 0.9452,
+   "p_market": 0.9505,
+   "p_breakeven": 0.9627,
+   "edge": -0.0037,
+   "ev": -0.0038,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "ARE: 1.0 scored / 2.12 allowed per game this season; last 8: 1.0 / 2.12",
+    "CAR: 0.88 scored / 1.12 allowed per game this season; last 8: 0.88 / 1.12"
+   ],
+   "home": {
+    "name": "Carrarese",
+    "abbr": "CAR"
+   },
+   "away": {
+    "name": "Arezzo",
+    "abbr": "ARE"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxseriebtotal/point-total/kxseriebtotal-26oct28carare",
+    "price": 96,
+    "ticker": "KXSERIEBTOTAL-26OCT28CARARE-6",
+    "contract": "No \u00b7 Over 5.5",
+    "buy": "no"
+   },
+   "result": null,
+   "close_odds": -2580
+  },
+  "401878356:KXSCOTTISHPREMTOTAL-26OCT28ABEFAL-6:no": {
+   "id": "401878356:KXSCOTTISHPREMTOTAL-26OCT28ABEFAL-6:no",
+   "sport": "soccer_sco.1",
+   "game_id": "401878356",
+   "short": "FALK @ ABE",
+   "game": "Falkirk at Aberdeen",
+   "start": "2026-10-28T19:45Z",
+   "market": "total",
+   "side": "under",
+   "line": 5.5,
+   "selection": "Under 5.5",
+   "group": "Game lines",
+   "market_name": "Total",
+   "odds": -2042,
+   "p": 0.9504,
+   "p_model": 0.9386,
+   "p_market": 0.9406,
+   "p_breakeven": 0.9533,
+   "edge": -0.0029,
+   "ev": -0.003,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "FALK: 1.2 scored / 1.2 allowed per game this season; last 10: 1.2 / 1.2",
+    "ABE: 1.2 scored / 1.3 allowed per game this season; last 10: 1.2 / 1.3"
+   ],
+   "home": {
+    "name": "Aberdeen",
+    "abbr": "ABE"
+   },
+   "away": {
+    "name": "Falkirk",
+    "abbr": "FALK"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxscottishpremtotal/point-total/kxscottishpremtotal-26oct28abefal",
+    "price": 95,
+    "ticker": "KXSCOTTISHPREMTOTAL-26OCT28ABEFAL-6",
+    "contract": "No \u00b7 Over 5.5",
+    "buy": "no"
+   },
+   "result": null,
+   "close_odds": -2042
+  },
+  "401899577:KXSERIEBTOTAL-26OCT28CARARE-4:no": {
+   "id": "401899577:KXSERIEBTOTAL-26OCT28CARARE-4:no",
+   "sport": "soccer_ita.2",
+   "game_id": "401899577",
+   "short": "ARE @ CAR",
+   "game": "Arezzo at Carrarese",
+   "start": "2026-10-28T19:00Z",
+   "market": "total",
+   "side": "under",
+   "line": 3.5,
+   "selection": "Under 3.5",
+   "group": "Game lines",
+   "market_name": "Total",
+   "odds": -290,
+   "p": 0.7363,
+   "p_model": 0.7254,
+   "p_market": 0.7228,
+   "p_breakeven": 0.7438,
+   "edge": -0.0075,
+   "ev": -0.0101,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "ARE: 1.0 scored / 2.12 allowed per game this season; last 8: 1.0 / 2.12",
+    "CAR: 0.88 scored / 1.12 allowed per game this season; last 8: 0.88 / 1.12"
+   ],
+   "home": {
+    "name": "Carrarese",
+    "abbr": "CAR"
+   },
+   "away": {
+    "name": "Arezzo",
+    "abbr": "ARE"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxseriebtotal/point-total/kxseriebtotal-26oct28carare",
+    "price": 73,
+    "ticker": "KXSERIEBTOTAL-26OCT28CARARE-4",
+    "contract": "No \u00b7 Over 3.5",
+    "buy": "no"
+   },
+   "result": null,
+   "close_odds": -290
+  },
+  "761911:KXMLSTOTAL-26OCT28CHIORL-2:yes": {
+   "id": "761911:KXMLSTOTAL-26OCT28CHIORL-2:yes",
+   "sport": "soccer_usa.1",
+   "game_id": "761911",
+   "short": "ORL @ CHI",
+   "game": "Orlando City SC at Chicago Fire FC",
+   "start": "2026-10-29T00:30Z",
+   "market": "total",
+   "side": "over",
+   "line": 1.5,
+   "selection": "Over 1.5",
+   "group": "Game lines",
+   "market_name": "Total",
+   "odds": -1428,
+   "p": 0.9308,
+   "p_model": 0.896,
+   "p_market": 0.9208,
+   "p_breakeven": 0.9346,
+   "edge": -0.0038,
+   "ev": -0.0041,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "ORL: 2.31 scored / 1.75 allowed per game this season; last 10: 2.6 / 2.1",
+    "CHI: 1.65 scored / 1.76 allowed per game this season; last 10: 1.6 / 1.8",
+    "Line moved from +3.5 to +4.5 since opening (total)"
+   ],
+   "home": {
+    "name": "Chicago Fire FC",
+    "abbr": "CHI"
+   },
+   "away": {
+    "name": "Orlando City SC",
+    "abbr": "ORL"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxmlstotal/mls-total/kxmlstotal-26oct28chiorl",
+    "price": 93,
+    "ticker": "KXMLSTOTAL-26OCT28CHIORL-2",
+    "contract": "Yes \u00b7 Over 1.5",
+    "buy": "yes"
+   },
+   "result": null,
+   "close_odds": -1428
+  },
+  "401841293:KXBRASILEIROTOTAL-26OCT28SANPAL-6:no": {
+   "id": "401841293:KXBRASILEIROTOTAL-26OCT28SANPAL-6:no",
+   "sport": "soccer_bra.1",
+   "game_id": "401841293",
+   "short": "PAL @ SAN",
+   "game": "Palmeiras at Santos",
+   "start": "2026-10-28T22:30Z",
+   "market": "total",
+   "side": "under",
+   "line": 5.5,
+   "selection": "Under 5.5",
+   "group": "Game lines",
+   "market_name": "Total",
+   "odds": -2042,
+   "p": 0.9511,
+   "p_model": 0.9476,
+   "p_market": 0.9406,
+   "p_breakeven": 0.9533,
+   "edge": -0.0022,
+   "ev": -0.0023,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "PAL: 1.86 scored / 0.64 allowed per game this season; last 10: 1.8 / 0.6",
+    "SAN: 1.64 scored / 1.29 allowed per game this season; last 10: 1.7 / 1.2"
+   ],
+   "home": {
+    "name": "Santos",
+    "abbr": "SAN"
+   },
+   "away": {
+    "name": "Palmeiras",
+    "abbr": "PAL"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxbrasileirototal/brasileiro-total/kxbrasileirototal-26oct28sanpal",
+    "price": 95,
+    "ticker": "KXBRASILEIROTOTAL-26OCT28SANPAL-6",
+    "contract": "No \u00b7 Over 5.5",
+    "buy": "no"
+   },
+   "result": null,
+   "close_odds": -2042
+  },
+  "401878351:KXSCOTTISHPREMTOTAL-26OCT28MIRHIB-6:no": {
+   "id": "401878351:KXSCOTTISHPREMTOTAL-26OCT28MIRHIB-6:no",
+   "sport": "soccer_sco.1",
+   "game_id": "401878351",
+   "short": "HIBS @ STM",
+   "game": "Hibernian at St Mirren",
+   "start": "2026-10-28T19:45Z",
+   "market": "total",
+   "side": "under",
+   "line": 5.5,
+   "selection": "Under 5.5",
+   "group": "Game lines",
+   "market_name": "Total",
+   "odds": -2042,
+   "p": 0.9508,
+   "p_model": 0.9439,
+   "p_market": 0.9406,
+   "p_breakeven": 0.9533,
+   "edge": -0.0025,
+   "ev": -0.0026,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "HIBS: 1.0 scored / 1.6 allowed per game this season; last 10: 1.0 / 1.6",
+    "STM: 1.1 scored / 1.8 allowed per game this season; last 10: 1.1 / 1.8"
+   ],
+   "home": {
+    "name": "St Mirren",
+    "abbr": "STM"
+   },
+   "away": {
+    "name": "Hibernian",
+    "abbr": "HIBS"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxscottishpremtotal/point-total/kxscottishpremtotal-26oct28mirhib",
+    "price": 95,
+    "ticker": "KXSCOTTISHPREMTOTAL-26OCT28MIRHIB-6",
+    "contract": "No \u00b7 Over 5.5",
+    "buy": "no"
+   },
+   "result": null,
+   "close_odds": -2042
+  },
+  "401908046:KXMLBGAME-26OCT282000MILTB-MIL:yes": {
+   "id": "401908046:KXMLBGAME-26OCT282000MILTB-MIL:yes",
+   "sport": "mlb",
+   "game_id": "401908046",
+   "short": "MIL @ TB",
+   "game": "Milwaukee Brewers at Tampa Bay Rays",
+   "start": "2026-10-29T00:00Z",
+   "market": "ml",
+   "side": "away",
+   "selection": "MIL to win",
+   "group": "Game lines",
+   "market_name": "Winner",
+   "odds": -161,
+   "p": 0.6113,
+   "p_model": 0.6347,
+   "p_market": 0.5941,
+   "p_breakeven": 0.6168,
+   "edge": -0.0055,
+   "ev": -0.0089,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "MIL ranks #1 in offense and #1 in defense of 30 (schedule-adjusted, recent games weighted more)",
+    "Last 10: 8-2, scoring 4.8 and allowing 2.7 runs/game (season: 5.1 / 3.74)",
+    "On the road: 4.78 scored / 4.06 allowed per game",
+    "Record 103-59 (road 48-33)",
+    "Injuries: Quinn Priester (SP, 60-Day-IL), Angel Zerpa (RP, 60-Day-IL), Brian Fitzpatrick (RP, 60-Day-IL)",
+    "Starter Jacob Misiorowski (RHP): 1.80 ERA, 2.17 FIP over 175 IP, 2.28 ERA last 5 starts. Projects below the team's usual pitching (-21% runs allowed)",
+    "Price moved -140 \u2192 -162 since opening, money moving toward MIL"
+   ],
+   "home": {
+    "name": "Tampa Bay Rays",
+    "abbr": "TB"
+   },
+   "away": {
+    "name": "Milwaukee Brewers",
+    "abbr": "MIL"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxmlbgame/professional-baseball-game/kxmlbgame-26oct282000miltb",
+    "price": 60,
+    "ticker": "KXMLBGAME-26OCT282000MILTB-MIL",
+    "contract": "Yes \u00b7 Milwaukee",
+    "buy": "yes"
+   },
+   "result": null,
+   "close_odds": -161
+  },
+  "401841296:KXBRASILEIROTOTAL-26OCT28BAHSPA-6:no": {
+   "id": "401841296:KXBRASILEIROTOTAL-26OCT28BAHSPA-6:no",
+   "sport": "soccer_bra.1",
+   "game_id": "401841296",
+   "short": "SAO @ BAH",
+   "game": "S\u00e3o Paulo at Bahia",
+   "start": "2026-10-29T00:30Z",
+   "market": "total",
+   "side": "under",
+   "line": 5.5,
+   "selection": "Under 5.5",
+   "group": "Game lines",
+   "market_name": "Total",
+   "odds": -1428,
+   "p": 0.9349,
+   "p_model": 0.9523,
+   "p_market": 0.9208,
+   "p_breakeven": 0.9346,
+   "edge": 0.0003,
+   "ev": 0.0003,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "SAO: 1.0 scored / 1.14 allowed per game this season; last 10: 1.0 / 1.0",
+    "BAH: 1.33 scored / 1.13 allowed per game this season; last 10: 1.6 / 1.5"
+   ],
+   "home": {
+    "name": "Bahia",
+    "abbr": "BAH"
+   },
+   "away": {
+    "name": "S\u00e3o Paulo",
+    "abbr": "SAO"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxbrasileirototal/brasileiro-total/kxbrasileirototal-26oct28bahspa",
+    "price": 93,
+    "ticker": "KXBRASILEIROTOTAL-26OCT28BAHSPA-6",
+    "contract": "No \u00b7 Over 5.5",
+    "buy": "no"
+   },
+   "result": null,
+   "close_odds": -1428
+  }
+ },
+ "parlays": [
+  {
+   "legs": [
+    "401841296:KXBRASILEIROTOTAL-26OCT28BAHSPA-6:no",
+    "761908:KXMLSTOTAL-26OCT28MIACIN-2:yes"
+   ],
+   "n": 2,
+   "mode": "safest",
+   "p": 0.8725,
+   "decimal": 1.145,
+   "american": -690,
+   "ev": -0.001,
+   "tier": "lock",
+   "name": "lock_2",
+   "result": null
+  },
+  {
+   "legs": [
+    "401841297:KXBRASILEIROTOTAL-26OCT28CRBOT-6:no",
+    "401899577:KXSERIEBTOTAL-26OCT28CARARE-1:yes",
+    "761911:KXMLSTOTAL-26OCT28CHIORL-2:yes"
+   ],
+   "n": 3,
+   "mode": "safest",
+   "p": 0.8109,
+   "decimal": 1.225,
+   "american": -444,
+   "ev": -0.0066,
+   "tier": "lock",
+   "name": "lock_3",
+   "result": null
+  },
+  {
+   "legs": [
+    "401909887:KXNBAGAME-26OCT28HOUMIL-HOU:yes",
+    "401841289:KXBRASILEIROTOTAL-26OCT28FLUINT-4:no"
+   ],
+   "n": 2,
+   "mode": "safest",
+   "p": 0.573,
+   "decimal": 1.717,
+   "american": -139,
+   "ev": -0.0161,
+   "tier": "best",
+   "name": "best_2",
+   "result": null
+  },
+  {
+   "legs": [
+    "761911:KXMLSTOTAL-26OCT28CHIORL-6:no",
+    "401909882:KXNBAGAME-26OCT28WASCLE-CLE:yes",
+    "401899577:KXSERIEBTOTAL-26OCT28CARARE-4:no"
+   ],
+   "n": 3,
+   "mode": "safest",
+   "p": 0.4529,
+   "decimal": 2.169,
+   "american": 117,
+   "ev": -0.0175,
+   "tier": "best",
+   "name": "best_3",
+   "result": null
+  }
+ ],
+ "straights": [],
+ "straights_best": [
+  "401878355:KXSCOTTISHPREMGAME-26OCT28CELDUU-CEL:yes",
+  "401909882:KXNBAGAME-26OCT28WASCLE-CLE:yes",
+  "401909887:KXNBAGAME-26OCT28HOUMIL-HOU:yes",
+  "761908:KXMLSGAME-26OCT28MIACIN-MIA:yes",
+  "401892597:KXNHLGAME-26OCT28CGYEDM-EDM:yes",
+  "401908046:KXMLBGAME-26OCT282000MILTB-MIL:yes",
+  "761914:KXMLSTOTAL-26OCT28NSHPHI-1:yes",
+  "401841289:KXBRASILEIROTOTAL-26OCT28FLUINT-6:no",
+  "401899577:KXSERIEBTOTAL-26OCT28CARARE-6:no",
+  "401878354:KXSCOTTISHPREMTOTAL-26OCT28DUNKIL-1:yes"
+ ],
+ "locks": [
+  "401909890:KXNBAGAME-26OCT28SASUTA-SAS:yes",
+  "401841293:KXBRASILEIROTOTAL-26OCT28SANPAL-6:no",
+  "401899575:KXSERIEBTOTAL-26OCT28STAVER-6:no",
+  "401878351:KXSCOTTISHPREMTOTAL-26OCT28MIRHIB-6:no",
+  "401878356:KXSCOTTISHPREMTOTAL-26OCT28ABEFAL-6:no",
+  "401874799:KXSERIEATOTAL-26OCT28MONNAP-1:yes"
+ ]
+}
