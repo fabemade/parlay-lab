@@ -89,7 +89,7 @@
     "buy": "yes"
    },
    "result": null,
-   "close_odds": -183
+   "close_odds": -191
   },
   "401892597:KXNHLGAME-26OCT28CGYEDM-EDM:yes": {
    "id": "401892597:KXNHLGAME-26OCT28CGYEDM-EDM:yes",
@@ -181,7 +181,7 @@
     "buy": "no"
    },
    "result": null,
-   "close_odds": -381
+   "close_odds": -360
   },
   "401841297:KXBRASILEIROTOTAL-26OCT28CRBOT-6:no": {
    "id": "401841297:KXBRASILEIROTOTAL-26OCT28CRBOT-6:no",
@@ -319,7 +319,7 @@
     "buy": "yes"
    },
    "result": null,
-   "close_odds": -609
+   "close_odds": -660
   },
   "401899575:KXSERIEBTOTAL-26OCT28STAVER-6:no": {
    "id": "401899575:KXSERIEBTOTAL-26OCT28STAVER-6:no",
@@ -362,7 +362,7 @@
     "contract": "No \u00b7 Over 5.5",
     "buy": "no"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -2042
   },
   "401909887:KXNBAGAME-26OCT28HOUMIL-HOU:yes": {
@@ -454,7 +454,7 @@
     "contract": "Yes \u00b7 Celtic",
     "buy": "yes"
    },
-   "result": null,
+   "result": "L",
    "close_odds": -430
   },
   "761914:KXMLSTOTAL-26OCT28NSHPHI-1:yes": {
@@ -588,7 +588,7 @@
     "contract": "Yes \u00b7 Over 0.5",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -1428
   },
   "401878354:KXSCOTTISHPREMTOTAL-26OCT28DUNKIL-1:yes": {
@@ -632,7 +632,7 @@
     "contract": "Yes \u00b7 Over 0.5",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -2580
   },
   "761908:KXMLSTOTAL-26OCT28MIACIN-2:yes": {
@@ -720,7 +720,7 @@
     "contract": "Yes \u00b7 Over 0.5",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -2042
   },
   "401899577:KXSERIEBTOTAL-26OCT28CARARE-6:no": {
@@ -764,7 +764,7 @@
     "contract": "No \u00b7 Over 5.5",
     "buy": "no"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -2580
   },
   "401878356:KXSCOTTISHPREMTOTAL-26OCT28ABEFAL-6:no": {
@@ -808,7 +808,7 @@
     "contract": "No \u00b7 Over 5.5",
     "buy": "no"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -2042
   },
   "401899577:KXSERIEBTOTAL-26OCT28CARARE-4:no": {
@@ -852,7 +852,7 @@
     "contract": "No \u00b7 Over 3.5",
     "buy": "no"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -290
   },
   "761911:KXMLSTOTAL-26OCT28CHIORL-2:yes": {
@@ -985,7 +985,7 @@
     "contract": "No \u00b7 Over 5.5",
     "buy": "no"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -2042
   },
   "401908046:KXMLBGAME-26OCT282000MILTB-MIL:yes": {
@@ -1034,7 +1034,7 @@
     "buy": "yes"
    },
    "result": null,
-   "close_odds": -161
+   "close_odds": -142
   },
   "401841296:KXBRASILEIROTOTAL-26OCT28BAHSPA-6:no": {
    "id": "401841296:KXBRASILEIROTOTAL-26OCT28BAHSPA-6:no",
@@ -1078,7 +1078,7 @@
     "buy": "no"
    },
    "result": null,
-   "close_odds": -1428
+   "close_odds": -1684
   }
  },
  "parlays": [

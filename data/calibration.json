@@ -16,11 +16,11 @@
   "updated": "2026-10-28"
  },
  "nba": {
-  "margin_k": 1.172,
-  "total_k": 0.929,
-  "margin_sd": 15.28,
-  "total_sd": 18.86,
-  "n": 821,
+  "margin_k": 1.176,
+  "total_k": 0.939,
+  "margin_sd": 15.3,
+  "total_sd": 18.82,
+  "n": 817,
   "updated": "2026-10-28"
  },
  "wnba": {
