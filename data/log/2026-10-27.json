@@ -135,7 +135,7 @@
     "contract": "Yes \u00b7 Boston",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -609
   },
   "401908045:KXMLBTOTAL-26OCT272000MILTB-3:yes": {
@@ -179,7 +179,7 @@
     "contract": "Yes \u00b7 Over 2.5",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -2580
   },
   "401909878:KXNBAGAME-26OCT27DETNYK-NYK:yes": {
@@ -226,7 +226,7 @@
     "contract": "Yes \u00b7 New York",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -175
   },
   "401899579:KXSERIEBTOTAL-26OCT27ASCSAM-6:no": {
@@ -448,7 +448,7 @@
     "contract": "Yes \u00b7 Missouri St.",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -218
   },
   "401892591:KXNHLTOTAL-26OCT27FLAWPG-10:no": {
@@ -493,7 +493,7 @@
     "contract": "No \u00b7 Over 9.5",
     "buy": "no"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -1428
   },
   "401874780:KXSERIEATOTAL-26OCT27ROMCAG-4:no": {
@@ -582,7 +582,7 @@
     "contract": "Yes \u00b7 Over 209.5",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -1684
   },
   "401909879:KXNBAGAME-26OCT27SACSAS-SAS:yes": {
@@ -629,7 +629,7 @@
     "contract": "Yes \u00b7 San Antonio",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -1428
   },
   "401892588:KXNHLTOTAL-26OCT27MTLSTL-10:no": {
@@ -673,7 +673,7 @@
     "contract": "No \u00b7 Over 9.5",
     "buy": "no"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -1428
   },
   "401880819:KXEFLL1TOTAL-26OCT27OXUSTO-6:no": {
@@ -779,7 +779,8 @@
    "ev": -0.0017,
    "tier": "lock",
    "name": "lock_2",
-   "result": null
+   "result": "W",
+   "missed": []
   },
   {
    "legs": [
@@ -795,7 +796,8 @@
    "ev": -0.0079,
    "tier": "lock",
    "name": "lock_3",
-   "result": null
+   "result": "W",
+   "missed": []
   }
  ],
  "straights": [],
