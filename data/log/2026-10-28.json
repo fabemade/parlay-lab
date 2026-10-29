@@ -43,7 +43,7 @@
     "contract": "No \u00b7 Over 3.5",
     "buy": "no"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -306
   },
   "761908:KXMLSGAME-26OCT28MIACIN-MIA:yes": {
@@ -88,7 +88,7 @@
     "contract": "Yes \u00b7 Miami",
     "buy": "yes"
    },
-   "result": null,
+   "result": "L",
    "close_odds": -191
   },
   "401892597:KXNHLGAME-26OCT28CGYEDM-EDM:yes": {
@@ -270,7 +270,7 @@
     "contract": "Yes \u00b7 Cleveland",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -360
   },
   "401909890:KXNBAGAME-26OCT28SASUTA-SAS:yes": {
@@ -544,7 +544,7 @@
     "contract": "No \u00b7 Over 5.5",
     "buy": "no"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -2580
   },
   "401899577:KXSERIEBTOTAL-26OCT28CARARE-1:yes": {
@@ -676,7 +676,7 @@
     "contract": "Yes \u00b7 Over 1.5",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -1428
   },
   "401874799:KXSERIEATOTAL-26OCT28MONNAP-1:yes": {
@@ -941,7 +941,7 @@
     "contract": "No \u00b7 Over 5.5",
     "buy": "no"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -2042
   },
   "401878351:KXSCOTTISHPREMTOTAL-26OCT28MIRHIB-6:no": {
