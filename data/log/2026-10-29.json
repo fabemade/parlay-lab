@@ -225,7 +225,7 @@
     "buy": "no"
    },
    "result": null,
-   "close_odds": -1428
+   "close_odds": -1684
   },
   "401892603:KXNHLTOTAL-26OCT29CBJCAR-10:no": {
    "id": "401892603:KXNHLTOTAL-26OCT29CBJCAR-10:no",
@@ -360,7 +360,7 @@
     "buy": "no"
    },
    "result": null,
-   "close_odds": -2580
+   "close_odds": -2042
   },
   "401874969:KXSERIEATOTAL-26OCT29FIOATA-2:yes": {
    "id": "401874969:KXSERIEATOTAL-26OCT29FIOATA-2:yes",
@@ -404,7 +404,7 @@
     "contract": "Yes \u00b7 Over 1.5",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -660
   },
   "401841288:KXBRASILEIROTOTAL-26OCT29ATLCRU-6:no": {
@@ -585,7 +585,7 @@
     "buy": "yes"
    },
    "result": null,
-   "close_odds": -1236
+   "close_odds": -1087
   }
  },
  "parlays": [
