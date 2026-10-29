@@ -274,6 +274,13 @@
    "TOPCFPPOLL": "College Football CFP Poll",
    "TOTAL": "College Football Total Points"
   },
+  "NCAAMB": {
+   "APRANK": "Men's College Basketball AP Poll",
+   "CONFAWARD": "Men's College Basketball Conference Awards",
+   "GAME": "Men's College Basketball Game",
+   "SPREAD": "Men's College Basketball Spread",
+   "TOPAPRANK": "Men's College Basketball AP Poll Top Rank"
+  },
   "NFL": {
    "1H": "Pro Football 1st Half Winner",
    "1HFT": "1st Half Fulltime Result",

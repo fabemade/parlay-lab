@@ -135,7 +135,7 @@
     "contract": "Yes \u00b7 Edmonton",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -183
   },
   "761911:KXMLSTOTAL-26OCT28CHIORL-6:no": {
@@ -180,7 +180,7 @@
     "contract": "No \u00b7 Over 5.5",
     "buy": "no"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -360
   },
   "401841297:KXBRASILEIROTOTAL-26OCT28CRBOT-6:no": {
@@ -224,7 +224,7 @@
     "contract": "No \u00b7 Over 5.5",
     "buy": "no"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -1428
   },
   "401909882:KXNBAGAME-26OCT28WASCLE-CLE:yes": {
@@ -318,7 +318,7 @@
     "contract": "Yes \u00b7 San Antonio",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -660
   },
   "401899575:KXSERIEBTOTAL-26OCT28STAVER-6:no": {
@@ -409,7 +409,7 @@
     "contract": "Yes \u00b7 Houston",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -340
   },
   "401878355:KXSCOTTISHPREMGAME-26OCT28CELDUU-CEL:yes": {
@@ -500,7 +500,7 @@
     "contract": "Yes \u00b7 Over 0.5",
     "buy": "yes"
    },
-   "result": null,
+   "result": "L",
    "close_odds": -2580
   },
   "401841289:KXBRASILEIROTOTAL-26OCT28FLUINT-6:no": {
@@ -897,7 +897,7 @@
     "contract": "Yes \u00b7 Over 1.5",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -1428
   },
   "401841293:KXBRASILEIROTOTAL-26OCT28SANPAL-6:no": {
@@ -1033,7 +1033,7 @@
     "contract": "Yes \u00b7 Milwaukee",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -142
   },
   "401841296:KXBRASILEIROTOTAL-26OCT28BAHSPA-6:no": {
@@ -1077,7 +1077,7 @@
     "contract": "No \u00b7 Over 5.5",
     "buy": "no"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -1684
   }
  },
@@ -1095,7 +1095,8 @@
    "ev": -0.001,
    "tier": "lock",
    "name": "lock_2",
-   "result": null
+   "result": "W",
+   "missed": []
   },
   {
    "legs": [
@@ -1111,7 +1112,8 @@
    "ev": -0.0066,
    "tier": "lock",
    "name": "lock_3",
-   "result": null
+   "result": "W",
+   "missed": []
   },
   {
    "legs": [
@@ -1126,7 +1128,8 @@
    "ev": -0.0161,
    "tier": "best",
    "name": "best_2",
-   "result": null
+   "result": "W",
+   "missed": []
   },
   {
    "legs": [
@@ -1142,7 +1145,8 @@
    "ev": -0.0175,
    "tier": "best",
    "name": "best_3",
-   "result": null
+   "result": "W",
+   "missed": []
   }
  ],
  "straights": [],
