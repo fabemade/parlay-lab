@@ -88,7 +88,7 @@
     "contract": "No \u00b7 Over 5.5",
     "buy": "no"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -2042
   },
   "401909894:KXNBATOTAL-26OCT29SACNOP-266:no": {
@@ -134,7 +134,7 @@
     "contract": "No \u00b7 Over 265.5",
     "buy": "no"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -2042
   },
   "401873023:KXNFLTOTAL-26OCT29CARGB-30:yes": {
@@ -179,7 +179,7 @@
     "contract": "Yes \u00b7 Over 29.5",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -1236
   },
   "401873023:KXNFLTOTAL-26OCT29CARGB-69:no": {
@@ -268,7 +268,7 @@
     "contract": "No \u00b7 Over 9.5",
     "buy": "no"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -1428
   },
   "401892610:KXNHLGAME-26OCT29VANSJ-SJ:yes": {
@@ -448,7 +448,7 @@
     "contract": "No \u00b7 Over 5.5",
     "buy": "no"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -1428
   },
   "401841290:KXBRASILEIROTOTAL-26OCT29GPACAP-1:yes": {
