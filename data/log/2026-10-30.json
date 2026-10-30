@@ -43,7 +43,7 @@
     "contract": "Yes \u00b7 Over 0.5",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -2580
   },
   "401909280:KXNBATOTAL-26OCT30NYKPHI-257:no": {
@@ -403,7 +403,7 @@
     "buy": "yes"
    },
    "result": null,
-   "close_odds": -340
+   "close_odds": -322
   },
   "401880190:KXEFLCHAMPIONSHIPTOTAL-26OCT30SHUWRE-1:yes": {
    "id": "401880190:KXEFLCHAMPIONSHIPTOTAL-26OCT30SHUWRE-1:yes",
@@ -446,7 +446,7 @@
     "contract": "Yes \u00b7 Over 0.5",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -1428
   },
   "401885408:KXLIGAPORTUGALGAME-26OCT30CASSPO-SPO:yes": {
@@ -581,7 +581,7 @@
     "buy": "no"
    },
    "result": null,
-   "close_odds": -2042
+   "close_odds": -2580
   },
   "401880190:KXEFLCHAMPIONSHIPTOTAL-26OCT30SHUWRE-6:no": {
    "id": "401880190:KXEFLCHAMPIONSHIPTOTAL-26OCT30SHUWRE-6:no",
@@ -624,7 +624,7 @@
     "contract": "No \u00b7 Over 5.5",
     "buy": "no"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -2042
   },
   "401876420:KXLIGUE1TOTAL-26OCT30LILRCL-1:yes": {
@@ -894,7 +894,7 @@
     "contract": "Yes \u00b7 Villarreal",
     "buy": "yes"
    },
-   "result": null,
+   "result": "L",
    "close_odds": -263
   },
   "401909281:KXNBAGAME-26OCT30ORLTOR-TOR:yes": {
