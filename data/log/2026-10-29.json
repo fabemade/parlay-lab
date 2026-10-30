@@ -44,7 +44,7 @@
     "contract": "No \u00b7 Over 261.5",
     "buy": "no"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -2042
   },
   "401841292:KXBRASILEIROTOTAL-26OCT29VDGFLA-6:no": {
@@ -224,7 +224,7 @@
     "contract": "No \u00b7 Over 68.5",
     "buy": "no"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -1684
   },
   "401892603:KXNHLTOTAL-26OCT29CBJCAR-10:no": {
@@ -315,7 +315,7 @@
     "contract": "Yes \u00b7 San Jose",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -168
   },
   "401841290:KXBRASILEIROTOTAL-26OCT29GPACAP-6:no": {
@@ -359,7 +359,7 @@
     "contract": "No \u00b7 Over 5.5",
     "buy": "no"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -2042
   },
   "401874969:KXSERIEATOTAL-26OCT29FIOATA-2:yes": {
@@ -492,7 +492,7 @@
     "contract": "Yes \u00b7 Over 0.5",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -1428
   },
   "401862812:KXNCAAFGAME-26OCT29FAUUNT-UNT:yes": {
@@ -538,7 +538,7 @@
     "contract": "Yes \u00b7 North Texas",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -525
   },
   "401869963:KXNCAAFGAME-26OCT29TROYJMU-JMU:yes": {
@@ -584,7 +584,7 @@
     "contract": "Yes \u00b7 James Madison",
     "buy": "yes"
    },
-   "result": null,
+   "result": "L",
    "close_odds": -1087
   }
  },
@@ -602,7 +602,8 @@
    "ev": 0.0003,
    "tier": "lock",
    "name": "lock_2",
-   "result": null
+   "result": "W",
+   "missed": []
   },
   {
    "legs": [
@@ -618,7 +619,8 @@
    "ev": -0.0109,
    "tier": "lock",
    "name": "lock_3",
-   "result": null
+   "result": "W",
+   "missed": []
   }
  ],
  "straights": [],
