@@ -88,7 +88,7 @@
     "contract": "No \u00b7 Over 256.5",
     "buy": "no"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -2042
   },
   "401876919:KXLIGAMXTOTAL-26OCT30ASLATL-6:no": {
@@ -132,7 +132,7 @@
     "contract": "No \u00b7 Over 5.5",
     "buy": "no"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -1428
   },
   "401841648:KXARGPREMDIVTOTAL-26OCT30RACCAA-6:no": {
@@ -176,7 +176,7 @@
     "contract": "No \u00b7 Over 5.5",
     "buy": "no"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -2580
   },
   "401909278:KXNBAGAME-26OCT30CHIBOS-BOS:yes": {
@@ -223,7 +223,7 @@
     "contract": "Yes \u00b7 Boston",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -788
   },
   "401841653:KXARGPREMDIVTOTAL-26OCT30HURTIG-5:no": {
@@ -355,7 +355,7 @@
     "contract": "No \u00b7 Over 3.5",
     "buy": "no"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -322
   },
   "401862813:KXNCAAFGAME-26OCT30TULNCHAR-TULN:yes": {
@@ -402,7 +402,7 @@
     "contract": "Yes \u00b7 Tulane",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -322
   },
   "401880190:KXEFLCHAMPIONSHIPTOTAL-26OCT30SHUWRE-1:yes": {
@@ -580,7 +580,7 @@
     "contract": "No \u00b7 Over 252.5",
     "buy": "no"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -2580
   },
   "401880190:KXEFLCHAMPIONSHIPTOTAL-26OCT30SHUWRE-6:no": {
@@ -713,7 +713,7 @@
     "contract": "Yes \u00b7 Over 25.5",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -2042
   },
   "401909284:KXNBAGAME-26OCT30LACMIN-MIN:yes": {
@@ -761,7 +761,7 @@
     "contract": "Yes \u00b7 Minnesota",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -263
   },
   "401841295:KXBRASILEIROTOTAL-26OCT30CORMIR-6:no": {
@@ -941,7 +941,7 @@
     "contract": "Yes \u00b7 Toronto",
     "buy": "yes"
    },
-   "result": null,
+   "result": "L",
    "close_odds": -208
   }
  },
@@ -976,7 +976,8 @@
    "ev": -0.0023,
    "tier": "lock",
    "name": "lock_3",
-   "result": null
+   "result": "W",
+   "missed": []
   },
   {
    "legs": [
@@ -991,7 +992,8 @@
    "ev": -0.0008,
    "tier": "best",
    "name": "best_2",
-   "result": null
+   "result": "W",
+   "missed": []
   }
  ],
  "straights": [],
