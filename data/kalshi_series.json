@@ -17,6 +17,10 @@
    "1HBTTS": "1st Half BTTS",
    "1HSPREAD": "1st Half Spread",
    "1HTOTAL": "1st Half Total",
+   "B1H": "1st Half Winner",
+   "B1HBTTS": "1st Half BTTS",
+   "B1HSPREAD": "1st Half Spread",
+   "B1HTOTAL": "1st Half Total",
    "BBTTS": "BTTS",
    "BGAME": "Brasileiro Serie B Game",
    "BSPREAD": "Spread",
@@ -73,16 +77,16 @@
    "TOTAL": "Point Total"
   },
   "EFLCHAMPIONSHIP": {
-   "1H": "1st Half Winner",
-   "1HBTTS": "1st Half BTTS",
-   "1HSPREAD": "1st Half Spread",
-   "1HTOTAL": "1st Half Total",
    "BTTS": "BTTS",
    "GAME": "EFL Championship Game",
    "SPREAD": "EFL Championship Spread",
    "TOTAL": "EFL Championship Total"
   },
   "EFLL1": {
+   "1H": "1st Half Winner",
+   "1HBTTS": "1st Half BTTS",
+   "1HSPREAD": "1st Half Spread",
+   "1HTOTAL": "1st Half Total",
    "BTTS": "BTTS",
    "GAME": "EFL League One Game",
    "SPREAD": "Spread",
@@ -108,6 +112,10 @@
    "TOTAL": "English Premier League Total Goals"
   },
   "EREDIVISIE": {
+   "1H": "1st Half Winner",
+   "1HBTTS": "1st Half BTTS",
+   "1HSPREAD": "1st Half Spread",
+   "1HTOTAL": "1st Half Total",
    "BTTS": "BTTS",
    "GAME": "Eredivisie Game",
    "SPREAD": "Eredivisie Spread",
@@ -140,11 +148,14 @@
    "TOTAL": "La Liga Total"
   },
   "LALIGA2": {
+   "BTTS": "BTTS",
    "GAME": "LaLiga 2 Game",
    "H": "2nd Half Winner",
    "HBTTS": "2nd Half BTTS",
    "HSPREAD": "2nd Half Spread",
-   "HTOTAL": "2nd Half Total"
+   "HTOTAL": "2nd Half Total",
+   "SPREAD": "Spread",
+   "TOTAL": "Point Total"
   },
   "LIGAMX": {
    "1H": "1st Half Winner",
@@ -157,7 +168,9 @@
    "2HSPREAD": "2nd Half Spread",
    "2HTOTAL": "2nd Half Total",
    "BTTS": "Liga MX BTTS",
+   "FIRSTGOAL": "First Goal",
    "GAME": "Liga MX Game",
+   "GOAL": "Goalscorer",
    "SCORE": "Correct Score",
    "SPREAD": "Liga MX Game",
    "TEAMTOTAL": "Team Total",
@@ -191,10 +204,7 @@
    "TOTAL": "Ligue 1 Total"
   },
   "LIGUE2": {
-   "BTTS": "BTTS",
-   "GAME": "Ligue 2 Game",
-   "SPREAD": "Spread",
-   "TOTAL": "Point Total"
+   "GAME": "Ligue 2 Game"
   },
   "MLB": {
    "BGAME": "Mobile Legends Bang Bang Game",
@@ -324,11 +334,17 @@
    "TOTAL": "College Football Total Points"
   },
   "NCAAMB": {
+   "1H": "Men's College Basketball 1st Half Winner",
+   "1HSPREAD": "Men's College Basketball 1st Half Spread",
+   "1HTOTAL": "Men's College Basketball 1st Half Total",
+   "2H": "Men's College Basketball 2nd Half Winner",
    "APRANK": "Men's College Basketball AP Poll",
    "CONFAWARD": "Men's College Basketball Conference Awards",
    "GAME": "Men's College Basketball Game",
+   "OT": "Men's College Basketball Overtime",
    "SPREAD": "Men's College Basketball Spread",
-   "TOPAPRANK": "Men's College Basketball AP Poll Top Rank"
+   "TOPAPRANK": "Men's College Basketball AP Poll Top Rank",
+   "TOTAL": "Men's College Basketball Total Points"
   },
   "NFL": {
    "1H": "Pro Football 1st Half Winner",
@@ -382,7 +398,6 @@
    "PASSTDS": "Pro Football player Passing Touchdowns",
    "PASSTDSPROT": "Passing Touchdowns Protected",
    "PASSYDS": "Pro Football Passing Yards",
-   "PASSYDSPRECISE": "Pass Yards Precise",
    "PASSYDSPROT": "Passing Yards Protected",
    "RACE": "Pro Football Race to Points",
    "REC": "Pro Football Player Receptions",
@@ -442,6 +457,10 @@
    "TOTAL": "Saudi Pro League Total"
   },
   "SCOTTISHPREM": {
+   "1H": "1st Half Winner",
+   "1HBTTS": "1st Half BTTS",
+   "1HSPREAD": "1st Half Spread",
+   "1HTOTAL": "1st Half Total",
    "BTTS": "BTTS",
    "GAME": "Scottish Premiership Game",
    "SPREAD": "Spread",
@@ -466,7 +485,10 @@
    "WGAME": "Serie A Femminile Game"
   },
   "SERIEB": {
-   "GAME": "Serie B Game"
+   "BTTS": "BTTS",
+   "GAME": "Serie B Game",
+   "SPREAD": "Spread",
+   "TOTAL": "Point Total"
   },
   "SUPERLIG": {
    "BTTS": "BTTS",
@@ -475,26 +497,9 @@
    "TOTAL": "Point Total"
   },
   "UCL": {
-   "1H": "Champions League First Hal Winner",
-   "1HBTTS": "UCL Half BTTS",
-   "1HSCORE": "1st Half Correct Score",
-   "1HSPREAD": "UCL First Half Spread",
-   "1HTOTAL": "UCL 1st Half Total",
-   "2H": "2nd Half Winner",
-   "2HBTTS": "2nd Half BTTS",
-   "2HSPREAD": "2nd Half Spread",
-   "2HTOTAL": "2nd Half Total",
-   "AST": "UCL Assists",
    "BTTS": "Champions League BTTS",
-   "CORNERS": "UCL Corners",
-   "FIRSTGOAL": "UCL First Goalscorer",
    "GAME": "UEFA Champions League Game",
-   "GOAL": "UCL Goalscorer",
-   "SCORE": "Correct Score",
-   "SOA": "UCL Score or Assist",
    "SPREAD": "Champions League Spread",
-   "TCORNERS": "Champions League Team Corners",
-   "TEAMTOTAL": "UCL Team Total",
    "TOTAL": "Champions League Total Goals"
   },
   "UECL": {
@@ -538,15 +543,31 @@
    "1HSPREAD": "Women's Pro Basketball 1st Half Spread",
    "1HTOTAL": "WNBA 1st Half Total",
    "1HWINNER": "Women's Pro Basketball 1st Half Winner",
+   "1QSPREAD": "Women's Pro Basketball 1st Quarter Spread",
+   "1QTOTAL": "Women's Pro Basketball 1st Quarter Total",
+   "1QWINNER": "Women's Pro Basketball 1st Quarter Winner",
    "2HSPREAD": "Women's Pro Basketball 2nd Half Spread",
    "2HTOTAL": "Women's Pro Basketball 2nd Half Total",
    "2HWINNER": "Women's Pro Basketball 2nd Half Winner",
+   "2QSPREAD": "Women's Pro Basketball 2nd Quarter Spread",
+   "2QTOTAL": "Women's Pro Basketball 2nd Quarter Total",
+   "2QWINNER": "Women's Pro Basketball 2nd Quarter Winner",
+   "3PT": "Women's Pro Basketball Player Threes",
+   "3QSPREAD": "Women's Pro Basketball 3rd Quarter Spread",
+   "3QTOTAL": "Women's Pro Basketball 3rd Quarter Total",
+   "3QWINNER": "Women's Pro Basketball 3rd Quarter Winner",
+   "4QSPREAD": "Women's Pro Basketball 4th Quarter Spread",
+   "4QTOTAL": "Women's Pro Basketball 4th Quarter Total",
+   "4QWINNER": "Women's Pro Basketball 4th Quarter Winner",
+   "AST": "Women's Pro Basketball Player Assists",
    "GAME": "Women's Pro Basketball Game",
    "OT": "Women's Pro Basketball Overtime",
+   "PTS": "WNBA Player Points",
+   "REB": "Women's Pro Basketball Player Rebounds",
    "SPREAD": "Women's Pro Basketball Spread",
    "TEAMTOTAL": "WNBA Team Totals",
    "TOTAL": "Women's Pro Basketball Total"
   }
  },
- "updated": "2026-10-29T23:00:58.517315+00:00"
+ "updated": "2026-10-31T23:39:46.836777+00:00"
 }

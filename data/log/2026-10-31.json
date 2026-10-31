@@ -45,7 +45,7 @@
     "buy": "yes"
    },
    "result": null,
-   "close_odds": -322
+   "close_odds": -360
   },
   "401878761:KXEPLTOTAL-26OCT31TOTCRY-1:yes": {
    "id": "401878761:KXEPLTOTAL-26OCT31TOTCRY-1:yes",
@@ -358,7 +358,7 @@
     "contract": "Yes \u00b7 Penn St.",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -381
   },
   "401856734:KXNCAAFSPREAD-26OCT31FLAUGA-UGA2:yes": {
@@ -406,7 +406,7 @@
     "contract": "Yes \u00b7 Georgia wins by over 1.5 points",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -404
   },
   "401892622:KXNHLTOTAL-26OCT31CBJDAL-10:no": {
@@ -494,7 +494,7 @@
     "contract": "Yes \u00b7 Over 0.5",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -1428
   },
   "401858283:KXNCAAFGAME-26OCT30STANLOU-LOU:yes": {
@@ -541,7 +541,7 @@
     "contract": "Yes \u00b7 Louisville",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -1684
   },
   "401874795:KXSERIEATOTAL-26OCT31ACMINT-1:yes": {
@@ -585,7 +585,7 @@
     "contract": "Yes \u00b7 Over 0.5",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -2042
   },
   "401882822:KXLALIGAGAME-26OCT31BARALA-BAR:yes": {
@@ -630,7 +630,7 @@
     "contract": "Yes \u00b7 Barcelona",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -869
   },
   "401876916:KXLIGAMXTOTAL-26OCT31PACTIG-6:no": {
@@ -719,7 +719,7 @@
     "buy": "yes"
    },
    "result": null,
-   "close_odds": -2580
+   "close_odds": -2042
   },
   "401900883:KXSAUDIPLTOTAL-26OCT31HILFAT-6:no": {
    "id": "401900883:KXSAUDIPLTOTAL-26OCT31HILFAT-6:no",
@@ -809,7 +809,7 @@
     "buy": "yes"
    },
    "result": null,
-   "close_odds": -2042
+   "close_odds": -2580
   },
   "401864531:KXNCAAFTOTAL-26OCT31UTEPNDSU-25:yes": {
    "id": "401864531:KXNCAAFTOTAL-26OCT31UTEPNDSU-25:yes",
@@ -854,7 +854,7 @@
     "contract": "Yes \u00b7 Over 24.5",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -1428
   },
   "401909900:KXNBAGAME-26OCT31CLEMIL-CLE:yes": {
@@ -902,7 +902,7 @@
     "buy": "yes"
    },
    "result": null,
-   "close_odds": -360
+   "close_odds": -340
   },
   "401888374:KXSUPERLIGGAME-26NOV01AMSEYU-AMS:yes": {
    "id": "401888374:KXSUPERLIGGAME-26NOV01AMSEYU-AMS:yes",
@@ -947,7 +947,7 @@
     "buy": "yes"
    },
    "result": null,
-   "close_odds": -381
+   "close_odds": -430
   },
   "401909899:KXNBAGAME-26OCT31SACMEM-MEM:yes": {
    "id": "401909899:KXNBAGAME-26OCT31SACMEM-MEM:yes",
@@ -993,7 +993,7 @@
     "buy": "yes"
    },
    "result": null,
-   "close_odds": -340
+   "close_odds": -306
   },
   "401875564:KXEREDIVISIEGAME-26OCT31PSVWIL-PSV:yes": {
    "id": "401875564:KXEREDIVISIEGAME-26OCT31PSVWIL-PSV:yes",
@@ -1128,7 +1128,7 @@
     "contract": "Yes \u00b7 North Dakota St.",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -2042
   },
   "401884754:KXBUNDESLIGAGAME-26OCT31BMUBVB-BMU:yes": {
@@ -1312,7 +1312,7 @@
     "contract": "Yes \u00b7 Porto",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -719
   }
  },
@@ -1378,7 +1378,8 @@
    "ev": 0.0109,
    "tier": "best",
    "name": "best_3",
-   "result": null
+   "result": "W",
+   "missed": []
   }
  ],
  "straights": [],
