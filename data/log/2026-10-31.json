@@ -45,7 +45,7 @@
     "buy": "yes"
    },
    "result": null,
-   "close_odds": -340
+   "close_odds": -322
   },
   "401878761:KXEPLTOTAL-26OCT31TOTCRY-1:yes": {
    "id": "401878761:KXEPLTOTAL-26OCT31TOTCRY-1:yes",
@@ -88,7 +88,7 @@
     "contract": "Yes \u00b7 Over 0.5",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -2042
   },
   "401900883:KXSAUDIPLGAME-26OCT31HILFAT-HIL:yes": {
@@ -133,7 +133,7 @@
     "contract": "Yes \u00b7 Al Hilal",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -788
   },
   "401878953:KXBELGIANPLTOTAL-26OCT31STAKOR-6:no": {
@@ -177,7 +177,7 @@
     "contract": "No \u00b7 Over 5.5",
     "buy": "no"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -1428
   },
   "401878761:KXEPLTOTAL-26OCT31TOTCRY-6:no": {
@@ -221,7 +221,7 @@
     "contract": "No \u00b7 Over 5.5",
     "buy": "no"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -1428
   },
   "401884754:KXBUNDESLIGATOTAL-26OCT31BMUBVB-6:no": {
@@ -266,7 +266,7 @@
     "contract": "No \u00b7 Over 5.5",
     "buy": "no"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -381
   },
   "761922:KXMLSTOTAL-26OCT31CLTORL-6:no": {
@@ -311,7 +311,7 @@
     "contract": "No \u00b7 Over 5.5",
     "buy": "no"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -340
   },
   "401858506:KXNCAAFGAME-26OCT30PURPSU-PSU:yes": {
@@ -719,7 +719,7 @@
     "buy": "yes"
    },
    "result": null,
-   "close_odds": -2042
+   "close_odds": -2580
   },
   "401900883:KXSAUDIPLTOTAL-26OCT31HILFAT-6:no": {
    "id": "401900883:KXSAUDIPLTOTAL-26OCT31HILFAT-6:no",
@@ -763,7 +763,7 @@
     "contract": "No \u00b7 Over 5.5",
     "buy": "no"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -381
   },
   "761923:KXMLSTOTAL-26OCT31COLCHI-1:yes": {
@@ -947,7 +947,7 @@
     "buy": "yes"
    },
    "result": null,
-   "close_odds": -404
+   "close_odds": -381
   },
   "401909899:KXNBAGAME-26OCT31SACMEM-MEM:yes": {
    "id": "401909899:KXNBAGAME-26OCT31SACMEM-MEM:yes",
@@ -1037,7 +1037,7 @@
     "contract": "Yes \u00b7 Eindhoven",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -1087
   },
   "401882825:KXLALIGAGAME-26OCT31RBBMCF-RBB:yes": {
@@ -1082,7 +1082,7 @@
     "contract": "Yes \u00b7 Real Betis",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -306
   },
   "401864531:KXNCAAFGAME-26OCT31UTEPNDSU-NDSU:yes": {
@@ -1173,7 +1173,7 @@
     "contract": "Yes \u00b7 Bayern Munich",
     "buy": "yes"
    },
-   "result": null,
+   "result": "L",
    "close_odds": -306
   },
   "401892614:KXNHLGAME-26OCT31CHIBOS-BOS:yes": {
@@ -1220,7 +1220,7 @@
     "contract": "Yes \u00b7 Boston",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -228
   },
   "401864530:KXNCAAFGAME-26OCT31NIUUNLV-UNLV:yes": {
@@ -1313,7 +1313,7 @@
     "buy": "yes"
    },
    "result": null,
-   "close_odds": -564
+   "close_odds": -719
   }
  },
  "parlays": [
@@ -1330,7 +1330,8 @@
    "ev": 0.0023,
    "tier": "lock",
    "name": "lock_2",
-   "result": null
+   "result": "W",
+   "missed": []
   },
   {
    "legs": [
