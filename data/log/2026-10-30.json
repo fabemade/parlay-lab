@@ -267,7 +267,7 @@
     "contract": "No \u00b7 Over 4.5",
     "buy": "no"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -2042
   },
   "401876420:KXLIGUE1TOTAL-26OCT30LILRCL-6:no": {
@@ -311,7 +311,7 @@
     "contract": "No \u00b7 Over 5.5",
     "buy": "no"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -2580
   },
   "401841648:KXARGPREMDIVTOTAL-26OCT30RACCAA-4:no": {
@@ -491,7 +491,7 @@
     "contract": "Yes \u00b7 Sporting CP",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -360
   },
   "401841295:KXBRASILEIROTOTAL-26OCT30CORMIR-1:yes": {
@@ -535,7 +535,7 @@
     "contract": "Yes \u00b7 Over 0.5",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -1428
   },
   "401909279:KXNBATOTAL-26OCT30DETBKN-253:no": {
@@ -668,7 +668,7 @@
     "contract": "Yes \u00b7 Over 0.5",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -1428
   },
   "401862813:KXNCAAFTOTAL-26OCT30TULNCHAR-26:yes": {
@@ -805,7 +805,7 @@
     "contract": "No \u00b7 Over 5.5",
     "buy": "no"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -2580
   },
   "401841655:KXARGPREMDIVTOTAL-26OCT30RCUGLP-5:no": {
@@ -849,7 +849,7 @@
     "contract": "No \u00b7 Over 4.5",
     "buy": "no"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -1428
   },
   "401882817:KXLALIGAGAME-26OCT30VILESP-VIL:yes": {
@@ -959,7 +959,8 @@
    "ev": -0.0001,
    "tier": "lock",
    "name": "lock_2",
-   "result": null
+   "result": "W",
+   "missed": []
   },
   {
    "legs": [
