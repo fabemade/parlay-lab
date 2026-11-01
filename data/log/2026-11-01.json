@@ -1,0 +1,928 @@
+{
+ "date": "2026-11-01",
+ "locked_at": "2026-11-01T12:42-05:00",
+ "legs": {
+  "401873034:KXNFLGAME-26NOV01NEMIA-NE:yes": {
+   "id": "401873034:KXNFLGAME-26NOV01NEMIA-NE:yes",
+   "sport": "nfl",
+   "game_id": "401873034",
+   "short": "NE @ MIA",
+   "game": "New England Patriots at Miami Dolphins",
+   "start": "2026-11-01T21:25Z",
+   "market": "ml",
+   "side": "away",
+   "selection": "NE to win",
+   "group": "Game lines",
+   "market_name": "Winner",
+   "odds": -340,
+   "p": 0.7764,
+   "p_model": 0.7676,
+   "p_market": 0.76,
+   "p_breakeven": 0.7728,
+   "edge": 0.0036,
+   "ev": 0.0047,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "NE ranks #10 in offense and #4 in defense of 32 (schedule-adjusted, recent games weighted more)",
+    "Last 7: 4-3, scoring 22.86 and allowing 20.43 pts/game (season: 22.86 / 20.43)",
+    "On the road: 17.25 scored / 26.0 allowed per game",
+    "Record 4-3 (road 1-3)",
+    "Injuries: Marcus Bryant (OT, Injured Reserve), TreVeyon Henderson (RB, Out), A.J. Brown (WR, Out)",
+    "Price moved -325 \u2192 -340 since opening, money moving toward NE"
+   ],
+   "home": {
+    "name": "Miami Dolphins",
+    "abbr": "MIA"
+   },
+   "away": {
+    "name": "New England Patriots",
+    "abbr": "NE"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxnflgame/nfl-game/kxnflgame-26nov01nemia",
+    "price": 76,
+    "ticker": "KXNFLGAME-26NOV01NEMIA-NE",
+    "contract": "Yes \u00b7 New England",
+    "buy": "yes"
+   },
+   "result": null,
+   "close_odds": -340
+  },
+  "401873031:KXNFLGAME-26NOV01TENCIN-CIN:yes": {
+   "id": "401873031:KXNFLGAME-26NOV01TENCIN-CIN:yes",
+   "sport": "nfl",
+   "game_id": "401873031",
+   "short": "TEN @ CIN",
+   "game": "Tennessee Titans at Cincinnati Bengals",
+   "start": "2026-11-01T18:00Z",
+   "market": "ml",
+   "side": "home",
+   "selection": "CIN to win",
+   "group": "Game lines",
+   "market_name": "Winner",
+   "odds": -788,
+   "p": 0.8828,
+   "p_model": 0.8101,
+   "p_market": 0.88,
+   "p_breakeven": 0.8874,
+   "edge": -0.0046,
+   "ev": -0.0052,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "CIN ranks #5 in offense and #17 in defense of 32 (schedule-adjusted, recent games weighted more)",
+    "Last 6: 4-2, scoring 27.17 and allowing 20.33 pts/game (season: 27.17 / 20.33)",
+    "At home: 25.0 scored / 24.5 allowed per game",
+    "Record 4-2 (home 1-1)",
+    "Injuries: Mitchell Tinsley (WR, Out), Landon Robinson (DT, Out), Myles Hinton (OT, Out), Connor Lew (C, Out), Kyle Dugger (S, Out)",
+    "Price moved -270 \u2192 -900 since opening, money moving toward CIN"
+   ],
+   "home": {
+    "name": "Cincinnati Bengals",
+    "abbr": "CIN"
+   },
+   "away": {
+    "name": "Tennessee Titans",
+    "abbr": "TEN"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxnflgame/nfl-game/kxnflgame-26nov01tencin",
+    "price": 88,
+    "ticker": "KXNFLGAME-26NOV01TENCIN-CIN",
+    "contract": "Yes \u00b7 Cincinnati",
+    "buy": "yes"
+   },
+   "result": null,
+   "close_odds": -788
+  },
+  "401873029:KXNFLTOTAL-26NOV01LVNYJ-66:no": {
+   "id": "401873029:KXNFLTOTAL-26NOV01LVNYJ-66:no",
+   "sport": "nfl",
+   "game_id": "401873029",
+   "short": "LV @ NYJ",
+   "game": "Las Vegas Raiders at New York Jets",
+   "start": "2026-11-01T18:00Z",
+   "market": "total",
+   "side": "under",
+   "line": 65.5,
+   "selection": "Under 65.5",
+   "group": "Game lines",
+   "market_name": "Total",
+   "odds": -1428,
+   "p": 0.9318,
+   "p_model": 0.9125,
+   "p_market": 0.9208,
+   "p_breakeven": 0.9346,
+   "edge": -0.0028,
+   "ev": -0.003,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "LV: 26.14 scored / 28.14 allowed per game this season; last 7: 26.14 / 28.14",
+    "NYJ: 19.57 scored / 21.43 allowed per game this season; last 7: 19.57 / 21.43",
+    "Line moved from +41.5 to +46.5 since opening (total)"
+   ],
+   "home": {
+    "name": "New York Jets",
+    "abbr": "NYJ"
+   },
+   "away": {
+    "name": "Las Vegas Raiders",
+    "abbr": "LV"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxnfltotal/pro-football-total-points/kxnfltotal-26nov01lvnyj",
+    "price": 93,
+    "ticker": "KXNFLTOTAL-26NOV01LVNYJ-66",
+    "contract": "No \u00b7 Over 65.5",
+    "buy": "no"
+   },
+   "result": null,
+   "close_odds": -1428
+  },
+  "401873028:KXNFLTOTAL-26NOV01INDJAC-29:yes": {
+   "id": "401873028:KXNFLTOTAL-26NOV01INDJAC-29:yes",
+   "sport": "nfl",
+   "game_id": "401873028",
+   "short": "IND @ JAX",
+   "game": "Indianapolis Colts at Jacksonville Jaguars",
+   "start": "2026-11-01T18:00Z",
+   "market": "total",
+   "side": "over",
+   "line": 28.5,
+   "selection": "Over 28.5",
+   "group": "Game lines",
+   "market_name": "Total",
+   "odds": -1428,
+   "p": 0.9335,
+   "p_model": 0.9326,
+   "p_market": 0.9208,
+   "p_breakeven": 0.9346,
+   "edge": -0.0011,
+   "ev": -0.0012,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "IND: 22.0 scored / 25.71 allowed per game this season; last 7: 22.0 / 25.71",
+    "JAX: 25.67 scored / 17.33 allowed per game this season; last 6: 25.67 / 17.33",
+    "Line moved from +49.5 to +45.5 since opening (total)",
+    "\u26a0 The line has moved against this side since opening (a sharp-money signal), so the model defers more to the market"
+   ],
+   "home": {
+    "name": "Jacksonville Jaguars",
+    "abbr": "JAX"
+   },
+   "away": {
+    "name": "Indianapolis Colts",
+    "abbr": "IND"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxnfltotal/pro-football-total-points/kxnfltotal-26nov01indjac",
+    "price": 93,
+    "ticker": "KXNFLTOTAL-26NOV01INDJAC-29",
+    "contract": "Yes \u00b7 Over 28.5",
+    "buy": "yes"
+   },
+   "result": null,
+   "close_odds": -1428
+  },
+  "401873028:KXNFLGAME-26NOV01INDJAC-JAC:yes": {
+   "id": "401873028:KXNFLGAME-26NOV01INDJAC-JAC:yes",
+   "sport": "nfl",
+   "game_id": "401873028",
+   "short": "IND @ JAX",
+   "game": "Indianapolis Colts at Jacksonville Jaguars",
+   "start": "2026-11-01T18:00Z",
+   "market": "ml",
+   "side": "home",
+   "selection": "JAX to win",
+   "group": "Game lines",
+   "market_name": "Winner",
+   "odds": -489,
+   "p": 0.8114,
+   "p_model": 0.7275,
+   "p_market": 0.8119,
+   "p_breakeven": 0.8303,
+   "edge": -0.0189,
+   "ev": -0.0228,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "JAX ranks #3 in offense and #6 in defense of 32 (schedule-adjusted, recent games weighted more)",
+    "Last 6: 4-2, scoring 25.67 and allowing 17.33 pts/game (season: 25.67 / 17.33)",
+    "At home: 29.75 scored / 16.75 allowed per game",
+    "Record 4-2 (home 3-1)",
+    "Injuries: CJ Williams (WR, Out), Wesley Williams (DE, Out), Albert Regis (DT, Out), Jamal Hill (LB, Out), Alijah Huzzie (CB, Out)",
+    "Coming off a bye week (extra rest)",
+    "Price moved -218 \u2192 -485 since opening, money moving toward JAX"
+   ],
+   "home": {
+    "name": "Jacksonville Jaguars",
+    "abbr": "JAX"
+   },
+   "away": {
+    "name": "Indianapolis Colts",
+    "abbr": "IND"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxnflgame/nfl-game/kxnflgame-26nov01indjac",
+    "price": 82,
+    "ticker": "KXNFLGAME-26NOV01INDJAC-JAC",
+    "contract": "Yes \u00b7 Jacksonville",
+    "buy": "yes"
+   },
+   "result": null,
+   "close_odds": -489
+  },
+  "401885409:KXLIGAPORTUGALTOTAL-26NOV01BRAFAM-4:no": {
+   "id": "401885409:KXLIGAPORTUGALTOTAL-26NOV01BRAFAM-4:no",
+   "sport": "soccer_por.1",
+   "game_id": "401885409",
+   "short": "FCF @ SCB",
+   "game": "FC Famalicao at Braga",
+   "start": "2026-11-01T20:30Z",
+   "market": "total",
+   "side": "under",
+   "line": 3.5,
+   "selection": "Under 3.5",
+   "group": "Game lines",
+   "market_name": "Total",
+   "odds": -322,
+   "p": 0.7569,
+   "p_model": 0.7505,
+   "p_market": 0.7426,
+   "p_breakeven": 0.7631,
+   "edge": -0.0062,
+   "ev": -0.0081,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "FCF: 1.56 scored / 1.22 allowed per game this season; last 9: 1.56 / 1.22",
+    "SCB: 1.0 scored / 1.22 allowed per game this season; last 9: 1.0 / 1.22"
+   ],
+   "home": {
+    "name": "Braga",
+    "abbr": "SCB"
+   },
+   "away": {
+    "name": "FC Famalicao",
+    "abbr": "FCF"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxligaportugaltotal/point-total/kxligaportugaltotal-26nov01brafam",
+    "price": 75,
+    "ticker": "KXLIGAPORTUGALTOTAL-26NOV01BRAFAM-4",
+    "contract": "No \u00b7 Over 3.5",
+    "buy": "no"
+   },
+   "result": null,
+   "close_odds": -322
+  },
+  "401909904:KXNBATOTAL-26NOV01BKNIND-203:yes": {
+   "id": "401909904:KXNBATOTAL-26NOV01BKNIND-203:yes",
+   "sport": "nba",
+   "game_id": "401909904",
+   "short": "BKN @ IND",
+   "game": "Brooklyn Nets at Indiana Pacers",
+   "start": "2026-11-01T22:00Z",
+   "market": "total",
+   "side": "over",
+   "line": 202.5,
+   "selection": "Over 202.5",
+   "group": "Game lines",
+   "market_name": "Total",
+   "odds": -1684,
+   "p": 0.9421,
+   "p_model": 0.937,
+   "p_market": 0.9307,
+   "p_breakeven": 0.9439,
+   "edge": -0.0018,
+   "ev": -0.0019,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "BKN: 110.2 scored / 121.2 allowed per game this season; last 5: 110.2 / 121.2",
+    "IND: 116.67 scored / 119.83 allowed per game this season; last 6: 116.67 / 119.83"
+   ],
+   "home": {
+    "name": "Indiana Pacers",
+    "abbr": "IND"
+   },
+   "away": {
+    "name": "Brooklyn Nets",
+    "abbr": "BKN"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxnbatotal/nba-total/kxnbatotal-26nov01bknind",
+    "price": 94,
+    "ticker": "KXNBATOTAL-26NOV01BKNIND-203",
+    "contract": "Yes \u00b7 Over 202.5",
+    "buy": "yes"
+   },
+   "result": null,
+   "close_odds": -1684
+  },
+  "401873029:KXNFLTOTAL-26NOV01LVNYJ-27:yes": {
+   "id": "401873029:KXNFLTOTAL-26NOV01LVNYJ-27:yes",
+   "sport": "nfl",
+   "game_id": "401873029",
+   "short": "LV @ NYJ",
+   "game": "Las Vegas Raiders at New York Jets",
+   "start": "2026-11-01T18:00Z",
+   "market": "total",
+   "side": "over",
+   "line": 26.5,
+   "selection": "Over 26.5",
+   "group": "Game lines",
+   "market_name": "Total",
+   "odds": -2042,
+   "p": 0.9501,
+   "p_model": 0.9355,
+   "p_market": 0.9406,
+   "p_breakeven": 0.9533,
+   "edge": -0.0032,
+   "ev": -0.0034,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "LV: 26.14 scored / 28.14 allowed per game this season; last 7: 26.14 / 28.14",
+    "NYJ: 19.57 scored / 21.43 allowed per game this season; last 7: 19.57 / 21.43",
+    "Line moved from +41.5 to +46.5 since opening (total)"
+   ],
+   "home": {
+    "name": "New York Jets",
+    "abbr": "NYJ"
+   },
+   "away": {
+    "name": "Las Vegas Raiders",
+    "abbr": "LV"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxnfltotal/pro-football-total-points/kxnfltotal-26nov01lvnyj",
+    "price": 95,
+    "ticker": "KXNFLTOTAL-26NOV01LVNYJ-27",
+    "contract": "Yes \u00b7 Over 26.5",
+    "buy": "yes"
+   },
+   "result": null,
+   "close_odds": -2042
+  },
+  "401876911:KXLIGAMXTOTAL-26NOV01CRALEO-6:no": {
+   "id": "401876911:KXLIGAMXTOTAL-26NOV01CRALEO-6:no",
+   "sport": "soccer_mex.1",
+   "game_id": "401876911",
+   "short": "LEO @ CAZ",
+   "game": "Le\u00f3n at Cruz Azul",
+   "start": "2026-11-02T01:10Z",
+   "market": "total",
+   "side": "under",
+   "line": 5.5,
+   "selection": "Under 5.5",
+   "group": "Game lines",
+   "market_name": "Total",
+   "odds": -1428,
+   "p": 0.9239,
+   "p_model": 0.9094,
+   "p_market": 0.9118,
+   "p_breakeven": 0.9346,
+   "edge": -0.0107,
+   "ev": -0.0114,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "LEO: 1.5 scored / 1.29 allowed per game this season; last 10: 1.6 / 1.3",
+    "CAZ: 2.29 scored / 1.64 allowed per game this season; last 10: 2.4 / 1.5",
+    "Line moved from +3.5 to +2.5 since opening (total)"
+   ],
+   "home": {
+    "name": "Cruz Azul",
+    "abbr": "CAZ"
+   },
+   "away": {
+    "name": "Le\u00f3n",
+    "abbr": "LEO"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxligamxtotal/liga-mx-total/kxligamxtotal-26nov01craleo",
+    "price": 93,
+    "ticker": "KXLIGAMXTOTAL-26NOV01CRALEO-6",
+    "contract": "No \u00b7 Over 5.5",
+    "buy": "no"
+   },
+   "result": null,
+   "close_odds": -1428
+  },
+  "401892624:KXNHLTOTAL-26NOV01WPGCAR-10:no": {
+   "id": "401892624:KXNHLTOTAL-26NOV01WPGCAR-10:no",
+   "sport": "nhl",
+   "game_id": "401892624",
+   "short": "WPG @ CAR",
+   "game": "Winnipeg Jets at Carolina Hurricanes",
+   "start": "2026-11-01T18:00Z",
+   "market": "total",
+   "side": "under",
+   "line": 9.5,
+   "selection": "Under 9.5",
+   "group": "Game lines",
+   "market_name": "Total",
+   "odds": -1428,
+   "p": 0.9304,
+   "p_model": 0.8865,
+   "p_market": 0.9208,
+   "p_breakeven": 0.9346,
+   "edge": -0.0042,
+   "ev": -0.0045,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "WPG: 2.43 scored / 3.36 allowed per game this season; last 10: 2.2 / 3.7",
+    "CAR: 3.73 scored / 2.4 allowed per game this season; last 10: 3.8 / 2.2"
+   ],
+   "home": {
+    "name": "Carolina Hurricanes",
+    "abbr": "CAR"
+   },
+   "away": {
+    "name": "Winnipeg Jets",
+    "abbr": "WPG"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxnhltotal/nhl-total-goals/kxnhltotal-26nov01wpgcar",
+    "price": 93,
+    "ticker": "KXNHLTOTAL-26NOV01WPGCAR-10",
+    "contract": "No \u00b7 Over 9.5",
+    "buy": "no"
+   },
+   "result": null,
+   "close_odds": -1428
+  },
+  "401909903:KXNBATOTAL-26NOV01BOSORL-195:yes": {
+   "id": "401909903:KXNBATOTAL-26NOV01BOSORL-195:yes",
+   "sport": "nba",
+   "game_id": "401909903",
+   "short": "BOS @ ORL",
+   "game": "Boston Celtics at Orlando Magic",
+   "start": "2026-11-01T20:30Z",
+   "market": "total",
+   "side": "over",
+   "line": 194.5,
+   "selection": "Over 194.5",
+   "group": "Game lines",
+   "market_name": "Total",
+   "odds": -2042,
+   "p": 0.9423,
+   "p_model": 0.9327,
+   "p_market": 0.9314,
+   "p_breakeven": 0.9533,
+   "edge": -0.011,
+   "ev": -0.0115,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "BOS: 120.8 scored / 111.6 allowed per game this season; last 5: 120.8 / 111.6",
+    "ORL: 109.8 scored / 118.4 allowed per game this season; last 5: 109.8 / 118.4",
+    "Line moved from +222.5 to +221.5 since opening (total)"
+   ],
+   "home": {
+    "name": "Orlando Magic",
+    "abbr": "ORL"
+   },
+   "away": {
+    "name": "Boston Celtics",
+    "abbr": "BOS"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxnbatotal/nba-total/kxnbatotal-26nov01bosorl",
+    "price": 95,
+    "ticker": "KXNBATOTAL-26NOV01BOSORL-195",
+    "contract": "Yes \u00b7 Over 194.5",
+    "buy": "yes"
+   },
+   "result": null,
+   "close_odds": -2042
+  },
+  "401873027:KXNFLTOTAL-26NOV01CLEPIT-22:yes": {
+   "id": "401873027:KXNFLTOTAL-26NOV01CLEPIT-22:yes",
+   "sport": "nfl",
+   "game_id": "401873027",
+   "short": "CLE @ PIT",
+   "game": "Cleveland Browns at Pittsburgh Steelers",
+   "start": "2026-11-01T18:00Z",
+   "market": "total",
+   "side": "over",
+   "line": 21.5,
+   "selection": "Over 21.5",
+   "group": "Game lines",
+   "market_name": "Total",
+   "odds": -2042,
+   "p": 0.95,
+   "p_model": 0.9339,
+   "p_market": 0.9406,
+   "p_breakeven": 0.9533,
+   "edge": -0.0033,
+   "ev": -0.0035,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "CLE: 19.0 scored / 20.86 allowed per game this season; last 7: 19.0 / 20.86",
+    "PIT: 21.86 scored / 19.71 allowed per game this season; last 7: 21.86 / 19.71",
+    "Line moved from +39.5 to +38.5 since opening (total)"
+   ],
+   "home": {
+    "name": "Pittsburgh Steelers",
+    "abbr": "PIT"
+   },
+   "away": {
+    "name": "Cleveland Browns",
+    "abbr": "CLE"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxnfltotal/pro-football-total-points/kxnfltotal-26nov01clepit",
+    "price": 95,
+    "ticker": "KXNFLTOTAL-26NOV01CLEPIT-22",
+    "contract": "Yes \u00b7 Over 21.5",
+    "buy": "yes"
+   },
+   "result": null,
+   "close_odds": -2042
+  },
+  "401876911:KXLIGAMXTOTAL-26NOV01CRALEO-1:yes": {
+   "id": "401876911:KXLIGAMXTOTAL-26NOV01CRALEO-1:yes",
+   "sport": "soccer_mex.1",
+   "game_id": "401876911",
+   "short": "LEO @ CAZ",
+   "game": "Le\u00f3n at Cruz Azul",
+   "start": "2026-11-02T01:10Z",
+   "market": "total",
+   "side": "over",
+   "line": 0.5,
+   "selection": "Over 0.5",
+   "group": "Game lines",
+   "market_name": "Total",
+   "odds": -2580,
+   "p": 0.9587,
+   "p_model": 0.9412,
+   "p_market": 0.9505,
+   "p_breakeven": 0.9627,
+   "edge": -0.004,
+   "ev": -0.0042,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "LEO: 1.5 scored / 1.29 allowed per game this season; last 10: 1.6 / 1.3",
+    "CAZ: 2.29 scored / 1.64 allowed per game this season; last 10: 2.4 / 1.5",
+    "Line moved from +3.5 to +2.5 since opening (total)"
+   ],
+   "home": {
+    "name": "Cruz Azul",
+    "abbr": "CAZ"
+   },
+   "away": {
+    "name": "Le\u00f3n",
+    "abbr": "LEO"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxligamxtotal/liga-mx-total/kxligamxtotal-26nov01craleo",
+    "price": 96,
+    "ticker": "KXLIGAMXTOTAL-26NOV01CRALEO-1",
+    "contract": "Yes \u00b7 Over 0.5",
+    "buy": "yes"
+   },
+   "result": null,
+   "close_odds": -2580
+  },
+  "401899562:KXSERIEBGAME-26NOV01PALVIC-PAL:yes": {
+   "id": "401899562:KXSERIEBGAME-26NOV01PALVIC-PAL:yes",
+   "sport": "soccer_ita.2",
+   "game_id": "401899562",
+   "short": "VIC @ PAL",
+   "game": "Vicenza at Palermo",
+   "start": "2026-11-01T18:30Z",
+   "market": "ml",
+   "side": "home",
+   "selection": "PAL to win",
+   "group": "Game lines",
+   "market_name": "Winner",
+   "odds": -218,
+   "p": 0.6755,
+   "p_model": 0.6694,
+   "p_market": 0.6634,
+   "p_breakeven": 0.6855,
+   "edge": -0.01,
+   "ev": -0.0146,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "PAL ranks #3 in offense and #6 in defense of 27 (schedule-adjusted, recent games weighted more)",
+    "Last 9: 7-2, scoring 2.33 and allowing 1.22 goals/game (season: 2.33 / 1.22)",
+    "At home: 2.0 scored / 0.75 allowed per game",
+    "Record 7-2-0"
+   ],
+   "home": {
+    "name": "Palermo",
+    "abbr": "PAL"
+   },
+   "away": {
+    "name": "Vicenza",
+    "abbr": "VIC"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxseriebgame/serie-b-game/kxseriebgame-26nov01palvic",
+    "price": 67,
+    "ticker": "KXSERIEBGAME-26NOV01PALVIC-PAL",
+    "contract": "Yes \u00b7 Palermo",
+    "buy": "yes"
+   },
+   "result": null,
+   "close_odds": -218
+  },
+  "401885409:KXLIGAPORTUGALTOTAL-26NOV01BRAFAM-1:yes": {
+   "id": "401885409:KXLIGAPORTUGALTOTAL-26NOV01BRAFAM-1:yes",
+   "sport": "soccer_por.1",
+   "game_id": "401885409",
+   "short": "FCF @ SCB",
+   "game": "FC Famalicao at Braga",
+   "start": "2026-11-01T20:30Z",
+   "market": "total",
+   "side": "over",
+   "line": 0.5,
+   "selection": "Over 0.5",
+   "group": "Game lines",
+   "market_name": "Total",
+   "odds": -1428,
+   "p": 0.9319,
+   "p_model": 0.9071,
+   "p_market": 0.9208,
+   "p_breakeven": 0.9346,
+   "edge": -0.0027,
+   "ev": -0.0029,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "FCF: 1.56 scored / 1.22 allowed per game this season; last 9: 1.56 / 1.22",
+    "SCB: 1.0 scored / 1.22 allowed per game this season; last 9: 1.0 / 1.22"
+   ],
+   "home": {
+    "name": "Braga",
+    "abbr": "SCB"
+   },
+   "away": {
+    "name": "FC Famalicao",
+    "abbr": "FCF"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxligaportugaltotal/point-total/kxligaportugaltotal-26nov01brafam",
+    "price": 93,
+    "ticker": "KXLIGAPORTUGALTOTAL-26NOV01BRAFAM-1",
+    "contract": "Yes \u00b7 Over 0.5",
+    "buy": "yes"
+   },
+   "result": null,
+   "close_odds": -1428
+  },
+  "401874949:KXSERIEATOTAL-26NOV01JUVNAP-6:no": {
+   "id": "401874949:KXSERIEATOTAL-26NOV01JUVNAP-6:no",
+   "sport": "soccer_ita.1",
+   "game_id": "401874949",
+   "short": "NAP @ JUV",
+   "game": "Napoli at Juventus",
+   "start": "2026-11-01T19:45Z",
+   "market": "total",
+   "side": "under",
+   "line": 5.5,
+   "selection": "Under 5.5",
+   "group": "Game lines",
+   "market_name": "Total",
+   "odds": -2042,
+   "p": 0.9514,
+   "p_model": 0.9511,
+   "p_market": 0.9406,
+   "p_breakeven": 0.9533,
+   "edge": -0.0019,
+   "ev": -0.002,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "NAP: 1.89 scored / 1.22 allowed per game this season; last 9: 1.89 / 1.22",
+    "JUV: 1.22 scored / 1.11 allowed per game this season; last 9: 1.22 / 1.11"
+   ],
+   "home": {
+    "name": "Juventus",
+    "abbr": "JUV"
+   },
+   "away": {
+    "name": "Napoli",
+    "abbr": "NAP"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxserieatotal/serie-a-total/kxserieatotal-26nov01juvnap",
+    "price": 95,
+    "ticker": "KXSERIEATOTAL-26NOV01JUVNAP-6",
+    "contract": "No \u00b7 Over 5.5",
+    "buy": "no"
+   },
+   "result": null,
+   "close_odds": -2042
+  },
+  "761933:KXMLSTOTAL-26NOV01PORHOU-1:yes": {
+   "id": "761933:KXMLSTOTAL-26NOV01PORHOU-1:yes",
+   "sport": "soccer_usa.1",
+   "game_id": "761933",
+   "short": "HOU @ POR",
+   "game": "Houston Dynamo FC at Portland Timbers",
+   "start": "2026-11-02T02:45Z",
+   "market": "total",
+   "side": "over",
+   "line": 0.5,
+   "selection": "Over 0.5",
+   "group": "Game lines",
+   "market_name": "Total",
+   "odds": -2580,
+   "p": 0.9586,
+   "p_model": 0.938,
+   "p_market": 0.9505,
+   "p_breakeven": 0.9627,
+   "edge": -0.0041,
+   "ev": -0.0043,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "HOU: 1.28 scored / 0.89 allowed per game this season; last 10: 1.2 / 1.3",
+    "POR: 1.94 scored / 1.78 allowed per game this season; last 10: 1.8 / 2.1",
+    "Line moved from +3.5 to +2.5 since opening (total)"
+   ],
+   "home": {
+    "name": "Portland Timbers",
+    "abbr": "POR"
+   },
+   "away": {
+    "name": "Houston Dynamo FC",
+    "abbr": "HOU"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxmlstotal/mls-total/kxmlstotal-26nov01porhou",
+    "price": 96,
+    "ticker": "KXMLSTOTAL-26NOV01PORHOU-1",
+    "contract": "Yes \u00b7 Over 0.5",
+    "buy": "yes"
+   },
+   "result": null,
+   "close_odds": -2580
+  },
+  "401841651:KXARGPREMDIVTOTAL-26NOV01LANGEM-6:no": {
+   "id": "401841651:KXARGPREMDIVTOTAL-26NOV01LANGEM-6:no",
+   "sport": "soccer_arg.1",
+   "game_id": "401841651",
+   "short": "GMZ @ LAN",
+   "game": "Gimnasia (Mendoza) at Lan\u00fas",
+   "start": "2026-11-01T23:45Z",
+   "market": "total",
+   "side": "under",
+   "line": 5.5,
+   "selection": "Under 5.5",
+   "group": "Game lines",
+   "market_name": "Total",
+   "odds": -2580,
+   "p": 0.9532,
+   "p_model": 0.9778,
+   "p_market": 0.9412,
+   "p_breakeven": 0.9627,
+   "edge": -0.0095,
+   "ev": -0.0099,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "GMZ: 1.14 scored / 1.07 allowed per game this season; last 10: 1.3 / 1.3",
+    "LAN: 1.21 scored / 0.71 allowed per game this season; last 10: 1.2 / 0.7"
+   ],
+   "home": {
+    "name": "Lan\u00fas",
+    "abbr": "LAN"
+   },
+   "away": {
+    "name": "Gimnasia (Mendoza)",
+    "abbr": "GMZ"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxargpremdivtotal/argentina-premier-division-total/kxargpremdivtotal-26nov01langem",
+    "price": 96,
+    "ticker": "KXARGPREMDIVTOTAL-26NOV01LANGEM-6",
+    "contract": "No \u00b7 Over 5.5",
+    "buy": "no"
+   },
+   "result": null,
+   "close_odds": -2580
+  },
+  "401885409:KXLIGAPORTUGALTOTAL-26NOV01BRAFAM-6:no": {
+   "id": "401885409:KXLIGAPORTUGALTOTAL-26NOV01BRAFAM-6:no",
+   "sport": "soccer_por.1",
+   "game_id": "401885409",
+   "short": "FCF @ SCB",
+   "game": "FC Famalicao at Braga",
+   "start": "2026-11-01T20:30Z",
+   "market": "total",
+   "side": "under",
+   "line": 5.5,
+   "selection": "Under 5.5",
+   "group": "Game lines",
+   "market_name": "Total",
+   "odds": -2580,
+   "p": 0.9595,
+   "p_model": 0.954,
+   "p_market": 0.9505,
+   "p_breakeven": 0.9627,
+   "edge": -0.0032,
+   "ev": -0.0033,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "FCF: 1.56 scored / 1.22 allowed per game this season; last 9: 1.56 / 1.22",
+    "SCB: 1.0 scored / 1.22 allowed per game this season; last 9: 1.0 / 1.22"
+   ],
+   "home": {
+    "name": "Braga",
+    "abbr": "SCB"
+   },
+   "away": {
+    "name": "FC Famalicao",
+    "abbr": "FCF"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxligaportugaltotal/point-total/kxligaportugaltotal-26nov01brafam",
+    "price": 96,
+    "ticker": "KXLIGAPORTUGALTOTAL-26NOV01BRAFAM-6",
+    "contract": "No \u00b7 Over 5.5",
+    "buy": "no"
+   },
+   "result": null,
+   "close_odds": -2580
+  }
+ },
+ "parlays": [
+  {
+   "legs": [
+    "401873028:KXNFLTOTAL-26NOV01INDJAC-29:yes",
+    "401885409:KXLIGAPORTUGALTOTAL-26NOV01BRAFAM-1:yes"
+   ],
+   "n": 2,
+   "mode": "safest",
+   "p": 0.8699,
+   "decimal": 1.145,
+   "american": -690,
+   "ev": -0.004,
+   "tier": "lock",
+   "name": "lock_2",
+   "result": null
+  },
+  {
+   "legs": [
+    "401873029:KXNFLTOTAL-26NOV01LVNYJ-66:no",
+    "401892624:KXNHLTOTAL-26NOV01WPGCAR-10:no",
+    "401876911:KXLIGAMXTOTAL-26NOV01CRALEO-6:no"
+   ],
+   "n": 3,
+   "mode": "safest",
+   "p": 0.801,
+   "decimal": 1.225,
+   "american": -444,
+   "ev": -0.0187,
+   "tier": "lock",
+   "name": "lock_3",
+   "result": null
+  },
+  {
+   "legs": [
+    "401873034:KXNFLGAME-26NOV01NEMIA-NE:yes",
+    "401885409:KXLIGAPORTUGALTOTAL-26NOV01BRAFAM-4:no"
+   ],
+   "n": 2,
+   "mode": "safest",
+   "p": 0.5877,
+   "decimal": 1.696,
+   "american": -144,
+   "ev": -0.0033,
+   "tier": "best",
+   "name": "best_2",
+   "result": null
+  }
+ ],
+ "straights": [],
+ "straights_best": [
+  "401873028:KXNFLGAME-26NOV01INDJAC-JAC:yes",
+  "401873034:KXNFLGAME-26NOV01NEMIA-NE:yes",
+  "401899562:KXSERIEBGAME-26NOV01PALVIC-PAL:yes",
+  "401885409:KXLIGAPORTUGALTOTAL-26NOV01BRAFAM-6:no",
+  "401876911:KXLIGAMXTOTAL-26NOV01CRALEO-1:yes",
+  "761933:KXMLSTOTAL-26NOV01PORHOU-1:yes",
+  "401841651:KXARGPREMDIVTOTAL-26NOV01LANGEM-6:no"
+ ],
+ "locks": [
+  "401873031:KXNFLGAME-26NOV01TENCIN-CIN:yes",
+  "401874949:KXSERIEATOTAL-26NOV01JUVNAP-6:no",
+  "401873029:KXNFLTOTAL-26NOV01LVNYJ-27:yes",
+  "401873027:KXNFLTOTAL-26NOV01CLEPIT-22:yes",
+  "401909903:KXNBATOTAL-26NOV01BOSORL-195:yes",
+  "401909904:KXNBATOTAL-26NOV01BKNIND-203:yes"
+ ]
+}

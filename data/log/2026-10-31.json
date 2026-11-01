@@ -44,7 +44,7 @@
     "contract": "Yes \u00b7 Como",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -360
   },
   "401878761:KXEPLTOTAL-26OCT31TOTCRY-1:yes": {
@@ -946,7 +946,7 @@
     "contract": "Yes \u00b7 Amed",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -404
   },
   "401909899:KXNBAGAME-26OCT31SACMEM-MEM:yes": {
@@ -1363,7 +1363,8 @@
    "ev": 0.0008,
    "tier": "best",
    "name": "best_2",
-   "result": null
+   "result": "W",
+   "missed": []
   },
   {
    "legs": [
