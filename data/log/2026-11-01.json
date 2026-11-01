@@ -93,7 +93,7 @@
     "contract": "Yes \u00b7 Cincinnati",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -788
   },
   "401873029:KXNFLTOTAL-26NOV01LVNYJ-66:no": {
@@ -138,7 +138,7 @@
     "contract": "No \u00b7 Over 65.5",
     "buy": "no"
    },
-   "result": null,
+   "result": "L",
    "close_odds": -1428
   },
   "401873028:KXNFLTOTAL-26NOV01INDJAC-29:yes": {
@@ -184,7 +184,7 @@
     "contract": "Yes \u00b7 Over 28.5",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -1428
   },
   "401873028:KXNFLGAME-26NOV01INDJAC-JAC:yes": {
@@ -232,7 +232,7 @@
     "contract": "Yes \u00b7 Jacksonville",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -489
   },
   "401885409:KXLIGAPORTUGALTOTAL-26NOV01BRAFAM-4:no": {
@@ -365,7 +365,7 @@
     "contract": "Yes \u00b7 Over 26.5",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -2042
   },
   "401876911:KXLIGAMXTOTAL-26NOV01CRALEO-6:no": {
@@ -411,7 +411,7 @@
     "buy": "no"
    },
    "result": null,
-   "close_odds": -1428
+   "close_odds": -1236
   },
   "401892624:KXNHLTOTAL-26NOV01WPGCAR-10:no": {
    "id": "401892624:KXNHLTOTAL-26NOV01WPGCAR-10:no",
@@ -454,7 +454,7 @@
     "contract": "No \u00b7 Over 9.5",
     "buy": "no"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -1428
   },
   "401909903:KXNBATOTAL-26NOV01BOSORL-195:yes": {
@@ -544,7 +544,7 @@
     "contract": "Yes \u00b7 Over 21.5",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -2042
   },
   "401876911:KXLIGAMXTOTAL-26NOV01CRALEO-1:yes": {
@@ -634,7 +634,7 @@
     "contract": "Yes \u00b7 Palermo",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -218
   },
   "401885409:KXLIGAPORTUGALTOTAL-26NOV01BRAFAM-1:yes": {
@@ -722,7 +722,7 @@
     "contract": "No \u00b7 Over 5.5",
     "buy": "no"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -2042
   },
   "761933:KXMLSTOTAL-26NOV01PORHOU-1:yes": {
@@ -812,7 +812,7 @@
     "buy": "no"
    },
    "result": null,
-   "close_odds": -2580
+   "close_odds": -2042
   },
   "401885409:KXLIGAPORTUGALTOTAL-26NOV01BRAFAM-6:no": {
    "id": "401885409:KXLIGAPORTUGALTOTAL-26NOV01BRAFAM-6:no",
@@ -889,7 +889,10 @@
    "ev": -0.0187,
    "tier": "lock",
    "name": "lock_3",
-   "result": null
+   "result": "L",
+   "missed": [
+    "401873029:KXNFLTOTAL-26NOV01LVNYJ-66:no"
+   ]
   },
   {
    "legs": [
