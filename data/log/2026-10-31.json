@@ -450,7 +450,7 @@
     "contract": "No \u00b7 Over 9.5",
     "buy": "no"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -2042
   },
   "401876413:KXLIGUE1TOTAL-26OCT31ESTMAN-1:yes": {
@@ -674,7 +674,7 @@
     "contract": "No \u00b7 Over 5.5",
     "buy": "no"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -1428
   },
   "401909902:KXNBATOTAL-26OCT31OKCHOU-191:yes": {
@@ -718,7 +718,7 @@
     "contract": "Yes \u00b7 Over 190.5",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -2042
   },
   "401900883:KXSAUDIPLTOTAL-26OCT31HILFAT-6:no": {
@@ -808,7 +808,7 @@
     "contract": "Yes \u00b7 Over 0.5",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -2580
   },
   "401864531:KXNCAAFTOTAL-26OCT31UTEPNDSU-25:yes": {
@@ -901,7 +901,7 @@
     "contract": "Yes \u00b7 Cleveland",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -340
   },
   "401888374:KXSUPERLIGGAME-26NOV01AMSEYU-AMS:yes": {
@@ -947,7 +947,7 @@
     "buy": "yes"
    },
    "result": null,
-   "close_odds": -430
+   "close_odds": -404
   },
   "401909899:KXNBAGAME-26OCT31SACMEM-MEM:yes": {
    "id": "401909899:KXNBAGAME-26OCT31SACMEM-MEM:yes",
@@ -992,7 +992,7 @@
     "contract": "Yes \u00b7 Memphis",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -306
   },
   "401875564:KXEREDIVISIEGAME-26OCT31PSVWIL-PSV:yes": {
@@ -1347,7 +1347,8 @@
    "ev": 0.0018,
    "tier": "lock",
    "name": "lock_3",
-   "result": null
+   "result": "W",
+   "missed": []
   },
   {
    "legs": [
