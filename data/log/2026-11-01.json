@@ -410,7 +410,7 @@
     "contract": "No \u00b7 Over 5.5",
     "buy": "no"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -1236
   },
   "401892624:KXNHLTOTAL-26NOV01WPGCAR-10:no": {
@@ -589,7 +589,7 @@
     "contract": "Yes \u00b7 Over 0.5",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -2580
   },
   "401899562:KXSERIEBGAME-26NOV01PALVIC-PAL:yes": {
@@ -767,7 +767,7 @@
     "contract": "Yes \u00b7 Over 0.5",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -2580
   },
   "401841651:KXARGPREMDIVTOTAL-26NOV01LANGEM-6:no": {
@@ -811,7 +811,7 @@
     "contract": "No \u00b7 Over 5.5",
     "buy": "no"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -2042
   },
   "401885409:KXLIGAPORTUGALTOTAL-26NOV01BRAFAM-6:no": {
