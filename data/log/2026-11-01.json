@@ -46,7 +46,7 @@
     "contract": "Yes \u00b7 New England",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -340
   },
   "401873031:KXNFLGAME-26NOV01TENCIN-CIN:yes": {
@@ -276,7 +276,7 @@
     "contract": "No \u00b7 Over 3.5",
     "buy": "no"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -322
   },
   "401909904:KXNBATOTAL-26NOV01BKNIND-203:yes": {
@@ -320,7 +320,7 @@
     "contract": "Yes \u00b7 Over 202.5",
     "buy": "yes"
    },
-   "result": null,
+   "result": "L",
    "close_odds": -1684
   },
   "401873029:KXNFLTOTAL-26NOV01LVNYJ-27:yes": {
@@ -499,7 +499,7 @@
     "contract": "Yes \u00b7 Over 194.5",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -2042
   },
   "401873027:KXNFLTOTAL-26NOV01CLEPIT-22:yes": {
@@ -678,7 +678,7 @@
     "contract": "Yes \u00b7 Over 0.5",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -1428
   },
   "401874949:KXSERIEATOTAL-26NOV01JUVNAP-6:no": {
@@ -855,7 +855,7 @@
     "contract": "No \u00b7 Over 5.5",
     "buy": "no"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -2580
   }
  },
@@ -873,7 +873,8 @@
    "ev": -0.004,
    "tier": "lock",
    "name": "lock_2",
-   "result": null
+   "result": "W",
+   "missed": []
   },
   {
    "legs": [
@@ -907,7 +908,8 @@
    "ev": -0.0033,
    "tier": "best",
    "name": "best_2",
-   "result": null
+   "result": "W",
+   "missed": []
   }
  ],
  "straights": [],
