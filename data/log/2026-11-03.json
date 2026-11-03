@@ -1,0 +1,919 @@
+{
+ "date": "2026-11-03",
+ "locked_at": "2026-11-03T14:10-05:00",
+ "legs": {
+  "401841304:KXBRASILEIROTOTAL-26NOV03CHAMIR-1:yes": {
+   "id": "401841304:KXBRASILEIROTOTAL-26NOV03CHAMIR-1:yes",
+   "sport": "soccer_bra.1",
+   "game_id": "401841304",
+   "short": "MIR @ CHA",
+   "game": "Mirassol at Chapecoense",
+   "start": "2026-11-03T22:30Z",
+   "market": "total",
+   "side": "over",
+   "line": 0.5,
+   "selection": "Over 0.5",
+   "group": "Game lines",
+   "market_name": "Total",
+   "odds": -2042,
+   "p": 0.9492,
+   "p_model": 0.9168,
+   "p_market": 0.9406,
+   "p_breakeven": 0.9533,
+   "edge": -0.0041,
+   "ev": -0.0043,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "MIR: 1.19 scored / 1.44 allowed per game this season; last 10: 1.1 / 1.1",
+    "CHA: 1.0 scored / 2.2 allowed per game this season; last 10: 0.9 / 2.0"
+   ],
+   "home": {
+    "name": "Chapecoense",
+    "abbr": "CHA"
+   },
+   "away": {
+    "name": "Mirassol",
+    "abbr": "MIR"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxbrasileirototal/brasileiro-total/kxbrasileirototal-26nov03chamir",
+    "price": 95,
+    "ticker": "KXBRASILEIROTOTAL-26NOV03CHAMIR-1",
+    "contract": "Yes \u00b7 Over 0.5",
+    "buy": "yes"
+   },
+   "result": null,
+   "close_odds": -2042
+  },
+  "401915387:KXUCLTOTAL-26NOV03BARAVL-6:no": {
+   "id": "401915387:KXUCLTOTAL-26NOV03BARAVL-6:no",
+   "sport": "soccer_uefa.champions",
+   "game_id": "401915387",
+   "short": "AVL @ BAR",
+   "game": "Aston Villa at Barcelona",
+   "start": "2026-11-03T20:00Z",
+   "market": "total",
+   "side": "under",
+   "line": 5.5,
+   "selection": "Under 5.5",
+   "group": "Game lines",
+   "market_name": "Total",
+   "odds": -276,
+   "p": 0.7259,
+   "p_model": 0.7721,
+   "p_market": 0.7129,
+   "p_breakeven": 0.7341,
+   "edge": -0.0082,
+   "ev": -0.0112,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "AVL: 4.0 scored / 1.0 allowed per game this season; last 3: 4.0 / 1.0",
+    "BAR: 3.67 scored / 2.0 allowed per game this season; last 3: 3.67 / 2.0"
+   ],
+   "home": {
+    "name": "Barcelona",
+    "abbr": "BAR"
+   },
+   "away": {
+    "name": "Aston Villa",
+    "abbr": "AVL"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxucltotal/champions-league-total-goals/kxucltotal-26nov03baravl",
+    "price": 72,
+    "ticker": "KXUCLTOTAL-26NOV03BARAVL-6",
+    "contract": "No \u00b7 Over 5.5",
+    "buy": "no"
+   },
+   "result": null,
+   "close_odds": -276
+  },
+  "401880180:KXEFLCHAMPIONSHIPTOTAL-26NOV03PNESHU-6:no": {
+   "id": "401880180:KXEFLCHAMPIONSHIPTOTAL-26NOV03PNESHU-6:no",
+   "sport": "soccer_eng.2",
+   "game_id": "401880180",
+   "short": "SHU @ PNE",
+   "game": "Sheffield United at Preston North End",
+   "start": "2026-11-03T19:45Z",
+   "market": "total",
+   "side": "under",
+   "line": 5.5,
+   "selection": "Under 5.5",
+   "group": "Game lines",
+   "market_name": "Total",
+   "odds": -2042,
+   "p": 0.9502,
+   "p_model": 0.937,
+   "p_market": 0.9406,
+   "p_breakeven": 0.9533,
+   "edge": -0.0031,
+   "ev": -0.0033,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "SHU: 1.31 scored / 1.15 allowed per game this season; last 10: 1.5 / 1.3",
+    "PNE: 0.77 scored / 2.08 allowed per game this season; last 10: 0.8 / 2.1"
+   ],
+   "home": {
+    "name": "Preston North End",
+    "abbr": "PNE"
+   },
+   "away": {
+    "name": "Sheffield United",
+    "abbr": "SHU"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxeflchampionshiptotal/efl-championship-total/kxeflchampionshiptotal-26nov03pneshu",
+    "price": 95,
+    "ticker": "KXEFLCHAMPIONSHIPTOTAL-26NOV03PNESHU-6",
+    "contract": "No \u00b7 Over 5.5",
+    "buy": "no"
+   },
+   "result": null,
+   "close_odds": -2042
+  },
+  "401880835:KXEFLL1TOTAL-26NOV03HUDLUT-1:yes": {
+   "id": "401880835:KXEFLL1TOTAL-26NOV03HUDLUT-1:yes",
+   "sport": "soccer_eng.3",
+   "game_id": "401880835",
+   "short": "LTN @ HUD",
+   "game": "Luton Town at Huddersfield Town",
+   "start": "2026-11-03T19:45Z",
+   "market": "total",
+   "side": "over",
+   "line": 0.5,
+   "selection": "Over 0.5",
+   "group": "Game lines",
+   "market_name": "Total",
+   "odds": -2042,
+   "p": 0.9501,
+   "p_model": 0.9347,
+   "p_market": 0.9406,
+   "p_breakeven": 0.9533,
+   "edge": -0.0032,
+   "ev": -0.0034,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "LTN: 2.0 scored / 1.54 allowed per game this season; last 10: 1.8 / 1.0",
+    "HUD: 2.08 scored / 0.85 allowed per game this season; last 10: 2.1 / 0.9"
+   ],
+   "home": {
+    "name": "Huddersfield Town",
+    "abbr": "HUD"
+   },
+   "away": {
+    "name": "Luton Town",
+    "abbr": "LTN"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxefll1total/point-total/kxefll1total-26nov03hudlut",
+    "price": 95,
+    "ticker": "KXEFLL1TOTAL-26NOV03HUDLUT-1",
+    "contract": "Yes \u00b7 Over 0.5",
+    "buy": "yes"
+   },
+   "result": null,
+   "close_odds": -2042
+  },
+  "401866453:KXNCAAFGAME-26NOV03OHIOAKR-OHIO:yes": {
+   "id": "401866453:KXNCAAFGAME-26NOV03OHIOAKR-OHIO:yes",
+   "sport": "cfb",
+   "game_id": "401866453",
+   "short": "OHIO @ AKR",
+   "game": "Ohio Bobcats at Akron Zips",
+   "start": "2026-11-04T00:00Z",
+   "market": "ml",
+   "side": "away",
+   "selection": "OHIO to win",
+   "group": "Game lines",
+   "market_name": "Winner",
+   "odds": -525,
+   "p": 0.8333,
+   "p_model": 0.7329,
+   "p_market": 0.8218,
+   "p_breakeven": 0.8399,
+   "edge": -0.0066,
+   "ev": -0.0079,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "OHIO ranks #76 in offense and #69 in defense of 158 (schedule-adjusted, recent games weighted more)",
+    "Last 8: 6-2, scoring 29.62 and allowing 21.88 pts/game (season: 29.62 / 21.88). Current streak: W5",
+    "On the road: 29.5 scored / 26.75 allowed per game",
+    "Record 6-2",
+    "Price moved -470 \u2192 -550 since opening, money moving toward OHIO"
+   ],
+   "home": {
+    "name": "Akron Zips",
+    "abbr": "AKR"
+   },
+   "away": {
+    "name": "Ohio Bobcats",
+    "abbr": "OHIO"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxncaafgame/college-football-game/kxncaafgame-26nov03ohioakr",
+    "price": 83,
+    "ticker": "KXNCAAFGAME-26NOV03OHIOAKR-OHIO",
+    "contract": "Yes \u00b7 Ohio",
+    "buy": "yes"
+   },
+   "result": null,
+   "close_odds": -525
+  },
+  "401892642:KXNHLGAME-26NOV03CARNSH-CAR:yes": {
+   "id": "401892642:KXNHLGAME-26NOV03CARNSH-CAR:yes",
+   "sport": "nhl",
+   "game_id": "401892642",
+   "short": "CAR @ NSH",
+   "game": "Carolina Hurricanes at Nashville Predators",
+   "start": "2026-11-04T01:00Z",
+   "market": "ml",
+   "side": "away",
+   "selection": "CAR to win",
+   "group": "Game lines",
+   "market_name": "Winner",
+   "odds": -199,
+   "p": 0.6527,
+   "p_model": 0.621,
+   "p_market": 0.65,
+   "p_breakeven": 0.6659,
+   "edge": -0.0132,
+   "ev": -0.0198,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "CAR ranks #1 in offense and #1 in defense of 32 (schedule-adjusted, recent games weighted more)",
+    "Last 10: 8-2, scoring 4.0 and allowing 2.0 goals/game (season: 3.94 / 2.25). Current streak: W4",
+    "On the road: 4.22 scored / 2.56 allowed per game",
+    "Record 12-2-2 (road 7-1-1)",
+    "Injuries: Taylor Hall (LW, Out), Alexander Nikishin (D, Out), Jordan Staal (C, Injured Reserve)",
+    "Price moved -180 \u2192 -198 since opening, money moving toward CAR"
+   ],
+   "home": {
+    "name": "Nashville Predators",
+    "abbr": "NSH"
+   },
+   "away": {
+    "name": "Carolina Hurricanes",
+    "abbr": "CAR"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxnhlgame/nhl-game/kxnhlgame-26nov03carnsh",
+    "price": 65,
+    "ticker": "KXNHLGAME-26NOV03CARNSH-CAR",
+    "contract": "Yes \u00b7 Carolina",
+    "buy": "yes"
+   },
+   "result": null,
+   "close_odds": -199
+  },
+  "401866454:KXNCAAFGAME-26NOV03BUFFMOH-MOH:yes": {
+   "id": "401866454:KXNCAAFGAME-26NOV03BUFFMOH-MOH:yes",
+   "sport": "cfb",
+   "game_id": "401866454",
+   "short": "BUFF @ M-OH",
+   "game": "Buffalo Bulls at Miami (OH) RedHawks",
+   "start": "2026-11-04T01:00Z",
+   "market": "ml",
+   "side": "home",
+   "selection": "M-OH to win",
+   "group": "Game lines",
+   "market_name": "Winner",
+   "odds": -228,
+   "p": 0.687,
+   "p_model": 0.7165,
+   "p_market": 0.6733,
+   "p_breakeven": 0.6952,
+   "edge": -0.0082,
+   "ev": -0.0118,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "M-OH ranks #103 in offense and #89 in defense of 158 (schedule-adjusted, recent games weighted more)",
+    "Last 8: 5-3, scoring 27.0 and allowing 25.75 pts/game (season: 27.0 / 25.75). Current streak: W3",
+    "At home: 30.75 scored / 16.5 allowed per game",
+    "Record 5-3"
+   ],
+   "home": {
+    "name": "Miami (OH) RedHawks",
+    "abbr": "M-OH"
+   },
+   "away": {
+    "name": "Buffalo Bulls",
+    "abbr": "BUFF"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxncaafgame/college-football-game/kxncaafgame-26nov03buffmoh",
+    "price": 68,
+    "ticker": "KXNCAAFGAME-26NOV03BUFFMOH-MOH",
+    "contract": "Yes \u00b7 Miami (OH)",
+    "buy": "yes"
+   },
+   "result": null,
+   "close_odds": -228
+  },
+  "401892634:KXNHLTOTAL-26NOV03WPGMTL-10:no": {
+   "id": "401892634:KXNHLTOTAL-26NOV03WPGMTL-10:no",
+   "sport": "nhl",
+   "game_id": "401892634",
+   "short": "WPG @ MTL",
+   "game": "Winnipeg Jets at Montreal Canadiens",
+   "start": "2026-11-04T00:00Z",
+   "market": "total",
+   "side": "under",
+   "line": 9.5,
+   "selection": "Under 9.5",
+   "group": "Game lines",
+   "market_name": "Total",
+   "odds": -1428,
+   "p": 0.9305,
+   "p_model": 0.8877,
+   "p_market": 0.9208,
+   "p_breakeven": 0.9346,
+   "edge": -0.0041,
+   "ev": -0.0044,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "WPG: 2.27 scored / 3.6 allowed per game this season; last 10: 2.1 / 3.9",
+    "MTL: 3.43 scored / 3.0 allowed per game this season; last 10: 3.4 / 2.3"
+   ],
+   "home": {
+    "name": "Montreal Canadiens",
+    "abbr": "MTL"
+   },
+   "away": {
+    "name": "Winnipeg Jets",
+    "abbr": "WPG"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxnhltotal/nhl-total-goals/kxnhltotal-26nov03wpgmtl",
+    "price": 93,
+    "ticker": "KXNHLTOTAL-26NOV03WPGMTL-10",
+    "contract": "No \u00b7 Over 9.5",
+    "buy": "no"
+   },
+   "result": null,
+   "close_odds": -1428
+  },
+  "401841301:KXBRASILEIROTOTAL-26NOV03INTCFC-1:yes": {
+   "id": "401841301:KXBRASILEIROTOTAL-26NOV03INTCFC-1:yes",
+   "sport": "soccer_bra.1",
+   "game_id": "401841301",
+   "short": "CFC @ INT",
+   "game": "Coritiba at Internacional",
+   "start": "2026-11-04T00:30Z",
+   "market": "total",
+   "side": "over",
+   "line": 0.5,
+   "selection": "Over 0.5",
+   "group": "Game lines",
+   "market_name": "Total",
+   "odds": -2042,
+   "p": 0.9491,
+   "p_model": 0.915,
+   "p_market": 0.9406,
+   "p_breakeven": 0.9533,
+   "edge": -0.0042,
+   "ev": -0.0044,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "CFC: 1.07 scored / 1.73 allowed per game this season; last 10: 1.2 / 2.0",
+    "INT: 1.07 scored / 1.33 allowed per game this season; last 10: 1.3 / 1.4"
+   ],
+   "home": {
+    "name": "Internacional",
+    "abbr": "INT"
+   },
+   "away": {
+    "name": "Coritiba",
+    "abbr": "CFC"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxbrasileirototal/brasileiro-total/kxbrasileirototal-26nov03intcfc",
+    "price": 95,
+    "ticker": "KXBRASILEIROTOTAL-26NOV03INTCFC-1",
+    "contract": "Yes \u00b7 Over 0.5",
+    "buy": "yes"
+   },
+   "result": null,
+   "close_odds": -2042
+  },
+  "401892638:KXNHLGAME-26NOV03MINPHI-MIN:yes": {
+   "id": "401892638:KXNHLGAME-26NOV03MINPHI-MIN:yes",
+   "sport": "nhl",
+   "game_id": "401892638",
+   "short": "MIN @ PHI",
+   "game": "Minnesota Wild at Philadelphia Flyers",
+   "start": "2026-11-04T00:00Z",
+   "market": "ml",
+   "side": "away",
+   "selection": "MIN to win",
+   "group": "Game lines",
+   "market_name": "Winner",
+   "odds": -183,
+   "p": 0.6285,
+   "p_model": 0.5876,
+   "p_market": 0.63,
+   "p_breakeven": 0.6463,
+   "edge": -0.0178,
+   "ev": -0.0275,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "MIN ranks #11 in offense and #3 in defense of 32 (schedule-adjusted, recent games weighted more)",
+    "Last 10: 6-4, scoring 3.3 and allowing 2.5 goals/game (season: 3.25 / 2.25)",
+    "On the road: 3.09 scored / 2.18 allowed per game",
+    "Record 10-3-3 (road 6-3-2)",
+    "Injuries: Jared Spurgeon (D, Injured Reserve), Brock Faber (D, Injured Reserve), Filip Gustavsson (G, Injured Reserve), Marcus Foligno (LW, Injured Reserve), Nick Foligno (LW, Injured Reserve)",
+    "Price moved -170 \u2192 -185 since opening, money moving toward MIN"
+   ],
+   "home": {
+    "name": "Philadelphia Flyers",
+    "abbr": "PHI"
+   },
+   "away": {
+    "name": "Minnesota Wild",
+    "abbr": "MIN"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxnhlgame/nhl-game/kxnhlgame-26nov03minphi",
+    "price": 63,
+    "ticker": "KXNHLGAME-26NOV03MINPHI-MIN",
+    "contract": "Yes \u00b7 Minnesota",
+    "buy": "yes"
+   },
+   "result": null,
+   "close_odds": -183
+  },
+  "401880835:KXEFLL1TOTAL-26NOV03HUDLUT-6:no": {
+   "id": "401880835:KXEFLL1TOTAL-26NOV03HUDLUT-6:no",
+   "sport": "soccer_eng.3",
+   "game_id": "401880835",
+   "short": "LTN @ HUD",
+   "game": "Luton Town at Huddersfield Town",
+   "start": "2026-11-03T19:45Z",
+   "market": "total",
+   "side": "under",
+   "line": 5.5,
+   "selection": "Under 5.5",
+   "group": "Game lines",
+   "market_name": "Total",
+   "odds": -1428,
+   "p": 0.9248,
+   "p_model": 0.9205,
+   "p_market": 0.9118,
+   "p_breakeven": 0.9346,
+   "edge": -0.0098,
+   "ev": -0.0105,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "LTN: 2.0 scored / 1.54 allowed per game this season; last 10: 1.8 / 1.0",
+    "HUD: 2.08 scored / 0.85 allowed per game this season; last 10: 2.1 / 0.9"
+   ],
+   "home": {
+    "name": "Huddersfield Town",
+    "abbr": "HUD"
+   },
+   "away": {
+    "name": "Luton Town",
+    "abbr": "LTN"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxefll1total/point-total/kxefll1total-26nov03hudlut",
+    "price": 93,
+    "ticker": "KXEFLL1TOTAL-26NOV03HUDLUT-6",
+    "contract": "No \u00b7 Over 5.5",
+    "buy": "no"
+   },
+   "result": null,
+   "close_odds": -1428
+  },
+  "401880182:KXEFLCHAMPIONSHIPTOTAL-26NOV03DERNOR-6:no": {
+   "id": "401880182:KXEFLCHAMPIONSHIPTOTAL-26NOV03DERNOR-6:no",
+   "sport": "soccer_eng.2",
+   "game_id": "401880182",
+   "short": "NOR @ DER",
+   "game": "Norwich City at Derby County",
+   "start": "2026-11-03T19:45Z",
+   "market": "total",
+   "side": "under",
+   "line": 5.5,
+   "selection": "Under 5.5",
+   "group": "Game lines",
+   "market_name": "Total",
+   "odds": -1428,
+   "p": 0.9334,
+   "p_model": 0.9329,
+   "p_market": 0.9208,
+   "p_breakeven": 0.9346,
+   "edge": -0.0012,
+   "ev": -0.0013,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "NOR: 1.77 scored / 1.85 allowed per game this season; last 10: 1.8 / 1.8",
+    "DER: 0.85 scored / 1.92 allowed per game this season; last 10: 0.8 / 1.8"
+   ],
+   "home": {
+    "name": "Derby County",
+    "abbr": "DER"
+   },
+   "away": {
+    "name": "Norwich City",
+    "abbr": "NOR"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxeflchampionshiptotal/efl-championship-total/kxeflchampionshiptotal-26nov03dernor",
+    "price": 93,
+    "ticker": "KXEFLCHAMPIONSHIPTOTAL-26NOV03DERNOR-6",
+    "contract": "No \u00b7 Over 5.5",
+    "buy": "no"
+   },
+   "result": null,
+   "close_odds": -1428
+  },
+  "401866454:KXNCAAFTOTAL-26NOV03BUFFMOH-26:yes": {
+   "id": "401866454:KXNCAAFTOTAL-26NOV03BUFFMOH-26:yes",
+   "sport": "cfb",
+   "game_id": "401866454",
+   "short": "BUFF @ M-OH",
+   "game": "Buffalo Bulls at Miami (OH) RedHawks",
+   "start": "2026-11-04T01:00Z",
+   "market": "total",
+   "side": "over",
+   "line": 25.5,
+   "selection": "Over 25.5",
+   "group": "Game lines",
+   "market_name": "Total",
+   "odds": -1428,
+   "p": 0.933,
+   "p_model": 0.949,
+   "p_market": 0.9208,
+   "p_breakeven": 0.9346,
+   "edge": -0.0016,
+   "ev": -0.0017,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "BUFF: 22.62 scored / 25.38 allowed per game this season; last 8: 22.62 / 25.38",
+    "M-OH: 27.0 scored / 25.75 allowed per game this season; last 8: 27.0 / 25.75",
+    "Line moved from +45.5 to +44.5 since opening (total)"
+   ],
+   "home": {
+    "name": "Miami (OH) RedHawks",
+    "abbr": "M-OH"
+   },
+   "away": {
+    "name": "Buffalo Bulls",
+    "abbr": "BUFF"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxncaaftotal/college-football-total-points/kxncaaftotal-26nov03buffmoh",
+    "price": 93,
+    "ticker": "KXNCAAFTOTAL-26NOV03BUFFMOH-26",
+    "contract": "Yes \u00b7 Over 25.5",
+    "buy": "yes"
+   },
+   "result": null,
+   "close_odds": -1428
+  },
+  "401915385:KXUCLGAME-26NOV03ASKSLO-ASK:yes": {
+   "id": "401915385:KXUCLGAME-26NOV03ASKSLO-ASK:yes",
+   "sport": "soccer_uefa.champions",
+   "game_id": "401915385",
+   "short": "SLB @ LAS",
+   "game": "Slovan Bratislava at LASK Linz",
+   "start": "2026-11-03T20:00Z",
+   "market": "ml",
+   "side": "home",
+   "selection": "LAS to win",
+   "group": "Game lines",
+   "market_name": "Winner",
+   "odds": -276,
+   "p": 0.7258,
+   "p_model": 0.7256,
+   "p_market": 0.7129,
+   "p_breakeven": 0.7341,
+   "edge": -0.0083,
+   "ev": -0.0113,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "LAS ranks #13 in offense and #50 in defense of 54 (schedule-adjusted, recent games weighted more)",
+    "Last 3: 1-2, scoring 2.0 and allowing 3.0 goals/game (season: 2.0 / 3.0)",
+    "At home: 3.0 scored / 6.0 allowed per game",
+    "Record 1-0-2"
+   ],
+   "home": {
+    "name": "LASK Linz",
+    "abbr": "LAS"
+   },
+   "away": {
+    "name": "Slovan Bratislava",
+    "abbr": "SLB"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxuclgame/uefa-champions-league-game/kxuclgame-26nov03askslo",
+    "price": 72,
+    "ticker": "KXUCLGAME-26NOV03ASKSLO-ASK",
+    "contract": "Yes \u00b7 LASK",
+    "buy": "yes"
+   },
+   "result": null,
+   "close_odds": -276
+  },
+  "401880183:KXEFLCHAMPIONSHIPTOTAL-26NOV03BLASTK-4:no": {
+   "id": "401880183:KXEFLCHAMPIONSHIPTOTAL-26NOV03BLASTK-4:no",
+   "sport": "soccer_eng.2",
+   "game_id": "401880183",
+   "short": "STK @ BLK",
+   "game": "Stoke City at Blackburn Rovers",
+   "start": "2026-11-03T19:45Z",
+   "market": "total",
+   "side": "under",
+   "line": 3.5,
+   "selection": "Under 3.5",
+   "group": "Game lines",
+   "market_name": "Total",
+   "odds": -340,
+   "p": 0.7646,
+   "p_model": 0.7267,
+   "p_market": 0.7525,
+   "p_breakeven": 0.7728,
+   "edge": -0.0082,
+   "ev": -0.0106,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "STK: 1.54 scored / 1.23 allowed per game this season; last 10: 1.7 / 0.7",
+    "BLK: 1.46 scored / 1.54 allowed per game this season; last 10: 1.4 / 1.5"
+   ],
+   "home": {
+    "name": "Blackburn Rovers",
+    "abbr": "BLK"
+   },
+   "away": {
+    "name": "Stoke City",
+    "abbr": "STK"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxeflchampionshiptotal/efl-championship-total/kxeflchampionshiptotal-26nov03blastk",
+    "price": 76,
+    "ticker": "KXEFLCHAMPIONSHIPTOTAL-26NOV03BLASTK-4",
+    "contract": "No \u00b7 Over 3.5",
+    "buy": "no"
+   },
+   "result": null,
+   "close_odds": -340
+  },
+  "401880815:KXEFLL1TOTAL-26NOV03WIGMAT-4:no": {
+   "id": "401880815:KXEFLL1TOTAL-26NOV03WIGMAT-4:no",
+   "sport": "soccer_eng.3",
+   "game_id": "401880815",
+   "short": "MNF @ WGA",
+   "game": "Mansfield Town at Wigan Athletic",
+   "start": "2026-11-03T19:45Z",
+   "market": "total",
+   "side": "under",
+   "line": 3.5,
+   "selection": "Under 3.5",
+   "group": "Game lines",
+   "market_name": "Total",
+   "odds": -228,
+   "p": 0.6898,
+   "p_model": 0.7385,
+   "p_market": 0.6733,
+   "p_breakeven": 0.6952,
+   "edge": -0.0054,
+   "ev": -0.0078,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "MNF: 1.67 scored / 1.5 allowed per game this season; last 10: 1.7 / 1.5",
+    "WGA: 0.85 scored / 1.69 allowed per game this season; last 10: 0.9 / 1.6"
+   ],
+   "home": {
+    "name": "Wigan Athletic",
+    "abbr": "WGA"
+   },
+   "away": {
+    "name": "Mansfield Town",
+    "abbr": "MNF"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxefll1total/point-total/kxefll1total-26nov03wigmat",
+    "price": 68,
+    "ticker": "KXEFLL1TOTAL-26NOV03WIGMAT-4",
+    "contract": "No \u00b7 Over 3.5",
+    "buy": "no"
+   },
+   "result": null,
+   "close_odds": -228
+  },
+  "401880178:KXEFLCHAMPIONSHIPTOTAL-26NOV03WATLIC-1:yes": {
+   "id": "401880178:KXEFLCHAMPIONSHIPTOTAL-26NOV03WATLIC-1:yes",
+   "sport": "soccer_eng.2",
+   "game_id": "401880178",
+   "short": "LCN @ WAT",
+   "game": "Lincoln City at Watford",
+   "start": "2026-11-03T19:45Z",
+   "market": "total",
+   "side": "over",
+   "line": 0.5,
+   "selection": "Over 0.5",
+   "group": "Game lines",
+   "market_name": "Total",
+   "odds": -1428,
+   "p": 0.9325,
+   "p_model": 0.9215,
+   "p_market": 0.9208,
+   "p_breakeven": 0.9346,
+   "edge": -0.0021,
+   "ev": -0.0022,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "LCN: 1.08 scored / 1.77 allowed per game this season; last 10: 1.1 / 1.8",
+    "WAT: 0.92 scored / 1.77 allowed per game this season; last 10: 0.8 / 2.0"
+   ],
+   "home": {
+    "name": "Watford",
+    "abbr": "WAT"
+   },
+   "away": {
+    "name": "Lincoln City",
+    "abbr": "LCN"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxeflchampionshiptotal/efl-championship-total/kxeflchampionshiptotal-26nov03watlic",
+    "price": 93,
+    "ticker": "KXEFLCHAMPIONSHIPTOTAL-26NOV03WATLIC-1",
+    "contract": "Yes \u00b7 Over 0.5",
+    "buy": "yes"
+   },
+   "result": null,
+   "close_odds": -1428
+  },
+  "401880178:KXEFLCHAMPIONSHIPTOTAL-26NOV03WATLIC-6:no": {
+   "id": "401880178:KXEFLCHAMPIONSHIPTOTAL-26NOV03WATLIC-6:no",
+   "sport": "soccer_eng.2",
+   "game_id": "401880178",
+   "short": "LCN @ WAT",
+   "game": "Lincoln City at Watford",
+   "start": "2026-11-03T19:45Z",
+   "market": "total",
+   "side": "under",
+   "line": 5.5,
+   "selection": "Under 5.5",
+   "group": "Game lines",
+   "market_name": "Total",
+   "odds": -2580,
+   "p": 0.9587,
+   "p_model": 0.9393,
+   "p_market": 0.9505,
+   "p_breakeven": 0.9627,
+   "edge": -0.004,
+   "ev": -0.0042,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "LCN: 1.08 scored / 1.77 allowed per game this season; last 10: 1.1 / 1.8",
+    "WAT: 0.92 scored / 1.77 allowed per game this season; last 10: 0.8 / 2.0"
+   ],
+   "home": {
+    "name": "Watford",
+    "abbr": "WAT"
+   },
+   "away": {
+    "name": "Lincoln City",
+    "abbr": "LCN"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxeflchampionshiptotal/efl-championship-total/kxeflchampionshiptotal-26nov03watlic",
+    "price": 96,
+    "ticker": "KXEFLCHAMPIONSHIPTOTAL-26NOV03WATLIC-6",
+    "contract": "No \u00b7 Over 5.5",
+    "buy": "no"
+   },
+   "result": null,
+   "close_odds": -2580
+  },
+  "401880177:KXEFLCHAMPIONSHIPTOTAL-26NOV03WBASOU-6:no": {
+   "id": "401880177:KXEFLCHAMPIONSHIPTOTAL-26NOV03WBASOU-6:no",
+   "sport": "soccer_eng.2",
+   "game_id": "401880177",
+   "short": "SOU @ WBA",
+   "game": "Southampton at West Bromwich Albion",
+   "start": "2026-11-03T20:00Z",
+   "market": "total",
+   "side": "under",
+   "line": 5.5,
+   "selection": "Under 5.5",
+   "group": "Game lines",
+   "market_name": "Total",
+   "odds": -2042,
+   "p": 0.9506,
+   "p_model": 0.9414,
+   "p_market": 0.9406,
+   "p_breakeven": 0.9533,
+   "edge": -0.0027,
+   "ev": -0.0028,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "SOU: 2.15 scored / 1.0 allowed per game this season; last 10: 1.9 / 0.9",
+    "WBA: 1.46 scored / 1.08 allowed per game this season; last 10: 1.3 / 0.9"
+   ],
+   "home": {
+    "name": "West Bromwich Albion",
+    "abbr": "WBA"
+   },
+   "away": {
+    "name": "Southampton",
+    "abbr": "SOU"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxeflchampionshiptotal/efl-championship-total/kxeflchampionshiptotal-26nov03wbasou",
+    "price": 95,
+    "ticker": "KXEFLCHAMPIONSHIPTOTAL-26NOV03WBASOU-6",
+    "contract": "No \u00b7 Over 5.5",
+    "buy": "no"
+   },
+   "result": null,
+   "close_odds": -2042
+  }
+ },
+ "parlays": [
+  {
+   "legs": [
+    "401880182:KXEFLCHAMPIONSHIPTOTAL-26NOV03DERNOR-6:no",
+    "401866454:KXNCAAFTOTAL-26NOV03BUFFMOH-26:yes"
+   ],
+   "n": 2,
+   "mode": "safest",
+   "p": 0.8709,
+   "decimal": 1.145,
+   "american": -690,
+   "ev": -0.0029,
+   "tier": "lock",
+   "name": "lock_2",
+   "result": null
+  },
+  {
+   "legs": [
+    "401880178:KXEFLCHAMPIONSHIPTOTAL-26NOV03WATLIC-1:yes",
+    "401892634:KXNHLTOTAL-26NOV03WPGMTL-10:no",
+    "401880835:KXEFLL1TOTAL-26NOV03HUDLUT-6:no"
+   ],
+   "n": 3,
+   "mode": "safest",
+   "p": 0.8024,
+   "decimal": 1.225,
+   "american": -444,
+   "ev": -0.0169,
+   "tier": "lock",
+   "name": "lock_3",
+   "result": null
+  },
+  {
+   "legs": [
+    "401880183:KXEFLCHAMPIONSHIPTOTAL-26NOV03BLASTK-4:no",
+    "401915387:KXUCLTOTAL-26NOV03BARAVL-6:no"
+   ],
+   "n": 2,
+   "mode": "safest",
+   "p": 0.555,
+   "decimal": 1.763,
+   "american": -131,
+   "ev": -0.0215,
+   "tier": "best",
+   "name": "best_2",
+   "result": null
+  }
+ ],
+ "straights": [],
+ "straights_best": [
+  "401866453:KXNCAAFGAME-26NOV03OHIOAKR-OHIO:yes",
+  "401915385:KXUCLGAME-26NOV03ASKSLO-ASK:yes",
+  "401866454:KXNCAAFGAME-26NOV03BUFFMOH-MOH:yes",
+  "401892642:KXNHLGAME-26NOV03CARNSH-CAR:yes",
+  "401892638:KXNHLGAME-26NOV03MINPHI-MIN:yes",
+  "401880178:KXEFLCHAMPIONSHIPTOTAL-26NOV03WATLIC-6:no",
+  "401915387:KXUCLTOTAL-26NOV03BARAVL-6:no",
+  "401880815:KXEFLL1TOTAL-26NOV03WIGMAT-4:no"
+ ],
+ "locks": [
+  "401880177:KXEFLCHAMPIONSHIPTOTAL-26NOV03WBASOU-6:no",
+  "401880180:KXEFLCHAMPIONSHIPTOTAL-26NOV03PNESHU-6:no",
+  "401880835:KXEFLL1TOTAL-26NOV03HUDLUT-1:yes",
+  "401841304:KXBRASILEIROTOTAL-26NOV03CHAMIR-1:yes",
+  "401841301:KXBRASILEIROTOTAL-26NOV03INTCFC-1:yes"
+ ]
+}
