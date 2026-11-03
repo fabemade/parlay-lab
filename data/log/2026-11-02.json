@@ -182,7 +182,7 @@
     "contract": "No \u00b7 Over 3.5",
     "buy": "no"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -340
   },
   "401909910:KXNBAGAME-26NOV02BKNNYK-NYK:yes": {
@@ -318,7 +318,7 @@
     "contract": "No \u00b7 Over 4.5",
     "buy": "no"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -1684
   },
   "401909912:KXNBAGAME-26NOV02CHIPHI-PHI:yes": {
@@ -365,7 +365,7 @@
     "contract": "Yes \u00b7 Philadelphia",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -525
   },
   "401892629:KXNHLTOTAL-26NOV02VGKBOS-10:no": {
@@ -409,7 +409,7 @@
     "contract": "No \u00b7 Over 9.5",
     "buy": "no"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -1428
   },
   "401841652:KXARGPREMDIVTOTAL-26NOV02IRMBAN-6:no": {
@@ -453,7 +453,7 @@
     "contract": "No \u00b7 Over 5.5",
     "buy": "no"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -2042
   },
   "401892631:KXNHLGAME-26NOV02COLCHI-COL:yes": {
@@ -588,7 +588,7 @@
     "contract": "No \u00b7 Over 9.5",
     "buy": "no"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -1684
   },
   "401841299:KXBRASILEIROTOTAL-26NOV02RBBSAN-2:yes": {
@@ -633,7 +633,7 @@
     "contract": "Yes \u00b7 Over 1.5",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -564
   },
   "401909913:KXNBAGAME-26NOV02SACDAL-DAL:yes": {
@@ -724,7 +724,7 @@
     "contract": "Yes \u00b7 Over 0.5",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -1428
   },
   "401892631:KXNHLTOTAL-26NOV02COLCHI-10:no": {
