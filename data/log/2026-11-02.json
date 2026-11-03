@@ -46,7 +46,7 @@
     "contract": "Yes \u00b7 San Antonio",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -967
   },
   "401909915:KXNBASPREAD-26NOV02MILMIN-MIN2:yes": {
@@ -93,7 +93,7 @@
     "contract": "Yes \u00b7 Minnesota wins by over 1.5 points",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -360
   },
   "401909910:KXNBATOTAL-26NOV02BKNNYK-195:yes": {
@@ -138,7 +138,7 @@
     "contract": "Yes \u00b7 Over 194.5",
     "buy": "yes"
    },
-   "result": null,
+   "result": "L",
    "close_odds": -1428
   },
   "401841649:KXARGPREMDIVTOTAL-26NOV02PLACC-4:no": {
@@ -229,7 +229,7 @@
     "contract": "Yes \u00b7 New York",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -967
   },
   "401873036:KXNFLTOTAL-26NOV02CHISEA-68:no": {
@@ -274,7 +274,7 @@
     "contract": "No \u00b7 Over 67.5",
     "buy": "no"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -1684
   },
   "401841644:KXARGPREMDIVTOTAL-26NOV02TUCARG-5:no": {
@@ -499,7 +499,7 @@
     "contract": "Yes \u00b7 Colorado",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -218
   },
   "401909915:KXNBATOTAL-26NOV02MILMIN-206:yes": {
@@ -544,7 +544,7 @@
     "contract": "Yes \u00b7 Over 205.5",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -1428
   },
   "401892630:KXNHLTOTAL-26NOV02DETFLA-10:no": {
@@ -680,7 +680,7 @@
     "contract": "Yes \u00b7 Dallas",
     "buy": "yes"
    },
-   "result": null,
+   "result": "L",
    "close_odds": -340
   },
   "401841649:KXARGPREMDIVTOTAL-26NOV02PLACC-1:yes": {
@@ -769,7 +769,7 @@
     "contract": "No \u00b7 Over 9.5",
     "buy": "no"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -1428
   }
  },
@@ -787,7 +787,8 @@
    "ev": -0.0216,
    "tier": "lock",
    "name": "lock_2",
-   "result": null
+   "result": "W",
+   "missed": []
   },
   {
    "legs": [
@@ -803,7 +804,10 @@
    "ev": -0.0352,
    "tier": "lock",
    "name": "lock_3",
-   "result": null
+   "result": "L",
+   "missed": [
+    "401909910:KXNBATOTAL-26NOV02BKNNYK-195:yes"
+   ]
   },
   {
    "legs": [
@@ -818,7 +822,10 @@
    "ev": 0.0151,
    "tier": "best",
    "name": "best_2",
-   "result": null
+   "result": "L",
+   "missed": [
+    "401909913:KXNBAGAME-26NOV02SACDAL-DAL:yes"
+   ]
   }
  ],
  "straights": [],

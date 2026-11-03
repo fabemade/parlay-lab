@@ -1,12 +1,12 @@
 {
  "groups": {
   "1st half": {
-   "T": 1.07,
-   "games": 586,
+   "T": 1.06,
+   "games": 588,
    "k": 0.95,
-   "loss_after": 240.029,
-   "loss_before": 240.903,
-   "n": 11505
+   "loss_after": 241.942,
+   "loss_before": 242.693,
+   "n": 11558
   },
   "1st period": {
    "T": 1.04,
@@ -17,28 +17,28 @@
    "n": 349
   },
   "1st quarter": {
-   "T": 1.05,
-   "games": 110,
+   "T": 1.06,
+   "games": 111,
    "k": 1.0,
-   "loss_after": 38.851,
-   "loss_before": 39.173,
-   "n": 2665
+   "loss_after": 38.958,
+   "loss_before": 39.347,
+   "n": 2677
   },
   "2nd half": {
    "T": 1.06,
-   "games": 161,
+   "games": 164,
    "k": 1.05,
-   "loss_after": 65.116,
-   "loss_before": 65.561,
-   "n": 3681
+   "loss_after": 66.666,
+   "loss_before": 67.106,
+   "n": 3695
   },
   "2nd period": {
    "T": 0.98,
    "games": 117,
    "k": 1.0,
-   "loss_after": 50.213,
-   "loss_before": 50.274,
-   "n": 324
+   "loss_after": 50.203,
+   "loss_before": 50.264,
+   "n": 325
   },
   "2nd quarter": {
    "T": 1.03,
@@ -81,37 +81,37 @@
    "n": 170
   },
   "Game lines": {
-   "T": 1.08,
-   "games": 1083,
+   "T": 1.07,
+   "games": 1092,
    "k": 0.9,
-   "loss_after": 370.667,
-   "loss_before": 372.504,
-   "n": 7382
+   "loss_after": 377.275,
+   "loss_before": 378.834,
+   "n": 7441
   },
   "Game specials": {
-   "T": 1.0,
-   "games": 396,
+   "T": 1.01,
+   "games": 399,
    "k": 1.0,
-   "loss_after": 133.127,
-   "loss_before": 133.127,
-   "n": 2534
+   "loss_after": 133.353,
+   "loss_before": 133.361,
+   "n": 2537
   },
   "Player props": {
    "T": 1.03,
-   "games": 220,
+   "games": 222,
    "k": 0.85,
-   "loss_after": 89.669,
-   "loss_before": 89.878,
-   "n": 26157
+   "loss_after": 90.057,
+   "loss_before": 90.278,
+   "n": 26242
   },
   "Team props": {
    "T": 1.07,
-   "games": 607,
+   "games": 611,
    "k": 0.9,
-   "loss_after": 241.623,
-   "loss_before": 242.716,
-   "n": 8666
+   "loss_after": 244.442,
+   "loss_before": 245.46,
+   "n": 8741
   }
  },
- "trained_at": "2026-11-03T03:07+00:00"
+ "trained_at": "2026-11-03T11:14+00:00"
 }
