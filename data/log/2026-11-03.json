@@ -43,7 +43,7 @@
     "contract": "Yes \u00b7 Over 0.5",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -2042
   },
   "401915387:KXUCLTOTAL-26NOV03BARAVL-6:no": {
@@ -221,7 +221,7 @@
     "contract": "Yes \u00b7 Ohio",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -525
   },
   "401892642:KXNHLGAME-26NOV03CARNSH-CAR:yes": {
@@ -268,7 +268,7 @@
     "contract": "Yes \u00b7 Carolina",
     "buy": "yes"
    },
-   "result": null,
+   "result": "L",
    "close_odds": -208
   },
   "401866454:KXNCAAFGAME-26NOV03BUFFMOH-MOH:yes": {
@@ -313,7 +313,7 @@
     "contract": "Yes \u00b7 Miami (OH)",
     "buy": "yes"
    },
-   "result": null,
+   "result": "L",
    "close_odds": -251
   },
   "401892634:KXNHLTOTAL-26NOV03WPGMTL-10:no": {
@@ -357,7 +357,7 @@
     "contract": "No \u00b7 Over 9.5",
     "buy": "no"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -1428
   },
   "401841301:KXBRASILEIROTOTAL-26NOV03INTCFC-1:yes": {
@@ -401,7 +401,7 @@
     "contract": "Yes \u00b7 Over 0.5",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -2042
   },
   "401892638:KXNHLGAME-26NOV03MINPHI-MIN:yes": {
@@ -448,7 +448,7 @@
     "contract": "Yes \u00b7 Minnesota",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -183
   },
   "401880835:KXEFLL1TOTAL-26NOV03HUDLUT-6:no": {
@@ -581,7 +581,7 @@
     "contract": "Yes \u00b7 Over 25.5",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -1684
   },
   "401915385:KXUCLGAME-26NOV03ASKSLO-ASK:yes": {
@@ -864,7 +864,8 @@
    "ev": -0.0029,
    "tier": "lock",
    "name": "lock_2",
-   "result": null
+   "result": "W",
+   "missed": []
   },
   {
    "legs": [
@@ -880,7 +881,8 @@
    "ev": -0.0169,
    "tier": "lock",
    "name": "lock_3",
-   "result": null
+   "result": "W",
+   "missed": []
   },
   {
    "legs": [
