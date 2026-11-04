@@ -87,7 +87,7 @@
     "contract": "No \u00b7 Over 5.5",
     "buy": "no"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -276
   },
   "401880180:KXEFLCHAMPIONSHIPTOTAL-26NOV03PNESHU-6:no": {
@@ -131,7 +131,7 @@
     "contract": "No \u00b7 Over 5.5",
     "buy": "no"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -2042
   },
   "401880835:KXEFLL1TOTAL-26NOV03HUDLUT-1:yes": {
@@ -175,7 +175,7 @@
     "contract": "Yes \u00b7 Over 0.5",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -2042
   },
   "401866453:KXNCAAFGAME-26NOV03OHIOAKR-OHIO:yes": {
@@ -269,7 +269,7 @@
     "buy": "yes"
    },
    "result": null,
-   "close_odds": -199
+   "close_odds": -208
   },
   "401866454:KXNCAAFGAME-26NOV03BUFFMOH-MOH:yes": {
    "id": "401866454:KXNCAAFGAME-26NOV03BUFFMOH-MOH:yes",
@@ -314,7 +314,7 @@
     "buy": "yes"
    },
    "result": null,
-   "close_odds": -228
+   "close_odds": -251
   },
   "401892634:KXNHLTOTAL-26NOV03WPGMTL-10:no": {
    "id": "401892634:KXNHLTOTAL-26NOV03WPGMTL-10:no",
@@ -492,7 +492,7 @@
     "contract": "No \u00b7 Over 5.5",
     "buy": "no"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -1428
   },
   "401880182:KXEFLCHAMPIONSHIPTOTAL-26NOV03DERNOR-6:no": {
@@ -536,7 +536,7 @@
     "contract": "No \u00b7 Over 5.5",
     "buy": "no"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -1428
   },
   "401866454:KXNCAAFTOTAL-26NOV03BUFFMOH-26:yes": {
@@ -582,7 +582,7 @@
     "buy": "yes"
    },
    "result": null,
-   "close_odds": -1428
+   "close_odds": -1684
   },
   "401915385:KXUCLGAME-26NOV03ASKSLO-ASK:yes": {
    "id": "401915385:KXUCLGAME-26NOV03ASKSLO-ASK:yes",
@@ -626,7 +626,7 @@
     "contract": "Yes \u00b7 LASK",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -276
   },
   "401880183:KXEFLCHAMPIONSHIPTOTAL-26NOV03BLASTK-4:no": {
@@ -670,7 +670,7 @@
     "contract": "No \u00b7 Over 3.5",
     "buy": "no"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -340
   },
   "401880815:KXEFLL1TOTAL-26NOV03WIGMAT-4:no": {
@@ -714,7 +714,7 @@
     "contract": "No \u00b7 Over 3.5",
     "buy": "no"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -228
   },
   "401880178:KXEFLCHAMPIONSHIPTOTAL-26NOV03WATLIC-1:yes": {
@@ -758,7 +758,7 @@
     "contract": "Yes \u00b7 Over 0.5",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -1428
   },
   "401880178:KXEFLCHAMPIONSHIPTOTAL-26NOV03WATLIC-6:no": {
@@ -802,7 +802,7 @@
     "contract": "No \u00b7 Over 5.5",
     "buy": "no"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -2580
   },
   "401880177:KXEFLCHAMPIONSHIPTOTAL-26NOV03WBASOU-6:no": {
@@ -846,7 +846,7 @@
     "contract": "No \u00b7 Over 5.5",
     "buy": "no"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -2042
   }
  },
@@ -895,7 +895,8 @@
    "ev": -0.0215,
    "tier": "best",
    "name": "best_2",
-   "result": null
+   "result": "W",
+   "missed": []
   }
  ],
  "straights": [],
