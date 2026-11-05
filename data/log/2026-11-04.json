@@ -43,7 +43,7 @@
     "contract": "Yes \u00b7 Over 0.5",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -1428
   },
   "401866457:KXNCAAFGAME-26NOV03TOLSAC-TOL:yes": {
@@ -133,7 +133,7 @@
     "contract": "No \u00b7 Over 5.5",
     "buy": "no"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -2042
   },
   "401878967:KXBELGIANPLTOTAL-26NOV04KORYRM-1:yes": {
@@ -177,7 +177,7 @@
     "contract": "Yes \u00b7 Over 0.5",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -2042
   },
   "401909924:KXNBATOTAL-26NOV04MILBOS-198:yes": {
@@ -267,7 +267,7 @@
     "contract": "No \u00b7 Over 5.5",
     "buy": "no"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -2580
   },
   "401909927:KXNBAGAME-26NOV04INDMEM-MEM:yes": {
@@ -359,7 +359,7 @@
     "contract": "No \u00b7 Over 5.5",
     "buy": "no"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -2042
   },
   "401909926:KXNBAGAME-26NOV04CHINYK-NYK:yes": {
@@ -499,7 +499,7 @@
     "contract": "Yes \u00b7 Dortmund",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -168
   },
   "401909934:KXNBAGAME-26NOV04LALSAC-LAL:yes": {
@@ -594,7 +594,7 @@
     "buy": "yes"
    },
    "result": null,
-   "close_odds": -208
+   "close_odds": -199
   },
   "401878967:KXBELGIANPLTOTAL-26NOV04KORYRM-6:no": {
    "id": "401878967:KXBELGIANPLTOTAL-26NOV04KORYRM-6:no",
@@ -637,7 +637,7 @@
     "contract": "No \u00b7 Over 5.5",
     "buy": "no"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -1428
   },
   "401880173:KXEFLCHAMPIONSHIPTOTAL-26NOV04WREMID-1:yes": {
@@ -681,7 +681,7 @@
     "contract": "Yes \u00b7 Over 0.5",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -2042
   },
   "401909928:KXNBATOTAL-26NOV04UTANOP-208:yes": {
@@ -771,7 +771,7 @@
     "contract": "Yes \u00b7 Over 1.5",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -967
   },
   "401915305:KXUCLTOTAL-26NOV04RCLCOM-1:yes": {
@@ -817,7 +817,7 @@
     "contract": "Yes \u00b7 Over 0.5",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -2580
   },
   "401915381:KXUCLTOTAL-26NOV04SLAARS-1:yes": {
@@ -863,7 +863,7 @@
     "contract": "Yes \u00b7 Over 0.5",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -2042
   },
   "401892646:KXNHLTOTAL-26NOV04SJLA-10:no": {
