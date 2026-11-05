@@ -89,7 +89,7 @@
     "contract": "Yes \u00b7 Toledo",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -2042
   },
   "401841306:KXBRASILEIROTOTAL-26NOV04CAPVDG-6:no": {
@@ -223,7 +223,7 @@
     "contract": "Yes \u00b7 Over 197.5",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -1428
   },
   "401880176:KXEFLCHAMPIONSHIPTOTAL-26NOV04BRCWOL-6:no": {
@@ -315,7 +315,7 @@
     "contract": "Yes \u00b7 Memphis",
     "buy": "yes"
    },
-   "result": null,
+   "result": "L",
    "close_odds": -228
   },
   "401880891:KXEFLL1TOTAL-26NOV04OXUREA-6:no": {
@@ -406,7 +406,7 @@
     "contract": "Yes \u00b7 New York",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -564
   },
   "401909924:KXNBAGAME-26NOV04MILBOS-BOS:yes": {
@@ -454,7 +454,7 @@
     "contract": "Yes \u00b7 Boston",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -489
   },
   "401915304:KXUCLGAME-26NOV04BVBRBB-BVB:yes": {
@@ -546,7 +546,7 @@
     "contract": "Yes \u00b7 Los Angeles L",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -564
   },
   "401909928:KXNBAGAME-26NOV04UTANOP-NOP:yes": {
@@ -593,7 +593,7 @@
     "contract": "Yes \u00b7 New Orleans",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -199
   },
   "401878967:KXBELGIANPLTOTAL-26NOV04KORYRM-6:no": {
@@ -727,7 +727,7 @@
     "contract": "Yes \u00b7 Over 207.5",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -1428
   },
   "401841307:KXBRASILEIROTOTAL-26NOV04FLAGPA-2:yes": {
@@ -907,7 +907,7 @@
     "contract": "No \u00b7 Over 9.5",
     "buy": "no"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -1428
   }
  },
@@ -925,7 +925,8 @@
    "ev": -0.0012,
    "tier": "lock",
    "name": "lock_2",
-   "result": null
+   "result": "W",
+   "missed": []
   },
   {
    "legs": [
@@ -941,7 +942,8 @@
    "ev": -0.0095,
    "tier": "lock",
    "name": "lock_3",
-   "result": null
+   "result": "W",
+   "missed": []
   }
  ],
  "straights": [],
