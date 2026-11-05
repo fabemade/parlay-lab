@@ -1,0 +1,957 @@
+{
+ "date": "2026-11-05",
+ "locked_at": "2026-11-05T14:36-05:00",
+ "legs": {
+  "401841303:KXBRASILEIROTOTAL-26NOV05CRUBAH-6:no": {
+   "id": "401841303:KXBRASILEIROTOTAL-26NOV05CRUBAH-6:no",
+   "sport": "soccer_bra.1",
+   "game_id": "401841303",
+   "short": "BAH @ CRU",
+   "game": "Bahia at Cruzeiro",
+   "start": "2026-11-06T00:30Z",
+   "market": "total",
+   "side": "under",
+   "line": 5.5,
+   "selection": "Under 5.5",
+   "group": "Game lines",
+   "market_name": "Total",
+   "odds": -1087,
+   "p": 0.9169,
+   "p_model": 0.9406,
+   "p_market": 0.901,
+   "p_breakeven": 0.9157,
+   "edge": 0.0012,
+   "ev": 0.0013,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "BAH: 1.44 scored / 1.19 allowed per game this season; last 10: 1.6 / 1.4",
+    "CRU: 1.87 scored / 1.2 allowed per game this season; last 10: 2.0 / 1.4",
+    "Line moved from +3.5 to +2.5 since opening (total)"
+   ],
+   "home": {
+    "name": "Cruzeiro",
+    "abbr": "CRU"
+   },
+   "away": {
+    "name": "Bahia",
+    "abbr": "BAH"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxbrasileirototal/brasileiro-total/kxbrasileirototal-26nov05crubah",
+    "price": 91,
+    "ticker": "KXBRASILEIROTOTAL-26NOV05CRUBAH-6",
+    "contract": "No \u00b7 Over 5.5",
+    "buy": "no"
+   },
+   "result": null,
+   "close_odds": -1087
+  },
+  "401915523:KXUELTOTAL-26NOV05SUNDIN-6:no": {
+   "id": "401915523:KXUELTOTAL-26NOV05SUNDIN-6:no",
+   "sport": "soccer_uefa.europa",
+   "game_id": "401915523",
+   "short": "DZG @ SUN",
+   "game": "Dinamo Zagreb at Sunderland",
+   "start": "2026-11-05T20:00Z",
+   "market": "total",
+   "side": "under",
+   "line": 5.5,
+   "selection": "Under 5.5",
+   "group": "Game lines",
+   "market_name": "Total",
+   "odds": -1428,
+   "p": 0.9326,
+   "p_model": 0.9293,
+   "p_market": 0.9208,
+   "p_breakeven": 0.9346,
+   "edge": -0.002,
+   "ev": -0.0021,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "DZG: 1.0 scored / 1.33 allowed per game this season; last 3: 1.0 / 1.33",
+    "SUN: 1.33 scored / 0.67 allowed per game this season; last 3: 1.33 / 0.67"
+   ],
+   "home": {
+    "name": "Sunderland",
+    "abbr": "SUN"
+   },
+   "away": {
+    "name": "Dinamo Zagreb",
+    "abbr": "DZG"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxueltotal/europa-league-total/kxueltotal-26nov05sundin",
+    "price": 93,
+    "ticker": "KXUELTOTAL-26NOV05SUNDIN-6",
+    "contract": "No \u00b7 Over 5.5",
+    "buy": "no"
+   },
+   "result": null,
+   "close_odds": -1428
+  },
+  "401915530:KXUELTOTAL-26NOV05TORARA-1:yes": {
+   "id": "401915530:KXUELTOTAL-26NOV05TORARA-1:yes",
+   "sport": "soccer_uefa.europa",
+   "game_id": "401915530",
+   "short": "ARA @ TOR",
+   "game": "Ararat-Armenia at Torreense",
+   "start": "2026-11-05T20:00Z",
+   "market": "total",
+   "side": "over",
+   "line": 0.5,
+   "selection": "Over 0.5",
+   "group": "Game lines",
+   "market_name": "Total",
+   "odds": -1428,
+   "p": 0.9327,
+   "p_model": 0.9413,
+   "p_market": 0.9208,
+   "p_breakeven": 0.9346,
+   "edge": -0.0019,
+   "ev": -0.002,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "ARA: 0.67 scored / 3.67 allowed per game this season; last 3: 0.67 / 3.67",
+    "TOR: 1.33 scored / 2.33 allowed per game this season; last 3: 1.33 / 2.33"
+   ],
+   "home": {
+    "name": "Torreense",
+    "abbr": "TOR"
+   },
+   "away": {
+    "name": "Ararat-Armenia",
+    "abbr": "ARA"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxueltotal/europa-league-total/kxueltotal-26nov05torara",
+    "price": 93,
+    "ticker": "KXUELTOTAL-26NOV05TORARA-1",
+    "contract": "Yes \u00b7 Over 0.5",
+    "buy": "yes"
+   },
+   "result": null,
+   "close_odds": -1428
+  },
+  "401909936:KXNBATOTAL-26NOV05ORLPHX-249:no": {
+   "id": "401909936:KXNBATOTAL-26NOV05ORLPHX-249:no",
+   "sport": "nba",
+   "game_id": "401909936",
+   "short": "ORL @ PHX",
+   "game": "Orlando Magic at Phoenix Suns",
+   "start": "2026-11-06T02:00Z",
+   "market": "total",
+   "side": "under",
+   "line": 248.5,
+   "selection": "Under 248.5",
+   "group": "Game lines",
+   "market_name": "Total",
+   "odds": -2042,
+   "p": 0.9405,
+   "p_model": 0.9007,
+   "p_market": 0.9314,
+   "p_breakeven": 0.9533,
+   "edge": -0.0128,
+   "ev": -0.0134,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "ORL: 105.71 scored / 114.71 allowed per game this season; last 7: 105.71 / 114.71",
+    "PHX: 113.33 scored / 124.33 allowed per game this season; last 6: 113.33 / 124.33",
+    "Line moved from +224.5 to +221.5 since opening (total)",
+    "\u26a0 The line has moved against this side since opening (a sharp-money signal), so the model defers more to the market"
+   ],
+   "home": {
+    "name": "Phoenix Suns",
+    "abbr": "PHX"
+   },
+   "away": {
+    "name": "Orlando Magic",
+    "abbr": "ORL"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxnbatotal/nba-total/kxnbatotal-26nov05orlphx",
+    "price": 95,
+    "ticker": "KXNBATOTAL-26NOV05ORLPHX-249",
+    "contract": "No \u00b7 Over 248.5",
+    "buy": "no"
+   },
+   "result": null,
+   "close_odds": -2042
+  },
+  "401915531:KXUELTOTAL-26NOV05RCCUSG-6:no": {
+   "id": "401915531:KXUELTOTAL-26NOV05RCCUSG-6:no",
+   "sport": "soccer_uefa.europa",
+   "game_id": "401915531",
+   "short": "USG @ CEL",
+   "game": "Union St.-Gilloise at Celta Vigo",
+   "start": "2026-11-05T20:00Z",
+   "market": "total",
+   "side": "under",
+   "line": 5.5,
+   "selection": "Under 5.5",
+   "group": "Game lines",
+   "market_name": "Total",
+   "odds": -2580,
+   "p": 0.9592,
+   "p_model": 0.9303,
+   "p_market": 0.9505,
+   "p_breakeven": 0.9627,
+   "edge": -0.0035,
+   "ev": -0.0036,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "USG: 2.67 scored / 0.33 allowed per game this season; last 3: 2.67 / 0.33",
+    "CEL: 1.0 scored / 1.33 allowed per game this season; last 3: 1.0 / 1.33"
+   ],
+   "home": {
+    "name": "Celta Vigo",
+    "abbr": "CEL"
+   },
+   "away": {
+    "name": "Union St.-Gilloise",
+    "abbr": "USG"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxueltotal/europa-league-total/kxueltotal-26nov05rccusg",
+    "price": 96,
+    "ticker": "KXUELTOTAL-26NOV05RCCUSG-6",
+    "contract": "No \u00b7 Over 5.5",
+    "buy": "no"
+   },
+   "result": null,
+   "close_odds": -2580
+  },
+  "401915823:KXUECLGAME-26NOV05LUGKAZ-LUG:yes": {
+   "id": "401915823:KXUECLGAME-26NOV05LUGKAZ-LUG:yes",
+   "sport": "soccer_uefa.europa.conf",
+   "game_id": "401915823",
+   "short": "ZAL @ LUG",
+   "game": "Kauno Zalgiris at FC Lugano",
+   "start": "2026-11-05T20:00Z",
+   "market": "ml",
+   "side": "home",
+   "selection": "LUG to win",
+   "group": "Game lines",
+   "market_name": "Winner",
+   "odds": -564,
+   "p": 0.8523,
+   "p_model": 0.7146,
+   "p_market": 0.84,
+   "p_breakeven": 0.8494,
+   "edge": 0.0029,
+   "ev": 0.0034,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "Last 2: 2-0, scoring 4.0 and allowing 2.0 goals/game (season: 4.0 / 2.0)",
+    "At home: 3.0 scored / 2.0 allowed per game",
+    "Record 2-0-0"
+   ],
+   "home": {
+    "name": "FC Lugano",
+    "abbr": "LUG"
+   },
+   "away": {
+    "name": "Kauno Zalgiris",
+    "abbr": "ZAL"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxueclgame/uefa-conference-league-game/kxueclgame-26nov05lugkaz",
+    "price": 84,
+    "ticker": "KXUECLGAME-26NOV05LUGKAZ-LUG",
+    "contract": "Yes \u00b7 Lugano",
+    "buy": "yes"
+   },
+   "result": null,
+   "close_odds": -564
+  },
+  "401915821:KXUECLTOTAL-26NOV05GETBRI-1:yes": {
+   "id": "401915821:KXUECLTOTAL-26NOV05GETBRI-1:yes",
+   "sport": "soccer_uefa.europa.conf",
+   "game_id": "401915821",
+   "short": "BHA @ GET",
+   "game": "Brighton & Hove Albion at Getafe",
+   "start": "2026-11-05T20:00Z",
+   "market": "total",
+   "side": "over",
+   "line": 0.5,
+   "selection": "Over 0.5",
+   "group": "Game lines",
+   "market_name": "Total",
+   "odds": -1428,
+   "p": 0.9325,
+   "p_model": 0.9237,
+   "p_market": 0.9208,
+   "p_breakeven": 0.9346,
+   "edge": -0.0021,
+   "ev": -0.0022,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "BHA: 2.0 scored / 0.0 allowed per game this season; last 2: 2.0 / 0.0",
+    "GET: 1.5 scored / 3.0 allowed per game this season; last 2: 1.5 / 3.0"
+   ],
+   "home": {
+    "name": "Getafe",
+    "abbr": "GET"
+   },
+   "away": {
+    "name": "Brighton & Hove Albion",
+    "abbr": "BHA"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxuecltotal/conference-league-total/kxuecltotal-26nov05getbri",
+    "price": 93,
+    "ticker": "KXUECLTOTAL-26NOV05GETBRI-1",
+    "contract": "Yes \u00b7 Over 0.5",
+    "buy": "yes"
+   },
+   "result": null,
+   "close_odds": -1428
+  },
+  "401892657:KXNHLGAME-26NOV05ANAEDM-EDM:yes": {
+   "id": "401892657:KXNHLGAME-26NOV05ANAEDM-EDM:yes",
+   "sport": "nhl",
+   "game_id": "401892657",
+   "short": "ANA @ EDM",
+   "game": "Anaheim Ducks at Edmonton Oilers",
+   "start": "2026-11-06T01:00Z",
+   "market": "ml",
+   "side": "home",
+   "selection": "EDM to win",
+   "group": "Game lines",
+   "market_name": "Winner",
+   "odds": -191,
+   "p": 0.639,
+   "p_model": 0.6198,
+   "p_market": 0.6337,
+   "p_breakeven": 0.6561,
+   "edge": -0.0171,
+   "ev": -0.0261,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "EDM ranks #2 in offense and #14 in defense of 32 (schedule-adjusted, recent games weighted more)",
+    "Last 10: 6-4, scoring 3.8 and allowing 3.0 goals/game (season: 4.19 / 3.0)",
+    "At home: 3.62 scored / 3.75 allowed per game",
+    "Record 11-2-3 (home 4-2-2)",
+    "Injuries: Isaac Howard (LW, Out), Zach Hyman (LW, Injured Reserve), Devon Levi (G, Injured Reserve), Alec Regula (D, Injured Reserve), Matt Savoie (C, Injured Reserve)",
+    "Price moved -198 \u2192 -192 since opening, money moving away from EDM"
+   ],
+   "home": {
+    "name": "Edmonton Oilers",
+    "abbr": "EDM"
+   },
+   "away": {
+    "name": "Anaheim Ducks",
+    "abbr": "ANA"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxnhlgame/nhl-game/kxnhlgame-26nov05anaedm",
+    "price": 64,
+    "ticker": "KXNHLGAME-26NOV05ANAEDM-EDM",
+    "contract": "Yes \u00b7 Edmonton",
+    "buy": "yes"
+   },
+   "result": null,
+   "close_odds": -191
+  },
+  "401869964:KXNCAAFGAME-26NOV05JMUUSM-JMU:yes": {
+   "id": "401869964:KXNCAAFGAME-26NOV05JMUUSM-JMU:yes",
+   "sport": "cfb",
+   "game_id": "401869964",
+   "short": "JMU @ USM",
+   "game": "James Madison Dukes at Southern Miss Golden Eagles",
+   "start": "2026-11-06T01:00Z",
+   "market": "ml",
+   "side": "away",
+   "selection": "JMU to win",
+   "group": "Game lines",
+   "market_name": "Winner",
+   "odds": -525,
+   "p": 0.8357,
+   "p_model": 0.7996,
+   "p_market": 0.8218,
+   "p_breakeven": 0.8399,
+   "edge": -0.0042,
+   "ev": -0.005,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "JMU ranks #9 in offense and #42 in defense of 158 (schedule-adjusted, recent games weighted more)",
+    "Last 9: 7-2, scoring 39.11 and allowing 18.89 pts/game (season: 39.11 / 18.89)",
+    "On the road: 32.5 scored / 22.75 allowed per game",
+    "Record 7-2",
+    "Price moved -600 \u2192 -575 since opening, money moving away from JMU"
+   ],
+   "home": {
+    "name": "Southern Miss Golden Eagles",
+    "abbr": "USM"
+   },
+   "away": {
+    "name": "James Madison Dukes",
+    "abbr": "JMU"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxncaafgame/college-football-game/kxncaafgame-26nov05jmuusm",
+    "price": 83,
+    "ticker": "KXNCAAFGAME-26NOV05JMUUSM-JMU",
+    "contract": "Yes \u00b7 James Madison",
+    "buy": "yes"
+   },
+   "result": null,
+   "close_odds": -525
+  },
+  "401892650:KXNHLGAME-26NOV05CHITB-TB:yes": {
+   "id": "401892650:KXNHLGAME-26NOV05CHITB-TB:yes",
+   "sport": "nhl",
+   "game_id": "401892650",
+   "short": "CHI @ TB",
+   "game": "Chicago Blackhawks at Tampa Bay Lightning",
+   "start": "2026-11-06T00:00Z",
+   "market": "ml",
+   "side": "home",
+   "selection": "TB to win",
+   "group": "Game lines",
+   "market_name": "Winner",
+   "odds": -458,
+   "p": 0.8018,
+   "p_model": 0.7155,
+   "p_market": 0.802,
+   "p_breakeven": 0.8208,
+   "edge": -0.019,
+   "ev": -0.0231,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "TB ranks #4 in offense and #15 in defense of 32 (schedule-adjusted, recent games weighted more)",
+    "Last 10: 6-4, scoring 4.1 and allowing 3.6 goals/game (season: 3.71 / 3.21)",
+    "At home: 4.0 scored / 2.14 allowed per game",
+    "Record 9-3-2 (home 7-0-0)",
+    "Injuries: Yanni Gourde (C, Injured Reserve)",
+    "Price moved -395 \u2192 -455 since opening, money moving toward TB"
+   ],
+   "home": {
+    "name": "Tampa Bay Lightning",
+    "abbr": "TB"
+   },
+   "away": {
+    "name": "Chicago Blackhawks",
+    "abbr": "CHI"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxnhlgame/nhl-game/kxnhlgame-26nov05chitb",
+    "price": 81,
+    "ticker": "KXNHLGAME-26NOV05CHITB-TB",
+    "contract": "Yes \u00b7 Tampa Bay",
+    "buy": "yes"
+   },
+   "result": null,
+   "close_odds": -458
+  },
+  "401915533:KXUELGAME-26NOV05LEVOLM-LEV:yes": {
+   "id": "401915533:KXUELGAME-26NOV05LEVOLM-LEV:yes",
+   "sport": "soccer_uefa.europa",
+   "game_id": "401915533",
+   "short": "OLM @ B04",
+   "game": "Marseille at Bayer Leverkusen",
+   "start": "2026-11-05T20:00Z",
+   "market": "ml",
+   "side": "home",
+   "selection": "B04 to win",
+   "group": "Game lines",
+   "market_name": "Winner",
+   "odds": -251,
+   "p": 0.6999,
+   "p_model": 0.7297,
+   "p_market": 0.6863,
+   "p_breakeven": 0.7147,
+   "edge": -0.0148,
+   "ev": -0.0207,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "B04 ranks #8 in offense and #3 in defense of 64 (schedule-adjusted, recent games weighted more)",
+    "Last 3: 3-0, scoring 2.67 and allowing 0.0 goals/game (season: 2.67 / 0.0). Current streak: W3",
+    "At home: 2.0 scored / 0.0 allowed per game",
+    "Record 3-0-0"
+   ],
+   "home": {
+    "name": "Bayer Leverkusen",
+    "abbr": "B04"
+   },
+   "away": {
+    "name": "Marseille",
+    "abbr": "OLM"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxuelgame/uefa-europa-league-game/kxuelgame-26nov05levolm",
+    "price": 70,
+    "ticker": "KXUELGAME-26NOV05LEVOLM-LEV",
+    "contract": "Yes \u00b7 Leverkusen",
+    "buy": "yes"
+   },
+   "result": null,
+   "close_odds": -251
+  },
+  "401892657:KXNHLTOTAL-26NOV05ANAEDM-4:yes": {
+   "id": "401892657:KXNHLTOTAL-26NOV05ANAEDM-4:yes",
+   "sport": "nhl",
+   "game_id": "401892657",
+   "short": "ANA @ EDM",
+   "game": "Anaheim Ducks at Edmonton Oilers",
+   "start": "2026-11-06T01:00Z",
+   "market": "total",
+   "side": "over",
+   "line": 3.5,
+   "selection": "Over 3.5",
+   "group": "Game lines",
+   "market_name": "Total",
+   "odds": -1428,
+   "p": 0.9311,
+   "p_model": 0.8992,
+   "p_market": 0.9208,
+   "p_breakeven": 0.9346,
+   "edge": -0.0035,
+   "ev": -0.0037,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "ANA: 3.6 scored / 3.8 allowed per game this season; last 10: 3.6 / 4.4",
+    "EDM: 4.19 scored / 3.0 allowed per game this season; last 10: 3.8 / 3.0"
+   ],
+   "home": {
+    "name": "Edmonton Oilers",
+    "abbr": "EDM"
+   },
+   "away": {
+    "name": "Anaheim Ducks",
+    "abbr": "ANA"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxnhltotal/nhl-total-goals/kxnhltotal-26nov05anaedm",
+    "price": 93,
+    "ticker": "KXNHLTOTAL-26NOV05ANAEDM-4",
+    "contract": "Yes \u00b7 Over 3.5",
+    "buy": "yes"
+   },
+   "result": null,
+   "close_odds": -1428
+  },
+  "401862817:KXNCAAFGAME-26NOV05UTSAFAU-UTSA:yes": {
+   "id": "401862817:KXNCAAFGAME-26NOV05UTSAFAU-UTSA:yes",
+   "sport": "cfb",
+   "game_id": "401862817",
+   "short": "UTSA @ FAU",
+   "game": "UTSA Roadrunners at Florida Atlantic Owls",
+   "start": "2026-11-06T00:30Z",
+   "market": "ml",
+   "side": "away",
+   "selection": "UTSA to win",
+   "group": "Game lines",
+   "market_name": "Winner",
+   "odds": -263,
+   "p": 0.705,
+   "p_model": 0.6376,
+   "p_market": 0.6961,
+   "p_breakeven": 0.7244,
+   "edge": -0.0194,
+   "ev": -0.0268,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "UTSA ranks #28 in offense and #81 in defense of 158 (schedule-adjusted, recent games weighted more)",
+    "Last 8: 7-1, scoring 33.5 and allowing 26.0 pts/game (season: 33.5 / 26.0). Current streak: W5",
+    "On the road: 23.75 scored / 22.25 allowed per game",
+    "Record 7-1",
+    "Price moved -225 \u2192 -265 since opening, money moving toward UTSA"
+   ],
+   "home": {
+    "name": "Florida Atlantic Owls",
+    "abbr": "FAU"
+   },
+   "away": {
+    "name": "UTSA Roadrunners",
+    "abbr": "UTSA"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxncaafgame/college-football-game/kxncaafgame-26nov05utsafau",
+    "price": 71,
+    "ticker": "KXNCAAFGAME-26NOV05UTSAFAU-UTSA",
+    "contract": "Yes \u00b7 UTSA",
+    "buy": "yes"
+   },
+   "result": null,
+   "close_odds": -263
+  },
+  "401873037:KXNFLGAME-26NOV05JACBAL-JAC:yes": {
+   "id": "401873037:KXNFLGAME-26NOV05JACBAL-JAC:yes",
+   "sport": "nfl",
+   "game_id": "401873037",
+   "short": "JAX @ BAL",
+   "game": "Jacksonville Jaguars at Baltimore Ravens",
+   "start": "2026-11-06T01:15Z",
+   "market": "ml",
+   "side": "away",
+   "selection": "JAX to win",
+   "group": "Game lines",
+   "market_name": "Winner",
+   "odds": -458,
+   "p": 0.8097,
+   "p_model": 0.7686,
+   "p_market": 0.802,
+   "p_breakeven": 0.8208,
+   "edge": -0.0111,
+   "ev": -0.0135,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "JAX ranks #4 in offense and #2 in defense of 32 (schedule-adjusted, recent games weighted more)",
+    "Last 7: 5-2, scoring 28.0 and allowing 15.86 pts/game (season: 28.0 / 15.86)",
+    "On the road: 17.5 scored / 18.5 allowed per game",
+    "Record 5-2 (road 1-1)",
+    "Injuries: Eric Murray (S, Injured Reserve), DaVon Hamilton (DT, Injured Reserve), Anton Harrison (OT, Injured Reserve)",
+    "Price moved +180 \u2192 -500 since opening, money moving toward JAX"
+   ],
+   "home": {
+    "name": "Baltimore Ravens",
+    "abbr": "BAL"
+   },
+   "away": {
+    "name": "Jacksonville Jaguars",
+    "abbr": "JAX"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxnflgame/nfl-game/kxnflgame-26nov05jacbal",
+    "price": 81,
+    "ticker": "KXNFLGAME-26NOV05JACBAL-JAC",
+    "contract": "Yes \u00b7 Jacksonville",
+    "buy": "yes"
+   },
+   "result": null,
+   "close_odds": -458
+  },
+  "401915818:KXUECLTOTAL-26NOV05RFCFKJ-6:no": {
+   "id": "401915818:KXUECLTOTAL-26NOV05RFCFKJ-6:no",
+   "sport": "soccer_uefa.europa.conf",
+   "game_id": "401915818",
+   "short": "JABL @ RIG",
+   "game": "Jablonec at Riga FC",
+   "start": "2026-11-05T20:00Z",
+   "market": "total",
+   "side": "under",
+   "line": 5.5,
+   "selection": "Under 5.5",
+   "group": "Game lines",
+   "market_name": "Total",
+   "odds": -1684,
+   "p": 0.9419,
+   "p_model": 0.9556,
+   "p_market": 0.9307,
+   "p_breakeven": 0.9439,
+   "edge": -0.002,
+   "ev": -0.0021,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "JABL: 1.0 scored / 1.5 allowed per game this season; last 2: 1.0 / 1.5",
+    "RIG: 1.0 scored / 1.0 allowed per game this season; last 2: 1.0 / 1.0"
+   ],
+   "home": {
+    "name": "Riga FC",
+    "abbr": "RIG"
+   },
+   "away": {
+    "name": "Jablonec",
+    "abbr": "JABL"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxuecltotal/conference-league-total/kxuecltotal-26nov05rfcfkj",
+    "price": 94,
+    "ticker": "KXUECLTOTAL-26NOV05RFCFKJ-6",
+    "contract": "No \u00b7 Over 5.5",
+    "buy": "no"
+   },
+   "result": null,
+   "close_odds": -1684
+  },
+  "401915819:KXUECLGAME-26NOV05PANCSK-PAN:yes": {
+   "id": "401915819:KXUECLGAME-26NOV05PANCSK-PAN:yes",
+   "sport": "soccer_uefa.europa.conf",
+   "game_id": "401915819",
+   "short": "CSKA @ PAO",
+   "game": "CSKA Sofia at Panathinaikos",
+   "start": "2026-11-05T20:00Z",
+   "market": "ml",
+   "side": "home",
+   "selection": "PAO to win",
+   "group": "Game lines",
+   "market_name": "Winner",
+   "odds": -322,
+   "p": 0.745,
+   "p_model": 0.5909,
+   "p_market": 0.7353,
+   "p_breakeven": 0.7631,
+   "edge": -0.0181,
+   "ev": -0.0237,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "Last 2: 2-0, scoring 3.5 and allowing 1.0 goals/game (season: 3.5 / 1.0)",
+    "At home: 2.0 scored / 1.0 allowed per game",
+    "Record 2-0-0"
+   ],
+   "home": {
+    "name": "Panathinaikos",
+    "abbr": "PAO"
+   },
+   "away": {
+    "name": "CSKA Sofia",
+    "abbr": "CSKA"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxueclgame/uefa-conference-league-game/kxueclgame-26nov05pancsk",
+    "price": 75,
+    "ticker": "KXUECLGAME-26NOV05PANCSK-PAN",
+    "contract": "Yes \u00b7 Panathinaikos",
+    "buy": "yes"
+   },
+   "result": null,
+   "close_odds": -322
+  },
+  "401915530:KXUELTOTAL-26NOV05TORARA-6:no": {
+   "id": "401915530:KXUELTOTAL-26NOV05TORARA-6:no",
+   "sport": "soccer_uefa.europa",
+   "game_id": "401915530",
+   "short": "ARA @ TOR",
+   "game": "Ararat-Armenia at Torreense",
+   "start": "2026-11-05T20:00Z",
+   "market": "total",
+   "side": "under",
+   "line": 5.5,
+   "selection": "Under 5.5",
+   "group": "Game lines",
+   "market_name": "Total",
+   "odds": -2042,
+   "p": 0.9502,
+   "p_model": 0.9092,
+   "p_market": 0.9406,
+   "p_breakeven": 0.9533,
+   "edge": -0.0031,
+   "ev": -0.0033,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "ARA: 0.67 scored / 3.67 allowed per game this season; last 3: 0.67 / 3.67",
+    "TOR: 1.33 scored / 2.33 allowed per game this season; last 3: 1.33 / 2.33"
+   ],
+   "home": {
+    "name": "Torreense",
+    "abbr": "TOR"
+   },
+   "away": {
+    "name": "Ararat-Armenia",
+    "abbr": "ARA"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxueltotal/europa-league-total/kxueltotal-26nov05torara",
+    "price": 95,
+    "ticker": "KXUELTOTAL-26NOV05TORARA-6",
+    "contract": "No \u00b7 Over 5.5",
+    "buy": "no"
+   },
+   "result": null,
+   "close_odds": -2042
+  },
+  "401915821:KXUECLTOTAL-26NOV05GETBRI-6:no": {
+   "id": "401915821:KXUECLTOTAL-26NOV05GETBRI-6:no",
+   "sport": "soccer_uefa.europa.conf",
+   "game_id": "401915821",
+   "short": "BHA @ GET",
+   "game": "Brighton & Hove Albion at Getafe",
+   "start": "2026-11-05T20:00Z",
+   "market": "total",
+   "side": "under",
+   "line": 5.5,
+   "selection": "Under 5.5",
+   "group": "Game lines",
+   "market_name": "Total",
+   "odds": -2042,
+   "p": 0.9505,
+   "p_model": 0.9365,
+   "p_market": 0.9406,
+   "p_breakeven": 0.9533,
+   "edge": -0.0028,
+   "ev": -0.0029,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "BHA: 2.0 scored / 0.0 allowed per game this season; last 2: 2.0 / 0.0",
+    "GET: 1.5 scored / 3.0 allowed per game this season; last 2: 1.5 / 3.0"
+   ],
+   "home": {
+    "name": "Getafe",
+    "abbr": "GET"
+   },
+   "away": {
+    "name": "Brighton & Hove Albion",
+    "abbr": "BHA"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxuecltotal/conference-league-total/kxuecltotal-26nov05getbri",
+    "price": 95,
+    "ticker": "KXUECLTOTAL-26NOV05GETBRI-6",
+    "contract": "No \u00b7 Over 5.5",
+    "buy": "no"
+   },
+   "result": null,
+   "close_odds": -2042
+  },
+  "401841303:KXBRASILEIROTOTAL-26NOV05CRUBAH-1:yes": {
+   "id": "401841303:KXBRASILEIROTOTAL-26NOV05CRUBAH-1:yes",
+   "sport": "soccer_bra.1",
+   "game_id": "401841303",
+   "short": "BAH @ CRU",
+   "game": "Bahia at Cruzeiro",
+   "start": "2026-11-06T00:30Z",
+   "market": "total",
+   "side": "over",
+   "line": 0.5,
+   "selection": "Over 0.5",
+   "group": "Game lines",
+   "market_name": "Total",
+   "odds": -2580,
+   "p": 0.958,
+   "p_model": 0.9207,
+   "p_market": 0.9505,
+   "p_breakeven": 0.9627,
+   "edge": -0.0047,
+   "ev": -0.0049,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "BAH: 1.44 scored / 1.19 allowed per game this season; last 10: 1.6 / 1.4",
+    "CRU: 1.87 scored / 1.2 allowed per game this season; last 10: 2.0 / 1.4",
+    "Line moved from +3.5 to +2.5 since opening (total)"
+   ],
+   "home": {
+    "name": "Cruzeiro",
+    "abbr": "CRU"
+   },
+   "away": {
+    "name": "Bahia",
+    "abbr": "BAH"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxbrasileirototal/brasileiro-total/kxbrasileirototal-26nov05crubah",
+    "price": 96,
+    "ticker": "KXBRASILEIROTOTAL-26NOV05CRUBAH-1",
+    "contract": "Yes \u00b7 Over 0.5",
+    "buy": "yes"
+   },
+   "result": null,
+   "close_odds": -2580
+  },
+  "401915529:KXUELTOTAL-26NOV05AZAJUV-1:yes": {
+   "id": "401915529:KXUELTOTAL-26NOV05AZAJUV-1:yes",
+   "sport": "soccer_uefa.europa",
+   "game_id": "401915529",
+   "short": "JUV @ AZ",
+   "game": "Juventus at AZ Alkmaar",
+   "start": "2026-11-05T20:00Z",
+   "market": "total",
+   "side": "over",
+   "line": 0.5,
+   "selection": "Over 0.5",
+   "group": "Game lines",
+   "market_name": "Total",
+   "odds": -1684,
+   "p": 0.9415,
+   "p_model": 0.9335,
+   "p_market": 0.9307,
+   "p_breakeven": 0.9439,
+   "edge": -0.0024,
+   "ev": -0.0025,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "JUV: 3.0 scored / 1.0 allowed per game this season; last 3: 3.0 / 1.0",
+    "AZ: 2.0 scored / 0.67 allowed per game this season; last 3: 2.0 / 0.67"
+   ],
+   "home": {
+    "name": "AZ Alkmaar",
+    "abbr": "AZ"
+   },
+   "away": {
+    "name": "Juventus",
+    "abbr": "JUV"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxueltotal/europa-league-total/kxueltotal-26nov05azajuv",
+    "price": 94,
+    "ticker": "KXUELTOTAL-26NOV05AZAJUV-1",
+    "contract": "Yes \u00b7 Over 0.5",
+    "buy": "yes"
+   },
+   "result": null,
+   "close_odds": -1684
+  }
+ },
+ "parlays": [
+  {
+   "legs": [
+    "401915530:KXUELTOTAL-26NOV05TORARA-1:yes",
+    "401915821:KXUECLTOTAL-26NOV05GETBRI-1:yes"
+   ],
+   "n": 2,
+   "mode": "safest",
+   "p": 0.8697,
+   "decimal": 1.145,
+   "american": -690,
+   "ev": -0.0042,
+   "tier": "lock",
+   "name": "lock_2",
+   "result": null
+  },
+  {
+   "legs": [
+    "401915523:KXUELTOTAL-26NOV05SUNDIN-6:no",
+    "401892657:KXNHLTOTAL-26NOV05ANAEDM-4:yes",
+    "401841303:KXBRASILEIROTOTAL-26NOV05CRUBAH-6:no"
+   ],
+   "n": 3,
+   "mode": "safest",
+   "p": 0.7962,
+   "decimal": 1.25,
+   "american": -400,
+   "ev": -0.0045,
+   "tier": "lock",
+   "name": "lock_3",
+   "result": null
+  }
+ ],
+ "straights": [],
+ "straights_best": [
+  "401915823:KXUECLGAME-26NOV05LUGKAZ-LUG:yes",
+  "401892650:KXNHLGAME-26NOV05CHITB-TB:yes",
+  "401915819:KXUECLGAME-26NOV05PANCSK-PAN:yes",
+  "401862817:KXNCAAFGAME-26NOV05UTSAFAU-UTSA:yes",
+  "401915533:KXUELGAME-26NOV05LEVOLM-LEV:yes",
+  "401892657:KXNHLGAME-26NOV05ANAEDM-EDM:yes",
+  "401915531:KXUELTOTAL-26NOV05RCCUSG-6:no",
+  "401841303:KXBRASILEIROTOTAL-26NOV05CRUBAH-1:yes"
+ ],
+ "locks": [
+  "401869964:KXNCAAFGAME-26NOV05JMUUSM-JMU:yes",
+  "401873037:KXNFLGAME-26NOV05JACBAL-JAC:yes",
+  "401915821:KXUECLTOTAL-26NOV05GETBRI-6:no",
+  "401915530:KXUELTOTAL-26NOV05TORARA-6:no",
+  "401915818:KXUECLTOTAL-26NOV05RFCFKJ-6:no",
+  "401915529:KXUELTOTAL-26NOV05AZAJUV-1:yes",
+  "401909936:KXNBATOTAL-26NOV05ORLPHX-249:no"
+ ]
+}
