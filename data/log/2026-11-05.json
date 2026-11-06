@@ -44,7 +44,7 @@
     "contract": "No \u00b7 Over 5.5",
     "buy": "no"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -1087
   },
   "401915523:KXUELTOTAL-26NOV05SUNDIN-6:no": {
@@ -178,7 +178,7 @@
     "contract": "No \u00b7 Over 248.5",
     "buy": "no"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -2042
   },
   "401915531:KXUELTOTAL-26NOV05RCCUSG-6:no": {
@@ -357,7 +357,7 @@
     "contract": "Yes \u00b7 Edmonton",
     "buy": "yes"
    },
-   "result": null,
+   "result": "L",
    "close_odds": -199
   },
   "401869964:KXNCAAFGAME-26NOV05JMUUSM-JMU:yes": {
@@ -403,7 +403,7 @@
     "contract": "Yes \u00b7 James Madison",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -525
   },
   "401892650:KXNHLGAME-26NOV05CHITB-TB:yes": {
@@ -450,7 +450,7 @@
     "contract": "Yes \u00b7 Tampa Bay",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -458
   },
   "401915533:KXUELGAME-26NOV05LEVOLM-LEV:yes": {
@@ -539,7 +539,7 @@
     "contract": "Yes \u00b7 Over 3.5",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -1428
   },
   "401862817:KXNCAAFGAME-26NOV05UTSAFAU-UTSA:yes": {
@@ -585,7 +585,7 @@
     "contract": "Yes \u00b7 UTSA",
     "buy": "yes"
    },
-   "result": null,
+   "result": "L",
    "close_odds": -263
   },
   "401873037:KXNFLGAME-26NOV05JACBAL-JAC:yes": {
@@ -632,7 +632,7 @@
     "contract": "Yes \u00b7 Jacksonville",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -381
   },
   "401915818:KXUECLTOTAL-26NOV05RFCFKJ-6:no": {
@@ -853,7 +853,7 @@
     "contract": "Yes \u00b7 Over 0.5",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -2580
   },
   "401915529:KXUELTOTAL-26NOV05AZAJUV-1:yes": {
@@ -932,7 +932,8 @@
    "ev": -0.0045,
    "tier": "lock",
    "name": "lock_3",
-   "result": null
+   "result": "W",
+   "missed": []
   }
  ],
  "straights": [],
