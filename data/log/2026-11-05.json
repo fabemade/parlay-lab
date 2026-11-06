@@ -88,7 +88,7 @@
     "contract": "No \u00b7 Over 5.5",
     "buy": "no"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -1428
   },
   "401915530:KXUELTOTAL-26NOV05TORARA-1:yes": {
@@ -132,7 +132,7 @@
     "contract": "Yes \u00b7 Over 0.5",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -1428
   },
   "401909936:KXNBATOTAL-26NOV05ORLPHX-249:no": {
@@ -222,7 +222,7 @@
     "contract": "No \u00b7 Over 5.5",
     "buy": "no"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -2580
   },
   "401915823:KXUECLGAME-26NOV05LUGKAZ-LUG:yes": {
@@ -266,7 +266,7 @@
     "contract": "Yes \u00b7 Lugano",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -564
   },
   "401915821:KXUECLTOTAL-26NOV05GETBRI-1:yes": {
@@ -310,7 +310,7 @@
     "contract": "Yes \u00b7 Over 0.5",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -1428
   },
   "401892657:KXNHLGAME-26NOV05ANAEDM-EDM:yes": {
@@ -358,7 +358,7 @@
     "buy": "yes"
    },
    "result": null,
-   "close_odds": -191
+   "close_odds": -199
   },
   "401869964:KXNCAAFGAME-26NOV05JMUUSM-JMU:yes": {
    "id": "401869964:KXNCAAFGAME-26NOV05JMUUSM-JMU:yes",
@@ -495,7 +495,7 @@
     "contract": "Yes \u00b7 Leverkusen",
     "buy": "yes"
    },
-   "result": null,
+   "result": "L",
    "close_odds": -251
   },
   "401892657:KXNHLTOTAL-26NOV05ANAEDM-4:yes": {
@@ -633,7 +633,7 @@
     "buy": "yes"
    },
    "result": null,
-   "close_odds": -458
+   "close_odds": -381
   },
   "401915818:KXUECLTOTAL-26NOV05RFCFKJ-6:no": {
    "id": "401915818:KXUECLTOTAL-26NOV05RFCFKJ-6:no",
@@ -676,7 +676,7 @@
     "contract": "No \u00b7 Over 5.5",
     "buy": "no"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -1684
   },
   "401915819:KXUECLGAME-26NOV05PANCSK-PAN:yes": {
@@ -720,7 +720,7 @@
     "contract": "Yes \u00b7 Panathinaikos",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -322
   },
   "401915530:KXUELTOTAL-26NOV05TORARA-6:no": {
@@ -764,7 +764,7 @@
     "contract": "No \u00b7 Over 5.5",
     "buy": "no"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -2042
   },
   "401915821:KXUECLTOTAL-26NOV05GETBRI-6:no": {
@@ -808,7 +808,7 @@
     "contract": "No \u00b7 Over 5.5",
     "buy": "no"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -2042
   },
   "401841303:KXBRASILEIROTOTAL-26NOV05CRUBAH-1:yes": {
@@ -897,7 +897,7 @@
     "contract": "Yes \u00b7 Over 0.5",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -1684
   }
  },
@@ -915,7 +915,8 @@
    "ev": -0.0042,
    "tier": "lock",
    "name": "lock_2",
-   "result": null
+   "result": "W",
+   "missed": []
   },
   {
    "legs": [
