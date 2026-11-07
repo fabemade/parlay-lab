@@ -43,7 +43,7 @@
     "contract": "Yes \u00b7 Over 0.5",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -1428
   },
   "401884739:KXBUNDESLIGATOTAL-26NOV06HSVBMG-1:yes": {
@@ -175,7 +175,7 @@
     "contract": "No \u00b7 Over 5.5",
     "buy": "no"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -2580
   },
   "401876696:KXLIGUE2TOTAL-26NOV06GRESDR-6:no": {
@@ -310,7 +310,7 @@
     "contract": "Yes \u00b7 Over 0.5",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -1236
   },
   "401880161:KXEFLCHAMPIONSHIPTOTAL-26NOV07WREWOL-6:no": {
@@ -354,7 +354,7 @@
     "contract": "No \u00b7 Over 5.5",
     "buy": "no"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -2580
   },
   "401884739:KXBUNDESLIGATOTAL-26NOV06HSVBMG-6:no": {
@@ -486,7 +486,7 @@
     "contract": "Yes \u00b7 Over 0.5",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -1684
   },
   "401876696:KXLIGUE2TOTAL-26NOV06GRESDR-4:no": {
@@ -999,7 +999,8 @@
    "ev": -0.0067,
    "tier": "lock",
    "name": "lock_2",
-   "result": null
+   "result": "W",
+   "missed": []
   },
   {
    "legs": [
