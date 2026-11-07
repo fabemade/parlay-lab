@@ -2,11 +2,11 @@
  "groups": {
   "1st half": {
    "T": 1.07,
-   "games": 631,
+   "games": 632,
    "k": 0.95,
-   "loss_after": 255.899,
-   "loss_before": 256.974,
-   "n": 12860
+   "loss_after": 255.955,
+   "loss_before": 257.049,
+   "n": 12917
   },
   "1st period": {
    "T": 1.04,
@@ -17,36 +17,36 @@
    "n": 382
   },
   "1st quarter": {
-   "T": 1.05,
-   "games": 133,
+   "T": 1.06,
+   "games": 136,
    "k": 1.0,
-   "loss_after": 48.534,
-   "loss_before": 48.868,
-   "n": 3013
+   "loss_after": 48.956,
+   "loss_before": 49.388,
+   "n": 3033
   },
   "2nd half": {
    "T": 1.07,
    "games": 190,
    "k": 1.05,
-   "loss_after": 77.572,
-   "loss_before": 78.169,
-   "n": 4015
+   "loss_after": 77.49,
+   "loss_before": 78.088,
+   "n": 4055
   },
   "2nd period": {
    "T": 0.97,
-   "games": 129,
+   "games": 130,
    "k": 1.0,
-   "loss_after": 55.795,
-   "loss_before": 55.903,
-   "n": 356
+   "loss_after": 56.739,
+   "loss_before": 56.865,
+   "n": 360
   },
   "2nd quarter": {
-   "T": 1.01,
-   "games": 129,
+   "T": 1.02,
+   "games": 131,
    "k": 0.95,
-   "loss_after": 55.365,
-   "loss_before": 55.39,
-   "n": 2753
+   "loss_after": 55.355,
+   "loss_before": 55.409,
+   "n": 2779
   },
   "3rd period": {
    "T": 1.03,
@@ -60,58 +60,58 @@
    "T": 1.02,
    "games": 133,
    "k": 1.0,
-   "loss_after": 54.747,
-   "loss_before": 54.81,
-   "n": 2614
+   "loss_after": 54.871,
+   "loss_before": 54.931,
+   "n": 2637
   },
   "4th quarter": {
-   "T": 0.99,
-   "games": 124,
+   "T": 1.0,
+   "games": 129,
    "k": 1.0,
-   "loss_after": 59.502,
-   "loss_before": 59.515,
-   "n": 1631
+   "loss_after": 60.671,
+   "loss_before": 60.671,
+   "n": 1667
   },
   "First 5 innings": {
    "T": 1.02,
    "games": 17,
    "k": 1.0,
-   "loss_after": 4.93,
-   "loss_before": 4.979,
-   "n": 177
+   "loss_after": 4.931,
+   "loss_before": 4.98,
+   "n": 180
   },
   "Game lines": {
    "T": 1.07,
-   "games": 1161,
+   "games": 1166,
    "k": 0.9,
-   "loss_after": 402.238,
-   "loss_before": 403.648,
-   "n": 8139
+   "loss_after": 402.37,
+   "loss_before": 403.876,
+   "n": 8158
   },
   "Game specials": {
    "T": 1.01,
    "games": 416,
    "k": 0.95,
-   "loss_after": 138.452,
-   "loss_before": 138.472,
-   "n": 2592
+   "loss_after": 138.443,
+   "loss_before": 138.464,
+   "n": 2595
   },
   "Player props": {
    "T": 1.03,
    "games": 250,
-   "k": 0.85,
-   "loss_after": 102.288,
-   "loss_before": 102.502,
-   "n": 29250
+   "k": 0.9,
+   "loss_after": 102.188,
+   "loss_before": 102.381,
+   "n": 29371
   },
   "Team props": {
    "T": 1.07,
    "games": 642,
    "k": 0.9,
-   "loss_after": 257.494,
-   "loss_before": 258.516,
-   "n": 9752
+   "loss_after": 257.388,
+   "loss_before": 258.415,
+   "n": 9812
   }
  },
- "trained_at": "2026-11-07T17:31+00:00"
+ "trained_at": "2026-11-07T17:34+00:00"
 }
