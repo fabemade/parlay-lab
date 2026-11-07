@@ -131,7 +131,7 @@
     "contract": "Yes \u00b7 Arizona",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -263
   },
   "401878758:KXEPLTOTAL-26NOV07LEETOT-6:no": {
@@ -311,7 +311,7 @@
     "buy": "yes"
    },
    "result": null,
-   "close_odds": -1428
+   "close_odds": -1236
   },
   "401880161:KXEFLCHAMPIONSHIPTOTAL-26NOV07WREWOL-6:no": {
    "id": "401880161:KXEFLCHAMPIONSHIPTOTAL-26NOV07WREWOL-6:no",
@@ -442,7 +442,7 @@
     "contract": "Yes \u00b7 San Antonio",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -1087
   },
   "401885057:KXBUNDESLIGA2TOTAL-26NOV07OSNFCK-1:yes": {
@@ -487,7 +487,7 @@
     "buy": "yes"
    },
    "result": null,
-   "close_odds": -2042
+   "close_odds": -1684
   },
   "401876696:KXLIGUE2TOTAL-26NOV06GRESDR-4:no": {
    "id": "401876696:KXLIGUE2TOTAL-26NOV06GRESDR-4:no",
@@ -667,7 +667,7 @@
     "contract": "Yes \u00b7 New Mexico",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -404
   },
   "401909288:KXNBAGAME-26NOV06BOSCHA-BOS:yes": {
