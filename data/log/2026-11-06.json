@@ -266,7 +266,7 @@
     "contract": "Yes \u00b7 Minnesota",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -276
   },
   "401880161:KXEFLCHAMPIONSHIPTOTAL-26NOV07WREWOL-1:yes": {
@@ -577,7 +577,7 @@
     "contract": "Yes \u00b7 Atlanta",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -306
   },
   "401841660:KXARGPREMDIVTOTAL-26NOV06UNIVEL-4:no": {
@@ -621,7 +621,7 @@
     "contract": "No \u00b7 Over 3.5",
     "buy": "no"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -340
   },
   "401864533:KXNCAAFGAME-26NOV06UNMNEV-UNM:yes": {
@@ -714,7 +714,7 @@
     "contract": "Yes \u00b7 Boston",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -430
   },
   "401875556:KXEREDIVISIETOTAL-26NOV06WILZWO-1:yes": {
@@ -804,7 +804,7 @@
     "contract": "No \u00b7 Over 5.5",
     "buy": "no"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -1428
   },
   "401876910:KXLIGAMXTOTAL-26NOV06ASLJUA-1:yes": {
@@ -848,7 +848,7 @@
     "contract": "Yes \u00b7 Over 0.5",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -2580
   },
   "401841673:KXARGPREMDIVTOTAL-26NOV06TIGCAS-5:no": {
@@ -892,7 +892,7 @@
     "contract": "No \u00b7 Over 4.5",
     "buy": "no"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -1236
   },
   "401878951:KXBELGIANPLTOTAL-26NOV06STABEV-1:yes": {
@@ -981,7 +981,7 @@
     "contract": "Yes \u00b7 Over 201.5",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -2042
   }
  },
@@ -1015,7 +1015,8 @@
    "ev": -0.012,
    "tier": "lock",
    "name": "lock_3",
-   "result": null
+   "result": "W",
+   "missed": []
   },
   {
    "legs": [
