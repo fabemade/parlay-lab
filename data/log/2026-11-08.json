@@ -92,7 +92,7 @@
     "contract": "Yes \u00b7 Detroit",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -306
   },
   "401909946:KXNBATOTAL-26NOV08LALDET-195:yes": {
@@ -139,7 +139,7 @@
     "buy": "yes"
    },
    "result": null,
-   "close_odds": -2042
+   "close_odds": -1087
   },
   "401885397:KXLIGAPORTUGALTOTAL-26NOV08RAVBRA-6:no": {
    "id": "401885397:KXLIGAPORTUGALTOTAL-26NOV08RAVBRA-6:no",
@@ -226,7 +226,7 @@
     "contract": "Yes \u00b7 Over 1.5",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -869
   },
   "401909945:KXNBAGAME-26NOV08PHICHI-PHI:yes": {
@@ -318,7 +318,7 @@
     "contract": "No \u00b7 Over 5.5",
     "buy": "no"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -2042
   },
   "401892674:KXNHLGAME-26NOV08FLABOS-BOS:yes": {
@@ -365,7 +365,7 @@
     "contract": "Yes \u00b7 Boston",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -154
   },
   "401899554:KXSERIEBTOTAL-26NOV08VICCRE-4:no": {
@@ -409,7 +409,7 @@
     "contract": "No \u00b7 Over 3.5",
     "buy": "no"
    },
-   "result": null,
+   "result": "L",
    "close_odds": -306
   },
   "401873047:KXNFLTOTAL-26NOV08LVSF-72:no": {
@@ -502,7 +502,7 @@
     "buy": "yes"
    },
    "result": null,
-   "close_odds": -322
+   "close_odds": -306
   },
   "401884742:KXBUNDESLIGAGAME-26NOV08TSGSCH-TSG:yes": {
    "id": "401884742:KXBUNDESLIGAGAME-26NOV08TSGSCH-TSG:yes",
@@ -546,7 +546,7 @@
     "contract": "Yes \u00b7 Hoffenheim",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -175
   },
   "401885394:KXLIGAPORTUGALTOTAL-26NOV08VITFCP-6:no": {
@@ -590,7 +590,7 @@
     "contract": "No \u00b7 Over 5.5",
     "buy": "no"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -2042
   },
   "401909947:KXNBAGAME-26NOV08UTAMIN-MIN:yes": {
@@ -681,7 +681,7 @@
     "contract": "No \u00b7 Over 5.5",
     "buy": "no"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -2580
   },
   "401873045:KXNFLGAME-26NOV08NYJKC-KC:yes": {
@@ -728,7 +728,7 @@
     "contract": "Yes \u00b7 Kansas City",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -458
   },
   "401873044:KXNFLTOTAL-26NOV08NYGPHI-23:yes": {
@@ -774,7 +774,7 @@
     "contract": "Yes \u00b7 Over 22.5",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -1428
   },
   "401885397:KXLIGAPORTUGALTOTAL-26NOV08RAVBRA-1:yes": {
@@ -1044,7 +1044,7 @@
     "contract": "Yes \u00b7 Over 0.5",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -2042
   },
   "401909949:KXNBAGAME-26NOV08BOSMIL-BOS:yes": {
@@ -1230,7 +1230,10 @@
    "ev": -0.014,
    "tier": "best",
    "name": "best_2",
-   "result": null
+   "result": "L",
+   "missed": [
+    "401899554:KXSERIEBTOTAL-26NOV08VICCRE-4:no"
+   ]
   }
  ],
  "straights": [],
