@@ -47,7 +47,7 @@
     "contract": "Yes \u00b7 Atlanta",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -276
   },
   "401885402:KXLIGAPORTUGALTOTAL-26NOV07ALVCAS-6:no": {
@@ -137,7 +137,7 @@
     "contract": "Yes \u00b7 Louisville",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -609
   },
   "401909941:KXNBAGAME-26NOV07WASOKC-OKC:yes": {
@@ -185,7 +185,7 @@
     "contract": "Yes \u00b7 Oklahoma City",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -564
   },
   "401876904:KXLIGAMXTOTAL-26NOV07PUMAME-1:yes": {
@@ -229,7 +229,7 @@
     "contract": "Yes \u00b7 Over 0.5",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -2042
   },
   "761938:KXMLSTOTAL-26NOV07MIACLT-6:no": {
@@ -409,7 +409,7 @@
     "contract": "Yes \u00b7 Boise St.",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -719
   },
   "401874810:KXSERIEATOTAL-26NOV08NAPLAZ-6:no": {
@@ -454,7 +454,7 @@
     "buy": "no"
    },
    "result": null,
-   "close_odds": -1428
+   "close_odds": -1236
   },
   "401878948:KXBELGIANPLTOTAL-26NOV07RAALCER-1:yes": {
    "id": "401878948:KXBELGIANPLTOTAL-26NOV07RAALCER-1:yes",
@@ -585,7 +585,7 @@
     "contract": "No \u00b7 Over 5.5",
     "buy": "no"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -1428
   },
   "401892673:KXNHLGAME-26NOV07VANEDM-EDM:yes": {
@@ -631,7 +631,7 @@
     "contract": "Yes \u00b7 Edmonton",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -381
   },
   "401875554:KXEREDIVISIETOTAL-26NOV07EXCGAE-1:yes": {
@@ -907,7 +907,7 @@
     "contract": "Yes \u00b7 Dallas",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -306
   },
   "401856738:KXNCAAFGAME-26NOV07ARKAUB-AUB:yes": {
@@ -1041,7 +1041,7 @@
     "contract": "Yes \u00b7 Over 0.5",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -2042
   },
   "401858517:KXNCAAFGAME-26NOV07RUTGWIS-WIS:yes": {
@@ -1134,7 +1134,7 @@
     "contract": "Yes \u00b7 Carolina",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -458
   },
   "401885395:KXLIGAPORTUGALGAME-26NOV07SPOMOR-SPO:yes": {
@@ -1427,7 +1427,8 @@
    "ev": -0.0153,
    "tier": "best",
    "name": "best_3",
-   "result": null
+   "result": "W",
+   "missed": []
   }
  ],
  "straights": [],
