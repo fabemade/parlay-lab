@@ -453,7 +453,7 @@
     "contract": "No \u00b7 Over 5.5",
     "buy": "no"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -1236
   },
   "401878948:KXBELGIANPLTOTAL-26NOV07RAALCER-1:yes": {
@@ -1393,7 +1393,8 @@
    "ev": -0.0031,
    "tier": "lock",
    "name": "lock_3",
-   "result": null
+   "result": "W",
+   "missed": []
   },
   {
    "legs": [
