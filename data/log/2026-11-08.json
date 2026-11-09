@@ -46,7 +46,7 @@
     "buy": "yes"
    },
    "result": null,
-   "close_odds": -430
+   "close_odds": -564
   },
   "401873042:KXNFLGAME-26NOV08DETMIA-DET:yes": {
    "id": "401873042:KXNFLGAME-26NOV08DETMIA-DET:yes",
@@ -182,7 +182,7 @@
     "contract": "No \u00b7 Over 5.5",
     "buy": "no"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -1428
   },
   "401888251:KXSUPERLIGTOTAL-26NOV08BESGEN-2:yes": {
@@ -274,7 +274,7 @@
     "contract": "Yes \u00b7 Philadelphia",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -404
   },
   "401875003:KXSERIEATOTAL-26NOV08FIOJUV-6:no": {
@@ -454,7 +454,7 @@
     "contract": "No \u00b7 Over 71.5",
     "buy": "no"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -1428
   },
   "401909948:KXNBAGAME-26NOV08BKNDAL-DAL:yes": {
@@ -818,7 +818,7 @@
     "contract": "Yes \u00b7 Over 0.5",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -2580
   },
   "401876903:KXLIGAMXTOTAL-26NOV08QUEPUE-4:no": {
@@ -954,7 +954,7 @@
     "contract": "Yes \u00b7 San Francisco",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -430
   },
   "401873049:KXNFLTOTAL-26NOV08GBNE-66:no": {
@@ -999,7 +999,7 @@
     "contract": "No \u00b7 Over 65.5",
     "buy": "no"
    },
-   "result": null,
+   "result": "L",
    "close_odds": -2042
   },
   "401876404:KXLIGUE1TOTAL-26NOV08RCLOLM-1:yes": {
@@ -1137,7 +1137,7 @@
     "contract": "Yes \u00b7 Seattle",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -404
   },
   "401876902:KXLIGAMXTOTAL-26NOV08LEOCDG-6:no": {
@@ -1182,7 +1182,7 @@
     "buy": "no"
    },
    "result": null,
-   "close_odds": -1428
+   "close_odds": -1236
   }
  },
  "parlays": [
@@ -1199,7 +1199,8 @@
    "ev": -0.0009,
    "tier": "lock",
    "name": "lock_2",
-   "result": null
+   "result": "W",
+   "missed": []
   },
   {
    "legs": [
