@@ -294,6 +294,8 @@
    "FRANCHISECOST": "NBA Franchise Cost",
    "FRANCHISEOWNER": "NBA Franchise Owner",
    "GAME": "NBA Game",
+   "H2H3PT": "NBA Head-to-Head Three Pointers",
+   "H2HPTSMARGIN": "NBA H2H Player Points Bracketed",
    "NEXTGOVERNOR": "Pro Basketball Next Governor",
    "OT": "NBA Overtime",
    "PRA": "NBA Player Points + Rebounds + Assists",
@@ -315,39 +317,17 @@
   },
   "NCAAF": {
    "1H": "College Football 1st Half Winner",
-   "1HFT": "College Football 1st Half Fulltime Result",
    "1HSPREAD": "College Football 1st Half Spread",
-   "1HTEAMTOTAL": "College Football 1st Half Team Total Points",
    "1HTOTAL": "College Football 1st Half Total",
-   "1Q": "College Football 1st Quarter Winner",
-   "1QSPREAD": "College Football 1st Quarter Spread",
-   "1QTOTAL": "College Football 1st Quarter Total",
-   "2H": "College Football 2nd Half Winner",
-   "2HSPREAD": "College Football 2nd Half Spread",
-   "2HTOTAL": "College Football 2nd Half Total",
-   "2Q": "College Football 2nd Quarter Winner",
-   "2QSPREAD": "College Football 2nd Quarter Spread",
-   "2QTOTAL": "College Football 2nd Quarter Total",
-   "3Q": "College Football 3rd Quarter Winner",
-   "3QSPREAD": "College Football 3rd Quarter Spread",
-   "3QTOTAL": "College Football 3rd Quarter Total",
-   "4Q": "College Football 4th Quarter Winner",
-   "4QSPREAD": "College Football 4th Quarter Spread",
-   "4QTOTAL": "College Football 4th Quarter Total",
-   "CFPEXPAND": "College Football Playoff expansion",
    "CFPPOLL": "College Football CFP Poll",
-   "DSTTD": "College Football Defense Special Teams Touchdown",
    "FIRSTTDTEAM": "College Football First Team to Score a Touchdown",
    "GAME": "College Football Game",
    "OT": "College Football Overtime",
    "SPREAD": "College Football Spread",
    "STADIUM": "College Football Stadiums",
-   "TEAMRECTD": "College Football Team Receiving Touchdowns",
-   "TEAMRECYDS": "College Football Team Receiving Yards",
    "TEAMTOTAL": "College Football Team Total Points",
    "TOPCFPPOLL": "College Football CFP Poll",
-   "TOTAL": "College Football Total Points",
-   "WINMARGIN": "College Football Winning Margin"
+   "TOTAL": "College Football Total Points"
   },
   "NCAAMB": {
    "1H": "Men's College Basketball 1st Half Winner",
@@ -416,6 +396,7 @@
    "PASSTDS": "Pro Football player Passing Touchdowns",
    "PASSTDSPROT": "Passing Touchdowns Protected",
    "PASSYDS": "Pro Football Passing Yards",
+   "PASSYDSPRECISE": "Pass Yards Precise",
    "PASSYDSPROT": "Passing Yards Protected",
    "RACE": "Pro Football Race to Points",
    "REC": "Pro Football Player Receptions",
@@ -438,6 +419,7 @@
    "TEAMYDS": "Pro Football Team Yards",
    "TIE": "NFL Game to Tie",
    "TOTAL": "Pro Football Total Points",
+   "TOTALPRECISE": "Total Precise",
    "WINMARGIN": "Pro Football Win Margin"
   },
   "NHL": {
@@ -458,6 +440,7 @@
    "GOAL": "NHL Goalscorer",
    "OT": "NHL Overtime",
    "PTS": "Pro Hockey Points",
+   "SAVE": "Goaltender Saves",
    "SPREAD": "NHL Spread",
    "TEAMTOTAL": "NHL Team Goals Scored During Game",
    "TOTAL": "NHL Total Goals"
@@ -540,16 +523,9 @@
    "TOTAL": "Conference League Total"
   },
   "UEFANL": {
-   "1H": "1st Half Winner",
-   "1HBTTS": "1st Half BTTS",
-   "1HSPREAD": "1st Half Spread",
-   "1HTOTAL": "1st Half Total",
    "BTTS": "BTTS",
-   "FTTS": "First Team to Score",
    "GAME": "UEFA Nations League Game",
-   "SCORE": "Correct Score",
    "SPREAD": "Spread",
-   "TEAMTOTAL": "Team Total",
    "TOTAL": "Point Total"
   },
   "UEL": {
@@ -594,5 +570,5 @@
    "TOTAL": "Women's Pro Basketball Total"
   }
  },
- "updated": "2026-11-07T11:38:23.456773+00:00"
+ "updated": "2026-11-09T22:03:36.560061+00:00"
 }
