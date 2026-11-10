@@ -134,7 +134,7 @@
     "contract": "No \u00b7 Over 264.5",
     "buy": "no"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -2042
   },
   "401892680:KXNHLTOTAL-26NOV09NYREDM-10:no": {
@@ -178,7 +178,7 @@
     "contract": "No \u00b7 Over 9.5",
     "buy": "no"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -1087
   },
   "401909957:KXNBATOTAL-26NOV09DENHOU-197:yes": {
@@ -223,7 +223,7 @@
     "contract": "Yes \u00b7 Over 196.5",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -1684
   },
   "401909954:KXNBAGAME-26NOV09WASDET-DET:yes": {
@@ -270,7 +270,7 @@
     "contract": "Yes \u00b7 Detroit",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -489
   },
   "401892680:KXNHLGAME-26NOV09NYREDM-EDM:yes": {
@@ -317,7 +317,7 @@
     "contract": "Yes \u00b7 Edmonton",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -161
   },
   "401909953:KXNBAGAME-26NOV09CLECHA-CLE:yes": {
@@ -364,7 +364,7 @@
     "contract": "Yes \u00b7 Cleveland",
     "buy": "yes"
    },
-   "result": null,
+   "result": "L",
    "close_odds": -340
   },
   "401892681:KXNHLTOTAL-26NOV09PHIVAN-10:no": {
