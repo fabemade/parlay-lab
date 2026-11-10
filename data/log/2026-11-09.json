@@ -45,7 +45,7 @@
     "contract": "No \u00b7 Over 67.5",
     "buy": "no"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -2042
   },
   "401909958:KXNBATOTAL-26NOV09SASPHX-252:no": {
@@ -90,7 +90,7 @@
     "contract": "No \u00b7 Over 251.5",
     "buy": "no"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -1428
   },
   "401909952:KXNBATOTAL-26NOV09LALATL-265:no": {
@@ -408,7 +408,7 @@
     "contract": "No \u00b7 Over 9.5",
     "buy": "no"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -1428
   },
   "401892682:KXNHLTOTAL-26NOV09NYISJ-10:no": {
@@ -452,7 +452,7 @@
     "contract": "No \u00b7 Over 9.5",
     "buy": "no"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -1087
   },
   "401873051:KXNFLTOTAL-26NOV09BUFMIN-29:yes": {
@@ -498,7 +498,7 @@
     "contract": "Yes \u00b7 Over 28.5",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -1236
   },
   "401909958:KXNBAGAME-26NOV09SASPHX-SAS:yes": {
@@ -545,7 +545,7 @@
     "contract": "Yes \u00b7 San Antonio",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -360
   }
  },
@@ -563,7 +563,8 @@
    "ev": -0.0247,
    "tier": "lock",
    "name": "lock_2",
-   "result": null
+   "result": "W",
+   "missed": []
   },
   {
    "legs": [
@@ -579,7 +580,8 @@
    "ev": -0.0106,
    "tier": "lock",
    "name": "lock_3",
-   "result": null
+   "result": "W",
+   "missed": []
   }
  ],
  "straights": [],
