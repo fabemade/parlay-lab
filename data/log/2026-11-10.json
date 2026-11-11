@@ -45,7 +45,7 @@
     "buy": "no"
    },
    "result": null,
-   "close_odds": -2042
+   "close_odds": -1684
   },
   "401892684:KXNHLTOTAL-26NOV10MINMTL-10:no": {
    "id": "401892684:KXNHLTOTAL-26NOV10MINMTL-10:no",
@@ -359,7 +359,7 @@
     "buy": "yes"
    },
    "result": null,
-   "close_odds": -1236
+   "close_odds": -1087
   },
   "401866458:KXNCAAFTOTAL-26NOV10WMUAKR-30:yes": {
    "id": "401866458:KXNCAAFTOTAL-26NOV10WMUAKR-30:yes",
@@ -584,7 +584,7 @@
     "buy": "yes"
    },
    "result": null,
-   "close_odds": -2580
+   "close_odds": -1428
   }
  },
  "parlays": [
