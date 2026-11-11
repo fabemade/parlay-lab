@@ -44,7 +44,7 @@
     "contract": "No \u00b7 Over 249.5",
     "buy": "no"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -1684
   },
   "401892684:KXNHLTOTAL-26NOV10MINMTL-10:no": {
@@ -88,7 +88,7 @@
     "contract": "No \u00b7 Over 9.5",
     "buy": "no"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -1428
   },
   "401909960:KXNBAGAME-26NOV10MILNYK-NYK:yes": {
@@ -134,7 +134,7 @@
     "contract": "Yes \u00b7 New York",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -967
   },
   "401909962:KXNBATOTAL-26NOV10LACPHX-199:yes": {
@@ -179,7 +179,7 @@
     "contract": "Yes \u00b7 Over 198.5",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -1684
   },
   "401892686:KXNHLTOTAL-26NOV10FLACBJ-10:no": {
@@ -225,7 +225,7 @@
     "contract": "No \u00b7 Over 9.5",
     "buy": "no"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -1684
   },
   "401892688:KXNHLTOTAL-26NOV10NJWPG-6:yes": {
@@ -270,7 +270,7 @@
     "contract": "Yes \u00b7 Over 5.5",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -168
   },
   "401892687:KXNHLTOTAL-26NOV10DETSTL-10:no": {
@@ -314,7 +314,7 @@
     "contract": "No \u00b7 Over 9.5",
     "buy": "no"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -1684
   },
   "401866460:KXNCAAFTOTAL-26NOV10OHIOMOH-29:yes": {
@@ -358,7 +358,7 @@
     "contract": "Yes \u00b7 Over 28.5",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -1087
   },
   "401866458:KXNCAAFTOTAL-26NOV10WMUAKR-30:yes": {
@@ -403,7 +403,7 @@
     "contract": "Yes \u00b7 Over 29.5",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -1684
   },
   "401892689:KXNHLTOTAL-26NOV10NSHLA-10:no": {
@@ -448,7 +448,7 @@
     "contract": "No \u00b7 Over 9.5",
     "buy": "no"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -1428
   },
   "401866459:KXNCAAFTOTAL-26NOV10KENTBGSU-68:no": {
@@ -493,7 +493,7 @@
     "contract": "No \u00b7 Over 67.5",
     "buy": "no"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -2042
   },
   "401866458:KXNCAAFGAME-26NOV10WMUAKR-WMU:yes": {
@@ -539,7 +539,7 @@
     "contract": "Yes \u00b7 Western Michigan",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -660
   },
   "401909963:KXNBATOTAL-26NOV10MIAUTA-201:yes": {
@@ -583,7 +583,7 @@
     "contract": "Yes \u00b7 Over 200.5",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -1428
   }
  },
@@ -601,7 +601,8 @@
    "ev": -0.0071,
    "tier": "lock",
    "name": "lock_2",
-   "result": null
+   "result": "W",
+   "missed": []
   },
   {
    "legs": [
@@ -617,7 +618,8 @@
    "ev": -0.0149,
    "tier": "lock",
    "name": "lock_3",
-   "result": null
+   "result": "W",
+   "missed": []
   }
  ],
  "straights": [],
