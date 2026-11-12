@@ -45,7 +45,7 @@
     "contract": "Yes \u00b7 Over 189.5",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -2042
   },
   "401909974:KXNBAGAME-26NOV11GSWHOU-HOU:yes": {
@@ -92,7 +92,7 @@
     "contract": "Yes \u00b7 Houston",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -239
   },
   "401909971:KXNBATOTAL-26NOV11LALMIL-205:yes": {
@@ -138,7 +138,7 @@
     "contract": "Yes \u00b7 Over 204.5",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -1428
   },
   "401866462:KXNCAAFGAME-26NOV11SACCMU-CMU:yes": {
@@ -184,7 +184,7 @@
     "contract": "Yes \u00b7 Central Michigan",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -967
   },
   "401892691:KXNHLTOTAL-26NOV11NYRCGY-10:no": {
@@ -228,7 +228,7 @@
     "contract": "No \u00b7 Over 9.5",
     "buy": "no"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -2042
   },
   "401892692:KXNHLGAME-26NOV11PHIEDM-EDM:yes": {
@@ -275,7 +275,7 @@
     "contract": "Yes \u00b7 Edmonton",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -191
   },
   "401909975:KXNBATOTAL-26NOV11OKCPOR-199:yes": {
@@ -320,7 +320,7 @@
     "contract": "Yes \u00b7 Over 198.5",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -2042
   },
   "401892692:KXNHLTOTAL-26NOV11PHIEDM-10:no": {
@@ -364,7 +364,7 @@
     "contract": "No \u00b7 Over 9.5",
     "buy": "no"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -1428
   },
   "401909971:KXNBAGAME-26NOV11LALMIL-LAL:yes": {
@@ -411,7 +411,7 @@
     "contract": "Yes \u00b7 Los Angeles L",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -788
   },
   "401909969:KXNBAGAME-26NOV11SASCHI-SAS:yes": {
@@ -458,7 +458,7 @@
     "contract": "Yes \u00b7 San Antonio",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -1087
   },
   "401906458:KXINTLFRIENDLYTOTAL-26NOV12NZLIND-6:no": {
@@ -547,7 +547,7 @@
     "contract": "Yes \u00b7 Over 3.5",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -1236
   },
   "401866463:KXNCAAFGAME-26NOV11MASSTOL-TOL:yes": {
@@ -593,7 +593,7 @@
     "contract": "Yes \u00b7 Toledo",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -564
   },
   "401866463:KXNCAAFTOTAL-26NOV11MASSTOL-33:yes": {
@@ -639,7 +639,7 @@
     "contract": "Yes \u00b7 Over 32.5",
     "buy": "yes"
    },
-   "result": null,
+   "result": "L",
    "close_odds": -1236
   },
   "401866461:KXNCAAFTOTAL-26NOV11BUFFBALL-30:yes": {
@@ -683,7 +683,7 @@
     "contract": "Yes \u00b7 Over 29.5",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -2042
   },
   "401909968:KXNBAGAME-26NOV11BOSTOR-BOS:yes": {
@@ -731,7 +731,7 @@
     "contract": "Yes \u00b7 Boston",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -218
   }
  },
@@ -749,7 +749,8 @@
    "ev": -0.0122,
    "tier": "lock",
    "name": "lock_2",
-   "result": null
+   "result": "W",
+   "missed": []
   },
   {
    "legs": [
@@ -765,7 +766,10 @@
    "ev": -0.0171,
    "tier": "lock",
    "name": "lock_3",
-   "result": null
+   "result": "L",
+   "missed": [
+    "401866463:KXNCAAFTOTAL-26NOV11MASSTOL-33:yes"
+   ]
   }
  ],
  "straights": [],

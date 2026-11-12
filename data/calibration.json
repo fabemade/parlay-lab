@@ -8,19 +8,19 @@
   "updated": "2026-11-12"
  },
  "cfb": {
-  "margin_k": 0.988,
-  "total_k": 0.568,
-  "margin_sd": 16.84,
-  "total_sd": 16.29,
-  "n": 1012,
+  "margin_k": 0.991,
+  "total_k": 0.569,
+  "margin_sd": 16.83,
+  "total_sd": 16.31,
+  "n": 1015,
   "updated": "2026-11-12"
  },
  "nba": {
-  "margin_k": 1.195,
-  "total_k": 0.906,
-  "margin_sd": 15.18,
-  "total_sd": 18.83,
-  "n": 767,
+  "margin_k": 1.18,
+  "total_k": 0.914,
+  "margin_sd": 15.2,
+  "total_sd": 18.77,
+  "n": 777,
   "updated": "2026-11-12"
  },
  "wnba": {
@@ -40,11 +40,11 @@
   "updated": "2026-11-12"
  },
  "nhl": {
-  "margin_k": 0.882,
+  "margin_k": 0.891,
   "total_k": 0.3,
   "margin_sd": 2.52,
   "total_sd": 2.27,
-  "n": 830,
+  "n": 836,
   "updated": "2026-11-12"
  },
  "soccer_eng.1": {
