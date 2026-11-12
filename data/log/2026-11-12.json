@@ -1,0 +1,1012 @@
+{
+ "date": "2026-11-12",
+ "locked_at": "2026-11-12T14:37-05:00",
+ "legs": {
+  "401892697:KXNHLGAME-26NOV12MINTOR-MIN:yes": {
+   "id": "401892697:KXNHLGAME-26NOV12MINTOR-MIN:yes",
+   "sport": "nhl",
+   "game_id": "401892697",
+   "short": "MIN @ TOR",
+   "game": "Minnesota Wild at Toronto Maple Leafs",
+   "start": "2026-11-13T00:00Z",
+   "market": "ml",
+   "side": "away",
+   "selection": "MIN to win",
+   "group": "Game lines",
+   "market_name": "Winner",
+   "odds": -175,
+   "p": 0.6227,
+   "p_model": 0.6146,
+   "p_market": 0.6139,
+   "p_breakeven": 0.6365,
+   "edge": -0.0138,
+   "ev": -0.0217,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "MIN ranks #11 in offense and #2 in defense of 32 (schedule-adjusted, recent games weighted more)",
+    "Last 10: 7-3, scoring 3.4 and allowing 1.9 goals/game (season: 3.25 / 2.2)",
+    "On the road: 3.08 scored / 2.08 allowed per game",
+    "Record 13-3-4 (road 8-3-2)",
+    "Injuries: Brock Faber (D, Injured Reserve), Filip Gustavsson (G, Injured Reserve)",
+    "Price moved -148 \u2192 -170 since opening, money moving toward MIN"
+   ],
+   "home": {
+    "name": "Toronto Maple Leafs",
+    "abbr": "TOR"
+   },
+   "away": {
+    "name": "Minnesota Wild",
+    "abbr": "MIN"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxnhlgame/nhl-game/kxnhlgame-26nov12mintor",
+    "price": 62,
+    "ticker": "KXNHLGAME-26NOV12MINTOR-MIN",
+    "contract": "Yes \u00b7 Minnesota",
+    "buy": "yes"
+   },
+   "result": null,
+   "close_odds": -175
+  },
+  "401929776:KXCONCACAFNLTOTAL-26NOV12CUWPAN-5:no": {
+   "id": "401929776:KXCONCACAFNLTOTAL-26NOV12CUWPAN-5:no",
+   "sport": "soccer_concacaf.nations.league",
+   "game_id": "401929776",
+   "short": "PAN @ CUW",
+   "game": "Panama at Cura\u00e7ao",
+   "start": "2026-11-13T00:30Z",
+   "market": "total",
+   "side": "under",
+   "line": 4.5,
+   "selection": "Under 4.5",
+   "group": "Game lines",
+   "market_name": "Total",
+   "odds": -1087,
+   "p": 0.9144,
+   "p_model": 0.8059,
+   "p_market": 0.901,
+   "p_breakeven": 0.9157,
+   "edge": -0.0013,
+   "ev": -0.0014,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "PAN: 1.0 scored / 1.0 allowed per game this season; last 1: 1.0 / 1.0",
+    "CUW: 3.0 scored / 1.25 allowed per game this season; last 4: 3.0 / 1.25"
+   ],
+   "home": {
+    "name": "Cura\u00e7ao",
+    "abbr": "CUW"
+   },
+   "away": {
+    "name": "Panama",
+    "abbr": "PAN"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxconcacafnltotal/point-total/kxconcacafnltotal-26nov12cuwpan",
+    "price": 91,
+    "ticker": "KXCONCACAFNLTOTAL-26NOV12CUWPAN-5",
+    "contract": "No \u00b7 Over 4.5",
+    "buy": "no"
+   },
+   "result": null,
+   "close_odds": -1087
+  },
+  "401873052:KXNFLTOTAL-26NOV12WASNYG-63:no": {
+   "id": "401873052:KXNFLTOTAL-26NOV12WASNYG-63:no",
+   "sport": "nfl",
+   "game_id": "401873052",
+   "short": "WSH @ NYG",
+   "game": "Washington Commanders at New York Giants",
+   "start": "2026-11-13T01:15Z",
+   "market": "total",
+   "side": "under",
+   "line": 62.5,
+   "selection": "Under 62.5",
+   "group": "Game lines",
+   "market_name": "Total",
+   "odds": -2042,
+   "p": 0.9498,
+   "p_model": 0.8759,
+   "p_market": 0.9406,
+   "p_breakeven": 0.9533,
+   "edge": -0.0035,
+   "ev": -0.0037,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "WSH: 21.5 scored / 25.25 allowed per game this season; last 8: 21.5 / 25.25",
+    "NYG: 22.75 scored / 21.5 allowed per game this season; last 8: 22.75 / 21.5",
+    "Line moved from +47.5 to +40.5 since opening (total)",
+    "\u26a0 The line has moved against this side since opening (a sharp-money signal), so the model defers more to the market"
+   ],
+   "home": {
+    "name": "New York Giants",
+    "abbr": "NYG"
+   },
+   "away": {
+    "name": "Washington Commanders",
+    "abbr": "WSH"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxnfltotal/pro-football-total-points/kxnfltotal-26nov12wasnyg",
+    "price": 95,
+    "ticker": "KXNFLTOTAL-26NOV12WASNYG-63",
+    "contract": "No \u00b7 Over 62.5",
+    "buy": "no"
+   },
+   "result": null,
+   "close_odds": -2042
+  },
+  "401909978:KXNBAGAME-26NOV12DALMIN-MIN:yes": {
+   "id": "401909978:KXNBAGAME-26NOV12DALMIN-MIN:yes",
+   "sport": "nba",
+   "game_id": "401909978",
+   "short": "DAL @ MIN",
+   "game": "Dallas Mavericks at Minnesota Timberwolves",
+   "start": "2026-11-13T01:00Z",
+   "market": "ml",
+   "side": "home",
+   "selection": "MIN to win",
+   "group": "Game lines",
+   "market_name": "Winner",
+   "odds": -218,
+   "p": 0.6862,
+   "p_model": 0.7072,
+   "p_market": 0.6634,
+   "p_breakeven": 0.6855,
+   "edge": 0.0007,
+   "ev": 0.001,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "MIN ranks #9 in offense and #9 in defense of 32 (schedule-adjusted, recent games weighted more)",
+    "Last 10: 7-3, scoring 116.8 and allowing 107.1 pts/game (season: 118.09 / 107.0). Current streak: W4",
+    "At home: 117.0 scored / 102.8 allowed per game",
+    "Record 8-3 (home 4-1)",
+    "Injuries: Anthony Edwards (G, Out), Donte DiVincenzo (G, Out)",
+    "Price moved -185 \u2192 -223 since opening, money moving toward MIN"
+   ],
+   "home": {
+    "name": "Minnesota Timberwolves",
+    "abbr": "MIN"
+   },
+   "away": {
+    "name": "Dallas Mavericks",
+    "abbr": "DAL"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxnbagame/nba-game/kxnbagame-26nov12dalmin",
+    "price": 67,
+    "ticker": "KXNBAGAME-26NOV12DALMIN-MIN",
+    "contract": "Yes \u00b7 Minnesota",
+    "buy": "yes"
+   },
+   "result": null,
+   "close_odds": -218
+  },
+  "401892699:KXNHLTOTAL-26NOV12DETFLA-10:no": {
+   "id": "401892699:KXNHLTOTAL-26NOV12DETFLA-10:no",
+   "sport": "nhl",
+   "game_id": "401892699",
+   "short": "DET @ FLA",
+   "game": "Detroit Red Wings at Florida Panthers",
+   "start": "2026-11-13T00:30Z",
+   "market": "total",
+   "side": "under",
+   "line": 9.5,
+   "selection": "Under 9.5",
+   "group": "Game lines",
+   "market_name": "Total",
+   "odds": -1428,
+   "p": 0.9322,
+   "p_model": 0.8898,
+   "p_market": 0.9208,
+   "p_breakeven": 0.9346,
+   "edge": -0.0024,
+   "ev": -0.0026,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "DET: 2.68 scored / 3.11 allowed per game this season; last 10: 2.8 / 3.1",
+    "FLA: 3.16 scored / 2.95 allowed per game this season; last 10: 3.0 / 3.1"
+   ],
+   "home": {
+    "name": "Florida Panthers",
+    "abbr": "FLA"
+   },
+   "away": {
+    "name": "Detroit Red Wings",
+    "abbr": "DET"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxnhltotal/nhl-total-goals/kxnhltotal-26nov12detfla",
+    "price": 93,
+    "ticker": "KXNHLTOTAL-26NOV12DETFLA-10",
+    "contract": "No \u00b7 Over 9.5",
+    "buy": "no"
+   },
+   "result": null,
+   "close_odds": -1428
+  },
+  "401909977:KXNBAGAME-26NOV12DETWAS-DET:yes": {
+   "id": "401909977:KXNBAGAME-26NOV12DETWAS-DET:yes",
+   "sport": "nba",
+   "game_id": "401909977",
+   "short": "DET @ WSH",
+   "game": "Detroit Pistons at Washington Wizards",
+   "start": "2026-11-13T00:00Z",
+   "market": "ml",
+   "side": "away",
+   "selection": "DET to win",
+   "group": "Game lines",
+   "market_name": "Winner",
+   "odds": -430,
+   "p": 0.8051,
+   "p_model": 0.7746,
+   "p_market": 0.7921,
+   "p_breakeven": 0.8112,
+   "edge": -0.0061,
+   "ev": -0.0075,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "DET ranks #17 in offense and #7 in defense of 32 (schedule-adjusted, recent games weighted more)",
+    "Last 10: 7-3, scoring 112.7 and allowing 104.6 pts/game (season: 112.7 / 104.6)",
+    "On the road: 113.0 scored / 100.0 allowed per game",
+    "Record 7-3 (road 4-1)",
+    "Injuries: Isaiah Joe (G, Out), Jalen Duren (C, Out)",
+    "Price moved -369 \u2192 -449 since opening, money moving toward DET"
+   ],
+   "home": {
+    "name": "Washington Wizards",
+    "abbr": "WSH"
+   },
+   "away": {
+    "name": "Detroit Pistons",
+    "abbr": "DET"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxnbagame/nba-game/kxnbagame-26nov12detwas",
+    "price": 80,
+    "ticker": "KXNBAGAME-26NOV12DETWAS-DET",
+    "contract": "Yes \u00b7 Detroit",
+    "buy": "yes"
+   },
+   "result": null,
+   "close_odds": -430
+  },
+  "401862824:KXNCAAFGAME-26NOV12MEMUSF-MEM:yes": {
+   "id": "401862824:KXNCAAFGAME-26NOV12MEMUSF-MEM:yes",
+   "sport": "cfb",
+   "game_id": "401862824",
+   "short": "MEM @ USF",
+   "game": "Memphis Tigers at South Florida Bulls",
+   "start": "2026-11-13T01:00Z",
+   "market": "ml",
+   "side": "away",
+   "selection": "MEM to win",
+   "group": "Game lines",
+   "market_name": "Winner",
+   "odds": -183,
+   "p": 0.627,
+   "p_model": 0.4911,
+   "p_market": 0.6238,
+   "p_breakeven": 0.6463,
+   "edge": -0.0193,
+   "ev": -0.0299,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "MEM ranks #23 in offense and #83 in defense of 152 (schedule-adjusted, recent games weighted more)",
+    "Last 9: 7-2, scoring 37.56 and allowing 23.56 pts/game (season: 37.56 / 23.56)",
+    "On the road: 30.75 scored / 24.5 allowed per game",
+    "Record 7-2",
+    "Price moved -230 \u2192 -185 since opening, money moving away from MEM"
+   ],
+   "home": {
+    "name": "South Florida Bulls",
+    "abbr": "USF"
+   },
+   "away": {
+    "name": "Memphis Tigers",
+    "abbr": "MEM"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxncaafgame/college-football-game/kxncaafgame-26nov12memusf",
+    "price": 63,
+    "ticker": "KXNCAAFGAME-26NOV12MEMUSF-MEM",
+    "contract": "Yes \u00b7 Memphis",
+    "buy": "yes"
+   },
+   "result": null,
+   "close_odds": -183
+  },
+  "401861152:KXUEFANLTOTAL-26NOV12MNELAT-1:yes": {
+   "id": "401861152:KXUEFANLTOTAL-26NOV12MNELAT-1:yes",
+   "sport": "soccer_uefa.nations",
+   "game_id": "401861152",
+   "short": "LVA @ MNE",
+   "game": "Latvia at Montenegro",
+   "start": "2026-11-12T19:45Z",
+   "market": "total",
+   "side": "over",
+   "line": 0.5,
+   "selection": "Over 0.5",
+   "group": "Game lines",
+   "market_name": "Total",
+   "odds": -2042,
+   "p": 0.9506,
+   "p_model": 0.9025,
+   "p_market": 0.9406,
+   "p_breakeven": 0.9533,
+   "edge": -0.0027,
+   "ev": -0.0028,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "LVA: 0.5 scored / 1.5 allowed per game this season; last 4: 0.5 / 1.5",
+    "MNE: 1.75 scored / 1.0 allowed per game this season; last 4: 1.75 / 1.0"
+   ],
+   "home": {
+    "name": "Montenegro",
+    "abbr": "MNE"
+   },
+   "away": {
+    "name": "Latvia",
+    "abbr": "LVA"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxuefanltotal/point-total/kxuefanltotal-26nov12mnelat",
+    "price": 95,
+    "ticker": "KXUEFANLTOTAL-26NOV12MNELAT-1",
+    "contract": "Yes \u00b7 Over 0.5",
+    "buy": "yes"
+   },
+   "result": null,
+   "close_odds": -2042
+  },
+  "401909979:KXNBATOTAL-26NOV12CHAPHX-189:yes": {
+   "id": "401909979:KXNBATOTAL-26NOV12CHAPHX-189:yes",
+   "sport": "nba",
+   "game_id": "401909979",
+   "short": "CHA @ PHX",
+   "game": "Charlotte Hornets at Phoenix Suns",
+   "start": "2026-11-13T02:00Z",
+   "market": "total",
+   "side": "over",
+   "line": 188.5,
+   "selection": "Over 188.5",
+   "group": "Game lines",
+   "market_name": "Total",
+   "odds": -2042,
+   "p": 0.9518,
+   "p_model": 0.9407,
+   "p_market": 0.9406,
+   "p_breakeven": 0.9533,
+   "edge": -0.0015,
+   "ev": -0.0016,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "CHA: 98.82 scored / 110.36 allowed per game this season; last 10: 97.7 / 111.1",
+    "PHX: 112.8 scored / 118.1 allowed per game this season; last 10: 112.8 / 118.1",
+    "Line moved from +213.5 to +214.5 since opening (total)"
+   ],
+   "home": {
+    "name": "Phoenix Suns",
+    "abbr": "PHX"
+   },
+   "away": {
+    "name": "Charlotte Hornets",
+    "abbr": "CHA"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxnbatotal/nba-total/kxnbatotal-26nov12chaphx",
+    "price": 95,
+    "ticker": "KXNBATOTAL-26NOV12CHAPHX-189",
+    "contract": "Yes \u00b7 Over 188.5",
+    "buy": "yes"
+   },
+   "result": null,
+   "close_odds": -2042
+  },
+  "401869969:KXNCAAFGAME-26NOV12ULLULM-ULL:yes": {
+   "id": "401869969:KXNCAAFGAME-26NOV12ULLULM-ULL:yes",
+   "sport": "cfb",
+   "game_id": "401869969",
+   "short": "UL @ ULM",
+   "game": "Louisiana Ragin' Cajuns at UL Monroe Warhawks",
+   "start": "2026-11-13T02:00Z",
+   "market": "ml",
+   "side": "away",
+   "selection": "UL to win",
+   "group": "Game lines",
+   "market_name": "Winner",
+   "odds": -381,
+   "p": 0.7903,
+   "p_model": 0.7934,
+   "p_market": 0.7723,
+   "p_breakeven": 0.792,
+   "edge": -0.0017,
+   "ev": -0.0021,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "UL ranks #83 in offense and #69 in defense of 152 (schedule-adjusted, recent games weighted more)",
+    "Last 9: 6-3, scoring 29.89 and allowing 21.78 pts/game (season: 29.89 / 21.78)",
+    "On the road: 31.5 scored / 30.75 allowed per game",
+    "Record 6-3",
+    "Price moved -410 \u2192 -395 since opening, money moving away from UL"
+   ],
+   "home": {
+    "name": "UL Monroe Warhawks",
+    "abbr": "ULM"
+   },
+   "away": {
+    "name": "Louisiana Ragin' Cajuns",
+    "abbr": "UL"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxncaafgame/college-football-game/kxncaafgame-26nov12ullulm",
+    "price": 78,
+    "ticker": "KXNCAAFGAME-26NOV12ULLULM-ULL",
+    "contract": "Yes \u00b7 Louisiana",
+    "buy": "yes"
+   },
+   "result": null,
+   "close_odds": -381
+  },
+  "401861147:KXUEFANLTOTAL-26NOV12ALBFIN-3:no": {
+   "id": "401861147:KXUEFANLTOTAL-26NOV12ALBFIN-3:no",
+   "sport": "soccer_uefa.nations",
+   "game_id": "401861147",
+   "short": "FIN @ ALB",
+   "game": "Finland at Albania",
+   "start": "2026-11-12T19:45Z",
+   "market": "total",
+   "side": "under",
+   "line": 2.5,
+   "selection": "Under 2.5",
+   "group": "Game lines",
+   "market_name": "Total",
+   "odds": -208,
+   "p": 0.6619,
+   "p_model": 0.5983,
+   "p_market": 0.6535,
+   "p_breakeven": 0.6757,
+   "edge": -0.0138,
+   "ev": -0.0204,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "FIN: 2.25 scored / 0.5 allowed per game this season; last 4: 2.25 / 0.5",
+    "ALB: 2.0 scored / 0.75 allowed per game this season; last 4: 2.0 / 0.75",
+    "Line moved from +2.5 to +1.5 since opening (total)",
+    "\u26a0 The line has moved against this side since opening (a sharp-money signal), so the model defers more to the market"
+   ],
+   "home": {
+    "name": "Albania",
+    "abbr": "ALB"
+   },
+   "away": {
+    "name": "Finland",
+    "abbr": "FIN"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxuefanltotal/point-total/kxuefanltotal-26nov12albfin",
+    "price": 66,
+    "ticker": "KXUEFANLTOTAL-26NOV12ALBFIN-3",
+    "contract": "No \u00b7 Over 2.5",
+    "buy": "no"
+   },
+   "result": null,
+   "close_odds": -208
+  },
+  "401909976:KXNBATOTAL-26NOV12TORPHI-197:yes": {
+   "id": "401909976:KXNBATOTAL-26NOV12TORPHI-197:yes",
+   "sport": "nba",
+   "game_id": "401909976",
+   "short": "TOR @ PHI",
+   "game": "Toronto Raptors at Philadelphia 76ers",
+   "start": "2026-11-13T00:00Z",
+   "market": "total",
+   "side": "over",
+   "line": 196.5,
+   "selection": "Over 196.5",
+   "group": "Game lines",
+   "market_name": "Total",
+   "odds": -2042,
+   "p": 0.9512,
+   "p_model": 0.9313,
+   "p_market": 0.9406,
+   "p_breakeven": 0.9533,
+   "edge": -0.0021,
+   "ev": -0.0022,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "TOR: 114.45 scored / 111.91 allowed per game this season; last 10: 112.4 / 113.9",
+    "PHI: 110.17 scored / 109.17 allowed per game this season; last 10: 110.2 / 110.4",
+    "Line moved from +221.5 to +223.5 since opening (total)"
+   ],
+   "home": {
+    "name": "Philadelphia 76ers",
+    "abbr": "PHI"
+   },
+   "away": {
+    "name": "Toronto Raptors",
+    "abbr": "TOR"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxnbatotal/nba-total/kxnbatotal-26nov12torphi",
+    "price": 95,
+    "ticker": "KXNBATOTAL-26NOV12TORPHI-197",
+    "contract": "Yes \u00b7 Over 196.5",
+    "buy": "yes"
+   },
+   "result": null,
+   "close_odds": -2042
+  },
+  "401862824:KXNCAAFTOTAL-26NOV12MEMUSF-30:yes": {
+   "id": "401862824:KXNCAAFTOTAL-26NOV12MEMUSF-30:yes",
+   "sport": "cfb",
+   "game_id": "401862824",
+   "short": "MEM @ USF",
+   "game": "Memphis Tigers at South Florida Bulls",
+   "start": "2026-11-13T01:00Z",
+   "market": "total",
+   "side": "over",
+   "line": 29.5,
+   "selection": "Over 29.5",
+   "group": "Game lines",
+   "market_name": "Total",
+   "odds": -1428,
+   "p": 0.9262,
+   "p_model": 0.9359,
+   "p_market": 0.9118,
+   "p_breakeven": 0.9346,
+   "edge": -0.0084,
+   "ev": -0.009,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "MEM: 37.56 scored / 23.56 allowed per game this season; last 9: 37.56 / 23.56",
+    "USF: 25.89 scored / 15.11 allowed per game this season; last 9: 25.89 / 15.11"
+   ],
+   "home": {
+    "name": "South Florida Bulls",
+    "abbr": "USF"
+   },
+   "away": {
+    "name": "Memphis Tigers",
+    "abbr": "MEM"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxncaaftotal/college-football-total-points/kxncaaftotal-26nov12memusf",
+    "price": 93,
+    "ticker": "KXNCAAFTOTAL-26NOV12MEMUSF-30",
+    "contract": "Yes \u00b7 Over 29.5",
+    "buy": "yes"
+   },
+   "result": null,
+   "close_odds": -1428
+  },
+  "401916338:KXINTLFRIENDLYTOTAL-26NOV13SINPAR-6:no": {
+   "id": "401916338:KXINTLFRIENDLYTOTAL-26NOV13SINPAR-6:no",
+   "sport": "soccer_fifa.friendly",
+   "game_id": "401916338",
+   "short": "PAR @ SIN",
+   "game": "Paraguay at Singapore",
+   "start": "2026-11-13T12:00Z",
+   "market": "total",
+   "side": "under",
+   "line": 5.5,
+   "selection": "Under 5.5",
+   "group": "Game lines",
+   "market_name": "Total",
+   "odds": -660,
+   "p": 0.8622,
+   "p_model": 0.9554,
+   "p_market": 0.8431,
+   "p_breakeven": 0.8684,
+   "edge": -0.0062,
+   "ev": -0.0071,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "PAR: 1.5 scored / 0.0 allowed per game this season; last 2: 1.5 / 0.0",
+    "SIN: 2.5 scored / 1.0 allowed per game this season; last 2: 2.5 / 1.0"
+   ],
+   "home": {
+    "name": "Singapore",
+    "abbr": "SIN"
+   },
+   "away": {
+    "name": "Paraguay",
+    "abbr": "PAR"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxintlfriendlytotal/international-friendly-total/kxintlfriendlytotal-26nov13sinpar",
+    "price": 86,
+    "ticker": "KXINTLFRIENDLYTOTAL-26NOV13SINPAR-6",
+    "contract": "No \u00b7 Over 5.5",
+    "buy": "no"
+   },
+   "result": null,
+   "close_odds": -660
+  },
+  "401861150:KXUEFANLGAME-26NOV12ENGCRO-ENG:yes": {
+   "id": "401861150:KXUEFANLGAME-26NOV12ENGCRO-ENG:yes",
+   "sport": "soccer_uefa.nations",
+   "game_id": "401861150",
+   "short": "CRO @ ENG",
+   "game": "Croatia at England",
+   "start": "2026-11-12T19:45Z",
+   "market": "ml",
+   "side": "home",
+   "selection": "ENG to win",
+   "group": "Game lines",
+   "market_name": "Winner",
+   "odds": -381,
+   "p": 0.7914,
+   "p_model": 0.831,
+   "p_market": 0.7647,
+   "p_breakeven": 0.792,
+   "edge": -0.0006,
+   "ev": -0.0008,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "ENG ranks #3 in offense and #6 in defense of 202 (schedule-adjusted, recent games weighted more)",
+    "Last 4: 3-1, scoring 3.5 and allowing 0.75 goals/game (season: 3.5 / 0.75). Current streak: W3",
+    "At home: 2.5 scored / 1.5 allowed per game",
+    "Record 3-0-1"
+   ],
+   "home": {
+    "name": "England",
+    "abbr": "ENG"
+   },
+   "away": {
+    "name": "Croatia",
+    "abbr": "CRO"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxuefanlgame/uefa-nations-league-game/kxuefanlgame-26nov12engcro",
+    "price": 78,
+    "ticker": "KXUEFANLGAME-26NOV12ENGCRO-ENG",
+    "contract": "Yes \u00b7 England",
+    "buy": "yes"
+   },
+   "result": null,
+   "close_odds": -381
+  },
+  "401861151:KXUEFANLTOTAL-26NOV12ITAFRA-1:yes": {
+   "id": "401861151:KXUEFANLTOTAL-26NOV12ITAFRA-1:yes",
+   "sport": "soccer_uefa.nations",
+   "game_id": "401861151",
+   "short": "FRA @ ITA",
+   "game": "France at Italy",
+   "start": "2026-11-12T19:45Z",
+   "market": "total",
+   "side": "over",
+   "line": 0.5,
+   "selection": "Over 0.5",
+   "group": "Game lines",
+   "market_name": "Total",
+   "odds": -2042,
+   "p": 0.9513,
+   "p_model": 0.9286,
+   "p_market": 0.9406,
+   "p_breakeven": 0.9533,
+   "edge": -0.002,
+   "ev": -0.0021,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "FRA: 1.75 scored / 0.5 allowed per game this season; last 4: 1.75 / 0.5",
+    "ITA: 2.0 scored / 1.25 allowed per game this season; last 4: 2.0 / 1.25"
+   ],
+   "home": {
+    "name": "Italy",
+    "abbr": "ITA"
+   },
+   "away": {
+    "name": "France",
+    "abbr": "FRA"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxuefanltotal/point-total/kxuefanltotal-26nov12itafra",
+    "price": 95,
+    "ticker": "KXUEFANLTOTAL-26NOV12ITAFRA-1",
+    "contract": "Yes \u00b7 Over 0.5",
+    "buy": "yes"
+   },
+   "result": null,
+   "close_odds": -2042
+  },
+  "401892703:KXNHLGAME-26NOV12WPGDAL-DAL:yes": {
+   "id": "401892703:KXNHLGAME-26NOV12WPGDAL-DAL:yes",
+   "sport": "nhl",
+   "game_id": "401892703",
+   "short": "WPG @ DAL",
+   "game": "Winnipeg Jets at Dallas Stars",
+   "start": "2026-11-13T01:00Z",
+   "market": "ml",
+   "side": "home",
+   "selection": "DAL to win",
+   "group": "Game lines",
+   "market_name": "Winner",
+   "odds": -168,
+   "p": 0.6202,
+   "p_model": 0.6168,
+   "p_market": 0.61,
+   "p_breakeven": 0.6267,
+   "edge": -0.0065,
+   "ev": -0.0104,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "DAL ranks #21 in offense and #4 in defense of 32 (schedule-adjusted, recent games weighted more)",
+    "Last 10: 7-3, scoring 3.3 and allowing 2.8 goals/game (season: 2.88 / 2.41)",
+    "At home: 2.9 scored / 2.8 allowed per game",
+    "Record 10-5-2 (home 6-4-0)",
+    "Injuries: Miro Heiskanen (D, Out), Kyle Capobianco (D, Injured Reserve), Oskar Back (C, Injured Reserve), Luke Krys (D, Injured Reserve)",
+    "Price moved -205 \u2192 -175 since opening, money moving away from DAL",
+    "\u26a0 The line has moved against this side since opening (a sharp-money signal), so the model defers more to the market"
+   ],
+   "home": {
+    "name": "Dallas Stars",
+    "abbr": "DAL"
+   },
+   "away": {
+    "name": "Winnipeg Jets",
+    "abbr": "WPG"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxnhlgame/nhl-game/kxnhlgame-26nov12wpgdal",
+    "price": 61,
+    "ticker": "KXNHLGAME-26NOV12WPGDAL-DAL",
+    "contract": "Yes \u00b7 Dallas",
+    "buy": "yes"
+   },
+   "result": null,
+   "close_odds": -168
+  },
+  "401861151:KXUEFANLTOTAL-26NOV12ITAFRA-6:no": {
+   "id": "401861151:KXUEFANLTOTAL-26NOV12ITAFRA-6:no",
+   "sport": "soccer_uefa.nations",
+   "game_id": "401861151",
+   "short": "FRA @ ITA",
+   "game": "France at Italy",
+   "start": "2026-11-12T19:45Z",
+   "market": "total",
+   "side": "under",
+   "line": 5.5,
+   "selection": "Under 5.5",
+   "group": "Game lines",
+   "market_name": "Total",
+   "odds": -1428,
+   "p": 0.9344,
+   "p_model": 0.9298,
+   "p_market": 0.9208,
+   "p_breakeven": 0.9346,
+   "edge": -0.0002,
+   "ev": -0.0002,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "FRA: 1.75 scored / 0.5 allowed per game this season; last 4: 1.75 / 0.5",
+    "ITA: 2.0 scored / 1.25 allowed per game this season; last 4: 2.0 / 1.25"
+   ],
+   "home": {
+    "name": "Italy",
+    "abbr": "ITA"
+   },
+   "away": {
+    "name": "France",
+    "abbr": "FRA"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxuefanltotal/point-total/kxuefanltotal-26nov12itafra",
+    "price": 93,
+    "ticker": "KXUEFANLTOTAL-26NOV12ITAFRA-6",
+    "contract": "No \u00b7 Over 5.5",
+    "buy": "no"
+   },
+   "result": null,
+   "close_odds": -1428
+  },
+  "401873052:KXNFLTOTAL-26NOV12WASNYG-24:yes": {
+   "id": "401873052:KXNFLTOTAL-26NOV12WASNYG-24:yes",
+   "sport": "nfl",
+   "game_id": "401873052",
+   "short": "WSH @ NYG",
+   "game": "Washington Commanders at New York Giants",
+   "start": "2026-11-13T01:15Z",
+   "market": "total",
+   "side": "over",
+   "line": 23.5,
+   "selection": "Over 23.5",
+   "group": "Game lines",
+   "market_name": "Total",
+   "odds": -1428,
+   "p": 0.9361,
+   "p_model": 0.9502,
+   "p_market": 0.9208,
+   "p_breakeven": 0.9346,
+   "edge": 0.0015,
+   "ev": 0.0016,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "WSH: 21.5 scored / 25.25 allowed per game this season; last 8: 21.5 / 25.25",
+    "NYG: 22.75 scored / 21.5 allowed per game this season; last 8: 22.75 / 21.5",
+    "Line moved from +47.5 to +40.5 since opening (total)",
+    "\u26a0 The line has moved against this side since opening (a sharp-money signal), so the model defers more to the market"
+   ],
+   "home": {
+    "name": "New York Giants",
+    "abbr": "NYG"
+   },
+   "away": {
+    "name": "Washington Commanders",
+    "abbr": "WSH"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxnfltotal/pro-football-total-points/kxnfltotal-26nov12wasnyg",
+    "price": 93,
+    "ticker": "KXNFLTOTAL-26NOV12WASNYG-24",
+    "contract": "Yes \u00b7 Over 23.5",
+    "buy": "yes"
+   },
+   "result": null,
+   "close_odds": -1428
+  },
+  "401861148:KXUEFANLGAME-26NOV12CZEESP-ESP:yes": {
+   "id": "401861148:KXUEFANLGAME-26NOV12CZEESP-ESP:yes",
+   "sport": "soccer_uefa.nations",
+   "game_id": "401861148",
+   "short": "ESP @ CZE",
+   "game": "Spain at Czechia",
+   "start": "2026-11-12T19:45Z",
+   "market": "ml",
+   "side": "away",
+   "selection": "ESP to win",
+   "group": "Game lines",
+   "market_name": "Winner",
+   "odds": -458,
+   "p": 0.8204,
+   "p_model": 0.8093,
+   "p_market": 0.802,
+   "p_breakeven": 0.8208,
+   "edge": -0.0004,
+   "ev": -0.0005,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "ESP ranks #1 in offense and #2 in defense of 202 (schedule-adjusted, recent games weighted more)",
+    "Last 4: 4-0, scoring 3.0 and allowing 1.25 goals/game (season: 3.0 / 1.25). Current streak: W4",
+    "On the road: 2.5 scored / 1.5 allowed per game",
+    "Record 4-0-0"
+   ],
+   "home": {
+    "name": "Czechia",
+    "abbr": "CZE"
+   },
+   "away": {
+    "name": "Spain",
+    "abbr": "ESP"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxuefanlgame/uefa-nations-league-game/kxuefanlgame-26nov12czeesp",
+    "price": 81,
+    "ticker": "KXUEFANLGAME-26NOV12CZEESP-ESP",
+    "contract": "Yes \u00b7 Spain",
+    "buy": "yes"
+   },
+   "result": null,
+   "close_odds": -458
+  },
+  "401909976:KXNBATOTAL-26NOV12TORPHI-249:no": {
+   "id": "401909976:KXNBATOTAL-26NOV12TORPHI-249:no",
+   "sport": "nba",
+   "game_id": "401909976",
+   "short": "TOR @ PHI",
+   "game": "Toronto Raptors at Philadelphia 76ers",
+   "start": "2026-11-13T00:00Z",
+   "market": "total",
+   "side": "under",
+   "line": 248.5,
+   "selection": "Under 248.5",
+   "group": "Game lines",
+   "market_name": "Total",
+   "odds": -1428,
+   "p": 0.9327,
+   "p_model": 0.9006,
+   "p_market": 0.9208,
+   "p_breakeven": 0.9346,
+   "edge": -0.0019,
+   "ev": -0.002,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "TOR: 114.45 scored / 111.91 allowed per game this season; last 10: 112.4 / 113.9",
+    "PHI: 110.17 scored / 109.17 allowed per game this season; last 10: 110.2 / 110.4",
+    "Line moved from +221.5 to +223.5 since opening (total)"
+   ],
+   "home": {
+    "name": "Philadelphia 76ers",
+    "abbr": "PHI"
+   },
+   "away": {
+    "name": "Toronto Raptors",
+    "abbr": "TOR"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxnbatotal/nba-total/kxnbatotal-26nov12torphi",
+    "price": 93,
+    "ticker": "KXNBATOTAL-26NOV12TORPHI-249",
+    "contract": "No \u00b7 Over 248.5",
+    "buy": "no"
+   },
+   "result": null,
+   "close_odds": -1428
+  }
+ },
+ "parlays": [
+  {
+   "legs": [
+    "401873052:KXNFLTOTAL-26NOV12WASNYG-24:yes",
+    "401861151:KXUEFANLTOTAL-26NOV12ITAFRA-6:no"
+   ],
+   "n": 2,
+   "mode": "safest",
+   "p": 0.8747,
+   "decimal": 1.145,
+   "american": -690,
+   "ev": 0.0015,
+   "tier": "lock",
+   "name": "lock_2",
+   "result": null
+  },
+  {
+   "legs": [
+    "401909976:KXNBATOTAL-26NOV12TORPHI-249:no",
+    "401892699:KXNHLTOTAL-26NOV12DETFLA-10:no",
+    "401862824:KXNCAAFTOTAL-26NOV12MEMUSF-30:yes"
+   ],
+   "n": 3,
+   "mode": "safest",
+   "p": 0.8053,
+   "decimal": 1.225,
+   "american": -444,
+   "ev": -0.0134,
+   "tier": "lock",
+   "name": "lock_3",
+   "result": null
+  }
+ ],
+ "straights": [],
+ "straights_best": [
+  "401861150:KXUEFANLGAME-26NOV12ENGCRO-ENG:yes",
+  "401869969:KXNCAAFGAME-26NOV12ULLULM-ULL:yes",
+  "401909978:KXNBAGAME-26NOV12DALMIN-MIN:yes",
+  "401862824:KXNCAAFGAME-26NOV12MEMUSF-MEM:yes",
+  "401892697:KXNHLGAME-26NOV12MINTOR-MIN:yes",
+  "401892703:KXNHLGAME-26NOV12WPGDAL-DAL:yes",
+  "401929776:KXCONCACAFNLTOTAL-26NOV12CUWPAN-5:no",
+  "401916338:KXINTLFRIENDLYTOTAL-26NOV13SINPAR-6:no",
+  "401861147:KXUEFANLTOTAL-26NOV12ALBFIN-3:no"
+ ],
+ "locks": [
+  "401861148:KXUEFANLGAME-26NOV12CZEESP-ESP:yes",
+  "401909977:KXNBAGAME-26NOV12DETWAS-DET:yes",
+  "401909979:KXNBATOTAL-26NOV12CHAPHX-189:yes",
+  "401861151:KXUEFANLTOTAL-26NOV12ITAFRA-1:yes",
+  "401909976:KXNBATOTAL-26NOV12TORPHI-197:yes",
+  "401861152:KXUEFANLTOTAL-26NOV12MNELAT-1:yes",
+  "401873052:KXNFLTOTAL-26NOV12WASNYG-63:no"
+ ]
+}
