@@ -13,10 +13,6 @@
    "TOTAL": "Point Total"
   },
   "BRASILEIRO": {
-   "1H": "1st Half Winner",
-   "1HBTTS": "1st Half BTTS",
-   "1HSPREAD": "1st Half Spread",
-   "1HTOTAL": "1st Half Total",
    "B1H": "1st Half Winner",
    "B1HBTTS": "1st Half BTTS",
    "B1HSPREAD": "1st Half Spread",
@@ -27,9 +23,7 @@
    "BTOTAL": "Point Total",
    "BTTS": "BTTS",
    "GAME": "Brasileiro Serie A Game",
-   "SCORE": "Correct Score",
    "SPREAD": "Brasileiro Serie A Game",
-   "TEAMTOTAL": "Team Total",
    "TOTAL": "Brasileiro Total"
   },
   "BUNDESLIGA": {
@@ -91,10 +85,6 @@
    "TOTAL": "EFL Championship Total"
   },
   "EFLL1": {
-   "1H": "1st Half Winner",
-   "1HBTTS": "1st Half BTTS",
-   "1HSPREAD": "1st Half Spread",
-   "1HTOTAL": "1st Half Total",
    "BTTS": "BTTS",
    "GAME": "EFL League One Game",
    "SPREAD": "Spread",
@@ -155,31 +145,17 @@
    "TOTAL": "La Liga Total"
   },
   "LALIGA2": {
-   "BTTS": "BTTS",
-   "GAME": "LaLiga 2 Game",
-   "H": "2nd Half Winner",
-   "HBTTS": "2nd Half BTTS",
-   "HSPREAD": "2nd Half Spread",
-   "HTOTAL": "2nd Half Total",
-   "SPREAD": "Spread",
-   "TOTAL": "Point Total"
+   "GAME": "LaLiga 2 Game"
   },
   "LIGAMX": {
-   "1H": "1st Half Winner",
-   "1HBTTS": "1st Half BTTS",
-   "1HSCORE": "1st Half Correct Score",
-   "1HSPREAD": "1st Half Spread",
-   "1HTOTAL": "1st Half Total",
-   "2H": "2nd Half Winner",
-   "2HBTTS": "2nd Half BTTS",
-   "2HSPREAD": "2nd Half Spread",
-   "2HTOTAL": "2nd Half Total",
    "BTTS": "Liga MX BTTS",
    "GAME": "Liga MX Game",
-   "SCORE": "Correct Score",
    "SPREAD": "Liga MX Game",
-   "TEAMTOTAL": "Team Total",
-   "TOTAL": "Liga MX Total"
+   "TOTAL": "Liga MX Total",
+   "WBTTS": "BTTS",
+   "WGAME": "Liga MX Women Game",
+   "WSPREAD": "Spread",
+   "WTOTAL": "Point Total"
   },
   "LIGAPORTUGAL": {
    "1H": "1st Half Winner",
@@ -277,6 +253,7 @@
    "2Q": "NBA 2nd Quarter Winner",
    "2QSPREAD": "NBA 2nd Quarter Spread",
    "2QTOTAL": "NBA 2nd Quarter Total",
+   "30PTSTREAK": "NBA 30 Point Streak",
    "3D": "NBA Player Triple Double",
    "3PT": "NBA Player Threes",
    "3PTPROT": "NBA Player Threes Protected",
@@ -294,8 +271,6 @@
    "FRANCHISECOST": "NBA Franchise Cost",
    "FRANCHISEOWNER": "NBA Franchise Owner",
    "GAME": "NBA Game",
-   "H2H3PT": "NBA Head-to-Head Three Pointers",
-   "H2HPTSMARGIN": "NBA H2H Player Points Bracketed",
    "NEXTGOVERNOR": "Pro Basketball Next Governor",
    "OT": "NBA Overtime",
    "PRA": "NBA Player Points + Rebounds + Assists",
@@ -304,7 +279,6 @@
    "PTSLEADER": "NBA Game Points Leader",
    "PTSPROT": "NBA Player Points Protected",
    "RACE": "NBA Race to Points",
-   "REB": "NBA Player Rebounds",
    "REBPROT": "NBA Player Rebounds Protected",
    "SPREAD": "NBA Spread",
    "STADIUM": "NBA Stadium Completion",
@@ -318,31 +292,56 @@
   "NCAAF": {
    "1H": "College Football 1st Half Winner",
    "1HSPREAD": "College Football 1st Half Spread",
+   "1HTEAMTOTAL": "College Football 1st Half Team Total Points",
    "1HTOTAL": "College Football 1st Half Total",
+   "1Q": "College Football 1st Quarter Winner",
+   "1QSPREAD": "College Football 1st Quarter Spread",
+   "1QTOTAL": "College Football 1st Quarter Total",
+   "2H": "College Football 2nd Half Winner",
+   "2HSPREAD": "College Football 2nd Half Spread",
+   "2HTOTAL": "College Football 2nd Half Total",
+   "2Q": "College Football 2nd Quarter Winner",
+   "2QSPREAD": "College Football 2nd Quarter Spread",
+   "2QTOTAL": "College Football 2nd Quarter Total",
+   "3Q": "College Football 3rd Quarter Winner",
+   "3QSPREAD": "College Football 3rd Quarter Spread",
+   "3QTOTAL": "College Football 3rd Quarter Total",
+   "4Q": "College Football 4th Quarter Winner",
+   "4QSPREAD": "College Football 4th Quarter Spread",
+   "4QTOTAL": "College Football 4th Quarter Total",
    "CFPPOLL": "College Football CFP Poll",
+   "DSTTD": "College Football Defense Special Teams Touchdown",
    "FIRSTTDTEAM": "College Football First Team to Score a Touchdown",
    "GAME": "College Football Game",
    "OT": "College Football Overtime",
    "SPREAD": "College Football Spread",
    "STADIUM": "College Football Stadiums",
+   "TEAMRECTD": "College Football Team Receiving Touchdowns",
+   "TEAMRECYDS": "College Football Team Receiving Yards",
    "TEAMTOTAL": "College Football Team Total Points",
    "TOPCFPPOLL": "College Football CFP Poll",
-   "TOTAL": "College Football Total Points"
+   "TOTAL": "College Football Total Points",
+   "WINMARGIN": "College Football Winning Margin"
   },
   "NCAAMB": {
    "1H": "Men's College Basketball 1st Half Winner",
    "1HSPREAD": "Men's College Basketball 1st Half Spread",
    "1HTOTAL": "Men's College Basketball 1st Half Total",
    "2H": "Men's College Basketball 2nd Half Winner",
+   "2HSPREAD": "Men's College Basketball 2nd Half Spread",
+   "2HTOTAL": "Men's College Basketball 2nd Half Total",
    "APRANK": "Men's College Basketball AP Poll",
    "CONFAWARD": "Men's College Basketball Conference Awards",
    "GAME": "Men's College Basketball Game",
    "KENPOMRANK": "Men's College Basketball KenPom Ratings",
    "KENPOMTOP": "Men's College Basketball KenPom Top Ratings",
    "OT": "Men's College Basketball Overtime",
+   "RACE": "Men's College Basketball Race to Points",
    "SPREAD": "Men's College Basketball Spread",
+   "TEAMTOTAL": "Men's College Basketball Team Total",
    "TOPAPRANK": "Men's College Basketball AP Poll Top Rank",
-   "TOTAL": "Men's College Basketball Total Points"
+   "TOTAL": "Men's College Basketball Total Points",
+   "WINMARGIN": "Men's College Basketball Winning Margin"
   },
   "NFL": {
    "1H": "Pro Football 1st Half Winner",
@@ -523,9 +522,16 @@
    "TOTAL": "Conference League Total"
   },
   "UEFANL": {
+   "1H": "1st Half Winner",
+   "1HBTTS": "1st Half BTTS",
+   "1HSPREAD": "1st Half Spread",
+   "1HTOTAL": "1st Half Total",
    "BTTS": "BTTS",
+   "FTTS": "First Team to Score",
    "GAME": "UEFA Nations League Game",
+   "SCORE": "Correct Score",
    "SPREAD": "Spread",
+   "TEAMTOTAL": "Team Total",
    "TOTAL": "Point Total"
   },
   "UEL": {
@@ -570,5 +576,5 @@
    "TOTAL": "Women's Pro Basketball Total"
   }
  },
- "updated": "2026-11-09T22:03:36.560061+00:00"
+ "updated": "2026-11-12T01:42:53.550607+00:00"
 }
