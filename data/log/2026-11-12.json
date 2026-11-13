@@ -321,7 +321,7 @@
     "buy": "yes"
    },
    "result": null,
-   "close_odds": -183
+   "close_odds": -218
   },
   "401861152:KXUEFANLTOTAL-26NOV12MNELAT-1:yes": {
    "id": "401861152:KXUEFANLTOTAL-26NOV12MNELAT-1:yes",
@@ -364,7 +364,7 @@
     "contract": "Yes \u00b7 Over 0.5",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -2042
   },
   "401909979:KXNBATOTAL-26NOV12CHAPHX-189:yes": {
@@ -456,7 +456,7 @@
     "buy": "yes"
    },
    "result": null,
-   "close_odds": -381
+   "close_odds": -404
   },
   "401861147:KXUEFANLTOTAL-26NOV12ALBFIN-3:no": {
    "id": "401861147:KXUEFANLTOTAL-26NOV12ALBFIN-3:no",
@@ -501,7 +501,7 @@
     "contract": "No \u00b7 Over 2.5",
     "buy": "no"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -199
   },
   "401909976:KXNBATOTAL-26NOV12TORPHI-197:yes": {
@@ -591,7 +591,7 @@
     "buy": "yes"
    },
    "result": null,
-   "close_odds": -1428
+   "close_odds": -1684
   },
   "401916338:KXINTLFRIENDLYTOTAL-26NOV13SINPAR-6:no": {
    "id": "401916338:KXINTLFRIENDLYTOTAL-26NOV13SINPAR-6:no",
@@ -635,7 +635,7 @@
     "buy": "no"
    },
    "result": null,
-   "close_odds": -660
+   "close_odds": -609
   },
   "401861150:KXUEFANLGAME-26NOV12ENGCRO-ENG:yes": {
    "id": "401861150:KXUEFANLGAME-26NOV12ENGCRO-ENG:yes",
@@ -679,7 +679,7 @@
     "contract": "Yes \u00b7 England",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -381
   },
   "401861151:KXUEFANLTOTAL-26NOV12ITAFRA-1:yes": {
@@ -723,7 +723,7 @@
     "contract": "Yes \u00b7 Over 0.5",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -2042
   },
   "401892703:KXNHLGAME-26NOV12WPGDAL-DAL:yes": {
@@ -772,7 +772,7 @@
     "buy": "yes"
    },
    "result": null,
-   "close_odds": -168
+   "close_odds": -161
   },
   "401861151:KXUEFANLTOTAL-26NOV12ITAFRA-6:no": {
    "id": "401861151:KXUEFANLTOTAL-26NOV12ITAFRA-6:no",
@@ -815,7 +815,7 @@
     "contract": "No \u00b7 Over 5.5",
     "buy": "no"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -1428
   },
   "401873052:KXNFLTOTAL-26NOV12WASNYG-24:yes": {
@@ -906,7 +906,7 @@
     "contract": "Yes \u00b7 Spain",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -458
   },
   "401909976:KXNBATOTAL-26NOV12TORPHI-249:no": {
