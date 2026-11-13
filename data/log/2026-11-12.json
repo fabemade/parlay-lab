@@ -46,7 +46,7 @@
     "contract": "Yes \u00b7 Minnesota",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -175
   },
   "401929776:KXCONCACAFNLTOTAL-26NOV12CUWPAN-5:no": {
@@ -90,7 +90,7 @@
     "contract": "No \u00b7 Over 4.5",
     "buy": "no"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -1087
   },
   "401873052:KXNFLTOTAL-26NOV12WASNYG-63:no": {
@@ -136,7 +136,7 @@
     "contract": "No \u00b7 Over 62.5",
     "buy": "no"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -2042
   },
   "401909978:KXNBAGAME-26NOV12DALMIN-MIN:yes": {
@@ -183,7 +183,7 @@
     "contract": "Yes \u00b7 Minnesota",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -218
   },
   "401892699:KXNHLTOTAL-26NOV12DETFLA-10:no": {
@@ -227,7 +227,7 @@
     "contract": "No \u00b7 Over 9.5",
     "buy": "no"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -1428
   },
   "401909977:KXNBAGAME-26NOV12DETWAS-DET:yes": {
@@ -274,7 +274,7 @@
     "contract": "Yes \u00b7 Detroit",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -430
   },
   "401862824:KXNCAAFGAME-26NOV12MEMUSF-MEM:yes": {
@@ -320,7 +320,7 @@
     "contract": "Yes \u00b7 Memphis",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -218
   },
   "401861152:KXUEFANLTOTAL-26NOV12MNELAT-1:yes": {
@@ -409,7 +409,7 @@
     "contract": "Yes \u00b7 Over 188.5",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -2042
   },
   "401869969:KXNCAAFGAME-26NOV12ULLULM-ULL:yes": {
@@ -455,7 +455,7 @@
     "contract": "Yes \u00b7 Louisiana",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -404
   },
   "401861147:KXUEFANLTOTAL-26NOV12ALBFIN-3:no": {
@@ -546,7 +546,7 @@
     "contract": "Yes \u00b7 Over 196.5",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -2042
   },
   "401862824:KXNCAAFTOTAL-26NOV12MEMUSF-30:yes": {
@@ -590,7 +590,7 @@
     "contract": "Yes \u00b7 Over 29.5",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -1684
   },
   "401916338:KXINTLFRIENDLYTOTAL-26NOV13SINPAR-6:no": {
@@ -771,7 +771,7 @@
     "contract": "Yes \u00b7 Dallas",
     "buy": "yes"
    },
-   "result": null,
+   "result": "L",
    "close_odds": -161
   },
   "401861151:KXUEFANLTOTAL-26NOV12ITAFRA-6:no": {
@@ -861,7 +861,7 @@
     "contract": "Yes \u00b7 Over 23.5",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -1428
   },
   "401861148:KXUEFANLGAME-26NOV12CZEESP-ESP:yes": {
@@ -951,7 +951,7 @@
     "contract": "No \u00b7 Over 248.5",
     "buy": "no"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -1428
   }
  },
@@ -969,7 +969,8 @@
    "ev": 0.0015,
    "tier": "lock",
    "name": "lock_2",
-   "result": null
+   "result": "W",
+   "missed": []
   },
   {
    "legs": [
@@ -985,7 +986,8 @@
    "ev": -0.0134,
    "tier": "lock",
    "name": "lock_3",
-   "result": null
+   "result": "W",
+   "missed": []
   }
  ],
  "straights": [],
