@@ -1,0 +1,1314 @@
+{
+ "date": "2026-11-13",
+ "locked_at": "2026-11-13T14:17-05:00",
+ "legs": {
+  "401930236:KXINTLFRIENDLYTOTAL-26NOV14CHNMAS-1:yes": {
+   "id": "401930236:KXINTLFRIENDLYTOTAL-26NOV14CHNMAS-1:yes",
+   "sport": "soccer_fifa.friendly",
+   "game_id": "401930236",
+   "short": "MAS @ CHN",
+   "game": "Malaysia at China",
+   "start": "2026-11-14T12:00Z",
+   "market": "total",
+   "side": "over",
+   "line": 0.5,
+   "selection": "Over 0.5",
+   "group": "Game lines",
+   "market_name": "Total",
+   "odds": -2042,
+   "p": 0.9511,
+   "p_model": 0.9041,
+   "p_market": 0.9406,
+   "p_breakeven": 0.9533,
+   "edge": -0.0022,
+   "ev": -0.0023,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "MAS: 1.5 scored / 0.5 allowed per game this season; last 2: 1.5 / 0.5",
+    "CHN: 0.75 scored / 2.25 allowed per game this season; last 4: 0.75 / 2.25"
+   ],
+   "home": {
+    "name": "China",
+    "abbr": "CHN"
+   },
+   "away": {
+    "name": "Malaysia",
+    "abbr": "MAS"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxintlfriendlytotal/international-friendly-total/kxintlfriendlytotal-26nov14chnmas",
+    "price": 95,
+    "ticker": "KXINTLFRIENDLYTOTAL-26NOV14CHNMAS-1",
+    "contract": "Yes \u00b7 Over 0.5",
+    "buy": "yes"
+   },
+   "result": null,
+   "close_odds": -2042
+  },
+  "401861161:KXUEFANLGAME-26NOV13SCOMKD-SCO:yes": {
+   "id": "401861161:KXUEFANLGAME-26NOV13SCOMKD-SCO:yes",
+   "sport": "soccer_uefa.nations",
+   "game_id": "401861161",
+   "short": "MKD @ SCO",
+   "game": "North Macedonia at Scotland",
+   "start": "2026-11-13T19:45Z",
+   "market": "ml",
+   "side": "home",
+   "selection": "SCO to win",
+   "group": "Game lines",
+   "market_name": "Winner",
+   "odds": -564,
+   "p": 0.8311,
+   "p_model": 0.733,
+   "p_market": 0.8235,
+   "p_breakeven": 0.8494,
+   "edge": -0.0183,
+   "ev": -0.0215,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "SCO ranks #54 in offense and #55 in defense of 202 (schedule-adjusted, recent games weighted more)",
+    "Last 4: 1-3, scoring 0.75 and allowing 1.25 goals/game (season: 0.75 / 1.25)",
+    "At home: 0.5 scored / 2.5 allowed per game",
+    "Record 1-1-2"
+   ],
+   "home": {
+    "name": "Scotland",
+    "abbr": "SCO"
+   },
+   "away": {
+    "name": "North Macedonia",
+    "abbr": "MKD"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxuefanlgame/uefa-nations-league-game/kxuefanlgame-26nov13scomkd",
+    "price": 84,
+    "ticker": "KXUEFANLGAME-26NOV13SCOMKD-SCO",
+    "contract": "Yes \u00b7 Scotland",
+    "buy": "yes"
+   },
+   "result": null,
+   "close_odds": -564
+  },
+  "401858526:KXNCAAFTOTAL-26NOV13ILLUCLA-70:no": {
+   "id": "401858526:KXNCAAFTOTAL-26NOV13ILLUCLA-70:no",
+   "sport": "cfb",
+   "game_id": "401858526",
+   "short": "ILL @ UCLA",
+   "game": "Illinois Fighting Illini at UCLA Bruins",
+   "start": "2026-11-14T02:00Z",
+   "market": "total",
+   "side": "under",
+   "line": 69.5,
+   "selection": "Under 69.5",
+   "group": "Game lines",
+   "market_name": "Total",
+   "odds": -1428,
+   "p": 0.9334,
+   "p_model": 0.8688,
+   "p_market": 0.9208,
+   "p_breakeven": 0.9346,
+   "edge": -0.0012,
+   "ev": -0.0013,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "ILL: 28.44 scored / 23.0 allowed per game this season; last 9: 28.44 / 23.0",
+    "UCLA: 33.56 scored / 14.11 allowed per game this season; last 9: 33.56 / 14.11"
+   ],
+   "home": {
+    "name": "UCLA Bruins",
+    "abbr": "UCLA"
+   },
+   "away": {
+    "name": "Illinois Fighting Illini",
+    "abbr": "ILL"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxncaaftotal/college-football-total-points/kxncaaftotal-26nov13illucla",
+    "price": 93,
+    "ticker": "KXNCAAFTOTAL-26NOV13ILLUCLA-70",
+    "contract": "No \u00b7 Over 69.5",
+    "buy": "no"
+   },
+   "result": null,
+   "close_odds": -1428
+  },
+  "401930876:KXINTLFRIENDLYTOTAL-26NOV13ARGURU-6:no": {
+   "id": "401930876:KXINTLFRIENDLYTOTAL-26NOV13ARGURU-6:no",
+   "sport": "soccer_fifa.friendly",
+   "game_id": "401930876",
+   "short": "URU @ ARG",
+   "game": "Uruguay at Argentina",
+   "start": "2026-11-13T23:00Z",
+   "market": "total",
+   "side": "under",
+   "line": 5.5,
+   "selection": "Under 5.5",
+   "group": "Game lines",
+   "market_name": "Total",
+   "odds": -2580,
+   "p": 0.9602,
+   "p_model": 0.941,
+   "p_market": 0.9505,
+   "p_breakeven": 0.9627,
+   "edge": -0.0025,
+   "ev": -0.0026,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "URU: 3.67 scored / 1.67 allowed per game this season; last 3: 3.67 / 1.67",
+    "ARG: 4.67 scored / 0.0 allowed per game this season; last 3: 4.67 / 0.0"
+   ],
+   "home": {
+    "name": "Argentina",
+    "abbr": "ARG"
+   },
+   "away": {
+    "name": "Uruguay",
+    "abbr": "URU"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxintlfriendlytotal/international-friendly-total/kxintlfriendlytotal-26nov13arguru",
+    "price": 96,
+    "ticker": "KXINTLFRIENDLYTOTAL-26NOV13ARGURU-6",
+    "contract": "No \u00b7 Over 5.5",
+    "buy": "no"
+   },
+   "result": null,
+   "close_odds": -2580
+  },
+  "401861160:KXUEFANLTOTAL-26NOV13SVKFRO-4:no": {
+   "id": "401861160:KXUEFANLTOTAL-26NOV13SVKFRO-4:no",
+   "sport": "soccer_uefa.nations",
+   "game_id": "401861160",
+   "short": "FRO @ SVK",
+   "game": "Faroe Islands at Slovakia",
+   "start": "2026-11-13T19:45Z",
+   "market": "total",
+   "side": "under",
+   "line": 3.5,
+   "selection": "Under 3.5",
+   "group": "Game lines",
+   "market_name": "Total",
+   "odds": -306,
+   "p": 0.7501,
+   "p_model": 0.7659,
+   "p_market": 0.7327,
+   "p_breakeven": 0.7535,
+   "edge": -0.0034,
+   "ev": -0.0045,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "FRO: 1.25 scored / 1.25 allowed per game this season; last 4: 1.25 / 1.25",
+    "SVK: 2.25 scored / 0.5 allowed per game this season; last 4: 2.25 / 0.5"
+   ],
+   "home": {
+    "name": "Slovakia",
+    "abbr": "SVK"
+   },
+   "away": {
+    "name": "Faroe Islands",
+    "abbr": "FRO"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxuefanltotal/point-total/kxuefanltotal-26nov13svkfro",
+    "price": 74,
+    "ticker": "KXUEFANLTOTAL-26NOV13SVKFRO-4",
+    "contract": "No \u00b7 Over 3.5",
+    "buy": "no"
+   },
+   "result": null,
+   "close_odds": -306
+  },
+  "401856860:KXNCAAFGAME-26NOV13HOUCOLO-HOU:yes": {
+   "id": "401856860:KXNCAAFGAME-26NOV13HOUCOLO-HOU:yes",
+   "sport": "cfb",
+   "game_id": "401856860",
+   "short": "HOU @ COLO",
+   "game": "Houston Cougars at Colorado Buffaloes",
+   "start": "2026-11-14T03:15Z",
+   "market": "ml",
+   "side": "away",
+   "selection": "HOU to win",
+   "group": "Game lines",
+   "market_name": "Winner",
+   "odds": -322,
+   "p": 0.7603,
+   "p_model": 0.7727,
+   "p_market": 0.7426,
+   "p_breakeven": 0.7631,
+   "edge": -0.0028,
+   "ev": -0.0037,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "HOU ranks #26 in offense and #25 in defense of 152 (schedule-adjusted, recent games weighted more)",
+    "Last 9: 7-2, scoring 35.44 and allowing 21.33 pts/game (season: 35.44 / 21.33)",
+    "On the road: 29.0 scored / 23.25 allowed per game",
+    "Record 7-2",
+    "Price moved -395 \u2192 -325 since opening, money moving away from HOU",
+    "\u26a0 The line has moved against this side since opening (a sharp-money signal), so the model defers more to the market"
+   ],
+   "home": {
+    "name": "Colorado Buffaloes",
+    "abbr": "COLO"
+   },
+   "away": {
+    "name": "Houston Cougars",
+    "abbr": "HOU"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxncaafgame/college-football-game/kxncaafgame-26nov13houcolo",
+    "price": 75,
+    "ticker": "KXNCAAFGAME-26NOV13HOUCOLO-HOU",
+    "contract": "Yes \u00b7 Houston",
+    "buy": "yes"
+   },
+   "result": null,
+   "close_odds": -322
+  },
+  "401861157:KXUEFANLTOTAL-26NOV13BULISL-6:no": {
+   "id": "401861157:KXUEFANLTOTAL-26NOV13BULISL-6:no",
+   "sport": "soccer_uefa.nations",
+   "game_id": "401861157",
+   "short": "ISL @ BUL",
+   "game": "Iceland at Bulgaria",
+   "start": "2026-11-13T19:45Z",
+   "market": "total",
+   "side": "under",
+   "line": 5.5,
+   "selection": "Under 5.5",
+   "group": "Game lines",
+   "market_name": "Total",
+   "odds": -2042,
+   "p": 0.951,
+   "p_model": 0.9223,
+   "p_market": 0.9406,
+   "p_breakeven": 0.9533,
+   "edge": -0.0023,
+   "ev": -0.0024,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "ISL: 1.75 scored / 0.25 allowed per game this season; last 4: 1.75 / 0.25",
+    "BUL: 0.75 scored / 1.25 allowed per game this season; last 4: 0.75 / 1.25"
+   ],
+   "home": {
+    "name": "Bulgaria",
+    "abbr": "BUL"
+   },
+   "away": {
+    "name": "Iceland",
+    "abbr": "ISL"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxuefanltotal/point-total/kxuefanltotal-26nov13bulisl",
+    "price": 95,
+    "ticker": "KXUEFANLTOTAL-26NOV13BULISL-6",
+    "contract": "No \u00b7 Over 5.5",
+    "buy": "no"
+   },
+   "result": null,
+   "close_odds": -2042
+  },
+  "401883136:KXLALIGA2TOTAL-26NOV13LEGBUR-3:no": {
+   "id": "401883136:KXLALIGA2TOTAL-26NOV13LEGBUR-3:no",
+   "sport": "soccer_esp.2",
+   "game_id": "401883136",
+   "short": "BUR @ LEG",
+   "game": "Burgos at Legan\u00e9s",
+   "start": "2026-11-13T19:30Z",
+   "market": "total",
+   "side": "under",
+   "line": 2.5,
+   "selection": "Under 2.5",
+   "group": "Game lines",
+   "market_name": "Total",
+   "odds": -168,
+   "p": 0.6099,
+   "p_model": 0.5802,
+   "p_market": 0.604,
+   "p_breakeven": 0.6267,
+   "edge": -0.0168,
+   "ev": -0.0268,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "BUR: 1.46 scored / 1.08 allowed per game this season; last 10: 1.4 / 0.9",
+    "LEG: 0.85 scored / 1.77 allowed per game this season; last 10: 0.8 / 2.2"
+   ],
+   "home": {
+    "name": "Legan\u00e9s",
+    "abbr": "LEG"
+   },
+   "away": {
+    "name": "Burgos",
+    "abbr": "BUR"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxlaliga2total/point-total/kxlaliga2total-26nov13legbur",
+    "price": 61,
+    "ticker": "KXLALIGA2TOTAL-26NOV13LEGBUR-3",
+    "contract": "No \u00b7 Over 2.5",
+    "buy": "no"
+   },
+   "result": null,
+   "close_odds": -168
+  },
+  "401858526:KXNCAAFGAME-26NOV13ILLUCLA-UCLA:yes": {
+   "id": "401858526:KXNCAAFGAME-26NOV13ILLUCLA-UCLA:yes",
+   "sport": "cfb",
+   "game_id": "401858526",
+   "short": "ILL @ UCLA",
+   "game": "Illinois Fighting Illini at UCLA Bruins",
+   "start": "2026-11-14T02:00Z",
+   "market": "ml",
+   "side": "home",
+   "selection": "UCLA to win",
+   "group": "Game lines",
+   "market_name": "Winner",
+   "odds": -430,
+   "p": 0.8076,
+   "p_model": 0.7634,
+   "p_market": 0.7921,
+   "p_breakeven": 0.8112,
+   "edge": -0.0036,
+   "ev": -0.0044,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "UCLA ranks #34 in offense and #21 in defense of 152 (schedule-adjusted, recent games weighted more)",
+    "Last 9: 9-0, scoring 33.56 and allowing 14.11 pts/game (season: 33.56 / 14.11). Current streak: W9",
+    "At home: 30.4 scored / 13.0 allowed per game",
+    "Record 9-0",
+    "Price moved -500 \u2192 -395 since opening, money moving away from UCLA"
+   ],
+   "home": {
+    "name": "UCLA Bruins",
+    "abbr": "UCLA"
+   },
+   "away": {
+    "name": "Illinois Fighting Illini",
+    "abbr": "ILL"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxncaafgame/college-football-game/kxncaafgame-26nov13illucla",
+    "price": 80,
+    "ticker": "KXNCAAFGAME-26NOV13ILLUCLA-UCLA",
+    "contract": "Yes \u00b7 UCLA",
+    "buy": "yes"
+   },
+   "result": null,
+   "close_odds": -430
+  },
+  "401858526:KXNCAAFSPREAD-26NOV13ILLUCLA-UCLA2:yes": {
+   "id": "401858526:KXNCAAFSPREAD-26NOV13ILLUCLA-UCLA2:yes",
+   "sport": "cfb",
+   "game_id": "401858526",
+   "short": "ILL @ UCLA",
+   "game": "Illinois Fighting Illini at UCLA Bruins",
+   "start": "2026-11-14T02:00Z",
+   "market": "spread",
+   "side": "home",
+   "line": -1.5,
+   "selection": "UCLA by 1.5+",
+   "group": "Game lines",
+   "market_name": "Spread",
+   "odds": -360,
+   "p": 0.7789,
+   "p_model": 0.7622,
+   "p_market": 0.7624,
+   "p_breakeven": 0.7824,
+   "edge": -0.0035,
+   "ev": -0.0045,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "UCLA ranks #34 in offense and #21 in defense of 152 (schedule-adjusted, recent games weighted more)",
+    "Last 9: 9-0, scoring 33.56 and allowing 14.11 pts/game (season: 33.56 / 14.11). Current streak: W9",
+    "At home: 30.4 scored / 13.0 allowed per game",
+    "Record 9-0",
+    "Line moved from -12.5 to -10.5 since opening (spread)",
+    "\u26a0 The line has moved against this side since opening (a sharp-money signal), so the model defers more to the market"
+   ],
+   "home": {
+    "name": "UCLA Bruins",
+    "abbr": "UCLA"
+   },
+   "away": {
+    "name": "Illinois Fighting Illini",
+    "abbr": "ILL"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxncaafspread/college-football-spread/kxncaafspread-26nov13illucla",
+    "price": 77,
+    "ticker": "KXNCAAFSPREAD-26NOV13ILLUCLA-UCLA2",
+    "contract": "Yes \u00b7 UCLA wins by over 1.5 points",
+    "buy": "yes"
+   },
+   "result": null,
+   "close_odds": -360
+  },
+  "401909301:KXNBAGAME-26NOV13UTAHOU-HOU:yes": {
+   "id": "401909301:KXNBAGAME-26NOV13UTAHOU-HOU:yes",
+   "sport": "nba",
+   "game_id": "401909301",
+   "short": "UTAH @ HOU",
+   "game": "Utah Jazz at Houston Rockets",
+   "start": "2026-11-14T01:30Z",
+   "market": "ml",
+   "side": "home",
+   "selection": "HOU to win",
+   "group": "Game lines",
+   "market_name": "Winner",
+   "odds": -1236,
+   "p": 0.9208,
+   "p_model": 0.8899,
+   "p_market": 0.9109,
+   "p_breakeven": 0.9252,
+   "edge": -0.0044,
+   "ev": -0.0048,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "HOU ranks #15 in offense and #5 in defense of 32 (schedule-adjusted, recent games weighted more)",
+    "Last 10: 7-3, scoring 114.3 and allowing 105.8 pts/game (season: 115.42 / 106.5)",
+    "At home: 115.43 scored / 105.14 allowed per game",
+    "Record 9-3 (home 6-1)",
+    "Injuries: Marcus Smart (G, Suspension), Clint Capela (C, Out), Steven Adams (C, Out)",
+    "Price moved -1580 \u2192 -1180 since opening, money moving away from HOU"
+   ],
+   "home": {
+    "name": "Houston Rockets",
+    "abbr": "HOU"
+   },
+   "away": {
+    "name": "Utah Jazz",
+    "abbr": "UTAH"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxnbagame/nba-game/kxnbagame-26nov13utahou",
+    "price": 92,
+    "ticker": "KXNBAGAME-26NOV13UTAHOU-HOU",
+    "contract": "Yes \u00b7 Houston",
+    "buy": "yes"
+   },
+   "result": null,
+   "close_odds": -1236
+  },
+  "401930876:KXINTLFRIENDLYTOTAL-26NOV13ARGURU-4:no": {
+   "id": "401930876:KXINTLFRIENDLYTOTAL-26NOV13ARGURU-4:no",
+   "sport": "soccer_fifa.friendly",
+   "game_id": "401930876",
+   "short": "URU @ ARG",
+   "game": "Uruguay at Argentina",
+   "start": "2026-11-13T23:00Z",
+   "market": "total",
+   "side": "under",
+   "line": 3.5,
+   "selection": "Under 3.5",
+   "group": "Game lines",
+   "market_name": "Total",
+   "odds": -340,
+   "p": 0.7676,
+   "p_model": 0.716,
+   "p_market": 0.7525,
+   "p_breakeven": 0.7728,
+   "edge": -0.0052,
+   "ev": -0.0067,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "URU: 3.67 scored / 1.67 allowed per game this season; last 3: 3.67 / 1.67",
+    "ARG: 4.67 scored / 0.0 allowed per game this season; last 3: 4.67 / 0.0"
+   ],
+   "home": {
+    "name": "Argentina",
+    "abbr": "ARG"
+   },
+   "away": {
+    "name": "Uruguay",
+    "abbr": "URU"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxintlfriendlytotal/international-friendly-total/kxintlfriendlytotal-26nov13arguru",
+    "price": 76,
+    "ticker": "KXINTLFRIENDLYTOTAL-26NOV13ARGURU-4",
+    "contract": "No \u00b7 Over 3.5",
+    "buy": "no"
+   },
+   "result": null,
+   "close_odds": -340
+  },
+  "401916337:KXINTLFRIENDLYTOTAL-26NOV14JPNBRA-1:yes": {
+   "id": "401916337:KXINTLFRIENDLYTOTAL-26NOV14JPNBRA-1:yes",
+   "sport": "soccer_fifa.friendly",
+   "game_id": "401916337",
+   "short": "BRA @ JPN",
+   "game": "Brazil at Japan",
+   "start": "2026-11-14T10:15Z",
+   "market": "total",
+   "side": "over",
+   "line": 0.5,
+   "selection": "Over 0.5",
+   "group": "Game lines",
+   "market_name": "Total",
+   "odds": -2042,
+   "p": 0.9515,
+   "p_model": 0.9274,
+   "p_market": 0.9406,
+   "p_breakeven": 0.9533,
+   "edge": -0.0018,
+   "ev": -0.0019,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "BRA: 3.0 scored / 1.0 allowed per game this season; last 3: 3.0 / 1.0",
+    "JPN: 2.5 scored / 1.0 allowed per game this season; last 2: 2.5 / 1.0"
+   ],
+   "home": {
+    "name": "Japan",
+    "abbr": "JPN"
+   },
+   "away": {
+    "name": "Brazil",
+    "abbr": "BRA"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxintlfriendlytotal/international-friendly-total/kxintlfriendlytotal-26nov14jpnbra",
+    "price": 95,
+    "ticker": "KXINTLFRIENDLYTOTAL-26NOV14JPNBRA-1",
+    "contract": "Yes \u00b7 Over 0.5",
+    "buy": "yes"
+   },
+   "result": null,
+   "close_odds": -2042
+  },
+  "401856860:KXNCAAFTOTAL-26NOV13HOUCOLO-31:yes": {
+   "id": "401856860:KXNCAAFTOTAL-26NOV13HOUCOLO-31:yes",
+   "sport": "cfb",
+   "game_id": "401856860",
+   "short": "HOU @ COLO",
+   "game": "Houston Cougars at Colorado Buffaloes",
+   "start": "2026-11-14T03:15Z",
+   "market": "total",
+   "side": "over",
+   "line": 30.5,
+   "selection": "Over 30.5",
+   "group": "Game lines",
+   "market_name": "Total",
+   "odds": -1428,
+   "p": 0.9253,
+   "p_model": 0.8853,
+   "p_market": 0.9118,
+   "p_breakeven": 0.9346,
+   "edge": -0.0093,
+   "ev": -0.01,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "HOU: 35.44 scored / 21.33 allowed per game this season; last 9: 35.44 / 21.33",
+    "COLO: 19.78 scored / 28.33 allowed per game this season; last 9: 19.78 / 28.33",
+    "Line moved from +47.5 to +51.5 since opening (total)"
+   ],
+   "home": {
+    "name": "Colorado Buffaloes",
+    "abbr": "COLO"
+   },
+   "away": {
+    "name": "Houston Cougars",
+    "abbr": "HOU"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxncaaftotal/college-football-total-points/kxncaaftotal-26nov13houcolo",
+    "price": 93,
+    "ticker": "KXNCAAFTOTAL-26NOV13HOUCOLO-31",
+    "contract": "Yes \u00b7 Over 30.5",
+    "buy": "yes"
+   },
+   "result": null,
+   "close_odds": -1428
+  },
+  "401921325:KXINTLFRIENDLYGAME-26NOV13COLCHI-COL:yes": {
+   "id": "401921325:KXINTLFRIENDLYGAME-26NOV13COLCHI-COL:yes",
+   "sport": "soccer_fifa.friendly",
+   "game_id": "401921325",
+   "short": "CHI @ COL",
+   "game": "Chile at Colombia",
+   "start": "2026-11-14T00:00Z",
+   "market": "ml",
+   "side": "home",
+   "selection": "COL to win",
+   "group": "Game lines",
+   "market_name": "Winner",
+   "odds": -228,
+   "p": 0.6829,
+   "p_model": 0.7074,
+   "p_market": 0.6667,
+   "p_breakeven": 0.6952,
+   "edge": -0.0123,
+   "ev": -0.0177,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "COL ranks #25 in offense and #5 in defense of 202 (schedule-adjusted, recent games weighted more)",
+    "Last 3: 1-2, scoring 1.0 and allowing 0.67 goals/game (season: 1.0 / 0.67)",
+    "At home: 1.0 scored / 0.5 allowed per game"
+   ],
+   "home": {
+    "name": "Colombia",
+    "abbr": "COL"
+   },
+   "away": {
+    "name": "Chile",
+    "abbr": "CHI"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxintlfriendlygame/international-friendly-game/kxintlfriendlygame-26nov13colchi",
+    "price": 68,
+    "ticker": "KXINTLFRIENDLYGAME-26NOV13COLCHI-COL",
+    "contract": "Yes \u00b7 Colombia",
+    "buy": "yes"
+   },
+   "result": null,
+   "close_odds": -228
+  },
+  "401861154:KXUEFANLTOTAL-26NOV13LUXEST-5:no": {
+   "id": "401861154:KXUEFANLTOTAL-26NOV13LUXEST-5:no",
+   "sport": "soccer_uefa.nations",
+   "game_id": "401861154",
+   "short": "EST @ LUX",
+   "game": "Estonia at Luxembourg",
+   "start": "2026-11-13T19:45Z",
+   "market": "total",
+   "side": "under",
+   "line": 4.5,
+   "selection": "Under 4.5",
+   "group": "Game lines",
+   "market_name": "Total",
+   "odds": -1684,
+   "p": 0.9434,
+   "p_model": 0.9394,
+   "p_market": 0.9307,
+   "p_breakeven": 0.9439,
+   "edge": -0.0005,
+   "ev": -0.0005,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "EST: 0.5 scored / 0.25 allowed per game this season; last 4: 0.5 / 0.25",
+    "LUX: 0.5 scored / 1.75 allowed per game this season; last 4: 0.5 / 1.75"
+   ],
+   "home": {
+    "name": "Luxembourg",
+    "abbr": "LUX"
+   },
+   "away": {
+    "name": "Estonia",
+    "abbr": "EST"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxuefanltotal/point-total/kxuefanltotal-26nov13luxest",
+    "price": 94,
+    "ticker": "KXUEFANLTOTAL-26NOV13LUXEST-5",
+    "contract": "No \u00b7 Over 4.5",
+    "buy": "no"
+   },
+   "result": null,
+   "close_odds": -1684
+  },
+  "401930876:KXINTLFRIENDLYTOTAL-26NOV13ARGURU-1:yes": {
+   "id": "401930876:KXINTLFRIENDLYTOTAL-26NOV13ARGURU-1:yes",
+   "sport": "soccer_fifa.friendly",
+   "game_id": "401930876",
+   "short": "URU @ ARG",
+   "game": "Uruguay at Argentina",
+   "start": "2026-11-13T23:00Z",
+   "market": "total",
+   "side": "over",
+   "line": 0.5,
+   "selection": "Over 0.5",
+   "group": "Game lines",
+   "market_name": "Total",
+   "odds": -1428,
+   "p": 0.926,
+   "p_model": 0.9224,
+   "p_market": 0.9118,
+   "p_breakeven": 0.9346,
+   "edge": -0.0086,
+   "ev": -0.0092,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "URU: 3.67 scored / 1.67 allowed per game this season; last 3: 3.67 / 1.67",
+    "ARG: 4.67 scored / 0.0 allowed per game this season; last 3: 4.67 / 0.0"
+   ],
+   "home": {
+    "name": "Argentina",
+    "abbr": "ARG"
+   },
+   "away": {
+    "name": "Uruguay",
+    "abbr": "URU"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxintlfriendlytotal/international-friendly-total/kxintlfriendlytotal-26nov13arguru",
+    "price": 93,
+    "ticker": "KXINTLFRIENDLYTOTAL-26NOV13ARGURU-1",
+    "contract": "Yes \u00b7 Over 0.5",
+    "buy": "yes"
+   },
+   "result": null,
+   "close_odds": -1428
+  },
+  "401909302:KXNBAGAME-26NOV13GSWSAS-SAS:yes": {
+   "id": "401909302:KXNBAGAME-26NOV13GSWSAS-SAS:yes",
+   "sport": "nba",
+   "game_id": "401909302",
+   "short": "GS @ SA",
+   "game": "Golden State Warriors at San Antonio Spurs",
+   "start": "2026-11-14T02:30Z",
+   "market": "ml",
+   "side": "home",
+   "selection": "SA to win",
+   "group": "Game lines",
+   "market_name": "Winner",
+   "odds": -609,
+   "p": 0.8492,
+   "p_model": 0.7927,
+   "p_market": 0.8416,
+   "p_breakeven": 0.8589,
+   "edge": -0.0097,
+   "ev": -0.0113,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "SA ranks #1 in offense and #8 in defense of 32 (schedule-adjusted, recent games weighted more)",
+    "Last 10: 10-0, scoring 121.6 and allowing 106.6 pts/game (season: 119.17 / 108.0). Current streak: W10",
+    "At home: 116.0 scored / 108.67 allowed per game",
+    "Record 10-2 (home 4-2)",
+    "Injuries: Tobias Harris (F, Out), Jayden Quaintance (F, Out)",
+    "Price moved -520 \u2192 -670 since opening, money moving toward SA"
+   ],
+   "home": {
+    "name": "San Antonio Spurs",
+    "abbr": "SA"
+   },
+   "away": {
+    "name": "Golden State Warriors",
+    "abbr": "GS"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxnbagame/nba-game/kxnbagame-26nov13gswsas",
+    "price": 85,
+    "ticker": "KXNBAGAME-26NOV13GSWSAS-SAS",
+    "contract": "Yes \u00b7 San Antonio",
+    "buy": "yes"
+   },
+   "result": null,
+   "close_odds": -609
+  },
+  "401916337:KXINTLFRIENDLYTOTAL-26NOV14JPNBRA-6:no": {
+   "id": "401916337:KXINTLFRIENDLYTOTAL-26NOV14JPNBRA-6:no",
+   "sport": "soccer_fifa.friendly",
+   "game_id": "401916337",
+   "short": "BRA @ JPN",
+   "game": "Brazil at Japan",
+   "start": "2026-11-14T10:15Z",
+   "market": "total",
+   "side": "under",
+   "line": 5.5,
+   "selection": "Under 5.5",
+   "group": "Game lines",
+   "market_name": "Total",
+   "odds": -1428,
+   "p": 0.9343,
+   "p_model": 0.9316,
+   "p_market": 0.9208,
+   "p_breakeven": 0.9346,
+   "edge": -0.0003,
+   "ev": -0.0003,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "BRA: 3.0 scored / 1.0 allowed per game this season; last 3: 3.0 / 1.0",
+    "JPN: 2.5 scored / 1.0 allowed per game this season; last 2: 2.5 / 1.0"
+   ],
+   "home": {
+    "name": "Japan",
+    "abbr": "JPN"
+   },
+   "away": {
+    "name": "Brazil",
+    "abbr": "BRA"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxintlfriendlytotal/international-friendly-total/kxintlfriendlytotal-26nov14jpnbra",
+    "price": 93,
+    "ticker": "KXINTLFRIENDLYTOTAL-26NOV14JPNBRA-6",
+    "contract": "No \u00b7 Over 5.5",
+    "buy": "no"
+   },
+   "result": null,
+   "close_odds": -1428
+  },
+  "401909297:KXNBAGAME-26NOV13MILORL-ORL:yes": {
+   "id": "401909297:KXNBAGAME-26NOV13MILORL-ORL:yes",
+   "sport": "nba",
+   "game_id": "401909297",
+   "short": "MIL @ ORL",
+   "game": "Milwaukee Bucks at Orlando Magic",
+   "start": "2026-11-14T00:00Z",
+   "market": "ml",
+   "side": "home",
+   "selection": "ORL to win",
+   "group": "Game lines",
+   "market_name": "Winner",
+   "odds": -381,
+   "p": 0.7877,
+   "p_model": 0.7665,
+   "p_market": 0.7723,
+   "p_breakeven": 0.792,
+   "edge": -0.0043,
+   "ev": -0.0054,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "ORL ranks #24 in offense and #16 in defense of 32 (schedule-adjusted, recent games weighted more)",
+    "Last 10: 4-6, scoring 106.8 and allowing 112.2 pts/game (season: 108.45 / 114.0)",
+    "At home: 102.25 scored / 114.5 allowed per game",
+    "Record 4-7 (home 0-4)",
+    "Injuries: Jalen Suggs (G, Out), Jonathan Isaac (F, Out), Paolo Banchero (F, Out)",
+    "Price moved -319 \u2192 -395 since opening, money moving toward ORL"
+   ],
+   "home": {
+    "name": "Orlando Magic",
+    "abbr": "ORL"
+   },
+   "away": {
+    "name": "Milwaukee Bucks",
+    "abbr": "MIL"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxnbagame/nba-game/kxnbagame-26nov13milorl",
+    "price": 78,
+    "ticker": "KXNBAGAME-26NOV13MILORL-ORL",
+    "contract": "Yes \u00b7 Orlando",
+    "buy": "yes"
+   },
+   "result": null,
+   "close_odds": -381
+  },
+  "401909296:KXNBAGAME-26NOV13NYKIND-NYK:yes": {
+   "id": "401909296:KXNBAGAME-26NOV13NYKIND-NYK:yes",
+   "sport": "nba",
+   "game_id": "401909296",
+   "short": "NY @ IND",
+   "game": "New York Knicks at Indiana Pacers",
+   "start": "2026-11-14T00:00Z",
+   "market": "ml",
+   "side": "away",
+   "selection": "NY to win",
+   "group": "Game lines",
+   "market_name": "Winner",
+   "odds": -340,
+   "p": 0.7769,
+   "p_model": 0.7861,
+   "p_market": 0.7525,
+   "p_breakeven": 0.7728,
+   "edge": 0.0041,
+   "ev": 0.0053,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "NY ranks #22 in offense and #1 in defense of 32 (schedule-adjusted, recent games weighted more)",
+    "Last 10: 6-4, scoring 111.3 and allowing 103.2 pts/game (season: 110.27 / 103.45)",
+    "On the road: 109.5 scored / 107.25 allowed per game",
+    "Record 6-5 (road 2-2)",
+    "Price moved -130 \u2192 -337 since opening, money moving toward NY"
+   ],
+   "home": {
+    "name": "Indiana Pacers",
+    "abbr": "IND"
+   },
+   "away": {
+    "name": "New York Knicks",
+    "abbr": "NY"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxnbagame/nba-game/kxnbagame-26nov13nykind",
+    "price": 76,
+    "ticker": "KXNBAGAME-26NOV13NYKIND-NYK",
+    "contract": "Yes \u00b7 New York",
+    "buy": "yes"
+   },
+   "result": null,
+   "close_odds": -340
+  },
+  "401861158:KXUEFANLGAME-26NOV13SRBGER-GER:yes": {
+   "id": "401861158:KXUEFANLGAME-26NOV13SRBGER-GER:yes",
+   "sport": "soccer_uefa.nations",
+   "game_id": "401861158",
+   "short": "GER @ SRB",
+   "game": "Germany at Serbia",
+   "start": "2026-11-13T19:45Z",
+   "market": "ml",
+   "side": "away",
+   "selection": "GER to win",
+   "group": "Game lines",
+   "market_name": "Winner",
+   "odds": -404,
+   "p": 0.7832,
+   "p_model": 0.7158,
+   "p_market": 0.7745,
+   "p_breakeven": 0.8016,
+   "edge": -0.0184,
+   "ev": -0.023,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "GER ranks #5 in offense and #13 in defense of 202 (schedule-adjusted, recent games weighted more)",
+    "Last 4: 1-3, scoring 0.75 and allowing 0.5 goals/game (season: 0.75 / 0.5)",
+    "On the road: 0.5 scored / 0.5 allowed per game",
+    "Record 1-2-1"
+   ],
+   "home": {
+    "name": "Serbia",
+    "abbr": "SRB"
+   },
+   "away": {
+    "name": "Germany",
+    "abbr": "GER"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxuefanlgame/uefa-nations-league-game/kxuefanlgame-26nov13srbger",
+    "price": 79,
+    "ticker": "KXUEFANLGAME-26NOV13SRBGER-GER",
+    "contract": "Yes \u00b7 Germany",
+    "buy": "yes"
+   },
+   "result": null,
+   "close_odds": -404
+  },
+  "401929711:KXCONCACAFNLTOTAL-26NOV13GTMCAN-6:no": {
+   "id": "401929711:KXCONCACAFNLTOTAL-26NOV13GTMCAN-6:no",
+   "sport": "soccer_concacaf.nations.league",
+   "game_id": "401929711",
+   "short": "CAN @ GUA",
+   "game": "Canada at Guatemala",
+   "start": "2026-11-14T02:00Z",
+   "market": "total",
+   "side": "under",
+   "line": 5.5,
+   "selection": "Under 5.5",
+   "group": "Game lines",
+   "market_name": "Total",
+   "odds": -2042,
+   "p": 0.9523,
+   "p_model": 0.9579,
+   "p_market": 0.9406,
+   "p_breakeven": 0.9533,
+   "edge": -0.001,
+   "ev": -0.001,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "CAN: 1.0 scored / 0.33 allowed per game this season; last 3: 1.0 / 0.33",
+    "GUA: 2.25 scored / 0.75 allowed per game this season; last 4: 2.25 / 0.75"
+   ],
+   "home": {
+    "name": "Guatemala",
+    "abbr": "GUA"
+   },
+   "away": {
+    "name": "Canada",
+    "abbr": "CAN"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxconcacafnltotal/point-total/kxconcacafnltotal-26nov13gtmcan",
+    "price": 95,
+    "ticker": "KXCONCACAFNLTOTAL-26NOV13GTMCAN-6",
+    "contract": "No \u00b7 Over 5.5",
+    "buy": "no"
+   },
+   "result": null,
+   "close_odds": -2042
+  },
+  "401858293:KXNCAAFGAME-26NOV13FSUPITT-PITT:yes": {
+   "id": "401858293:KXNCAAFGAME-26NOV13FSUPITT-PITT:yes",
+   "sport": "cfb",
+   "game_id": "401858293",
+   "short": "FSU @ PITT",
+   "game": "Florida State Seminoles at Pittsburgh Panthers",
+   "start": "2026-11-14T00:00Z",
+   "market": "ml",
+   "side": "home",
+   "selection": "PITT to win",
+   "group": "Game lines",
+   "market_name": "Winner",
+   "odds": -161,
+   "p": 0.6114,
+   "p_model": 0.6592,
+   "p_market": 0.6,
+   "p_breakeven": 0.6168,
+   "edge": -0.0054,
+   "ev": -0.0088,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "PITT ranks #48 in offense and #39 in defense of 152 (schedule-adjusted, recent games weighted more)",
+    "Last 9: 6-3, scoring 31.89 and allowing 19.78 pts/game (season: 31.89 / 19.78)",
+    "At home: 34.67 scored / 11.0 allowed per game",
+    "Record 6-3",
+    "Coming off a bye week (extra rest)",
+    "Price moved -142 \u2192 -170 since opening, money moving toward PITT"
+   ],
+   "home": {
+    "name": "Pittsburgh Panthers",
+    "abbr": "PITT"
+   },
+   "away": {
+    "name": "Florida State Seminoles",
+    "abbr": "FSU"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxncaafgame/college-football-game/kxncaafgame-26nov13fsupitt",
+    "price": 60,
+    "ticker": "KXNCAAFGAME-26NOV13FSUPITT-PITT",
+    "contract": "Yes \u00b7 Pittsburgh",
+    "buy": "yes"
+   },
+   "result": null,
+   "close_odds": -161
+  },
+  "401892706:KXNHLGAME-26NOV13NYRVAN-NYR:yes": {
+   "id": "401892706:KXNHLGAME-26NOV13NYRVAN-NYR:yes",
+   "sport": "nhl",
+   "game_id": "401892706",
+   "short": "NYR @ VAN",
+   "game": "New York Rangers at Vancouver Canucks",
+   "start": "2026-11-14T02:00Z",
+   "market": "ml",
+   "side": "away",
+   "selection": "NYR to win",
+   "group": "Game lines",
+   "market_name": "Winner",
+   "odds": -208,
+   "p": 0.6673,
+   "p_model": 0.6418,
+   "p_market": 0.66,
+   "p_breakeven": 0.6757,
+   "edge": -0.0084,
+   "ev": -0.0124,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "NYR ranks #22 in offense and #7 in defense of 32 (schedule-adjusted, recent games weighted more)",
+    "Last 10: 5-5, scoring 3.1 and allowing 3.4 goals/game (season: 2.95 / 2.8)",
+    "On the road: 2.0 scored / 3.3 allowed per game",
+    "Record 11-8-1 (road 3-6-1)",
+    "Injuries: Alberts Smits (D, Injured Reserve), Sean Durzi (D, Injured Reserve), Igor Shesterkin (G, Injured Reserve), Joe Veleno (C, Injured Reserve), Aidan Thompson (C, Injured Reserve)",
+    "Price moved -185 \u2192 -225 since opening, money moving toward NYR"
+   ],
+   "home": {
+    "name": "Vancouver Canucks",
+    "abbr": "VAN"
+   },
+   "away": {
+    "name": "New York Rangers",
+    "abbr": "NYR"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxnhlgame/nhl-game/kxnhlgame-26nov13nyrvan",
+    "price": 66,
+    "ticker": "KXNHLGAME-26NOV13NYRVAN-NYR",
+    "contract": "Yes \u00b7 New York R",
+    "buy": "yes"
+   },
+   "result": null,
+   "close_odds": -208
+  },
+  "401909303:KXNBAGAME-26NOV13PORSAC-POR:yes": {
+   "id": "401909303:KXNBAGAME-26NOV13PORSAC-POR:yes",
+   "sport": "nba",
+   "game_id": "401909303",
+   "short": "POR @ SAC",
+   "game": "Portland Trail Blazers at Sacramento Kings",
+   "start": "2026-11-14T03:00Z",
+   "market": "ml",
+   "side": "away",
+   "selection": "POR to win",
+   "group": "Game lines",
+   "market_name": "Winner",
+   "odds": -489,
+   "p": 0.825,
+   "p_model": 0.82,
+   "p_market": 0.8039,
+   "p_breakeven": 0.8303,
+   "edge": -0.0053,
+   "ev": -0.0064,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "POR ranks #7 in offense and #12 in defense of 32 (schedule-adjusted, recent games weighted more)",
+    "Last 10: 7-3, scoring 119.1 and allowing 115.2 pts/game (season: 119.55 / 112.27)",
+    "On the road: 124.0 scored / 115.33 allowed per game",
+    "Record 8-3 (road 5-1)",
+    "Injuries: Chris Youngblood (G, Out), Vit Krejci (G, Out), Ja Morant (G, Out), Shaedon Sharpe (G, Out)",
+    "Price moved -569 \u2192 -468 since opening, money moving away from POR"
+   ],
+   "home": {
+    "name": "Sacramento Kings",
+    "abbr": "SAC"
+   },
+   "away": {
+    "name": "Portland Trail Blazers",
+    "abbr": "POR"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxnbagame/nba-game/kxnbagame-26nov13porsac",
+    "price": 82,
+    "ticker": "KXNBAGAME-26NOV13PORSAC-POR",
+    "contract": "Yes \u00b7 Portland",
+    "buy": "yes"
+   },
+   "result": null,
+   "close_odds": -489
+  },
+  "401892707:KXNHLTOTAL-26NOV13NSHVGK-10:no": {
+   "id": "401892707:KXNHLTOTAL-26NOV13NSHVGK-10:no",
+   "sport": "nhl",
+   "game_id": "401892707",
+   "short": "NSH @ VGK",
+   "game": "Nashville Predators at Vegas Golden Knights",
+   "start": "2026-11-14T03:00Z",
+   "market": "total",
+   "side": "under",
+   "line": 9.5,
+   "selection": "Under 9.5",
+   "group": "Game lines",
+   "market_name": "Total",
+   "odds": -1428,
+   "p": 0.9323,
+   "p_model": 0.8941,
+   "p_market": 0.9208,
+   "p_breakeven": 0.9346,
+   "edge": -0.0023,
+   "ev": -0.0025,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "NSH: 3.11 scored / 2.79 allowed per game this season; last 10: 3.6 / 2.3",
+    "VGK: 3.45 scored / 2.7 allowed per game this season; last 10: 2.7 / 3.0"
+   ],
+   "home": {
+    "name": "Vegas Golden Knights",
+    "abbr": "VGK"
+   },
+   "away": {
+    "name": "Nashville Predators",
+    "abbr": "NSH"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxnhltotal/nhl-total-goals/kxnhltotal-26nov13nshvgk",
+    "price": 93,
+    "ticker": "KXNHLTOTAL-26NOV13NSHVGK-10",
+    "contract": "No \u00b7 Over 9.5",
+    "buy": "no"
+   },
+   "result": null,
+   "close_odds": -1428
+  }
+ },
+ "parlays": [
+  {
+   "legs": [
+    "401916337:KXINTLFRIENDLYTOTAL-26NOV14JPNBRA-6:no",
+    "401858526:KXNCAAFTOTAL-26NOV13ILLUCLA-70:no"
+   ],
+   "n": 2,
+   "mode": "safest",
+   "p": 0.8721,
+   "decimal": 1.145,
+   "american": -690,
+   "ev": -0.0015,
+   "tier": "lock",
+   "name": "lock_2",
+   "result": null
+  },
+  {
+   "legs": [
+    "401892707:KXNHLTOTAL-26NOV13NSHVGK-10:no",
+    "401930876:KXINTLFRIENDLYTOTAL-26NOV13ARGURU-1:yes",
+    "401856860:KXNCAAFTOTAL-26NOV13HOUCOLO-31:yes"
+   ],
+   "n": 3,
+   "mode": "safest",
+   "p": 0.7988,
+   "decimal": 1.225,
+   "american": -444,
+   "ev": -0.0213,
+   "tier": "lock",
+   "name": "lock_3",
+   "result": null
+  },
+  {
+   "legs": [
+    "401909296:KXNBAGAME-26NOV13NYKIND-NYK:yes",
+    "401930876:KXINTLFRIENDLYTOTAL-26NOV13ARGURU-4:no"
+   ],
+   "n": 2,
+   "mode": "safest",
+   "p": 0.5963,
+   "decimal": 1.675,
+   "american": -148,
+   "ev": -0.0013,
+   "tier": "best",
+   "name": "best_2",
+   "result": null
+  },
+  {
+   "legs": [
+    "401909297:KXNBAGAME-26NOV13MILORL-ORL:yes",
+    "401858526:KXNCAAFSPREAD-26NOV13ILLUCLA-UCLA2:yes",
+    "401861160:KXUEFANLTOTAL-26NOV13SVKFRO-4:no"
+   ],
+   "n": 3,
+   "mode": "safest",
+   "p": 0.4602,
+   "decimal": 2.14,
+   "american": 114,
+   "ev": -0.015,
+   "tier": "best",
+   "name": "best_3",
+   "result": null
+  }
+ ],
+ "straights": [],
+ "straights_best": [
+  "401861161:KXUEFANLGAME-26NOV13SCOMKD-SCO:yes",
+  "401909297:KXNBAGAME-26NOV13MILORL-ORL:yes",
+  "401861158:KXUEFANLGAME-26NOV13SRBGER-GER:yes",
+  "401909296:KXNBAGAME-26NOV13NYKIND-NYK:yes",
+  "401856860:KXNCAAFGAME-26NOV13HOUCOLO-HOU:yes",
+  "401921325:KXINTLFRIENDLYGAME-26NOV13COLCHI-COL:yes",
+  "401892706:KXNHLGAME-26NOV13NYRVAN-NYR:yes",
+  "401858293:KXNCAAFGAME-26NOV13FSUPITT-PITT:yes",
+  "401930876:KXINTLFRIENDLYTOTAL-26NOV13ARGURU-6:no",
+  "401883136:KXLALIGA2TOTAL-26NOV13LEGBUR-3:no"
+ ],
+ "locks": [
+  "401909301:KXNBAGAME-26NOV13UTAHOU-HOU:yes",
+  "401909302:KXNBAGAME-26NOV13GSWSAS-SAS:yes",
+  "401909303:KXNBAGAME-26NOV13PORSAC-POR:yes",
+  "401858526:KXNCAAFGAME-26NOV13ILLUCLA-UCLA:yes",
+  "401929711:KXCONCACAFNLTOTAL-26NOV13GTMCAN-6:no",
+  "401916337:KXINTLFRIENDLYTOTAL-26NOV14JPNBRA-1:yes",
+  "401930236:KXINTLFRIENDLYTOTAL-26NOV14CHNMAS-1:yes",
+  "401861157:KXUEFANLTOTAL-26NOV13BULISL-6:no",
+  "401861154:KXUEFANLTOTAL-26NOV13LUXEST-5:no"
+ ]
+}
