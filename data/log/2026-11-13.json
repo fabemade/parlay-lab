@@ -88,7 +88,7 @@
     "contract": "Yes \u00b7 Scotland",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -564
   },
   "401858526:KXNCAAFTOTAL-26NOV13ILLUCLA-70:no": {
@@ -133,7 +133,7 @@
     "buy": "no"
    },
    "result": null,
-   "close_odds": -1428
+   "close_odds": -1236
   },
   "401930876:KXINTLFRIENDLYTOTAL-26NOV13ARGURU-6:no": {
    "id": "401930876:KXINTLFRIENDLYTOTAL-26NOV13ARGURU-6:no",
@@ -220,7 +220,7 @@
     "contract": "No \u00b7 Over 3.5",
     "buy": "no"
    },
-   "result": null,
+   "result": "L",
    "close_odds": -306
   },
   "401856860:KXNCAAFGAME-26NOV13HOUCOLO-HOU:yes": {
@@ -268,7 +268,7 @@
     "buy": "yes"
    },
    "result": null,
-   "close_odds": -322
+   "close_odds": -306
   },
   "401861157:KXUEFANLTOTAL-26NOV13BULISL-6:no": {
    "id": "401861157:KXUEFANLTOTAL-26NOV13BULISL-6:no",
@@ -311,7 +311,7 @@
     "contract": "No \u00b7 Over 5.5",
     "buy": "no"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -2042
   },
   "401883136:KXLALIGA2TOTAL-26NOV13LEGBUR-3:no": {
@@ -355,7 +355,7 @@
     "contract": "No \u00b7 Over 2.5",
     "buy": "no"
    },
-   "result": null,
+   "result": "L",
    "close_odds": -168
   },
   "401858526:KXNCAAFGAME-26NOV13ILLUCLA-UCLA:yes": {
@@ -450,7 +450,7 @@
     "buy": "yes"
    },
    "result": null,
-   "close_odds": -360
+   "close_odds": -381
   },
   "401909301:KXNBAGAME-26NOV13UTAHOU-HOU:yes": {
    "id": "401909301:KXNBAGAME-26NOV13UTAHOU-HOU:yes",
@@ -497,7 +497,7 @@
     "buy": "yes"
    },
    "result": null,
-   "close_odds": -1236
+   "close_odds": -1087
   },
   "401930876:KXINTLFRIENDLYTOTAL-26NOV13ARGURU-4:no": {
    "id": "401930876:KXINTLFRIENDLYTOTAL-26NOV13ARGURU-4:no",
@@ -630,7 +630,7 @@
     "buy": "yes"
    },
    "result": null,
-   "close_odds": -1428
+   "close_odds": -1684
   },
   "401921325:KXINTLFRIENDLYGAME-26NOV13COLCHI-COL:yes": {
    "id": "401921325:KXINTLFRIENDLYGAME-26NOV13COLCHI-COL:yes",
@@ -717,7 +717,7 @@
     "contract": "No \u00b7 Over 4.5",
     "buy": "no"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -1684
   },
   "401930876:KXINTLFRIENDLYTOTAL-26NOV13ARGURU-1:yes": {
@@ -990,7 +990,7 @@
     "contract": "Yes \u00b7 Germany",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -404
   },
   "401929711:KXCONCACAFNLTOTAL-26NOV13GTMCAN-6:no": {
@@ -1035,7 +1035,7 @@
     "buy": "no"
    },
    "result": null,
-   "close_odds": -2042
+   "close_odds": -1684
   },
   "401858293:KXNCAAFGAME-26NOV13FSUPITT-PITT:yes": {
    "id": "401858293:KXNCAAFGAME-26NOV13FSUPITT-PITT:yes",
@@ -1129,7 +1129,7 @@
     "buy": "yes"
    },
    "result": null,
-   "close_odds": -208
+   "close_odds": -218
   },
   "401909303:KXNBAGAME-26NOV13PORSAC-POR:yes": {
    "id": "401909303:KXNBAGAME-26NOV13PORSAC-POR:yes",
@@ -1176,7 +1176,7 @@
     "buy": "yes"
    },
    "result": null,
-   "close_odds": -489
+   "close_odds": -458
   },
   "401892707:KXNHLTOTAL-26NOV13NSHVGK-10:no": {
    "id": "401892707:KXNHLTOTAL-26NOV13NSHVGK-10:no",
@@ -1220,7 +1220,7 @@
     "buy": "no"
    },
    "result": null,
-   "close_odds": -1428
+   "close_odds": -1684
   }
  },
  "parlays": [
@@ -1284,7 +1284,10 @@
    "ev": -0.015,
    "tier": "best",
    "name": "best_3",
-   "result": null
+   "result": "L",
+   "missed": [
+    "401861160:KXUEFANLTOTAL-26NOV13SVKFRO-4:no"
+   ]
   }
  ],
  "straights": [],
