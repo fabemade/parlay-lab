@@ -43,7 +43,7 @@
     "contract": "Yes \u00b7 Over 0.5",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -2042
   },
   "401861161:KXUEFANLGAME-26NOV13SCOMKD-SCO:yes": {
@@ -584,7 +584,7 @@
     "contract": "Yes \u00b7 Over 0.5",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -2580
   },
   "401856860:KXNCAAFTOTAL-26NOV13HOUCOLO-31:yes": {
@@ -852,7 +852,7 @@
     "contract": "No \u00b7 Over 5.5",
     "buy": "no"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -1236
   },
   "401909297:KXNBAGAME-26NOV13MILORL-ORL:yes": {
@@ -1237,7 +1237,8 @@
    "ev": -0.0015,
    "tier": "lock",
    "name": "lock_2",
-   "result": null
+   "result": "W",
+   "missed": []
   },
   {
    "legs": [
