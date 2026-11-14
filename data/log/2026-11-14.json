@@ -87,7 +87,7 @@
     "contract": "Yes \u00b7 Over 0.5",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -1428
   },
   "401891809:KXNHLGAME-26NOV14SEACAR-CAR:yes": {
@@ -133,7 +133,7 @@
     "contract": "Yes \u00b7 Carolina",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -381
   },
   "401856889:KXNCAAFSPREAD-26NOV14ALAVAN-ALA2:yes": {
@@ -180,7 +180,7 @@
     "contract": "Yes \u00b7 Alabama wins by over 1.5 points",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -609
   },
   "401860914:KXNCAAFSPREAD-26NOV14ORSTBSU-BSU2:yes": {
@@ -275,7 +275,7 @@
     "buy": "yes"
    },
    "result": null,
-   "close_odds": -199
+   "close_odds": -175
   },
   "401861166:KXUEFANLTOTAL-26NOV14SWEBIH-6:no": {
    "id": "401861166:KXUEFANLTOTAL-26NOV14SWEBIH-6:no",
@@ -318,7 +318,7 @@
     "contract": "No \u00b7 Over 5.5",
     "buy": "no"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -1428
   },
   "401909984:KXNBAGAME-26NOV14CHIMIN-MIN:yes": {
@@ -458,7 +458,7 @@
     "contract": "No \u00b7 Over 4.5",
     "buy": "no"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -2042
   },
   "401929774:KXCONCACAFNLTOTAL-26NOV14SINFGU-6:no": {
@@ -502,7 +502,7 @@
     "contract": "No \u00b7 Over 5.5",
     "buy": "no"
    },
-   "result": null,
+   "result": "L",
    "close_odds": -2042
   },
   "401858523:KXNCAAFTOTAL-26NOV14MICHORE-22:yes": {
@@ -592,7 +592,7 @@
     "contract": "No \u00b7 Over 3.5",
     "buy": "no"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -322
   },
   "401858294:KXNCAAFSPREAD-26NOV14BCND-ND10:yes": {
@@ -729,7 +729,7 @@
     "buy": "yes"
    },
    "result": null,
-   "close_odds": -2042
+   "close_odds": -1684
   },
   "401858523:KXNCAAFSPREAD-26NOV14MICHORE-ORE2:yes": {
    "id": "401858523:KXNCAAFSPREAD-26NOV14MICHORE-ORE2:yes",
@@ -821,7 +821,7 @@
     "contract": "Yes \u00b7 Portugal",
     "buy": "yes"
    },
-   "result": null,
+   "result": "L",
    "close_odds": -183
   },
   "401892712:KXNHLGAME-26NOV14DETTB-TB:yes": {
@@ -1046,7 +1046,7 @@
     "contract": "Yes \u00b7 Austria",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -168
   },
   "401909980:KXNBAGAME-26NOV14DENNOP-DEN:yes": {
@@ -1186,7 +1186,7 @@
     "buy": "no"
    },
    "result": null,
-   "close_odds": -322
+   "close_odds": -306
   }
  },
  "parlays": [
