@@ -132,7 +132,7 @@
     "contract": "No \u00b7 Over 69.5",
     "buy": "no"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -1236
   },
   "401930876:KXINTLFRIENDLYTOTAL-26NOV13ARGURU-6:no": {
@@ -176,7 +176,7 @@
     "contract": "No \u00b7 Over 5.5",
     "buy": "no"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -2580
   },
   "401861160:KXUEFANLTOTAL-26NOV13SVKFRO-4:no": {
@@ -267,7 +267,7 @@
     "contract": "Yes \u00b7 Houston",
     "buy": "yes"
    },
-   "result": null,
+   "result": "L",
    "close_odds": -306
   },
   "401861157:KXUEFANLTOTAL-26NOV13BULISL-6:no": {
@@ -401,7 +401,7 @@
     "contract": "Yes \u00b7 UCLA",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -430
   },
   "401858526:KXNCAAFSPREAD-26NOV13ILLUCLA-UCLA2:yes": {
@@ -449,7 +449,7 @@
     "contract": "Yes \u00b7 UCLA wins by over 1.5 points",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -381
   },
   "401909301:KXNBAGAME-26NOV13UTAHOU-HOU:yes": {
@@ -496,7 +496,7 @@
     "contract": "Yes \u00b7 Houston",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -1087
   },
   "401930876:KXINTLFRIENDLYTOTAL-26NOV13ARGURU-4:no": {
@@ -540,7 +540,7 @@
     "contract": "No \u00b7 Over 3.5",
     "buy": "no"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -340
   },
   "401916337:KXINTLFRIENDLYTOTAL-26NOV14JPNBRA-1:yes": {
@@ -585,7 +585,7 @@
     "buy": "yes"
    },
    "result": null,
-   "close_odds": -2042
+   "close_odds": -2580
   },
   "401856860:KXNCAAFTOTAL-26NOV13HOUCOLO-31:yes": {
    "id": "401856860:KXNCAAFTOTAL-26NOV13HOUCOLO-31:yes",
@@ -629,7 +629,7 @@
     "contract": "Yes \u00b7 Over 30.5",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -1684
   },
   "401921325:KXINTLFRIENDLYGAME-26NOV13COLCHI-COL:yes": {
@@ -673,7 +673,7 @@
     "contract": "Yes \u00b7 Colombia",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -228
   },
   "401861154:KXUEFANLTOTAL-26NOV13LUXEST-5:no": {
@@ -761,7 +761,7 @@
     "contract": "Yes \u00b7 Over 0.5",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -1428
   },
   "401909302:KXNBAGAME-26NOV13GSWSAS-SAS:yes": {
@@ -808,7 +808,7 @@
     "contract": "Yes \u00b7 San Antonio",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -609
   },
   "401916337:KXINTLFRIENDLYTOTAL-26NOV14JPNBRA-6:no": {
@@ -853,7 +853,7 @@
     "buy": "no"
    },
    "result": null,
-   "close_odds": -1428
+   "close_odds": -1236
   },
   "401909297:KXNBAGAME-26NOV13MILORL-ORL:yes": {
    "id": "401909297:KXNBAGAME-26NOV13MILORL-ORL:yes",
@@ -899,7 +899,7 @@
     "contract": "Yes \u00b7 Orlando",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -381
   },
   "401909296:KXNBAGAME-26NOV13NYKIND-NYK:yes": {
@@ -945,7 +945,7 @@
     "contract": "Yes \u00b7 New York",
     "buy": "yes"
    },
-   "result": null,
+   "result": "L",
    "close_odds": -340
   },
   "401861158:KXUEFANLGAME-26NOV13SRBGER-GER:yes": {
@@ -1034,7 +1034,7 @@
     "contract": "No \u00b7 Over 5.5",
     "buy": "no"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -1684
   },
   "401858293:KXNCAAFGAME-26NOV13FSUPITT-PITT:yes": {
@@ -1081,7 +1081,7 @@
     "contract": "Yes \u00b7 Pittsburgh",
     "buy": "yes"
    },
-   "result": null,
+   "result": "L",
    "close_odds": -161
   },
   "401892706:KXNHLGAME-26NOV13NYRVAN-NYR:yes": {
@@ -1128,7 +1128,7 @@
     "contract": "Yes \u00b7 New York R",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -218
   },
   "401909303:KXNBAGAME-26NOV13PORSAC-POR:yes": {
@@ -1175,7 +1175,7 @@
     "contract": "Yes \u00b7 Portland",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -458
   },
   "401892707:KXNHLTOTAL-26NOV13NSHVGK-10:no": {
@@ -1219,7 +1219,7 @@
     "contract": "No \u00b7 Over 9.5",
     "buy": "no"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -1684
   }
  },
@@ -1253,7 +1253,8 @@
    "ev": -0.0213,
    "tier": "lock",
    "name": "lock_3",
-   "result": null
+   "result": "W",
+   "missed": []
   },
   {
    "legs": [
@@ -1268,7 +1269,10 @@
    "ev": -0.0013,
    "tier": "best",
    "name": "best_2",
-   "result": null
+   "result": "L",
+   "missed": [
+    "401909296:KXNBAGAME-26NOV13NYKIND-NYK:yes"
+   ]
   },
   {
    "legs": [

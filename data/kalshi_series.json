@@ -13,6 +13,10 @@
    "TOTAL": "Point Total"
   },
   "BRASILEIRO": {
+   "1H": "1st Half Winner",
+   "1HBTTS": "1st Half BTTS",
+   "1HSPREAD": "1st Half Spread",
+   "1HTOTAL": "1st Half Total",
    "B1H": "1st Half Winner",
    "B1HBTTS": "1st Half BTTS",
    "B1HSPREAD": "1st Half Spread",
@@ -22,8 +26,11 @@
    "BSPREAD": "Spread",
    "BTOTAL": "Point Total",
    "BTTS": "BTTS",
+   "FTTS": "First Team to Score",
    "GAME": "Brasileiro Serie A Game",
+   "SCORE": "Correct Score",
    "SPREAD": "Brasileiro Serie A Game",
+   "TEAMTOTAL": "Team Total",
    "TOTAL": "Brasileiro Total"
   },
   "BUNDESLIGA": {
@@ -58,6 +65,7 @@
    "1HBTTS": "1st Half BTTS",
    "1HSPREAD": "1st Half Spread",
    "1HTOTAL": "1st Half Total",
+   "ADVANCE": "To Advance",
    "BTTS": "BTTS",
    "GAME": "CONCACAF Nations League Game",
    "SPREAD": "Spread",
@@ -85,6 +93,10 @@
    "TOTAL": "EFL Championship Total"
   },
   "EFLL1": {
+   "1H": "1st Half Winner",
+   "1HBTTS": "1st Half BTTS",
+   "1HSPREAD": "1st Half Spread",
+   "1HTOTAL": "1st Half Total",
    "BTTS": "BTTS",
    "GAME": "EFL League One Game",
    "SPREAD": "Spread",
@@ -145,12 +157,27 @@
    "TOTAL": "La Liga Total"
   },
   "LALIGA2": {
-   "GAME": "LaLiga 2 Game"
+   "BTTS": "BTTS",
+   "GAME": "LaLiga 2 Game",
+   "SPREAD": "Spread",
+   "TOTAL": "Point Total"
   },
   "LIGAMX": {
+   "1H": "1st Half Winner",
+   "1HBTTS": "1st Half BTTS",
+   "1HSCORE": "1st Half Correct Score",
+   "1HSPREAD": "1st Half Spread",
+   "1HTOTAL": "1st Half Total",
+   "2H": "2nd Half Winner",
+   "2HBTTS": "2nd Half BTTS",
+   "2HSPREAD": "2nd Half Spread",
+   "2HTOTAL": "2nd Half Total",
    "BTTS": "Liga MX BTTS",
+   "FTTS": "First Team to Score",
    "GAME": "Liga MX Game",
+   "SCORE": "Correct Score",
    "SPREAD": "Liga MX Game",
+   "TEAMTOTAL": "Team Total",
    "TOTAL": "Liga MX Total",
    "WBTTS": "BTTS",
    "WGAME": "Liga MX Women Game",
@@ -246,7 +273,6 @@
    "1Q": "NBA 1st Quarter Winner",
    "1QSPREAD": "NBA 1st Quarter Spread",
    "1QTOTAL": "NBA 1st Quarter Total",
-   "2D": "NBA Player Double Double",
    "2H": "NBA 2nd Half Winner",
    "2HSPREAD": "NBA 2nd Half Spread",
    "2HTOTAL": "NBA 2nd Half Total",
@@ -254,7 +280,6 @@
    "2QSPREAD": "NBA 2nd Quarter Spread",
    "2QTOTAL": "NBA 2nd Quarter Total",
    "30PTSTREAK": "NBA 30 Point Streak",
-   "3D": "NBA Player Triple Double",
    "3PT": "NBA Player Threes",
    "3PTPROT": "NBA Player Threes Protected",
    "3Q": "NBA 3rd Quarter Winner",
@@ -263,30 +288,20 @@
    "4Q": "NBA 4th Quarter Winner",
    "4QSPREAD": "NBA 4th Quarter Spread",
    "4QTOTAL": "NBA 4th Quarter Total",
-   "AST": "NBA Player Assists",
-   "ASTPROT": "NBA Player Assists Protected",
-   "BLK": "NBA Player Blocks",
-   "ESCALATOR3PT": "NBA Player Threes Escalator",
-   "ESCALATORPTS": "NBA Player Points Escalator",
    "FRANCHISECOST": "NBA Franchise Cost",
    "FRANCHISEOWNER": "NBA Franchise Owner",
    "GAME": "NBA Game",
    "NEXTGOVERNOR": "Pro Basketball Next Governor",
    "OT": "NBA Overtime",
-   "PRA": "NBA Player Points + Rebounds + Assists",
-   "PRAPROT": "Pts + Reb + Ast Protected",
    "PTS": "NBA Player Points",
-   "PTSLEADER": "NBA Game Points Leader",
    "PTSPROT": "NBA Player Points Protected",
    "RACE": "NBA Race to Points",
-   "REBPROT": "NBA Player Rebounds Protected",
    "SPREAD": "NBA Spread",
    "STADIUM": "NBA Stadium Completion",
    "STAKESALE": "NBA Team Ownership Stake Sale Agreement",
-   "STL": "NBA Player Steals",
-   "STOCK": "NBA Player Steals + Blocks",
    "TEAMTOTAL": "NBA Team Total",
    "TOTAL": "NBA Total",
+   "TOTALPRECISE": "NBA Total Points Range",
    "WINMARGIN": "NBA Win Margin"
   },
   "NCAAF": {
@@ -380,7 +395,6 @@
    "FG": "Pro Football Field Goals",
    "FIRSTTD": "Pro Football First Touchdown",
    "FIRSTTDTEAM": "Pro Football First Team to Score a Touchdown",
-   "GAME": "NFL Game",
    "LADDERREC": "Receptions Ladder",
    "LADDERRECYDS": "Receiving Yards Ladder",
    "LADDERRSHYDS": "Rushing Yards Ladder",
@@ -392,6 +406,7 @@
    "PASSATT": "Pro Football Passing Attempts",
    "PASSCOMP": "Pro Football Passing Completions",
    "PASSINT": "Pro Football Passing Interceptions",
+   "PASSINTPROT": "Passing Interceptions Protected",
    "PASSTDS": "Pro Football player Passing Touchdowns",
    "PASSTDSPROT": "Passing Touchdowns Protected",
    "PASSYDS": "Pro Football Passing Yards",
@@ -404,6 +419,7 @@
    "RECYDSPROT": "Receiving Yards Protected",
    "ROLE": "Pro Football Role at Event",
    "RRYDS": "Pro Football Rush and Receiving Yards",
+   "RRYDSPROT": "Rushing and Receiving Yards Protected",
    "RSHATT": "Pro Football Rushing Attempts",
    "RSHYDS": "Pro Football Rushing Yards",
    "RSHYDSPROT": "Rushing Yards Protected",
@@ -439,7 +455,6 @@
    "GOAL": "NHL Goalscorer",
    "OT": "NHL Overtime",
    "PTS": "Pro Hockey Points",
-   "SAVE": "Goaltender Saves",
    "SPREAD": "NHL Spread",
    "TEAMTOTAL": "NHL Team Goals Scored During Game",
    "TOTAL": "NHL Total Goals"
@@ -576,5 +591,5 @@
    "TOTAL": "Women's Pro Basketball Total"
   }
  },
- "updated": "2026-11-12T01:42:53.550607+00:00"
+ "updated": "2026-11-14T06:58:27.796388+00:00"
 }
