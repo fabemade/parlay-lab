@@ -43,7 +43,7 @@
     "contract": "No \u00b7 Over 5.5",
     "buy": "no"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -1428
   },
   "401861177:KXUEFANLGAME-26NOV15FRATUR-FRA:yes": {
@@ -88,7 +88,7 @@
     "contract": "Yes \u00b7 France",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -564
   },
   "401861176:KXUEFANLTOTAL-26NOV15BELITA-1:yes": {
@@ -132,7 +132,7 @@
     "contract": "Yes \u00b7 Over 0.5",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -2580
   },
   "401909993:KXNBAGAME-26NOV15OKCSAC-OKC:yes": {
@@ -227,7 +227,7 @@
     "buy": "yes"
    },
    "result": null,
-   "close_odds": -340
+   "close_odds": -322
   },
   "401873062:KXNFLTOTAL-26NOV15SEALV-23:yes": {
    "id": "401873062:KXNFLTOTAL-26NOV15SEALV-23:yes",
@@ -272,7 +272,7 @@
     "contract": "Yes \u00b7 Over 22.5",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -2042
   },
   "401861178:KXUEFANLTOTAL-26NOV15CROCZE-1:yes": {
@@ -316,7 +316,7 @@
     "contract": "Yes \u00b7 Over 0.5",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -2042
   },
   "401909992:KXNBAGAME-26NOV15ATLMIL-ATL:yes": {
@@ -364,7 +364,7 @@
     "buy": "yes"
    },
    "result": null,
-   "close_odds": -290
+   "close_odds": -322
   },
   "401892725:KXNHLGAME-26NOV15NSHSJ-NSH:yes": {
    "id": "401892725:KXNHLGAME-26NOV15NSHSJ-NSH:yes",
