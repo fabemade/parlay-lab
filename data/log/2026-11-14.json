@@ -43,7 +43,7 @@
     "contract": "Yes \u00b7 Over 203.5",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -2042
   },
   "401861170:KXUEFANLTOTAL-26NOV14AUTIRL-1:yes": {
@@ -227,7 +227,7 @@
     "contract": "Yes \u00b7 Boise St. wins by over 1.5 points",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -609
   },
   "401909982:KXNBAGAME-26NOV14DETMIA-DET:yes": {
@@ -274,7 +274,7 @@
     "contract": "Yes \u00b7 Detroit",
     "buy": "yes"
    },
-   "result": null,
+   "result": "L",
    "close_odds": -175
   },
   "401861166:KXUEFANLTOTAL-26NOV14SWEBIH-6:no": {
@@ -365,7 +365,7 @@
     "contract": "Yes \u00b7 Minnesota",
     "buy": "yes"
    },
-   "result": null,
+   "result": "L",
    "close_odds": -869
   },
   "401871099:KXNCAAFGAME-26NOV14USMLT-LT:yes": {
@@ -867,7 +867,7 @@
     "contract": "Yes \u00b7 Tampa Bay",
     "buy": "yes"
    },
-   "result": null,
+   "result": "L",
    "close_odds": -218
   },
   "401841311:KXBRASILEIROTOTAL-26NOV14MIRATL-6:no": {
@@ -955,7 +955,7 @@
     "contract": "No \u00b7 Over 9.5",
     "buy": "no"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -1428
   },
   "401871061:KXNCAAFGAME-26NOV14MTULIB-LIB:yes": {
@@ -1093,7 +1093,7 @@
     "contract": "Yes \u00b7 Denver",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -609
   },
   "401858518:KXNCAAFGAME-26NOV14USCIND-IND:yes": {
@@ -1185,7 +1185,7 @@
     "contract": "No \u00b7 Over 3.5",
     "buy": "no"
    },
-   "result": null,
+   "result": "L",
    "close_odds": -306
   }
  },
@@ -1220,7 +1220,8 @@
    "ev": -0.009,
    "tier": "lock",
    "name": "lock_3",
-   "result": null
+   "result": "W",
+   "missed": []
   },
   {
    "legs": [
@@ -1235,7 +1236,10 @@
    "ev": -0.0068,
    "tier": "best",
    "name": "best_2",
-   "result": null
+   "result": "L",
+   "missed": [
+    "401929772:KXCONCACAFNLTOTAL-26NOV14JAMMEX-4:no"
+   ]
   },
   {
    "legs": [
