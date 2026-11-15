@@ -412,7 +412,7 @@
     "contract": "Yes \u00b7 Louisiana Tech",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -869
   },
   "401861169:KXUEFANLTOTAL-26NOV14NIRUKR-5:no": {
@@ -548,7 +548,7 @@
     "contract": "Yes \u00b7 Over 21.5",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -1428
   },
   "401861170:KXUEFANLTOTAL-26NOV14AUTIRL-4:no": {
@@ -640,7 +640,7 @@
     "contract": "Yes \u00b7 Notre Dame wins by over 9.5 points",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -1087
   },
   "401841175:KXBRASILEIROTOTAL-26NOV14CHAVDG-1:yes": {
@@ -684,7 +684,7 @@
     "contract": "Yes \u00b7 Over 0.5",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -2580
   },
   "401876988:KXLIGAMXTOTAL-26NOV14QUEMON-1:yes": {
@@ -728,7 +728,7 @@
     "contract": "Yes \u00b7 Over 0.5",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -1684
   },
   "401858523:KXNCAAFSPREAD-26NOV14MICHORE-ORE2:yes": {
@@ -776,7 +776,7 @@
     "contract": "Yes \u00b7 Oregon wins by over 1.5 points",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -381
   },
   "401861167:KXUEFANLGAME-26NOV14PORDEN-POR:yes": {
@@ -911,7 +911,7 @@
     "contract": "No \u00b7 Over 5.5",
     "buy": "no"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -2042
   },
   "401892712:KXNHLTOTAL-26NOV14DETTB-10:no": {
@@ -1001,7 +1001,7 @@
     "contract": "Yes \u00b7 Liberty",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -1428
   },
   "401861170:KXUEFANLGAME-26NOV14AUTIRL-AUT:yes": {
@@ -1141,7 +1141,7 @@
     "contract": "Yes \u00b7 Indiana",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -340
   },
   "401929772:KXCONCACAFNLTOTAL-26NOV14JAMMEX-4:no": {
@@ -1203,7 +1203,8 @@
    "ev": -0.0032,
    "tier": "lock",
    "name": "lock_2",
-   "result": null
+   "result": "W",
+   "missed": []
   },
   {
    "legs": [
@@ -1250,7 +1251,8 @@
    "ev": -0.0538,
    "tier": "best",
    "name": "best_3",
-   "result": null
+   "result": "W",
+   "missed": []
   }
  ],
  "straights": [],
