@@ -179,7 +179,7 @@
     "contract": "Yes \u00b7 Oklahoma City",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -458
   },
   "401909991:KXNBAGAME-26NOV15HOUWAS-HOU:yes": {
@@ -363,7 +363,7 @@
     "contract": "Yes \u00b7 Atlanta",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -322
   },
   "401892725:KXNHLGAME-26NOV15NSHSJ-NSH:yes": {
@@ -408,7 +408,7 @@
     "contract": "Yes \u00b7 Nashville",
     "buy": "yes"
    },
-   "result": null,
+   "result": "L",
    "close_odds": -168
   },
   "401892721:KXNHLTOTAL-26NOV15EDMPHI-10:no": {
@@ -452,7 +452,7 @@
     "contract": "No \u00b7 Over 9.5",
     "buy": "no"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -1428
   },
   "401873063:KXNFLTOTAL-26NOV15SFDAL-38:yes": {
@@ -586,7 +586,7 @@
     "contract": "Yes \u00b7 Over 30.5",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -2042
   },
   "401873061:KXNFLGAME-26NOV15LARARI-LAR:yes": {
@@ -723,7 +723,7 @@
     "contract": "No \u00b7 Over 9.5",
     "buy": "no"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -1684
   },
   "401873063:KXNFLTOTAL-26NOV15SFDAL-77:no": {
@@ -956,7 +956,7 @@
     "contract": "Yes \u00b7 Vegas",
     "buy": "yes"
    },
-   "result": null,
+   "result": "L",
    "close_odds": -404
   },
   "401929709:KXCONCACAFNLTOTAL-26NOV15PANCUW-4:no": {
@@ -1037,7 +1037,8 @@
    "ev": -0.0288,
    "tier": "lock",
    "name": "lock_3",
-   "result": null
+   "result": "W",
+   "missed": []
   },
   {
    "legs": [
