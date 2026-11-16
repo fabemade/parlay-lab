@@ -226,7 +226,7 @@
     "contract": "Yes \u00b7 Houston",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -322
   },
   "401873062:KXNFLTOTAL-26NOV15SEALV-23:yes": {
@@ -497,7 +497,7 @@
     "contract": "Yes \u00b7 Over 37.5",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -1428
   },
   "401929709:KXCONCACAFNLTOTAL-26NOV15PANCUW-1:yes": {
@@ -541,7 +541,7 @@
     "contract": "Yes \u00b7 Over 0.5",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -1428
   },
   "401873064:KXNFLTOTAL-26NOV15PITCIN-31:yes": {
@@ -633,7 +633,7 @@
     "contract": "Yes \u00b7 Los Angeles R",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -458
   },
   "401909989:KXNBAGAME-26NOV15DALBOS-BOS:yes": {
@@ -679,7 +679,7 @@
     "contract": "Yes \u00b7 Boston",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -719
   },
   "401892722:KXNHLTOTAL-26NOV15FLADAL-10:no": {
@@ -768,7 +768,7 @@
     "contract": "No \u00b7 Over 76.5",
     "buy": "no"
    },
-   "result": null,
+   "result": "L",
    "close_odds": -1428
   },
   "401873063:KXNFLGAME-26NOV15SFDAL-SF:yes": {
@@ -815,7 +815,7 @@
     "contract": "Yes \u00b7 San Francisco",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -208
   },
   "401909988:KXNBAGAME-26NOV15SASUTA-SAS:yes": {
@@ -863,7 +863,7 @@
     "contract": "Yes \u00b7 San Antonio",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -967
   },
   "401873062:KXNFLGAME-26NOV15SEALV-SEA:yes": {
@@ -910,7 +910,7 @@
     "contract": "Yes \u00b7 Seattle",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -276
   },
   "401892724:KXNHLGAME-26NOV15VANVGK-VGK:yes": {
@@ -1000,7 +1000,7 @@
     "contract": "No \u00b7 Over 3.5",
     "buy": "no"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -381
   }
  },
@@ -1018,7 +1018,10 @@
    "ev": -0.0028,
    "tier": "lock",
    "name": "lock_2",
-   "result": null
+   "result": "L",
+   "missed": [
+    "401873063:KXNFLTOTAL-26NOV15SFDAL-77:no"
+   ]
   },
   {
    "legs": [
@@ -1049,7 +1052,8 @@
    "ev": -0.0132,
    "tier": "best",
    "name": "best_2",
-   "result": null
+   "result": "W",
+   "missed": []
   }
  ],
  "straights": [],
