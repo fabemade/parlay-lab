@@ -43,7 +43,7 @@
     "contract": "No \u00b7 Over 4.5",
     "buy": "no"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -1236
   },
   "401910001:KXNBATOTAL-26NOV16PHXDEN-203:yes": {
@@ -269,7 +269,7 @@
     "contract": "Yes \u00b7 Over 0.5",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -1428
   },
   "401909998:KXNBATOTAL-26NOV16HOUMIA-257:no": {
@@ -403,7 +403,7 @@
     "contract": "No \u00b7 Over 3.5",
     "buy": "no"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -322
   },
   "401909994:KXNBAGAME-26NOV16ORLBOS-BOS:yes": {
@@ -514,7 +514,8 @@
    "ev": -0.0035,
    "tier": "lock",
    "name": "lock_2",
-   "result": null
+   "result": "W",
+   "missed": []
   },
   {
    "legs": [
@@ -530,7 +531,8 @@
    "ev": -0.0257,
    "tier": "lock",
    "name": "lock_3",
-   "result": null
+   "result": "W",
+   "missed": []
   },
   {
    "legs": [
@@ -545,7 +547,8 @@
    "ev": -0.0084,
    "tier": "best",
    "name": "best_2",
-   "result": null
+   "result": "W",
+   "missed": []
   }
  ],
  "straights": [],
