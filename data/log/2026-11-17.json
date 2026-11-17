@@ -1,0 +1,1108 @@
+{
+ "date": "2026-11-17",
+ "locked_at": "2026-11-17T08:44-05:00",
+ "legs": {
+  "401931956:KXINTLFRIENDLYTOTAL-26NOV17KUWHND-4:no": {
+   "id": "401931956:KXINTLFRIENDLYTOTAL-26NOV17KUWHND-4:no",
+   "sport": "soccer_fifa.friendly",
+   "game_id": "401931956",
+   "short": "HON @ KUW",
+   "game": "Honduras at Kuwait",
+   "start": "2026-11-17T16:30Z",
+   "market": "total",
+   "side": "under",
+   "line": 3.5,
+   "selection": "Under 3.5",
+   "group": "Game lines",
+   "market_name": "Total",
+   "odds": -340,
+   "p": 0.7645,
+   "p_model": 0.6741,
+   "p_market": 0.7525,
+   "p_breakeven": 0.7728,
+   "edge": -0.0083,
+   "ev": -0.0107,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "HON: 1.2 scored / 1.8 allowed per game this season; last 5: 1.2 / 1.8",
+    "KUW: 3.0 scored / 0.0 allowed per game this season; last 1: 3.0 / 0.0"
+   ],
+   "home": {
+    "name": "Kuwait",
+    "abbr": "KUW"
+   },
+   "away": {
+    "name": "Honduras",
+    "abbr": "HON"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxintlfriendlytotal/international-friendly-total/kxintlfriendlytotal-26nov17kuwhnd",
+    "price": 76,
+    "ticker": "KXINTLFRIENDLYTOTAL-26NOV17KUWHND-4",
+    "contract": "No \u00b7 Over 3.5",
+    "buy": "no"
+   },
+   "result": null,
+   "close_odds": -340
+  },
+  "401932718:KXINTLFRIENDLYTOTAL-26NOV17UAESYR-1:yes": {
+   "id": "401932718:KXINTLFRIENDLYTOTAL-26NOV17UAESYR-1:yes",
+   "sport": "soccer_fifa.friendly",
+   "game_id": "401932718",
+   "short": "SYR @ UAE",
+   "game": "Syria at United Arab Emirates",
+   "start": "2026-11-17T14:10Z",
+   "market": "total",
+   "side": "over",
+   "line": 0.5,
+   "selection": "Over 0.5",
+   "group": "Game lines",
+   "market_name": "Total",
+   "odds": -2042,
+   "p": 0.9508,
+   "p_model": 0.9507,
+   "p_market": 0.9406,
+   "p_breakeven": 0.9533,
+   "edge": -0.0025,
+   "ev": -0.0026,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "SYR: 0.67 scored / 2.67 allowed per game this season; last 3: 0.67 / 2.67",
+    "UAE: 3.0 scored / 1.0 allowed per game this season; last 1: 3.0 / 1.0"
+   ],
+   "home": {
+    "name": "United Arab Emirates",
+    "abbr": "UAE"
+   },
+   "away": {
+    "name": "Syria",
+    "abbr": "SYR"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxintlfriendlytotal/international-friendly-total/kxintlfriendlytotal-26nov17uaesyr",
+    "price": 95,
+    "ticker": "KXINTLFRIENDLYTOTAL-26NOV17UAESYR-1",
+    "contract": "Yes \u00b7 Over 0.5",
+    "buy": "yes"
+   },
+   "result": null,
+   "close_odds": -2042
+  },
+  "401919974:KXINTLFRIENDLYTOTAL-26NOV17JORAUS-6:no": {
+   "id": "401919974:KXINTLFRIENDLYTOTAL-26NOV17JORAUS-6:no",
+   "sport": "soccer_fifa.friendly",
+   "game_id": "401919974",
+   "short": "AUS @ JOR",
+   "game": "Australia at Jordan",
+   "start": "2026-11-17T16:00Z",
+   "market": "total",
+   "side": "under",
+   "line": 5.5,
+   "selection": "Under 5.5",
+   "group": "Game lines",
+   "market_name": "Total",
+   "odds": -2580,
+   "p": 0.9597,
+   "p_model": 0.9586,
+   "p_market": 0.9505,
+   "p_breakeven": 0.9627,
+   "edge": -0.003,
+   "ev": -0.0031,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "AUS: 2.0 scored / 1.67 allowed per game this season; last 3: 2.0 / 1.67",
+    "JOR: 0.5 scored / 0.5 allowed per game this season; last 2: 0.5 / 0.5"
+   ],
+   "home": {
+    "name": "Jordan",
+    "abbr": "JOR"
+   },
+   "away": {
+    "name": "Australia",
+    "abbr": "AUS"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxintlfriendlytotal/international-friendly-total/kxintlfriendlytotal-26nov17joraus",
+    "price": 96,
+    "ticker": "KXINTLFRIENDLYTOTAL-26NOV17JORAUS-6",
+    "contract": "No \u00b7 Over 5.5",
+    "buy": "no"
+   },
+   "result": null,
+   "close_odds": -2580
+  },
+  "401861195:KXUEFANLTOTAL-26NOV17POLSWE-1:yes": {
+   "id": "401861195:KXUEFANLTOTAL-26NOV17POLSWE-1:yes",
+   "sport": "soccer_uefa.nations",
+   "game_id": "401861195",
+   "short": "SWE @ POL",
+   "game": "Sweden at Poland",
+   "start": "2026-11-17T19:45Z",
+   "market": "total",
+   "side": "over",
+   "line": 0.5,
+   "selection": "Over 0.5",
+   "group": "Game lines",
+   "market_name": "Total",
+   "odds": -2580,
+   "p": 0.9594,
+   "p_model": 0.9508,
+   "p_market": 0.9505,
+   "p_breakeven": 0.9627,
+   "edge": -0.0033,
+   "ev": -0.0034,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "SWE: 2.0 scored / 1.0 allowed per game this season; last 5: 2.0 / 1.0",
+    "POL: 1.6 scored / 1.2 allowed per game this season; last 5: 1.6 / 1.2",
+    "Line moved from +2.5 to +3.5 since opening (total)"
+   ],
+   "home": {
+    "name": "Poland",
+    "abbr": "POL"
+   },
+   "away": {
+    "name": "Sweden",
+    "abbr": "SWE"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxuefanltotal/point-total/kxuefanltotal-26nov17polswe",
+    "price": 96,
+    "ticker": "KXUEFANLTOTAL-26NOV17POLSWE-1",
+    "contract": "Yes \u00b7 Over 0.5",
+    "buy": "yes"
+   },
+   "result": null,
+   "close_odds": -2580
+  },
+  "401861191:KXUEFANLTOTAL-26NOV17HUNNIR-5:no": {
+   "id": "401861191:KXUEFANLTOTAL-26NOV17HUNNIR-5:no",
+   "sport": "soccer_uefa.nations",
+   "game_id": "401861191",
+   "short": "NIR @ HUN",
+   "game": "Northern Ireland at Hungary",
+   "start": "2026-11-17T19:45Z",
+   "market": "total",
+   "side": "under",
+   "line": 4.5,
+   "selection": "Under 4.5",
+   "group": "Game lines",
+   "market_name": "Total",
+   "odds": -1428,
+   "p": 0.9333,
+   "p_model": 0.9359,
+   "p_market": 0.9208,
+   "p_breakeven": 0.9346,
+   "edge": -0.0013,
+   "ev": -0.0014,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "NIR: 1.0 scored / 0.0 allowed per game this season; last 5: 1.0 / 0.0",
+    "HUN: 1.0 scored / 0.4 allowed per game this season; last 5: 1.0 / 0.4"
+   ],
+   "home": {
+    "name": "Hungary",
+    "abbr": "HUN"
+   },
+   "away": {
+    "name": "Northern Ireland",
+    "abbr": "NIR"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxuefanltotal/point-total/kxuefanltotal-26nov17hunnir",
+    "price": 93,
+    "ticker": "KXUEFANLTOTAL-26NOV17HUNNIR-5",
+    "contract": "No \u00b7 Over 4.5",
+    "buy": "no"
+   },
+   "result": null,
+   "close_odds": -1428
+  },
+  "401910006:KXNBAGAME-26NOV17UTALAC-LAC:yes": {
+   "id": "401910006:KXNBAGAME-26NOV17UTALAC-LAC:yes",
+   "sport": "nba",
+   "game_id": "401910006",
+   "short": "UTAH @ LAC",
+   "game": "Utah Jazz at LA Clippers",
+   "start": "2026-11-18T03:30Z",
+   "market": "ml",
+   "side": "home",
+   "selection": "LAC to win",
+   "group": "Game lines",
+   "market_name": "Winner",
+   "odds": -239,
+   "p": 0.6911,
+   "p_model": 0.6686,
+   "p_market": 0.6832,
+   "p_breakeven": 0.705,
+   "edge": -0.0139,
+   "ev": -0.0197,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "LAC ranks #19 in offense and #19 in defense of 32 (schedule-adjusted, recent games weighted more)",
+    "Last 10: 3-7, scoring 111.0 and allowing 117.7 pts/game (season: 112.33 / 116.5)",
+    "At home: 115.29 scored / 111.57 allowed per game",
+    "Record 4-8 (home 4-3)",
+    "Injuries: Yanic Konan Niederhauser (C, Out), Brandon Ingram (F, Out), Bradley Beal (G, Out), Jordan Miller (G, Out)",
+    "Price moved -199 \u2192 -238 since opening, money moving toward LAC"
+   ],
+   "home": {
+    "name": "LA Clippers",
+    "abbr": "LAC"
+   },
+   "away": {
+    "name": "Utah Jazz",
+    "abbr": "UTAH"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxnbagame/nba-game/kxnbagame-26nov17utalac",
+    "price": 69,
+    "ticker": "KXNBAGAME-26NOV17UTALAC-LAC",
+    "contract": "Yes \u00b7 Los Angeles C",
+    "buy": "yes"
+   },
+   "result": null,
+   "close_odds": -239
+  },
+  "401866464:KXNCAAFGAME-26NOV17BALLOHIO-OHIO:yes": {
+   "id": "401866464:KXNCAAFGAME-26NOV17BALLOHIO-OHIO:yes",
+   "sport": "cfb",
+   "game_id": "401866464",
+   "short": "BALL @ OHIO",
+   "game": "Ball State Cardinals at Ohio Bobcats",
+   "start": "2026-11-18T00:00Z",
+   "market": "ml",
+   "side": "home",
+   "selection": "OHIO to win",
+   "group": "Game lines",
+   "market_name": "Winner",
+   "odds": -458,
+   "p": 0.8202,
+   "p_model": 0.8553,
+   "p_market": 0.802,
+   "p_breakeven": 0.8208,
+   "edge": -0.0006,
+   "ev": -0.0007,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "OHIO ranks #84 in offense and #78 in defense of 143 (schedule-adjusted, recent games weighted more)",
+    "Last 10: 7-3, scoring 28.2 and allowing 22.9 pts/game (season: 28.2 / 22.9)",
+    "At home: 29.75 scored / 17.0 allowed per game",
+    "Record 7-3",
+    "Price moved -355 \u2192 -455 since opening, money moving toward OHIO"
+   ],
+   "home": {
+    "name": "Ohio Bobcats",
+    "abbr": "OHIO"
+   },
+   "away": {
+    "name": "Ball State Cardinals",
+    "abbr": "BALL"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxncaafgame/college-football-game/kxncaafgame-26nov17ballohio",
+    "price": 81,
+    "ticker": "KXNCAAFGAME-26NOV17BALLOHIO-OHIO",
+    "contract": "Yes \u00b7 Ohio",
+    "buy": "yes"
+   },
+   "result": null,
+   "close_odds": -458
+  },
+  "401930899:KXINTLFRIENDLYGAME-26NOV17ECUBOL-ECU:yes": {
+   "id": "401930899:KXINTLFRIENDLYGAME-26NOV17ECUBOL-ECU:yes",
+   "sport": "soccer_fifa.friendly",
+   "game_id": "401930899",
+   "short": "BOL @ ECU",
+   "game": "Bolivia at Ecuador",
+   "start": "2026-11-17T23:30Z",
+   "market": "ml",
+   "side": "home",
+   "selection": "ECU to win",
+   "group": "Game lines",
+   "market_name": "Winner",
+   "odds": -609,
+   "p": 0.8459,
+   "p_model": 0.8052,
+   "p_market": 0.8333,
+   "p_breakeven": 0.8589,
+   "edge": -0.013,
+   "ev": -0.0151,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "ECU ranks #120 in offense and #2 in defense of 205 (schedule-adjusted, recent games weighted more)",
+    "Last 1: 1-0, scoring 2.0 and allowing 0.0 goals/game (season: 2.0 / 0.0)",
+    "At home: 2.0 scored / 0.0 allowed per game"
+   ],
+   "home": {
+    "name": "Ecuador",
+    "abbr": "ECU"
+   },
+   "away": {
+    "name": "Bolivia",
+    "abbr": "BOL"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxintlfriendlygame/international-friendly-game/kxintlfriendlygame-26nov17ecubol",
+    "price": 85,
+    "ticker": "KXINTLFRIENDLYGAME-26NOV17ECUBOL-ECU",
+    "contract": "Yes \u00b7 Ecuador",
+    "buy": "yes"
+   },
+   "result": null,
+   "close_odds": -609
+  },
+  "401930895:KXINTLFRIENDLYGAME-26NOV17ARGCRI-ARG:yes": {
+   "id": "401930895:KXINTLFRIENDLYGAME-26NOV17ARGCRI-ARG:yes",
+   "sport": "soccer_fifa.friendly",
+   "game_id": "401930895",
+   "short": "CRC @ ARG",
+   "game": "Costa Rica at Argentina",
+   "start": "2026-11-17T23:00Z",
+   "market": "ml",
+   "side": "home",
+   "selection": "ARG to win",
+   "group": "Game lines",
+   "market_name": "Winner",
+   "odds": -1236,
+   "p": 0.9207,
+   "p_model": 0.9458,
+   "p_market": 0.902,
+   "p_breakeven": 0.9252,
+   "edge": -0.0045,
+   "ev": -0.0049,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "ARG ranks #2 in offense and #1 in defense of 205 (schedule-adjusted, recent games weighted more)",
+    "Last 4: 3-1, scoring 3.75 and allowing 0.5 goals/game (season: 3.75 / 0.5)",
+    "At home: 3.75 scored / 0.5 allowed per game"
+   ],
+   "home": {
+    "name": "Argentina",
+    "abbr": "ARG"
+   },
+   "away": {
+    "name": "Costa Rica",
+    "abbr": "CRC"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxintlfriendlygame/international-friendly-game/kxintlfriendlygame-26nov17argcri",
+    "price": 92,
+    "ticker": "KXINTLFRIENDLYGAME-26NOV17ARGCRI-ARG",
+    "contract": "Yes \u00b7 Argentina",
+    "buy": "yes"
+   },
+   "result": null,
+   "close_odds": -1236
+  },
+  "401861196:KXUEFANLTOTAL-26NOV17BIHROU-6:no": {
+   "id": "401861196:KXUEFANLTOTAL-26NOV17BIHROU-6:no",
+   "sport": "soccer_uefa.nations",
+   "game_id": "401861196",
+   "short": "ROU @ BIH",
+   "game": "Romania at Bosnia-Herzegovina",
+   "start": "2026-11-17T19:45Z",
+   "market": "total",
+   "side": "under",
+   "line": 5.5,
+   "selection": "Under 5.5",
+   "group": "Game lines",
+   "market_name": "Total",
+   "odds": -1428,
+   "p": 0.933,
+   "p_model": 0.9325,
+   "p_market": 0.9208,
+   "p_breakeven": 0.9346,
+   "edge": -0.0016,
+   "ev": -0.0017,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "ROU: 1.0 scored / 2.8 allowed per game this season; last 5: 1.0 / 2.8",
+    "BIH: 1.6 scored / 1.2 allowed per game this season; last 5: 1.6 / 1.2"
+   ],
+   "home": {
+    "name": "Bosnia-Herzegovina",
+    "abbr": "BIH"
+   },
+   "away": {
+    "name": "Romania",
+    "abbr": "ROU"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxuefanltotal/point-total/kxuefanltotal-26nov17bihrou",
+    "price": 93,
+    "ticker": "KXUEFANLTOTAL-26NOV17BIHROU-6",
+    "contract": "No \u00b7 Over 5.5",
+    "buy": "no"
+   },
+   "result": null,
+   "close_odds": -1428
+  },
+  "401892728:KXNHLGAME-26NOV17LABOS-BOS:yes": {
+   "id": "401892728:KXNHLGAME-26NOV17LABOS-BOS:yes",
+   "sport": "nhl",
+   "game_id": "401892728",
+   "short": "LA @ BOS",
+   "game": "Los Angeles Kings at Boston Bruins",
+   "start": "2026-11-18T00:00Z",
+   "market": "ml",
+   "side": "home",
+   "selection": "BOS to win",
+   "group": "Game lines",
+   "market_name": "Winner",
+   "odds": -168,
+   "p": 0.6253,
+   "p_model": 0.6627,
+   "p_market": 0.604,
+   "p_breakeven": 0.6267,
+   "edge": -0.0014,
+   "ev": -0.0022,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "BOS ranks #9 in offense and #4 in defense of 32 (schedule-adjusted, recent games weighted more)",
+    "Last 10: 6-4, scoring 3.6 and allowing 3.0 goals/game (season: 3.6 / 2.6)",
+    "At home: 3.91 scored / 2.55 allowed per game",
+    "Record 13-6-1 (home 8-3-0)",
+    "Injuries: James Hagens (C, Injured Reserve)",
+    "Price moved -148 \u2192 -155 since opening, money moving toward BOS"
+   ],
+   "home": {
+    "name": "Boston Bruins",
+    "abbr": "BOS"
+   },
+   "away": {
+    "name": "Los Angeles Kings",
+    "abbr": "LA"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxnhlgame/nhl-game/kxnhlgame-26nov17labos",
+    "price": 61,
+    "ticker": "KXNHLGAME-26NOV17LABOS-BOS",
+    "contract": "Yes \u00b7 Boston",
+    "buy": "yes"
+   },
+   "result": null,
+   "close_odds": -168
+  },
+  "401932215:KXINTLFRIENDLYGAME-26NOV17URUDOM-URU:yes": {
+   "id": "401932215:KXINTLFRIENDLYGAME-26NOV17URUDOM-URU:yes",
+   "sport": "soccer_fifa.friendly",
+   "game_id": "401932215",
+   "short": "DOM @ URU",
+   "game": "Dominican Republic at Uruguay",
+   "start": "2026-11-17T23:30Z",
+   "market": "ml",
+   "side": "home",
+   "selection": "URU to win",
+   "group": "Game lines",
+   "market_name": "Winner",
+   "odds": -1087,
+   "p": 0.8982,
+   "p_model": 0.7774,
+   "p_market": 0.8922,
+   "p_breakeven": 0.9157,
+   "edge": -0.0175,
+   "ev": -0.0191,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "URU ranks #29 in offense and #12 in defense of 205 (schedule-adjusted, recent games weighted more)",
+    "Last 4: 3-1, scoring 3.25 and allowing 1.5 goals/game (season: 3.25 / 1.5). Current streak: W3"
+   ],
+   "home": {
+    "name": "Uruguay",
+    "abbr": "URU"
+   },
+   "away": {
+    "name": "Dominican Republic",
+    "abbr": "DOM"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxintlfriendlygame/international-friendly-game/kxintlfriendlygame-26nov17urudom",
+    "price": 91,
+    "ticker": "KXINTLFRIENDLYGAME-26NOV17URUDOM-URU",
+    "contract": "Yes \u00b7 Uruguay",
+    "buy": "yes"
+   },
+   "result": null,
+   "close_odds": -1087
+  },
+  "401910003:KXNBATOTAL-26NOV17PORMIN-255:no": {
+   "id": "401910003:KXNBATOTAL-26NOV17PORMIN-255:no",
+   "sport": "nba",
+   "game_id": "401910003",
+   "short": "POR @ MIN",
+   "game": "Portland Trail Blazers at Minnesota Timberwolves",
+   "start": "2026-11-18T01:00Z",
+   "market": "total",
+   "side": "under",
+   "line": 254.5,
+   "selection": "Under 254.5",
+   "group": "Game lines",
+   "market_name": "Total",
+   "odds": -2042,
+   "p": 0.9503,
+   "p_model": 0.9375,
+   "p_market": 0.9406,
+   "p_breakeven": 0.9533,
+   "edge": -0.003,
+   "ev": -0.0031,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "POR: 117.92 scored / 111.38 allowed per game this season; last 10: 114.5 / 111.6",
+    "MIN: 117.43 scored / 106.14 allowed per game this season; last 10: 115.6 / 106.6",
+    "Line moved from +226.5 to +228.5 since opening (total)"
+   ],
+   "home": {
+    "name": "Minnesota Timberwolves",
+    "abbr": "MIN"
+   },
+   "away": {
+    "name": "Portland Trail Blazers",
+    "abbr": "POR"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxnbatotal/nba-total/kxnbatotal-26nov17pormin",
+    "price": 95,
+    "ticker": "KXNBATOTAL-26NOV17PORMIN-255",
+    "contract": "No \u00b7 Over 254.5",
+    "buy": "no"
+   },
+   "result": null,
+   "close_odds": -2042
+  },
+  "401866466:KXNCAAFGAME-26NOV17MOHKENT-MOH:yes": {
+   "id": "401866466:KXNCAAFGAME-26NOV17MOHKENT-MOH:yes",
+   "sport": "cfb",
+   "game_id": "401866466",
+   "short": "M-OH @ KENT",
+   "game": "Miami (OH) RedHawks at Kent State Golden Flashes",
+   "start": "2026-11-18T00:00Z",
+   "market": "ml",
+   "side": "away",
+   "selection": "M-OH to win",
+   "group": "Game lines",
+   "market_name": "Winner",
+   "odds": -360,
+   "p": 0.7745,
+   "p_model": 0.7207,
+   "p_market": 0.7624,
+   "p_breakeven": 0.7824,
+   "edge": -0.0079,
+   "ev": -0.0101,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "M-OH ranks #91 in offense and #96 in defense of 143 (schedule-adjusted, recent games weighted more)",
+    "Last 10: 6-4, scoring 28.1 and allowing 25.7 pts/game (season: 28.1 / 25.7)",
+    "On the road: 23.25 scored / 35.0 allowed per game",
+    "Record 6-4",
+    "Price moved -310 \u2192 -355 since opening, money moving toward M-OH"
+   ],
+   "home": {
+    "name": "Kent State Golden Flashes",
+    "abbr": "KENT"
+   },
+   "away": {
+    "name": "Miami (OH) RedHawks",
+    "abbr": "M-OH"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxncaafgame/college-football-game/kxncaafgame-26nov17mohkent",
+    "price": 77,
+    "ticker": "KXNCAAFGAME-26NOV17MOHKENT-MOH",
+    "contract": "Yes \u00b7 Miami (OH)",
+    "buy": "yes"
+   },
+   "result": null,
+   "close_odds": -360
+  },
+  "401866465:KXNCAAFGAME-26NOV17EMUWMU-WMU:yes": {
+   "id": "401866465:KXNCAAFGAME-26NOV17EMUWMU-WMU:yes",
+   "sport": "cfb",
+   "game_id": "401866465",
+   "short": "EMU @ WMU",
+   "game": "Eastern Michigan Eagles at Western Michigan Broncos",
+   "start": "2026-11-17T23:00Z",
+   "market": "ml",
+   "side": "home",
+   "selection": "WMU to win",
+   "group": "Game lines",
+   "market_name": "Winner",
+   "odds": -660,
+   "p": 0.8682,
+   "p_model": 0.8827,
+   "p_market": 0.8515,
+   "p_breakeven": 0.8684,
+   "edge": -0.0002,
+   "ev": -0.0002,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "WMU ranks #78 in offense and #36 in defense of 143 (schedule-adjusted, recent games weighted more)",
+    "Last 10: 7-3, scoring 27.8 and allowing 18.7 pts/game (season: 27.8 / 18.7)",
+    "At home: 29.25 scored / 15.75 allowed per game",
+    "Record 7-3",
+    "Price moved -625 \u2192 -700 since opening, money moving toward WMU"
+   ],
+   "home": {
+    "name": "Western Michigan Broncos",
+    "abbr": "WMU"
+   },
+   "away": {
+    "name": "Eastern Michigan Eagles",
+    "abbr": "EMU"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxncaafgame/college-football-game/kxncaafgame-26nov17emuwmu",
+    "price": 86,
+    "ticker": "KXNCAAFGAME-26NOV17EMUWMU-WMU",
+    "contract": "Yes \u00b7 Western Michigan",
+    "buy": "yes"
+   },
+   "result": null,
+   "close_odds": -660
+  },
+  "401929763:KXCONCACAFNLTOTAL-26NOV17MEXJAM-6:no": {
+   "id": "401929763:KXCONCACAFNLTOTAL-26NOV17MEXJAM-6:no",
+   "sport": "soccer_concacaf.nations.league",
+   "game_id": "401929763",
+   "short": "JAM @ MEX",
+   "game": "Jamaica at Mexico",
+   "start": "2026-11-18T02:30Z",
+   "market": "total",
+   "side": "under",
+   "line": 5.5,
+   "selection": "Under 5.5",
+   "group": "Game lines",
+   "market_name": "Total",
+   "odds": -609,
+   "p": 0.8517,
+   "p_model": 0.9646,
+   "p_market": 0.8333,
+   "p_breakeven": 0.8589,
+   "edge": -0.0072,
+   "ev": -0.0084,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "JAM: 1.8 scored / 1.2 allowed per game this season; last 5: 1.8 / 1.2",
+    "MEX: 0.8 scored / 2.0 allowed per game this season; last 5: 0.8 / 2.0"
+   ],
+   "home": {
+    "name": "Mexico",
+    "abbr": "MEX"
+   },
+   "away": {
+    "name": "Jamaica",
+    "abbr": "JAM"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxconcacafnltotal/point-total/kxconcacafnltotal-26nov17mexjam",
+    "price": 85,
+    "ticker": "KXCONCACAFNLTOTAL-26NOV17MEXJAM-6",
+    "contract": "No \u00b7 Over 5.5",
+    "buy": "no"
+   },
+   "result": null,
+   "close_odds": -609
+  },
+  "401929704:KXCONCACAFNLTOTAL-26NOV17BLZSIN-6:no": {
+   "id": "401929704:KXCONCACAFNLTOTAL-26NOV17BLZSIN-6:no",
+   "sport": "soccer_concacaf.nations.league",
+   "game_id": "401929704",
+   "short": "SMA @ BLZ",
+   "game": "Sint Maarten at Belize",
+   "start": "2026-11-17T19:00Z",
+   "market": "total",
+   "side": "under",
+   "line": 5.5,
+   "selection": "Under 5.5",
+   "group": "Game lines",
+   "market_name": "Total",
+   "odds": -1428,
+   "p": 0.9331,
+   "p_model": 0.9339,
+   "p_market": 0.9208,
+   "p_breakeven": 0.9346,
+   "edge": -0.0015,
+   "ev": -0.0016,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "SMA: 0.6 scored / 3.0 allowed per game this season; last 5: 0.6 / 3.0",
+    "BLZ: 0.2 scored / 1.0 allowed per game this season; last 5: 0.2 / 1.0"
+   ],
+   "home": {
+    "name": "Belize",
+    "abbr": "BLZ"
+   },
+   "away": {
+    "name": "Sint Maarten",
+    "abbr": "SMA"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxconcacafnltotal/point-total/kxconcacafnltotal-26nov17blzsin",
+    "price": 93,
+    "ticker": "KXCONCACAFNLTOTAL-26NOV17BLZSIN-6",
+    "contract": "No \u00b7 Over 5.5",
+    "buy": "no"
+   },
+   "result": null,
+   "close_odds": -1428
+  },
+  "401892732:KXNHLTOTAL-26NOV17BUFPHI-10:no": {
+   "id": "401892732:KXNHLTOTAL-26NOV17BUFPHI-10:no",
+   "sport": "nhl",
+   "game_id": "401892732",
+   "short": "BUF @ PHI",
+   "game": "Buffalo Sabres at Philadelphia Flyers",
+   "start": "2026-11-18T00:00Z",
+   "market": "total",
+   "side": "under",
+   "line": 9.5,
+   "selection": "Under 9.5",
+   "group": "Game lines",
+   "market_name": "Total",
+   "odds": -1428,
+   "p": 0.9308,
+   "p_model": 0.8953,
+   "p_market": 0.9208,
+   "p_breakeven": 0.9346,
+   "edge": -0.0038,
+   "ev": -0.0041,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "BUF: 2.75 scored / 3.5 allowed per game this season; last 10: 2.7 / 3.3",
+    "PHI: 2.3 scored / 3.35 allowed per game this season; last 10: 2.9 / 3.5",
+    "Line moved from +6.5 to +5.5 since opening (total)",
+    "\u26a0 The line has moved against this side since opening (a sharp-money signal), so the model defers more to the market"
+   ],
+   "home": {
+    "name": "Philadelphia Flyers",
+    "abbr": "PHI"
+   },
+   "away": {
+    "name": "Buffalo Sabres",
+    "abbr": "BUF"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxnhltotal/nhl-total-goals/kxnhltotal-26nov17bufphi",
+    "price": 93,
+    "ticker": "KXNHLTOTAL-26NOV17BUFPHI-10",
+    "contract": "No \u00b7 Over 9.5",
+    "buy": "no"
+   },
+   "result": null,
+   "close_odds": -1428
+  },
+  "401929769:KXCONCACAFNLTOTAL-26NOV17DMACAY-1:yes": {
+   "id": "401929769:KXCONCACAFNLTOTAL-26NOV17DMACAY-1:yes",
+   "sport": "soccer_concacaf.nations.league",
+   "game_id": "401929769",
+   "short": "CAY @ DMA",
+   "game": "Cayman Islands at Dominica",
+   "start": "2026-11-17T19:00Z",
+   "market": "total",
+   "side": "over",
+   "line": 0.5,
+   "selection": "Over 0.5",
+   "group": "Game lines",
+   "market_name": "Total",
+   "odds": -2042,
+   "p": 0.9495,
+   "p_model": 0.9095,
+   "p_market": 0.9406,
+   "p_breakeven": 0.9533,
+   "edge": -0.0038,
+   "ev": -0.004,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "CAY: 0.0 scored / 2.4 allowed per game this season; last 5: 0.0 / 2.4",
+    "DMA: 0.83 scored / 3.17 allowed per game this season; last 6: 0.83 / 3.17"
+   ],
+   "home": {
+    "name": "Dominica",
+    "abbr": "DMA"
+   },
+   "away": {
+    "name": "Cayman Islands",
+    "abbr": "CAY"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxconcacafnltotal/point-total/kxconcacafnltotal-26nov17dmacay",
+    "price": 95,
+    "ticker": "KXCONCACAFNLTOTAL-26NOV17DMACAY-1",
+    "contract": "Yes \u00b7 Over 0.5",
+    "buy": "yes"
+   },
+   "result": null,
+   "close_odds": -2042
+  },
+  "401910005:KXNBAGAME-26NOV17CHALAL-LAL:yes": {
+   "id": "401910005:KXNBAGAME-26NOV17CHALAL-LAL:yes",
+   "sport": "nba",
+   "game_id": "401910005",
+   "short": "CHA @ LAL",
+   "game": "Charlotte Hornets at Los Angeles Lakers",
+   "start": "2026-11-18T04:00Z",
+   "market": "ml",
+   "side": "home",
+   "selection": "LAL to win",
+   "group": "Game lines",
+   "market_name": "Winner",
+   "odds": -306,
+   "p": 0.7604,
+   "p_model": 0.7922,
+   "p_market": 0.7327,
+   "p_breakeven": 0.7535,
+   "edge": 0.0069,
+   "ev": 0.0092,
+   "grade": "B",
+   "modeled": true,
+   "reasons": [
+    "LAL ranks #2 in offense and #16 in defense of 32 (schedule-adjusted, recent games weighted more)",
+    "Last 10: 9-1, scoring 120.6 and allowing 112.7 pts/game (season: 122.79 / 114.86). Current streak: W8",
+    "At home: 129.0 scored / 119.67 allowed per game",
+    "Record 12-2 (home 5-1)",
+    "Injuries: Austin Reaves (G, Out), Walker Kessler (C, Out)",
+    "Price moved -391 \u2192 -306 since opening, money moving away from LAL",
+    "\u26a0 The line has moved against this side since opening (a sharp-money signal), so the model defers more to the market"
+   ],
+   "home": {
+    "name": "Los Angeles Lakers",
+    "abbr": "LAL"
+   },
+   "away": {
+    "name": "Charlotte Hornets",
+    "abbr": "CHA"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxnbagame/nba-game/kxnbagame-26nov17chalal",
+    "price": 74,
+    "ticker": "KXNBAGAME-26NOV17CHALAL-LAL",
+    "contract": "Yes \u00b7 Los Angeles L",
+    "buy": "yes"
+   },
+   "result": null,
+   "close_odds": -306
+  },
+  "401931956:KXINTLFRIENDLYTOTAL-26NOV17KUWHND-1:yes": {
+   "id": "401931956:KXINTLFRIENDLYTOTAL-26NOV17KUWHND-1:yes",
+   "sport": "soccer_fifa.friendly",
+   "game_id": "401931956",
+   "short": "HON @ KUW",
+   "game": "Honduras at Kuwait",
+   "start": "2026-11-17T16:30Z",
+   "market": "total",
+   "side": "over",
+   "line": 0.5,
+   "selection": "Over 0.5",
+   "group": "Game lines",
+   "market_name": "Total",
+   "odds": -1236,
+   "p": 0.9239,
+   "p_model": 0.9318,
+   "p_market": 0.9109,
+   "p_breakeven": 0.9252,
+   "edge": -0.0013,
+   "ev": -0.0014,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "HON: 1.2 scored / 1.8 allowed per game this season; last 5: 1.2 / 1.8",
+    "KUW: 3.0 scored / 0.0 allowed per game this season; last 1: 3.0 / 0.0"
+   ],
+   "home": {
+    "name": "Kuwait",
+    "abbr": "KUW"
+   },
+   "away": {
+    "name": "Honduras",
+    "abbr": "HON"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxintlfriendlytotal/international-friendly-total/kxintlfriendlytotal-26nov17kuwhnd",
+    "price": 92,
+    "ticker": "KXINTLFRIENDLYTOTAL-26NOV17KUWHND-1",
+    "contract": "Yes \u00b7 Over 0.5",
+    "buy": "yes"
+   },
+   "result": null,
+   "close_odds": -1236
+  },
+  "401861196:KXUEFANLTOTAL-26NOV17BIHROU-1:yes": {
+   "id": "401861196:KXUEFANLTOTAL-26NOV17BIHROU-1:yes",
+   "sport": "soccer_uefa.nations",
+   "game_id": "401861196",
+   "short": "ROU @ BIH",
+   "game": "Romania at Bosnia-Herzegovina",
+   "start": "2026-11-17T19:45Z",
+   "market": "total",
+   "side": "over",
+   "line": 0.5,
+   "selection": "Over 0.5",
+   "group": "Game lines",
+   "market_name": "Total",
+   "odds": -2042,
+   "p": 0.95,
+   "p_model": 0.9273,
+   "p_market": 0.9406,
+   "p_breakeven": 0.9533,
+   "edge": -0.0033,
+   "ev": -0.0035,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "ROU: 1.0 scored / 2.8 allowed per game this season; last 5: 1.0 / 2.8",
+    "BIH: 1.6 scored / 1.2 allowed per game this season; last 5: 1.6 / 1.2"
+   ],
+   "home": {
+    "name": "Bosnia-Herzegovina",
+    "abbr": "BIH"
+   },
+   "away": {
+    "name": "Romania",
+    "abbr": "ROU"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxuefanltotal/point-total/kxuefanltotal-26nov17bihrou",
+    "price": 95,
+    "ticker": "KXUEFANLTOTAL-26NOV17BIHROU-1",
+    "contract": "Yes \u00b7 Over 0.5",
+    "buy": "yes"
+   },
+   "result": null,
+   "close_odds": -2042
+  },
+  "401910004:KXNBATOTAL-26NOV17DETSAS-195:yes": {
+   "id": "401910004:KXNBATOTAL-26NOV17DETSAS-195:yes",
+   "sport": "nba",
+   "game_id": "401910004",
+   "short": "DET @ SA",
+   "game": "Detroit Pistons at San Antonio Spurs",
+   "start": "2026-11-18T01:00Z",
+   "market": "total",
+   "side": "over",
+   "line": 194.5,
+   "selection": "Over 194.5",
+   "group": "Game lines",
+   "market_name": "Total",
+   "odds": -2042,
+   "p": 0.9505,
+   "p_model": 0.9398,
+   "p_market": 0.9406,
+   "p_breakeven": 0.9533,
+   "edge": -0.0028,
+   "ev": -0.0029,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "DET: 115.67 scored / 110.25 allowed per game this season; last 10: 113.9 / 109.9",
+    "SA: 118.79 scored / 105.93 allowed per game this season; last 10: 119.7 / 104.4",
+    "Line moved from +220.5 to +222.5 since opening (total)"
+   ],
+   "home": {
+    "name": "San Antonio Spurs",
+    "abbr": "SA"
+   },
+   "away": {
+    "name": "Detroit Pistons",
+    "abbr": "DET"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxnbatotal/nba-total/kxnbatotal-26nov17detsas",
+    "price": 95,
+    "ticker": "KXNBATOTAL-26NOV17DETSAS-195",
+    "contract": "Yes \u00b7 Over 194.5",
+    "buy": "yes"
+   },
+   "result": null,
+   "close_odds": -2042
+  }
+ },
+ "parlays": [
+  {
+   "legs": [
+    "401861191:KXUEFANLTOTAL-26NOV17HUNNIR-5:no",
+    "401929704:KXCONCACAFNLTOTAL-26NOV17BLZSIN-6:no"
+   ],
+   "n": 2,
+   "mode": "safest",
+   "p": 0.8709,
+   "decimal": 1.145,
+   "american": -690,
+   "ev": -0.0029,
+   "tier": "lock",
+   "name": "lock_2",
+   "result": null
+  },
+  {
+   "legs": [
+    "401861196:KXUEFANLTOTAL-26NOV17BIHROU-6:no",
+    "401892732:KXNHLTOTAL-26NOV17BUFPHI-10:no",
+    "401931956:KXINTLFRIENDLYTOTAL-26NOV17KUWHND-1:yes"
+   ],
+   "n": 3,
+   "mode": "safest",
+   "p": 0.8023,
+   "decimal": 1.238,
+   "american": -421,
+   "ev": -0.007,
+   "tier": "lock",
+   "name": "lock_3",
+   "result": null
+  },
+  {
+   "legs": [
+    "401931956:KXINTLFRIENDLYTOTAL-26NOV17KUWHND-4:no",
+    "401910005:KXNBAGAME-26NOV17CHALAL-LAL:yes"
+   ],
+   "n": 2,
+   "mode": "safest",
+   "p": 0.5813,
+   "decimal": 1.717,
+   "american": -139,
+   "ev": -0.0018,
+   "tier": "best",
+   "name": "best_2",
+   "result": null
+  }
+ ],
+ "straights": [],
+ "straights_best": [
+  "401932215:KXINTLFRIENDLYGAME-26NOV17URUDOM-URU:yes",
+  "401866466:KXNCAAFGAME-26NOV17MOHKENT-MOH:yes",
+  "401910005:KXNBAGAME-26NOV17CHALAL-LAL:yes",
+  "401910006:KXNBAGAME-26NOV17UTALAC-LAC:yes",
+  "401892728:KXNHLGAME-26NOV17LABOS-BOS:yes",
+  "401919974:KXINTLFRIENDLYTOTAL-26NOV17JORAUS-6:no",
+  "401861195:KXUEFANLTOTAL-26NOV17POLSWE-1:yes",
+  "401929763:KXCONCACAFNLTOTAL-26NOV17MEXJAM-6:no"
+ ],
+ "locks": [
+  "401930895:KXINTLFRIENDLYGAME-26NOV17ARGCRI-ARG:yes",
+  "401866465:KXNCAAFGAME-26NOV17EMUWMU-WMU:yes",
+  "401930899:KXINTLFRIENDLYGAME-26NOV17ECUBOL-ECU:yes",
+  "401866464:KXNCAAFGAME-26NOV17BALLOHIO-OHIO:yes",
+  "401932718:KXINTLFRIENDLYTOTAL-26NOV17UAESYR-1:yes",
+  "401910004:KXNBATOTAL-26NOV17DETSAS-195:yes",
+  "401910003:KXNBATOTAL-26NOV17PORMIN-255:no",
+  "401861196:KXUEFANLTOTAL-26NOV17BIHROU-1:yes",
+  "401929769:KXCONCACAFNLTOTAL-26NOV17DMACAY-1:yes"
+ ]
+}

@@ -88,7 +88,7 @@
     "contract": "Yes \u00b7 Over 202.5",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -2042
   },
   "401909995:KXNBAGAME-26NOV16CHICLE-CLE:yes": {
@@ -496,7 +496,7 @@
     "contract": "Yes \u00b7 Utah",
     "buy": "yes"
    },
-   "result": null,
+   "result": "L",
    "close_odds": -322
   }
  },
