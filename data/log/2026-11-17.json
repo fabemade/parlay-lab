@@ -176,7 +176,7 @@
     "contract": "Yes \u00b7 Over 0.5",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -2580
   },
   "401861191:KXUEFANLTOTAL-26NOV17HUNNIR-5:no": {
@@ -220,7 +220,7 @@
     "contract": "No \u00b7 Over 4.5",
     "buy": "no"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -1428
   },
   "401910006:KXNBAGAME-26NOV17UTALAC-LAC:yes": {
@@ -268,7 +268,7 @@
     "buy": "yes"
    },
    "result": null,
-   "close_odds": -239
+   "close_odds": -228
   },
   "401866464:KXNCAAFGAME-26NOV17BALLOHIO-OHIO:yes": {
    "id": "401866464:KXNCAAFGAME-26NOV17BALLOHIO-OHIO:yes",
@@ -314,7 +314,7 @@
     "buy": "yes"
    },
    "result": null,
-   "close_odds": -458
+   "close_odds": -404
   },
   "401930899:KXINTLFRIENDLYGAME-26NOV17ECUBOL-ECU:yes": {
    "id": "401930899:KXINTLFRIENDLYGAME-26NOV17ECUBOL-ECU:yes",
@@ -358,7 +358,7 @@
     "buy": "yes"
    },
    "result": null,
-   "close_odds": -609
+   "close_odds": -660
   },
   "401930895:KXINTLFRIENDLYGAME-26NOV17ARGCRI-ARG:yes": {
    "id": "401930895:KXINTLFRIENDLYGAME-26NOV17ARGCRI-ARG:yes",
@@ -402,7 +402,7 @@
     "buy": "yes"
    },
    "result": null,
-   "close_odds": -1236
+   "close_odds": -1428
   },
   "401861196:KXUEFANLTOTAL-26NOV17BIHROU-6:no": {
    "id": "401861196:KXUEFANLTOTAL-26NOV17BIHROU-6:no",
@@ -445,7 +445,7 @@
     "contract": "No \u00b7 Over 5.5",
     "buy": "no"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -1428
   },
   "401892728:KXNHLGAME-26NOV17LABOS-BOS:yes": {
@@ -673,7 +673,7 @@
     "buy": "yes"
    },
    "result": null,
-   "close_odds": -660
+   "close_odds": -719
   },
   "401929763:KXCONCACAFNLTOTAL-26NOV17MEXJAM-6:no": {
    "id": "401929763:KXCONCACAFNLTOTAL-26NOV17MEXJAM-6:no",
@@ -717,7 +717,7 @@
     "buy": "no"
    },
    "result": null,
-   "close_odds": -525
+   "close_odds": -564
   },
   "401929704:KXCONCACAFNLTOTAL-26NOV17BLZSIN-6:no": {
    "id": "401929704:KXCONCACAFNLTOTAL-26NOV17BLZSIN-6:no",
@@ -760,7 +760,7 @@
     "contract": "No \u00b7 Over 5.5",
     "buy": "no"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -1428
   },
   "401892732:KXNHLTOTAL-26NOV17BUFPHI-10:no": {
@@ -850,7 +850,7 @@
     "contract": "Yes \u00b7 Over 0.5",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -2042
   },
   "401910005:KXNBAGAME-26NOV17CHALAL-LAL:yes": {
@@ -986,7 +986,7 @@
     "contract": "Yes \u00b7 Over 0.5",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -2042
   },
   "401910004:KXNBATOTAL-26NOV17DETSAS-195:yes": {
@@ -1049,7 +1049,8 @@
    "ev": -0.0029,
    "tier": "lock",
    "name": "lock_2",
-   "result": null
+   "result": "W",
+   "missed": []
   },
   {
    "legs": [

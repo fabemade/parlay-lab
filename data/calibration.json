@@ -1,10 +1,10 @@
 {
  "nfl": {
-  "margin_k": 0.933,
-  "total_k": 0.582,
-  "margin_sd": 12.8,
-  "total_sd": 13.85,
-  "n": 325,
+  "margin_k": 0.934,
+  "total_k": 0.613,
+  "margin_sd": 12.76,
+  "total_sd": 13.78,
+  "n": 327,
   "updated": "2026-11-17"
  },
  "cfb": {
