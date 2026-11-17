@@ -135,7 +135,7 @@
     "contract": "Yes \u00b7 Cleveland",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -340
   },
   "401892726:KXNHLTOTAL-26NOV16MTLNYR-10:no": {
@@ -179,7 +179,7 @@
     "contract": "No \u00b7 Over 9.5",
     "buy": "no"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -1428
   },
   "401873065:KXNFLTOTAL-26NOV16LACBAL-24:yes": {
@@ -225,7 +225,7 @@
     "contract": "Yes \u00b7 Over 23.5",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -1428
   },
   "401930242:KXINTLFRIENDLYTOTAL-26NOV17KGZVIE-1:yes": {
@@ -314,7 +314,7 @@
     "contract": "No \u00b7 Over 256.5",
     "buy": "no"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -1236
   },
   "401909996:KXNBATOTAL-26NOV16MEMWAS-205:yes": {
@@ -359,7 +359,7 @@
     "contract": "Yes \u00b7 Over 204.5",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -2042
   },
   "401930242:KXINTLFRIENDLYTOTAL-26NOV17KGZVIE-4:no": {
@@ -449,7 +449,7 @@
     "contract": "Yes \u00b7 Boston",
     "buy": "yes"
    },
-   "result": null,
+   "result": "L",
    "close_odds": -360
   },
   "401892727:KXNHLGAME-26NOV16VANUTA-UTA:yes": {
