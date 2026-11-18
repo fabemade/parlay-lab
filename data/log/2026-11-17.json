@@ -313,7 +313,7 @@
     "contract": "Yes \u00b7 Ohio",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -404
   },
   "401930899:KXINTLFRIENDLYGAME-26NOV17ECUBOL-ECU:yes": {
@@ -357,7 +357,7 @@
     "contract": "Yes \u00b7 Ecuador",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -660
   },
   "401930895:KXINTLFRIENDLYGAME-26NOV17ARGCRI-ARG:yes": {
@@ -401,7 +401,7 @@
     "contract": "Yes \u00b7 Argentina",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -1428
   },
   "401861196:KXUEFANLTOTAL-26NOV17BIHROU-6:no": {
@@ -492,7 +492,7 @@
     "contract": "Yes \u00b7 Boston",
     "buy": "yes"
    },
-   "result": null,
+   "result": "L",
    "close_odds": -161
   },
   "401932215:KXINTLFRIENDLYGAME-26NOV17URUDOM-URU:yes": {
@@ -535,7 +535,7 @@
     "contract": "Yes \u00b7 Uruguay",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -1087
   },
   "401910003:KXNBATOTAL-26NOV17PORMIN-255:no": {
@@ -580,7 +580,7 @@
     "contract": "No \u00b7 Over 254.5",
     "buy": "no"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -2580
   },
   "401866466:KXNCAAFGAME-26NOV17MOHKENT-MOH:yes": {
@@ -626,7 +626,7 @@
     "contract": "Yes \u00b7 Miami (OH)",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -360
   },
   "401866465:KXNCAAFGAME-26NOV17EMUWMU-WMU:yes": {
@@ -672,7 +672,7 @@
     "contract": "Yes \u00b7 Western Michigan",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -719
   },
   "401929763:KXCONCACAFNLTOTAL-26NOV17MEXJAM-6:no": {
@@ -806,7 +806,7 @@
     "contract": "No \u00b7 Over 9.5",
     "buy": "no"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -1428
   },
   "401929769:KXCONCACAFNLTOTAL-26NOV17DMACAY-1:yes": {
@@ -899,7 +899,7 @@
     "buy": "yes"
    },
    "result": null,
-   "close_odds": -290
+   "close_odds": -306
   },
   "401931956:KXINTLFRIENDLYTOTAL-26NOV17KUWHND-1:yes": {
    "id": "401931956:KXINTLFRIENDLYTOTAL-26NOV17KUWHND-1:yes",
@@ -1031,7 +1031,7 @@
     "contract": "Yes \u00b7 Over 194.5",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -2042
   }
  },
@@ -1066,7 +1066,8 @@
    "ev": -0.007,
    "tier": "lock",
    "name": "lock_3",
-   "result": null
+   "result": "W",
+   "missed": []
   },
   {
    "legs": [
