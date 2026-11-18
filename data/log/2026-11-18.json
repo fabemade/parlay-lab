@@ -48,7 +48,7 @@
     "buy": "yes"
    },
    "result": null,
-   "close_odds": -404
+   "close_odds": -525
   },
   "401910016:KXNBATOTAL-26NOV18GSWDAL-201:yes": {
    "id": "401910016:KXNBATOTAL-26NOV18GSWDAL-201:yes",
@@ -93,7 +93,7 @@
     "buy": "yes"
    },
    "result": null,
-   "close_odds": -1428
+   "close_odds": -1684
   },
   "401910009:KXNBAGAME-26NOV18MILMIA-MIA:yes": {
    "id": "401910009:KXNBAGAME-26NOV18MILMIA-MIA:yes",
@@ -232,7 +232,7 @@
     "buy": "yes"
    },
    "result": null,
-   "close_odds": -2042
+   "close_odds": -2580
   },
   "401866467:KXNCAAFTOTAL-26NOV18AKRMASS-29:yes": {
    "id": "401866467:KXNCAAFTOTAL-26NOV18AKRMASS-29:yes",
@@ -496,7 +496,7 @@
     "buy": "no"
    },
    "result": null,
-   "close_odds": -1428
+   "close_odds": -1236
   },
   "401910012:KXNBATOTAL-26NOV18WASTOR-200:yes": {
    "id": "401910012:KXNBATOTAL-26NOV18WASTOR-200:yes",
@@ -724,7 +724,7 @@
     "buy": "yes"
    },
    "result": null,
-   "close_odds": -506
+   "close_odds": -525
   },
   "401841316:KXBRASILEIROTOTAL-26NOV18CORBOT-6:no": {
    "id": "401841316:KXBRASILEIROTOTAL-26NOV18CORBOT-6:no",
