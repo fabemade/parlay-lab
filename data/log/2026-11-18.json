@@ -47,7 +47,7 @@
     "contract": "Yes \u00b7 Los Angeles L",
     "buy": "yes"
    },
-   "result": null,
+   "result": "L",
    "close_odds": -525
   },
   "401910016:KXNBATOTAL-26NOV18GSWDAL-201:yes": {
@@ -92,7 +92,7 @@
     "contract": "Yes \u00b7 Over 200.5",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -1684
   },
   "401910009:KXNBAGAME-26NOV18MILMIA-MIA:yes": {
@@ -139,7 +139,7 @@
     "contract": "Yes \u00b7 Miami",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -609
   },
   "401910008:KXNBAGAME-26NOV18HOUIND-HOU:yes": {
@@ -231,7 +231,7 @@
     "contract": "Yes \u00b7 Over 23.5",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -2580
   },
   "401866467:KXNCAAFTOTAL-26NOV18AKRMASS-29:yes": {
@@ -275,7 +275,7 @@
     "contract": "Yes \u00b7 Over 28.5",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -1428
   },
   "401892739:KXNHLTOTAL-26NOV18BOSDET-10:no": {
@@ -319,7 +319,7 @@
     "contract": "No \u00b7 Over 9.5",
     "buy": "no"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -1684
   },
   "401841315:KXBRASILEIROTOTAL-26NOV18CFCSAN-4:no": {
@@ -407,7 +407,7 @@
     "contract": "Yes \u00b7 Over 5.5",
     "buy": "yes"
    },
-   "result": null,
+   "result": "L",
    "close_odds": -161
   },
   "401841310:KXBRASILEIROTOTAL-26NOV18CRCHA-1:yes": {
@@ -541,7 +541,7 @@
     "contract": "Yes \u00b7 Over 199.5",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -2042
   },
   "401841314:KXBRASILEIROTOTAL-26NOV18CRUPAL-6:no": {
@@ -632,7 +632,7 @@
     "contract": "Yes \u00b7 Phoenix",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -276
   },
   "401866467:KXNCAAFGAME-26NOV18AKRMASS-MASS:yes": {
@@ -678,7 +678,7 @@
     "contract": "Yes \u00b7 UMass",
     "buy": "yes"
    },
-   "result": null,
+   "result": "L",
    "close_odds": -175
   },
   "401841313:KXBRASILEIROGAME-26NOV18FLACAP-FLA:yes": {
@@ -811,7 +811,7 @@
     "contract": "No \u00b7 Over 9.5",
     "buy": "no"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -1428
   }
  },
@@ -829,7 +829,8 @@
    "ev": -0.0081,
    "tier": "lock",
    "name": "lock_2",
-   "result": null
+   "result": "W",
+   "missed": []
   },
   {
    "legs": [
@@ -845,7 +846,8 @@
    "ev": -0.0258,
    "tier": "lock",
    "name": "lock_3",
-   "result": null
+   "result": "W",
+   "missed": []
   }
  ],
  "straights": [],
