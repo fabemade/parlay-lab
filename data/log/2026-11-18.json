@@ -186,7 +186,7 @@
     "contract": "Yes \u00b7 Houston",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -306
   },
   "401866469:KXNCAAFTOTAL-26NOV18CMUBUFF-24:yes": {
@@ -363,7 +363,7 @@
     "contract": "No \u00b7 Over 3.5",
     "buy": "no"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -208
   },
   "401892741:KXNHLTOTAL-26NOV18COLUTA-6:yes": {
@@ -451,7 +451,7 @@
     "contract": "Yes \u00b7 Over 0.5",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -2042
   },
   "401841312:KXBRASILEIROTOTAL-26NOV18GPABAH-6:no": {
@@ -495,7 +495,7 @@
     "contract": "No \u00b7 Over 5.5",
     "buy": "no"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -1236
   },
   "401910012:KXNBATOTAL-26NOV18WASTOR-200:yes": {
@@ -585,7 +585,7 @@
     "contract": "No \u00b7 Over 5.5",
     "buy": "no"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -1428
   },
   "401910018:KXNBAGAME-26NOV18PHXSAC-PHX:yes": {
@@ -723,7 +723,7 @@
     "contract": "Yes \u00b7 Flamengo",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -525
   },
   "401841316:KXBRASILEIROTOTAL-26NOV18CORBOT-6:no": {
@@ -767,7 +767,7 @@
     "contract": "No \u00b7 Over 5.5",
     "buy": "no"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -2042
   },
   "401892740:KXNHLTOTAL-26NOV18MTLNJ-10:no": {
