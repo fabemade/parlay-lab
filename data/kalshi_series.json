@@ -2,17 +2,26 @@
  "leagues": {
   "ARGPREMDIV": {
    "ADVANCE": "Argentina Primera Division To Advance",
-   "GAME": "Argentina Primera Division Game"
+   "BTTS": "Argentina Premier Division BTTS",
+   "GAME": "Argentina Primera Division Game",
+   "SPREAD": "Argentina Premier Division Spread",
+   "TOTAL": "Argentina Premier Division Total"
   },
   "BELGIANPL": {
-   "GAME": "Belgian Pro League Game"
+   "BTTS": "BTTS",
+   "GAME": "Belgian Pro League Game",
+   "SPREAD": "Spread",
+   "TOTAL": "Point Total"
   },
   "BRASILEIRO": {
    "1H": "1st Half Winner",
    "1HBTTS": "1st Half BTTS",
    "1HSPREAD": "1st Half Spread",
    "1HTOTAL": "1st Half Total",
+   "BBTTS": "BTTS",
    "BGAME": "Brasileiro Serie B Game",
+   "BSPREAD": "Spread",
+   "BTOTAL": "Point Total",
    "BTTS": "BTTS",
    "FTTS": "First Team to Score",
    "GAME": "Brasileiro Serie A Game",
@@ -22,14 +31,33 @@
    "TOTAL": "Brasileiro Total"
   },
   "BUNDESLIGA": {
+   "1H": "Bundesliga First Half Winner",
+   "1HBTTS": "1st Half BTTS",
+   "1HSCORE": "1st Half Correct Score",
+   "1HSPREAD": "1st Half Spread",
+   "1HTOTAL": "1st Half Total",
    "BTTS": "Bundesliga BTTS",
+   "FTTS": "First Team to Score",
    "GAME": "Bundesliga Game",
+   "GOAL": "Goalscorer",
+   "SCORE": "Correct Score",
    "SPREAD": "Bundesliga Spread",
+   "TEAMTOTAL": "Team Total",
    "TOTAL": "Bundesliga Total",
-   "WGAME": "German Women's Bundesliga Game"
+   "WBTTS": "Both teams to score",
+   "WGAME": "German Women's Bundesliga Game",
+   "WSPREAD": "Spread",
+   "WTOTAL": "Total"
   },
   "BUNDESLIGA2": {
-   "GAME": "Bundesliga 2 Game"
+   "BTTS": "BTTS",
+   "GAME": "Bundesliga 2 Game",
+   "H": "2nd Half Winner",
+   "HBTTS": "2nd Half BTTS",
+   "HSPREAD": "2nd Half Spread",
+   "HTOTAL": "2nd Half Total",
+   "SPREAD": "Spread",
+   "TOTAL": "Point Total"
   },
   "CONCACAFNL": {
    "1H": "1st Half Winner",
@@ -54,24 +82,54 @@
    "TOTAL": "Point Total"
   },
   "EFLCHAMPIONSHIP": {
-   "GAME": "EFL Championship Game"
+   "1H": "1st Half Winner",
+   "1HBTTS": "1st Half BTTS",
+   "1HSPREAD": "1st Half Spread",
+   "1HTOTAL": "1st Half Total",
+   "BTTS": "BTTS",
+   "GAME": "EFL Championship Game",
+   "SPREAD": "EFL Championship Spread",
+   "TOTAL": "EFL Championship Total"
   },
   "EFLL1": {
+   "1H": "1st Half Winner",
+   "1HBTTS": "1st Half BTTS",
+   "1HSPREAD": "1st Half Spread",
+   "1HTOTAL": "1st Half Total",
    "BTTS": "BTTS",
    "GAME": "EFL League One Game",
    "SPREAD": "Spread",
    "TOTAL": "Point Total"
   },
   "EPL": {
+   "1H": "Premier League First Half Winner",
+   "1HBTTS": "EPL 1st Half BTTS",
+   "1HSCORE": "1st Half Correct Score",
+   "1HSPREAD": "EPL 1st Half Spread",
+   "1HTOTAL": "EPL 1st Half Total",
+   "2H": "2nd Half Winner",
+   "2HBTTS": "2nd Half BTTS",
+   "2HSPREAD": "2nd Half Spread",
+   "2HTOTAL": "2nd Half Total",
    "BTTS": "EPL Both Teams to Score",
    "CORNERS": "EPL Corners",
+   "FTTS": "First Team to Score",
    "GAME": "English Premier League Game",
+   "SCORE": "Correct Score",
    "SPREAD": "English Premier League Spread",
    "TCORNERS": "EPL Team Corners",
+   "TEAMTOTAL": "Team Total",
    "TOTAL": "English Premier League Total Goals"
   },
   "EREDIVISIE": {
+   "1H": "1st Half Winner",
+   "1HBTTS": "1st Half BTTS",
+   "1HSPREAD": "1st Half Spread",
+   "1HTOTAL": "1st Half Total",
+   "BTTS": "BTTS",
    "GAME": "Eredivisie Game",
+   "SPREAD": "Eredivisie Spread",
+   "TOTAL": "Eredivisie Total",
    "WGAME": "Eredivisie Vrouwen Game"
   },
   "INTLFRIENDLY": {
@@ -85,20 +143,49 @@
    "TOTAL": "International Friendly Total"
   },
   "LALIGA": {
+   "1H": "La Liga First Half Winner",
+   "1HBTTS": "1st Half BTTS",
+   "1HSCORE": "1st Half Correct Score",
+   "1HSPREAD": "1st Half Spread",
+   "1HTOTAL": "1st Half Total",
    "BTTS": "La Liga BTTS",
    "CORNERS": "Total Corners",
+   "FIRSTGOAL": "First Goal",
+   "FTTS": "First Team to Score",
    "GAME": "La Liga Game",
+   "GOAL": "Goalscorer",
+   "SCORE": "Correct Score",
    "SPREAD": "La Liga Spread",
    "TCORNERS": "Team Corners",
+   "TEAMTOTAL": "Team Total",
    "TOTAL": "La Liga Total"
   },
   "LALIGA2": {
-   "GAME": "LaLiga 2 Game"
+   "BTTS": "BTTS",
+   "GAME": "LaLiga 2 Game",
+   "H": "2nd Half Winner",
+   "HBTTS": "2nd Half BTTS",
+   "HSPREAD": "2nd Half Spread",
+   "HTOTAL": "2nd Half Total",
+   "SPREAD": "Spread",
+   "TOTAL": "Point Total"
   },
   "LIGAMX": {
+   "1H": "1st Half Winner",
+   "1HBTTS": "1st Half BTTS",
+   "1HSCORE": "1st Half Correct Score",
+   "1HSPREAD": "1st Half Spread",
+   "1HTOTAL": "1st Half Total",
+   "2H": "2nd Half Winner",
+   "2HBTTS": "2nd Half BTTS",
+   "2HSPREAD": "2nd Half Spread",
+   "2HTOTAL": "2nd Half Total",
    "BTTS": "Liga MX BTTS",
+   "FTTS": "First Team to Score",
    "GAME": "Liga MX Game",
+   "SCORE": "Correct Score",
    "SPREAD": "Liga MX Game",
+   "TEAMTOTAL": "Team Total",
    "TOTAL": "Liga MX Total"
   },
   "LIGAPORTUGAL": {
@@ -116,13 +203,30 @@
    "TOTAL": "Point Total"
   },
   "LIGUE1": {
+   "1H": "Ligue 1 First Half Winner",
+   "1HBTTS": "1st Half BTTS",
+   "1HSCORE": "1st Half Correct Score",
+   "1HSPREAD": "1st Half Spread",
+   "1HTOTAL": "1st Half Total",
+   "2H": "2nd Half Winner",
+   "2HBTTS": "2nd Half BTTS",
+   "2HSPREAD": "2nd Half Spread",
+   "2HTOTAL": "2nd Half Total",
    "BTTS": "Ligue 1 BTTS",
+   "FIRSTGOAL": "First Goal",
+   "FTTS": "First Team to Score",
    "GAME": "Ligue 1 Game",
+   "GOAL": "Goalscorer",
+   "SCORE": "Correct Score",
    "SPREAD": "Ligue 1 Spread",
+   "TEAMTOTAL": "Team Total",
    "TOTAL": "Ligue 1 Total"
   },
   "LIGUE2": {
-   "GAME": "Ligue 2 Game"
+   "BTTS": "BTTS",
+   "GAME": "Ligue 2 Game",
+   "SPREAD": "Spread",
+   "TOTAL": "Point Total"
   },
   "MLB": {
    "BGAME": "Mobile Legends Bang Bang Game",
@@ -161,7 +265,6 @@
    "2HBTTS": "2nd Half BTTS",
    "2HSPREAD": "2nd Half Spread",
    "2HTOTAL": "2nd Half Total",
-   "ADVANCE": "MLS To Advance",
    "BTTS": "MLS BTTS",
    "FTTS": "First Team to Score",
    "GAME": "Major League Soccer Game",
@@ -186,7 +289,6 @@
    "2Q": "NBA 2nd Quarter Winner",
    "2QSPREAD": "NBA 2nd Quarter Spread",
    "2QTOTAL": "NBA 2nd Quarter Total",
-   "30PTSTREAK": "NBA 30 Point Streak",
    "3D": "NBA Player Triple Double",
    "3DPROT": "NBA Player Triple Double Protected",
    "3PT": "NBA Player Threes",
@@ -256,17 +358,17 @@
    "SPREAD": "College Football Spread",
    "STADIUM": "College Football Stadiums",
    "TEAMRECTD": "College Football Team Receiving Touchdowns",
+   "TEAMRECYDS": "College Football Team Receiving Yards",
    "TEAMRSHYDS": "College Football Team Rushing Yards",
    "TEAMTOTAL": "College Football Team Total Points",
    "TOPCFPPOLL": "College Football CFP Poll",
-   "TOTAL": "College Football Total Points"
+   "TOTAL": "College Football Total Points",
+   "WINMARGIN": "College Football Winning Margin"
   },
   "NCAAMB": {
    "1H": "Men's College Basketball 1st Half Winner",
    "1HSPREAD": "Men's College Basketball 1st Half Spread",
    "1HTOTAL": "Men's College Basketball 1st Half Total",
-   "2H": "Men's College Basketball 2nd Half Winner",
-   "2HTOTAL": "Men's College Basketball 2nd Half Total",
    "APRANK": "Men's College Basketball AP Poll",
    "CONFAWARD": "Men's College Basketball Conference Awards",
    "GAME": "Men's College Basketball Game",
@@ -333,6 +435,7 @@
    "PASSTDS": "Pro Football player Passing Touchdowns",
    "PASSTDSPROT": "Passing Touchdowns Protected",
    "PASSYDS": "Pro Football Passing Yards",
+   "PASSYDSPRECISE": "Pass Yards Precise",
    "PASSYDSPROT": "Passing Yards Protected",
    "RACE": "Pro Football Race to Points",
    "REC": "Pro Football Player Receptions",
@@ -356,6 +459,7 @@
    "TEAMYDS": "Pro Football Team Yards",
    "TIE": "NFL Game to Tie",
    "TOTAL": "Pro Football Total Points",
+   "TOTALPRECISE": "Total Precise",
    "WINMARGIN": "Pro Football Win Margin"
   },
   "NHL": {
@@ -368,14 +472,10 @@
    "3P": "NHL 3rd Period Winner",
    "3PSPREAD": "NHL 3rd Period Spread",
    "3PTOTAL": "3rd Period Total",
-   "AST": "Pro Hockey Assists",
    "EXPANSION": "NHL Expansion",
    "F10G": "NHL Goal in First 10 Minutes",
-   "FIRSTGOAL": "NHL First Goal",
    "GAME": "NHL Game",
-   "GOAL": "NHL Goalscorer",
    "OT": "NHL Overtime",
-   "PTS": "Pro Hockey Points",
    "SPREAD": "NHL Spread",
    "TEAMTOTAL": "NHL Team Goals Scored During Game",
    "TOTAL": "NHL Total Goals"
@@ -387,20 +487,45 @@
    "TOTAL": "Saudi Pro League Total"
   },
   "SCOTTISHPREM": {
-   "GAME": "Scottish Premiership Game"
+   "1H": "1st Half Winner",
+   "1HBTTS": "1st Half BTTS",
+   "1HSPREAD": "1st Half Spread",
+   "1HTOTAL": "1st Half Total",
+   "BTTS": "BTTS",
+   "GAME": "Scottish Premiership Game",
+   "SPREAD": "Spread",
+   "TOTAL": "Point Total"
   },
   "SERIEA": {
+   "1H": "Serie A First Half Winner",
+   "1HBTTS": "1st Half BTTS",
+   "1HSCORE": "1st Half Correct Score",
+   "1HSPREAD": "1st Half Spread",
+   "1HTOTAL": "1st Half Total",
+   "2H": "2nd Half Winner",
+   "2HBTTS": "2nd Half BTTS",
+   "2HSPREAD": "2nd Half Spread",
+   "2HTOTAL": "2nd Half Total",
    "BTTS": "Serie A BTTS",
+   "FTTS": "First Team to Score",
    "GAME": "Serie A Game",
+   "SCORE": "Correct Score",
    "SPREAD": "Serie A Spread",
+   "TEAMTOTAL": "Team Total",
    "TOTAL": "Serie A Total",
    "WGAME": "Serie A Femminile Game"
   },
   "SERIEB": {
-   "GAME": "Serie B Game"
+   "BTTS": "BTTS",
+   "GAME": "Serie B Game",
+   "SPREAD": "Spread",
+   "TOTAL": "Point Total"
   },
   "SUPERLIG": {
-   "GAME": "Turkish Super Lig Game"
+   "BTTS": "BTTS",
+   "GAME": "Turkish Super Lig Game",
+   "SPREAD": "Spread",
+   "TOTAL": "Point Total"
   },
   "UCL": {
    "1H": "Champions League First Hal Winner",
@@ -488,5 +613,5 @@
    "TOTAL": "Women's Pro Basketball Total"
   }
  },
- "updated": "2026-11-18T12:49:04.333659+00:00"
+ "updated": "2026-11-20T19:46:11.750772+00:00"
 }
