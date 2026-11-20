@@ -88,7 +88,7 @@
     "contract": "No \u00b7 Over 5.5",
     "buy": "no"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -2042
   },
   "401902280:KXNCAAMBGAME-26NOV19NEBUT-BUT:yes": {
@@ -402,7 +402,7 @@
     "contract": "Yes \u00b7 Over 0.5",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -2042
   },
   "401920519:KXNCAAMBTOTAL-26NOV19NDAUB-129:yes": {
@@ -447,7 +447,7 @@
     "contract": "Yes \u00b7 Over 128.5",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -1428
   },
   "401910022:KXNBAGAME-26NOV19LACSAS-SAS:yes": {
@@ -586,7 +586,7 @@
     "buy": "yes"
    },
    "result": null,
-   "close_odds": -1428
+   "close_odds": -1684
   },
   "401892753:KXNHLTOTAL-26NOV19DALVGK-10:no": {
    "id": "401892753:KXNHLTOTAL-26NOV19DALVGK-10:no",
@@ -675,7 +675,7 @@
     "buy": "yes"
    },
    "result": null,
-   "close_odds": -1684
+   "close_odds": -2042
   },
   "401910019:KXNBATOTAL-26NOV19GSWMEM-198:yes": {
    "id": "401910019:KXNBATOTAL-26NOV19GSWMEM-198:yes",
