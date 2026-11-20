@@ -44,7 +44,7 @@
     "contract": "Yes \u00b7 Over 27.5",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -2042
   },
   "401841317:KXBRASILEIROTOTAL-26NOV19VITRBB-6:no": {
@@ -134,7 +134,7 @@
     "contract": "Yes \u00b7 Butler",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -1428
   },
   "401892750:KXNHLTOTAL-26NOV19MINCGY-10:no": {
@@ -178,7 +178,7 @@
     "contract": "No \u00b7 Over 9.5",
     "buy": "no"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -1428
   },
   "401920349:KXNCAAMBGAME-26NOV19SACSTAN-STAN:yes": {
@@ -224,7 +224,7 @@
     "contract": "Yes \u00b7 Stanford",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -1684
   },
   "401873066:KXNFLTOTAL-26NOV19INDHOU-66:no": {
@@ -269,7 +269,7 @@
     "contract": "No \u00b7 Over 65.5",
     "buy": "no"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -2042
   },
   "401873066:KXNFLTOTAL-26NOV19INDHOU-27:yes": {
@@ -314,7 +314,7 @@
     "contract": "Yes \u00b7 Over 26.5",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -1428
   },
   "401841309:KXBRASILEIROTOTAL-26NOV19SPAFLU-4:no": {
@@ -358,7 +358,7 @@
     "contract": "No \u00b7 Over 3.5",
     "buy": "no"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -381
   },
   "401841308:KXBRASILEIROTOTAL-26NOV19VDGINT-1:yes": {
@@ -494,7 +494,7 @@
     "contract": "Yes \u00b7 San Antonio",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -788
   },
   "401920413:KXNCAAMBGAME-26NOV19MTSTHP-HP:yes": {
@@ -540,7 +540,7 @@
     "contract": "Yes \u00b7 High Point",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -967
   },
   "401920518:KXNCAAMBTOTAL-26NOV19HOUKU-128:yes": {
@@ -585,7 +585,7 @@
     "contract": "Yes \u00b7 Over 127.5",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -1684
   },
   "401892753:KXNHLTOTAL-26NOV19DALVGK-10:no": {
@@ -629,7 +629,7 @@
     "contract": "No \u00b7 Over 9.5",
     "buy": "no"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -2042
   },
   "401925941:KXNCAAMBGAME-26NOV19UTUWASH-WASH:yes": {
@@ -674,7 +674,7 @@
     "contract": "Yes \u00b7 Washington",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -2042
   },
   "401910019:KXNBATOTAL-26NOV19GSWMEM-198:yes": {
@@ -719,7 +719,7 @@
     "contract": "Yes \u00b7 Over 197.5",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -2580
   },
   "401910020:KXNBAGAME-26NOV19PORMIL-POR:yes": {
@@ -766,7 +766,7 @@
     "contract": "Yes \u00b7 Portland",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -489
   },
   "401892750:KXNHLGAME-26NOV19MINCGY-MIN:yes": {
@@ -813,7 +813,7 @@
     "contract": "Yes \u00b7 Minnesota",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -228
   },
   "401892747:KXNHLGAME-26NOV19MTLCAR-CAR:yes": {
@@ -859,7 +859,7 @@
     "contract": "Yes \u00b7 Carolina",
     "buy": "yes"
    },
-   "result": null,
+   "result": "L",
    "close_odds": -322
   },
   "401933555:KXMLSTOTAL-26NOV19SEARSL-1:yes": {
@@ -904,7 +904,7 @@
     "contract": "Yes \u00b7 Over 0.5",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -2580
   },
   "401841309:KXBRASILEIROTOTAL-26NOV19SPAFLU-1:yes": {
@@ -948,7 +948,7 @@
     "contract": "Yes \u00b7 Over 0.5",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -1236
   },
   "401918056:KXNCAAMBGAME-26NOV19ETAMCAL-CAL:yes": {
@@ -994,7 +994,7 @@
     "contract": "Yes \u00b7 California",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -967
   },
   "401928826:KXNCAAMBGAME-26NOV19RMUTOL-TOL:yes": {
@@ -1040,7 +1040,7 @@
     "contract": "Yes \u00b7 Toledo",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -306
   }
  },
@@ -1058,7 +1058,8 @@
    "ev": -0.0014,
    "tier": "lock",
    "name": "lock_2",
-   "result": null
+   "result": "W",
+   "missed": []
   },
   {
    "legs": [
@@ -1074,7 +1075,8 @@
    "ev": -0.0087,
    "tier": "lock",
    "name": "lock_3",
-   "result": null
+   "result": "W",
+   "missed": []
   },
   {
    "legs": [
@@ -1089,7 +1091,10 @@
    "ev": -0.0169,
    "tier": "best",
    "name": "best_2",
-   "result": null
+   "result": "L",
+   "missed": [
+    "401892747:KXNHLGAME-26NOV19MTLCAR-CAR:yes"
+   ]
   }
  ],
  "straights": [],
