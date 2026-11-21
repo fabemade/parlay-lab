@@ -47,7 +47,7 @@
     "buy": "yes"
    },
    "result": null,
-   "close_odds": -208
+   "close_odds": -191
   },
   "401926217:KXNCAAMBGAME-26NOV21PRETNTC-TNTC:yes": {
    "id": "401926217:KXNCAAMBGAME-26NOV21PRETNTC-TNTC:yes",
@@ -275,7 +275,7 @@
     "buy": "yes"
    },
    "result": null,
-   "close_odds": -183
+   "close_odds": -199
   },
   "401875539:KXEREDIVISIETOTAL-26NOV21TELZWO-1:yes": {
    "id": "401875539:KXEREDIVISIETOTAL-26NOV21TELZWO-1:yes",
@@ -319,7 +319,7 @@
     "contract": "Yes \u00b7 Over 0.5",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -2580
   },
   "401876684:KXLIGUE2TOTAL-26NOV21SDRSTE-6:no": {
@@ -363,7 +363,7 @@
     "contract": "No \u00b7 Over 5.5",
     "buy": "no"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -2042
   },
   "401875545:KXEREDIVISIESPREAD-26NOV22TWEWIL-TWE2:yes": {
@@ -456,7 +456,7 @@
     "buy": "yes"
    },
    "result": null,
-   "close_odds": -381
+   "close_odds": -404
   },
   "401910028:KXNBAGAME-26NOV21BOSSAC-BOS:yes": {
    "id": "401910028:KXNBAGAME-26NOV21BOSSAC-BOS:yes",
@@ -502,7 +502,7 @@
     "buy": "yes"
    },
    "result": null,
-   "close_odds": -719
+   "close_odds": -564
   },
   "401910026:KXNBAGAME-26NOV21MEMMIN-MIN:yes": {
    "id": "401910026:KXNBAGAME-26NOV21MEMMIN-MIN:yes",
@@ -549,7 +549,7 @@
     "buy": "yes"
    },
    "result": null,
-   "close_odds": -228
+   "close_odds": -218
   },
   "401858302:KXNCAAFGAME-26NOV21VTMIA-MIA:yes": {
    "id": "401858302:KXNCAAFGAME-26NOV21VTMIA-MIA:yes",
@@ -595,7 +595,7 @@
     "buy": "yes"
    },
    "result": null,
-   "close_odds": -1236
+   "close_odds": -1428
   },
   "401925099:KXNCAAMBTOTAL-26NOV21AMCCORU-166:no": {
    "id": "401925099:KXNCAAMBTOTAL-26NOV21AMCCORU-166:no",
@@ -687,7 +687,7 @@
     "buy": "yes"
    },
    "result": null,
-   "close_odds": -430
+   "close_odds": -381
   },
   "401917539:KXNCAAMBGAME-26NOV21LMUCBU-LMU:yes": {
    "id": "401917539:KXNCAAMBGAME-26NOV21LMUCBU-LMU:yes",
@@ -778,7 +778,7 @@
     "contract": "Yes \u00b7 Over 104.5",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -1428
   },
   "401858532:KXNCAAFSPREAD-26NOV21RUTGPSU-PSU4:yes": {
@@ -916,7 +916,7 @@
     "buy": "yes"
    },
    "result": null,
-   "close_odds": -788
+   "close_odds": -719
   },
   "401869946:KXNCAAFGAME-26NOV21CCARULL-ULL:yes": {
    "id": "401869946:KXNCAAFGAME-26NOV21CCARULL-ULL:yes",
@@ -961,7 +961,7 @@
     "contract": "Yes \u00b7 Louisiana",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -381
   },
   "401862832:KXNCAAFGAME-26NOV21CHARTLSA-TLSA:yes": {
@@ -1007,7 +1007,7 @@
     "contract": "Yes \u00b7 Tulsa",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -1684
   },
   "401875545:KXEREDIVISIEGAME-26NOV22TWEWIL-TWE:yes": {
@@ -1097,7 +1097,7 @@
     "contract": "Yes \u00b7 Real Madrid",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -609
   },
   "401911023:KXNCAAMBGAME-26NOV21MEMASS-MASS:yes": {
@@ -1233,7 +1233,7 @@
     "contract": "Yes \u00b7 Over 0.5",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -2042
   },
   "401877048:KXLIGAMXTOTAL-26NOV21TIGAME-1:yes": {
