@@ -181,7 +181,7 @@
     "buy": "yes"
    },
    "result": null,
-   "close_odds": -719
+   "close_odds": -788
   },
   "401909313:KXNBAGAME-26NOV20SACLAL-LAL:yes": {
    "id": "401909313:KXNBAGAME-26NOV20SACLAL-LAL:yes",
@@ -228,7 +228,7 @@
     "buy": "yes"
    },
    "result": null,
-   "close_odds": -788
+   "close_odds": -719
   },
   "401880155:KXEFLCHAMPIONSHIPTOTAL-26NOV21NORCAR-6:no": {
    "id": "401880155:KXEFLCHAMPIONSHIPTOTAL-26NOV21NORCAR-6:no",
@@ -452,7 +452,7 @@
     "contract": "Yes \u00b7 Over 0.5",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -2042
   },
   "401920066:KXNCAAMBTOTAL-26NOV20URILIB-120:yes": {
@@ -496,7 +496,7 @@
     "contract": "Yes \u00b7 Over 119.5",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -1428
   },
   "401909307:KXNBAGAME-26NOV20INDCLE-CLE:yes": {
@@ -722,7 +722,7 @@
     "contract": "No \u00b7 Over 5.5",
     "buy": "no"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -1428
   },
   "401864545:KXNCAAFGAME-26NOV20UTEPAFA-AFA:yes": {
@@ -1041,7 +1041,7 @@
     "buy": "yes"
    },
    "result": null,
-   "close_odds": -360
+   "close_odds": -381
   },
   "401858529:KXNCAAFGAME-26NOV20OREMSU-ORE:yes": {
    "id": "401858529:KXNCAAFGAME-26NOV20OREMSU-ORE:yes",
@@ -1175,7 +1175,7 @@
     "contract": "Yes \u00b7 Over 0.5",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -2580
   },
   "401920818:KXNCAAMBGAME-26NOV20SELAKENN-KENN:yes": {
@@ -1332,7 +1332,8 @@
    "ev": -0.0001,
    "tier": "lock",
    "name": "lock_2",
-   "result": null
+   "result": "W",
+   "missed": []
   },
   {
    "legs": [
