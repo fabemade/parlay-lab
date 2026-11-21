@@ -1,87 +1,87 @@
 {
  "cfb|1st half": {
-  "n": 7351,
+  "n": 6491,
   "trusted": true,
   "w_mult": 1.0,
-  "z": 1.18
+  "z": 0.38
  },
  "cfb|1st quarter": {
-  "n": 1531,
+  "n": 1499,
   "trusted": true,
   "w_mult": 1.0,
-  "z": 2.54
+  "z": 2.48
  },
  "cfb|2nd half": {
-  "n": 1977,
+  "n": 1917,
   "trusted": true,
   "w_mult": 1.0,
-  "z": 5.58
+  "z": 5.52
  },
  "cfb|2nd quarter": {
-  "n": 1213,
+  "n": 1178,
   "trusted": true,
   "w_mult": 1.0,
-  "z": 0.61
+  "z": 0.63
  },
  "cfb|3rd quarter": {
-  "n": 1329,
+  "n": 1293,
   "trusted": true,
   "w_mult": 1.0,
-  "z": 2.73
+  "z": 2.76
  },
  "cfb|4th quarter": {
-  "n": 495,
+  "n": 486,
   "trusted": true,
   "w_mult": 1.0,
-  "z": 1.03
+  "z": 0.89
  },
  "cfb|Game lines": {
-  "n": 2060,
+  "n": 1762,
   "trusted": true,
   "w_mult": 0.25,
-  "z": -4.52
+  "z": -4.33
  },
  "cfb|Game specials": {
-  "n": 136,
+  "n": 118,
   "trusted": false,
   "w_mult": 0.5,
-  "z": -1.05
+  "z": -0.84
  },
  "cfb|Team props": {
-  "n": 5511,
+  "n": 4827,
   "trusted": true,
   "w_mult": 1.0,
-  "z": 0.61
+  "z": 0.62
  },
  "mlb|First 5 innings": {
-  "n": 156,
-  "trusted": true,
-  "w_mult": 1.0,
-  "z": 2.88
- },
- "mlb|Game lines": {
-  "n": 63,
-  "trusted": true,
-  "w_mult": 1.0,
-  "z": 2.91
- },
- "mlb|Game specials": {
-  "n": 29,
+  "n": 139,
   "trusted": false,
   "w_mult": 0.5,
-  "z": 1.33
+  "z": 2.41
+ },
+ "mlb|Game lines": {
+  "n": 55,
+  "trusted": true,
+  "w_mult": 1.0,
+  "z": 2.7
+ },
+ "mlb|Game specials": {
+  "n": 26,
+  "trusted": false,
+  "w_mult": 0.5,
+  "z": 1.2
  },
  "mlb|Player props": {
-  "n": 2157,
+  "n": 1891,
   "trusted": true,
   "w_mult": 1.0,
-  "z": 1.0
+  "z": 0.26
  },
  "mlb|Team props": {
-  "n": 190,
+  "n": 169,
   "trusted": true,
   "w_mult": 1.0,
-  "z": 1.71
+  "z": 1.49
  },
  "nba|1st half": {
   "n": 1545,
@@ -114,10 +114,10 @@
   "z": -1.97
  },
  "nba|4th quarter": {
-  "n": 391,
+  "n": 401,
   "trusted": true,
   "w_mult": 1.0,
-  "z": -0.52
+  "z": -0.29
  },
  "nba|Game lines": {
   "n": 445,
@@ -132,10 +132,10 @@
   "z": -0.03
  },
  "nba|Player props": {
-  "n": 5137,
+  "n": 5173,
   "trusted": true,
   "w_mult": 1.0,
-  "z": 3.35
+  "z": 3.21
  },
  "nba|Team props": {
   "n": 1669,
@@ -150,112 +150,112 @@
   "z": -0.35
  },
  "nfl|1st half": {
-  "n": 4000,
+  "n": 4004,
   "trusted": true,
   "w_mult": 1.0,
-  "z": 4.29
+  "z": 4.26
  },
  "nfl|1st quarter": {
   "n": 1462,
   "trusted": true,
   "w_mult": 1.0,
-  "z": 3.81
+  "z": 3.82
  },
  "nfl|2nd half": {
-  "n": 2250,
+  "n": 2260,
   "trusted": false,
   "w_mult": 0.125,
-  "z": -3.34
+  "z": -3.44
  },
  "nfl|2nd quarter": {
-  "n": 1588,
+  "n": 1615,
   "trusted": true,
   "w_mult": 1.0,
-  "z": 3.35
+  "z": 3.17
  },
  "nfl|3rd quarter": {
-  "n": 1332,
+  "n": 1348,
   "trusted": true,
   "w_mult": 1.0,
-  "z": 3.36
+  "z": 3.45
  },
  "nfl|4th quarter": {
-  "n": 1216,
-  "trusted": false,
-  "w_mult": 0.5,
-  "z": -1.41
- },
- "nfl|Game lines": {
-  "n": 557,
-  "trusted": true,
-  "w_mult": 1.0,
-  "z": 0.6
- },
- "nfl|Game specials": {
-  "n": 300,
+  "n": 1221,
   "trusted": false,
   "w_mult": 0.25,
-  "z": -1.53
+  "z": -1.68
+ },
+ "nfl|Game lines": {
+  "n": 550,
+  "trusted": true,
+  "w_mult": 1.0,
+  "z": 0.33
+ },
+ "nfl|Game specials": {
+  "n": 298,
+  "trusted": false,
+  "w_mult": 0.25,
+  "z": -1.56
  },
  "nfl|Player props": {
-  "n": 21901,
+  "n": 21811,
   "trusted": true,
   "w_mult": 1.0,
-  "z": 2.11
+  "z": 2.26
  },
  "nfl|Team props": {
-  "n": 1873,
+  "n": 1883,
   "trusted": true,
   "w_mult": 1.0,
-  "z": 3.36
+  "z": 3.39
  },
  "nhl|1st period": {
-  "n": 448,
+  "n": 441,
   "trusted": true,
   "w_mult": 1.0,
-  "z": 1.05
+  "z": 1.21
  },
  "nhl|2nd period": {
-  "n": 430,
+  "n": 428,
   "trusted": true,
   "w_mult": 1.0,
-  "z": -0.79
+  "z": -0.84
  },
  "nhl|3rd period": {
-  "n": 445,
+  "n": 443,
   "trusted": true,
   "w_mult": 1.0,
-  "z": 1.26
+  "z": 1.08
  },
  "nhl|Game lines": {
-  "n": 538,
+  "n": 531,
   "trusted": true,
   "w_mult": 1.0,
-  "z": 2.24
+  "z": 2.01
  },
  "nhl|Game specials": {
-  "n": 241,
+  "n": 236,
   "trusted": true,
   "w_mult": 1.0,
-  "z": -0.68
+  "z": -0.7
  },
  "nhl|Player props": {
-  "n": 7296,
+  "n": 7192,
   "trusted": true,
   "w_mult": 1.0,
-  "z": -0.56
+  "z": -0.64
  },
  "nhl|Team props": {
-  "n": 1089,
+  "n": 1066,
   "trusted": true,
   "w_mult": 1.0,
-  "z": 0.21
+  "z": -0.05
  },
  "soccer_arg.1|Game lines": {
-  "n": 86,
+  "n": 83,
   "trusted": true,
   "w_mult": 1.0,
-  "z": 2.33
+  "z": 2.1
  },
  "soccer_bel.1|Game lines": {
   "n": 42,
@@ -264,16 +264,16 @@
   "z": -0.5
  },
  "soccer_bra.1|1st half": {
-  "n": 253,
+  "n": 223,
   "trusted": true,
   "w_mult": 1.0,
-  "z": 0.28
+  "z": -0.17
  },
  "soccer_bra.1|Game lines": {
-  "n": 399,
+  "n": 374,
   "trusted": true,
   "w_mult": 1.0,
-  "z": -0.18
+  "z": -0.31
  },
  "soccer_bra.1|Game specials": {
   "n": 189,
@@ -282,10 +282,10 @@
   "z": -0.88
  },
  "soccer_bra.1|Team props": {
-  "n": 214,
+  "n": 192,
   "trusted": true,
   "w_mult": 1.0,
-  "z": 2.68
+  "z": 1.95
  },
  "soccer_concacaf.nations.league|Game lines": {
   "n": 20,
@@ -306,10 +306,10 @@
   "z": 1.31
  },
  "soccer_eng.1|1st half": {
-  "n": 186,
+  "n": 187,
   "trusted": true,
   "w_mult": 1.0,
-  "z": 0.95
+  "z": 0.98
  },
  "soccer_eng.1|2nd half": {
   "n": 34,
@@ -318,10 +318,10 @@
   "z": 0.12
  },
  "soccer_eng.1|Game lines": {
-  "n": 265,
+  "n": 250,
   "trusted": true,
   "w_mult": 1.0,
-  "z": 2.85
+  "z": 2.98
  },
  "soccer_eng.1|Game specials": {
   "n": 226,
@@ -342,10 +342,10 @@
   "z": 0.68
  },
  "soccer_eng.2|Game lines": {
-  "n": 421,
+  "n": 395,
   "trusted": true,
   "w_mult": 1.0,
-  "z": -0.61
+  "z": -0.95
  },
  "soccer_eng.3|1st half": {
   "n": 60,
@@ -354,10 +354,10 @@
   "z": 2.65
  },
  "soccer_eng.3|Game lines": {
-  "n": 400,
+  "n": 377,
   "trusted": true,
   "w_mult": 1.0,
-  "z": 2.71
+  "z": 2.66
  },
  "soccer_esp.1|1st half": {
   "n": 179,
@@ -366,10 +366,10 @@
   "z": 1.48
  },
  "soccer_esp.1|Game lines": {
-  "n": 281,
+  "n": 273,
   "trusted": true,
   "w_mult": 0.5,
-  "z": -2.37
+  "z": -2.32
  },
  "soccer_esp.1|Game specials": {
   "n": 245,
@@ -414,10 +414,10 @@
   "z": 1.27
  },
  "soccer_fra.1|Game lines": {
-  "n": 231,
+  "n": 215,
   "trusted": true,
   "w_mult": 1.0,
-  "z": -1.1
+  "z": -1.28
  },
  "soccer_fra.1|Game specials": {
   "n": 146,
@@ -450,10 +450,10 @@
   "z": -0.74
  },
  "soccer_ger.1|Game lines": {
-  "n": 227,
+  "n": 210,
   "trusted": true,
   "w_mult": 0.5,
-  "z": -2.42
+  "z": -2.11
  },
  "soccer_ger.1|Game specials": {
   "n": 177,
@@ -468,10 +468,10 @@
   "z": -1.61
  },
  "soccer_ger.2|Game lines": {
-  "n": 50,
+  "n": 49,
   "trusted": true,
   "w_mult": 1.0,
-  "z": 0.51
+  "z": 0.62
  },
  "soccer_ita.1|1st half": {
   "n": 231,
@@ -486,10 +486,10 @@
   "z": 0.15
  },
  "soccer_ita.1|Game lines": {
-  "n": 389,
+  "n": 381,
   "trusted": true,
   "w_mult": 1.0,
-  "z": -0.01
+  "z": -0.14
  },
  "soccer_ita.1|Game specials": {
   "n": 227,
@@ -516,10 +516,10 @@
   "z": -0.35
  },
  "soccer_ksa.1|Game lines": {
-  "n": 174,
+  "n": 170,
   "trusted": true,
   "w_mult": 1.0,
-  "z": 0.53
+  "z": 0.39
  },
  "soccer_mex.1|1st half": {
   "n": 239,
@@ -534,10 +534,10 @@
   "z": 0.53
  },
  "soccer_mex.1|Game lines": {
-  "n": 307,
+  "n": 294,
   "trusted": true,
   "w_mult": 1.0,
-  "z": -0.42
+  "z": -0.85
  },
  "soccer_mex.1|Game specials": {
   "n": 256,
@@ -546,10 +546,10 @@
   "z": 0.12
  },
  "soccer_mex.1|Team props": {
-  "n": 186,
+  "n": 190,
   "trusted": true,
   "w_mult": 1.0,
-  "z": 0.77
+  "z": 0.73
  },
  "soccer_ned.1|1st half": {
   "n": 79,
@@ -558,10 +558,10 @@
   "z": -0.14
  },
  "soccer_ned.1|Game lines": {
-  "n": 189,
+  "n": 187,
   "trusted": true,
   "w_mult": 1.0,
-  "z": -0.35
+  "z": -0.15
  },
  "soccer_por.1|1st half": {
   "n": 28,
@@ -570,10 +570,10 @@
   "z": 1.1
  },
  "soccer_por.1|Game lines": {
-  "n": 82,
+  "n": 79,
   "trusted": true,
   "w_mult": 1.0,
-  "z": -0.81
+  "z": -0.93
  },
  "soccer_sco.1|1st half": {
   "n": 40,
@@ -582,16 +582,16 @@
   "z": -0.9
  },
  "soccer_sco.1|Game lines": {
-  "n": 183,
+  "n": 172,
   "trusted": true,
   "w_mult": 1.0,
-  "z": 2.96
+  "z": 2.94
  },
  "soccer_tur.1|Game lines": {
-  "n": 69,
+  "n": 67,
   "trusted": true,
   "w_mult": 1.0,
-  "z": 2.54
+  "z": 2.58
  },
  "soccer_uefa.champions|1st half": {
   "n": 199,
@@ -684,10 +684,10 @@
   "z": 2.17
  },
  "soccer_usa.1|Game lines": {
-  "n": 497,
+  "n": 473,
   "trusted": true,
   "w_mult": 1.0,
-  "z": 2.15
+  "z": 2.06
  },
  "soccer_usa.1|Game specials": {
   "n": 493,
@@ -702,10 +702,10 @@
   "z": 1.18
  },
  "wnba|1st half": {
-  "n": 25,
+  "n": 17,
   "trusted": false,
   "w_mult": 0.5,
-  "z": 0.63
+  "z": 0.92
  },
  "wnba|1st quarter": {
   "n": 6,
@@ -726,16 +726,16 @@
   "z": -2.55
  },
  "wnba|Game lines": {
-  "n": 41,
+  "n": 32,
   "trusted": true,
   "w_mult": 1.0,
-  "z": -0.9
+  "z": -1.1
  },
  "wnba|Game specials": {
-  "n": 21,
+  "n": 19,
   "trusted": false,
   "w_mult": 0.5,
-  "z": -1.13
+  "z": -0.48
  },
  "wnba|Player props": {
   "n": 56,
@@ -744,9 +744,9 @@
   "z": 0.47
  },
  "wnba|Team props": {
-  "n": 15,
+  "n": 9,
   "trusted": false,
   "w_mult": 0.5,
-  "z": -1.78
+  "z": -0.89
  }
 }

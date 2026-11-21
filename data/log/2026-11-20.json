@@ -180,7 +180,7 @@
     "contract": "Yes \u00b7 Over 1.5",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -788
   },
   "401909313:KXNBAGAME-26NOV20SACLAL-LAL:yes": {
@@ -271,7 +271,7 @@
     "contract": "No \u00b7 Over 5.5",
     "buy": "no"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -525
   },
   "401909305:KXNBATOTAL-26NOV20CHAATL-192:yes": {
@@ -1131,7 +1131,7 @@
     "contract": "Yes \u00b7 Reading",
     "buy": "yes"
    },
-   "result": null,
+   "result": "L",
    "close_odds": -276
   },
   "401880742:KXEFLL1TOTAL-26NOV20BARSHW-1:yes": {
