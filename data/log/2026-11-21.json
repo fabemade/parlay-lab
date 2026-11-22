@@ -227,7 +227,7 @@
     "contract": "Yes \u00b7 Minnesota",
     "buy": "yes"
    },
-   "result": null,
+   "result": "L",
    "close_odds": -306
   },
   "401892761:KXNHLGAME-26NOV21LAOTT-OTT:yes": {
@@ -409,7 +409,7 @@
     "contract": "Yes \u00b7 Enschede wins by more than 1.5 goals",
     "buy": "yes"
    },
-   "result": null,
+   "result": "L",
    "close_odds": -340
   },
   "401911378:KXNCAAMBGAME-26NOV21CHSOMER-MER:yes": {
@@ -501,7 +501,7 @@
     "contract": "Yes \u00b7 Boston",
     "buy": "yes"
    },
-   "result": null,
+   "result": "L",
    "close_odds": -564
   },
   "401910026:KXNBAGAME-26NOV21MEMMIN-MIN:yes": {
@@ -1052,7 +1052,7 @@
     "contract": "Yes \u00b7 Enschede",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -1087
   },
   "401882798:KXLALIGAGAME-26NOV21RMARCC-RMA:yes": {
@@ -1368,7 +1368,7 @@
     "contract": "No \u00b7 Over 5.5",
     "buy": "no"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -360
   },
   "401860920:KXNCAAFSPREAD-26NOV21WSUTXST-TXST2:yes": {
@@ -1466,7 +1466,10 @@
    "ev": 0.0141,
    "tier": "best",
    "name": "best_2",
-   "result": null
+   "result": "L",
+   "missed": [
+    "401875545:KXEREDIVISIESPREAD-26NOV22TWEWIL-TWE2:yes"
+   ]
   },
   {
    "legs": [
@@ -1482,7 +1485,8 @@
    "ev": -0.0099,
    "tier": "best",
    "name": "best_3",
-   "result": null
+   "result": "W",
+   "missed": []
   }
  ],
  "straights": [],
