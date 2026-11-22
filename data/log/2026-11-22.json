@@ -89,7 +89,7 @@
     "contract": "No \u00b7 Over 5.5",
     "buy": "no"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -1428
   },
   "401873073:KXNFLGAME-26NOV22TENDAL-DAL:yes": {
@@ -275,7 +275,7 @@
     "contract": "No \u00b7 Over 3.5",
     "buy": "no"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -340
   },
   "401873072:KXNFLTOTAL-26NOV22TBDET-68:no": {
@@ -497,7 +497,7 @@
     "contract": "No \u00b7 Over 5.5",
     "buy": "no"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -2042
   },
   "401888249:KXSUPERLIGGAME-26NOV22TRAEYU-TRA:yes": {
@@ -542,7 +542,7 @@
     "contract": "Yes \u00b7 Trabzonspor",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -869
   },
   "401921420:KXNCAAMBGAME-26NOV22UTAHMINN-MINN:yes": {
@@ -589,7 +589,7 @@
     "buy": "yes"
    },
    "result": null,
-   "close_odds": -609
+   "close_odds": -489
   },
   "401910032:KXNBAGAME-26NOV22DENCHI-DEN:yes": {
    "id": "401910032:KXNBAGAME-26NOV22DENCHI-DEN:yes",
@@ -636,7 +636,7 @@
     "buy": "yes"
    },
    "result": null,
-   "close_odds": -360
+   "close_odds": -404
   },
   "401873070:KXNFLGAME-26NOV22MIABUF-BUF:yes": {
    "id": "401873070:KXNFLGAME-26NOV22MIABUF-BUF:yes",
@@ -820,7 +820,7 @@
     "buy": "yes"
    },
    "result": null,
-   "close_odds": -340
+   "close_odds": -290
   },
   "401878936:KXBELGIANPLGAME-26NOV22KORUSG-USG:yes": {
    "id": "401878936:KXBELGIANPLGAME-26NOV22KORUSG-USG:yes",
@@ -864,7 +864,7 @@
     "contract": "Yes \u00b7 Union Gilloise",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -306
   },
   "401922293:KXNCAAMBGAME-26NOV22UNCASAM-SAM:yes": {
@@ -911,7 +911,7 @@
     "buy": "yes"
    },
    "result": null,
-   "close_odds": -404
+   "close_odds": -525
   },
   "401873075:KXNFLGAME-26NOV22LVDEN-DEN:yes": {
    "id": "401873075:KXNFLGAME-26NOV22LVDEN-DEN:yes",
@@ -959,7 +959,7 @@
     "buy": "yes"
    },
    "result": null,
-   "close_odds": -525
+   "close_odds": -564
   },
   "401883111:KXLALIGA2TOTAL-26NOV22BURALB-4:no": {
    "id": "401883111:KXLALIGA2TOTAL-26NOV22BURALB-4:no",
@@ -1094,7 +1094,7 @@
     "contract": "Yes \u00b7 Over 0.5",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -2580
   },
   "401882803:KXLALIGATOTAL-26NOV22GETATM-4:no": {
@@ -1139,7 +1139,7 @@
     "buy": "no"
    },
    "result": null,
-   "close_odds": -381
+   "close_odds": -360
   },
   "401902281:KXNCAAMBGAME-26NOV22BUTNEB-NEB:yes": {
    "id": "401902281:KXNCAAMBGAME-26NOV22BUTNEB-NEB:yes",
@@ -1227,7 +1227,7 @@
     "contract": "Yes \u00b7 Over 0.5",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -1428
   },
   "401841321:KXBRASILEIROTOTAL-26NOV22RBBVDG-1:yes": {
@@ -1318,7 +1318,7 @@
     "buy": "yes"
    },
    "result": null,
-   "close_odds": -458
+   "close_odds": -340
   },
   "401892769:KXNHLGAME-26NOV22BUFTB-TB:yes": {
    "id": "401892769:KXNHLGAME-26NOV22BUFTB-TB:yes",
@@ -1365,7 +1365,7 @@
     "buy": "yes"
    },
    "result": null,
-   "close_odds": -218
+   "close_odds": -228
   }
  },
  "parlays": [
