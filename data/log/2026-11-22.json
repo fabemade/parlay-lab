@@ -46,7 +46,7 @@
     "buy": "yes"
    },
    "result": null,
-   "close_odds": -381
+   "close_odds": -404
   },
   "401879234:KXEPLTOTAL-26NOV22HULBRI-6:no": {
    "id": "401879234:KXEPLTOTAL-26NOV22HULBRI-6:no",
@@ -409,7 +409,7 @@
     "contract": "No \u00b7 Over 5.5",
     "buy": "no"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -2042
   },
   "401841324:KXBRASILEIROTOTAL-26NOV22FLUMIR-6:no": {
@@ -454,7 +454,7 @@
     "buy": "no"
    },
    "result": null,
-   "close_odds": -1684
+   "close_odds": -2042
   },
   "401899547:KXSERIEBTOTAL-26NOV22USAMAN-6:no": {
    "id": "401899547:KXSERIEBTOTAL-26NOV22USAMAN-6:no",
@@ -728,7 +728,7 @@
     "contract": "Yes \u00b7 Over 26.5",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -1428
   },
   "401882801:KXLALIGATOTAL-26NOV22OSAMCF-1:yes": {
@@ -772,7 +772,7 @@
     "contract": "Yes \u00b7 Over 0.5",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -1428
   },
   "401910034:KXNBAGAME-26NOV22INDNYK-NYK:yes": {
@@ -1183,7 +1183,7 @@
     "contract": "Yes \u00b7 Nebraska",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -788
   },
   "401882298:KXLALIGA2TOTAL-26NOV22GIJLPA-1:yes": {
@@ -1398,7 +1398,8 @@
    "ev": -0.0114,
    "tier": "lock",
    "name": "lock_3",
-   "result": null
+   "result": "W",
+   "missed": []
   },
   {
    "legs": [
