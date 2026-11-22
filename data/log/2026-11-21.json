@@ -46,7 +46,7 @@
     "contract": "Yes \u00b7 Dallas",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -191
   },
   "401926217:KXNCAAMBGAME-26NOV21PRETNTC-TNTC:yes": {
@@ -92,7 +92,7 @@
     "contract": "Yes \u00b7 Tennessee Tech",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -340
   },
   "401892765:KXNHLTOTAL-26NOV21ANAUTA-4:yes": {
@@ -136,7 +136,7 @@
     "contract": "Yes \u00b7 Over 3.5",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -1428
   },
   "401869953:KXNCAAFTOTAL-26NOV21GASOTROY-28:yes": {
@@ -180,7 +180,7 @@
     "contract": "Yes \u00b7 Over 27.5",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -1428
   },
   "401892766:KXNHLGAME-26NOV21MINVAN-MIN:yes": {
@@ -274,7 +274,7 @@
     "contract": "Yes \u00b7 Ottawa",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -199
   },
   "401875539:KXEREDIVISIETOTAL-26NOV21TELZWO-1:yes": {
@@ -455,7 +455,7 @@
     "contract": "Yes \u00b7 Mercer",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -404
   },
   "401910028:KXNBAGAME-26NOV21BOSSAC-BOS:yes": {
@@ -548,7 +548,7 @@
     "contract": "Yes \u00b7 Minnesota",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -218
   },
   "401858302:KXNCAAFGAME-26NOV21VTMIA-MIA:yes": {
@@ -594,7 +594,7 @@
     "contract": "Yes \u00b7 Miami (FL)",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -1428
   },
   "401925099:KXNCAAMBTOTAL-26NOV21AMCCORU-166:no": {
@@ -640,7 +640,7 @@
     "contract": "No \u00b7 Over 165.5",
     "buy": "no"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -1428
   },
   "401917537:KXNCAAMBSPREAD-26NOV21BRADPAC-PAC2:yes": {
@@ -686,7 +686,7 @@
     "contract": "Yes \u00b7 Pacific wins by over 1.5 points",
     "buy": "yes"
    },
-   "result": null,
+   "result": "L",
    "close_odds": -381
   },
   "401917539:KXNCAAMBGAME-26NOV21LMUCBU-LMU:yes": {
@@ -732,7 +732,7 @@
     "contract": "Yes \u00b7 Loyola Marymount",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -967
   },
   "401924882:KXNCAAMBTOTAL-26NOV21STONSPC-105:yes": {
@@ -825,7 +825,7 @@
     "contract": "Yes \u00b7 Penn St. wins by over 3.5 points",
     "buy": "yes"
    },
-   "result": null,
+   "result": "L",
    "close_odds": -1684
   },
   "401862833:KXNCAAFTOTAL-26NOV21USFFAU-91:no": {
@@ -870,7 +870,7 @@
     "contract": "No \u00b7 Over 90.5",
     "buy": "no"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -1428
   },
   "401920964:KXNCAAMBGAME-26NOV21MOREELON-ELON:yes": {
@@ -915,7 +915,7 @@
     "contract": "Yes \u00b7 Elon",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -719
   },
   "401869946:KXNCAAFGAME-26NOV21CCARULL-ULL:yes": {
@@ -1143,7 +1143,7 @@
     "contract": "Yes \u00b7 UMass",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -719
   },
   "401864543:KXNCAAFGAME-26NOV21NIUNDSU-NDSU:yes": {
@@ -1189,7 +1189,7 @@
     "contract": "Yes \u00b7 North Dakota St.",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -2580
   },
   "401875067:KXSERIEATOTAL-26NOV21NAPTOR-1:yes": {
@@ -1277,7 +1277,7 @@
     "contract": "Yes \u00b7 Over 0.5",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -2042
   },
   "401910027:KXNBAGAME-26NOV21NOPSAS-SAS:yes": {
@@ -1324,7 +1324,7 @@
     "contract": "Yes \u00b7 San Antonio",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -1236
   },
   "401875545:KXEREDIVISIETOTAL-26NOV22TWEWIL-6:no": {
@@ -1369,7 +1369,7 @@
     "buy": "no"
    },
    "result": null,
-   "close_odds": -381
+   "close_odds": -360
   },
   "401860920:KXNCAAFSPREAD-26NOV21WSUTXST-TXST2:yes": {
    "id": "401860920:KXNCAAFSPREAD-26NOV21WSUTXST-TXST2:yes",
@@ -1415,7 +1415,7 @@
     "contract": "Yes \u00b7 Texas St. wins by over 1.5 points",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -458
   }
  },
@@ -1433,7 +1433,8 @@
    "ev": -0.0041,
    "tier": "lock",
    "name": "lock_2",
-   "result": null
+   "result": "W",
+   "missed": []
   },
   {
    "legs": [
@@ -1449,7 +1450,8 @@
    "ev": -0.015,
    "tier": "lock",
    "name": "lock_3",
-   "result": null
+   "result": "W",
+   "missed": []
   },
   {
    "legs": [
