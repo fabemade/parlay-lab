@@ -45,7 +45,7 @@
     "contract": "Yes \u00b7 Valparaiso",
     "buy": "yes"
    },
-   "result": null,
+   "result": "L",
    "close_odds": -404
   },
   "401879234:KXEPLTOTAL-26NOV22HULBRI-6:no": {
@@ -136,7 +136,7 @@
     "contract": "Yes \u00b7 Dallas",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -360
   },
   "401873071:KXNFLGAME-26NOV22NOCHI-CHI:yes": {
@@ -184,7 +184,7 @@
     "contract": "Yes \u00b7 Chicago",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -609
   },
   "401873067:KXNFLGAME-26NOV22ARIKC-KC:yes": {
@@ -231,7 +231,7 @@
     "contract": "Yes \u00b7 Kansas City",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -1236
   },
   "401874960:KXSERIEATOTAL-26NOV22SASGEN-4:no": {
@@ -320,7 +320,7 @@
     "contract": "No \u00b7 Over 67.5",
     "buy": "no"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -1428
   },
   "401841318:KXBRASILEIROGAME-26NOV22CAPCR-CAP:yes": {
@@ -365,7 +365,7 @@
     "contract": "Yes \u00b7 Paranaense",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -171
   },
   "401883109:KXLALIGA2TOTAL-26NOV22GIREIB-6:no": {
@@ -453,7 +453,7 @@
     "contract": "No \u00b7 Over 5.5",
     "buy": "no"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -2042
   },
   "401899547:KXSERIEBTOTAL-26NOV22USAMAN-6:no": {
@@ -588,7 +588,7 @@
     "contract": "Yes \u00b7 Minnesota",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -489
   },
   "401910032:KXNBAGAME-26NOV22DENCHI-DEN:yes": {
@@ -682,7 +682,7 @@
     "contract": "Yes \u00b7 Buffalo",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -1236
   },
   "401873068:KXNFLTOTAL-26NOV22BALCAR-27:yes": {
@@ -910,7 +910,7 @@
     "contract": "Yes \u00b7 Samford",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -525
   },
   "401873075:KXNFLGAME-26NOV22LVDEN-DEN:yes": {
@@ -958,7 +958,7 @@
     "contract": "Yes \u00b7 Denver",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -564
   },
   "401883111:KXLALIGA2TOTAL-26NOV22BURALB-4:no": {
@@ -1002,7 +1002,7 @@
     "contract": "No \u00b7 Over 3.5",
     "buy": "no"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -381
   },
   "401933762:KXARGPREMDIVTOTAL-26NOV22IACCHUR-5:no": {
@@ -1138,7 +1138,7 @@
     "contract": "No \u00b7 Over 3.5",
     "buy": "no"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -360
   },
   "401902281:KXNCAAMBGAME-26NOV22BUTNEB-NEB:yes": {
@@ -1271,7 +1271,7 @@
     "contract": "Yes \u00b7 Over 0.5",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -2042
   },
   "401917541:KXNCAAMBGAME-26NOV22PORTCBU-PORT:yes": {
@@ -1364,7 +1364,7 @@
     "contract": "Yes \u00b7 Tampa Bay",
     "buy": "yes"
    },
-   "result": null,
+   "result": "L",
    "close_odds": -228
   }
  },
@@ -1382,7 +1382,8 @@
    "ev": -0.0048,
    "tier": "lock",
    "name": "lock_2",
-   "result": null
+   "result": "W",
+   "missed": []
   },
   {
    "legs": [
@@ -1430,7 +1431,10 @@
    "ev": -0.0468,
    "tier": "best",
    "name": "best_3",
-   "result": null
+   "result": "L",
+   "missed": [
+    "401928999:KXNCAAMBGAME-26NOV22VALPUSM-VALP:yes"
+   ]
   }
  ],
  "straights": [],
