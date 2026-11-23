@@ -1,0 +1,1083 @@
+{
+ "date": "2026-11-23",
+ "locked_at": "2026-11-23T18:28-05:00",
+ "legs": {
+  "401920752:KXNCAAMBTOTAL-26NOV23UMESYSU-112:yes": {
+   "id": "401920752:KXNCAAMBTOTAL-26NOV23UMESYSU-112:yes",
+   "sport": "ncaab",
+   "game_id": "401920752",
+   "short": "UMES @ YSU",
+   "game": "Maryland Eastern Shore Hawks at Youngstown State Penguins",
+   "start": "2026-11-23T23:30Z",
+   "market": "total",
+   "side": "over",
+   "line": 111.5,
+   "selection": "Over 111.5",
+   "group": "Game lines",
+   "market_name": "Total",
+   "odds": -1428,
+   "p": 0.9337,
+   "p_model": 0.9692,
+   "p_market": 0.9208,
+   "p_breakeven": 0.9346,
+   "edge": -0.0009,
+   "ev": -0.001,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "UMES: 60.0 scored / 73.88 allowed per game this season; last 8: 60.0 / 73.88",
+    "YSU: 68.83 scored / 81.33 allowed per game this season; last 6: 68.83 / 81.33"
+   ],
+   "home": {
+    "name": "Youngstown State Penguins",
+    "abbr": "YSU"
+   },
+   "away": {
+    "name": "Maryland Eastern Shore Hawks",
+    "abbr": "UMES"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxncaambtotal/men-s-college-basketball-total-points/kxncaambtotal-26nov23umesysu",
+    "price": 93,
+    "ticker": "KXNCAAMBTOTAL-26NOV23UMESYSU-112",
+    "contract": "Yes \u00b7 Over 111.5",
+    "buy": "yes"
+   },
+   "result": null,
+   "close_odds": -1428
+  },
+  "401933728:KXMLSTOTAL-26NOV23STLLAFC-1:yes": {
+   "id": "401933728:KXMLSTOTAL-26NOV23STLLAFC-1:yes",
+   "sport": "soccer_usa.1",
+   "game_id": "401933728",
+   "short": "LAFC @ STL",
+   "game": "LAFC at St. Louis CITY SC",
+   "start": "2026-11-24T01:00Z",
+   "market": "total",
+   "side": "over",
+   "line": 0.5,
+   "selection": "Over 0.5",
+   "group": "Game lines",
+   "market_name": "Total",
+   "odds": -2042,
+   "p": 0.9492,
+   "p_model": 0.941,
+   "p_market": 0.9406,
+   "p_breakeven": 0.9533,
+   "edge": -0.0041,
+   "ev": -0.0043,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "LAFC: 1.47 scored / 1.21 allowed per game this season; last 10: 1.4 / 1.6",
+    "STL: 2.15 scored / 1.4 allowed per game this season; last 10: 2.1 / 1.5"
+   ],
+   "home": {
+    "name": "St. Louis CITY SC",
+    "abbr": "STL"
+   },
+   "away": {
+    "name": "LAFC",
+    "abbr": "LAFC"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxmlstotal/mls-total/kxmlstotal-26nov23stllafc",
+    "price": 95,
+    "ticker": "KXMLSTOTAL-26NOV23STLLAFC-1",
+    "contract": "Yes \u00b7 Over 0.5",
+    "buy": "yes"
+   },
+   "result": null,
+   "close_odds": -2042
+  },
+  "401910041:KXNBAGAME-26NOV23CLECHI-CLE:yes": {
+   "id": "401910041:KXNBAGAME-26NOV23CLECHI-CLE:yes",
+   "sport": "nba",
+   "game_id": "401910041",
+   "short": "CLE @ CHI",
+   "game": "Cleveland Cavaliers at Chicago Bulls",
+   "start": "2026-11-24T01:00Z",
+   "market": "ml",
+   "side": "away",
+   "selection": "CLE to win",
+   "group": "Game lines",
+   "market_name": "Winner",
+   "odds": -340,
+   "p": 0.761,
+   "p_model": 0.7374,
+   "p_market": 0.7525,
+   "p_breakeven": 0.7728,
+   "edge": -0.0118,
+   "ev": -0.0153,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "CLE ranks #3 in offense and #21 in defense of 32 (schedule-adjusted, recent games weighted more)",
+    "Last 10: 5-5, scoring 118.2 and allowing 116.7 pts/game (season: 118.82 / 116.47)",
+    "On the road: 116.71 scored / 118.14 allowed per game",
+    "Record 9-8 (road 2-5)",
+    "Injuries: Jaylon Tyson (G, Out), Nae'Qwan Tomlin (F, Out), Evan Mobley (C, Out)",
+    "Price moved -356 \u2192 -352 since opening, money moving away from CLE"
+   ],
+   "home": {
+    "name": "Chicago Bulls",
+    "abbr": "CHI"
+   },
+   "away": {
+    "name": "Cleveland Cavaliers",
+    "abbr": "CLE"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxnbagame/nba-game/kxnbagame-26nov23clechi",
+    "price": 76,
+    "ticker": "KXNBAGAME-26NOV23CLECHI-CLE",
+    "contract": "Yes \u00b7 Cleveland",
+    "buy": "yes"
+   },
+   "result": null,
+   "close_odds": -340
+  },
+  "401910044:KXNBAGAME-26NOV23UTALAL-LAL:yes": {
+   "id": "401910044:KXNBAGAME-26NOV23UTALAL-LAL:yes",
+   "sport": "nba",
+   "game_id": "401910044",
+   "short": "UTAH @ LAL",
+   "game": "Utah Jazz at Los Angeles Lakers",
+   "start": "2026-11-24T03:00Z",
+   "market": "ml",
+   "side": "home",
+   "selection": "LAL to win",
+   "group": "Game lines",
+   "market_name": "Winner",
+   "odds": -719,
+   "p": 0.8627,
+   "p_model": 0.7942,
+   "p_market": 0.8614,
+   "p_breakeven": 0.8779,
+   "edge": -0.0152,
+   "ev": -0.0173,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "LAL ranks #6 in offense and #15 in defense of 32 (schedule-adjusted, recent games weighted more)",
+    "Last 10: 9-1, scoring 119.8 and allowing 113.0 pts/game (season: 120.0 / 113.82)",
+    "At home: 121.67 scored / 116.11 allowed per game",
+    "Record 14-3 (home 7-2)",
+    "Injuries: Austin Reaves (G, Out)",
+    "Price moved -700 \u2192 -800 since opening, money moving toward LAL"
+   ],
+   "home": {
+    "name": "Los Angeles Lakers",
+    "abbr": "LAL"
+   },
+   "away": {
+    "name": "Utah Jazz",
+    "abbr": "UTAH"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxnbagame/nba-game/kxnbagame-26nov23utalal",
+    "price": 87,
+    "ticker": "KXNBAGAME-26NOV23UTALAL-LAL",
+    "contract": "Yes \u00b7 Los Angeles L",
+    "buy": "yes"
+   },
+   "result": null,
+   "close_odds": -719
+  },
+  "401873078:KXNFLTOTAL-26NOV23CINWAS-35:yes": {
+   "id": "401873078:KXNFLTOTAL-26NOV23CINWAS-35:yes",
+   "sport": "nfl",
+   "game_id": "401873078",
+   "short": "CIN @ WSH",
+   "game": "Cincinnati Bengals at Washington Commanders",
+   "start": "2026-11-24T01:15Z",
+   "market": "total",
+   "side": "over",
+   "line": 34.5,
+   "selection": "Over 34.5",
+   "group": "Game lines",
+   "market_name": "Total",
+   "odds": -2042,
+   "p": 0.9384,
+   "p_model": 0.8766,
+   "p_market": 0.9314,
+   "p_breakeven": 0.9533,
+   "edge": -0.0149,
+   "ev": -0.0156,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "CIN: 30.89 scored / 21.44 allowed per game this season; last 9: 30.89 / 21.44",
+    "WSH: 21.78 scored / 24.78 allowed per game this season; last 9: 21.78 / 24.78",
+    "Line moved from +52.5 to +54.5 since opening (total)"
+   ],
+   "home": {
+    "name": "Washington Commanders",
+    "abbr": "WSH"
+   },
+   "away": {
+    "name": "Cincinnati Bengals",
+    "abbr": "CIN"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxnfltotal/pro-football-total-points/kxnfltotal-26nov23cinwas",
+    "price": 95,
+    "ticker": "KXNFLTOTAL-26NOV23CINWAS-35",
+    "contract": "Yes \u00b7 Over 34.5",
+    "buy": "yes"
+   },
+   "result": null,
+   "close_odds": -2042
+  },
+  "401918057:KXNCAAMBGAME-26NOV23ALSTCAL-CAL:yes": {
+   "id": "401918057:KXNCAAMBGAME-26NOV23ALSTCAL-CAL:yes",
+   "sport": "ncaab",
+   "game_id": "401918057",
+   "short": "ALST @ CAL",
+   "game": "Alabama State Hornets at California Golden Bears",
+   "start": "2026-11-24T03:00Z",
+   "market": "ml",
+   "side": "home",
+   "selection": "CAL to win",
+   "group": "Game lines",
+   "market_name": "Winner",
+   "odds": -2580,
+   "p": 0.9528,
+   "p_model": 0.8596,
+   "p_market": 0.9505,
+   "p_breakeven": 0.9627,
+   "edge": -0.0099,
+   "ev": -0.0103,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "CAL ranks #197 in offense and #280 in defense of 377 (schedule-adjusted, recent games weighted more)",
+    "Last 6: 4-2, scoring 82.83 and allowing 74.33 pts/game (season: 82.83 / 74.33)",
+    "At home: 85.8 scored / 72.0 allowed per game",
+    "Record 4-2 (home 4-1)",
+    "Price moved -4000 \u2192 -5000 since opening, money moving toward CAL"
+   ],
+   "home": {
+    "name": "California Golden Bears",
+    "abbr": "CAL"
+   },
+   "away": {
+    "name": "Alabama State Hornets",
+    "abbr": "ALST"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxncaambgame/men-s-college-basketball-game/kxncaambgame-26nov23alstcal",
+    "price": 96,
+    "ticker": "KXNCAAMBGAME-26NOV23ALSTCAL-CAL",
+    "contract": "Yes \u00b7 California",
+    "buy": "yes"
+   },
+   "result": null,
+   "close_odds": -2580
+  },
+  "401892776:KXNHLGAME-26NOV23TORNYI-NYI:yes": {
+   "id": "401892776:KXNHLGAME-26NOV23TORNYI-NYI:yes",
+   "sport": "nhl",
+   "game_id": "401892776",
+   "short": "TOR @ NYI",
+   "game": "Toronto Maple Leafs at New York Islanders",
+   "start": "2026-11-24T00:30Z",
+   "market": "ml",
+   "side": "home",
+   "selection": "NYI to win",
+   "group": "Game lines",
+   "market_name": "Winner",
+   "odds": -161,
+   "p": 0.6022,
+   "p_model": 0.6045,
+   "p_market": 0.5941,
+   "p_breakeven": 0.6168,
+   "edge": -0.0146,
+   "ev": -0.0237,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "NYI ranks #19 in offense and #11 in defense of 32 (schedule-adjusted, recent games weighted more)",
+    "Last 10: 5-5, scoring 3.5 and allowing 3.1 goals/game (season: 3.23 / 2.86)",
+    "At home: 3.3 scored / 2.8 allowed per game",
+    "Record 11-6-5 (home 5-3-2)",
+    "Injuries: Ryan Pulock (D, Out), Alexander Romanov (D, Injured Reserve)",
+    "Price moved -148 \u2192 -162 since opening, money moving toward NYI"
+   ],
+   "home": {
+    "name": "New York Islanders",
+    "abbr": "NYI"
+   },
+   "away": {
+    "name": "Toronto Maple Leafs",
+    "abbr": "TOR"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxnhlgame/nhl-game/kxnhlgame-26nov23tornyi",
+    "price": 60,
+    "ticker": "KXNHLGAME-26NOV23TORNYI-NYI",
+    "contract": "Yes \u00b7 New York I",
+    "buy": "yes"
+   },
+   "result": null,
+   "close_odds": -161
+  },
+  "401919761:KXNCAAMBGAME-26NOV23FDUIONA-IONA:yes": {
+   "id": "401919761:KXNCAAMBGAME-26NOV23FDUIONA-IONA:yes",
+   "sport": "ncaab",
+   "game_id": "401919761",
+   "short": "FDU @ IONA",
+   "game": "Fairleigh Dickinson Knights at Iona Gaels",
+   "start": "2026-11-24T00:00Z",
+   "market": "ml",
+   "side": "home",
+   "selection": "IONA to win",
+   "group": "Game lines",
+   "market_name": "Winner",
+   "odds": -430,
+   "p": 0.8118,
+   "p_model": 0.8199,
+   "p_market": 0.7921,
+   "p_breakeven": 0.8112,
+   "edge": 0.0006,
+   "ev": 0.0007,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "IONA ranks #348 in offense and #68 in defense of 377 (schedule-adjusted, recent games weighted more)",
+    "Last 7: 3-4, scoring 64.71 and allowing 69.14 pts/game (season: 64.71 / 69.14)",
+    "At home: 63.33 scored / 55.0 allowed per game",
+    "Record 3-4 (home 3-0)",
+    "Price moved -410 \u2192 -470 since opening, money moving toward IONA"
+   ],
+   "home": {
+    "name": "Iona Gaels",
+    "abbr": "IONA"
+   },
+   "away": {
+    "name": "Fairleigh Dickinson Knights",
+    "abbr": "FDU"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxncaambgame/men-s-college-basketball-game/kxncaambgame-26nov23fduiona",
+    "price": 80,
+    "ticker": "KXNCAAMBGAME-26NOV23FDUIONA-IONA",
+    "contract": "Yes \u00b7 Iona",
+    "buy": "yes"
+   },
+   "result": null,
+   "close_odds": -430
+  },
+  "401841320:KXBRASILEIROTOTAL-26NOV23SANGPA-6:no": {
+   "id": "401841320:KXBRASILEIROTOTAL-26NOV23SANGPA-6:no",
+   "sport": "soccer_bra.1",
+   "game_id": "401841320",
+   "short": "GRE @ SAN",
+   "game": "Gr\u00eamio at Santos",
+   "start": "2026-11-24T00:00Z",
+   "market": "total",
+   "side": "under",
+   "line": 5.5,
+   "selection": "Under 5.5",
+   "group": "Game lines",
+   "market_name": "Total",
+   "odds": -1087,
+   "p": 0.9155,
+   "p_model": 0.9472,
+   "p_market": 0.901,
+   "p_breakeven": 0.9157,
+   "edge": -0.0002,
+   "ev": -0.0002,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "GRE: 1.06 scored / 1.41 allowed per game this season; last 10: 1.1 / 1.4",
+    "SAN: 1.47 scored / 1.18 allowed per game this season; last 10: 1.4 / 1.1",
+    "Line moved from +2.5 to +3.5 since opening (total)"
+   ],
+   "home": {
+    "name": "Santos",
+    "abbr": "SAN"
+   },
+   "away": {
+    "name": "Gr\u00eamio",
+    "abbr": "GRE"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxbrasileirototal/brasileiro-total/kxbrasileirototal-26nov23sangpa",
+    "price": 91,
+    "ticker": "KXBRASILEIROTOTAL-26NOV23SANGPA-6",
+    "contract": "No \u00b7 Over 5.5",
+    "buy": "no"
+   },
+   "result": null,
+   "close_odds": -1087
+  },
+  "401910043:KXNBAGAME-26NOV23LACHOU-HOU:yes": {
+   "id": "401910043:KXNBAGAME-26NOV23LACHOU-HOU:yes",
+   "sport": "nba",
+   "game_id": "401910043",
+   "short": "LAC @ HOU",
+   "game": "LA Clippers at Houston Rockets",
+   "start": "2026-11-24T01:30Z",
+   "market": "ml",
+   "side": "home",
+   "selection": "HOU to win",
+   "group": "Game lines",
+   "market_name": "Winner",
+   "odds": -609,
+   "p": 0.8483,
+   "p_model": 0.8128,
+   "p_market": 0.8416,
+   "p_breakeven": 0.8589,
+   "edge": -0.0106,
+   "ev": -0.0123,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "HOU ranks #7 in offense and #10 in defense of 32 (schedule-adjusted, recent games weighted more)",
+    "Last 10: 6-4, scoring 116.5 and allowing 112.2 pts/game (season: 118.24 / 110.59)",
+    "At home: 116.62 scored / 106.75 allowed per game",
+    "Record 12-5 (home 7-1)",
+    "Price moved -610 \u2192 -650 since opening, money moving toward HOU"
+   ],
+   "home": {
+    "name": "Houston Rockets",
+    "abbr": "HOU"
+   },
+   "away": {
+    "name": "LA Clippers",
+    "abbr": "LAC"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxnbagame/nba-game/kxnbagame-26nov23lachou",
+    "price": 85,
+    "ticker": "KXNBAGAME-26NOV23LACHOU-HOU",
+    "contract": "Yes \u00b7 Houston",
+    "buy": "yes"
+   },
+   "result": null,
+   "close_odds": -609
+  },
+  "401933728:KXMLSTOTAL-26NOV23STLLAFC-6:no": {
+   "id": "401933728:KXMLSTOTAL-26NOV23STLLAFC-6:no",
+   "sport": "soccer_usa.1",
+   "game_id": "401933728",
+   "short": "LAFC @ STL",
+   "game": "LAFC at St. Louis CITY SC",
+   "start": "2026-11-24T01:00Z",
+   "market": "total",
+   "side": "under",
+   "line": 5.5,
+   "selection": "Under 5.5",
+   "group": "Game lines",
+   "market_name": "Total",
+   "odds": -1428,
+   "p": 0.93,
+   "p_model": 0.9085,
+   "p_market": 0.9208,
+   "p_breakeven": 0.9346,
+   "edge": -0.0046,
+   "ev": -0.0049,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "LAFC: 1.47 scored / 1.21 allowed per game this season; last 10: 1.4 / 1.6",
+    "STL: 2.15 scored / 1.4 allowed per game this season; last 10: 2.1 / 1.5"
+   ],
+   "home": {
+    "name": "St. Louis CITY SC",
+    "abbr": "STL"
+   },
+   "away": {
+    "name": "LAFC",
+    "abbr": "LAFC"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxmlstotal/mls-total/kxmlstotal-26nov23stllafc",
+    "price": 93,
+    "ticker": "KXMLSTOTAL-26NOV23STLLAFC-6",
+    "contract": "No \u00b7 Over 5.5",
+    "buy": "no"
+   },
+   "result": null,
+   "close_odds": -1428
+  },
+  "401873078:KXNFLTOTAL-26NOV23CINWAS-74:no": {
+   "id": "401873078:KXNFLTOTAL-26NOV23CINWAS-74:no",
+   "sport": "nfl",
+   "game_id": "401873078",
+   "short": "CIN @ WSH",
+   "game": "Cincinnati Bengals at Washington Commanders",
+   "start": "2026-11-24T01:15Z",
+   "market": "total",
+   "side": "under",
+   "line": 73.5,
+   "selection": "Under 73.5",
+   "group": "Game lines",
+   "market_name": "Total",
+   "odds": -1236,
+   "p": 0.9245,
+   "p_model": 0.9517,
+   "p_market": 0.9109,
+   "p_breakeven": 0.9252,
+   "edge": -0.0007,
+   "ev": -0.0008,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "CIN: 30.89 scored / 21.44 allowed per game this season; last 9: 30.89 / 21.44",
+    "WSH: 21.78 scored / 24.78 allowed per game this season; last 9: 21.78 / 24.78",
+    "Line moved from +52.5 to +54.5 since opening (total)"
+   ],
+   "home": {
+    "name": "Washington Commanders",
+    "abbr": "WSH"
+   },
+   "away": {
+    "name": "Cincinnati Bengals",
+    "abbr": "CIN"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxnfltotal/pro-football-total-points/kxnfltotal-26nov23cinwas",
+    "price": 92,
+    "ticker": "KXNFLTOTAL-26NOV23CINWAS-74",
+    "contract": "No \u00b7 Over 73.5",
+    "buy": "no"
+   },
+   "result": null,
+   "close_odds": -1236
+  },
+  "401926183:KXNCAAMBGAME-26NOV23UNCGPEPP-PEPP:yes": {
+   "id": "401926183:KXNCAAMBGAME-26NOV23UNCGPEPP-PEPP:yes",
+   "sport": "ncaab",
+   "game_id": "401926183",
+   "short": "UNCG @ PEPP",
+   "game": "UNC Greensboro Spartans at Pepperdine Waves",
+   "start": "2026-11-24T02:30Z",
+   "market": "ml",
+   "side": "home",
+   "selection": "PEPP to win",
+   "group": "Game lines",
+   "market_name": "Winner",
+   "odds": -564,
+   "p": 0.8399,
+   "p_model": 0.8105,
+   "p_market": 0.8317,
+   "p_breakeven": 0.8494,
+   "edge": -0.0095,
+   "ev": -0.0112,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "PEPP ranks #6 in offense and #186 in defense of 377 (schedule-adjusted, recent games weighted more)",
+    "Last 6: 3-3, scoring 100.67 and allowing 70.33 pts/game (season: 100.67 / 70.33)",
+    "At home: 110.5 scored / 62.75 allowed per game",
+    "Record 3-3 (home 3-1)"
+   ],
+   "home": {
+    "name": "Pepperdine Waves",
+    "abbr": "PEPP"
+   },
+   "away": {
+    "name": "UNC Greensboro Spartans",
+    "abbr": "UNCG"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxncaambgame/men-s-college-basketball-game/kxncaambgame-26nov23uncgpepp",
+    "price": 84,
+    "ticker": "KXNCAAMBGAME-26NOV23UNCGPEPP-PEPP",
+    "contract": "Yes \u00b7 Pepperdine",
+    "buy": "yes"
+   },
+   "result": null,
+   "close_odds": -564
+  },
+  "401910037:KXNBATOTAL-26NOV23PORPHI-258:no": {
+   "id": "401910037:KXNBATOTAL-26NOV23PORPHI-258:no",
+   "sport": "nba",
+   "game_id": "401910037",
+   "short": "POR @ PHI",
+   "game": "Portland Trail Blazers at Philadelphia 76ers",
+   "start": "2026-11-24T00:00Z",
+   "market": "total",
+   "side": "under",
+   "line": 257.5,
+   "selection": "Under 257.5",
+   "group": "Game lines",
+   "market_name": "Total",
+   "odds": -1428,
+   "p": 0.9244,
+   "p_model": 0.9365,
+   "p_market": 0.9118,
+   "p_breakeven": 0.9346,
+   "edge": -0.0102,
+   "ev": -0.0109,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "POR: 116.12 scored / 110.31 allowed per game this season; last 10: 113.7 / 110.9",
+    "PHI: 115.53 scored / 112.59 allowed per game this season; last 10: 120.3 / 118.0",
+    "Line moved from +228.5 to +231.5 since opening (total)"
+   ],
+   "home": {
+    "name": "Philadelphia 76ers",
+    "abbr": "PHI"
+   },
+   "away": {
+    "name": "Portland Trail Blazers",
+    "abbr": "POR"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxnbatotal/nba-total/kxnbatotal-26nov23porphi",
+    "price": 93,
+    "ticker": "KXNBATOTAL-26NOV23PORPHI-258",
+    "contract": "No \u00b7 Over 257.5",
+    "buy": "no"
+   },
+   "result": null,
+   "close_odds": -1428
+  },
+  "401926183:KXNCAAMBSPREAD-26NOV23UNCGPEPP-PEPP4:yes": {
+   "id": "401926183:KXNCAAMBSPREAD-26NOV23UNCGPEPP-PEPP4:yes",
+   "sport": "ncaab",
+   "game_id": "401926183",
+   "short": "UNCG @ PEPP",
+   "game": "UNC Greensboro Spartans at Pepperdine Waves",
+   "start": "2026-11-24T02:30Z",
+   "market": "spread",
+   "side": "home",
+   "line": -3.5,
+   "selection": "PEPP by 3.5+",
+   "group": "Game lines",
+   "market_name": "Spread",
+   "odds": -340,
+   "p": 0.7673,
+   "p_model": 0.7629,
+   "p_market": 0.7525,
+   "p_breakeven": 0.7728,
+   "edge": -0.0055,
+   "ev": -0.0071,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "PEPP ranks #6 in offense and #186 in defense of 377 (schedule-adjusted, recent games weighted more)",
+    "Last 6: 3-3, scoring 100.67 and allowing 70.33 pts/game (season: 100.67 / 70.33)",
+    "At home: 110.5 scored / 62.75 allowed per game",
+    "Record 3-3 (home 3-1)",
+    "Line moved from -11.5 to -10.5 since opening (spread)",
+    "\u26a0 The line has moved against this side since opening (a sharp-money signal), so the model defers more to the market"
+   ],
+   "home": {
+    "name": "Pepperdine Waves",
+    "abbr": "PEPP"
+   },
+   "away": {
+    "name": "UNC Greensboro Spartans",
+    "abbr": "UNCG"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxncaambspread/men-s-college-basketball-spread/kxncaambspread-26nov23uncgpepp",
+    "price": 76,
+    "ticker": "KXNCAAMBSPREAD-26NOV23UNCGPEPP-PEPP4",
+    "contract": "Yes \u00b7 Pepperdine wins by over 3.5 points",
+    "buy": "yes"
+   },
+   "result": null,
+   "close_odds": -340
+  },
+  "401920752:KXNCAAMBGAME-26NOV23UMESYSU-YSU:yes": {
+   "id": "401920752:KXNCAAMBGAME-26NOV23UMESYSU-YSU:yes",
+   "sport": "ncaab",
+   "game_id": "401920752",
+   "short": "UMES @ YSU",
+   "game": "Maryland Eastern Shore Hawks at Youngstown State Penguins",
+   "start": "2026-11-23T23:30Z",
+   "market": "ml",
+   "side": "home",
+   "selection": "YSU to win",
+   "group": "Game lines",
+   "market_name": "Winner",
+   "odds": -967,
+   "p": 0.8943,
+   "p_model": 0.8412,
+   "p_market": 0.8911,
+   "p_breakeven": 0.9063,
+   "edge": -0.012,
+   "ev": -0.0132,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "YSU ranks #281 in offense and #265 in defense of 377 (schedule-adjusted, recent games weighted more)",
+    "Last 6: 2-4, scoring 68.83 and allowing 81.33 pts/game (season: 68.83 / 81.33)",
+    "At home: 68.5 scored / 73.0 allowed per game",
+    "Record 2-4 (home 1-1)",
+    "Playing the 2nd night of a back-to-back (historically worth about -1 to -1.5 pts in the NBA; tired legs and often the backup goalie in the NHL)",
+    "Price moved -1050 \u2192 -1200 since opening, money moving toward YSU"
+   ],
+   "home": {
+    "name": "Youngstown State Penguins",
+    "abbr": "YSU"
+   },
+   "away": {
+    "name": "Maryland Eastern Shore Hawks",
+    "abbr": "UMES"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxncaambgame/men-s-college-basketball-game/kxncaambgame-26nov23umesysu",
+    "price": 90,
+    "ticker": "KXNCAAMBGAME-26NOV23UMESYSU-YSU",
+    "contract": "Yes \u00b7 Youngstown St.",
+    "buy": "yes"
+   },
+   "result": null,
+   "close_odds": -967
+  },
+  "401910039:KXNBAGAME-26NOV23MILTOR-TOR:yes": {
+   "id": "401910039:KXNBAGAME-26NOV23MILTOR-TOR:yes",
+   "sport": "nba",
+   "game_id": "401910039",
+   "short": "MIL @ TOR",
+   "game": "Milwaukee Bucks at Toronto Raptors",
+   "start": "2026-11-24T00:30Z",
+   "market": "ml",
+   "side": "home",
+   "selection": "TOR to win",
+   "group": "Game lines",
+   "market_name": "Winner",
+   "odds": -404,
+   "p": 0.7979,
+   "p_model": 0.7685,
+   "p_market": 0.79,
+   "p_breakeven": 0.8016,
+   "edge": -0.0037,
+   "ev": -0.0046,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "TOR ranks #19 in offense and #12 in defense of 32 (schedule-adjusted, recent games weighted more)",
+    "Last 10: 3-7, scoring 107.6 and allowing 112.0 pts/game (season: 111.56 / 111.38)",
+    "At home: 110.25 scored / 106.75 allowed per game",
+    "Record 6-10 (home 2-6)",
+    "Injuries: Nate Bittle (C, Out), Kawhi Leonard (F, Out), RJ Barrett (F, Out)",
+    "Price moved -479 \u2192 -449 since opening, money moving away from TOR"
+   ],
+   "home": {
+    "name": "Toronto Raptors",
+    "abbr": "TOR"
+   },
+   "away": {
+    "name": "Milwaukee Bucks",
+    "abbr": "MIL"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxnbagame/nba-game/kxnbagame-26nov23miltor",
+    "price": 79,
+    "ticker": "KXNBAGAME-26NOV23MILTOR-TOR",
+    "contract": "Yes \u00b7 Toronto",
+    "buy": "yes"
+   },
+   "result": null,
+   "close_odds": -404
+  },
+  "401892775:KXNHLTOTAL-26NOV23CGYOTT-10:no": {
+   "id": "401892775:KXNHLTOTAL-26NOV23CGYOTT-10:no",
+   "sport": "nhl",
+   "game_id": "401892775",
+   "short": "CGY @ OTT",
+   "game": "Calgary Flames at Ottawa Senators",
+   "start": "2026-11-24T00:30Z",
+   "market": "total",
+   "side": "under",
+   "line": 9.5,
+   "selection": "Under 9.5",
+   "group": "Game lines",
+   "market_name": "Total",
+   "odds": -1684,
+   "p": 0.938,
+   "p_model": 0.8886,
+   "p_market": 0.9307,
+   "p_breakeven": 0.9439,
+   "edge": -0.0059,
+   "ev": -0.0063,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "CGY: 2.5 scored / 3.5 allowed per game this season; last 10: 2.4 / 3.2",
+    "OTT: 3.29 scored / 2.92 allowed per game this season; last 10: 3.5 / 2.6"
+   ],
+   "home": {
+    "name": "Ottawa Senators",
+    "abbr": "OTT"
+   },
+   "away": {
+    "name": "Calgary Flames",
+    "abbr": "CGY"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxnhltotal/nhl-total-goals/kxnhltotal-26nov23cgyott",
+    "price": 94,
+    "ticker": "KXNHLTOTAL-26NOV23CGYOTT-10",
+    "contract": "No \u00b7 Over 9.5",
+    "buy": "no"
+   },
+   "result": null,
+   "close_odds": -1684
+  },
+  "401892778:KXNHLTOTAL-26NOV23ANASEA-4:yes": {
+   "id": "401892778:KXNHLTOTAL-26NOV23ANASEA-4:yes",
+   "sport": "nhl",
+   "game_id": "401892778",
+   "short": "ANA @ SEA",
+   "game": "Anaheim Ducks at Seattle Kraken",
+   "start": "2026-11-24T02:40Z",
+   "market": "total",
+   "side": "over",
+   "line": 3.5,
+   "selection": "Over 3.5",
+   "group": "Game lines",
+   "market_name": "Total",
+   "odds": -1236,
+   "p": 0.9208,
+   "p_model": 0.9008,
+   "p_market": 0.9109,
+   "p_breakeven": 0.9252,
+   "edge": -0.0044,
+   "ev": -0.0048,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "ANA: 3.62 scored / 3.83 allowed per game this season; last 10: 3.8 / 3.9",
+    "SEA: 3.35 scored / 3.55 allowed per game this season; last 10: 2.8 / 3.7"
+   ],
+   "home": {
+    "name": "Seattle Kraken",
+    "abbr": "SEA"
+   },
+   "away": {
+    "name": "Anaheim Ducks",
+    "abbr": "ANA"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxnhltotal/nhl-total-goals/kxnhltotal-26nov23anasea",
+    "price": 92,
+    "ticker": "KXNHLTOTAL-26NOV23ANASEA-4",
+    "contract": "Yes \u00b7 Over 3.5",
+    "buy": "yes"
+   },
+   "result": null,
+   "close_odds": -1236
+  },
+  "401913102:KXNCAAMBGAME-26NOV23MONMUNC-UNC:yes": {
+   "id": "401913102:KXNCAAMBGAME-26NOV23MONMUNC-UNC:yes",
+   "sport": "ncaab",
+   "game_id": "401913102",
+   "short": "MONM @ UNC",
+   "game": "Monmouth Hawks at North Carolina Tar Heels",
+   "start": "2026-11-24T01:00Z",
+   "market": "ml",
+   "side": "home",
+   "selection": "UNC to win",
+   "group": "Game lines",
+   "market_name": "Winner",
+   "odds": -2580,
+   "p": 0.9531,
+   "p_model": 0.8208,
+   "p_market": 0.9505,
+   "p_breakeven": 0.9627,
+   "edge": -0.0096,
+   "ev": -0.01,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "UNC ranks #189 in offense and #264 in defense of 377 (schedule-adjusted, recent games weighted more)",
+    "Last 5: 4-1, scoring 84.6 and allowing 71.0 pts/game (season: 84.6 / 71.0)",
+    "At home: 84.6 scored / 71.0 allowed per game",
+    "Record 4-1 (home 4-1)",
+    "Price moved -4500 \u2192 -3600 since opening, money moving away from UNC"
+   ],
+   "home": {
+    "name": "North Carolina Tar Heels",
+    "abbr": "UNC"
+   },
+   "away": {
+    "name": "Monmouth Hawks",
+    "abbr": "MONM"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxncaambgame/men-s-college-basketball-game/kxncaambgame-26nov23monmunc",
+    "price": 96,
+    "ticker": "KXNCAAMBGAME-26NOV23MONMUNC-UNC",
+    "contract": "Yes \u00b7 North Carolina",
+    "buy": "yes"
+   },
+   "result": null,
+   "close_odds": -2580
+  },
+  "401910045:KXNBAGAME-26NOV23SASSAC-SAS:yes": {
+   "id": "401910045:KXNBAGAME-26NOV23SASSAC-SAS:yes",
+   "sport": "nba",
+   "game_id": "401910045",
+   "short": "SA @ SAC",
+   "game": "San Antonio Spurs at Sacramento Kings",
+   "start": "2026-11-24T03:00Z",
+   "market": "ml",
+   "side": "away",
+   "selection": "SA to win",
+   "group": "Game lines",
+   "market_name": "Winner",
+   "odds": -564,
+   "p": 0.8533,
+   "p_model": 0.8682,
+   "p_market": 0.8317,
+   "p_breakeven": 0.8494,
+   "edge": 0.0039,
+   "ev": 0.0046,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "SA ranks #2 in offense and #4 in defense of 32 (schedule-adjusted, recent games weighted more)",
+    "Last 10: 9-1, scoring 117.1 and allowing 103.3 pts/game (season: 117.29 / 105.35)",
+    "On the road: 120.57 scored / 106.57 allowed per game",
+    "Record 14-3 (road 7-0)",
+    "Injuries: Dylan Harper (G, Out), Tobias Harris (F, Out)",
+    "Price moved -448 \u2192 -597 since opening, money moving toward SA"
+   ],
+   "home": {
+    "name": "Sacramento Kings",
+    "abbr": "SAC"
+   },
+   "away": {
+    "name": "San Antonio Spurs",
+    "abbr": "SA"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxnbagame/nba-game/kxnbagame-26nov23sassac",
+    "price": 84,
+    "ticker": "KXNBAGAME-26NOV23SASSAC-SAS",
+    "contract": "Yes \u00b7 San Antonio",
+    "buy": "yes"
+   },
+   "result": null,
+   "close_odds": -564
+  },
+  "401892779:KXNHLGAME-26NOV23MINSJ-MIN:yes": {
+   "id": "401892779:KXNHLGAME-26NOV23MINSJ-MIN:yes",
+   "sport": "nhl",
+   "game_id": "401892779",
+   "short": "MIN @ SJ",
+   "game": "Minnesota Wild at San Jose Sharks",
+   "start": "2026-11-24T03:00Z",
+   "market": "ml",
+   "side": "away",
+   "selection": "MIN to win",
+   "group": "Game lines",
+   "market_name": "Winner",
+   "odds": -175,
+   "p": 0.6354,
+   "p_model": 0.6753,
+   "p_market": 0.6139,
+   "p_breakeven": 0.6365,
+   "edge": -0.0011,
+   "ev": -0.0017,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "MIN ranks #5 in offense and #2 in defense of 32 (schedule-adjusted, recent games weighted more)",
+    "Last 10: 8-2, scoring 4.3 and allowing 2.1 goals/game (season: 3.6 / 2.24)",
+    "On the road: 3.41 scored / 2.12 allowed per game",
+    "Record 17-3-5 (road 11-3-3)",
+    "Injuries: Quinn Hughes (D, Injured Reserve), Olli Maatta (D, Injured Reserve)",
+    "Price moved -218 \u2192 -180 since opening, money moving away from MIN",
+    "\u26a0 The line has moved against this side since opening (a sharp-money signal), so the model defers more to the market"
+   ],
+   "home": {
+    "name": "San Jose Sharks",
+    "abbr": "SJ"
+   },
+   "away": {
+    "name": "Minnesota Wild",
+    "abbr": "MIN"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxnhlgame/nhl-game/kxnhlgame-26nov23minsj",
+    "price": 62,
+    "ticker": "KXNHLGAME-26NOV23MINSJ-MIN",
+    "contract": "Yes \u00b7 Minnesota",
+    "buy": "yes"
+   },
+   "result": null,
+   "close_odds": -175
+  }
+ },
+ "parlays": [
+  {
+   "legs": [
+    "401920752:KXNCAAMBTOTAL-26NOV23UMESYSU-112:yes",
+    "401933728:KXMLSTOTAL-26NOV23STLLAFC-6:no"
+   ],
+   "n": 2,
+   "mode": "safest",
+   "p": 0.8683,
+   "decimal": 1.145,
+   "american": -690,
+   "ev": -0.0058,
+   "tier": "lock",
+   "name": "lock_2",
+   "result": null
+  },
+  {
+   "legs": [
+    "401873078:KXNFLTOTAL-26NOV23CINWAS-74:no",
+    "401910037:KXNBATOTAL-26NOV23PORPHI-258:no",
+    "401892778:KXNHLTOTAL-26NOV23ANASEA-4:yes"
+   ],
+   "n": 3,
+   "mode": "safest",
+   "p": 0.7869,
+   "decimal": 1.25,
+   "american": -400,
+   "ev": -0.0162,
+   "tier": "lock",
+   "name": "lock_3",
+   "result": null
+  },
+  {
+   "legs": [
+    "401926183:KXNCAAMBSPREAD-26NOV23UNCGPEPP-PEPP4:yes",
+    "401910041:KXNBAGAME-26NOV23CLECHI-CLE:yes"
+   ],
+   "n": 2,
+   "mode": "safest",
+   "p": 0.5839,
+   "decimal": 1.675,
+   "american": -148,
+   "ev": -0.0221,
+   "tier": "best",
+   "name": "best_2",
+   "result": null
+  }
+ ],
+ "straights": [],
+ "straights_best": [
+  "401913102:KXNCAAMBGAME-26NOV23MONMUNC-UNC:yes",
+  "401918057:KXNCAAMBGAME-26NOV23ALSTCAL-CAL:yes",
+  "401910039:KXNBAGAME-26NOV23MILTOR-TOR:yes",
+  "401910041:KXNBAGAME-26NOV23CLECHI-CLE:yes",
+  "401892779:KXNHLGAME-26NOV23MINSJ-MIN:yes",
+  "401892776:KXNHLGAME-26NOV23TORNYI-NYI:yes"
+ ],
+ "locks": [
+  "401920752:KXNCAAMBGAME-26NOV23UMESYSU-YSU:yes",
+  "401910044:KXNBAGAME-26NOV23UTALAL-LAL:yes",
+  "401910045:KXNBAGAME-26NOV23SASSAC-SAS:yes",
+  "401910043:KXNBAGAME-26NOV23LACHOU-HOU:yes",
+  "401926183:KXNCAAMBGAME-26NOV23UNCGPEPP-PEPP:yes",
+  "401919761:KXNCAAMBGAME-26NOV23FDUIONA-IONA:yes",
+  "401933728:KXMLSTOTAL-26NOV23STLLAFC-1:yes",
+  "401873078:KXNFLTOTAL-26NOV23CINWAS-35:yes",
+  "401892775:KXNHLTOTAL-26NOV23CGYOTT-10:no",
+  "401892778:KXNHLTOTAL-26NOV23ANASEA-4:yes",
+  "401841320:KXBRASILEIROTOTAL-26NOV23SANGPA-6:no"
+ ]
+}
