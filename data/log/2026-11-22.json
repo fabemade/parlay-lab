@@ -635,7 +635,7 @@
     "contract": "Yes \u00b7 Denver",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -404
   },
   "401873070:KXNFLGAME-26NOV22MIABUF-BUF:yes": {
@@ -819,7 +819,7 @@
     "contract": "Yes \u00b7 New York",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -290
   },
   "401878936:KXBELGIANPLGAME-26NOV22KORUSG-USG:yes": {
@@ -1048,7 +1048,7 @@
     "contract": "No \u00b7 Over 4.5",
     "buy": "no"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -2042
   },
   "401875542:KXEREDIVISIETOTAL-26NOV22GAEFOR-1:yes": {
@@ -1317,7 +1317,7 @@
     "contract": "Yes \u00b7 Portland",
     "buy": "yes"
    },
-   "result": null,
+   "result": "L",
    "close_odds": -340
   },
   "401892769:KXNHLGAME-26NOV22BUFTB-TB:yes": {
@@ -1415,7 +1415,8 @@
    "ev": -0.0069,
    "tier": "best",
    "name": "best_2",
-   "result": null
+   "result": "W",
+   "missed": []
   },
   {
    "legs": [
