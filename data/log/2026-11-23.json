@@ -43,7 +43,7 @@
     "contract": "Yes \u00b7 Over 111.5",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -1428
   },
   "401933728:KXMLSTOTAL-26NOV23STLLAFC-1:yes": {
@@ -87,7 +87,7 @@
     "contract": "Yes \u00b7 Over 0.5",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -1684
   },
   "401910041:KXNBAGAME-26NOV23CLECHI-CLE:yes": {
@@ -134,7 +134,7 @@
     "contract": "Yes \u00b7 Cleveland",
     "buy": "yes"
    },
-   "result": null,
+   "result": "L",
    "close_odds": -340
   },
   "401910044:KXNBAGAME-26NOV23UTALAL-LAL:yes": {
@@ -181,7 +181,7 @@
     "contract": "Yes \u00b7 Los Angeles L",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -719
   },
   "401873078:KXNFLTOTAL-26NOV23CINWAS-35:yes": {
@@ -226,7 +226,7 @@
     "contract": "Yes \u00b7 Over 34.5",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -2042
   },
   "401918057:KXNCAAMBGAME-26NOV23ALSTCAL-CAL:yes": {
@@ -272,7 +272,7 @@
     "contract": "Yes \u00b7 California",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -2580
   },
   "401892776:KXNHLGAME-26NOV23TORNYI-NYI:yes": {
@@ -319,7 +319,7 @@
     "contract": "Yes \u00b7 New York I",
     "buy": "yes"
    },
-   "result": null,
+   "result": "L",
    "close_odds": -161
   },
   "401919761:KXNCAAMBGAME-26NOV23FDUIONA-IONA:yes": {
@@ -365,7 +365,7 @@
     "contract": "Yes \u00b7 Iona",
     "buy": "yes"
    },
-   "result": null,
+   "result": "L",
    "close_odds": -430
   },
   "401841320:KXBRASILEIROTOTAL-26NOV23SANGPA-6:no": {
@@ -410,7 +410,7 @@
     "contract": "No \u00b7 Over 5.5",
     "buy": "no"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -1087
   },
   "401910043:KXNBAGAME-26NOV23LACHOU-HOU:yes": {
@@ -456,7 +456,7 @@
     "contract": "Yes \u00b7 Houston",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -609
   },
   "401933728:KXMLSTOTAL-26NOV23STLLAFC-6:no": {
@@ -500,7 +500,7 @@
     "contract": "No \u00b7 Over 5.5",
     "buy": "no"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -1428
   },
   "401873078:KXNFLTOTAL-26NOV23CINWAS-74:no": {
@@ -545,7 +545,7 @@
     "contract": "No \u00b7 Over 73.5",
     "buy": "no"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -1236
   },
   "401926183:KXNCAAMBGAME-26NOV23UNCGPEPP-PEPP:yes": {
@@ -590,7 +590,7 @@
     "contract": "Yes \u00b7 Pepperdine",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -564
   },
   "401910037:KXNBATOTAL-26NOV23PORPHI-258:no": {
@@ -635,7 +635,7 @@
     "contract": "No \u00b7 Over 257.5",
     "buy": "no"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -1428
   },
   "401926183:KXNCAAMBSPREAD-26NOV23UNCGPEPP-PEPP4:yes": {
@@ -683,7 +683,7 @@
     "contract": "Yes \u00b7 Pepperdine wins by over 3.5 points",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -340
   },
   "401920752:KXNCAAMBGAME-26NOV23UMESYSU-YSU:yes": {
@@ -730,7 +730,7 @@
     "contract": "Yes \u00b7 Youngstown St.",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -967
   },
   "401910039:KXNBAGAME-26NOV23MILTOR-TOR:yes": {
@@ -777,7 +777,7 @@
     "contract": "Yes \u00b7 Toronto",
     "buy": "yes"
    },
-   "result": null,
+   "result": "L",
    "close_odds": -404
   },
   "401892775:KXNHLTOTAL-26NOV23CGYOTT-10:no": {
@@ -821,7 +821,7 @@
     "contract": "No \u00b7 Over 9.5",
     "buy": "no"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -1684
   },
   "401892778:KXNHLTOTAL-26NOV23ANASEA-4:yes": {
@@ -865,7 +865,7 @@
     "contract": "Yes \u00b7 Over 3.5",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -1236
   },
   "401913102:KXNCAAMBGAME-26NOV23MONMUNC-UNC:yes": {
@@ -911,7 +911,7 @@
     "contract": "Yes \u00b7 North Carolina",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -2580
   },
   "401910045:KXNBAGAME-26NOV23SASSAC-SAS:yes": {
@@ -958,7 +958,7 @@
     "contract": "Yes \u00b7 San Antonio",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -564
   },
   "401892779:KXNHLGAME-26NOV23MINSJ-MIN:yes": {
@@ -1006,7 +1006,7 @@
     "contract": "Yes \u00b7 Minnesota",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -175
   }
  },
@@ -1024,7 +1024,8 @@
    "ev": -0.0058,
    "tier": "lock",
    "name": "lock_2",
-   "result": null
+   "result": "W",
+   "missed": []
   },
   {
    "legs": [
@@ -1040,7 +1041,8 @@
    "ev": -0.0162,
    "tier": "lock",
    "name": "lock_3",
-   "result": null
+   "result": "W",
+   "missed": []
   },
   {
    "legs": [
@@ -1055,7 +1057,10 @@
    "ev": -0.0221,
    "tier": "best",
    "name": "best_2",
-   "result": null
+   "result": "L",
+   "missed": [
+    "401910041:KXNBAGAME-26NOV23CLECHI-CLE:yes"
+   ]
   }
  ],
  "straights": [],
