@@ -2,30 +2,16 @@
  "leagues": {
   "ARGPREMDIV": {
    "ADVANCE": "Argentina Primera Division To Advance",
-   "BTTS": "Argentina Premier Division BTTS",
-   "GAME": "Argentina Primera Division Game",
-   "SPREAD": "Argentina Premier Division Spread",
-   "TOTAL": "Argentina Premier Division Total"
+   "GAME": "Argentina Primera Division Game"
   },
   "BELGIANPL": {
-   "BTTS": "BTTS",
-   "GAME": "Belgian Pro League Game",
-   "SPREAD": "Spread",
-   "TOTAL": "Point Total"
+   "GAME": "Belgian Pro League Game"
   },
   "BRASILEIRO": {
    "1H": "1st Half Winner",
    "1HBTTS": "1st Half BTTS",
    "1HSPREAD": "1st Half Spread",
    "1HTOTAL": "1st Half Total",
-   "B1H": "1st Half Winner",
-   "B1HBTTS": "1st Half BTTS",
-   "B1HSPREAD": "1st Half Spread",
-   "B1HTOTAL": "1st Half Total",
-   "BBTTS": "BTTS",
-   "BGAME": "Brasileiro Serie B Game",
-   "BSPREAD": "Spread",
-   "BTOTAL": "Point Total",
    "BTTS": "BTTS",
    "FTTS": "First Team to Score",
    "GAME": "Brasileiro Serie A Game",
@@ -35,33 +21,13 @@
    "TOTAL": "Brasileiro Total"
   },
   "BUNDESLIGA": {
-   "1H": "Bundesliga First Half Winner",
-   "1HBTTS": "1st Half BTTS",
-   "1HSCORE": "1st Half Correct Score",
-   "1HSPREAD": "1st Half Spread",
-   "1HTOTAL": "1st Half Total",
    "BTTS": "Bundesliga BTTS",
-   "FTTS": "First Team to Score",
    "GAME": "Bundesliga Game",
-   "GOAL": "Goalscorer",
-   "SCORE": "Correct Score",
    "SPREAD": "Bundesliga Spread",
-   "TEAMTOTAL": "Team Total",
-   "TOTAL": "Bundesliga Total",
-   "WBTTS": "Both teams to score",
-   "WGAME": "German Women's Bundesliga Game",
-   "WSPREAD": "Spread",
-   "WTOTAL": "Total"
+   "TOTAL": "Bundesliga Total"
   },
   "BUNDESLIGA2": {
-   "BTTS": "BTTS",
-   "GAME": "Bundesliga 2 Game",
-   "H": "2nd Half Winner",
-   "HBTTS": "2nd Half BTTS",
-   "HSPREAD": "2nd Half Spread",
-   "HTOTAL": "2nd Half Total",
-   "SPREAD": "Spread",
-   "TOTAL": "Point Total"
+   "GAME": "Bundesliga 2 Game"
   },
   "CONCACAFNL": {
    "1H": "1st Half Winner",
@@ -86,6 +52,10 @@
    "TOTAL": "Point Total"
   },
   "EFLCHAMPIONSHIP": {
+   "1H": "1st Half Winner",
+   "1HBTTS": "1st Half BTTS",
+   "1HSPREAD": "1st Half Spread",
+   "1HTOTAL": "1st Half Total",
    "BTTS": "BTTS",
    "GAME": "EFL Championship Game",
    "SPREAD": "EFL Championship Spread",
@@ -98,35 +68,18 @@
    "TOTAL": "Point Total"
   },
   "EPL": {
-   "1H": "Premier League First Half Winner",
-   "1HBTTS": "EPL 1st Half BTTS",
-   "1HSCORE": "1st Half Correct Score",
-   "1HSPREAD": "EPL 1st Half Spread",
-   "1HTOTAL": "EPL 1st Half Total",
-   "2H": "2nd Half Winner",
-   "2HBTTS": "2nd Half BTTS",
-   "2HSPREAD": "2nd Half Spread",
-   "2HTOTAL": "2nd Half Total",
    "BTTS": "EPL Both Teams to Score",
    "CORNERS": "EPL Corners",
-   "FTTS": "First Team to Score",
    "GAME": "English Premier League Game",
-   "SCORE": "Correct Score",
    "SPREAD": "English Premier League Spread",
    "TCORNERS": "EPL Team Corners",
-   "TEAMTOTAL": "Team Total",
    "TOTAL": "English Premier League Total Goals"
   },
   "EREDIVISIE": {
-   "1H": "1st Half Winner",
-   "1HBTTS": "1st Half BTTS",
-   "1HSPREAD": "1st Half Spread",
-   "1HTOTAL": "1st Half Total",
    "BTTS": "BTTS",
    "GAME": "Eredivisie Game",
    "SPREAD": "Eredivisie Spread",
-   "TOTAL": "Eredivisie Total",
-   "WGAME": "Eredivisie Vrouwen Game"
+   "TOTAL": "Eredivisie Total"
   },
   "INTLFRIENDLY": {
    "1H": "1st Half Winner",
@@ -139,31 +92,15 @@
    "TOTAL": "International Friendly Total"
   },
   "LALIGA": {
-   "1H": "La Liga First Half Winner",
-   "1HBTTS": "1st Half BTTS",
-   "1HSCORE": "1st Half Correct Score",
-   "1HSPREAD": "1st Half Spread",
-   "1HTOTAL": "1st Half Total",
    "BTTS": "La Liga BTTS",
    "CORNERS": "Total Corners",
-   "FTTS": "First Team to Score",
    "GAME": "La Liga Game",
-   "GOAL": "Goalscorer",
-   "SCORE": "Correct Score",
    "SPREAD": "La Liga Spread",
    "TCORNERS": "Team Corners",
-   "TEAMTOTAL": "Team Total",
    "TOTAL": "La Liga Total"
   },
   "LALIGA2": {
-   "BTTS": "BTTS",
-   "GAME": "LaLiga 2 Game",
-   "H": "2nd Half Winner",
-   "HBTTS": "2nd Half BTTS",
-   "HSPREAD": "2nd Half Spread",
-   "HTOTAL": "2nd Half Total",
-   "SPREAD": "Spread",
-   "TOTAL": "Point Total"
+   "GAME": "LaLiga 2 Game"
   },
   "LIGAMX": {
    "1H": "1st Half Winner",
@@ -184,37 +121,16 @@
    "TOTAL": "Liga MX Total"
   },
   "LIGAPORTUGAL": {
-   "1H": "1st Half Winner",
-   "1HBTTS": "1st Half BTTS",
-   "1HSPREAD": "1st Half Spread",
-   "1HTOTAL": "1st Half Total",
-   "2BTTS": "Both teams to score",
    "2GAME": "Liga Portugal 2 Game",
-   "2SPREAD": "Spread",
-   "2TOTAL": "Total",
    "BTTS": "BTTS",
    "GAME": "Liga Portugal Game",
    "SPREAD": "Spread",
    "TOTAL": "Point Total"
   },
   "LIGUE1": {
-   "1H": "Ligue 1 First Half Winner",
-   "1HBTTS": "1st Half BTTS",
-   "1HSCORE": "1st Half Correct Score",
-   "1HSPREAD": "1st Half Spread",
-   "1HTOTAL": "1st Half Total",
-   "2H": "2nd Half Winner",
-   "2HBTTS": "2nd Half BTTS",
-   "2HSPREAD": "2nd Half Spread",
-   "2HTOTAL": "2nd Half Total",
    "BTTS": "Ligue 1 BTTS",
-   "FIRSTGOAL": "First Goal",
-   "FTTS": "First Team to Score",
    "GAME": "Ligue 1 Game",
-   "GOAL": "Goalscorer",
-   "SCORE": "Correct Score",
    "SPREAD": "Ligue 1 Spread",
-   "TEAMTOTAL": "Team Total",
    "TOTAL": "Ligue 1 Total"
   },
   "LIGUE2": {
@@ -261,10 +177,8 @@
    "2HSPREAD": "2nd Half Spread",
    "2HTOTAL": "2nd Half Total",
    "BTTS": "MLS BTTS",
-   "FIRSTGOAL": "First Goal",
    "FTTS": "First Team to Score",
    "GAME": "Major League Soccer Game",
-   "GOAL": "Goalscorer",
    "SCORE": "Correct Score",
    "SPREAD": "MLS Spread",
    "TEAMTOTAL": "Team Total",
@@ -315,6 +229,7 @@
    "RACE": "NBA Race to Points",
    "REB": "NBA Player Rebounds",
    "REBPROT": "NBA Player Rebounds Protected",
+   "SPREAD": "NBA Spread",
    "STADIUM": "NBA Stadium Completion",
    "STAKESALE": "NBA Team Ownership Stake Sale Agreement",
    "STL": "NBA Player Steals",
@@ -329,15 +244,37 @@
   "NCAAF": {
    "1H": "College Football 1st Half Winner",
    "1HSPREAD": "College Football 1st Half Spread",
+   "1HTEAMTOTAL": "College Football 1st Half Team Total Points",
    "1HTOTAL": "College Football 1st Half Total",
+   "1Q": "College Football 1st Quarter Winner",
+   "1QSPREAD": "College Football 1st Quarter Spread",
+   "1QTOTAL": "College Football 1st Quarter Total",
+   "2H": "College Football 2nd Half Winner",
+   "2HSPREAD": "College Football 2nd Half Spread",
+   "2HTOTAL": "College Football 2nd Half Total",
+   "2Q": "College Football 2nd Quarter Winner",
+   "2QSPREAD": "College Football 2nd Quarter Spread",
+   "2QTOTAL": "College Football 2nd Quarter Total",
+   "3Q": "College Football 3rd Quarter Winner",
+   "3QSPREAD": "College Football 3rd Quarter Spread",
+   "3QTOTAL": "College Football 3rd Quarter Total",
+   "4Q": "College Football 4th Quarter Winner",
+   "4QSPREAD": "College Football 4th Quarter Spread",
+   "4QTOTAL": "College Football 4th Quarter Total",
    "CFPPOLL": "College Football CFP Poll",
+   "DSTTD": "College Football Defense Special Teams Touchdown",
    "FIRSTTDTEAM": "College Football First Team to Score a Touchdown",
    "GAME": "College Football Game",
    "OT": "College Football Overtime",
    "SPREAD": "College Football Spread",
    "STADIUM": "College Football Stadiums",
+   "TEAMRECTD": "College Football Team Receiving Touchdowns",
+   "TEAMRECYDS": "College Football Team Receiving Yards",
+   "TEAMRSHYDS": "College Football Team Rushing Yards",
+   "TEAMTOTAL": "College Football Team Total Points",
    "TOPCFPPOLL": "College Football CFP Poll",
-   "TOTAL": "College Football Total Points"
+   "TOTAL": "College Football Total Points",
+   "WINMARGIN": "College Football Winning Margin"
   },
   "NCAAMB": {
    "1H": "Men's College Basketball 1st Half Winner",
@@ -349,9 +286,12 @@
    "KENPOMRANK": "Men's College Basketball KenPom Ratings",
    "KENPOMTOP": "Men's College Basketball KenPom Top Ratings",
    "OT": "Men's College Basketball Overtime",
+   "RACE": "Men's College Basketball Race to Points",
    "SPREAD": "Men's College Basketball Spread",
+   "TEAMTOTAL": "Men's College Basketball Team Total",
    "TOPAPRANK": "Men's College Basketball AP Poll Top Rank",
-   "TOTAL": "Men's College Basketball Total Points"
+   "TOTAL": "Men's College Basketball Total Points",
+   "WINMARGIN": "Men's College Basketball Winning Margin"
   },
   "NFL": {
    "1H": "Pro Football 1st Half Winner",
@@ -390,6 +330,7 @@
    "FG": "Pro Football Field Goals",
    "FIRSTTD": "Pro Football First Touchdown",
    "FIRSTTDTEAM": "Pro Football First Team to Score a Touchdown",
+   "GAME": "NFL Game",
    "LADDERREC": "Receptions Ladder",
    "LADDERRECYDS": "Receiving Yards Ladder",
    "LADDERRSHYDS": "Rushing Yards Ladder",
@@ -468,33 +409,19 @@
    "TOTAL": "Point Total"
   },
   "SERIEA": {
-   "1H": "Serie A First Half Winner",
-   "1HBTTS": "1st Half BTTS",
-   "1HSCORE": "1st Half Correct Score",
-   "1HSPREAD": "1st Half Spread",
-   "1HTOTAL": "1st Half Total",
-   "2H": "2nd Half Winner",
-   "2HBTTS": "2nd Half BTTS",
-   "2HSPREAD": "2nd Half Spread",
-   "2HTOTAL": "2nd Half Total",
    "BTTS": "Serie A BTTS",
-   "FTTS": "First Team to Score",
    "GAME": "Serie A Game",
-   "GOAL": "Goalscorer",
-   "SCORE": "Correct Score",
    "SPREAD": "Serie A Spread",
-   "TEAMTOTAL": "Team Total",
-   "TOTAL": "Serie A Total",
-   "WGAME": "Serie A Femminile Game"
+   "TOTAL": "Serie A Total"
   },
   "SERIEB": {
-   "GAME": "Serie B Game"
-  },
-  "SUPERLIG": {
    "BTTS": "BTTS",
-   "GAME": "Turkish Super Lig Game",
+   "GAME": "Serie B Game",
    "SPREAD": "Spread",
    "TOTAL": "Point Total"
+  },
+  "SUPERLIG": {
+   "GAME": "Turkish Super Lig Game"
   },
   "UCL": {
    "1H": "Champions League First Hal Winner",
@@ -507,10 +434,12 @@
    "2HSPREAD": "2nd Half Spread",
    "2HTOTAL": "2nd Half Total",
    "BTTS": "Champions League BTTS",
+   "CORNERS": "UCL Corners",
    "FTTS": "First Team to Score",
    "GAME": "UEFA Champions League Game",
    "SCORE": "Correct Score",
    "SPREAD": "Champions League Spread",
+   "TCORNERS": "Champions League Team Corners",
    "TEAMTOTAL": "UCL Team Total",
    "TOTAL": "Champions League Total Goals"
   },
@@ -520,6 +449,7 @@
    "1HSPREAD": "1st Half Spread",
    "1HTOTAL": "1st Half Total",
    "BTTS": "Conference League BTTS",
+   "FTTS": "First Team to Score",
    "GAME": "UEFA Conference League Game",
    "SCORE": "Correct Score",
    "SPREAD": "Conference League Spread",
@@ -545,6 +475,7 @@
    "1HSPREAD": "1st Half Spread",
    "1HTOTAL": "1st Half Total",
    "BTTS": "Europa League BTTS",
+   "FTTS": "First Team to Score",
    "GAME": "UEFA Europa League Game",
    "SCORE": "Correct Score",
    "SPREAD": "Europa League Spread",
@@ -581,5 +512,5 @@
    "TOTAL": "Women's Pro Basketball Total"
   }
  },
- "updated": "2026-11-22T20:41:54.907336+00:00"
+ "updated": "2026-11-24T22:05:11.591095+00:00"
 }

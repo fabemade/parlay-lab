@@ -1,0 +1,887 @@
+{
+ "date": "2026-11-24",
+ "locked_at": "2026-11-24T16:58-05:00",
+ "legs": {
+  "401909315:KXNBAGAME-26NOV24BOSWAS-BOS:yes": {
+   "id": "401909315:KXNBAGAME-26NOV24BOSWAS-BOS:yes",
+   "sport": "nba",
+   "game_id": "401909315",
+   "short": "BOS @ WSH",
+   "game": "Boston Celtics at Washington Wizards",
+   "start": "2026-11-25T01:00Z",
+   "market": "ml",
+   "side": "away",
+   "selection": "BOS to win",
+   "group": "Game lines",
+   "market_name": "Winner",
+   "odds": -404,
+   "p": 0.7915,
+   "p_model": 0.7675,
+   "p_market": 0.7822,
+   "p_breakeven": 0.8016,
+   "edge": -0.0101,
+   "ev": -0.0126,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "BOS ranks #25 in offense and #2 in defense of 32 (schedule-adjusted, recent games weighted more)",
+    "Last 10: 6-4, scoring 108.6 and allowing 97.2 pts/game (season: 111.24 / 102.12). Current streak: L4",
+    "On the road: 105.5 scored / 98.8 allowed per game",
+    "Record 11-6 (road 5-5)",
+    "Injuries: Mitchell Robinson (C, Out)",
+    "Price moved -198 \u2192 -424 since opening, money moving toward BOS"
+   ],
+   "home": {
+    "name": "Washington Wizards",
+    "abbr": "WSH"
+   },
+   "away": {
+    "name": "Boston Celtics",
+    "abbr": "BOS"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxnbagame/nba-game/kxnbagame-26nov24boswas",
+    "price": 79,
+    "ticker": "KXNBAGAME-26NOV24BOSWAS-BOS",
+    "contract": "Yes \u00b7 Boston",
+    "buy": "yes"
+   },
+   "result": null,
+   "close_odds": -404
+  },
+  "401925687:KXNCAAMBGAME-26NOV24ALCNLT-LT:yes": {
+   "id": "401925687:KXNCAAMBGAME-26NOV24ALCNLT-LT:yes",
+   "sport": "ncaab",
+   "game_id": "401925687",
+   "short": "ALCN @ LT",
+   "game": "Alcorn State Braves at Louisiana Tech Bulldogs",
+   "start": "2026-11-25T00:30Z",
+   "market": "ml",
+   "side": "home",
+   "selection": "LT to win",
+   "group": "Game lines",
+   "market_name": "Winner",
+   "odds": -1684,
+   "p": 0.9367,
+   "p_model": 0.9132,
+   "p_market": 0.9307,
+   "p_breakeven": 0.9439,
+   "edge": -0.0072,
+   "ev": -0.0076,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "LT ranks #325 in offense and #64 in defense of 378 (schedule-adjusted, recent games weighted more)",
+    "Last 6: 4-2, scoring 70.17 and allowing 63.83 pts/game (season: 70.17 / 63.83)",
+    "At home: 75.75 scored / 55.5 allowed per game",
+    "Record 4-2 (home 4-0)",
+    "Price moved -2100 \u2192 -1800 since opening, money moving away from LT"
+   ],
+   "home": {
+    "name": "Louisiana Tech Bulldogs",
+    "abbr": "LT"
+   },
+   "away": {
+    "name": "Alcorn State Braves",
+    "abbr": "ALCN"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxncaambgame/men-s-college-basketball-game/kxncaambgame-26nov24alcnlt",
+    "price": 94,
+    "ticker": "KXNCAAMBGAME-26NOV24ALCNLT-LT",
+    "contract": "Yes \u00b7 Louisiana Tech",
+    "buy": "yes"
+   },
+   "result": null,
+   "close_odds": -1684
+  },
+  "401922231:KXNCAAMBTOTAL-26NOV24QUCWOF-196:no": {
+   "id": "401922231:KXNCAAMBTOTAL-26NOV24QUCWOF-196:no",
+   "sport": "ncaab",
+   "game_id": "401922231",
+   "short": "QUC @ WOF",
+   "game": "Queens University Royals at Wofford Terriers",
+   "start": "2026-11-24T23:00Z",
+   "market": "total",
+   "side": "under",
+   "line": 195.5,
+   "selection": "Under 195.5",
+   "group": "Game lines",
+   "market_name": "Total",
+   "odds": -1428,
+   "p": 0.9235,
+   "p_model": 0.9251,
+   "p_market": 0.9118,
+   "p_breakeven": 0.9346,
+   "edge": -0.0111,
+   "ev": -0.0119,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "QUC: 86.83 scored / 101.17 allowed per game this season; last 6: 86.83 / 101.17",
+    "WOF: 83.14 scored / 81.86 allowed per game this season; last 7: 83.14 / 81.86",
+    "Line moved from +174.5 to +172.5 since opening (total)"
+   ],
+   "home": {
+    "name": "Wofford Terriers",
+    "abbr": "WOF"
+   },
+   "away": {
+    "name": "Queens University Royals",
+    "abbr": "QUC"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxncaambtotal/men-s-college-basketball-total-points/kxncaambtotal-26nov24qucwof",
+    "price": 93,
+    "ticker": "KXNCAAMBTOTAL-26NOV24QUCWOF-196",
+    "contract": "No \u00b7 Over 195.5",
+    "buy": "no"
+   },
+   "result": null,
+   "close_odds": -1428
+  },
+  "401933738:KXMLSTOTAL-26NOV24SJHOU-6:no": {
+   "id": "401933738:KXMLSTOTAL-26NOV24SJHOU-6:no",
+   "sport": "soccer_usa.1",
+   "game_id": "401933738",
+   "short": "HOU @ SJ",
+   "game": "Houston Dynamo FC at San Jose Earthquakes",
+   "start": "2026-11-25T03:00Z",
+   "market": "total",
+   "side": "under",
+   "line": 5.5,
+   "selection": "Under 5.5",
+   "group": "Game lines",
+   "market_name": "Total",
+   "odds": -1428,
+   "p": 0.9315,
+   "p_model": 0.9283,
+   "p_market": 0.9208,
+   "p_breakeven": 0.9346,
+   "edge": -0.0031,
+   "ev": -0.0033,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "HOU: 1.2 scored / 1.0 allowed per game this season; last 10: 1.1 / 1.6",
+    "SJ: 1.21 scored / 1.89 allowed per game this season; last 10: 1.4 / 1.5"
+   ],
+   "home": {
+    "name": "San Jose Earthquakes",
+    "abbr": "SJ"
+   },
+   "away": {
+    "name": "Houston Dynamo FC",
+    "abbr": "HOU"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxmlstotal/mls-total/kxmlstotal-26nov24sjhou",
+    "price": 93,
+    "ticker": "KXMLSTOTAL-26NOV24SJHOU-6",
+    "contract": "No \u00b7 Over 5.5",
+    "buy": "no"
+   },
+   "result": null,
+   "close_odds": -1428
+  },
+  "401866471:KXNCAAFTOTAL-26NOV24MOHWMU-70:no": {
+   "id": "401866471:KXNCAAFTOTAL-26NOV24MOHWMU-70:no",
+   "sport": "cfb",
+   "game_id": "401866471",
+   "short": "M-OH @ WMU",
+   "game": "Miami (OH) RedHawks at Western Michigan Broncos",
+   "start": "2026-11-25T00:00Z",
+   "market": "total",
+   "side": "under",
+   "line": 69.5,
+   "selection": "Under 69.5",
+   "group": "Game lines",
+   "market_name": "Total",
+   "odds": -1684,
+   "p": 0.9396,
+   "p_model": 0.8896,
+   "p_market": 0.9307,
+   "p_breakeven": 0.9439,
+   "edge": -0.0043,
+   "ev": -0.0046,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "M-OH: 27.36 scored / 23.64 allowed per game this season; last 10: 28.7 / 20.1",
+    "WMU: 28.36 scored / 19.45 allowed per game this season; last 10: 30.0 / 20.1",
+    "Line moved from +46.5 to +45.5 since opening (total)"
+   ],
+   "home": {
+    "name": "Western Michigan Broncos",
+    "abbr": "WMU"
+   },
+   "away": {
+    "name": "Miami (OH) RedHawks",
+    "abbr": "M-OH"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxncaaftotal/college-football-total-points/kxncaaftotal-26nov24mohwmu",
+    "price": 94,
+    "ticker": "KXNCAAFTOTAL-26NOV24MOHWMU-70",
+    "contract": "No \u00b7 Over 69.5",
+    "buy": "no"
+   },
+   "result": null,
+   "close_odds": -1684
+  },
+  "401909314:KXNBATOTAL-26NOV24DETORL-187:yes": {
+   "id": "401909314:KXNBATOTAL-26NOV24DETORL-187:yes",
+   "sport": "nba",
+   "game_id": "401909314",
+   "short": "DET @ ORL",
+   "game": "Detroit Pistons at Orlando Magic",
+   "start": "2026-11-25T00:00Z",
+   "market": "total",
+   "side": "over",
+   "line": 186.5,
+   "selection": "Over 186.5",
+   "group": "Game lines",
+   "market_name": "Total",
+   "odds": -2042,
+   "p": 0.943,
+   "p_model": 0.9632,
+   "p_market": 0.9314,
+   "p_breakeven": 0.9533,
+   "edge": -0.0103,
+   "ev": -0.0108,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "DET: 113.38 scored / 108.56 allowed per game this season; last 10: 115.5 / 112.6",
+    "ORL: 108.75 scored / 112.88 allowed per game this season; last 10: 109.4 / 110.6",
+    "Line moved from +214.5 to +212.5 since opening (total)",
+    "\u26a0 The line has moved against this side since opening (a sharp-money signal), so the model defers more to the market"
+   ],
+   "home": {
+    "name": "Orlando Magic",
+    "abbr": "ORL"
+   },
+   "away": {
+    "name": "Detroit Pistons",
+    "abbr": "DET"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxnbatotal/nba-total/kxnbatotal-26nov24detorl",
+    "price": 95,
+    "ticker": "KXNBATOTAL-26NOV24DETORL-187",
+    "contract": "Yes \u00b7 Over 186.5",
+    "buy": "yes"
+   },
+   "result": null,
+   "close_odds": -2042
+  },
+  "401926184:KXNCAAMBGAME-26NOV24UNCGUCSB-UCSB:yes": {
+   "id": "401926184:KXNCAAMBGAME-26NOV24UNCGUCSB-UCSB:yes",
+   "sport": "ncaab",
+   "game_id": "401926184",
+   "short": "UNCG @ UCSB",
+   "game": "UNC Greensboro Spartans at UC Santa Barbara Gauchos",
+   "start": "2026-11-25T02:00Z",
+   "market": "ml",
+   "side": "home",
+   "selection": "UCSB to win",
+   "group": "Game lines",
+   "market_name": "Winner",
+   "odds": -2042,
+   "p": 0.9427,
+   "p_model": 0.8515,
+   "p_market": 0.9406,
+   "p_breakeven": 0.9533,
+   "edge": -0.0106,
+   "ev": -0.0111,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "UCSB ranks #101 in offense and #56 in defense of 378 (schedule-adjusted, recent games weighted more)",
+    "Last 5: 5-0, scoring 87.2 and allowing 62.4 pts/game (season: 87.2 / 62.4). Current streak: W5",
+    "At home: 87.0 scored / 58.0 allowed per game",
+    "Record 5-0 (home 4-0)",
+    "Price moved -3200 \u2192 -2800 since opening, money moving away from UCSB"
+   ],
+   "home": {
+    "name": "UC Santa Barbara Gauchos",
+    "abbr": "UCSB"
+   },
+   "away": {
+    "name": "UNC Greensboro Spartans",
+    "abbr": "UNCG"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxncaambgame/men-s-college-basketball-game/kxncaambgame-26nov24uncgucsb",
+    "price": 95,
+    "ticker": "KXNCAAMBGAME-26NOV24UNCGUCSB-UCSB",
+    "contract": "Yes \u00b7 UC Santa Barbara",
+    "buy": "yes"
+   },
+   "result": null,
+   "close_odds": -2042
+  },
+  "401933738:KXMLSTOTAL-26NOV24SJHOU-1:yes": {
+   "id": "401933738:KXMLSTOTAL-26NOV24SJHOU-1:yes",
+   "sport": "soccer_usa.1",
+   "game_id": "401933738",
+   "short": "HOU @ SJ",
+   "game": "Houston Dynamo FC at San Jose Earthquakes",
+   "start": "2026-11-25T03:00Z",
+   "market": "total",
+   "side": "over",
+   "line": 0.5,
+   "selection": "Over 0.5",
+   "group": "Game lines",
+   "market_name": "Total",
+   "odds": -2042,
+   "p": 0.9485,
+   "p_model": 0.9297,
+   "p_market": 0.9406,
+   "p_breakeven": 0.9533,
+   "edge": -0.0048,
+   "ev": -0.005,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "HOU: 1.2 scored / 1.0 allowed per game this season; last 10: 1.1 / 1.6",
+    "SJ: 1.21 scored / 1.89 allowed per game this season; last 10: 1.4 / 1.5"
+   ],
+   "home": {
+    "name": "San Jose Earthquakes",
+    "abbr": "SJ"
+   },
+   "away": {
+    "name": "Houston Dynamo FC",
+    "abbr": "HOU"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxmlstotal/mls-total/kxmlstotal-26nov24sjhou",
+    "price": 95,
+    "ticker": "KXMLSTOTAL-26NOV24SJHOU-1",
+    "contract": "Yes \u00b7 Over 0.5",
+    "buy": "yes"
+   },
+   "result": null,
+   "close_odds": -2042
+  },
+  "401926827:KXNCAAMBGAME-26NOV24HAMPODU-ODU:yes": {
+   "id": "401926827:KXNCAAMBGAME-26NOV24HAMPODU-ODU:yes",
+   "sport": "ncaab",
+   "game_id": "401926827",
+   "short": "HAMP @ ODU",
+   "game": "Hampton Pirates at Old Dominion Monarchs",
+   "start": "2026-11-25T00:00Z",
+   "market": "ml",
+   "side": "home",
+   "selection": "ODU to win",
+   "group": "Game lines",
+   "market_name": "Winner",
+   "odds": -340,
+   "p": 0.7839,
+   "p_model": 0.8433,
+   "p_market": 0.7525,
+   "p_breakeven": 0.7728,
+   "edge": 0.0111,
+   "ev": 0.0144,
+   "grade": "B",
+   "modeled": true,
+   "reasons": [
+    "ODU ranks #201 in offense and #9 in defense of 378 (schedule-adjusted, recent games weighted more)",
+    "Last 6: 5-1, scoring 75.0 and allowing 62.83 pts/game (season: 75.0 / 62.83)",
+    "At home: 77.33 scored / 56.67 allowed per game",
+    "Record 5-1 (home 3-0)",
+    "Price moved -425 \u2192 -355 since opening, money moving away from ODU"
+   ],
+   "home": {
+    "name": "Old Dominion Monarchs",
+    "abbr": "ODU"
+   },
+   "away": {
+    "name": "Hampton Pirates",
+    "abbr": "HAMP"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxncaambgame/men-s-college-basketball-game/kxncaambgame-26nov24hampodu",
+    "price": 76,
+    "ticker": "KXNCAAMBGAME-26NOV24HAMPODU-ODU",
+    "contract": "Yes \u00b7 Old Dominion",
+    "buy": "yes"
+   },
+   "result": null,
+   "close_odds": -340
+  },
+  "401909316:KXNBATOTAL-26NOV24DALDEN-208:yes": {
+   "id": "401909316:KXNBATOTAL-26NOV24DALDEN-208:yes",
+   "sport": "nba",
+   "game_id": "401909316",
+   "short": "DAL @ DEN",
+   "game": "Dallas Mavericks at Denver Nuggets",
+   "start": "2026-11-25T03:00Z",
+   "market": "total",
+   "side": "over",
+   "line": 207.5,
+   "selection": "Over 207.5",
+   "group": "Game lines",
+   "market_name": "Total",
+   "odds": -1684,
+   "p": 0.9391,
+   "p_model": 0.9172,
+   "p_market": 0.9307,
+   "p_breakeven": 0.9439,
+   "edge": -0.0048,
+   "ev": -0.0051,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "DAL: 112.41 scored / 112.47 allowed per game this season; last 10: 112.5 / 112.6",
+    "DEN: 117.0 scored / 115.2 allowed per game this season; last 10: 118.5 / 115.2",
+    "Line moved from +236.5 to +234.5 since opening (total)"
+   ],
+   "home": {
+    "name": "Denver Nuggets",
+    "abbr": "DEN"
+   },
+   "away": {
+    "name": "Dallas Mavericks",
+    "abbr": "DAL"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxnbatotal/nba-total/kxnbatotal-26nov24dalden",
+    "price": 94,
+    "ticker": "KXNBATOTAL-26NOV24DALDEN-208",
+    "contract": "Yes \u00b7 Over 207.5",
+    "buy": "yes"
+   },
+   "result": null,
+   "close_odds": -1684
+  },
+  "401929421:KXNCAAMBGAME-26NOV24FAMUUSA-USA:yes": {
+   "id": "401929421:KXNCAAMBGAME-26NOV24FAMUUSA-USA:yes",
+   "sport": "ncaab",
+   "game_id": "401929421",
+   "short": "FAMU @ USA",
+   "game": "Florida A&M Rattlers at South Alabama Jaguars",
+   "start": "2026-11-25T01:00Z",
+   "market": "ml",
+   "side": "home",
+   "selection": "USA to win",
+   "group": "Game lines",
+   "market_name": "Winner",
+   "odds": -2042,
+   "p": 0.9448,
+   "p_model": 0.9141,
+   "p_market": 0.9406,
+   "p_breakeven": 0.9533,
+   "edge": -0.0085,
+   "ev": -0.0089,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "USA ranks #185 in offense and #238 in defense of 378 (schedule-adjusted, recent games weighted more)",
+    "Last 8: 4-4, scoring 78.62 and allowing 77.0 pts/game (season: 78.62 / 77.0)",
+    "At home: 88.0 scored / 74.6 allowed per game",
+    "Record 4-4 (home 3-1)",
+    "Price moved -1650 \u2192 -2400 since opening, money moving toward USA"
+   ],
+   "home": {
+    "name": "South Alabama Jaguars",
+    "abbr": "USA"
+   },
+   "away": {
+    "name": "Florida A&M Rattlers",
+    "abbr": "FAMU"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxncaambgame/men-s-college-basketball-game/kxncaambgame-26nov24famuusa",
+    "price": 95,
+    "ticker": "KXNCAAMBGAME-26NOV24FAMUUSA-USA",
+    "contract": "Yes \u00b7 South Alabama",
+    "buy": "yes"
+   },
+   "result": null,
+   "close_odds": -2042
+  },
+  "401909316:KXNBAGAME-26NOV24DALDEN-DEN:yes": {
+   "id": "401909316:KXNBAGAME-26NOV24DALDEN-DEN:yes",
+   "sport": "nba",
+   "game_id": "401909316",
+   "short": "DAL @ DEN",
+   "game": "Dallas Mavericks at Denver Nuggets",
+   "start": "2026-11-25T03:00Z",
+   "market": "ml",
+   "side": "home",
+   "selection": "DEN to win",
+   "group": "Game lines",
+   "market_name": "Winner",
+   "odds": -276,
+   "p": 0.7171,
+   "p_model": 0.6843,
+   "p_market": 0.7129,
+   "p_breakeven": 0.7341,
+   "edge": -0.017,
+   "ev": -0.0232,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "DEN ranks #2 in offense and #20 in defense of 32 (schedule-adjusted, recent games weighted more)",
+    "Last 10: 7-3, scoring 118.5 and allowing 115.2 pts/game (season: 117.0 / 115.2). Current streak: W3",
+    "At home: 119.43 scored / 119.71 allowed per game",
+    "Record 10-5 (home 4-3)",
+    "Price moved -345 \u2192 -310 since opening, money moving away from DEN"
+   ],
+   "home": {
+    "name": "Denver Nuggets",
+    "abbr": "DEN"
+   },
+   "away": {
+    "name": "Dallas Mavericks",
+    "abbr": "DAL"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxnbagame/nba-game/kxnbagame-26nov24dalden",
+    "price": 72,
+    "ticker": "KXNBAGAME-26NOV24DALDEN-DEN",
+    "contract": "Yes \u00b7 Denver",
+    "buy": "yes"
+   },
+   "result": null,
+   "close_odds": -276
+  },
+  "401918996:KXNCAAMBGAME-26NOV24STETUSF-USF:yes": {
+   "id": "401918996:KXNCAAMBGAME-26NOV24STETUSF-USF:yes",
+   "sport": "ncaab",
+   "game_id": "401918996",
+   "short": "STET @ USF",
+   "game": "Stetson Hatters at South Florida Bulls",
+   "start": "2026-11-25T00:00Z",
+   "market": "ml",
+   "side": "home",
+   "selection": "USF to win",
+   "group": "Game lines",
+   "market_name": "Winner",
+   "odds": -2042,
+   "p": 0.9427,
+   "p_model": 0.8656,
+   "p_market": 0.9406,
+   "p_breakeven": 0.9533,
+   "edge": -0.0106,
+   "ev": -0.0111,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "USF ranks #78 in offense and #233 in defense of 378 (schedule-adjusted, recent games weighted more)",
+    "Last 6: 3-3, scoring 81.83 and allowing 73.83 pts/game (season: 81.83 / 73.83)",
+    "At home: 89.67 scored / 68.33 allowed per game",
+    "Record 3-3 (home 3-0)"
+   ],
+   "home": {
+    "name": "South Florida Bulls",
+    "abbr": "USF"
+   },
+   "away": {
+    "name": "Stetson Hatters",
+    "abbr": "STET"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxncaambgame/men-s-college-basketball-game/kxncaambgame-26nov24stetusf",
+    "price": 95,
+    "ticker": "KXNCAAMBGAME-26NOV24STETUSF-USF",
+    "contract": "Yes \u00b7 South Florida",
+    "buy": "yes"
+   },
+   "result": null,
+   "close_odds": -2042
+  },
+  "401892780:KXNHLTOTAL-26NOV24VGKEDM-10:no": {
+   "id": "401892780:KXNHLTOTAL-26NOV24VGKEDM-10:no",
+   "sport": "nhl",
+   "game_id": "401892780",
+   "short": "VGK @ EDM",
+   "game": "Vegas Golden Knights at Edmonton Oilers",
+   "start": "2026-11-25T01:00Z",
+   "market": "total",
+   "side": "under",
+   "line": 9.5,
+   "selection": "Under 9.5",
+   "group": "Game lines",
+   "market_name": "Total",
+   "odds": -1236,
+   "p": 0.9193,
+   "p_model": 0.8731,
+   "p_market": 0.9109,
+   "p_breakeven": 0.9252,
+   "edge": -0.0059,
+   "ev": -0.0064,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "VGK: 3.4 scored / 3.0 allowed per game this season; last 10: 3.2 / 3.1",
+    "EDM: 3.88 scored / 2.96 allowed per game this season; last 10: 3.4 / 2.9"
+   ],
+   "home": {
+    "name": "Edmonton Oilers",
+    "abbr": "EDM"
+   },
+   "away": {
+    "name": "Vegas Golden Knights",
+    "abbr": "VGK"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxnhltotal/nhl-total-goals/kxnhltotal-26nov24vgkedm",
+    "price": 92,
+    "ticker": "KXNHLTOTAL-26NOV24VGKEDM-10",
+    "contract": "No \u00b7 Over 9.5",
+    "buy": "no"
+   },
+   "result": null,
+   "close_odds": -1236
+  },
+  "401866470:KXNCAAFGAME-26NOV24KENTEMU-EMU:yes": {
+   "id": "401866470:KXNCAAFGAME-26NOV24KENTEMU-EMU:yes",
+   "sport": "cfb",
+   "game_id": "401866470",
+   "short": "KENT @ EMU",
+   "game": "Kent State Golden Flashes at Eastern Michigan Eagles",
+   "start": "2026-11-25T00:00Z",
+   "market": "ml",
+   "side": "home",
+   "selection": "EMU to win",
+   "group": "Game lines",
+   "market_name": "Winner",
+   "odds": -228,
+   "p": 0.6875,
+   "p_model": 0.7559,
+   "p_market": 0.6733,
+   "p_breakeven": 0.6952,
+   "edge": -0.0077,
+   "ev": -0.0111,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "EMU ranks #120 in offense and #115 in defense of 143 (schedule-adjusted, recent games weighted more)",
+    "Last 10: 3-7, scoring 19.8 and allowing 28.3 pts/game (season: 20.55 / 27.27). Current streak: L4",
+    "At home: 19.8 scored / 23.2 allowed per game",
+    "Record 4-7",
+    "Price moved -225 \u2192 -245 since opening, money moving toward EMU"
+   ],
+   "home": {
+    "name": "Eastern Michigan Eagles",
+    "abbr": "EMU"
+   },
+   "away": {
+    "name": "Kent State Golden Flashes",
+    "abbr": "KENT"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxncaafgame/college-football-game/kxncaafgame-26nov24kentemu",
+    "price": 68,
+    "ticker": "KXNCAAFGAME-26NOV24KENTEMU-EMU",
+    "contract": "Yes \u00b7 Eastern Michigan",
+    "buy": "yes"
+   },
+   "result": null,
+   "close_odds": -228
+  },
+  "401917904:KXNCAAMBGAME-26NOV24UWGATNTC-TNTC:yes": {
+   "id": "401917904:KXNCAAMBGAME-26NOV24UWGATNTC-TNTC:yes",
+   "sport": "ncaab",
+   "game_id": "401917904",
+   "short": "WGA @ TNTC",
+   "game": "West Georgia Wolves at Tennessee Tech Golden Eagles",
+   "start": "2026-11-25T00:30Z",
+   "market": "ml",
+   "side": "home",
+   "selection": "TNTC to win",
+   "group": "Game lines",
+   "market_name": "Winner",
+   "odds": -1428,
+   "p": 0.9231,
+   "p_model": 0.861,
+   "p_market": 0.9208,
+   "p_breakeven": 0.9346,
+   "edge": -0.0115,
+   "ev": -0.0123,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "TNTC ranks #4 in offense and #275 in defense of 378 (schedule-adjusted, recent games weighted more)",
+    "Last 7: 5-2, scoring 94.86 and allowing 77.14 pts/game (season: 94.86 / 77.14). Current streak: W3",
+    "At home: 103.0 scored / 66.75 allowed per game",
+    "Record 5-2 (home 4-0)"
+   ],
+   "home": {
+    "name": "Tennessee Tech Golden Eagles",
+    "abbr": "TNTC"
+   },
+   "away": {
+    "name": "West Georgia Wolves",
+    "abbr": "WGA"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxncaambgame/men-s-college-basketball-game/kxncaambgame-26nov24uwgatntc",
+    "price": 93,
+    "ticker": "KXNCAAMBGAME-26NOV24UWGATNTC-TNTC",
+    "contract": "Yes \u00b7 Tennessee Tech",
+    "buy": "yes"
+   },
+   "result": null,
+   "close_odds": -1428
+  },
+  "401866470:KXNCAAFTOTAL-26NOV24KENTEMU-68:no": {
+   "id": "401866470:KXNCAAFTOTAL-26NOV24KENTEMU-68:no",
+   "sport": "cfb",
+   "game_id": "401866470",
+   "short": "KENT @ EMU",
+   "game": "Kent State Golden Flashes at Eastern Michigan Eagles",
+   "start": "2026-11-25T00:00Z",
+   "market": "total",
+   "side": "under",
+   "line": 67.5,
+   "selection": "Under 67.5",
+   "group": "Game lines",
+   "market_name": "Total",
+   "odds": -1236,
+   "p": 0.9128,
+   "p_model": 0.8806,
+   "p_market": 0.902,
+   "p_breakeven": 0.9252,
+   "edge": -0.0124,
+   "ev": -0.0134,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "KENT: 14.55 scored / 29.82 allowed per game this season; last 10: 16.0 / 27.1",
+    "EMU: 20.55 scored / 27.27 allowed per game this season; last 10: 19.8 / 28.3"
+   ],
+   "home": {
+    "name": "Eastern Michigan Eagles",
+    "abbr": "EMU"
+   },
+   "away": {
+    "name": "Kent State Golden Flashes",
+    "abbr": "KENT"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxncaaftotal/college-football-total-points/kxncaaftotal-26nov24kentemu",
+    "price": 92,
+    "ticker": "KXNCAAFTOTAL-26NOV24KENTEMU-68",
+    "contract": "No \u00b7 Over 67.5",
+    "buy": "no"
+   },
+   "result": null,
+   "close_odds": -1236
+  },
+  "401922023:KXNCAAMBGAME-26NOV24IDSTBSU-BSU:yes": {
+   "id": "401922023:KXNCAAMBGAME-26NOV24IDSTBSU-BSU:yes",
+   "sport": "ncaab",
+   "game_id": "401922023",
+   "short": "IDST @ BOIS",
+   "game": "Idaho State Bengals at Boise State Broncos",
+   "start": "2026-11-25T02:00Z",
+   "market": "ml",
+   "side": "home",
+   "selection": "BOIS to win",
+   "group": "Game lines",
+   "market_name": "Winner",
+   "odds": -2580,
+   "p": 0.9529,
+   "p_model": 0.8482,
+   "p_market": 0.9505,
+   "p_breakeven": 0.9627,
+   "edge": -0.0098,
+   "ev": -0.0102,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "BOIS ranks #37 in offense and #355 in defense of 378 (schedule-adjusted, recent games weighted more)",
+    "Last 5: 3-2, scoring 97.4 and allowing 79.6 pts/game (season: 97.4 / 79.6)",
+    "At home: 103.0 scored / 74.0 allowed per game",
+    "Record 3-2 (home 3-1)",
+    "Price moved -3600 \u2192 -2800 since opening, money moving away from BOIS"
+   ],
+   "home": {
+    "name": "Boise State Broncos",
+    "abbr": "BOIS"
+   },
+   "away": {
+    "name": "Idaho State Bengals",
+    "abbr": "IDST"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxncaambgame/men-s-college-basketball-game/kxncaambgame-26nov24idstbsu",
+    "price": 96,
+    "ticker": "KXNCAAMBGAME-26NOV24IDSTBSU-BSU",
+    "contract": "Yes \u00b7 Boise St.",
+    "buy": "yes"
+   },
+   "result": null,
+   "close_odds": -2580
+  }
+ },
+ "parlays": [
+  {
+   "legs": [
+    "401933738:KXMLSTOTAL-26NOV24SJHOU-6:no",
+    "401922231:KXNCAAMBTOTAL-26NOV24QUCWOF-196:no"
+   ],
+   "n": 2,
+   "mode": "safest",
+   "p": 0.8602,
+   "decimal": 1.145,
+   "american": -690,
+   "ev": -0.0151,
+   "tier": "lock",
+   "name": "lock_2",
+   "result": null
+  },
+  {
+   "legs": [
+    "401917904:KXNCAAMBGAME-26NOV24UWGATNTC-TNTC:yes",
+    "401892780:KXNHLTOTAL-26NOV24VGKEDM-10:no",
+    "401866470:KXNCAAFTOTAL-26NOV24KENTEMU-68:no"
+   ],
+   "n": 3,
+   "mode": "safest",
+   "p": 0.7746,
+   "decimal": 1.25,
+   "american": -400,
+   "ev": -0.0316,
+   "tier": "lock",
+   "name": "lock_3",
+   "result": null
+  },
+  {
+   "legs": [
+    "401926827:KXNCAAMBGAME-26NOV24HAMPODU-ODU:yes",
+    "401909316:KXNBAGAME-26NOV24DALDEN-DEN:yes"
+   ],
+   "n": 2,
+   "mode": "safest",
+   "p": 0.5621,
+   "decimal": 1.763,
+   "american": -131,
+   "ev": -0.009,
+   "tier": "best",
+   "name": "best_2",
+   "result": null
+  }
+ ],
+ "straights": [],
+ "straights_best": [
+  "401922023:KXNCAAMBGAME-26NOV24IDSTBSU-BSU:yes",
+  "401926184:KXNCAAMBGAME-26NOV24UNCGUCSB-UCSB:yes",
+  "401909315:KXNBAGAME-26NOV24BOSWAS-BOS:yes",
+  "401866470:KXNCAAFGAME-26NOV24KENTEMU-EMU:yes"
+ ],
+ "locks": [
+  "401929421:KXNCAAMBGAME-26NOV24FAMUUSA-USA:yes",
+  "401918996:KXNCAAMBGAME-26NOV24STETUSF-USF:yes",
+  "401925687:KXNCAAMBGAME-26NOV24ALCNLT-LT:yes",
+  "401933738:KXMLSTOTAL-26NOV24SJHOU-1:yes",
+  "401909314:KXNBATOTAL-26NOV24DETORL-187:yes",
+  "401866471:KXNCAAFTOTAL-26NOV24MOHWMU-70:no",
+  "401909316:KXNBATOTAL-26NOV24DALDEN-208:yes",
+  "401892780:KXNHLTOTAL-26NOV24VGKEDM-10:no"
+ ]
+}
