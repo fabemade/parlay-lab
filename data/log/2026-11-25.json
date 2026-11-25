@@ -268,7 +268,7 @@
     "contract": "Yes \u00b7 Marshall",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -1087
   },
   "401926835:KXNCAAMBSPREAD-26NOV25LINWSTON-STON4:yes": {
@@ -361,7 +361,7 @@
     "contract": "Yes \u00b7 Over 0.5",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -2042
   },
   "401909323:KXNBAGAME-26NOV25PHXHOU-HOU:yes": {
@@ -454,7 +454,7 @@
     "buy": "yes"
    },
    "result": null,
-   "close_odds": -1684
+   "close_odds": -1428
   },
   "401899534:KXSERIEBTOTAL-26NOV25MANARE-6:no": {
    "id": "401899534:KXSERIEBTOTAL-26NOV25MANARE-6:no",
@@ -588,7 +588,7 @@
     "contract": "Yes \u00b7 South Dakota St.",
     "buy": "yes"
    },
-   "result": null,
+   "result": "L",
    "close_odds": -306
   },
   "401873079:KXNFLTOTAL-26NOV25GBLAR-67:no": {
@@ -678,7 +678,7 @@
     "contract": "Yes \u00b7 Over 0.5",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -1236
   },
   "401920076:KXNCAAMBGAME-26NOV25LONGGMU-GMU:yes": {
@@ -725,7 +725,7 @@
     "buy": "yes"
    },
    "result": null,
-   "close_odds": -1428
+   "close_odds": -1684
   },
   "401880137:KXEFLCHAMPIONSHIPTOTAL-26NOV25WATBLA-6:no": {
    "id": "401880137:KXEFLCHAMPIONSHIPTOTAL-26NOV25WATBLA-6:no",
@@ -768,7 +768,7 @@
     "contract": "No \u00b7 Over 5.5",
     "buy": "no"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -2580
   },
   "401880138:KXEFLCHAMPIONSHIPTOTAL-26NOV25STKMIL-4:no": {
@@ -812,7 +812,7 @@
     "contract": "No \u00b7 Over 3.5",
     "buy": "no"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -340
   },
   "401909321:KXNBAGAME-26NOV25LACMEM-MEM:yes": {
@@ -1133,7 +1133,7 @@
     "buy": "no"
    },
    "result": null,
-   "close_odds": -1684
+   "close_odds": -1428
   }
  },
  "parlays": [
@@ -1181,7 +1181,10 @@
    "ev": 0.011,
    "tier": "best",
    "name": "best_2",
-   "result": null
+   "result": "L",
+   "missed": [
+    "401917967:KXNCAAMBGAME-26NOV25ACSDST-SDST:yes"
+   ]
   },
   {
    "legs": [
