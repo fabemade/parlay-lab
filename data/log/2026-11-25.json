@@ -223,7 +223,7 @@
     "buy": "yes"
    },
    "result": null,
-   "close_odds": -660
+   "close_odds": -719
   },
   "401920858:KXNCAAMBGAME-26NOV25PVMRSH-MRSH:yes": {
    "id": "401920858:KXNCAAMBGAME-26NOV25PVMRSH-MRSH:yes",
@@ -315,7 +315,7 @@
     "contract": "Yes \u00b7 Stony Brook wins by over 3.5 points",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -360
   },
   "401915377:KXUCLTOTAL-26NOV25LILBMU-1:yes": {
@@ -408,7 +408,7 @@
     "buy": "yes"
    },
    "result": null,
-   "close_odds": -381
+   "close_odds": -360
   },
   "401909318:KXNBATOTAL-26NOV25CHICHA-195:yes": {
    "id": "401909318:KXNBATOTAL-26NOV25CHICHA-195:yes",
@@ -454,7 +454,7 @@
     "buy": "yes"
    },
    "result": null,
-   "close_odds": -2042
+   "close_odds": -1684
   },
   "401899534:KXSERIEBTOTAL-26NOV25MANARE-6:no": {
    "id": "401899534:KXSERIEBTOTAL-26NOV25MANARE-6:no",
@@ -497,7 +497,7 @@
     "contract": "No \u00b7 Over 5.5",
     "buy": "no"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -2042
   },
   "401841319:KXBRASILEIROTOTAL-26NOV25ATLCOR-1:yes": {
@@ -860,7 +860,7 @@
     "buy": "yes"
    },
    "result": null,
-   "close_odds": -251
+   "close_odds": -263
   },
   "401911029:KXNCAAMBGAME-26NOV25EKYMOH-MOH:yes": {
    "id": "401911029:KXNCAAMBGAME-26NOV25EKYMOH-MOH:yes",
@@ -905,7 +905,7 @@
     "contract": "Yes \u00b7 Miami (OH)",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -1087
   },
   "401931998:KXLIGAMXTOTAL-26NOV25MONAME-6:no": {
@@ -995,7 +995,7 @@
     "contract": "Yes \u00b7 Columbia",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -1236
   },
   "401892781:KXNHLGAME-26NOV25WPGBOS-BOS:yes": {
@@ -1043,7 +1043,7 @@
     "buy": "yes"
    },
    "result": null,
-   "close_odds": -161
+   "close_odds": -168
   },
   "401915293:KXUCLTOTAL-26NOV25SLAVIL-1:yes": {
    "id": "401915293:KXUCLTOTAL-26NOV25SLAVIL-1:yes",
@@ -1088,7 +1088,7 @@
     "contract": "Yes \u00b7 Over 0.5",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -2580
   },
   "401892786:KXNHLTOTAL-26NOV25CGYPIT-10:no": {
@@ -1133,7 +1133,7 @@
     "buy": "no"
    },
    "result": null,
-   "close_odds": -1428
+   "close_odds": -1684
   }
  },
  "parlays": [
