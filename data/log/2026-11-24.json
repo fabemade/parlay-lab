@@ -181,7 +181,7 @@
     "contract": "No \u00b7 Over 5.5",
     "buy": "no"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -1428
   },
   "401866471:KXNCAAFTOTAL-26NOV24MOHWMU-70:no": {
@@ -362,7 +362,7 @@
     "contract": "Yes \u00b7 Over 0.5",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -2042
   },
   "401926827:KXNCAAMBGAME-26NOV24HAMPODU-ODU:yes": {
@@ -453,7 +453,7 @@
     "contract": "Yes \u00b7 Over 207.5",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -1684
   },
   "401929421:KXNCAAMBGAME-26NOV24FAMUUSA-USA:yes": {
@@ -545,7 +545,7 @@
     "contract": "Yes \u00b7 Denver",
     "buy": "yes"
    },
-   "result": null,
+   "result": "L",
    "close_odds": -276
   },
   "401918996:KXNCAAMBGAME-26NOV24STETUSF-USF:yes": {
@@ -833,7 +833,8 @@
    "ev": -0.0151,
    "tier": "lock",
    "name": "lock_2",
-   "result": null
+   "result": "W",
+   "missed": []
   },
   {
    "legs": [
@@ -865,7 +866,10 @@
    "ev": -0.009,
    "tier": "best",
    "name": "best_2",
-   "result": null
+   "result": "L",
+   "missed": [
+    "401909316:KXNBAGAME-26NOV24DALDEN-DEN:yes"
+   ]
   }
  ],
  "straights": [],

@@ -16,11 +16,11 @@
   "updated": "2026-11-25"
  },
  "nba": {
-  "margin_k": 1.047,
-  "total_k": 0.901,
-  "margin_sd": 15.07,
-  "total_sd": 19.05,
-  "n": 765,
+  "margin_k": 1.045,
+  "total_k": 0.9,
+  "margin_sd": 15.09,
+  "total_sd": 19.04,
+  "n": 766,
   "updated": "2026-11-25"
  },
  "wnba": {
@@ -90,9 +90,9 @@
  "soccer_usa.1": {
   "margin_k": 0.768,
   "total_k": 0.609,
-  "margin_sd": 1.71,
-  "total_sd": 1.79,
-  "n": 510,
+  "margin_sd": 1.7,
+  "total_sd": 1.78,
+  "n": 511,
   "updated": "2026-11-25"
  },
  "soccer_uefa.champions": {
@@ -257,10 +257,10 @@
  },
  "ncaab": {
   "margin_k": 0.7,
-  "total_k": 0.785,
-  "margin_sd": 16.32,
+  "total_k": 0.78,
+  "margin_sd": 16.31,
   "total_sd": 17.63,
-  "n": 432,
+  "n": 438,
   "updated": "2026-11-25"
  }
 }
