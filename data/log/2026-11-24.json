@@ -46,7 +46,7 @@
     "contract": "Yes \u00b7 Boston",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -404
   },
   "401925687:KXNCAAMBGAME-26NOV24ALCNLT-LT:yes": {
@@ -92,7 +92,7 @@
     "contract": "Yes \u00b7 Louisiana Tech",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -1684
   },
   "401922231:KXNCAAMBTOTAL-26NOV24QUCWOF-196:no": {
@@ -137,7 +137,7 @@
     "contract": "No \u00b7 Over 195.5",
     "buy": "no"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -1428
   },
   "401933738:KXMLSTOTAL-26NOV24SJHOU-6:no": {
@@ -226,7 +226,7 @@
     "contract": "No \u00b7 Over 69.5",
     "buy": "no"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -1684
   },
   "401909314:KXNBATOTAL-26NOV24DETORL-187:yes": {
@@ -272,7 +272,7 @@
     "contract": "Yes \u00b7 Over 186.5",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -2042
   },
   "401926184:KXNCAAMBGAME-26NOV24UNCGUCSB-UCSB:yes": {
@@ -318,7 +318,7 @@
     "contract": "Yes \u00b7 UC Santa Barbara",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -2042
   },
   "401933738:KXMLSTOTAL-26NOV24SJHOU-1:yes": {
@@ -408,7 +408,7 @@
     "contract": "Yes \u00b7 Old Dominion",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -340
   },
   "401909316:KXNBATOTAL-26NOV24DALDEN-208:yes": {
@@ -499,7 +499,7 @@
     "contract": "Yes \u00b7 South Alabama",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -2042
   },
   "401909316:KXNBAGAME-26NOV24DALDEN-DEN:yes": {
@@ -590,7 +590,7 @@
     "contract": "Yes \u00b7 South Florida",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -2042
   },
   "401892780:KXNHLTOTAL-26NOV24VGKEDM-10:no": {
@@ -634,7 +634,7 @@
     "contract": "No \u00b7 Over 9.5",
     "buy": "no"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -1236
   },
   "401866470:KXNCAAFGAME-26NOV24KENTEMU-EMU:yes": {
@@ -680,7 +680,7 @@
     "contract": "Yes \u00b7 Eastern Michigan",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -228
   },
   "401917904:KXNCAAMBGAME-26NOV24UWGATNTC-TNTC:yes": {
@@ -725,7 +725,7 @@
     "contract": "Yes \u00b7 Tennessee Tech",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -1428
   },
   "401866470:KXNCAAFTOTAL-26NOV24KENTEMU-68:no": {
@@ -769,7 +769,7 @@
     "contract": "No \u00b7 Over 67.5",
     "buy": "no"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -1236
   },
   "401922023:KXNCAAMBGAME-26NOV24IDSTBSU-BSU:yes": {
@@ -815,7 +815,7 @@
     "contract": "Yes \u00b7 Boise St.",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -2580
   }
  },
@@ -849,7 +849,8 @@
    "ev": -0.0316,
    "tier": "lock",
    "name": "lock_3",
-   "result": null
+   "result": "W",
+   "missed": []
   },
   {
    "legs": [
