@@ -257,10 +257,10 @@
  },
  "ncaab": {
   "margin_k": 0.7,
-  "total_k": 0.761,
-  "margin_sd": 16.14,
+  "total_k": 0.756,
+  "margin_sd": 16.09,
   "total_sd": 17.69,
-  "n": 494,
+  "n": 497,
   "updated": "2026-11-26"
  }
 }

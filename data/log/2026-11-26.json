@@ -1,0 +1,837 @@
+{
+ "date": "2026-11-26",
+ "locked_at": "2026-11-26T16:00-05:00",
+ "legs": {
+  "401873082:KXNFLTOTAL-26NOV26KCBUF-69:no": {
+   "id": "401873082:KXNFLTOTAL-26NOV26KCBUF-69:no",
+   "sport": "nfl",
+   "game_id": "401873082",
+   "short": "KC @ BUF",
+   "game": "Kansas City Chiefs at Buffalo Bills",
+   "start": "2026-11-27T01:20Z",
+   "market": "total",
+   "side": "under",
+   "line": 68.5,
+   "selection": "Under 68.5",
+   "group": "Game lines",
+   "market_name": "Total",
+   "odds": -2580,
+   "p": 0.9586,
+   "p_model": 0.9381,
+   "p_market": 0.9505,
+   "p_breakeven": 0.9627,
+   "edge": -0.0041,
+   "ev": -0.0043,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "KC: 27.1 scored / 16.3 allowed per game this season; last 10: 27.1 / 16.3",
+    "BUF: 31.3 scored / 20.8 allowed per game this season; last 10: 31.3 / 20.8",
+    "Line moved from +49.5 to +45.5 since opening (total)",
+    "\u26a0 The line has moved against this side since opening (a sharp-money signal), so the model defers more to the market"
+   ],
+   "home": {
+    "name": "Buffalo Bills",
+    "abbr": "BUF"
+   },
+   "away": {
+    "name": "Kansas City Chiefs",
+    "abbr": "KC"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxnfltotal/pro-football-total-points/kxnfltotal-26nov26kcbuf",
+    "price": 96,
+    "ticker": "KXNFLTOTAL-26NOV26KCBUF-69",
+    "contract": "No \u00b7 Over 68.5",
+    "buy": "no"
+   },
+   "result": null,
+   "close_odds": -2580
+  },
+  "401931982:KXLIGAMXTOTAL-26NOV26PACCDG-6:no": {
+   "id": "401931982:KXLIGAMXTOTAL-26NOV26PACCDG-6:no",
+   "sport": "soccer_mex.1",
+   "game_id": "401931982",
+   "short": "GDL @ PAC",
+   "game": "Guadalajara at Pachuca",
+   "start": "2026-11-27T01:00Z",
+   "market": "total",
+   "side": "under",
+   "line": 5.5,
+   "selection": "Under 5.5",
+   "group": "Game lines",
+   "market_name": "Total",
+   "odds": -2580,
+   "p": 0.9506,
+   "p_model": 0.9343,
+   "p_market": 0.9412,
+   "p_breakeven": 0.9627,
+   "edge": -0.0121,
+   "ev": -0.0126,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "GDL: 1.59 scored / 0.88 allowed per game this season; last 10: 1.5 / 0.9",
+    "PAC: 1.82 scored / 1.18 allowed per game this season; last 10: 2.1 / 1.2"
+   ],
+   "home": {
+    "name": "Pachuca",
+    "abbr": "PAC"
+   },
+   "away": {
+    "name": "Guadalajara",
+    "abbr": "GDL"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxligamxtotal/liga-mx-total/kxligamxtotal-26nov26paccdg",
+    "price": 96,
+    "ticker": "KXLIGAMXTOTAL-26NOV26PACCDG-6",
+    "contract": "No \u00b7 Over 5.5",
+    "buy": "no"
+   },
+   "result": null,
+   "close_odds": -2580
+  },
+  "401920538:KXNCAAMBTOTAL-26NOV26TCUCREI-129:yes": {
+   "id": "401920538:KXNCAAMBTOTAL-26NOV26TCUCREI-129:yes",
+   "sport": "ncaab",
+   "game_id": "401920538",
+   "short": "TCU VS CREI",
+   "game": "TCU Horned Frogs at Creighton Bluejays",
+   "start": "2026-11-26T23:00Z",
+   "market": "total",
+   "side": "over",
+   "line": 128.5,
+   "selection": "Over 128.5",
+   "group": "Game lines",
+   "market_name": "Total",
+   "odds": -2042,
+   "p": 0.9435,
+   "p_model": 0.9483,
+   "p_market": 0.9314,
+   "p_breakeven": 0.9533,
+   "edge": -0.0098,
+   "ev": -0.0103,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "TCU: 92.67 scored / 72.83 allowed per game this season; last 6: 92.67 / 72.83",
+    "CREI: 83.0 scored / 68.67 allowed per game this season; last 6: 83.0 / 68.67",
+    "Line moved from +156.5 to +152.5 since opening (total)",
+    "\u26a0 The line has moved against this side since opening (a sharp-money signal), so the model defers more to the market"
+   ],
+   "home": {
+    "name": "Creighton Bluejays",
+    "abbr": "CREI"
+   },
+   "away": {
+    "name": "TCU Horned Frogs",
+    "abbr": "TCU"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxncaambtotal/men-s-college-basketball-total-points/kxncaambtotal-26nov26tcucrei",
+    "price": 95,
+    "ticker": "KXNCAAMBTOTAL-26NOV26TCUCREI-129",
+    "contract": "Yes \u00b7 Over 128.5",
+    "buy": "yes"
+   },
+   "result": null,
+   "close_odds": -2042
+  },
+  "401920530:KXNCAAMBTOTAL-26NOV26LOUSJU-187:no": {
+   "id": "401920530:KXNCAAMBTOTAL-26NOV26LOUSJU-187:no",
+   "sport": "ncaab",
+   "game_id": "401920530",
+   "short": "LOU VS SJU",
+   "game": "Louisville Cardinals at St. John's Red Storm",
+   "start": "2026-11-27T02:00Z",
+   "market": "total",
+   "side": "under",
+   "line": 186.5,
+   "selection": "Under 186.5",
+   "group": "Game lines",
+   "market_name": "Total",
+   "odds": -1428,
+   "p": 0.9267,
+   "p_model": 0.9484,
+   "p_market": 0.9118,
+   "p_breakeven": 0.9346,
+   "edge": -0.0079,
+   "ev": -0.0085,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "LOU: 84.8 scored / 71.6 allowed per game this season; last 5: 84.8 / 71.6",
+    "SJU: 93.33 scored / 66.67 allowed per game this season; last 6: 93.33 / 66.67",
+    "Line moved from +157.5 to +160.5 since opening (total)"
+   ],
+   "home": {
+    "name": "St. John's Red Storm",
+    "abbr": "SJU"
+   },
+   "away": {
+    "name": "Louisville Cardinals",
+    "abbr": "LOU"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxncaambtotal/men-s-college-basketball-total-points/kxncaambtotal-26nov26lousju",
+    "price": 93,
+    "ticker": "KXNCAAMBTOTAL-26NOV26LOUSJU-187",
+    "contract": "No \u00b7 Over 186.5",
+    "buy": "no"
+   },
+   "result": null,
+   "close_odds": -1428
+  },
+  "401917547:KXNCAAMBTOTAL-26NOV26SMCUCLA-128:yes": {
+   "id": "401917547:KXNCAAMBTOTAL-26NOV26SMCUCLA-128:yes",
+   "sport": "ncaab",
+   "game_id": "401917547",
+   "short": "SMC VS UCLA",
+   "game": "Saint Mary's Gaels at UCLA Bruins",
+   "start": "2026-11-26T22:00Z",
+   "market": "total",
+   "side": "over",
+   "line": 127.5,
+   "selection": "Over 127.5",
+   "group": "Game lines",
+   "market_name": "Total",
+   "odds": -2042,
+   "p": 0.9525,
+   "p_model": 0.9746,
+   "p_market": 0.9406,
+   "p_breakeven": 0.9533,
+   "edge": -0.0008,
+   "ev": -0.0008,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "SMC: 93.86 scored / 77.14 allowed per game this season; last 7: 93.86 / 77.14",
+    "UCLA: 94.83 scored / 60.0 allowed per game this season; last 6: 94.83 / 60.0",
+    "Line moved from +155.5 to +152.5 since opening (total)",
+    "\u26a0 The line has moved against this side since opening (a sharp-money signal), so the model defers more to the market"
+   ],
+   "home": {
+    "name": "UCLA Bruins",
+    "abbr": "UCLA"
+   },
+   "away": {
+    "name": "Saint Mary's Gaels",
+    "abbr": "SMC"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxncaambtotal/men-s-college-basketball-total-points/kxncaambtotal-26nov26smcucla",
+    "price": 95,
+    "ticker": "KXNCAAMBTOTAL-26NOV26SMCUCLA-128",
+    "contract": "Yes \u00b7 Over 127.5",
+    "buy": "yes"
+   },
+   "result": null,
+   "close_odds": -2042
+  },
+  "401856879:KXNCAAFSPREAD-26NOV26TCUTTU-TTU2:yes": {
+   "id": "401856879:KXNCAAFSPREAD-26NOV26TCUTTU-TTU2:yes",
+   "sport": "cfb",
+   "game_id": "401856879",
+   "short": "TCU @ TTU",
+   "game": "TCU Horned Frogs at Texas Tech Red Raiders",
+   "start": "2026-11-27T01:00Z",
+   "market": "spread",
+   "side": "home",
+   "line": -1.5,
+   "selection": "TTU by 1.5+",
+   "group": "Game lines",
+   "market_name": "Spread",
+   "odds": -660,
+   "p": 0.8637,
+   "p_model": 0.7912,
+   "p_market": 0.8515,
+   "p_breakeven": 0.8684,
+   "edge": -0.0047,
+   "ev": -0.0054,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "TTU ranks #9 in offense and #28 in defense of 143 (schedule-adjusted, recent games weighted more)",
+    "Last 10: 9-1, scoring 37.7 and allowing 24.4 pts/game (season: 37.27 / 23.09). Current streak: W4",
+    "At home: 41.67 scored / 24.83 allowed per game",
+    "Record 10-1",
+    "Line moved from -16.5 to -14 since opening (spread)",
+    "\u26a0 The line has moved against this side since opening (a sharp-money signal), so the model defers more to the market"
+   ],
+   "home": {
+    "name": "Texas Tech Red Raiders",
+    "abbr": "TTU"
+   },
+   "away": {
+    "name": "TCU Horned Frogs",
+    "abbr": "TCU"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxncaafspread/college-football-spread/kxncaafspread-26nov26tcuttu",
+    "price": 86,
+    "ticker": "KXNCAAFSPREAD-26NOV26TCUTTU-TTU2",
+    "contract": "Yes \u00b7 Texas Tech wins by over 1.5 points",
+    "buy": "yes"
+   },
+   "result": null,
+   "close_odds": -660
+  },
+  "401920530:KXNCAAMBTOTAL-26NOV26LOUSJU-186:no": {
+   "id": "401920530:KXNCAAMBTOTAL-26NOV26LOUSJU-186:no",
+   "sport": "ncaab",
+   "game_id": "401920530",
+   "short": "LOU VS SJU",
+   "game": "Louisville Cardinals at St. John's Red Storm",
+   "start": "2026-11-27T02:00Z",
+   "market": "total",
+   "side": "under",
+   "line": 185.5,
+   "selection": "Under 185.5",
+   "group": "Game lines",
+   "market_name": "Total",
+   "odds": -1428,
+   "p": 0.9264,
+   "p_model": 0.9421,
+   "p_market": 0.9118,
+   "p_breakeven": 0.9346,
+   "edge": -0.0082,
+   "ev": -0.0088,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "LOU: 84.8 scored / 71.6 allowed per game this season; last 5: 84.8 / 71.6",
+    "SJU: 93.33 scored / 66.67 allowed per game this season; last 6: 93.33 / 66.67",
+    "Line moved from +157.5 to +160.5 since opening (total)"
+   ],
+   "home": {
+    "name": "St. John's Red Storm",
+    "abbr": "SJU"
+   },
+   "away": {
+    "name": "Louisville Cardinals",
+    "abbr": "LOU"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxncaambtotal/men-s-college-basketball-total-points/kxncaambtotal-26nov26lousju",
+    "price": 93,
+    "ticker": "KXNCAAMBTOTAL-26NOV26LOUSJU-186",
+    "contract": "No \u00b7 Over 185.5",
+    "buy": "no"
+   },
+   "result": null,
+   "close_odds": -1428
+  },
+  "401841329:KXBRASILEIROTOTAL-26NOV26SPACR-4:no": {
+   "id": "401841329:KXBRASILEIROTOTAL-26NOV26SPACR-4:no",
+   "sport": "soccer_bra.1",
+   "game_id": "401841329",
+   "short": "REMO @ SAO",
+   "game": "Remo at S\u00e3o Paulo",
+   "start": "2026-11-26T23:00Z",
+   "market": "total",
+   "side": "under",
+   "line": 3.5,
+   "selection": "Under 3.5",
+   "group": "Game lines",
+   "market_name": "Total",
+   "odds": -290,
+   "p": 0.7371,
+   "p_model": 0.7356,
+   "p_market": 0.7228,
+   "p_breakeven": 0.7438,
+   "edge": -0.0067,
+   "ev": -0.009,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "REMO: 1.11 scored / 1.78 allowed per game this season; last 10: 1.1 / 1.8",
+    "SAO: 0.94 scored / 1.17 allowed per game this season; last 10: 0.9 / 1.1"
+   ],
+   "home": {
+    "name": "S\u00e3o Paulo",
+    "abbr": "SAO"
+   },
+   "away": {
+    "name": "Remo",
+    "abbr": "REMO"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxbrasileirototal/brasileiro-total/kxbrasileirototal-26nov26spacr",
+    "price": 73,
+    "ticker": "KXBRASILEIROTOTAL-26NOV26SPACR-4",
+    "contract": "No \u00b7 Over 3.5",
+    "buy": "no"
+   },
+   "result": null,
+   "close_odds": -290
+  },
+  "401873080:KXNFLTOTAL-26NOV26PHIDAL-30:yes": {
+   "id": "401873080:KXNFLTOTAL-26NOV26PHIDAL-30:yes",
+   "sport": "nfl",
+   "game_id": "401873080",
+   "short": "PHI @ DAL",
+   "game": "Philadelphia Eagles at Dallas Cowboys",
+   "start": "2026-11-26T21:30Z",
+   "market": "total",
+   "side": "over",
+   "line": 29.5,
+   "selection": "Over 29.5",
+   "group": "Game lines",
+   "market_name": "Total",
+   "odds": -2042,
+   "p": 0.9494,
+   "p_model": 0.9227,
+   "p_market": 0.9406,
+   "p_breakeven": 0.9533,
+   "edge": -0.0039,
+   "ev": -0.0041,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "PHI: 16.7 scored / 23.7 allowed per game this season; last 10: 16.7 / 23.7",
+    "DAL: 30.64 scored / 28.36 allowed per game this season; last 10: 31.7 / 28.4"
+   ],
+   "home": {
+    "name": "Dallas Cowboys",
+    "abbr": "DAL"
+   },
+   "away": {
+    "name": "Philadelphia Eagles",
+    "abbr": "PHI"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxnfltotal/pro-football-total-points/kxnfltotal-26nov26phidal",
+    "price": 95,
+    "ticker": "KXNFLTOTAL-26NOV26PHIDAL-30",
+    "contract": "Yes \u00b7 Over 29.5",
+    "buy": "yes"
+   },
+   "result": null,
+   "close_odds": -2042
+  },
+  "401873082:KXNFLTOTAL-26NOV26KCBUF-30:yes": {
+   "id": "401873082:KXNFLTOTAL-26NOV26KCBUF-30:yes",
+   "sport": "nfl",
+   "game_id": "401873082",
+   "short": "KC @ BUF",
+   "game": "Kansas City Chiefs at Buffalo Bills",
+   "start": "2026-11-27T01:20Z",
+   "market": "total",
+   "side": "over",
+   "line": 29.5,
+   "selection": "Over 29.5",
+   "group": "Game lines",
+   "market_name": "Total",
+   "odds": -1428,
+   "p": 0.9312,
+   "p_model": 0.9028,
+   "p_market": 0.9208,
+   "p_breakeven": 0.9346,
+   "edge": -0.0034,
+   "ev": -0.0036,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "KC: 27.1 scored / 16.3 allowed per game this season; last 10: 27.1 / 16.3",
+    "BUF: 31.3 scored / 20.8 allowed per game this season; last 10: 31.3 / 20.8",
+    "Line moved from +49.5 to +45.5 since opening (total)",
+    "\u26a0 The line has moved against this side since opening (a sharp-money signal), so the model defers more to the market"
+   ],
+   "home": {
+    "name": "Buffalo Bills",
+    "abbr": "BUF"
+   },
+   "away": {
+    "name": "Kansas City Chiefs",
+    "abbr": "KC"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxnfltotal/pro-football-total-points/kxnfltotal-26nov26kcbuf",
+    "price": 93,
+    "ticker": "KXNFLTOTAL-26NOV26KCBUF-30",
+    "contract": "Yes \u00b7 Over 29.5",
+    "buy": "yes"
+   },
+   "result": null,
+   "close_odds": -1428
+  },
+  "401873080:KXNFLTOTAL-26NOV26PHIDAL-69:no": {
+   "id": "401873080:KXNFLTOTAL-26NOV26PHIDAL-69:no",
+   "sport": "nfl",
+   "game_id": "401873080",
+   "short": "PHI @ DAL",
+   "game": "Philadelphia Eagles at Dallas Cowboys",
+   "start": "2026-11-26T21:30Z",
+   "market": "total",
+   "side": "under",
+   "line": 68.5,
+   "selection": "Under 68.5",
+   "group": "Game lines",
+   "market_name": "Total",
+   "odds": -1236,
+   "p": 0.9241,
+   "p_model": 0.9211,
+   "p_market": 0.9109,
+   "p_breakeven": 0.9252,
+   "edge": -0.0011,
+   "ev": -0.0012,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "PHI: 16.7 scored / 23.7 allowed per game this season; last 10: 16.7 / 23.7",
+    "DAL: 30.64 scored / 28.36 allowed per game this season; last 10: 31.7 / 28.4"
+   ],
+   "home": {
+    "name": "Dallas Cowboys",
+    "abbr": "DAL"
+   },
+   "away": {
+    "name": "Philadelphia Eagles",
+    "abbr": "PHI"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxnfltotal/pro-football-total-points/kxnfltotal-26nov26phidal",
+    "price": 92,
+    "ticker": "KXNFLTOTAL-26NOV26PHIDAL-69",
+    "contract": "No \u00b7 Over 68.5",
+    "buy": "no"
+   },
+   "result": null,
+   "close_odds": -1236
+  },
+  "401920539:KXNCAAMBGAME-26NOV26ALAKSU-ALA:yes": {
+   "id": "401920539:KXNCAAMBGAME-26NOV26ALAKSU-ALA:yes",
+   "sport": "ncaab",
+   "game_id": "401920539",
+   "short": "ALA VS KSU",
+   "game": "Alabama Crimson Tide at Kansas State Wildcats",
+   "start": "2026-11-27T02:00Z",
+   "market": "ml",
+   "side": "away",
+   "selection": "ALA to win",
+   "group": "Game lines",
+   "market_name": "Winner",
+   "odds": -1087,
+   "p": 0.9034,
+   "p_model": 0.7589,
+   "p_market": 0.901,
+   "p_breakeven": 0.9157,
+   "edge": -0.0123,
+   "ev": -0.0134,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "ALA ranks #27 in offense and #334 in defense of 379 (schedule-adjusted, recent games weighted more)",
+    "Last 6: 5-1, scoring 93.33 and allowing 77.17 pts/game (season: 93.33 / 77.17)",
+    "Record 5-1 (road 0-0)",
+    "Price moved -700 \u2192 -1100 since opening, money moving toward ALA"
+   ],
+   "home": {
+    "name": "Kansas State Wildcats",
+    "abbr": "KSU"
+   },
+   "away": {
+    "name": "Alabama Crimson Tide",
+    "abbr": "ALA"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxncaambgame/men-s-college-basketball-game/kxncaambgame-26nov26alaksu",
+    "price": 91,
+    "ticker": "KXNCAAMBGAME-26NOV26ALAKSU-ALA",
+    "contract": "Yes \u00b7 Alabama",
+    "buy": "yes"
+   },
+   "result": null,
+   "close_odds": -1087
+  },
+  "401917546:KXNCAAMBGAME-26NOV26NEOMPAC-PAC:yes": {
+   "id": "401917546:KXNCAAMBGAME-26NOV26NEOMPAC-PAC:yes",
+   "sport": "ncaab",
+   "game_id": "401917546",
+   "short": "PAC VS OMA",
+   "game": "Pacific Tigers at Omaha Mavericks",
+   "start": "2026-11-27T03:30Z",
+   "market": "ml",
+   "side": "away",
+   "selection": "PAC to win",
+   "group": "Game lines",
+   "market_name": "Winner",
+   "odds": -322,
+   "p": 0.7688,
+   "p_model": 0.7941,
+   "p_market": 0.7426,
+   "p_breakeven": 0.7631,
+   "edge": 0.0057,
+   "ev": 0.0075,
+   "grade": "B",
+   "modeled": true,
+   "reasons": [
+    "PAC ranks #272 in offense and #9 in defense of 379 (schedule-adjusted, recent games weighted more)",
+    "Last 7: 5-2, scoring 78.86 and allowing 59.43 pts/game (season: 78.86 / 59.43)",
+    "On the road: 66.0 scored / 65.67 allowed per game",
+    "Record 5-2 (road 1-1)",
+    "Playing the 2nd night of a back-to-back (historically worth about -1 to -1.5 pts in the NBA; tired legs and often the backup goalie in the NHL)",
+    "Price moved -395 \u2192 -345 since opening, money moving away from PAC"
+   ],
+   "home": {
+    "name": "Omaha Mavericks",
+    "abbr": "OMA"
+   },
+   "away": {
+    "name": "Pacific Tigers",
+    "abbr": "PAC"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxncaambgame/men-s-college-basketball-game/kxncaambgame-26nov26neompac",
+    "price": 75,
+    "ticker": "KXNCAAMBGAME-26NOV26NEOMPAC-PAC",
+    "contract": "Yes \u00b7 Pacific",
+    "buy": "yes"
+   },
+   "result": null,
+   "close_odds": -322
+  },
+  "401931995:KXLIGAMXTOTAL-26NOV26LEOCRA-1:yes": {
+   "id": "401931995:KXLIGAMXTOTAL-26NOV26LEOCRA-1:yes",
+   "sport": "soccer_mex.1",
+   "game_id": "401931995",
+   "short": "CAZ @ LEO",
+   "game": "Cruz Azul at Le\u00f3n",
+   "start": "2026-11-27T03:10Z",
+   "market": "total",
+   "side": "over",
+   "line": 0.5,
+   "selection": "Over 0.5",
+   "group": "Game lines",
+   "market_name": "Total",
+   "odds": -1684,
+   "p": 0.942,
+   "p_model": 0.9368,
+   "p_market": 0.9307,
+   "p_breakeven": 0.9439,
+   "edge": -0.0019,
+   "ev": -0.002,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "CAZ: 2.18 scored / 1.59 allowed per game this season; last 10: 2.5 / 1.6",
+    "LEO: 1.47 scored / 1.29 allowed per game this season; last 10: 1.6 / 1.3"
+   ],
+   "home": {
+    "name": "Le\u00f3n",
+    "abbr": "LEO"
+   },
+   "away": {
+    "name": "Cruz Azul",
+    "abbr": "CAZ"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxligamxtotal/liga-mx-total/kxligamxtotal-26nov26leocra",
+    "price": 94,
+    "ticker": "KXLIGAMXTOTAL-26NOV26LEOCRA-1",
+    "contract": "Yes \u00b7 Over 0.5",
+    "buy": "yes"
+   },
+   "result": null,
+   "close_odds": -1684
+  },
+  "401931982:KXLIGAMXTOTAL-26NOV26PACCDG-1:yes": {
+   "id": "401931982:KXLIGAMXTOTAL-26NOV26PACCDG-1:yes",
+   "sport": "soccer_mex.1",
+   "game_id": "401931982",
+   "short": "GDL @ PAC",
+   "game": "Guadalajara at Pachuca",
+   "start": "2026-11-27T01:00Z",
+   "market": "total",
+   "side": "over",
+   "line": 0.5,
+   "selection": "Over 0.5",
+   "group": "Game lines",
+   "market_name": "Total",
+   "odds": -1236,
+   "p": 0.9244,
+   "p_model": 0.9254,
+   "p_market": 0.9109,
+   "p_breakeven": 0.9252,
+   "edge": -0.0008,
+   "ev": -0.0009,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "GDL: 1.59 scored / 0.88 allowed per game this season; last 10: 1.5 / 0.9",
+    "PAC: 1.82 scored / 1.18 allowed per game this season; last 10: 2.1 / 1.2"
+   ],
+   "home": {
+    "name": "Pachuca",
+    "abbr": "PAC"
+   },
+   "away": {
+    "name": "Guadalajara",
+    "abbr": "GDL"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxligamxtotal/liga-mx-total/kxligamxtotal-26nov26paccdg",
+    "price": 92,
+    "ticker": "KXLIGAMXTOTAL-26NOV26PACCDG-1",
+    "contract": "Yes \u00b7 Over 0.5",
+    "buy": "yes"
+   },
+   "result": null,
+   "close_odds": -1236
+  },
+  "401920531:KXNCAAMBGAME-26NOV26TTUORE-TTU:yes": {
+   "id": "401920531:KXNCAAMBGAME-26NOV26TTUORE-TTU:yes",
+   "sport": "ncaab",
+   "game_id": "401920531",
+   "short": "TTU VS ORE",
+   "game": "Texas Tech Red Raiders at Oregon Ducks",
+   "start": "2026-11-27T04:30Z",
+   "market": "ml",
+   "side": "away",
+   "selection": "TTU to win",
+   "group": "Game lines",
+   "market_name": "Winner",
+   "odds": -525,
+   "p": 0.8215,
+   "p_model": 0.7245,
+   "p_market": 0.8218,
+   "p_breakeven": 0.8399,
+   "edge": -0.0184,
+   "ev": -0.0219,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "TTU ranks #303 in offense and #2 in defense of 379 (schedule-adjusted, recent games weighted more)",
+    "Last 6: 5-1, scoring 79.0 and allowing 54.67 pts/game (season: 79.0 / 54.67)",
+    "On the road: 64.0 scored / 72.0 allowed per game",
+    "Record 5-1 (road 0-0)",
+    "Price moved -440 \u2192 -535 since opening, money moving toward TTU"
+   ],
+   "home": {
+    "name": "Oregon Ducks",
+    "abbr": "ORE"
+   },
+   "away": {
+    "name": "Texas Tech Red Raiders",
+    "abbr": "TTU"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxncaambgame/men-s-college-basketball-game/kxncaambgame-26nov26ttuore",
+    "price": 83,
+    "ticker": "KXNCAAMBGAME-26NOV26TTUORE-TTU",
+    "contract": "Yes \u00b7 Texas Tech",
+    "buy": "yes"
+   },
+   "result": null,
+   "close_odds": -525
+  },
+  "401841329:KXBRASILEIROTOTAL-26NOV26SPACR-1:yes": {
+   "id": "401841329:KXBRASILEIROTOTAL-26NOV26SPACR-1:yes",
+   "sport": "soccer_bra.1",
+   "game_id": "401841329",
+   "short": "REMO @ SAO",
+   "game": "Remo at S\u00e3o Paulo",
+   "start": "2026-11-26T23:00Z",
+   "market": "total",
+   "side": "over",
+   "line": 0.5,
+   "selection": "Over 0.5",
+   "group": "Game lines",
+   "market_name": "Total",
+   "odds": -1684,
+   "p": 0.9404,
+   "p_model": 0.9131,
+   "p_market": 0.9307,
+   "p_breakeven": 0.9439,
+   "edge": -0.0035,
+   "ev": -0.0037,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "REMO: 1.11 scored / 1.78 allowed per game this season; last 10: 1.1 / 1.8",
+    "SAO: 0.94 scored / 1.17 allowed per game this season; last 10: 0.9 / 1.1"
+   ],
+   "home": {
+    "name": "S\u00e3o Paulo",
+    "abbr": "SAO"
+   },
+   "away": {
+    "name": "Remo",
+    "abbr": "REMO"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxbrasileirototal/brasileiro-total/kxbrasileirototal-26nov26spacr",
+    "price": 94,
+    "ticker": "KXBRASILEIROTOTAL-26NOV26SPACR-1",
+    "contract": "Yes \u00b7 Over 0.5",
+    "buy": "yes"
+   },
+   "result": null,
+   "close_odds": -1684
+  }
+ },
+ "parlays": [
+  {
+   "legs": [
+    "401873082:KXNFLTOTAL-26NOV26KCBUF-30:yes",
+    "401920530:KXNCAAMBTOTAL-26NOV26LOUSJU-187:no"
+   ],
+   "n": 2,
+   "mode": "safest",
+   "p": 0.8629,
+   "decimal": 1.145,
+   "american": -690,
+   "ev": -0.012,
+   "tier": "lock",
+   "name": "lock_2",
+   "result": null
+  },
+  {
+   "legs": [
+    "401920530:KXNCAAMBTOTAL-26NOV26LOUSJU-186:no",
+    "401931982:KXLIGAMXTOTAL-26NOV26PACCDG-1:yes",
+    "401873080:KXNFLTOTAL-26NOV26PHIDAL-69:no"
+   ],
+   "n": 3,
+   "mode": "safest",
+   "p": 0.7914,
+   "decimal": 1.25,
+   "american": -400,
+   "ev": -0.0107,
+   "tier": "lock",
+   "name": "lock_3",
+   "result": null
+  },
+  {
+   "legs": [
+    "401917546:KXNCAAMBGAME-26NOV26NEOMPAC-PAC:yes",
+    "401841329:KXBRASILEIROTOTAL-26NOV26SPACR-4:no"
+   ],
+   "n": 2,
+   "mode": "safest",
+   "p": 0.5667,
+   "decimal": 1.762,
+   "american": -131,
+   "ev": -0.0012,
+   "tier": "best",
+   "name": "best_2",
+   "result": null
+  }
+ ],
+ "straights": [],
+ "straights_best": [
+  "401920539:KXNCAAMBGAME-26NOV26ALAKSU-ALA:yes",
+  "401920531:KXNCAAMBGAME-26NOV26TTUORE-TTU:yes",
+  "401873082:KXNFLTOTAL-26NOV26KCBUF-69:no",
+  "401931982:KXLIGAMXTOTAL-26NOV26PACCDG-6:no"
+ ],
+ "locks": [
+  "401856879:KXNCAAFSPREAD-26NOV26TCUTTU-TTU2:yes",
+  "401917547:KXNCAAMBTOTAL-26NOV26SMCUCLA-128:yes",
+  "401873080:KXNFLTOTAL-26NOV26PHIDAL-30:yes",
+  "401920538:KXNCAAMBTOTAL-26NOV26TCUCREI-129:yes",
+  "401931995:KXLIGAMXTOTAL-26NOV26LEOCRA-1:yes",
+  "401841329:KXBRASILEIROTOTAL-26NOV26SPACR-1:yes"
+ ]
+}
