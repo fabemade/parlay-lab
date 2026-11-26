@@ -44,7 +44,7 @@
     "contract": "Yes \u00b7 Over 190.5",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -2042
   },
   "401841319:KXBRASILEIROTOTAL-26NOV25ATLCOR-4:no": {
@@ -88,7 +88,7 @@
     "contract": "No \u00b7 Over 3.5",
     "buy": "no"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -340
   },
   "401892790:KXNHLTOTAL-26NOV25NSHDAL-3:yes": {
@@ -132,7 +132,7 @@
     "contract": "Yes \u00b7 Over 2.5",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -2580
   },
   "401931998:KXLIGAMXTOTAL-26NOV25MONAME-1:yes": {
@@ -176,7 +176,7 @@
     "contract": "Yes \u00b7 Over 0.5",
     "buy": "yes"
    },
-   "result": null,
+   "result": "L",
    "close_odds": -1428
   },
   "401920237:KXNCAAMBGAME-26NOV25HCDART-DART:yes": {
@@ -222,7 +222,7 @@
     "contract": "Yes \u00b7 Dartmouth",
     "buy": "yes"
    },
-   "result": null,
+   "result": "L",
    "close_odds": -719
   },
   "401920858:KXNCAAMBGAME-26NOV25PVMRSH-MRSH:yes": {
@@ -407,7 +407,7 @@
     "contract": "Yes \u00b7 Houston",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -360
   },
   "401909318:KXNBATOTAL-26NOV25CHICHA-195:yes": {
@@ -453,7 +453,7 @@
     "contract": "Yes \u00b7 Over 194.5",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -1428
   },
   "401899534:KXSERIEBTOTAL-26NOV25MANARE-6:no": {
@@ -541,7 +541,7 @@
     "contract": "Yes \u00b7 Over 0.5",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -1236
   },
   "401917967:KXNCAAMBGAME-26NOV25ACSDST-SDST:yes": {
@@ -634,7 +634,7 @@
     "contract": "No \u00b7 Over 66.5",
     "buy": "no"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -2042
   },
   "401880138:KXEFLCHAMPIONSHIPTOTAL-26NOV25STKMIL-1:yes": {
@@ -724,7 +724,7 @@
     "contract": "Yes \u00b7 George Mason",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -1684
   },
   "401880137:KXEFLCHAMPIONSHIPTOTAL-26NOV25WATBLA-6:no": {
@@ -859,7 +859,7 @@
     "contract": "Yes \u00b7 Memphis",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -263
   },
   "401911029:KXNCAAMBGAME-26NOV25EKYMOH-MOH:yes": {
@@ -949,7 +949,7 @@
     "contract": "No \u00b7 Over 5.5",
     "buy": "no"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -2580
   },
   "401924705:KXNCAAMBGAME-26NOV25SPCCLMB-CLMB:yes": {
@@ -1042,7 +1042,7 @@
     "contract": "Yes \u00b7 Boston",
     "buy": "yes"
    },
-   "result": null,
+   "result": "L",
    "close_odds": -168
   },
   "401915293:KXUCLTOTAL-26NOV25SLAVIL-1:yes": {
@@ -1132,7 +1132,7 @@
     "contract": "No \u00b7 Over 9.5",
     "buy": "no"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -1428
   }
  },
@@ -1150,7 +1150,10 @@
    "ev": -0.0084,
    "tier": "lock",
    "name": "lock_2",
-   "result": null
+   "result": "L",
+   "missed": [
+    "401931998:KXLIGAMXTOTAL-26NOV25MONAME-1:yes"
+   ]
   },
   {
    "legs": [
@@ -1166,7 +1169,8 @@
    "ev": -0.0067,
    "tier": "lock",
    "name": "lock_3",
-   "result": null
+   "result": "W",
+   "missed": []
   },
   {
    "legs": [
@@ -1200,7 +1204,8 @@
    "ev": -0.0392,
    "tier": "best",
    "name": "best_3",
-   "result": null
+   "result": "W",
+   "missed": []
   }
  ],
  "straights": [],
