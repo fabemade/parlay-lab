@@ -47,7 +47,7 @@
     "contract": "Yes \u00b7 New Jersey",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -251
   },
   "401922264:KXNCAAMBGAME-26NOV27IDHOWSU-WSU:yes": {
@@ -94,7 +94,7 @@
     "buy": "yes"
    },
    "result": null,
-   "close_odds": -660
+   "close_odds": -719
   },
   "401873083:KXNFLTOTAL-26NOV27DENPIT-20:yes": {
    "id": "401873083:KXNFLTOTAL-26NOV27DENPIT-20:yes",
@@ -183,7 +183,7 @@
     "contract": "Yes \u00b7 Over 0.5",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -2042
   },
   "401920382:KXNCAAMBGAME-26NOV27ODUVT-VT:yes": {
@@ -230,7 +230,7 @@
     "buy": "yes"
    },
    "result": null,
-   "close_odds": -1684
+   "close_odds": -2042
   },
   "401858544:KXNCAAFGAME-26NOV27MINNWIS-WIS:yes": {
    "id": "401858544:KXNCAAFGAME-26NOV27MINNWIS-WIS:yes",
@@ -276,7 +276,7 @@
     "buy": "yes"
    },
    "result": null,
-   "close_odds": -322
+   "close_odds": -340
   },
   "401875004:KXSERIEATOTAL-26NOV27VENBFC-4:no": {
    "id": "401875004:KXSERIEATOTAL-26NOV27VENBFC-4:no",
@@ -456,7 +456,7 @@
     "contract": "Yes \u00b7 Al Qadsiah",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -564
   },
   "401862838:KXNCAAFGAME-26NOV27TEMMEM-MEM:yes": {
@@ -777,7 +777,7 @@
     "buy": "yes"
    },
    "result": null,
-   "close_odds": -360
+   "close_odds": -430
   },
   "401909327:KXNBASPREAD-26NOV27MILDET-DET2:yes": {
    "id": "401909327:KXNBASPREAD-26NOV27MILDET-DET2:yes",
@@ -826,7 +826,7 @@
     "buy": "yes"
    },
    "result": null,
-   "close_odds": -322
+   "close_odds": -381
   },
   "401888240:KXSUPERLIGTOTAL-26NOV27RIZKAS-1:yes": {
    "id": "401888240:KXSUPERLIGTOTAL-26NOV27RIZKAS-1:yes",
@@ -869,7 +869,7 @@
     "contract": "Yes \u00b7 Over 0.5",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -2042
   },
   "401878930:KXBELGIANPLTOTAL-26NOV27OHLKOR-6:no": {
@@ -1003,7 +1003,7 @@
     "contract": "No \u00b7 Over 5.5",
     "buy": "no"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -1428
   },
   "401924738:KXNCAAMBGAME-26NOV27PRINUNCW-UNCW:yes": {
@@ -1143,7 +1143,7 @@
     "buy": "yes"
    },
    "result": null,
-   "close_odds": -788
+   "close_odds": -609
   },
   "401856762:KXNCAAFGAME-26NOV27MSSTMISS-MISS:yes": {
    "id": "401856762:KXNCAAFGAME-26NOV27MSSTMISS-MISS:yes",
@@ -1188,7 +1188,7 @@
     "contract": "Yes \u00b7 Ole Miss",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -869
   },
   "401919033:KXNCAAMBTOTAL-26NOV27WICHUK-181:no": {
@@ -1281,7 +1281,7 @@
     "buy": "yes"
    },
    "result": null,
-   "close_odds": -360
+   "close_odds": -290
   },
   "401900442:KXSAUDIPLGAME-26NOV28HAZALN-ALN:yes": {
    "id": "401900442:KXSAUDIPLGAME-26NOV28HAZALN-ALN:yes",
@@ -1326,7 +1326,7 @@
     "buy": "yes"
    },
    "result": null,
-   "close_odds": -381
+   "close_odds": -404
   },
   "401888240:KXSUPERLIGTOTAL-26NOV27RIZKAS-6:no": {
    "id": "401888240:KXSUPERLIGTOTAL-26NOV27RIZKAS-6:no",
@@ -1369,7 +1369,7 @@
     "contract": "No \u00b7 Over 5.5",
     "buy": "no"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -1428
   }
  },
@@ -1387,7 +1387,8 @@
    "ev": -0.0019,
    "tier": "lock",
    "name": "lock_2",
-   "result": null
+   "result": "W",
+   "missed": []
   },
   {
    "legs": [
