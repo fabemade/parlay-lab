@@ -45,7 +45,7 @@
     "contract": "No \u00b7 Over 68.5",
     "buy": "no"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -2580
   },
   "401931982:KXLIGAMXTOTAL-26NOV26PACCDG-6:no": {
@@ -180,7 +180,7 @@
     "contract": "No \u00b7 Over 186.5",
     "buy": "no"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -1428
   },
   "401917547:KXNCAAMBTOTAL-26NOV26SMCUCLA-128:yes": {
@@ -274,7 +274,7 @@
     "contract": "Yes \u00b7 Texas Tech wins by over 1.5 points",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -660
   },
   "401920530:KXNCAAMBTOTAL-26NOV26LOUSJU-186:no": {
@@ -319,7 +319,7 @@
     "contract": "No \u00b7 Over 185.5",
     "buy": "no"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -1428
   },
   "401841329:KXBRASILEIROTOTAL-26NOV26SPACR-4:no": {
@@ -453,7 +453,7 @@
     "contract": "Yes \u00b7 Over 29.5",
     "buy": "yes"
    },
-   "result": null,
+   "result": "L",
    "close_odds": -1428
   },
   "401873080:KXNFLTOTAL-26NOV26PHIDAL-69:no": {
@@ -542,7 +542,7 @@
     "contract": "Yes \u00b7 Alabama",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -1087
   },
   "401917546:KXNCAAMBGAME-26NOV26NEOMPAC-PAC:yes": {
@@ -589,7 +589,7 @@
     "contract": "Yes \u00b7 Pacific",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -322
   },
   "401931995:KXLIGAMXTOTAL-26NOV26LEOCRA-1:yes": {
@@ -633,7 +633,7 @@
     "contract": "Yes \u00b7 Over 0.5",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -1684
   },
   "401931982:KXLIGAMXTOTAL-26NOV26PACCDG-1:yes": {
@@ -723,7 +723,7 @@
     "contract": "Yes \u00b7 Texas Tech",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -564
   },
   "401841329:KXBRASILEIROTOTAL-26NOV26SPACR-1:yes": {
@@ -785,7 +785,10 @@
    "ev": -0.012,
    "tier": "lock",
    "name": "lock_2",
-   "result": null
+   "result": "L",
+   "missed": [
+    "401873082:KXNFLTOTAL-26NOV26KCBUF-30:yes"
+   ]
   },
   {
    "legs": [
