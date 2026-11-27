@@ -139,7 +139,7 @@
     "contract": "Yes \u00b7 Over 19.5",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -2042
   },
   "401885045:KXBUNDESLIGA2TOTAL-26NOV27BOCD98-1:yes": {
@@ -319,7 +319,7 @@
     "contract": "No \u00b7 Over 3.5",
     "buy": "no"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -360
   },
   "401892800:KXNHLGAME-26NOV27VANPHI-PHI:yes": {
@@ -411,7 +411,7 @@
     "contract": "Yes \u00b7 Over 0.5",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -2042
   },
   "401900870:KXSAUDIPLGAME-26NOV27QADFAY-QAD:yes": {
@@ -546,7 +546,7 @@
     "contract": "No \u00b7 Over 5.5",
     "buy": "no"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -2042
   },
   "401856759:KXNCAAFTOTAL-26NOV27FLAFSU-35:yes": {
@@ -682,7 +682,7 @@
     "contract": "Yes \u00b7 Groningen",
     "buy": "yes"
    },
-   "result": null,
+   "result": "L",
    "close_odds": -360
   },
   "401856880:KXNCAAFGAME-26NOV27WVUUTAH-UTAH:yes": {
@@ -777,7 +777,7 @@
     "buy": "yes"
    },
    "result": null,
-   "close_odds": -430
+   "close_odds": -404
   },
   "401909327:KXNBASPREAD-26NOV27MILDET-DET2:yes": {
    "id": "401909327:KXNBASPREAD-26NOV27MILDET-DET2:yes",
@@ -913,7 +913,7 @@
     "contract": "No \u00b7 Over 5.5",
     "buy": "no"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -1428
   },
   "401920737:KXNCAAMBGAME-26NOV27NENW-NW:yes": {
@@ -1050,7 +1050,7 @@
     "contract": "Yes \u00b7 UNC Wilmington",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -340
   },
   "401902282:KXNCAAMBGAME-26NOV27BELLBUT-BUT:yes": {
@@ -1096,7 +1096,7 @@
     "contract": "Yes \u00b7 Butler",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -2042
   },
   "401909789:KXNCAAMBGAME-26NOV27VILLKU-KU:yes": {
@@ -1281,7 +1281,7 @@
     "buy": "yes"
    },
    "result": null,
-   "close_odds": -290
+   "close_odds": -306
   },
   "401900442:KXSAUDIPLGAME-26NOV28HAZALN-ALN:yes": {
    "id": "401900442:KXSAUDIPLGAME-26NOV28HAZALN-ALN:yes",
@@ -1326,7 +1326,7 @@
     "buy": "yes"
    },
    "result": null,
-   "close_odds": -404
+   "close_odds": -458
   },
   "401888240:KXSUPERLIGTOTAL-26NOV27RIZKAS-6:no": {
    "id": "401888240:KXSUPERLIGTOTAL-26NOV27RIZKAS-6:no",
