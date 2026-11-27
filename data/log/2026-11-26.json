@@ -89,7 +89,7 @@
     "contract": "No \u00b7 Over 5.5",
     "buy": "no"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -2580
   },
   "401920538:KXNCAAMBTOTAL-26NOV26TCUCREI-129:yes": {
@@ -135,7 +135,7 @@
     "contract": "Yes \u00b7 Over 128.5",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -2042
   },
   "401920530:KXNCAAMBTOTAL-26NOV26LOUSJU-187:no": {
@@ -226,7 +226,7 @@
     "contract": "Yes \u00b7 Over 127.5",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -2042
   },
   "401856879:KXNCAAFSPREAD-26NOV26TCUTTU-TTU2:yes": {
@@ -363,7 +363,7 @@
     "contract": "No \u00b7 Over 3.5",
     "buy": "no"
    },
-   "result": null,
+   "result": "L",
    "close_odds": -290
   },
   "401873080:KXNFLTOTAL-26NOV26PHIDAL-30:yes": {
@@ -407,7 +407,7 @@
     "contract": "Yes \u00b7 Over 29.5",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -2042
   },
   "401873082:KXNFLTOTAL-26NOV26KCBUF-30:yes": {
@@ -497,7 +497,7 @@
     "contract": "No \u00b7 Over 68.5",
     "buy": "no"
    },
-   "result": null,
+   "result": "L",
    "close_odds": -1236
   },
   "401920539:KXNCAAMBGAME-26NOV26ALAKSU-ALA:yes": {
@@ -677,7 +677,7 @@
     "contract": "Yes \u00b7 Over 0.5",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -1236
   },
   "401920531:KXNCAAMBGAME-26NOV26TTUORE-TTU:yes": {
@@ -724,7 +724,7 @@
     "buy": "yes"
    },
    "result": null,
-   "close_odds": -525
+   "close_odds": -564
   },
   "401841329:KXBRASILEIROTOTAL-26NOV26SPACR-1:yes": {
    "id": "401841329:KXBRASILEIROTOTAL-26NOV26SPACR-1:yes",
@@ -767,7 +767,7 @@
     "contract": "Yes \u00b7 Over 0.5",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -1684
   }
  },
@@ -801,7 +801,10 @@
    "ev": -0.0107,
    "tier": "lock",
    "name": "lock_3",
-   "result": null
+   "result": "L",
+   "missed": [
+    "401873080:KXNFLTOTAL-26NOV26PHIDAL-69:no"
+   ]
   },
   {
    "legs": [
@@ -816,7 +819,10 @@
    "ev": -0.0012,
    "tier": "best",
    "name": "best_2",
-   "result": null
+   "result": "L",
+   "missed": [
+    "401841329:KXBRASILEIROTOTAL-26NOV26SPACR-4:no"
+   ]
   }
  ],
  "straights": [],
