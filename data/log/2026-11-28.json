@@ -1,0 +1,1508 @@
+{
+ "date": "2026-11-28",
+ "locked_at": "2026-11-28T08:56-05:00",
+ "legs": {
+  "401888368:KXSUPERLIGTOTAL-26NOV28GAZAMS-1:yes": {
+   "id": "401888368:KXSUPERLIGTOTAL-26NOV28GAZAMS-1:yes",
+   "sport": "soccer_tur.1",
+   "game_id": "401888368",
+   "short": "AMED @ GAZ",
+   "game": "Amed SFK at Gaziantep FK",
+   "start": "2026-11-28T16:00Z",
+   "market": "total",
+   "side": "over",
+   "line": 0.5,
+   "selection": "Over 0.5",
+   "group": "Game lines",
+   "market_name": "Total",
+   "odds": -1428,
+   "p": 0.9344,
+   "p_model": 0.9456,
+   "p_market": 0.9208,
+   "p_breakeven": 0.9346,
+   "edge": -0.0002,
+   "ev": -0.0002,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "AMED: 2.33 scored / 1.42 allowed per game this season; last 10: 2.5 / 1.5",
+    "GAZ: 0.75 scored / 1.67 allowed per game this season; last 10: 0.7 / 1.9"
+   ],
+   "home": {
+    "name": "Gaziantep FK",
+    "abbr": "GAZ"
+   },
+   "away": {
+    "name": "Amed SFK",
+    "abbr": "AMED"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxsuperligtotal/point-total/kxsuperligtotal-26nov28gazams",
+    "price": 93,
+    "ticker": "KXSUPERLIGTOTAL-26NOV28GAZAMS-1",
+    "contract": "Yes \u00b7 Over 0.5",
+    "buy": "yes"
+   },
+   "result": null,
+   "close_odds": -1428
+  },
+  "401878329:KXSCOTTISHPREMTOTAL-26NOV28MOTHIB-6:no": {
+   "id": "401878329:KXSCOTTISHPREMTOTAL-26NOV28MOTHIB-6:no",
+   "sport": "soccer_sco.1",
+   "game_id": "401878329",
+   "short": "HIBS @ MOT",
+   "game": "Hibernian at Motherwell",
+   "start": "2026-11-28T17:45Z",
+   "market": "total",
+   "side": "under",
+   "line": 5.5,
+   "selection": "Under 5.5",
+   "group": "Game lines",
+   "market_name": "Total",
+   "odds": -1428,
+   "p": 0.9334,
+   "p_model": 0.933,
+   "p_market": 0.9208,
+   "p_breakeven": 0.9346,
+   "edge": -0.0012,
+   "ev": -0.0013,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "HIBS: 1.21 scored / 1.57 allowed per game this season; last 10: 1.1 / 1.5",
+    "MOT: 1.14 scored / 1.64 allowed per game this season; last 10: 0.8 / 1.9"
+   ],
+   "home": {
+    "name": "Motherwell",
+    "abbr": "MOT"
+   },
+   "away": {
+    "name": "Hibernian",
+    "abbr": "HIBS"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxscottishpremtotal/point-total/kxscottishpremtotal-26nov28mothib",
+    "price": 93,
+    "ticker": "KXSCOTTISHPREMTOTAL-26NOV28MOTHIB-6",
+    "contract": "No \u00b7 Over 5.5",
+    "buy": "no"
+   },
+   "result": null,
+   "close_odds": -1428
+  },
+  "401910046:KXNBATOTAL-26NOV28ORLWAS-192:yes": {
+   "id": "401910046:KXNBATOTAL-26NOV28ORLWAS-192:yes",
+   "sport": "nba",
+   "game_id": "401910046",
+   "short": "ORL @ WSH",
+   "game": "Orlando Magic at Washington Wizards",
+   "start": "2026-11-28T22:00Z",
+   "market": "total",
+   "side": "over",
+   "line": 191.5,
+   "selection": "Over 191.5",
+   "group": "Game lines",
+   "market_name": "Total",
+   "odds": -2042,
+   "p": 0.9523,
+   "p_model": 0.9662,
+   "p_market": 0.9406,
+   "p_breakeven": 0.9533,
+   "edge": -0.001,
+   "ev": -0.001,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "ORL: 107.41 scored / 112.35 allowed per game this season; last 10: 108.6 / 110.7",
+    "WSH: 110.63 scored / 116.21 allowed per game this season; last 10: 109.9 / 119.7",
+    "Line moved from +218.5 to +219.5 since opening (total)"
+   ],
+   "home": {
+    "name": "Washington Wizards",
+    "abbr": "WSH"
+   },
+   "away": {
+    "name": "Orlando Magic",
+    "abbr": "ORL"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxnbatotal/nba-total/kxnbatotal-26nov28orlwas",
+    "price": 95,
+    "ticker": "KXNBATOTAL-26NOV28ORLWAS-192",
+    "contract": "Yes \u00b7 Over 191.5",
+    "buy": "yes"
+   },
+   "result": null,
+   "close_odds": -2042
+  },
+  "401860926:KXNCAAFGAME-26NOV28BSUCSU-BSU:yes": {
+   "id": "401860926:KXNCAAFGAME-26NOV28BSUCSU-BSU:yes",
+   "sport": "cfb",
+   "game_id": "401860926",
+   "short": "BOIS @ CSU",
+   "game": "Boise State Broncos at Colorado State Rams",
+   "start": "2026-11-28T23:00Z",
+   "market": "ml",
+   "side": "away",
+   "selection": "BOIS to win",
+   "group": "Game lines",
+   "market_name": "Winner",
+   "odds": -1428,
+   "p": 0.9307,
+   "p_model": 0.8684,
+   "p_market": 0.9208,
+   "p_breakeven": 0.9346,
+   "edge": -0.0039,
+   "ev": -0.0042,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "BOIS ranks #19 in offense and #72 in defense of 143 (schedule-adjusted, recent games weighted more)",
+    "Last 10: 9-1, scoring 39.0 and allowing 25.6 pts/game (season: 37.91 / 26.36)",
+    "On the road: 38.4 scored / 24.0 allowed per game",
+    "Record 9-2"
+   ],
+   "home": {
+    "name": "Colorado State Rams",
+    "abbr": "CSU"
+   },
+   "away": {
+    "name": "Boise State Broncos",
+    "abbr": "BOIS"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxncaafgame/college-football-game/kxncaafgame-26nov28bsucsu",
+    "price": 93,
+    "ticker": "KXNCAAFGAME-26NOV28BSUCSU-BSU",
+    "contract": "Yes \u00b7 Boise St.",
+    "buy": "yes"
+   },
+   "result": null,
+   "close_odds": -1428
+  },
+  "401871063:KXNCAAFGAME-26NOV28LIBMOSU-LIB:yes": {
+   "id": "401871063:KXNCAAFGAME-26NOV28LIBMOSU-LIB:yes",
+   "sport": "cfb",
+   "game_id": "401871063",
+   "short": "LIB @ MOST",
+   "game": "Liberty Flames at Missouri State Bears",
+   "start": "2026-11-28T19:00Z",
+   "market": "ml",
+   "side": "away",
+   "selection": "LIB to win",
+   "group": "Game lines",
+   "market_name": "Winner",
+   "odds": -967,
+   "p": 0.902,
+   "p_model": 0.8077,
+   "p_market": 0.8911,
+   "p_breakeven": 0.9063,
+   "edge": -0.0043,
+   "ev": -0.0047,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "LIB ranks #36 in offense and #24 in defense of 143 (schedule-adjusted, recent games weighted more)",
+    "Last 10: 10-0, scoring 36.0 and allowing 13.9 pts/game (season: 33.91 / 14.45). Current streak: W10",
+    "On the road: 28.2 scored / 14.2 allowed per game",
+    "Record 10-1",
+    "Price moved -575 \u2192 -1000 since opening, money moving toward LIB"
+   ],
+   "home": {
+    "name": "Missouri State Bears",
+    "abbr": "MOST"
+   },
+   "away": {
+    "name": "Liberty Flames",
+    "abbr": "LIB"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxncaafgame/college-football-game/kxncaafgame-26nov28libmosu",
+    "price": 90,
+    "ticker": "KXNCAAFGAME-26NOV28LIBMOSU-LIB",
+    "contract": "Yes \u00b7 Liberty",
+    "buy": "yes"
+   },
+   "result": null,
+   "close_odds": -967
+  },
+  "401875531:KXEREDIVISIEGAME-26NOV28PSVGAE-PSV:yes": {
+   "id": "401875531:KXEREDIVISIEGAME-26NOV28PSVGAE-PSV:yes",
+   "sport": "soccer_ned.1",
+   "game_id": "401875531",
+   "short": "GAE @ PSV",
+   "game": "Go Ahead Eagles at PSV Eindhoven",
+   "start": "2026-11-28T17:45Z",
+   "market": "ml",
+   "side": "home",
+   "selection": "PSV to win",
+   "group": "Game lines",
+   "market_name": "Winner",
+   "odds": -458,
+   "p": 0.817,
+   "p_model": 0.8017,
+   "p_market": 0.802,
+   "p_breakeven": 0.8208,
+   "edge": -0.0038,
+   "ev": -0.0046,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "PSV ranks #1 in offense and #3 in defense of 21 (schedule-adjusted, recent games weighted more)",
+    "Last 10: 7-3, scoring 3.5 and allowing 1.2 goals/game (season: 3.38 / 1.23). Current streak: W3",
+    "At home: 3.5 scored / 0.83 allowed per game",
+    "Record 9-2-2"
+   ],
+   "home": {
+    "name": "PSV Eindhoven",
+    "abbr": "PSV"
+   },
+   "away": {
+    "name": "Go Ahead Eagles",
+    "abbr": "GAE"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxeredivisiegame/eredivisie-game/kxeredivisiegame-26nov28psvgae",
+    "price": 81,
+    "ticker": "KXEREDIVISIEGAME-26NOV28PSVGAE-PSV",
+    "contract": "Yes \u00b7 Eindhoven",
+    "buy": "yes"
+   },
+   "result": null,
+   "close_odds": -458
+  },
+  "401892813:KXNHLGAME-26NOV28WPGNJ-NJ:yes": {
+   "id": "401892813:KXNHLGAME-26NOV28WPGNJ-NJ:yes",
+   "sport": "nhl",
+   "game_id": "401892813",
+   "short": "WPG @ NJ",
+   "game": "Winnipeg Jets at New Jersey Devils",
+   "start": "2026-11-29T00:00Z",
+   "market": "ml",
+   "side": "home",
+   "selection": "NJ to win",
+   "group": "Game lines",
+   "market_name": "Winner",
+   "odds": -199,
+   "p": 0.6492,
+   "p_model": 0.6281,
+   "p_market": 0.6436,
+   "p_breakeven": 0.6659,
+   "edge": -0.0167,
+   "ev": -0.0251,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "NJ ranks #3 in offense and #18 in defense of 32 (schedule-adjusted, recent games weighted more)",
+    "Last 10: 7-3, scoring 4.2 and allowing 3.3 goals/game (season: 3.81 / 3.08). Current streak: W3",
+    "At home: 3.79 scored / 2.5 allowed per game",
+    "Record 18-8-0 (home 11-3-0)",
+    "Injuries: Declan Chisholm (D, Out), Brenden Dillon (D, Suspension), Anthony Mantha (RW, Injured Reserve), Johnathan Kovacevic (D, Injured Reserve), Seamus Casey (D, Injured Reserve)",
+    "Price moved -192 \u2192 -205 since opening, money moving toward NJ"
+   ],
+   "home": {
+    "name": "New Jersey Devils",
+    "abbr": "NJ"
+   },
+   "away": {
+    "name": "Winnipeg Jets",
+    "abbr": "WPG"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxnhlgame/nhl-game/kxnhlgame-26nov28wpgnj",
+    "price": 65,
+    "ticker": "KXNHLGAME-26NOV28WPGNJ-NJ",
+    "contract": "Yes \u00b7 New Jersey",
+    "buy": "yes"
+   },
+   "result": null,
+   "close_odds": -199
+  },
+  "401920890:KXNCAAMBGAME-26NOV28SIEHALL-HALL:yes": {
+   "id": "401920890:KXNCAAMBGAME-26NOV28SIEHALL-HALL:yes",
+   "sport": "ncaab",
+   "game_id": "401920890",
+   "short": "SIE @ HALL",
+   "game": "Siena Saints at Seton Hall Pirates",
+   "start": "2026-11-28T17:00Z",
+   "market": "ml",
+   "side": "home",
+   "selection": "HALL to win",
+   "group": "Game lines",
+   "market_name": "Winner",
+   "odds": -1684,
+   "p": 0.9361,
+   "p_model": 0.8953,
+   "p_market": 0.9307,
+   "p_breakeven": 0.9439,
+   "edge": -0.0078,
+   "ev": -0.0083,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "HALL ranks #243 in offense and #12 in defense of 379 (schedule-adjusted, recent games weighted more)",
+    "Last 7: 6-1, scoring 73.0 and allowing 60.43 pts/game (season: 73.0 / 60.43). Current streak: W3",
+    "At home: 68.67 scored / 43.0 allowed per game",
+    "Record 6-1 (home 3-0)",
+    "Price moved -2800 \u2192 -2400 since opening, money moving away from HALL"
+   ],
+   "home": {
+    "name": "Seton Hall Pirates",
+    "abbr": "HALL"
+   },
+   "away": {
+    "name": "Siena Saints",
+    "abbr": "SIE"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxncaambgame/men-s-college-basketball-game/kxncaambgame-26nov28siehall",
+    "price": 94,
+    "ticker": "KXNCAAMBGAME-26NOV28SIEHALL-HALL",
+    "contract": "Yes \u00b7 Seton Hall",
+    "buy": "yes"
+   },
+   "result": null,
+   "close_odds": -1684
+  },
+  "401912232:KXNCAAMBGAME-26NOV28RIDARMY-ARMY:yes": {
+   "id": "401912232:KXNCAAMBGAME-26NOV28RIDARMY-ARMY:yes",
+   "sport": "ncaab",
+   "game_id": "401912232",
+   "short": "RID @ ARMY",
+   "game": "Rider Broncs at Army Black Knights",
+   "start": "2026-11-29T00:00Z",
+   "market": "ml",
+   "side": "home",
+   "selection": "ARMY to win",
+   "group": "Game lines",
+   "market_name": "Winner",
+   "odds": -360,
+   "p": 0.797,
+   "p_model": 0.8666,
+   "p_market": 0.7624,
+   "p_breakeven": 0.7824,
+   "edge": 0.0146,
+   "ev": 0.0187,
+   "grade": "B",
+   "modeled": true,
+   "reasons": [
+    "ARMY ranks #261 in offense and #64 in defense of 379 (schedule-adjusted, recent games weighted more)",
+    "Last 8: 3-5, scoring 71.75 and allowing 69.25 pts/game (season: 71.75 / 69.25)",
+    "At home: 88.33 scored / 63.67 allowed per game",
+    "Record 3-5 (home 2-1)",
+    "Price moved -325 \u2192 -425 since opening, money moving toward ARMY"
+   ],
+   "home": {
+    "name": "Army Black Knights",
+    "abbr": "ARMY"
+   },
+   "away": {
+    "name": "Rider Broncs",
+    "abbr": "RID"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxncaambgame/men-s-college-basketball-game/kxncaambgame-26nov28ridarmy",
+    "price": 77,
+    "ticker": "KXNCAAMBGAME-26NOV28RIDARMY-ARMY",
+    "contract": "Yes \u00b7 Army",
+    "buy": "yes"
+   },
+   "result": null,
+   "close_odds": -360
+  },
+  "401910049:KXNBAGAME-26NOV28OKCMIL-OKC:yes": {
+   "id": "401910049:KXNBAGAME-26NOV28OKCMIL-OKC:yes",
+   "sport": "nba",
+   "game_id": "401910049",
+   "short": "OKC @ MIL",
+   "game": "Oklahoma City Thunder at Milwaukee Bucks",
+   "start": "2026-11-29T01:00Z",
+   "market": "ml",
+   "side": "away",
+   "selection": "OKC to win",
+   "group": "Game lines",
+   "market_name": "Winner",
+   "odds": -525,
+   "p": 0.8403,
+   "p_model": 0.836,
+   "p_market": 0.8218,
+   "p_breakeven": 0.8399,
+   "edge": 0.0004,
+   "ev": 0.0005,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "OKC ranks #14 in offense and #8 in defense of 32 (schedule-adjusted, recent games weighted more)",
+    "Last 10: 3-7, scoring 113.9 and allowing 113.0 pts/game (season: 113.0 / 110.37). Current streak: L3",
+    "On the road: 112.36 scored / 114.27 allowed per game",
+    "Record 10-9 (road 4-7)",
+    "Injuries: Nikola Topic (G, Out), Aday Mara (C, Out), Jaylin Williams (F, Out), Jalen Williams (G, Out), Thomas Sorber (C, Out)",
+    "Price moved -521 \u2192 -561 since opening, money moving toward OKC"
+   ],
+   "home": {
+    "name": "Milwaukee Bucks",
+    "abbr": "MIL"
+   },
+   "away": {
+    "name": "Oklahoma City Thunder",
+    "abbr": "OKC"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxnbagame/nba-game/kxnbagame-26nov28okcmil",
+    "price": 83,
+    "ticker": "KXNBAGAME-26NOV28OKCMIL-OKC",
+    "contract": "Yes \u00b7 Oklahoma City",
+    "buy": "yes"
+   },
+   "result": null,
+   "close_odds": -525
+  },
+  "401874826:KXSERIEATOTAL-26NOV28TORLAZ-1:yes": {
+   "id": "401874826:KXSERIEATOTAL-26NOV28TORLAZ-1:yes",
+   "sport": "soccer_ita.1",
+   "game_id": "401874826",
+   "short": "LAZ @ TOR",
+   "game": "Lazio at Torino",
+   "start": "2026-11-28T17:00Z",
+   "market": "total",
+   "side": "over",
+   "line": 0.5,
+   "selection": "Over 0.5",
+   "group": "Game lines",
+   "market_name": "Total",
+   "odds": -1428,
+   "p": 0.9325,
+   "p_model": 0.9221,
+   "p_market": 0.9208,
+   "p_breakeven": 0.9346,
+   "edge": -0.0021,
+   "ev": -0.0022,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "LAZ: 2.33 scored / 0.75 allowed per game this season; last 10: 2.6 / 0.9",
+    "TOR: 1.25 scored / 1.5 allowed per game this season; last 10: 1.3 / 1.4"
+   ],
+   "home": {
+    "name": "Torino",
+    "abbr": "TOR"
+   },
+   "away": {
+    "name": "Lazio",
+    "abbr": "LAZ"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxserieatotal/serie-a-total/kxserieatotal-26nov28torlaz",
+    "price": 93,
+    "ticker": "KXSERIEATOTAL-26NOV28TORLAZ-1",
+    "contract": "Yes \u00b7 Over 0.5",
+    "buy": "yes"
+   },
+   "result": null,
+   "close_odds": -1428
+  },
+  "401883104:KXLALIGA2TOTAL-26NOV28EIBBUR-4:no": {
+   "id": "401883104:KXLALIGA2TOTAL-26NOV28EIBBUR-4:no",
+   "sport": "soccer_esp.2",
+   "game_id": "401883104",
+   "short": "BUR @ EIB",
+   "game": "Burgos at Eibar",
+   "start": "2026-11-28T17:30Z",
+   "market": "total",
+   "side": "under",
+   "line": 3.5,
+   "selection": "Under 3.5",
+   "group": "Game lines",
+   "market_name": "Total",
+   "odds": -340,
+   "p": 0.7694,
+   "p_model": 0.7839,
+   "p_market": 0.7525,
+   "p_breakeven": 0.7728,
+   "edge": -0.0034,
+   "ev": -0.0044,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "BUR: 1.4 scored / 1.13 allowed per game this season; last 10: 1.3 / 1.1",
+    "EIB: 1.64 scored / 1.21 allowed per game this season; last 10: 1.7 / 1.4"
+   ],
+   "home": {
+    "name": "Eibar",
+    "abbr": "EIB"
+   },
+   "away": {
+    "name": "Burgos",
+    "abbr": "BUR"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxlaliga2total/point-total/kxlaliga2total-26nov28eibbur",
+    "price": 76,
+    "ticker": "KXLALIGA2TOTAL-26NOV28EIBBUR-4",
+    "contract": "No \u00b7 Over 3.5",
+    "buy": "no"
+   },
+   "result": null,
+   "close_odds": -340
+  },
+  "401892820:KXNHLGAME-26NOV28SJCOL-COL:yes": {
+   "id": "401892820:KXNHLGAME-26NOV28SJCOL-COL:yes",
+   "sport": "nhl",
+   "game_id": "401892820",
+   "short": "SJ @ COL",
+   "game": "San Jose Sharks at Colorado Avalanche",
+   "start": "2026-11-29T02:00Z",
+   "market": "ml",
+   "side": "home",
+   "selection": "COL to win",
+   "group": "Game lines",
+   "market_name": "Winner",
+   "odds": -239,
+   "p": 0.7041,
+   "p_model": 0.7211,
+   "p_market": 0.6832,
+   "p_breakeven": 0.705,
+   "edge": -0.0009,
+   "ev": -0.0013,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "COL ranks #2 in offense and #4 in defense of 32 (schedule-adjusted, recent games weighted more)",
+    "Last 10: 6-4, scoring 3.6 and allowing 2.5 goals/game (season: 4.0 / 2.84). Current streak: W3",
+    "At home: 4.67 scored / 2.17 allowed per game",
+    "Record 15-7-3 (home 9-1-2)",
+    "Injuries: Martin Necas (C, Out), Gavin Brindley (C, Injured Reserve), Nathan MacKinnon (C, Out), Josh Manson (D, Injured Reserve), Zachary L'Heureux (LW, Injured Reserve)",
+    "Price moved -298 \u2192 -258 since opening, money moving away from COL"
+   ],
+   "home": {
+    "name": "Colorado Avalanche",
+    "abbr": "COL"
+   },
+   "away": {
+    "name": "San Jose Sharks",
+    "abbr": "SJ"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxnhlgame/nhl-game/kxnhlgame-26nov28sjcol",
+    "price": 69,
+    "ticker": "KXNHLGAME-26NOV28SJCOL-COL",
+    "contract": "Yes \u00b7 Colorado",
+    "buy": "yes"
+   },
+   "result": null,
+   "close_odds": -239
+  },
+  "401910050:KXNBAGAME-26NOV28PHIHOU-HOU:yes": {
+   "id": "401910050:KXNBAGAME-26NOV28PHIHOU-HOU:yes",
+   "sport": "nba",
+   "game_id": "401910050",
+   "short": "PHI @ HOU",
+   "game": "Philadelphia 76ers at Houston Rockets",
+   "start": "2026-11-29T01:30Z",
+   "market": "ml",
+   "side": "home",
+   "selection": "HOU to win",
+   "group": "Game lines",
+   "market_name": "Winner",
+   "odds": -458,
+   "p": 0.8057,
+   "p_model": 0.746,
+   "p_market": 0.802,
+   "p_breakeven": 0.8208,
+   "edge": -0.0151,
+   "ev": -0.0184,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "HOU ranks #9 in offense and #9 in defense of 32 (schedule-adjusted, recent games weighted more)",
+    "Last 10: 7-3, scoring 118.1 and allowing 112.0 pts/game (season: 118.0 / 109.89)",
+    "At home: 116.5 scored / 106.2 allowed per game",
+    "Record 14-5 (home 9-1)",
+    "Price moved -486 \u2192 -542 since opening, money moving toward HOU"
+   ],
+   "home": {
+    "name": "Houston Rockets",
+    "abbr": "HOU"
+   },
+   "away": {
+    "name": "Philadelphia 76ers",
+    "abbr": "PHI"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxnbagame/nba-game/kxnbagame-26nov28phihou",
+    "price": 81,
+    "ticker": "KXNBAGAME-26NOV28PHIHOU-HOU",
+    "contract": "Yes \u00b7 Houston",
+    "buy": "yes"
+   },
+   "result": null,
+   "close_odds": -458
+  },
+  "401875531:KXEREDIVISIETOTAL-26NOV28PSVGAE-6:no": {
+   "id": "401875531:KXEREDIVISIETOTAL-26NOV28PSVGAE-6:no",
+   "sport": "soccer_ned.1",
+   "game_id": "401875531",
+   "short": "GAE @ PSV",
+   "game": "Go Ahead Eagles at PSV Eindhoven",
+   "start": "2026-11-28T17:45Z",
+   "market": "total",
+   "side": "under",
+   "line": 5.5,
+   "selection": "Under 5.5",
+   "group": "Game lines",
+   "market_name": "Total",
+   "odds": -381,
+   "p": 0.788,
+   "p_model": 0.784,
+   "p_market": 0.7723,
+   "p_breakeven": 0.792,
+   "edge": -0.004,
+   "ev": -0.0051,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "GAE: 1.85 scored / 2.15 allowed per game this season; last 10: 1.5 / 2.4",
+    "PSV: 3.38 scored / 1.23 allowed per game this season; last 10: 3.5 / 1.2",
+    "Line moved from +4.5 to +3.5 since opening (total)"
+   ],
+   "home": {
+    "name": "PSV Eindhoven",
+    "abbr": "PSV"
+   },
+   "away": {
+    "name": "Go Ahead Eagles",
+    "abbr": "GAE"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxeredivisietotal/eredivisie-total/kxeredivisietotal-26nov28psvgae",
+    "price": 78,
+    "ticker": "KXEREDIVISIETOTAL-26NOV28PSVGAE-6",
+    "contract": "No \u00b7 Over 5.5",
+    "buy": "no"
+   },
+   "result": null,
+   "close_odds": -381
+  },
+  "401882789:KXLALIGAGAME-26NOV28RMAALA-RMA:yes": {
+   "id": "401882789:KXLALIGAGAME-26NOV28RMAALA-RMA:yes",
+   "sport": "soccer_esp.1",
+   "game_id": "401882789",
+   "short": "ALA @ RMA",
+   "game": "Alav\u00e9s at Real Madrid",
+   "start": "2026-11-28T20:00Z",
+   "market": "ml",
+   "side": "home",
+   "selection": "RMA to win",
+   "group": "Game lines",
+   "market_name": "Winner",
+   "odds": -719,
+   "p": 0.8564,
+   "p_model": 0.7871,
+   "p_market": 0.8529,
+   "p_breakeven": 0.8779,
+   "edge": -0.0215,
+   "ev": -0.0245,
+   "grade": "D",
+   "modeled": true,
+   "reasons": [
+    "RMA ranks #2 in offense and #1 in defense of 23 (schedule-adjusted, recent games weighted more)",
+    "Last 10: 8-2, scoring 2.3 and allowing 0.9 goals/game (season: 2.54 / 0.85). Current streak: W6",
+    "At home: 3.17 scored / 0.67 allowed per game",
+    "Record 11-0-2"
+   ],
+   "home": {
+    "name": "Real Madrid",
+    "abbr": "RMA"
+   },
+   "away": {
+    "name": "Alav\u00e9s",
+    "abbr": "ALA"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxlaligagame/la-liga-game/kxlaligagame-26nov28rmaala",
+    "price": 87,
+    "ticker": "KXLALIGAGAME-26NOV28RMAALA-RMA",
+    "contract": "Yes \u00b7 Real Madrid",
+    "buy": "yes"
+   },
+   "result": null,
+   "close_odds": -719
+  },
+  "401882790:KXLALIGATOTAL-26NOV28MCFATH-6:no": {
+   "id": "401882790:KXLALIGATOTAL-26NOV28MCFATH-6:no",
+   "sport": "soccer_esp.1",
+   "game_id": "401882790",
+   "short": "ATH @ MCF",
+   "game": "Athletic Club at M\u00e1laga",
+   "start": "2026-11-28T15:15Z",
+   "market": "total",
+   "side": "under",
+   "line": 5.5,
+   "selection": "Under 5.5",
+   "group": "Game lines",
+   "market_name": "Total",
+   "odds": -2042,
+   "p": 0.9521,
+   "p_model": 0.9617,
+   "p_market": 0.9406,
+   "p_breakeven": 0.9533,
+   "edge": -0.0012,
+   "ev": -0.0013,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "ATH: 1.25 scored / 1.0 allowed per game this season; last 10: 1.4 / 0.7",
+    "MCF: 0.69 scored / 1.85 allowed per game this season; last 10: 0.8 / 1.7"
+   ],
+   "home": {
+    "name": "M\u00e1laga",
+    "abbr": "MCF"
+   },
+   "away": {
+    "name": "Athletic Club",
+    "abbr": "ATH"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxlaligatotal/la-liga-total/kxlaligatotal-26nov28mcfath",
+    "price": 95,
+    "ticker": "KXLALIGATOTAL-26NOV28MCFATH-6",
+    "contract": "No \u00b7 Over 5.5",
+    "buy": "no"
+   },
+   "result": null,
+   "close_odds": -2042
+  },
+  "401919736:KXNCAAMBGAME-26NOV28CHSBRAD-BRAD:yes": {
+   "id": "401919736:KXNCAAMBGAME-26NOV28CHSBRAD-BRAD:yes",
+   "sport": "ncaab",
+   "game_id": "401919736",
+   "short": "CHST @ BRAD",
+   "game": "Chicago State Cougars at Bradley Braves",
+   "start": "2026-11-28T19:00Z",
+   "market": "ml",
+   "side": "home",
+   "selection": "BRAD to win",
+   "group": "Game lines",
+   "market_name": "Winner",
+   "odds": -1428,
+   "p": 0.9247,
+   "p_model": 0.8587,
+   "p_market": 0.9208,
+   "p_breakeven": 0.9346,
+   "edge": -0.0099,
+   "ev": -0.0106,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "BRAD ranks #364 in offense and #13 in defense of 379 (schedule-adjusted, recent games weighted more)",
+    "Last 7: 3-4, scoring 62.14 and allowing 60.29 pts/game (season: 62.14 / 60.29)",
+    "At home: 68.0 scored / 60.75 allowed per game",
+    "Record 3-4 (home 1-2)",
+    "Price moved -1650 \u2192 -1800 since opening, money moving toward BRAD"
+   ],
+   "home": {
+    "name": "Bradley Braves",
+    "abbr": "BRAD"
+   },
+   "away": {
+    "name": "Chicago State Cougars",
+    "abbr": "CHST"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxncaambgame/men-s-college-basketball-game/kxncaambgame-26nov28chsbrad",
+    "price": 93,
+    "ticker": "KXNCAAMBGAME-26NOV28CHSBRAD-BRAD",
+    "contract": "Yes \u00b7 Bradley",
+    "buy": "yes"
+   },
+   "result": null,
+   "close_odds": -1428
+  },
+  "401884722:KXBUNDESLIGAGAME-26NOV28HSVBMU-BMU:yes": {
+   "id": "401884722:KXBUNDESLIGAGAME-26NOV28HSVBMU-BMU:yes",
+   "sport": "soccer_ger.1",
+   "game_id": "401884722",
+   "short": "MUN @ HSV",
+   "game": "Bayern Munich at Hamburg SV",
+   "start": "2026-11-28T14:30Z",
+   "market": "ml",
+   "side": "away",
+   "selection": "MUN to win",
+   "group": "Game lines",
+   "market_name": "Winner",
+   "odds": -263,
+   "p": 0.7116,
+   "p_model": 0.6874,
+   "p_market": 0.703,
+   "p_breakeven": 0.7244,
+   "edge": -0.0128,
+   "ev": -0.0177,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "MUN ranks #1 in offense and #2 in defense of 21 (schedule-adjusted, recent games weighted more)",
+    "Last 10: 6-4, scoring 3.0 and allowing 1.0 goals/game (season: 3.0 / 1.0)",
+    "On the road: 1.8 scored / 1.0 allowed per game",
+    "Record 6-4-0"
+   ],
+   "home": {
+    "name": "Hamburg SV",
+    "abbr": "HSV"
+   },
+   "away": {
+    "name": "Bayern Munich",
+    "abbr": "MUN"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxbundesligagame/bundesliga-game/kxbundesligagame-26nov28hsvbmu",
+    "price": 71,
+    "ticker": "KXBUNDESLIGAGAME-26NOV28HSVBMU-BMU",
+    "contract": "Yes \u00b7 Bayern Munich",
+    "buy": "yes"
+   },
+   "result": null,
+   "close_odds": -263
+  },
+  "401858540:KXNCAAFGAME-26NOV28MICHOSU-OSU:yes": {
+   "id": "401858540:KXNCAAFGAME-26NOV28MICHOSU-OSU:yes",
+   "sport": "cfb",
+   "game_id": "401858540",
+   "short": "MICH @ OSU",
+   "game": "Michigan Wolverines at Ohio State Buckeyes",
+   "start": "2026-11-28T17:00Z",
+   "market": "ml",
+   "side": "home",
+   "selection": "OSU to win",
+   "group": "Game lines",
+   "market_name": "Winner",
+   "odds": -381,
+   "p": 0.7922,
+   "p_model": 0.884,
+   "p_market": 0.7723,
+   "p_breakeven": 0.792,
+   "edge": 0.0002,
+   "ev": 0.0003,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "OSU ranks #13 in offense and #12 in defense of 143 (schedule-adjusted, recent games weighted more)",
+    "Last 10: 6-4, scoring 32.1 and allowing 21.2 pts/game (season: 34.27 / 19.55)",
+    "At home: 43.0 scored / 16.83 allowed per game",
+    "Record 7-4",
+    "Price moved -535 \u2192 -425 since opening, money moving away from OSU",
+    "\u26a0 The line has moved against this side since opening (a sharp-money signal), so the model defers more to the market"
+   ],
+   "home": {
+    "name": "Ohio State Buckeyes",
+    "abbr": "OSU"
+   },
+   "away": {
+    "name": "Michigan Wolverines",
+    "abbr": "MICH"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxncaafgame/college-football-game/kxncaafgame-26nov28michosu",
+    "price": 78,
+    "ticker": "KXNCAAFGAME-26NOV28MICHOSU-OSU",
+    "contract": "Yes \u00b7 Ohio St.",
+    "buy": "yes"
+   },
+   "result": null,
+   "close_odds": -381
+  },
+  "401878933:KXBELGIANPLGAME-26NOV28RCHBEV-RCH:yes": {
+   "id": "401878933:KXBELGIANPLGAME-26NOV28RCHBEV-RCH:yes",
+   "sport": "soccer_bel.1",
+   "game_id": "401878933",
+   "short": "WAA @ CHA",
+   "game": "Waasland-Beveren at Royal Charleroi SC",
+   "start": "2026-11-28T19:45Z",
+   "market": "ml",
+   "side": "home",
+   "selection": "CHA to win",
+   "group": "Game lines",
+   "market_name": "Winner",
+   "odds": -175,
+   "p": 0.6359,
+   "p_model": 0.699,
+   "p_market": 0.6078,
+   "p_breakeven": 0.6365,
+   "edge": -0.0006,
+   "ev": -0.0009,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "CHA ranks #4 in offense and #5 in defense of 19 (schedule-adjusted, recent games weighted more)",
+    "Last 10: 7-3, scoring 2.4 and allowing 1.4 goals/game (season: 2.33 / 1.25)",
+    "At home: 2.83 scored / 1.67 allowed per game",
+    "Record 9-1-2"
+   ],
+   "home": {
+    "name": "Royal Charleroi SC",
+    "abbr": "CHA"
+   },
+   "away": {
+    "name": "Waasland-Beveren",
+    "abbr": "WAA"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxbelgianplgame/belgian-pro-league-game/kxbelgianplgame-26nov28rchbev",
+    "price": 62,
+    "ticker": "KXBELGIANPLGAME-26NOV28RCHBEV-RCH",
+    "contract": "Yes \u00b7 Royal Charleroi",
+    "buy": "yes"
+   },
+   "result": null,
+   "close_odds": -175
+  },
+  "401858314:KXNCAAFGAME-26NOV28NDSYR-ND:yes": {
+   "id": "401858314:KXNCAAFGAME-26NOV28NDSYR-ND:yes",
+   "sport": "cfb",
+   "game_id": "401858314",
+   "short": "ND @ SYR",
+   "game": "Notre Dame Fighting Irish at Syracuse Orange",
+   "start": "2026-11-28T17:00Z",
+   "market": "ml",
+   "side": "away",
+   "selection": "ND to win",
+   "group": "Game lines",
+   "market_name": "Winner",
+   "odds": -2580,
+   "p": 0.9581,
+   "p_model": 0.8758,
+   "p_market": 0.9505,
+   "p_breakeven": 0.9627,
+   "edge": -0.0046,
+   "ev": -0.0048,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "ND ranks #8 in offense and #3 in defense of 143 (schedule-adjusted, recent games weighted more)",
+    "Last 10: 9-1, scoring 37.8 and allowing 12.8 pts/game (season: 38.09 / 12.82). Current streak: W4",
+    "On the road: 36.25 scored / 19.25 allowed per game",
+    "Record 10-1",
+    "Price moved -1350 \u2192 -2800 since opening, money moving toward ND"
+   ],
+   "home": {
+    "name": "Syracuse Orange",
+    "abbr": "SYR"
+   },
+   "away": {
+    "name": "Notre Dame Fighting Irish",
+    "abbr": "ND"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxncaafgame/college-football-game/kxncaafgame-26nov28ndsyr",
+    "price": 96,
+    "ticker": "KXNCAAFGAME-26NOV28NDSYR-ND",
+    "contract": "Yes \u00b7 Notre Dame",
+    "buy": "yes"
+   },
+   "result": null,
+   "close_odds": -2580
+  },
+  "401899522:KXSERIEBTOTAL-26NOV28PALBEN-6:no": {
+   "id": "401899522:KXSERIEBTOTAL-26NOV28PALBEN-6:no",
+   "sport": "soccer_ita.2",
+   "game_id": "401899522",
+   "short": "BEN @ PAL",
+   "game": "Benevento at Palermo",
+   "start": "2026-11-28T18:30Z",
+   "market": "total",
+   "side": "under",
+   "line": 5.5,
+   "selection": "Under 5.5",
+   "group": "Game lines",
+   "market_name": "Total",
+   "odds": -1428,
+   "p": 0.9338,
+   "p_model": 0.9371,
+   "p_market": 0.9208,
+   "p_breakeven": 0.9346,
+   "edge": -0.0008,
+   "ev": -0.0009,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "BEN: 1.62 scored / 1.08 allowed per game this season; last 10: 1.9 / 1.0",
+    "PAL: 2.31 scored / 1.31 allowed per game this season; last 10: 2.3 / 1.4"
+   ],
+   "home": {
+    "name": "Palermo",
+    "abbr": "PAL"
+   },
+   "away": {
+    "name": "Benevento",
+    "abbr": "BEN"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxseriebtotal/point-total/kxseriebtotal-26nov28palben",
+    "price": 93,
+    "ticker": "KXSERIEBTOTAL-26NOV28PALBEN-6",
+    "contract": "No \u00b7 Over 5.5",
+    "buy": "no"
+   },
+   "result": null,
+   "close_odds": -1428
+  },
+  "401920077:KXNCAAMBGAME-26NOV28MRSTGMU-GMU:yes": {
+   "id": "401920077:KXNCAAMBGAME-26NOV28MRSTGMU-GMU:yes",
+   "sport": "ncaab",
+   "game_id": "401920077",
+   "short": "MRST @ GMU",
+   "game": "Marist Red Foxes at George Mason Patriots",
+   "start": "2026-11-28T19:00Z",
+   "market": "ml",
+   "side": "home",
+   "selection": "GMU to win",
+   "group": "Game lines",
+   "market_name": "Winner",
+   "odds": -2580,
+   "p": 0.9541,
+   "p_model": 0.8696,
+   "p_market": 0.9505,
+   "p_breakeven": 0.9627,
+   "edge": -0.0086,
+   "ev": -0.0089,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "GMU ranks #263 in offense and #32 in defense of 379 (schedule-adjusted, recent games weighted more)",
+    "Last 7: 6-1, scoring 76.57 and allowing 59.29 pts/game (season: 76.57 / 59.29). Current streak: W3",
+    "At home: 79.17 scored / 58.83 allowed per game",
+    "Record 6-1 (home 5-0)",
+    "Price moved -2800 \u2192 -4500 since opening, money moving toward GMU"
+   ],
+   "home": {
+    "name": "George Mason Patriots",
+    "abbr": "GMU"
+   },
+   "away": {
+    "name": "Marist Red Foxes",
+    "abbr": "MRST"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxncaambgame/men-s-college-basketball-game/kxncaambgame-26nov28mrstgmu",
+    "price": 96,
+    "ticker": "KXNCAAMBGAME-26NOV28MRSTGMU-GMU",
+    "contract": "Yes \u00b7 George Mason",
+    "buy": "yes"
+   },
+   "result": null,
+   "close_odds": -2580
+  },
+  "401917550:KXNCAAMBGAME-26NOV28UTUSCU-SCU:yes": {
+   "id": "401917550:KXNCAAMBGAME-26NOV28UTUSCU-SCU:yes",
+   "sport": "ncaab",
+   "game_id": "401917550",
+   "short": "UTU @ SCU",
+   "game": "Utah Tech Trailblazers at Santa Clara Broncos",
+   "start": "2026-11-29T00:00Z",
+   "market": "ml",
+   "side": "home",
+   "selection": "SCU to win",
+   "group": "Game lines",
+   "market_name": "Winner",
+   "odds": -1684,
+   "p": 0.9439,
+   "p_model": 0.7991,
+   "p_market": 0.94,
+   "p_breakeven": 0.9439,
+   "edge": 0.0,
+   "ev": 0.0,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "SCU ranks #78 in offense and #352 in defense of 379 (schedule-adjusted, recent games weighted more)",
+    "Last 8: 6-2, scoring 84.75 and allowing 80.25 pts/game (season: 84.75 / 80.25)",
+    "At home: 86.8 scored / 77.4 allowed per game",
+    "Record 6-2 (home 4-1)",
+    "Price moved -2800 \u2192 -3200 since opening, money moving toward SCU"
+   ],
+   "home": {
+    "name": "Santa Clara Broncos",
+    "abbr": "SCU"
+   },
+   "away": {
+    "name": "Utah Tech Trailblazers",
+    "abbr": "UTU"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxncaambgame/men-s-college-basketball-game/kxncaambgame-26nov28utuscu",
+    "price": 94,
+    "ticker": "KXNCAAMBGAME-26NOV28UTUSCU-SCU",
+    "contract": "Yes \u00b7 Santa Clara",
+    "buy": "yes"
+   },
+   "result": null,
+   "close_odds": -1684
+  },
+  "401921186:KXNCAAMBGAME-26NOV28BUCKPENN-PENN:yes": {
+   "id": "401921186:KXNCAAMBGAME-26NOV28BUCKPENN-PENN:yes",
+   "sport": "ncaab",
+   "game_id": "401921186",
+   "short": "BUCK @ PENN",
+   "game": "Bucknell Bison at Pennsylvania Quakers",
+   "start": "2026-11-28T23:00Z",
+   "market": "ml",
+   "side": "home",
+   "selection": "PENN to win",
+   "group": "Game lines",
+   "market_name": "Winner",
+   "odds": -1428,
+   "p": 0.9285,
+   "p_model": 0.9003,
+   "p_market": 0.9208,
+   "p_breakeven": 0.9346,
+   "edge": -0.0061,
+   "ev": -0.0065,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "PENN ranks #162 in offense and #251 in defense of 379 (schedule-adjusted, recent games weighted more)",
+    "Last 8: 4-4, scoring 76.12 and allowing 76.62 pts/game (season: 76.12 / 76.62)",
+    "At home: 75.75 scored / 66.0 allowed per game",
+    "Record 4-4 (home 3-1)",
+    "Playing the 2nd night of a back-to-back (historically worth about -1 to -1.5 pts in the NBA; tired legs and often the backup goalie in the NHL)",
+    "Price moved -1350 \u2192 -1800 since opening, money moving toward PENN"
+   ],
+   "home": {
+    "name": "Pennsylvania Quakers",
+    "abbr": "PENN"
+   },
+   "away": {
+    "name": "Bucknell Bison",
+    "abbr": "BUCK"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxncaambgame/men-s-college-basketball-game/kxncaambgame-26nov28buckpenn",
+    "price": 93,
+    "ticker": "KXNCAAMBGAME-26NOV28BUCKPENN-PENN",
+    "contract": "Yes \u00b7 Penn",
+    "buy": "yes"
+   },
+   "result": null,
+   "close_odds": -1428
+  },
+  "401858311:KXNCAAFSPREAD-26NOV28BCMIA-MIA4:yes": {
+   "id": "401858311:KXNCAAFSPREAD-26NOV28BCMIA-MIA4:yes",
+   "sport": "cfb",
+   "game_id": "401858311",
+   "short": "BC @ MIA",
+   "game": "Boston College Eagles at Miami Hurricanes",
+   "start": "2026-11-28T17:00Z",
+   "market": "spread",
+   "side": "home",
+   "line": -3.5,
+   "selection": "MIA by 3.5+",
+   "group": "Game lines",
+   "market_name": "Spread",
+   "odds": -1428,
+   "p": 0.9256,
+   "p_model": 0.9383,
+   "p_market": 0.9118,
+   "p_breakeven": 0.9346,
+   "edge": -0.009,
+   "ev": -0.0096,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "MIA ranks #2 in offense and #14 in defense of 143 (schedule-adjusted, recent games weighted more)",
+    "Last 10: 9-1, scoring 42.4 and allowing 21.2 pts/game (season: 42.64 / 19.82)",
+    "At home: 48.0 scored / 18.83 allowed per game",
+    "Record 10-1",
+    "Line moved from -26.5 to -24.5 since opening (spread)",
+    "\u26a0 The line has moved against this side since opening (a sharp-money signal), so the model defers more to the market"
+   ],
+   "home": {
+    "name": "Miami Hurricanes",
+    "abbr": "MIA"
+   },
+   "away": {
+    "name": "Boston College Eagles",
+    "abbr": "BC"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxncaafspread/college-football-spread/kxncaafspread-26nov28bcmia",
+    "price": 93,
+    "ticker": "KXNCAAFSPREAD-26NOV28BCMIA-MIA4",
+    "contract": "Yes \u00b7 Miami (FL) wins by over 3.5 points",
+    "buy": "yes"
+   },
+   "result": null,
+   "close_odds": -1428
+  },
+  "401858538:KXNCAAFGAME-26NOV28PURIND-IND:yes": {
+   "id": "401858538:KXNCAAFGAME-26NOV28PURIND-IND:yes",
+   "sport": "cfb",
+   "game_id": "401858538",
+   "short": "PUR @ IU",
+   "game": "Purdue Boilermakers at Indiana Hoosiers",
+   "start": "2026-11-29T00:00Z",
+   "market": "ml",
+   "side": "home",
+   "selection": "IU to win",
+   "group": "Game lines",
+   "market_name": "Winner",
+   "odds": -2042,
+   "p": 0.9505,
+   "p_model": 0.9412,
+   "p_market": 0.9406,
+   "p_breakeven": 0.9533,
+   "edge": -0.0028,
+   "ev": -0.0029,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "IU ranks #27 in offense and #4 in defense of 143 (schedule-adjusted, recent games weighted more)",
+    "Last 10: 8-2, scoring 29.1 and allowing 13.6 pts/game (season: 31.18 / 13.82)",
+    "At home: 34.14 scored / 12.43 allowed per game",
+    "Record 9-2",
+    "Price moved -1200 \u2192 -2400 since opening, money moving toward IU"
+   ],
+   "home": {
+    "name": "Indiana Hoosiers",
+    "abbr": "IU"
+   },
+   "away": {
+    "name": "Purdue Boilermakers",
+    "abbr": "PUR"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxncaafgame/college-football-game/kxncaafgame-26nov28purind",
+    "price": 95,
+    "ticker": "KXNCAAFGAME-26NOV28PURIND-IND",
+    "contract": "Yes \u00b7 Indiana",
+    "buy": "yes"
+   },
+   "result": null,
+   "close_odds": -2042
+  },
+  "401885042:KXBUNDESLIGA2GAME-26NOV29FCMCOT-FCM:yes": {
+   "id": "401885042:KXBUNDESLIGA2GAME-26NOV29FCMCOT-FCM:yes",
+   "sport": "soccer_ger.2",
+   "game_id": "401885042",
+   "short": "COT @ FCM",
+   "game": "Energie Cottbus at 1. FC Magdeburg",
+   "start": "2026-11-29T12:30Z",
+   "market": "ml",
+   "side": "home",
+   "selection": "FCM to win",
+   "group": "Game lines",
+   "market_name": "Winner",
+   "odds": -168,
+   "p": 0.6121,
+   "p_model": 0.5888,
+   "p_market": 0.61,
+   "p_breakeven": 0.6267,
+   "edge": -0.0146,
+   "ev": -0.0233,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "FCM ranks #2 in offense and #11 in defense of 23 (schedule-adjusted, recent games weighted more)",
+    "Last 10: 6-4, scoring 2.3 and allowing 0.9 goals/game (season: 2.25 / 1.25)",
+    "At home: 3.17 scored / 1.33 allowed per game",
+    "Record 7-2-3"
+   ],
+   "home": {
+    "name": "1. FC Magdeburg",
+    "abbr": "FCM"
+   },
+   "away": {
+    "name": "Energie Cottbus",
+    "abbr": "COT"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxbundesliga2game/bundesliga-2-game/kxbundesliga2game-26nov29fcmcot",
+    "price": 61,
+    "ticker": "KXBUNDESLIGA2GAME-26NOV29FCMCOT-FCM",
+    "contract": "Yes \u00b7 Magdeburg",
+    "buy": "yes"
+   },
+   "result": null,
+   "close_odds": -168
+  },
+  "401874977:KXSERIEAGAME-26NOV28INTGEN-INT:yes": {
+   "id": "401874977:KXSERIEAGAME-26NOV28INTGEN-INT:yes",
+   "sport": "soccer_ita.1",
+   "game_id": "401874977",
+   "short": "GEN @ INT",
+   "game": "Genoa at Internazionale",
+   "start": "2026-11-28T19:45Z",
+   "market": "ml",
+   "side": "home",
+   "selection": "INT to win",
+   "group": "Game lines",
+   "market_name": "Winner",
+   "odds": -340,
+   "p": 0.7617,
+   "p_model": 0.7316,
+   "p_market": 0.7525,
+   "p_breakeven": 0.7728,
+   "edge": -0.0111,
+   "ev": -0.0144,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "INT ranks #1 in offense and #7 in defense of 23 (schedule-adjusted, recent games weighted more)",
+    "Last 10: 7-3, scoring 2.7 and allowing 1.6 goals/game (season: 2.67 / 1.42)",
+    "At home: 3.17 scored / 1.17 allowed per game",
+    "Record 9-2-1"
+   ],
+   "home": {
+    "name": "Internazionale",
+    "abbr": "INT"
+   },
+   "away": {
+    "name": "Genoa",
+    "abbr": "GEN"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxserieagame/serie-a-game/kxserieagame-26nov28intgen",
+    "price": 76,
+    "ticker": "KXSERIEAGAME-26NOV28INTGEN-INT",
+    "contract": "Yes \u00b7 Inter",
+    "buy": "yes"
+   },
+   "result": null,
+   "close_odds": -340
+  },
+  "401882793:KXLALIGATOTAL-26NOV28ELCATM-6:no": {
+   "id": "401882793:KXLALIGATOTAL-26NOV28ELCATM-6:no",
+   "sport": "soccer_esp.1",
+   "game_id": "401882793",
+   "short": "ATM @ ELC",
+   "game": "Atl\u00e9tico Madrid at Elche",
+   "start": "2026-11-28T17:30Z",
+   "market": "total",
+   "side": "under",
+   "line": 5.5,
+   "selection": "Under 5.5",
+   "group": "Game lines",
+   "market_name": "Total",
+   "odds": -1428,
+   "p": 0.9341,
+   "p_model": 0.9426,
+   "p_market": 0.9208,
+   "p_breakeven": 0.9346,
+   "edge": -0.0005,
+   "ev": -0.0005,
+   "grade": "C",
+   "modeled": true,
+   "reasons": [
+    "ATM: 2.0 scored / 0.77 allowed per game this season; last 10: 1.9 / 0.7",
+    "ELC: 1.15 scored / 1.62 allowed per game this season; last 10: 1.2 / 1.2",
+    "Line moved from +3.5 to +2.5 since opening (total)"
+   ],
+   "home": {
+    "name": "Elche",
+    "abbr": "ELC"
+   },
+   "away": {
+    "name": "Atl\u00e9tico Madrid",
+    "abbr": "ATM"
+   },
+   "kalshi": {
+    "url": "https://kalshi.com/markets/kxlaligatotal/la-liga-total/kxlaligatotal-26nov28elcatm",
+    "price": 93,
+    "ticker": "KXLALIGATOTAL-26NOV28ELCATM-6",
+    "contract": "No \u00b7 Over 5.5",
+    "buy": "no"
+   },
+   "result": null,
+   "close_odds": -1428
+  }
+ },
+ "parlays": [
+  {
+   "legs": [
+    "401888368:KXSUPERLIGTOTAL-26NOV28GAZAMS-1:yes",
+    "401882793:KXLALIGATOTAL-26NOV28ELCATM-6:no"
+   ],
+   "n": 2,
+   "mode": "safest",
+   "p": 0.8728,
+   "decimal": 1.145,
+   "american": -690,
+   "ev": -0.0007,
+   "tier": "lock",
+   "name": "lock_2",
+   "result": null
+  },
+  {
+   "legs": [
+    "401899522:KXSERIEBTOTAL-26NOV28PALBEN-6:no",
+    "401878329:KXSCOTTISHPREMTOTAL-26NOV28MOTHIB-6:no",
+    "401874826:KXSERIEATOTAL-26NOV28TORLAZ-1:yes"
+   ],
+   "n": 3,
+   "mode": "safest",
+   "p": 0.8128,
+   "decimal": 1.225,
+   "american": -444,
+   "ev": -0.0042,
+   "tier": "lock",
+   "name": "lock_3",
+   "result": null
+  },
+  {
+   "legs": [
+    "401883104:KXLALIGA2TOTAL-26NOV28EIBBUR-4:no",
+    "401874977:KXSERIEAGAME-26NOV28INTGEN-INT:yes"
+   ],
+   "n": 2,
+   "mode": "safest",
+   "p": 0.5861,
+   "decimal": 1.675,
+   "american": -148,
+   "ev": -0.0185,
+   "tier": "best",
+   "name": "best_2",
+   "result": null
+  },
+  {
+   "legs": [
+    "401912232:KXNCAAMBGAME-26NOV28RIDARMY-ARMY:yes",
+    "401858540:KXNCAAFGAME-26NOV28MICHOSU-OSU:yes",
+    "401875531:KXEREDIVISIETOTAL-26NOV28PSVGAE-6:no"
+   ],
+   "n": 3,
+   "mode": "safest",
+   "p": 0.4975,
+   "decimal": 2.037,
+   "american": 104,
+   "ev": 0.0132,
+   "tier": "best",
+   "name": "best_3",
+   "result": null
+  }
+ ],
+ "straights": [],
+ "straights_best": [
+  "401858314:KXNCAAFGAME-26NOV28NDSYR-ND:yes",
+  "401920077:KXNCAAMBGAME-26NOV28MRSTGMU-GMU:yes",
+  "401917550:KXNCAAMBGAME-26NOV28UTUSCU-SCU:yes",
+  "401871063:KXNCAAFGAME-26NOV28LIBMOSU-LIB:yes",
+  "401874977:KXSERIEAGAME-26NOV28INTGEN-INT:yes",
+  "401884722:KXBUNDESLIGAGAME-26NOV28HSVBMU-BMU:yes",
+  "401892820:KXNHLGAME-26NOV28SJCOL-COL:yes",
+  "401892813:KXNHLGAME-26NOV28WPGNJ-NJ:yes",
+  "401878933:KXBELGIANPLGAME-26NOV28RCHBEV-RCH:yes",
+  "401885042:KXBUNDESLIGA2GAME-26NOV29FCMCOT-FCM:yes"
+ ],
+ "locks": [
+  "401858538:KXNCAAFGAME-26NOV28PURIND-IND:yes",
+  "401920890:KXNCAAMBGAME-26NOV28SIEHALL-HALL:yes",
+  "401860926:KXNCAAFGAME-26NOV28BSUCSU-BSU:yes",
+  "401921186:KXNCAAMBGAME-26NOV28BUCKPENN-PENN:yes",
+  "401858311:KXNCAAFSPREAD-26NOV28BCMIA-MIA4:yes",
+  "401919736:KXNCAAMBGAME-26NOV28CHSBRAD-BRAD:yes",
+  "401882789:KXLALIGAGAME-26NOV28RMAALA-RMA:yes",
+  "401910049:KXNBAGAME-26NOV28OKCMIL-OKC:yes",
+  "401875531:KXEREDIVISIEGAME-26NOV28PSVGAE-PSV:yes",
+  "401910050:KXNBAGAME-26NOV28PHIHOU-HOU:yes",
+  "401910046:KXNBATOTAL-26NOV28ORLWAS-192:yes",
+  "401882790:KXLALIGATOTAL-26NOV28MCFATH-6:no"
+ ]
+}

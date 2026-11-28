@@ -728,7 +728,7 @@
     "contract": "Yes \u00b7 Utah",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -2042
   },
   "401909327:KXNBAGAME-26NOV27MILDET-DET:yes": {
@@ -1233,7 +1233,7 @@
     "contract": "No \u00b7 Over 180.5",
     "buy": "no"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -1428
   },
   "401909336:KXNBAGAME-26NOV27GSWPOR-POR:yes": {
@@ -1280,7 +1280,7 @@
     "contract": "Yes \u00b7 Portland",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -306
   },
   "401900442:KXSAUDIPLGAME-26NOV28HAZALN-ALN:yes": {
@@ -1404,7 +1404,8 @@
    "ev": -0.0205,
    "tier": "lock",
    "name": "lock_3",
-   "result": null
+   "result": "W",
+   "missed": []
   },
   {
    "legs": [
