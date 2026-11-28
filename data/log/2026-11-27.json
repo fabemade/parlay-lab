@@ -93,7 +93,7 @@
     "contract": "Yes \u00b7 Washington St.",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -719
   },
   "401873083:KXNFLTOTAL-26NOV27DENPIT-20:yes": {
@@ -229,7 +229,7 @@
     "contract": "Yes \u00b7 Virginia Tech",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -2042
   },
   "401858544:KXNCAAFGAME-26NOV27MINNWIS-WIS:yes": {
@@ -275,7 +275,7 @@
     "contract": "Yes \u00b7 Wisconsin",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -340
   },
   "401875004:KXSERIEATOTAL-26NOV27VENBFC-4:no": {
@@ -367,7 +367,7 @@
     "contract": "Yes \u00b7 Philadelphia",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -239
   },
   "401878930:KXBELGIANPLTOTAL-26NOV27OHLKOR-1:yes": {
@@ -502,7 +502,7 @@
     "contract": "Yes \u00b7 Memphis",
     "buy": "yes"
    },
-   "result": null,
+   "result": "L",
    "close_odds": -967
   },
   "401879225:KXEPLTOTAL-26NOV27NFOCFC-6:no": {
@@ -591,7 +591,7 @@
     "contract": "Yes \u00b7 Over 34.5",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -1428
   },
   "401856756:KXNCAAFGAME-26NOV27TEXTXAM-TEX:yes": {
@@ -637,7 +637,7 @@
     "contract": "Yes \u00b7 Texas",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -458
   },
   "401875536:KXEREDIVISIEGAME-26NOV27GROWIL-GRO:yes": {
@@ -776,7 +776,7 @@
     "contract": "Yes \u00b7 Detroit",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -404
   },
   "401909327:KXNBASPREAD-26NOV27MILDET-DET2:yes": {
@@ -825,7 +825,7 @@
     "contract": "Yes \u00b7 Detroit wins by over 1.5 points",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -381
   },
   "401888240:KXSUPERLIGTOTAL-26NOV27RIZKAS-1:yes": {
@@ -959,7 +959,7 @@
     "contract": "Yes \u00b7 Northwestern",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -967
   },
   "401885045:KXBUNDESLIGA2TOTAL-26NOV27BOCD98-6:no": {
@@ -1142,7 +1142,7 @@
     "contract": "Yes \u00b7 Kansas",
     "buy": "yes"
    },
-   "result": null,
+   "result": "W",
    "close_odds": -609
   },
   "401856762:KXNCAAFGAME-26NOV27MSSTMISS-MISS:yes": {
@@ -1419,7 +1419,8 @@
    "ev": 0.0002,
    "tier": "best",
    "name": "best_2",
-   "result": null
+   "result": "W",
+   "missed": []
   },
   {
    "legs": [
